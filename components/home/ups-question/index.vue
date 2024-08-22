@@ -170,49 +170,47 @@
 						</button>
 					</div>
 
-					<nuxt-link
-						to="/"
-						class="animate-ups__item btn active group relative"
-					>
-						<span> Câu hỏi thường gặp </span>
-						<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
-							<i
-								class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-[-120%] group-hover:translate-x-0"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="12"
-									height="12"
-									viewBox="0 0 12 12"
-									fill="none"
-								>
-									<path
-										d="M0.46967 10.4697C0.176777 10.7626 0.176777 11.2374 0.46967 11.5303C0.762563 11.8232 1.23744 11.8232 1.53033 11.5303L0.46967 10.4697ZM11.75 1C11.75 0.585787 11.4142 0.25 11 0.25L4.25 0.25C3.83579 0.25 3.5 0.585786 3.5 1C3.5 1.41421 3.83579 1.75 4.25 1.75H10.25V7.75C10.25 8.16421 10.5858 8.5 11 8.5C11.4142 8.5 11.75 8.16421 11.75 7.75L11.75 1ZM1.53033 11.5303L11.5303 1.53033L10.4697 0.46967L0.46967 10.4697L1.53033 11.5303Z"
-										fill="#02E56A"
-									/>
-								</svg>
-							</i>
+					<div class="animate-ups__item inline-flex relative">
+						<nuxt-link
+							to="/"
+							class="btn active group"
+						>
+							<span> Câu hỏi thường gặp</span>
+							<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+								<i class="w-full h-full group-hover:inline-flex hidden absolute">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="12"
+										height="12"
+										viewBox="0 0 12 12"
+										fill="none"
+									>
+										<path
+											d="M0.46967 10.4697C0.176777 10.7626 0.176777 11.2374 0.46967 11.5303C0.762563 11.8232 1.23744 11.8232 1.53033 11.5303L0.46967 10.4697ZM11.75 1C11.75 0.585787 11.4142 0.25 11 0.25L4.25 0.25C3.83579 0.25 3.5 0.585786 3.5 1C3.5 1.41421 3.83579 1.75 4.25 1.75H10.25V7.75C10.25 8.16421 10.5858 8.5 11 8.5C11.4142 8.5 11.75 8.16421 11.75 7.75L11.75 1ZM1.53033 11.5303L11.5303 1.53033L10.4697 0.46967L0.46967 10.4697L1.53033 11.5303Z"
+											fill="#15171E"
+										/>
+									</svg>
+								</i>
 
-							<i
-								class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-0 group-hover:translate-x-[120%]"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="12"
-									height="12"
-									viewBox="0 0 12 12"
-									fill="none"
-								>
-									<path
-										d="M0.46967 10.4697C0.176777 10.7626 0.176777 11.2374 0.46967 11.5303C0.762563 11.8232 1.23744 11.8232 1.53033 11.5303L0.46967 10.4697ZM11.75 1C11.75 0.585787 11.4142 0.25 11 0.25L4.25 0.25C3.83579 0.25 3.5 0.585786 3.5 1C3.5 1.41421 3.83579 1.75 4.25 1.75H10.25V7.75C10.25 8.16421 10.5858 8.5 11 8.5C11.4142 8.5 11.75 8.16421 11.75 7.75L11.75 1ZM1.53033 11.5303L11.5303 1.53033L10.4697 0.46967L0.46967 10.4697L1.53033 11.5303Z"
-										fill="#02E56A"
-									/>
-								</svg>
-							</i>
-						</div>
+								<i class="w-full h-full group-hover:hidden inline-flex absolute">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="12"
+										height="12"
+										viewBox="0 0 12 12"
+										fill="none"
+									>
+										<path
+											d="M0.46967 10.4697C0.176777 10.7626 0.176777 11.2374 0.46967 11.5303C0.762563 11.8232 1.23744 11.8232 1.53033 11.5303L0.46967 10.4697ZM11.75 1C11.75 0.585787 11.4142 0.25 11 0.25L4.25 0.25C3.83579 0.25 3.5 0.585786 3.5 1C3.5 1.41421 3.83579 1.75 4.25 1.75H10.25V7.75C10.25 8.16421 10.5858 8.5 11 8.5C11.4142 8.5 11.75 8.16421 11.75 7.75L11.75 1ZM1.53033 11.5303L11.5303 1.53033L10.4697 0.46967L0.46967 10.4697L1.53033 11.5303Z"
+											fill="#02E56A"
+										/>
+									</svg>
+								</i>
+							</div>
 
-						<span class="absolute -top-1 -left-3 w-[10px] h-[10px] rounded-full bg-[#02E56A]"></span>
-					</nuxt-link>
+							<span class="absolute -top-1 -left-3 w-[10px] h-[10px] rounded-full bg-[#02E56A]"></span>
+						</nuxt-link>
+					</div>
 				</div>
 			</div>
 		</div>

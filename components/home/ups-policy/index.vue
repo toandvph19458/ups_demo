@@ -55,37 +55,35 @@
 							hệ mới.
 						</p>
 
-						<nuxt-link
-							to="/"
-							class="btn active group animate-ups__item"
-						>
-							<span> Mở tài khoản ngay </span>
-							<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
-								<i
-									class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-[-120%] group-hover:translate-x-0"
-								>
-									<nuxt-img
-										src="/icons/arrow-icon.svg"
-										loading="lazy"
-										width="16"
-										height="16"
-										alt="UPS"
-									/>
-								</i>
+						<div class="animate-ups__item inline-flex">
+							<nuxt-link
+								to="/"
+								class="btn active group"
+							>
+								<span> Mở tài khoản ngay </span>
+								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+									<i class="w-full h-full group-hover:inline-flex hidden absolute">
+										<nuxt-img
+											src="/icons/arrow-dark-icon.svg"
+											loading="lazy"
+											width="16"
+											height="16"
+											alt="UPS"
+										/>
+									</i>
 
-								<i
-									class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-0 group-hover:translate-x-[120%]"
-								>
-									<nuxt-img
-										src="/icons/arrow-icon.svg"
-										loading="lazy"
-										width="16"
-										height="16"
-										alt="UPS"
-									/>
-								</i>
-							</div>
-						</nuxt-link>
+									<i class="w-full h-full group-hover:hidden inline-flex absolute">
+										<nuxt-img
+											src="/icons/arrow-icon.svg"
+											loading="lazy"
+											width="16"
+											height="16"
+											alt="UPS"
+										/>
+									</i>
+								</div>
+							</nuxt-link>
+						</div>
 					</div>
 				</div>
 

@@ -18,22 +18,22 @@
 
 								<div class="mt-4 grid gap-4 grid-cols-2">
 									<div
-										class="inline-flex items-center px-2 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
+										class="inline-flex items-center px-4 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Margin T+3</span>
 									</div>
 									<div
-										class="inline-flex items-center px-2 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
+										class="inline-flex items-center px-4 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Biểu phí giao dịch</span>
 									</div>
 									<div
-										class="inline-flex items-center px-2 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
+										class="inline-flex items-center px-4 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Vay ký quỹ</span>
 									</div>
 									<div
-										class="inline-flex items-center px-2 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
+										class="inline-flex items-center px-4 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Zero-Fee</span>
 									</div>

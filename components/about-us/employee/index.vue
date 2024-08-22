@@ -1,34 +1,41 @@
 <template>
-	<section class="pt-[120px] pb-[60px] bg-[#EDEDF4]">
+	<section class="py-10 xl:pt-[120px] xl:pb-[60px] bg-[#EDEDF4]">
 		<div class="container">
-			<div class="flex">
-				<div class="w-[630px] max-w-full">
+			<div class="flex flex-col md:flex-row xl:flex-row">
+				<div class="w-full md:w-[350px] xl:w-[630px] max-w-full">
 					<div class="flex items-end">
-						<h2 class="text-[76px] font-semibold font-BG text-black">
+						<h2
+							class="animate-ups__item text-[32px] md:text-[40px] xl:text-[76px] font-semibold font-BG text-black"
+						>
 							<span>Hội đồng </span>
 							<br />
 							<span class="text-[#01C159]">Quản trị</span>
 						</h2>
 
-						<div class="mb-3">
+						<div
+							class="animate-ups__item pb-0 md:pb-5 xl:pb-6 inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]"
+						>
 							<nuxt-img
-								fotmat="webp"
+								format="webp"
 								loading="lazy"
-								width="170"
+								width="173"
 								height="78"
 								alt="UPS"
 								src="/logo/logo-cap-dark.png"
+								class="absolute w-full h-full object-contain"
 							/>
 						</div>
 					</div>
 
-					<p class="max-w-[380px] text-lg text-black font-medium mt-5">
+					<p
+						class="animate-ups__item max-w-full md:max-w-[380px] xl:max-w-[380px] text-sm md:text-base xl:text-lg text-black font-medium mt-3 md:mt-4 xl:mt-5"
+					>
 						Chúng tôi luôn nỗ lực không ngừng để đạt được những mục tiêu đầy tham vọng và tạo ra những giá
 						trị lâu dài
 					</p>
 				</div>
 
-				<div class="w-full flex-1 grid gap-4 grid-cols-3">
+				<div class="w-full flex-1 hidden md:grid xl:grid gap-4 grid-cols-3">
 					<div
 						v-for="i in 3"
 						:key="i"
@@ -61,10 +68,74 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="block md:hidden xl:hidden mt-10 w-full h-[350px] flex-none">
+					<swiper
+						:modules="[SwiperNavigation]"
+						:pagination="true"
+						:slides-per-view="1.2"
+						:loop="false"
+						:speed="800"
+						:space-between="12"
+						:breakpoints="{
+							480: {
+								slidesPerView: 1.2,
+								spaceBetween: 12,
+							},
+							768: {
+								slidesPerView: 1.2,
+								spaceBetween: 12,
+							},
+							992: {
+								slidesPerView: 2.5,
+								spaceBetween: 40,
+							},
+							1200: {
+								slidesPerView: 2.5,
+								spaceBetween: 40,
+							},
+						}"
+					>
+						<swiper-slide
+							v-for="i in 3"
+							:key="i"
+						>
+							<div class="animate-ups__item w-full h-[350px] relative group overflow-hidden">
+								<div class="absolute w-full h-full">
+									<nuxt-img
+										format="webp"
+										loading="lazy"
+										height="420"
+										alt="UPS"
+										src="/images/employee-01.png"
+										class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
+									/>
+								</div>
+
+								<div class="w-[calc(100%-60px)] absolute left-[30px] bottom-[30px]">
+									<div class="">
+										<nuxt-img
+											format="webp"
+											loading="lazy"
+											height="24"
+											alt="UPS"
+											src="/logo/logo-row.png"
+										/>
+									</div>
+
+									<p class="mt-2 text-sm text-white font-medium">Phó Tổng giám đốc</p>
+									<h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
+										Ông Nguyễn Quang Đạt
+									</h4>
+								</div>
+							</div>
+						</swiper-slide>
+					</swiper>
+				</div>
 			</div>
 
 			<!-- /// -->
-			<div class="mt-20 grid gap-4 grid-cols-5">
+			<div class="mt-20 hidden md:grid xl:grid gap-4 grid-cols-5">
 				<div
 					v-for="i in 5"
 					:key="i"
@@ -118,12 +189,15 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import { SwiperAutoplay, SwiperNavigation } from "#imports";
 
 export default defineComponent({
 	name: "employee",
 	components: {},
 	setup(props, ctx) {
-		return {};
+		return {
+			SwiperNavigation,
+		};
 	},
 });
 </script>

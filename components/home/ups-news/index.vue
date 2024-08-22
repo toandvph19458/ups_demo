@@ -31,12 +31,9 @@
 				<div class="flex gap-3">
 					<button
 						:class="
-							cn(
-								'animate-ups__item h-10 px-6 bg-[#15171E] hover:bg-[#02E56A] rounded-full group transition-all duration-300',
-								{
-									'cursor-auto opacity-75 hover:bg-[#15171E]': !vSwiperIndex,
-								}
-							)
+							cn(`animate-ups__item h-10 px-6 bg-[#15171E] rounded-full group transition-all relative`, {
+								'cursor-auto opacity-75': !vSwiperIndex,
+							})
 						"
 						@click="prevVSwiperSlide"
 					>
