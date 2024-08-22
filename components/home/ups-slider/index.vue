@@ -63,10 +63,10 @@
 								</div>
 
 								<div class="btn-wrapper flex gap-5 items-center mt-10">
-									<div class="inline-flex">
+									<div class="inline-flex animate-ups__item">
 										<nuxt-link
 											to="/"
-											class="animate-ups__item btn active group"
+											class="btn active group"
 										>
 											<span> Mở tài khoản ngay </span>
 											<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
