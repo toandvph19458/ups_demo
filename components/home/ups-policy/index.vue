@@ -38,7 +38,7 @@
 								width="160"
 								height="86"
 								src="/logo/logo-cap-dark.png"
-								class="absolute w-full h-full object-contain"
+								class="absolute w-full h-full object-cover"
 							/>
 						</div>
 					</div>
@@ -88,192 +88,615 @@
 				</div>
 
 				<div class="mt-6 lg:mt-[60px]">
-					<swiper
-						:modules="[SwiperNavigation]"
-						:pagination="true"
-						:slides-per-view="1.2"
-						:loop="false"
-						:speed="800"
-						:space-between="12"
-						:initial-slide="vSwiperIndex"
-						@swiper="setVSwiperRef"
-						@slide-change="updateVSwiperIndex"
-						:breakpoints="{
-							480: {
-								slidesPerView: 1.2,
-								spaceBetween: 12,
-							},
-							768: {
-								slidesPerView: 1.2,
-								spaceBetween: 12,
-							},
-							992: {
-								slidesPerView: 2.5,
-								spaceBetween: 40,
-							},
-							1200: {
-								slidesPerView: 2.5,
-								spaceBetween: 40,
-							},
-						}"
-					>
-						<swiper-slide
-							v-for="(i, doc) in 4"
-							:key="i"
+					<div class="block md:hidden xl:hidden">
+						<swiper
+							:modules="[SwiperNavigation]"
+							:pagination="true"
+							:slides-per-view="1"
+							:loop="false"
+							:speed="800"
+							:space-between="12"
+							:initial-slide="vSwiperIndex"
+							@swiper="setVSwiperRef"
+							@slide-change="updateVSwiperIndex"
+							:breakpoints="{
+								// 480: {
+								// 	slidesPerView: 1.2,
+								// 	spaceBetween: 12,
+								// },
+								// 768: {
+								// 	slidesPerView: 1.2,
+								// 	spaceBetween: 12,
+								// },
+								// 992: {
+								// 	slidesPerView: 2.5,
+								// 	spaceBetween: 40,
+								// },
+								// 1200: {
+								// 	slidesPerView: 2.5,
+								// 	spaceBetween: 40,
+								// },
+							}"
+						>
+							<swiper-slide>
+								<div
+									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group"
+								>
+									<div
+										class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110"
+									>
+										<nuxt-img
+											fit="cover"
+											loading="lazy"
+											width="782"
+											height="620"
+											alt="UPS"
+											src="/images/polyci-01.png"
+											class="w-full h-full object-cover"
+										/>
+
+										<div
+											class="w-full h-[300px] absolute z-[1] left-0 right-0 bottom-0 bg-[linear-gradient(180deg,rgba(19,74,46,0)_50%,#00220F_100%)]"
+										></div>
+									</div>
+
+									<div
+										class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8"
+									>
+										<div
+											class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
+										>
+											#tốc độ
+										</div>
+										<h3
+											class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3"
+										>
+											Giao dịch tức thì
+										</h3>
+										<div class="flex flex-col gap-2">
+											<div class="flex gap-3 items-center">
+												<div class="">
+													<nuxt-img
+														loading="lazy"
+														alt="UPS"
+														width="12"
+														height="12"
+														src="/logo/logo-row.png"
+													/>
+												</div>
+
+												<p
+													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
+												>
+													Mở tài khoản nhanh
+												</p>
+											</div>
+											<div class="flex gap-3 items-center">
+												<div class="">
+													<nuxt-img
+														loading="lazy"
+														alt="UPS"
+														width="12"
+														height="12"
+														src="/logo/logo-row.png"
+													/>
+												</div>
+
+												<p
+													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
+												>
+													Nền tảng giao dịch thân thiện
+												</p>
+											</div>
+											<div class="flex gap-3 items-center">
+												<div class="">
+													<nuxt-img
+														loading="lazy"
+														alt="UPS"
+														width="12"
+														height="12"
+														src="/logo/logo-row.png"
+													/>
+												</div>
+
+												<p
+													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
+												>
+													Tốc độ đặt lệnh nhanh
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</swiper-slide>
+							<swiper-slide>
+								<div
+									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group"
+								>
+									<div
+										class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110"
+									>
+										<nuxt-img
+											fit="cover"
+											loading="lazy"
+											width="782"
+											height="620"
+											alt="UPS"
+											src="/images/polyci-02.png"
+											class="w-full h-full object-cover"
+										/>
+
+										<div
+											class="w-full h-[300px] absolute z-[1] left-0 right-0 bottom-0 bg-[linear-gradient(180deg,rgba(19,74,46,0)_50%,#00220F_100%)]"
+										></div>
+									</div>
+
+									<div
+										class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8"
+									>
+										<div
+											class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
+										>
+											#hấp dẫn
+										</div>
+										<h3
+											class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3"
+										>
+											Chính sách hợp tác hấp dẫn
+										</h3>
+										<div class="flex flex-col gap-2">
+											<div class="flex gap-3 items-center">
+												<div class="">
+													<nuxt-img
+														loading="lazy"
+														alt="UPS"
+														width="12"
+														height="12"
+														src="/logo/logo-row.png"
+													/>
+												</div>
+
+												<p
+													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
+												>
+													Mở tài khoản nhanh
+												</p>
+											</div>
+											<div class="flex gap-3 items-center">
+												<div class="">
+													<nuxt-img
+														loading="lazy"
+														alt="UPS"
+														width="12"
+														height="12"
+														src="/logo/logo-row.png"
+													/>
+												</div>
+
+												<p
+													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
+												>
+													Nền tảng giao dịch thân thiện
+												</p>
+											</div>
+											<div class="flex gap-3 items-center">
+												<div class="">
+													<nuxt-img
+														loading="lazy"
+														alt="UPS"
+														width="12"
+														height="12"
+														src="/logo/logo-row.png"
+													/>
+												</div>
+
+												<p
+													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
+												>
+													Tốc độ đặt lệnh nhanh
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</swiper-slide>
+							<swiper-slide>
+								<div
+									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group"
+								>
+									<div
+										class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110"
+									>
+										<nuxt-img
+											fit="cover"
+											loading="lazy"
+											width="782"
+											height="620"
+											alt="UPS"
+											src="/images/polyci-03.png"
+											class="w-full h-full object-cover"
+										/>
+
+										<div
+											class="w-full h-[300px] absolute z-[1] left-0 right-0 bottom-0 bg-[linear-gradient(180deg,rgba(19,74,46,0)_50%,#00220F_100%)]"
+										></div>
+									</div>
+
+									<div
+										class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8"
+									>
+										<div
+											class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
+										>
+											#hiệu quả
+										</div>
+										<h3
+											class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3"
+										>
+											Quản lý đầu tư hiệu quả
+										</h3>
+										<div class="flex flex-col gap-2">
+											<div class="flex gap-3 items-center">
+												<div class="">
+													<nuxt-img
+														loading="lazy"
+														alt="UPS"
+														width="12"
+														height="12"
+														src="/logo/logo-row.png"
+													/>
+												</div>
+
+												<p
+													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
+												>
+													Mở tài khoản nhanh
+												</p>
+											</div>
+											<div class="flex gap-3 items-center">
+												<div class="">
+													<nuxt-img
+														loading="lazy"
+														alt="UPS"
+														width="12"
+														height="12"
+														src="/logo/logo-row.png"
+													/>
+												</div>
+
+												<p
+													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
+												>
+													Nền tảng giao dịch thân thiện
+												</p>
+											</div>
+											<div class="flex gap-3 items-center">
+												<div class="">
+													<nuxt-img
+														loading="lazy"
+														alt="UPS"
+														width="12"
+														height="12"
+														src="/logo/logo-row.png"
+													/>
+												</div>
+
+												<p
+													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
+												>
+													Tốc độ đặt lệnh nhanh
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</swiper-slide>
+						</swiper>
+					</div>
+
+					<div class="hidden md:flex xl:flex gap-10">
+						<div
+							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-300 hover:flex-[2]"
 						>
 							<div
-								class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group"
+								class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110"
+							>
+								<nuxt-img
+									fit="cover"
+									loading="lazy"
+									width="782"
+									height="620"
+									alt="UPS"
+									src="/images/polyci-01.png"
+									class="w-full h-full object-cover"
+								/>
+
+								<div
+									class="w-full h-[400px] absolute z-[1] left-0 right-0 bottom-0 bg-[linear-gradient(180deg,rgba(19,74,46,0)_50%,#00220F_100%)]"
+								></div>
+							</div>
+
+							<div
+								class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8"
 							>
 								<div
-									class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110"
+									class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
 								>
-									<nuxt-img
-										fit="cover"
-										loading="lazy"
-										width="782"
-										height="620"
-										alt="UPS"
-										src="/images/image-2.png"
-										class="w-full h-full object-cover"
-									/>
-
-									<div
-										class="w-full h-[200px] absolute z-[1] left-0 right-0 bottom-0 bg-[linear-gradient(180deg,rgba(19,74,46,0)_50%,#00220F_100%)]"
-									></div>
+									#tốc độ
 								</div>
+								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
+									Giao dịch tức thì
+								</h3>
+								<div class="hidden group-hover:flex flex-col gap-2">
+									<div class="flex gap-3 items-center">
+										<div class="">
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												width="12"
+												height="12"
+												src="/logo/logo-row.png"
+											/>
+										</div>
 
-								<div
-									class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8"
-								>
-									<div
-										class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
-									>
-										#tốc độ
+										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+											Mở tài khoản nhanh
+										</p>
 									</div>
-									<h3
-										class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3"
-									>
-										Giao dịch tức thì
-									</h3>
-									<div class="flex flex-col gap-2">
-										<div class="flex gap-3 items-center">
-											<div class="">
-												<nuxt-img
-													loading="lazy"
-													alt="UPS"
-													width="12"
-													height="12"
-													src="/logo/logo-row.png"
-												/>
-											</div>
-
-											<p
-												class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
-											>
-												Mở tài khoản nhanh
-											</p>
+									<div class="flex gap-3 items-center">
+										<div class="">
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												width="12"
+												height="12"
+												src="/logo/logo-row.png"
+											/>
 										</div>
-										<div class="flex gap-3 items-center">
-											<div class="">
-												<nuxt-img
-													loading="lazy"
-													alt="UPS"
-													width="12"
-													height="12"
-													src="/logo/logo-row.png"
-												/>
-											</div>
 
-											<p
-												class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
-											>
-												Nền tảng giao dịch thân thiện
-											</p>
+										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+											Nền tảng giao dịch thân thiện
+										</p>
+									</div>
+									<div class="flex gap-3 items-center">
+										<div class="">
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												width="12"
+												height="12"
+												src="/logo/logo-row.png"
+											/>
 										</div>
-										<div class="flex gap-3 items-center">
-											<div class="">
-												<nuxt-img
-													loading="lazy"
-													alt="UPS"
-													width="12"
-													height="12"
-													src="/logo/logo-row.png"
-												/>
-											</div>
 
-											<p
-												class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
-											>
-												Tốc độ đặt lệnh nhanh
-											</p>
-										</div>
+										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+											Tốc độ đặt lệnh nhanh
+										</p>
 									</div>
 								</div>
 							</div>
-						</swiper-slide>
-					</swiper>
+						</div>
+						<div
+							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-300 hover:flex-[2]"
+						>
+							<div
+								class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110"
+							>
+								<nuxt-img
+									fit="cover"
+									loading="lazy"
+									width="782"
+									height="620"
+									alt="UPS"
+									src="/images/polyci-02.png"
+									class="w-full h-full object-cover"
+								/>
+
+								<div
+									class="w-full h-[400px] absolute z-[1] left-0 right-0 bottom-0 bg-[linear-gradient(180deg,rgba(19,74,46,0)_50%,#00220F_100%)]"
+								></div>
+							</div>
+
+							<div
+								class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8"
+							>
+								<div
+									class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
+								>
+									#tốc độ
+								</div>
+								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
+									Chính sách hợp tác hấp dẫn
+								</h3>
+								<div class="hidden group-hover:flex flex-col gap-2">
+									<div class="flex gap-3 items-center">
+										<div class="">
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												width="12"
+												height="12"
+												src="/logo/logo-row.png"
+											/>
+										</div>
+
+										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+											Mở tài khoản nhanh
+										</p>
+									</div>
+									<div class="flex gap-3 items-center">
+										<div class="">
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												width="12"
+												height="12"
+												src="/logo/logo-row.png"
+											/>
+										</div>
+
+										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+											Nền tảng giao dịch thân thiện
+										</p>
+									</div>
+									<div class="flex gap-3 items-center">
+										<div class="">
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												width="12"
+												height="12"
+												src="/logo/logo-row.png"
+											/>
+										</div>
+
+										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+											Tốc độ đặt lệnh nhanh
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-300 hover:flex-[2]"
+						>
+							<div
+								class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110"
+							>
+								<nuxt-img
+									fit="cover"
+									loading="lazy"
+									width="782"
+									height="620"
+									alt="UPS"
+									src="/images/polyci-03.png"
+									class="w-full h-full object-cover"
+								/>
+
+								<div
+									class="w-full h-[400px] absolute z-[1] left-0 right-0 bottom-0 bg-[linear-gradient(180deg,rgba(19,74,46,0)_50%,#00220F_100%)]"
+								></div>
+							</div>
+
+							<div
+								class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8"
+							>
+								<div
+									class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
+								>
+									#hiệu quả
+								</div>
+								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
+									Quản lý đầu tư hiệu quả
+								</h3>
+								<div class="hidden group-hover:flex flex-col gap-2">
+									<div class="flex gap-3 items-center">
+										<div class="">
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												width="12"
+												height="12"
+												src="/logo/logo-row.png"
+											/>
+										</div>
+
+										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+											Mở tài khoản nhanh
+										</p>
+									</div>
+									<div class="flex gap-3 items-center">
+										<div class="">
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												width="12"
+												height="12"
+												src="/logo/logo-row.png"
+											/>
+										</div>
+
+										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+											Nền tảng giao dịch thân thiện
+										</p>
+									</div>
+									<div class="flex gap-3 items-center">
+										<div class="">
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												width="12"
+												height="12"
+												src="/logo/logo-row.png"
+											/>
+										</div>
+
+										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+											Tốc độ đặt lệnh nhanh
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<div class="mt-6 lg:mt-11 px-0 lg:px-12 flex gap-3">
-					<button
-						:class="
-							cn(
-								'animate-ups__item h-10 px-6 bg-[#15171E] hover:bg-[#02E56A] rounded-full group transition-all duration-300',
-								{
-									'cursor-auto opacity-75 hover:bg-[#15171E]': !vSwiperIndex,
-								}
-							)
-						"
-						@click="prevVSwiperSlide"
-					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="16"
-							height="12"
-							viewBox="0 0 16 12"
-							fill="none"
+					<div class="inline-flex animate-ups__item">
+						<button
+							:class="
+								cn(
+									`h-10 px-6 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
+									{
+										'cursor-auto': !vSwiperIndex,
+									}
+								)
+							"
+							@click="prevVSwiperSlide"
 						>
-							<path
-								d="M0.46967 5.46967C0.176777 5.76256 0.176777 6.23744 0.46967 6.53033L5.24264 11.3033C5.53553 11.5962 6.01041 11.5962 6.3033 11.3033C6.59619 11.0104 6.59619 10.5355 6.3033 10.2426L2.06066 6L6.3033 1.75736C6.59619 1.46447 6.59619 0.989593 6.3033 0.696699C6.01041 0.403806 5.53553 0.403806 5.24264 0.696699L0.46967 5.46967ZM15.1421 6.75C15.5563 6.75 15.8921 6.41421 15.8921 6C15.8921 5.58579 15.5563 5.25 15.1421 5.25V6.75ZM1 6.75H15.1421V5.25H1V6.75Z"
-								fill="#02E56A"
-								:class="
-									cn('transition-all duration-300 group-hover:fill-[#15171E]', {
-										'group-hover:fill-[#02E56A]': !vSwiperIndex,
-									})
-								"
-							/>
-						</svg>
-					</button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="12"
+								viewBox="0 0 16 12"
+								fill="none"
+							>
+								<path
+									d="M0.46967 5.46967C0.176777 5.76256 0.176777 6.23744 0.46967 6.53033L5.24264 11.3033C5.53553 11.5962 6.01041 11.5962 6.3033 11.3033C6.59619 11.0104 6.59619 10.5355 6.3033 10.2426L2.06066 6L6.3033 1.75736C6.59619 1.46447 6.59619 0.989593 6.3033 0.696699C6.01041 0.403806 5.53553 0.403806 5.24264 0.696699L0.46967 5.46967ZM15.1421 6.75C15.5563 6.75 15.8921 6.41421 15.8921 6C15.8921 5.58579 15.5563 5.25 15.1421 5.25V6.75ZM1 6.75H15.1421V5.25H1V6.75Z"
+									fill="#02E56A"
+									:class="cn('transition-all duration-300 group-hover:fill-[#15171E]', {})"
+								/>
+							</svg>
+						</button>
+					</div>
 
-					<button
-						:class="
-							cn(
-								'animate-ups__item h-10 px-6 bg-[#15171E] hover:bg-[#02E56A] rounded-full group transition-all duration-300',
-								{
-									'cursor-auto opacity-75 hover:bg-[#15171E]': vSwiperIndex === 2,
-								}
-							)
-						"
-						@click="nextVSwiperSlide"
-					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="17"
-							height="12"
-							viewBox="0 0 17 12"
-							fill="none"
+					<div class="inline-flex animate-ups__item">
+						<button
+							:class="
+								cn(
+									`h-10 px-6 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
+									{
+										'cursor-auto': vSwiperIndex === 2,
+									}
+								)
+							"
+							@click="nextVSwiperSlide"
 						>
-							<path
-								d="M1.14215 5.25C0.727937 5.25 0.392151 5.58579 0.392151 6C0.392151 6.41421 0.727937 6.75 1.14215 6.75V5.25ZM15.8146 6.53033C16.1075 6.23744 16.1075 5.76256 15.8146 5.46967L11.0416 0.696699C10.7488 0.403806 10.2739 0.403806 9.98099 0.696699C9.68809 0.989593 9.68809 1.46447 9.98099 1.75736L14.2236 6L9.98099 10.2426C9.68809 10.5355 9.68809 11.0104 9.98099 11.3033C10.2739 11.5962 10.7488 11.5962 11.0416 11.3033L15.8146 6.53033ZM1.14215 6.75H15.2843V5.25H1.14215V6.75Z"
-								fill="#02E56A"
-								:class="
-									cn('transition-all duration-300 group-hover:fill-[#15171E]', {
-										'group-hover:fill-[#02E56A]': vSwiperIndex === 2,
-									})
-								"
-							/>
-						</svg>
-					</button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="17"
+								height="12"
+								viewBox="0 0 17 12"
+								fill="none"
+							>
+								<path
+									d="M1.14215 5.25C0.727937 5.25 0.392151 5.58579 0.392151 6C0.392151 6.41421 0.727937 6.75 1.14215 6.75V5.25ZM15.8146 6.53033C16.1075 6.23744 16.1075 5.76256 15.8146 5.46967L11.0416 0.696699C10.7488 0.403806 10.2739 0.403806 9.98099 0.696699C9.68809 0.989593 9.68809 1.46447 9.98099 1.75736L14.2236 6L9.98099 10.2426C9.68809 10.5355 9.68809 11.0104 9.98099 11.3033C10.2739 11.5962 10.7488 11.5962 11.0416 11.3033L15.8146 6.53033ZM1.14215 6.75H15.2843V5.25H1.14215V6.75Z"
+									fill="#02E56A"
+									:class="cn('transition-all duration-300 group-hover:fill-[#15171E]')"
+								/>
+							</svg>
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>

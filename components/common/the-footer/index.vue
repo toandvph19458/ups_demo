@@ -1,6 +1,6 @@
 <template>
 	<footer id="footer">
-		<div class="bg-[#04C95F]">
+		<div class="bg-[#04C85E]">
 			<div class="container">
 				<div
 					class="flex gap-10 xl:gap-0 flex-col xl:flex-row justify-between py-10 lg:pt-12 xl:pt-20 lg:pb-20 xl:pb-[100px]"
@@ -13,7 +13,7 @@
 								format="webp"
 								loading="lazy"
 								quality="80"
-								src="/logo/logo-full-light.png"
+								src="/logo/logo-footer.png"
 								width="409"
 								height="94"
 								alt="UPS"
@@ -154,24 +154,14 @@
 							<div class="w-max">
 								<h4 class="text-base xl:text-lg text-[#000] font-bold">Khách hàng cá nhân</h4>
 
-								<div class="mt-4 xl:mt-6 flex gap-3 flex-col">
+								<div class="my-3 xl:my-3 w-[10px] h-[1px] bg-[#3A6A50]"></div>
+
+								<div class="flex gap-3 flex-col">
 									<nuxt-link
 										to="/"
 										class="text-sm xl:text-base text-[#000] font-medium"
 									>
-										Cổ phiếu
-									</nuxt-link>
-									<nuxt-link
-										to="/"
-										class="text-sm xl:text-base text-[#000] font-medium"
-									>
-										Trái phiếu
-									</nuxt-link>
-									<nuxt-link
-										to="/"
-										class="text-sm xl:text-base text-[#000] font-medium"
-									>
-										Phái sinh
+										Margin T+3
 									</nuxt-link>
 									<nuxt-link
 										to="/"
@@ -183,12 +173,20 @@
 										to="/"
 										class="text-sm xl:text-base text-[#000] font-medium"
 									>
-										Sản phẩm tài chính
+										Vay ký quỹ
+									</nuxt-link>
+									<nuxt-link
+										to="/"
+										class="text-sm xl:text-base text-[#000] font-medium"
+									>
+										Zero - Fee
 									</nuxt-link>
 								</div>
 							</div>
 							<div class="w-max">
 								<h4 class="text-base lg:text-lg text-[#000] font-bold">Khách hàng doanh nghiệp</h4>
+
+								<div class="my-3 xl:my-3 w-[10px] h-[1px] bg-[#3A6A50]"></div>
 
 								<div class="mt-4 xl:mt-6 flex gap-3 flex-col">
 									<nuxt-link
@@ -207,6 +205,8 @@
 							</div>
 							<div class="w-max">
 								<h4 class="text-base xl:text-lg text-[#000] font-bold">Đầu tư cùng UPS</h4>
+
+								<div class="my-3 xl:my-3 w-[10px] h-[1px] bg-[#3A6A50]"></div>
 
 								<div class="mt-4 xl:mt-6 flex gap-3 flex-col">
 									<nuxt-link
@@ -231,6 +231,8 @@
 							</div>
 							<div class="w-max">
 								<h4 class="text-base xl:text-lg text-[#000] font-bold">Về UPS</h4>
+
+								<div class="my-3 xl:my-3 w-[10px] h-[1px] bg-[#3A6A50]"></div>
 
 								<div class="mt-4 xl:mt-6 flex gap-3 flex-col">
 									<nuxt-link

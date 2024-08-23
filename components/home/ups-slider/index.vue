@@ -37,7 +37,7 @@
 										src="/logo/logo-cap-dark.png"
 										width="220"
 										height="100"
-										class="link absolute w-full h-full object-contain"
+										class="link absolute w-full h-full object-cover"
 									/>
 								</div>
 

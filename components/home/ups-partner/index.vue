@@ -18,7 +18,7 @@
 						alt="UPS"
 						height="60"
 						:src="`/partner/partner-0${doc}.png`"
-						class="cursor-pointer object-contain grayscale transition-all duration-200 group-hover:grayscale-0 group-hover:scale-110"
+						class="cursor-pointer object-contain transition-all duration-200"
 					/>
 				</div>
 			</vue3-marquee>
@@ -28,6 +28,8 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+
+// grayscale group-hover:grayscale-0 group-hover:scale-110
 
 export default defineComponent({
 	name: "ups-partner",
