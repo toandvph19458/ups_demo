@@ -1,13 +1,15 @@
 <template>
 	<div>
 		<div
-			class="pt-[100px] pb-20 rounded-b-[20px] bg-gradient-to-l from-[#125933] to-[#15171E] via-[#125933] [background-position:65%_center]"
+			class="pt-10 md:pt-12 xl:pt-[100px] pb-10 md:pb-12 xl:pb-20 rounded-b-[20px] bg-gradient-to-l from-[#125933] to-[#15171E] via-[#125933] [background-position:65%_center]"
 		>
 			<div class="container">
 				<div>
-					<h3 class="text-[60px] text-white font-bold font-BG">Hướng dẫn giao dịch</h3>
+					<h3 class="text-[24px] md:text-[32px] xl:text-[60px] text-white font-bold font-BG">
+						Hướng dẫn giao dịch
+					</h3>
 					<div
-						class="text-[50px] font-bold font-BG bg-gradient-to-r from-[#00C058] to-[#1FAB5F] [background-position:41.75%] bg-clip-text text-transparent"
+						class="text-[16px] md:text-[24px] xl:text-[50px] font-bold font-BG bg-gradient-to-r from-[#00C058] to-[#1FAB5F] [background-position:41.75%] bg-clip-text text-transparent"
 					>
 						Cùng bạn đồng hành, dẫn lối đầu tư
 					</div>
@@ -17,8 +19,108 @@
 
 		<!-- CHI TIẾT -->
 		<div class="container">
-			<div class="py-16 flex justify-between">
-				<div class="w-[350px]">
+			<div class="py-16 flex flex-col md:flex-row xl:flex-row gap-10 xl:gap-0 justify-between">
+				<!-- TOGGLE -->
+				<div class="flex items-center xl:hidden">
+					<Drawer direction="left">
+						<DrawerTrigger as-child>
+							<div class="flex items-center">
+								<div class="inline-flex w-6 h-6 relative">
+									<nuxt-img
+										format="webp"
+										loading="lazy"
+										src="/icons/filter-icon.svg"
+										alt="UPS"
+										class="absolute w-full h-full object-contain"
+									/>
+								</div>
+
+								<p class="ml-3 text-lg text-black underline font-bold font-BG">Hướng dẫn giao dịch</p>
+							</div>
+						</DrawerTrigger>
+						<DrawerContent class="z-[101]">
+							<div class="w-full h-screen px-6 py-5">
+								<DrawerClose as-child>
+									<div class="flex items-center">
+										<div class="inline-flex w-6 h-6 relative">
+											<nuxt-img
+												format="webp"
+												loading="lazy"
+												src="/icons/close-icon.svg"
+												alt="UPS"
+												class="absolute w-full h-full object-contain"
+											/>
+										</div>
+
+										<p class="ml-3 text-lg text-black font-bold font-BG">Hướng dẫn giao dịch</p>
+									</div>
+								</DrawerClose>
+
+								<div class="">
+									<div class="mt-5 flex items-center relative">
+										<nuxt-input
+											class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
+											placeholder="Tìm kiếm"
+											name="fullname"
+										/>
+										<div class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"></div>
+									</div>
+								</div>
+
+								<div class="mt-10">
+									<Accordion
+										type="single"
+										class="w-full"
+										collapsible
+										:default-value="defaultValue"
+									>
+										<AccordionItem
+											v-for="(item, index) in dataFake"
+											:key="item.value"
+											:value="item.value"
+										>
+											<AccordionTrigger
+												class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
+											>
+												<div class="flex items-center">
+													<div
+														class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
+													>
+														{{ `${index + 1}` }}
+													</div>
+													<p
+														class="flex-1 w-full h-full px-5 text-lg text-black font-bold line-clamp-1"
+													>
+														{{ item.title }}
+													</p>
+												</div>
+												<template #icon> <div></div></template>
+											</AccordionTrigger>
+											<AccordionContent v-if="item.sub && item.sub.length > 0">
+												<div class="ml-11 flex flex-col gap-3">
+													<div
+														v-for="(sub, k) in item.sub"
+														:key="k"
+														class="flex items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
+													>
+														<div class="w-11 h-11 inline-flex items-center justify-center">
+															<div
+																class="w-2 h-2 inline-flex bg-[#15171E] rounded-full"
+															></div>
+														</div>
+
+														<p class="text-lg text-black font-bold">{{ sub.title }}</p>
+													</div>
+												</div>
+											</AccordionContent>
+										</AccordionItem>
+									</Accordion>
+								</div>
+							</div>
+						</DrawerContent>
+					</Drawer>
+				</div>
+				<div class="hidden md:block xl:block w-[350px]">
 					<div class="">
 						<h4 class="text-xl text-black font-bold">Hướng dẫn sử dụng</h4>
 						<div class="mt-5 flex items-center relative">
@@ -99,7 +201,7 @@
 						</Accordion>
 					</div>
 				</div>
-				<div class="w-[900px]">
+				<div class="flex-1 xl:flex-none w-full xl:w-[900px]">
 					<div class="">
 						<div
 							class="animate-about__item inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]"
@@ -123,7 +225,7 @@
 
 							<div class="py-10">
 								<div
-									class="animate-about__item w-full h-[500px] relative rounded-[18px] lg:rounded-[20px] overflow-hidden"
+									class="animate-about__item w-full h-[200px] md:h-[400px] xl:h-[500px] relative rounded-[18px] lg:rounded-[20px] overflow-hidden"
 								>
 									<iframe
 										width="100%"
@@ -153,7 +255,7 @@
 						</div>
 					</div>
 
-					<div class="mt-6">
+					<div class="mt-4 md:mt-6">
 						<h5 class="text-[24px] text-black font-semibold font-BG">Tài khoản</h5>
 						<p class="text-base text-[#535662] font-medium">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -167,7 +269,7 @@
 
 						<div class="py-10">
 							<div
-								class="animate-about__item w-full h-[500px] relative rounded-[18px] lg:rounded-[20px] overflow-hidden"
+								class="animate-about__item w-full h-[200px] md:h-[400px] xl:h-[500px] relative rounded-[18px] lg:rounded-[20px] overflow-hidden"
 							>
 								<nuxt-img
 									loading="lazy"
@@ -181,7 +283,7 @@
 						</div>
 					</div>
 
-					<div class="mt-6">
+					<div class="mt-4 md:mt-6">
 						<h5 class="text-[24px] text-black font-semibold font-BG">Hiệu suất đầu tư</h5>
 						<p class="text-base text-[#535662] font-medium">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -194,7 +296,7 @@
 						</p>
 					</div>
 
-					<div class="mt-6">
+					<div class="mt-4 md:mt-6">
 						<h5 class="text-[24px] text-black font-semibold font-BG">Lãi lỗ đã thực hiện</h5>
 						<p class="text-base text-[#535662] font-medium">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -206,9 +308,9 @@
 							versions of Lorem Ipsum.
 						</p>
 
-						<div class="py-10">
+						<div class="py-4 md:py-10">
 							<div
-								class="animate-about__item w-full h-[500px] relative rounded-[18px] lg:rounded-[20px] overflow-hidden"
+								class="animate-about__item w-full h-[200px] md:h-[400px] xl:h-[500px] relative rounded-[18px] lg:rounded-[20px] overflow-hidden"
 							>
 								<nuxt-img
 									loading="lazy"
@@ -236,14 +338,13 @@
 					</div>
 
 					<!-- COMMENT -->
-					<div class="py-10">
+					<div class="py-4 md:py-10">
 						<comment />
-
 						<p class="text-center text-[#535662] font-medium mt-6">Cập nhật mới nhất: 20/08/2024</p>
 					</div>
 
 					<!-- NEXT PAGE -->
-					<div class="grid gap-5 grid-cols-2">
+					<div class="grid gap-5 grid-cols-1 md:grid-cols-2">
 						<div class="p-5 border border-[#ECECEC] rounded-[10px] relative">
 							<p class="text-base text-[#535662] font-medium">Bài viết trước</p>
 							<p class="text-xl text-black font-semibold font-BG">Quản lý tài khoản</p>
@@ -262,7 +363,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="flex gap-6 flex-col w-[200px]">
+				<div class="hidden xl:flex gap-6 flex-col w-[200px]">
 					<div class="">
 						<h6 class="text-base text-black font-bold">Nội dung chính</h6>
 
@@ -327,7 +428,7 @@
 
 		<!-- FEEDBACK -->
 		<div class="container">
-			<div class="py-[100px]">
+			<div class="pt-0 pb-20 md:py-[100px]">
 				<feedback />
 			</div>
 		</div>
@@ -340,6 +441,16 @@ import Comment from "@/components/common/comment/index.vue";
 import NuxtInput from "@/components/ui/input/index.vue";
 import Feedback from "@/components/common/feedback/index.vue";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import {
+	Drawer,
+	DrawerClose,
+	DrawerContent,
+	DrawerDescription,
+	DrawerFooter,
+	DrawerHeader,
+	DrawerTitle,
+	DrawerTrigger,
+} from "@/components/ui/drawer";
 
 export default defineComponent({
 	name: "hdsd",
@@ -351,6 +462,14 @@ export default defineComponent({
 		AccordionContent,
 		AccordionItem,
 		AccordionTrigger,
+		Drawer,
+		DrawerClose,
+		DrawerContent,
+		DrawerDescription,
+		DrawerFooter,
+		DrawerHeader,
+		DrawerTitle,
+		DrawerTrigger,
 	},
 	setup(props, ctx) {
 		const defaultValue = "1";

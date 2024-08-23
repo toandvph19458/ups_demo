@@ -1,10 +1,12 @@
 <template>
 	<div class="">
-		<div class="bg-[url('/background/bg-05.png')] bg-no-repeat pt-24 pb-[250px] w-full">
+		<div
+			class="hidden md:block xl:block bg-[url('/background/bg-05.png')] bg-contain bg-no-repeat pt-12 xl:pt-24 pb-[100px] xl:pb-[250px] w-full"
+		>
 			<div class="container">
 				<div class="flex items-center justify-between">
 					<div class="">
-						<h2 class="text-[50px] text-white font-bold font-BG">
+						<h2 class="md:text-[32px] xl:text-[50px] text-white font-bold font-BG">
 							Công bố
 							<span class="text-[#143628]">thông tin</span>
 						</h2>
@@ -12,7 +14,7 @@
 						<div class="flex gap-3 items-center">
 							<nuxt-link
 								to="/"
-								class="text-lg text-white font-semibold"
+								class="text-sm md:text-base xl:text-lg text-white font-semibold"
 							>
 								Trang chủ
 							</nuxt-link>
@@ -26,14 +28,14 @@
 
 							<nuxt-link
 								to="/"
-								class="text-lg text-white font-semibold"
+								class="text-sm md:text-base xl:text-lg text-white font-semibold"
 							>
 								Công bố thông tin
 							</nuxt-link>
 						</div>
 					</div>
 
-					<div class="inline-flex relative w-[320px] h-[160px]">
+					<div class="inline-flex relative md:w-[200px] md:h-[120px] xl:w-[320px] xl:h-[160px]">
 						<nuxt-img
 							format="webp"
 							loading="lazy"
@@ -47,8 +49,175 @@
 		</div>
 
 		<div class="container">
-			<div class="pb-16 flex gap-10">
-				<div class="w-[350px]">
+			<div class="pb-16 flex flex-col xl:flex-row gap-10">
+				<!-- TOGGLE -->
+				<div class="flex items-center xl:hidden">
+					<Drawer direction="left">
+						<DrawerTrigger as-child>
+							<div class="flex items-center">
+								<div class="inline-flex w-6 h-6 relative">
+									<nuxt-img
+										format="webp"
+										loading="lazy"
+										src="/icons/filter-icon.svg"
+										alt="UPS"
+										class="absolute w-full h-full object-contain"
+									/>
+								</div>
+
+								<p class="ml-3 text-lg text-black underline font-bold font-BG">Bộ lọc</p>
+							</div>
+						</DrawerTrigger>
+						<DrawerContent class="z-[101]">
+							<div class="w-full h-screen px-6 py-5">
+								<DrawerClose as-child>
+									<div class="flex items-center">
+										<div class="inline-flex w-6 h-6 relative">
+											<nuxt-img
+												format="webp"
+												loading="lazy"
+												src="/icons/close-icon.svg"
+												alt="UPS"
+												class="absolute w-full h-full object-contain"
+											/>
+										</div>
+
+										<p class="ml-3 text-lg text-black font-bold font-BG">Bộ lọc</p>
+									</div>
+								</DrawerClose>
+
+								<div class="my-5">
+									<div class="flex items-center relative">
+										<nuxt-input
+											class="w-[300px] h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#15171E] placeholder:text-base"
+											placeholder="Nội dung tin tức"
+											name="content"
+										/>
+										<div class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"></div>
+									</div>
+
+									<div class="flex gap-4 mt-5">
+										<div class="flex-1">
+											<div class="flex items-center relative">
+												<nuxt-input
+													class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#15171E] placeholder:text-base"
+													placeholder="Lọc theo ngày"
+													name="date"
+													type="date"
+												/>
+												<div
+													class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"
+												></div>
+											</div>
+										</div>
+										<div class="flex-1">
+											<div class="flex items-center relative">
+												<nuxt-input
+													class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
+													placeholder="Lọc theo ngày"
+													name="date"
+													type="date"
+												/>
+												<div
+													class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"
+												></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- DANH MỤC -->
+								<div class="flex gap-3 flex-col">
+									<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
+										<div
+											class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
+										>
+											1
+										</div>
+										<div
+											class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
+										>
+											Tin cổ đông
+										</div>
+									</div>
+									<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
+										<div
+											class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
+										>
+											2
+										</div>
+										<div
+											class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
+										>
+											Báo cáo tài chính
+										</div>
+									</div>
+									<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
+										<div
+											class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
+										>
+											3
+										</div>
+										<div
+											class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
+										>
+											Quan hệ cổ đông
+										</div>
+									</div>
+
+									<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
+										<div
+											class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
+										>
+											4
+										</div>
+										<div
+											class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
+										>
+											Thông tin Quản trị
+										</div>
+									</div>
+									<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
+										<div
+											class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
+										>
+											5
+										</div>
+										<div
+											class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
+										>
+											Báo cáo thường niên
+										</div>
+									</div>
+								</div>
+
+								<div class="mt-5 flex gap-4 flex-wrap">
+									<div
+										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
+									>
+										2024
+									</div>
+									<div
+										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
+									>
+										2023
+									</div>
+									<div
+										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
+									>
+										2022
+									</div>
+									<div
+										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
+									>
+										2021
+									</div>
+								</div>
+							</div>
+						</DrawerContent>
+					</Drawer>
+				</div>
+				<div class="hidden xl:block w-[280px] xl:w-[350px]">
 					<div class="mb-10">
 						<div class="flex items-center relative">
 							<nuxt-input
@@ -63,7 +232,7 @@
 							<div class="flex-1">
 								<div class="flex items-center relative">
 									<nuxt-input
-										class="w-[170px] h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#15171E] placeholder:text-base"
+										class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#15171E] placeholder:text-base"
 										placeholder="Lọc theo ngày"
 										name="date"
 										type="date"
@@ -74,7 +243,7 @@
 							<div class="flex-1">
 								<div class="flex items-center relative">
 									<nuxt-input
-										class="w-[170px] h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
+										class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
 										placeholder="Lọc theo ngày"
 										name="date"
 										type="date"
@@ -174,21 +343,21 @@
 					</div>
 				</div>
 				<div class="flex-1 w-full">
-					<div class="grid grid-cols-3">
+					<div class="grid gap-y-5 xl:gap-y-0 grid-cols-1 md:grid-cols-3 xl:grid-cols-3">
 						<div
 							v-for="doc in 9"
 							:key="doc"
-							class="p-5"
+							class="p-0 md:p-2 xl:p-5"
 						>
 							<div class="flex flex-col relative group">
-								<div class="relative w-full h-[200px] rounded-[14px] overflow-hidden">
+								<div class="relative w-full h-[250px] xl:h-[200px] rounded-[14px] overflow-hidden">
 									<nuxt-img
 										format="webp"
 										loading="lazy"
 										alt="UPS"
 										width="350"
 										height="290"
-										src="/images/tin-tuc-01.png"
+										:src="doc % 2 == 0 ? '/images/tin-tuc-04.png' : '/images/tin-tuc-06.png'"
 										class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
 									/>
 								</div>
@@ -296,7 +465,7 @@
 					<div class="flex justify-center mt-12">
 						<Pagination
 							v-slot="{ page }"
-							:total="100"
+							:total="40"
 							:sibling-count="1"
 							show-edges
 							:default-page="2"
@@ -361,6 +530,16 @@ import {
 	PaginationNext,
 	PaginationPrev,
 } from "@/components/ui/pagination";
+import {
+	Drawer,
+	DrawerClose,
+	DrawerContent,
+	DrawerDescription,
+	DrawerFooter,
+	DrawerHeader,
+	DrawerTitle,
+	DrawerTrigger,
+} from "@/components/ui/drawer";
 
 export default defineComponent({
 	name: "cong-bo-thong-tin",
@@ -375,6 +554,14 @@ export default defineComponent({
 		PaginationListItem,
 		PaginationNext,
 		PaginationPrev,
+		Drawer,
+		DrawerClose,
+		DrawerContent,
+		DrawerDescription,
+		DrawerFooter,
+		DrawerHeader,
+		DrawerTitle,
+		DrawerTrigger,
 	},
 	setup(props, ctx) {
 		return {

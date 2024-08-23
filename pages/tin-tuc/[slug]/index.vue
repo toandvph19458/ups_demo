@@ -2,7 +2,7 @@
   <div class="container">
     <div class="flex justify-center text-center mt-[100px]">
       <div
-        class="inline-flex relative w-[76px] h-[36px] lg:w-[145px] lg:h-[66px] xl:w-[220px] xl:h-[100px]"
+        class="inline-flex relative w-[200px] h-[70px] xl:w-[220px] xl:h-[70px]"
       >
         <nuxt-img
           loading="lazy"
@@ -16,7 +16,7 @@
     </div>
     <div class="text-center mt-[30px] mb-[20px]">
       <h3
-        class="text-[#15171E] font-bricolage-grotesque text-[50px] font-semibold leading-normal"
+        class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px]"
       >
         Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh
         cử ở Bắc Carolina
@@ -25,8 +25,7 @@
     <div class="flex text-center justify-center items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="25"
+        class="w-[16px] h-[16px] xl:w-[24px] xl:h-[24px]"
         viewBox="0 0 24 25"
         fill="none"
       >
@@ -46,14 +45,14 @@
         />
       </svg>
       <p
-        class="text-[#7F8494] font-hanken-grotesk text-[24px] font-semibold leading-normals"
+        class="text-[#7F8494] font-hanken-grotesk xl:text-[24px] font-semibold leading-normals text-[14px]"
       >
         15/08/2024 - 22:20
       </p>
     </div>
-    <div class="flex justify-center text-center my-[80px]">
+    <div class="flex justify-center text-center xl:my-[80px] my-[30px]">
       <div
-        class="inline-flex relative w-[327px] h-[36px] lg:w-[445px] lg:h-[66px] xl:w-[1600px] xl:h-[700px]"
+        class="inline-flex relative w-[327px] h-[208px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]"
       >
         <nuxt-img
           loading="lazy"
@@ -69,7 +68,7 @@
       <div
         class="w-[327px] xl:w-[1400px] xl:flex lg:flex block justify-center gap-[28px]"
       >
-        <div class="text-left w-[70%]">
+        <div class="text-left xl:w-[70%] lg:w-[70%] w-full">
           <p class="text-[#696B75] text-[12px] font-normal leading-[20px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -84,10 +83,9 @@
             ea commodo consequat. Duis aute irure dolor in reprehenderit in
             voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
-          <div class="my-[20px] w-full">
+          <div class="my-[20px] xl:w-full w-[327px]">
             <iframe
-              width="800"
-              height="315"
+              class="xl:w-[800px] xl:h-[513px] w-[327px] h-auto"
               src="https://www.youtube.com/embed/QLzIlSj-UDo?si=ZwkUOgpPJJ6PHJRn"
               title="YouTube video player"
               frameborder="0"
@@ -127,7 +125,7 @@
             Cập nhật mới nhất: 20/08/2024
           </p>
           <!-- tin liên quan -->
-          <div class="px-0">
+          <div class="px-0 xl:inline-block hidden">
             <div class="">
               <div class="flex justify-between">
                 <div
@@ -268,7 +266,7 @@
             </div>
           </div>
         </div>
-        <div class="w-[30%]">
+        <div class="xl:w-[30%] lg:w-[30%] w-full">
           <h4
             class="text-[#15171E] font-bricolage-grotesque text-[16px] font-semibold leading-[20px]"
           >

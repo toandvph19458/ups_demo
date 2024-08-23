@@ -5,7 +5,7 @@
 			<p class="text-[28px] text-black font-semibold font-BG">Chấm điểm độ hữu dụng của bài viết</p>
 		</div>
 
-		<div class="flex gap-2">
+		<div class="flex gap-2 flex-wrap">
 			<div
 				class="px-6 py-3 text-base font-semibold cursor-pointer bg-white border-[1px] border-[#ECECEC] rounded-[12px] hover:bg-black hover:text-green-ups"
 			>

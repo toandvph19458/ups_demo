@@ -1,6 +1,6 @@
 <template>
 	<footer id="footer">
-		<div class="bg-[#0AB157]">
+		<div class="bg-[#04C95F]">
 			<div class="container">
 				<div
 					class="flex gap-10 xl:gap-0 flex-col xl:flex-row justify-between py-10 lg:pt-12 xl:pt-20 lg:pb-20 xl:pb-[100px]"
