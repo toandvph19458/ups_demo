@@ -35,42 +35,10 @@
 					<!-- NAV -->
 					<navigation />
 
-					<div class="flex gap-5">
+					<div class="flex">
+						
+
 						<div class="hidden xl:inline-flex">
-							<nuxt-link
-								to="/giao-dich-ngay"
-								class="w-auto h-[50px] px-7 gap-2 inline-flex items-center rounded-[40px] text-base font-bold bg-[rgba(0,0,0,0.06)] duration-300"
-							>
-								<span> Giao dịch ngay </span>
-								<!-- <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
-								<i
-									class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-[-120%] group-hover:translate-x-0"
-								>
-									<nuxt-img
-										src="/icons/arrow-icon.svg"
-										loading="lazy"
-										width="16"
-										height="16"
-										alt="UPS"
-									/>
-								</i>
-
-								<i
-									class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-0 group-hover:translate-x-[120%]"
-								>
-									<nuxt-img
-										src="/icons/arrow-icon.svg"
-										loading="lazy"
-										width="16"
-										height="16"
-										alt="UPS"
-									/>
-								</i>
-							</div> -->
-							</nuxt-link>
-						</div>
-
-						<!-- <div class="hidden xl:inline-flex">
 							<nuxt-link
 								to="/"
 								class="btn active group"
@@ -98,7 +66,7 @@
 									</i>
 								</div>
 							</nuxt-link>
-						</div> -->
+						</div>
 
 						<!-- MENU MOBILE -->
 						<div class="flex xl:hidden">
