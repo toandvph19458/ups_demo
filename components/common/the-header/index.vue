@@ -70,7 +70,7 @@
 							</nuxt-link>
 						</div>
 
-						<div class="hidden xl:inline-flex">
+						<!-- <div class="hidden xl:inline-flex">
 							<nuxt-link
 								to="/"
 								class="btn active group"
@@ -98,7 +98,7 @@
 									</i>
 								</div>
 							</nuxt-link>
-						</div>
+						</div> -->
 
 						<!-- MENU MOBILE -->
 						<div class="flex xl:hidden">
