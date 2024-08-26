@@ -6,7 +6,7 @@
 			<div class="container">
 				<div>
 					<h3 class="text-[24px] md:text-[32px] xl:text-[60px] text-white font-bold font-BG">
-						Hướng dẫn giao dịch
+						Hướng dẫn sử dụng
 					</h3>
 					<div
 						class="text-[16px] md:text-[24px] xl:text-[50px] font-bold font-BG bg-gradient-to-r from-[#00C058] to-[#1FAB5F] [background-position:41.75%] bg-clip-text text-transparent"
@@ -68,53 +68,92 @@
 								</div>
 
 								<div class="mt-10">
-									<Accordion
-										type="single"
-										class="w-full"
-										collapsible
-										:default-value="defaultValue"
-									>
-										<AccordionItem
-											v-for="(item, index) in dataFake"
-											:key="item.value"
-											:value="item.value"
+									<ScrollArea class="w-full h-[calc(100vh-200px)]">
+										<Accordion
+											type="single"
+											class="w-full"
+											collapsible
+											:default-value="defaultValue"
 										>
-											<AccordionTrigger
-												class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
+											<AccordionItem
+												v-for="(item, index) in dataFake"
+												:key="item.value"
+												:value="item.value"
 											>
-												<div class="flex items-center">
+												<AccordionTrigger>
 													<div
-														class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
+														v-if="item.sub && item.sub.length > 0"
+														class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
 													>
-														{{ `${index + 1}` }}
-													</div>
-													<p
-														class="flex-1 w-full h-full px-5 text-lg text-black font-bold line-clamp-1"
-													>
-														{{ item.title }}
-													</p>
-												</div>
-												<template #icon> <div></div></template>
-											</AccordionTrigger>
-											<AccordionContent v-if="item.sub && item.sub.length > 0">
-												<div class="ml-11 flex flex-col gap-3">
-													<div
-														v-for="(sub, k) in item.sub"
-														:key="k"
-														class="flex items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
-													>
-														<div class="w-11 h-11 inline-flex items-center justify-center">
+														<div class="flex items-center">
 															<div
-																class="w-2 h-2 inline-flex bg-[#15171E] rounded-full"
-															></div>
+																class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
+															>
+																{{ `${index + 1}` }}
+															</div>
+															<p
+																class="flex-1 w-full h-full px-5 text-lg text-black font-bold line-clamp-1"
+															>
+																{{ item.title }}
+															</p>
 														</div>
-
-														<p class="text-lg text-black font-bold">{{ sub.title }}</p>
 													</div>
-												</div>
-											</AccordionContent>
-										</AccordionItem>
-									</Accordion>
+
+													<DrawerClose
+														v-else
+														as-child
+													>
+														<nuxt-link
+															class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
+														>
+															<div class="flex items-center">
+																<div
+																	class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
+																>
+																	{{ `${index + 1}` }}
+																</div>
+																<p
+																	class="flex-1 w-full h-full px-5 text-lg text-black font-bold line-clamp-1"
+																>
+																	{{ item.title }}
+																</p>
+															</div>
+														</nuxt-link>
+													</DrawerClose>
+
+													<template #icon> <div></div></template>
+												</AccordionTrigger>
+												<AccordionContent v-if="item.sub && item.sub.length > 0">
+													<nuxt-link
+														to="/hdsd#1"
+														class="ml-11 flex flex-col gap-3"
+													>
+														<DrawerClose
+															v-for="(sub, k) in item.sub"
+															:key="k"
+															as-child
+														>
+															<div
+																class="flex items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
+															>
+																<div
+																	class="w-11 h-11 inline-flex items-center justify-center"
+																>
+																	<div
+																		class="w-2 h-2 inline-flex bg-[#15171E] rounded-full"
+																	></div>
+																</div>
+
+																<p class="text-lg text-black font-bold">
+																	{{ sub.title }}
+																</p>
+															</div>
+														</DrawerClose>
+													</nuxt-link>
+												</AccordionContent>
+											</AccordionItem>
+										</Accordion>
+									</ScrollArea>
 								</div>
 							</div>
 						</DrawerContent>
@@ -451,6 +490,7 @@ import {
 	DrawerTitle,
 	DrawerTrigger,
 } from "@/components/ui/drawer";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default defineComponent({
 	name: "hdsd",
@@ -470,6 +510,7 @@ export default defineComponent({
 		DrawerHeader,
 		DrawerTitle,
 		DrawerTrigger,
+		ScrollArea,
 	},
 	setup(props, ctx) {
 		const defaultValue = "1";

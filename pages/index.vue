@@ -3,6 +3,7 @@
 		<!-- UPS SLIDER -->
 		<ups-slider />
 
+
 		<!-- UPS POLICY -->
 		<ups-policy />
 

@@ -62,7 +62,7 @@
 									</p>
 								</div>
 
-								<div class="btn-wrapper flex gap-5 items-center mt-10">
+								<div class="btn-wrapper flex gap-5 items-center mt-10 pl-1 pb-2">
 									<div class="inline-flex animate-ups__item">
 										<nuxt-link
 											to="/"

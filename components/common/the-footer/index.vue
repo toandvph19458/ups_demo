@@ -28,7 +28,13 @@
 										href="/"
 										class="flex flex-col gap-4"
 									>
-										
+										<!-- <nuxt-img
+											format="webp"
+											src="/logo/logo-row-light.png"
+											alt="UPS"
+											width="20"
+											height="20"
+										/> -->
 										<span class="text-base xl:text-lg text-[#15171E] font-bold">
 											Tầng 8 - Tòa nhà Hapro, Số 11B Cát Linh, Phường Quốc Tử Giám, Quận Đống Đa,
 											Hà Nội
@@ -161,12 +167,6 @@
 										to="/"
 										class="text-sm xl:text-base text-[#000] font-medium"
 									>
-										Biểu phí giao dịch
-									</nuxt-link>
-									<nuxt-link
-										to="/"
-										class="text-sm xl:text-base text-[#000] font-medium"
-									>
 										Vay ký quỹ
 									</nuxt-link>
 									<nuxt-link
@@ -174,6 +174,12 @@
 										class="text-sm xl:text-base text-[#000] font-medium"
 									>
 										Zero - Fee
+									</nuxt-link>
+									<nuxt-link
+										to="/"
+										class="text-sm xl:text-base text-[#000] font-medium"
+									>
+										Biểu phí giao dịch
 									</nuxt-link>
 								</div>
 							</div>
