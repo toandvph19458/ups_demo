@@ -2,7 +2,7 @@
 	<section class="pb-[60px] lg:pb-[100px] xl:pb-[200px]">
 		<client-only>
 			<vue3-marquee
-				:duration="30"
+				:duration="40"
 				:gradient="true"
 				:gradient-color="[255, 255, 255]"
 				gradient-length="20%"
@@ -10,7 +10,7 @@
 				<div
 					v-for="doc in 8"
 					:key="doc"
-					class="ml-[100px] group"
+					class="ml-[300px] group"
 				>
 					<nuxt-img
 						format="webp"

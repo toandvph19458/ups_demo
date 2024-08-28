@@ -2,7 +2,7 @@
 	<section class="section_policy animate-ups">
 		<div class="py-5 md:py-11 bg-[linear-gradient(93deg,#02E56A_24.42%,#01A34B_67.1%)]">
 			<div class="container">
-				<div class="flex gap-3 md:gap-0 flex-col md:flex-row justify-between">
+				<div class="flex gap-3 md:gap-0 flex-col md:flex-row justify-between items-center">
 					<h3
 						class="animate-ups__item text-xl md:text-[24px] lg:text-[36px] text-[#15171E] font-bold font-BG max-w-[400px] leading-[1.3] link"
 					>
@@ -30,12 +30,12 @@
 						</p>
 
 						<div
-							class="animate-ups__item flex relative w-[160px] h-[40px] md:w-[160px] md:h-[54px] lg:w-[160px] lg:h-[86px]"
+							class="animate-ups__item flex relative w-[190px] h-[40px] md:w-[190px] md:h-[54px] lg:w-[190px] lg:h-[86px]"
 						>
 							<nuxt-img
 								loading="lazy"
 								alt="UPS"
-								width="160"
+								width="190"
 								height="86"
 								src="/logo/logo-cap-dark.png"
 								class="absolute w-full h-full object-cover"

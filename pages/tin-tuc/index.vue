@@ -1,9 +1,9 @@
 <template>
 	<div class="pt-0 md:pt-10 xl:pt-16">
 		<div class="container">
-			<div class="flex gap-2 items-center justify-center">
+			<div class="flex gap-2 items-center justify-center gap-5">
 				<h2 class="text-[54px] xl:text-[80px] text-black font-bold font-BG leading-tight">Bản tin</h2>
-				<div class="animate-about__item inline-flex relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]">
+				<div class="animate-about__item inline-flex relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px] mt-2">
 					<nuxt-img
 						format="webp"
 						loading="lazy"

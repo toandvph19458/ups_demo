@@ -11,29 +11,29 @@
 							Sản phẩm
 						</nuxt-link>
 					</NavigationMenuTrigger>
-					<NavigationMenuContent>
-						<div class="w-[500px] px-6 py-5 flex gap-10 flex-col">
+					<NavigationMenuContent >
+						<div class="w-[1100px] px-6 py-5 flex gap-10 right-0" >
 							<div class="w-full">
 								<p class="text-left text-2xl text-[#014227] font-semibold">Khách hàng cá nhân</p>
 
-								<div class="mt-4 grid gap-4 grid-cols-2">
+								<div class="mt-4 grid grid-cols-2 gap-4">
 									<div
-										class="inline-flex items-center px-4 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
+										class="inline-flex items-center px-2 py-5 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Margin T+3</span>
 									</div>
 									<div
-										class="inline-flex items-center px-4 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
+										class="inline-flex items-center px-4 h-16 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Biểu phí giao dịch</span>
 									</div>
 									<div
-										class="inline-flex items-center px-4 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
+										class="inline-flex items-center px-4 h-16 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Vay ký quỹ</span>
 									</div>
 									<div
-										class="inline-flex items-center px-4 h-16 min-w-[180px] rounded-[12px] bg-[#1D1E20]"
+										class="inline-flex items-center px-4 h-16 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Zero-Fee</span>
 									</div>
@@ -311,7 +311,7 @@
 						</div>
 					</NavigationMenuContent>
 				</NavigationMenuItem>
-				<NavigationMenuItem>
+				<!-- <NavigationMenuItem>
 					<NavigationMenuLink :class="navigationMenuTriggerStyle()">
 						<nuxt-link
 							to="/"
@@ -320,7 +320,7 @@
 							Bảng giá
 						</nuxt-link>
 					</NavigationMenuLink>
-				</NavigationMenuItem>
+				</NavigationMenuItem> -->
 			</NavigationMenuList>
 		</NavigationMenu>
 	</div>

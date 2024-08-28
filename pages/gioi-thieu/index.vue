@@ -141,9 +141,9 @@
 					</div>
 
 					<div
-						class="animate-about__item max-w-full md:max-w-[400px] xl:max-w-[760px] px-6 md:px-8 xl:px-16 py-4 md:py-6 xl:py-12 ml-0 md:ml-[90px] rounded-[12px] lg:rounded-[20px] border-t border-r border-[#8CEE7D] bg-[rgba(44,48,58,0.2)] backdrop-blur-[10px] relative"
+						class="group animate-about__item max-w-full md:max-w-[400px] xl:max-w-[760px] px-6 md:px-8 xl:px-16 py-4 md:py-6 xl:py-12 ml-0 md:ml-[90px] rounded-[12px] lg:rounded-[20px] border-t border-r border-[#8CEE7D] bg-[rgba(44,48,58,0.2)] backdrop-blur-[10px] relative"
 					>
-						<h4 class="text-[28px] xl:text-[52px] text-[#D6DAEA] font-bold font-BG">Sứ mệnh</h4>
+						<h4 class="text-[28px] xl:text-[52px] text-[#D6DAEA] font-bold font-BG group-hover:text-green-500">Sứ mệnh</h4>
 						<p
 							class="mt-4 md:mt-6 xl:mt-8 text-sm md:text-base xl:text-[22px] text-[#D6DAEA] font-semibold font-BG"
 						>
@@ -381,7 +381,7 @@
 						class="animate-about__item static md:absolute xl:absolute right-0 top-[285px] translate-y-0 md:translate-y-1/2 xl:translate-y-1/2 w-full flex justify-end"
 					>
 						<div
-							class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[234px] xl:max-w-[440px] relative"
+							class="flex flex-col items-center md:items-start xl:items-start max-w-full md:max-w-[234px] xl:max-w-[440px] relative"
 						>
 							<div
 								class="hidden md:flex xl:flex absolute top-8 -left-[90px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]"
@@ -408,7 +408,7 @@
 							>
 								Cởi mở & Đổi mới
 							</h4>
-							<p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
+							<p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-left">
 								Liên tục cập nhật và đổi mới, mang lại sự tươi mới trong hoạt động và dịch vụ.
 							</p>
 						</div>
@@ -418,7 +418,7 @@
 						class="animate-about__item static md:absolute xl:absolute right-0 top-[600px] w-full translate-y-0 md:translate-y-1/2 xl:translate-y-1/2 flex justify-end"
 					>
 						<div
-							class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[234px] xl:max-w-[440px] relative"
+							class="flex flex-col items-center md:items-start xl:items-start max-w-full md:max-w-[234px] xl:max-w-[440px] relative"
 						>
 							<div
 								class="hidden md:flex xl:flex absolute top-8 -left-[90px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]"
@@ -445,7 +445,7 @@
 							>
 								Khách hàng là trung tâm
 							</h4>
-							<p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
+							<p class="text-sm xl:text-[18px] text-[#000] text-center md:text-left xl:text-left">
 								Đặt lợi ích và trải nghiệm của khách hàng lên hàng đầu.
 							</p>
 						</div>
@@ -455,7 +455,7 @@
 						class="animate-about__item static md:absolute xl:absolute right-0 top-[920px] w-full translate-y-0 md:translate-y-1/2 xl:translate-y-1/2 flex justify-end"
 					>
 						<div
-							class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[234px] xl:max-w-[440px] relative"
+							class="flex flex-col items-center md:items-start xl:items-start max-w-full md:max-w-[234px] xl:max-w-[440px] relative"
 						>
 							<div
 								class="hidden md:flex xl:flex absolute top-8 -left-[90px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]"
@@ -482,7 +482,7 @@
 							>
 								Truyền cảm hứng
 							</h4>
-							<p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
+							<p class="text-sm xl:text-[18px] text-[#000] text-center md:text-left xl:text-left">
 								Tối ưu hóa trải nghiệm người dùng, truyền cảm hứng về đầu tư tài chính cá nhân.
 							</p>
 						</div>
@@ -558,7 +558,7 @@
 		</section>
 
 		<!-- SECTION ACHIEVEMENTS -->
-		<section class="container">
+		<!-- <section class="container">
 			<div class="flex justify-center py-10 md:py-[80px] xl:py-[120px]">
 				<div
 					class="w-full lg:w-max xl:w-max flex md:inline-flex xl:inline-flex flex-col md:flex-row xl:flex-row gap-12 md:gap-[80px] xl:gap-[160px]"
@@ -624,7 +624,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- SECTION CHỨNG CHỈ VÀ GIẤY PHÉP -->
 		<section class="container">
@@ -674,12 +674,12 @@
 						format="webp"
 						loading="lazy"
 						alt="UPS"
-						src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
+						src="/images/chung-chi-2.png"
 						class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
 					/>
 				</div>
 				<div
-					class="w-full h-[210px] md:h-[210px] xl:h-[396px] rounded-[7px] md:flex flex-col items-end justify-end md:rounded-[14px] overflow-hidden group"
+					class="w-full  h-[210px] md:h-full xl:h-full rounded-[7px] md:flex flex-col items-end justify-end md:rounded-[14px] overflow-hidden group"
 				>
 					<nuxt-img
 						format="webp"
@@ -700,39 +700,35 @@
 						Chúng tôi luôn nỗ lực không ngừng để đạt được những mục tiêu đầy tham vọng và tạo ra những giá
 						trị lâu dài
 					</p>
-				</div>
-				<div
-					class="w-full h-[210px] md:h-[210px] xl:h-[396px] rounded-[7px] md:rounded-[14px] overflow-hidden group"
-				>
-					<nuxt-img
-						format="webp"
-						loading="lazy"
-						alt="UPS"
-						src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
-						class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-					/>
-				</div>
-				<div
-					class="w-full h-[210px] md:h-[210px] xl:h-[396px] rounded-[7px] md:rounded-[14px] overflow-hidden group"
-				>
-					<nuxt-img
-						format="webp"
-						loading="lazy"
-						alt="UPS"
-						src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
-						class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-					/>
-				</div>
-				<div
-					class="w-full h-[210px] md:h-[210px] xl:h-[396px] rounded-[7px] md:rounded-[14px] overflow-hidden group"
-				>
-					<nuxt-img
-						format="webp"
-						loading="lazy"
-						alt="UPS"
-						src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
-						class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-					/>
+					<div class="animate-about__item inline-flex my-6">
+						<nuxt-link
+							to="/"
+							class="btn active group"
+						>
+							<span> Mở tài khoản ngay </span>
+							<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+								<i class="w-full h-full group-hover:inline-flex hidden absolute">
+									<nuxt-img
+										src="/icons/arrow-dark-icon.svg"
+										loading="lazy"
+										width="16"
+										height="16"
+										alt="UPS"
+									/>
+								</i>
+
+								<i class="w-full h-full group-hover:hidden inline-flex absolute">
+									<nuxt-img
+										src="/icons/arrow-icon.svg"
+										loading="lazy"
+										width="16"
+										height="16"
+										alt="UPS"
+									/>
+								</i>
+							</div>
+						</nuxt-link>
+					</div>
 				</div>
 			</div>
 

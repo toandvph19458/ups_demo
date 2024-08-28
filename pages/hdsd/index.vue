@@ -85,7 +85,7 @@
 														v-if="item.sub && item.sub.length > 0"
 														class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
 													>
-														<div class="flex items-center">
+														<div class="flex items-center ">
 															<div
 																class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
 															>
@@ -209,7 +209,7 @@
 								:value="item.value"
 							>
 								<AccordionTrigger class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]">
-									<div class="flex items-center">
+									<div class="flex items-center text-left">
 										<div
 											class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
 										>

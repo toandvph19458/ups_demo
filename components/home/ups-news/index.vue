@@ -20,7 +20,7 @@
 					<h3
 						class="animate-ups__item bg-[linear-gradient(269deg,#00C058_41.75%,#1FAB5F_110.86%)] bg-clip-text text-transparent font-BG text-[40px] md:text-[54px] xl:text-[80px] font-bold leading-[1.2]"
 					>
-						<span class="text-[#15171E]">Tin</span>
+						<span class="text-[#15171E]">Tin</span><br>
 						nổi bật
 					</h3>
 
@@ -137,7 +137,7 @@
 
 							<div class="mt-3 md:mt-5">
 								<div class="flex justify-between">
-									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnew</p>
+									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnews</p>
 									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
 										5 phút trước
 									</p>
@@ -219,7 +219,7 @@
 
 							<div class="mt-3 md:mt-5">
 								<div class="flex justify-between">
-									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnew</p>
+									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnews</p>
 									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
 										5 phút trước
 									</p>
@@ -260,7 +260,7 @@
 
 							<div class="mt-3 md:mt-5">
 								<div class="flex justify-between">
-									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnew</p>
+									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnews</p>
 									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
 										5 phút trước
 									</p>
