@@ -2,8 +2,9 @@
 	<section class="animate-ups">
 		<div class="container">
 			<div class="relative py-10 md:py-[60px] lg:py-[100px] xl:py-[130px]">
-				<div class="px-0 xl:px-16">
-					<h3
+				<div class="px-0 xl:px-16 grid xl:grid-cols-2 grid-cols-1 items-end xl:gap-[50px] gap-5">
+					<div class="item-end">
+						<h3
 						class="animate-ups__item text-[32px] xl:text-[60px] text-center xl:text-left font-semibold font-BG text-black leading-tight"
 					>
 						<span> Bạn cần đầu tư, </span>
@@ -17,8 +18,9 @@
 						Đã có hơn <span class="text-[24px] xl:text-[40px] text-[#02E56A]"> 1500 khách hàng </span> đăng
 						ký đặt trước!
 					</p>
+					</div>
 
-					<div class="flex justify-center xl:justify-start gap-3 mt-5 xl:mt-12">
+					<div class="flex justify-center xl:justify-start gap-3 mt-5 xl:mt-12 mb-2">
 						<nuxt-link
 							to="/"
 							class="animate-ups__item h-10 px-4 inline-flex gap-4 items-center rounded-[12px] bg-[#15171E]"
@@ -96,8 +98,8 @@
 					<!-- FEEDBACK -->
 					<feedback />
 				</div>
-
-				<div class="hidden xl:block absolute top-0 right-[-5%] z-[-1] w-[1100px] h-[1200px]">
+				
+				<!-- <div class="hidden xl:block absolute top-0 right-[-5%] z-[-1] w-[1100px] h-[1200px]">
 					<nuxt-img
 						format="webp"
 						loading="lazy"
@@ -107,7 +109,7 @@
 						class="absolute scale-75 animate-ups__item"
 						src="/background/bg-02.png"
 					/>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
