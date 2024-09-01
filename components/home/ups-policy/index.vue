@@ -168,7 +168,7 @@
 												<p
 													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
 												>
-													Mở tài khoản nhanh
+													Mở tài khoản định danh eKYC tức thì
 												</p>
 											</div>
 											<div class="flex gap-3 items-center">
@@ -185,7 +185,7 @@
 												<p
 													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
 												>
-													Nền tảng giao dịch thân thiện
+													Nền tảng giao dịch cá nhân hóa
 												</p>
 											</div>
 											<div class="flex gap-3 items-center">
@@ -202,7 +202,7 @@
 												<p
 													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
 												>
-													Tốc độ đặt lệnh nhanh
+													Tốc độ đặt lệnh siêu nhanh
 												</p>
 											</div>
 										</div>
@@ -237,7 +237,7 @@
 										<div
 											class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
 										>
-											#hấp dẫn
+											#chuyên nghiệp
 										</div>
 										<h3
 											class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3"
@@ -259,7 +259,7 @@
 												<p
 													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
 												>
-													Mở tài khoản nhanh
+													Tỷ lệ hoa hồng hấp dẫn nhất thị trường
 												</p>
 											</div>
 											<div class="flex gap-3 items-center">
@@ -276,7 +276,7 @@
 												<p
 													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
 												>
-													Nền tảng giao dịch thân thiện
+													Gia tăng thu nhập không giới hạn
 												</p>
 											</div>
 											<div class="flex gap-3 items-center">
@@ -293,7 +293,7 @@
 												<p
 													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
 												>
-													Tốc độ đặt lệnh nhanh
+													Cơ hội giao lưu cộng đồng đầu tư chuyên nghiệp
 												</p>
 											</div>
 										</div>
@@ -328,7 +328,7 @@
 										<div
 											class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
 										>
-											#hiệu quả
+											#hấpdẫn
 										</div>
 										<h3
 											class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3"
@@ -350,7 +350,7 @@
 												<p
 													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
 												>
-													Mở tài khoản nhanh
+													Phí giao dịch cạnh tranh
 												</p>
 											</div>
 											<div class="flex gap-3 items-center">
@@ -367,7 +367,7 @@
 												<p
 													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
 												>
-													Nền tảng giao dịch thân thiện
+													Sản phẩm margin hấp dẫn, ưu đãi shock
 												</p>
 											</div>
 											<div class="flex gap-3 items-center">
@@ -384,7 +384,7 @@
 												<p
 													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80"
 												>
-													Tốc độ đặt lệnh nhanh
+													Tư vấn hiệu quả 24/7
 												</p>
 											</div>
 										</div>
@@ -422,7 +422,7 @@
 								<div
 									class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
 								>
-									#tốc độ
+									#tốcđộ
 								</div>
 								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
 									Giao dịch tức thì
@@ -440,7 +440,7 @@
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Mở tài khoản nhanh
+											Nền tảng giao dịch cá nhân hóa
 										</p>
 									</div>
 									<div class="flex gap-3 items-center">
@@ -455,7 +455,7 @@
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Nền tảng giao dịch thân thiện
+											Nền tảng giao dịch cá nhân hóa
 										</p>
 									</div>
 									<div class="flex gap-3 items-center">
@@ -470,7 +470,7 @@
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Tốc độ đặt lệnh nhanh
+											Tốc độ đặt lệnh siêu nhanh
 										</p>
 									</div>
 								</div>
@@ -503,7 +503,7 @@
 								<div
 									class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
 								>
-									#tốc độ
+									#chuyênnghiệp
 								</div>
 								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
 									Chính sách hợp tác hấp dẫn
@@ -521,7 +521,7 @@
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Mở tài khoản nhanh
+											Tỷ lệ hoa hồng hấp dẫn nhất thị trường
 										</p>
 									</div>
 									<div class="flex gap-3 items-center">
@@ -536,7 +536,7 @@
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Nền tảng giao dịch thân thiện
+											Gia tăng thu nhập không giới hạn
 										</p>
 									</div>
 									<div class="flex gap-3 items-center">
@@ -551,7 +551,7 @@
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Tốc độ đặt lệnh nhanh
+											Cơ hội giao lưu cộng đồng đầu tư chuyên nghiệp
 										</p>
 									</div>
 								</div>
@@ -584,7 +584,7 @@
 								<div
 									class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]"
 								>
-									#hiệu quả
+									#hấpdẫn
 								</div>
 								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
 									Quản lý đầu tư hiệu quả
@@ -602,7 +602,7 @@
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Mở tài khoản nhanh
+											Phí giao dịch cạnh tranh
 										</p>
 									</div>
 									<div class="flex gap-3 items-center">
@@ -617,7 +617,7 @@
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Nền tảng giao dịch thân thiện
+											Sản phẩm margin hấp dẫn, ưu đãi shock
 										</p>
 									</div>
 									<div class="flex gap-3 items-center">
@@ -632,7 +632,7 @@
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Tốc độ đặt lệnh nhanh
+											Tư vấn hiệu quả 24/7
 										</p>
 									</div>
 								</div>

@@ -38,6 +38,7 @@ export default defineNuxtConfig({
 		define: {
 			"process.env.NUXT_APP_PORT": JSON.stringify(process.env.NUXT_APP_PORT),
 			"process.env.NUXT_APP_API_URL": JSON.stringify(process.env.NUXT_APP_API_URL),
+			"process.env.NUXT_APP_IMAGE_URL": JSON.stringify(process.env.NUXT_APP_IMAGE_URL),
 		},
 	},
 

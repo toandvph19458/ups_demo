@@ -1,7 +1,7 @@
 <template>
 	<div class="pt-0 md:pt-10 xl:pt-16">
 		<div class="container">
-			<div class="flex gap-2 items-center justify-center gap-5">
+			<div class="flex items-center justify-center gap-5">
 				<h2 class="text-[54px] xl:text-[80px] text-black font-bold font-BG leading-tight">Bản tin</h2>
 				<div class="animate-about__item inline-flex relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px] mt-2">
 					<nuxt-img
@@ -19,40 +19,12 @@
 				class="py-5 xl:py-8 flex flex-wrap gap-3 md:gap-10 xl:gap-10 items-start xl:items-center justify-center"
 			>
 				<nuxt-link
-					to="/"
+					v-for="(doc, i) in data?.dataCateAndTags?.p_categories"
+					:key="i"
+					:to="`/tin-tuc/${doc?.slug}`"
 					class="py-1 md:py-2 text-base text-black font-bold hover:underline"
 				>
-					Biến động thị trường
-				</nuxt-link>
-				<nuxt-link
-					to="/"
-					class="py-1 md:py-2 text-base text-black font-bold hover:underline"
-				>
-					Báo cáo ngày
-				</nuxt-link>
-				<nuxt-link
-					to="/"
-					class="py-1 md:py-2 text-base text-black font-bold hover:underline"
-				>
-					Phân tích từ UPS
-				</nuxt-link>
-				<nuxt-link
-					to="/"
-					class="py-1 md:py-2 text-base text-black font-bold hover:underline"
-				>
-					Về UPS
-				</nuxt-link>
-				<nuxt-link
-					to="/"
-					class="py-1 md:py-2 text-base text-black font-bold hover:underline"
-				>
-					Sự kiện doanh nghiệp
-				</nuxt-link>
-				<nuxt-link
-					to="/"
-					class="py-1 md:py-2 text-base text-black font-bold hover:underline"
-				>
-					Nội bộ UPS
+					{{ doc?.title }}
 				</nuxt-link>
 			</div>
 
@@ -127,8 +99,8 @@
 				<div class="flex-1 w-full">
 					<div class="flex flex-col md:flex-row justify-between">
 						<h4 class="text-[24px] md:text-[40px] font-semibold font-BG">
-							Biến động
-							<span class="text-green-ups">thị trường</span>
+							Tin
+							<span class="text-green-ups">hàng ngày</span>
 						</h4>
 
 						<div class="flex flex-col md:flex-row gap-5 items-center">
@@ -261,89 +233,98 @@
 					</div>
 
 					<div class="mt-10 flex gap-10 flex-col">
-						<div
-							v-for="i in 10"
-							:key="i"
-							class="flex flex-col md:flex-row gap-8 group"
-						>
+						<template v-if="data?.dataNews?.posts.length > 0">
 							<div
-								class="w-full md:w-[400px] h-[220px] md:h-auto md:max-h-min relative rounded-[14px] overflow-hidden"
+								class="flex flex-col md:flex-row gap-8 group"
+								v-for="(doc, i) in data?.dataNews?.posts"
+								:key="i"
 							>
-								<nuxt-img
-									format="webp"
-									loading="lazy"
-									alt="UPS"
-									:src="i % 2 == 0 ? '/images/tin-tuc-04.png' : '/images/tin-tuc-06.png'"
-									class="absolute w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-								/>
-							</div>
-
-							<div class="flex-1 w-full">
-								<p class="text-sm md:text-lg text-[#00C645] font-medium">#top.co.phieu</p>
-								<h3 class="mt-3 md:mt-5 text-lg md:text-2xl text-black font-semibold line-clamp-2">
-									Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-									Carolina
-								</h3>
-
-								<div class="flex gap-2 items-center my-5">
-									<i>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="18"
-											height="19"
-											viewBox="0 0 18 19"
-											fill="none"
-										>
-											<path
-												d="M9 17C13.1421 17 16.5 13.6421 16.5 9.5C16.5 5.35786 13.1421 2 9 2C4.85786 2 1.5 5.35786 1.5 9.5C1.5 13.6421 4.85786 17 9 17Z"
-												stroke="#696B75"
-												stroke-width="2"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-											<path
-												d="M9 5V9.5L12 11"
-												stroke="#696B75"
-												stroke-width="2"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											/>
-										</svg>
-									</i>
-
-									<span class="text-sm md:text-base text-[#696B75] font-semibold">
-										15/08/2024 - 22:20
-									</span>
+								<div
+									class="w-full md:w-[400px] h-[220px] md:h-auto md:max-h-min relative rounded-[14px] overflow-hidden"
+								>
+									<nuxt-img
+										format="webp"
+										loading="lazy"
+										:alt="doc?.short_content?.title"
+										:src="'http://api.upse.vn/assets/835bb569-dfe3-4223-9944-f8de3c316acc'"
+										class="absolute w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
+									/>
 								</div>
 
-								<p class="text-sm md:text-xl text-black font-normal line-clamp-2">
-									Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-									Carolina
-								</p>
-
-								<nuxt-link
-									to="/tin-tuc/slug"
-									class="mt-5 inline-flex gap-5 items-center text-sm md:text-base text-black font-bold"
-								>
-									<span> Xem chi tiết </span>
-
-									<i>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="16"
-											height="13"
-											viewBox="0 0 16 13"
-											fill="none"
+								<div class="flex-1 w-full">
+									<template v-if="doc?.short_content?.tags.length > 0">
+										<p
+											v-for="(sub, k) in doc?.short_content?.tags"
+											:key="k"
+											class="text-sm md:text-lg text-[#00C645] font-medium"
 										>
-											<path
-												d="M1 5.75C0.585786 5.75 0.25 6.08579 0.25 6.5C0.25 6.91421 0.585786 7.25 1 7.25V5.75ZM15.6725 7.03033C15.9654 6.73744 15.9654 6.26256 15.6725 5.96967L10.8995 1.1967C10.6066 0.903806 10.1317 0.903806 9.83883 1.1967C9.54594 1.48959 9.54594 1.96447 9.83883 2.25736L14.0815 6.5L9.83883 10.7426C9.54594 11.0355 9.54594 11.5104 9.83883 11.8033C10.1317 12.0962 10.6066 12.0962 10.8995 11.8033L15.6725 7.03033ZM1 7.25H15.1421V5.75H1V7.25Z"
-												fill="#15171E"
-											/>
-										</svg>
-									</i>
-								</nuxt-link>
+											{{ `#${sub?.tag.slug}` }}
+										</p>
+									</template>
+
+									<h3 class="mt-3 md:mt-5 text-lg md:text-2xl text-black font-semibold line-clamp-2">
+										{{ doc?.short_content?.title }}
+									</h3>
+
+									<div class="flex gap-2 items-center my-5">
+										<i>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="18"
+												height="19"
+												viewBox="0 0 18 19"
+												fill="none"
+											>
+												<path
+													d="M9 17C13.1421 17 16.5 13.6421 16.5 9.5C16.5 5.35786 13.1421 2 9 2C4.85786 2 1.5 5.35786 1.5 9.5C1.5 13.6421 4.85786 17 9 17Z"
+													stroke="#696B75"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+												<path
+													d="M9 5V9.5L12 11"
+													stroke="#696B75"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</i>
+
+										<span class="text-sm md:text-base text-[#696B75] font-semibold">
+											{{ doc?.short_content?.date_published }}
+										</span>
+									</div>
+
+									<p class="text-sm md:text-xl text-black font-normal line-clamp-2">
+										{{ doc?.short_content?.blurb }}
+									</p>
+
+									<nuxt-link
+										:to="`/tin-tuc/${doc?.short_content?.slug}`"
+										class="mt-5 inline-flex gap-5 items-center text-sm md:text-base text-black font-bold"
+									>
+										<span> Xem chi tiết </span>
+
+										<i>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="16"
+												height="13"
+												viewBox="0 0 16 13"
+												fill="none"
+											>
+												<path
+													d="M1 5.75C0.585786 5.75 0.25 6.08579 0.25 6.5C0.25 6.91421 0.585786 7.25 1 7.25V5.75ZM15.6725 7.03033C15.9654 6.73744 15.9654 6.26256 15.6725 5.96967L10.8995 1.1967C10.6066 0.903806 10.1317 0.903806 9.83883 1.1967C9.54594 1.48959 9.54594 1.96447 9.83883 2.25736L14.0815 6.5L9.83883 10.7426C9.54594 11.0355 9.54594 11.5104 9.83883 11.8033C10.1317 12.0962 10.6066 12.0962 10.8995 11.8033L15.6725 7.03033ZM1 7.25H15.1421V5.75H1V7.25Z"
+													fill="#15171E"
+												/>
+											</svg>
+										</i>
+									</nuxt-link>
+								</div>
 							</div>
-						</div>
+						</template>
 					</div>
 
 					<!-- PHÂN TRANG  -->
@@ -521,6 +502,8 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import { cn } from "~/lib/utils";
+import { config } from "~/lib/config";
+
 import { SwiperNavigation, SwiperAutoplay } from "#imports";
 import Feedback from "@/components/common/feedback/index.vue";
 import { Button } from "@/components/ui/button";
@@ -535,6 +518,7 @@ import {
 	PaginationPrev,
 } from "@/components/ui/pagination";
 import NuxtInput from "@/components/ui/input/index.vue";
+import moment from "moment";
 
 export default defineComponent({
 	name: "tin-tuc",
@@ -552,10 +536,25 @@ export default defineComponent({
 	},
 
 	setup(props, ctx) {
+		const newStore = useNewsStore();
+
+		const { data } = useAsyncData("news", async () => {
+			const dataCateAndTags = await newStore.fnGetCateAndTags();
+			const dataNews = await newStore.fnGetListNews();
+
+			return {
+				dataCateAndTags: dataCateAndTags.data?.data,
+				dataNews: dataNews.data?.data,
+			};
+		});
+
 		return {
-			cn,
 			SwiperNavigation,
 			SwiperAutoplay,
+
+			cn,
+			config,
+			data,
 		};
 	},
 });

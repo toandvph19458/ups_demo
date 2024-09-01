@@ -22,10 +22,7 @@
 					@swiper="setVSwiperRef"
 					@slide-change="updateVSwiperIndex"
 				>
-					<swiper-slide
-						v-for="i in 3"
-						:key="i"
-					>
+					<swiper-slide>
 						<div class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center">
 							<div class="w-full md:max-w-[500px] xl:max-w-[768px]">
 								<div
@@ -48,9 +45,221 @@
 										Chính thức ra mắt
 									</h2>
 									<h2
-										class="animate-ups__item text-2xl lg:text-[40px] xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent leading-loose"
+										class="animate-ups__item text-2xl lg:text-[40px] xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-loose"
 									>
 										Dẫn lối hành trình đầu tư
+									</h2>
+
+									<p
+										class="animate-ups__item mt-3 lg:mt-5 xl:mt-10 mr-20 xl:mr-32 text-xs lg:text-sm xl:text-lg text-[#3C4052] font-medium"
+									>
+										UPS là công ty đầu tư chứng khoán đột phá dành cho thế hệ nhà đầu tư mới, nơi
+										công nghệ và tư duy đổi mới, sáng tạo hợp nhất để đem lại trải nghiệm đầu tư
+										thông minh, dễ dàng, và thú vị.
+									</p>
+								</div>
+
+								<div class="btn-wrapper flex gap-5 items-center mt-10 pl-1 pb-2">
+									<div class="inline-flex animate-ups__item">
+										<nuxt-link
+											to="/"
+											class="btn active group"
+										>
+											<span> Mở tài khoản ngay </span>
+											<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+												<i class="w-full h-full group-hover:inline-flex hidden absolute">
+													<nuxt-img
+														src="/icons/arrow-dark-icon.svg"
+														loading="lazy"
+														width="16"
+														height="16"
+														alt="UPS"
+													/>
+												</i>
+
+												<i class="w-full h-full group-hover:hidden inline-flex absolute">
+													<nuxt-img
+														src="/icons/arrow-icon.svg"
+														loading="lazy"
+														width="16"
+														height="16"
+														alt="UPS"
+													/>
+												</i>
+											</div>
+										</nuxt-link>
+									</div>
+
+									<nuxt-link
+										to="/"
+										class="btn group animate-ups__item border border-[#222]"
+									>
+										<span> Đăng nhập/Giao dịch ngay </span>
+										<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+											<i class="w-full h-full inline-flex absolute">
+												<nuxt-img
+													src="/icons/arrow-dark-icon.svg"
+													loading="lazy"
+													width="16"
+													height="16"
+													alt="UPS"
+												/>
+											</i>
+										</div>
+									</nuxt-link>
+								</div>
+							</div>
+
+							<div class="flex-1 w-full">
+								<div
+									class="w-full relative h-[225px] md:h-[437px] xl:h-[656px] rounded-[14px] lg:rounded-s-[40px] overflow-hidden"
+								>
+									<nuxt-img
+										fit="cover"
+										loading="lazy"
+										src="/images/image-1.png"
+										height="656"
+										alt="UPS"
+										class="absolute w-full h-full object-cover animate-ups__item"
+									/>
+								</div>
+							</div>
+						</div>
+					</swiper-slide>
+					<swiper-slide>
+						<div class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center">
+							<div class="w-full md:max-w-[500px] xl:max-w-[768px]">
+								<div class="my-3 lg:my-8">
+									<h2
+										class="animate-ups__item text-lg lg:text-[32px] xl:text-[48px] font-bold font-BG"
+									>
+										Đầu tư không khó
+									</h2>
+									<h2
+										class="animate-ups__item flex items-center text-2xl lg:text-[40px] xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-loose"
+									>
+										Đã có
+										<div
+											class="inline-flex relative mx-4 w-[76px] h-[36px] lg:w-[145px] lg:h-[66px] xl:w-[200px] xl:h-[80px]"
+										>
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												src="/logo/logo-icon.png"
+												height="100"
+												class="link absolute w-full h-full object-contain"
+											/>
+										</div>
+										lo
+									</h2>
+
+									<p
+										class="animate-ups__item mt-3 lg:mt-5 xl:mt-10 mr-20 xl:mr-32 text-xs lg:text-sm xl:text-lg text-[#3C4052] font-medium"
+									>
+										UPS là công ty đầu tư chứng khoán đột phá dành cho thế hệ nhà đầu tư mới, nơi
+										công nghệ và tư duy đổi mới, sáng tạo hợp nhất để đem lại trải nghiệm đầu tư
+										thông minh, dễ dàng, và thú vị.
+									</p>
+								</div>
+
+								<div class="btn-wrapper flex gap-5 items-center mt-10 pl-1 pb-2">
+									<div class="inline-flex animate-ups__item">
+										<nuxt-link
+											to="/"
+											class="btn active group"
+										>
+											<span> Mở tài khoản ngay </span>
+											<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+												<i class="w-full h-full group-hover:inline-flex hidden absolute">
+													<nuxt-img
+														src="/icons/arrow-dark-icon.svg"
+														loading="lazy"
+														width="16"
+														height="16"
+														alt="UPS"
+													/>
+												</i>
+
+												<i class="w-full h-full group-hover:hidden inline-flex absolute">
+													<nuxt-img
+														src="/icons/arrow-icon.svg"
+														loading="lazy"
+														width="16"
+														height="16"
+														alt="UPS"
+													/>
+												</i>
+											</div>
+										</nuxt-link>
+									</div>
+
+									<nuxt-link
+										to="/"
+										class="btn group animate-ups__item border border-[#222]"
+									>
+										<span> Đăng nhập/Giao dịch ngay </span>
+										<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+											<i class="w-full h-full inline-flex absolute">
+												<nuxt-img
+													src="/icons/arrow-dark-icon.svg"
+													loading="lazy"
+													width="16"
+													height="16"
+													alt="UPS"
+												/>
+											</i>
+										</div>
+									</nuxt-link>
+								</div>
+							</div>
+
+							<div class="flex-1 w-full">
+								<div
+									class="w-full relative h-[225px] md:h-[437px] xl:h-[656px] rounded-[14px] lg:rounded-s-[40px] overflow-hidden"
+								>
+									<nuxt-img
+										fit="cover"
+										loading="lazy"
+										src="/images/image-3.png"
+										height="656"
+										alt="UPS"
+										class="absolute w-full h-full object-cover animate-ups__item"
+									/>
+								</div>
+							</div>
+						</div>
+					</swiper-slide>
+					<swiper-slide>
+						<div class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center">
+							<div class="w-full md:max-w-[500px] xl:max-w-[768px]">
+								<div class="my-3 lg:my-8">
+									<h2
+										class="animate-ups__item flex items-center text-lg lg:text-[32px] xl:text-[48px] font-bold font-BG"
+									>
+										Cùng
+										<div
+											class="inline-flex relative mx-3 w-[76px] h-[36px] lg:w-[145px] lg:h-[66px] xl:w-[130px] xl:h-[58px]"
+										>
+											<nuxt-img
+												loading="lazy"
+												alt="UPS"
+												src="/logo/logo-cap-dark.png"
+												width="130px"
+												height="58"
+												class="link absolute w-full h-full object-contain"
+											/>
+										</div>
+									</h2>
+									<h2
+										class="animate-ups__item text-2xl my-2 lg:my-5 lg:text-[40px] xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent leading-[1.3] capitalize"
+									>
+										Kiến tạo trải nghiệm đầu tư đầy hứng khởi
+									</h2>
+
+									<h2
+										class="animate-ups__item text-lg lg:text-[32px] xl:text-[48px] font-bold font-BG"
+									>
+										ngay hôm nay
 									</h2>
 
 									<p
@@ -120,7 +329,7 @@
 									<nuxt-img
 										fit="cover"
 										loading="lazy"
-										src="/images/image-1.png"
+										src="/images/image-4.png"
 										height="656"
 										alt="UPS"
 										class="absolute w-full h-full object-cover animate-ups__item"

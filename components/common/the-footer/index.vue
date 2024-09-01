@@ -61,7 +61,7 @@
 						</div>
 
 						<!-- SOSIAL -->
-						<div class="mt-4 flex gap-2">
+						<div class="mt-4 flex gap-4">
 							<nuxt-link
 								href="/"
 								target="_blank"
@@ -140,9 +140,9 @@
 								<nuxt-img
 									format="webp"
 									loading="lazy"
-									alt="In"
+									alt="Lulu"
 									height="24"
-									src="/social/in.svg"
+									src="/social/lulu.svg"
 									class="absolute w-full h-full object-contain"
 								/>
 							</nuxt-link>
@@ -256,75 +256,44 @@
 								</div>
 							</div>
 						</div>
-
 						<div class="mt-10 lg:mt-[75px]">
 							<div class="flex gap-4 items-center">
-								<p class="text-base lg:text-xl text-[#EEEEEE] font-normal">Tải ứng dụng</p>
-								<i>
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										width="12"
-										height="12"
-										viewBox="0 0 12 12"
-										fill="none"
-									>
-										<path
-											d="M1.53033 0.46967C1.23744 0.176777 0.762563 0.176777 0.46967 0.46967C0.176777 0.762563 0.176777 1.23744 0.46967 1.53033L1.53033 0.46967ZM11 11.75C11.4142 11.75 11.75 11.4142 11.75 11L11.75 4.25C11.75 3.83579 11.4142 3.5 11 3.5C10.5858 3.5 10.25 3.83579 10.25 4.25V10.25H4.25C3.83579 10.25 3.5 10.5858 3.5 11C3.5 11.4142 3.83579 11.75 4.25 11.75L11 11.75ZM0.46967 1.53033L10.4697 11.5303L11.5303 10.4697L1.53033 0.46967L0.46967 1.53033Z"
-											fill="#fff"
-										/>
-									</svg>
-								</i>
+								<p class="text-base lg:text-base text-black font-bold">Đầu tư ngay</p>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="12"
+									height="12"
+									viewBox="0 0 12 12"
+									fill="none"
+								>
+									<path
+										d="M1.70711 0.292893C1.31658 -0.0976311 0.683418 -0.0976311 0.292893 0.292893C-0.0976311 0.683418 -0.0976311 1.31658 0.292893 1.70711L1.70711 0.292893ZM11 12C11.5523 12 12 11.5523 12 11L12 2C12 1.44772 11.5523 1 11 1C10.4477 1 10 1.44772 10 2L10 10L2 10C1.44772 10 1 10.4477 1 11C1 11.5523 1.44772 12 2 12L11 12ZM0.292893 1.70711L10.2929 11.7071L11.7071 10.2929L1.70711 0.292893L0.292893 1.70711Z"
+										fill="#15171E"
+									/>
+								</svg>
 							</div>
 
 							<div class="mt-5 flex gap-4">
 								<nuxt-link
 									to="/"
 									target="_blank"
-									class="animate-ups__item h-[54px] lg:h-[68px] px-3 inline-flex gap-2 items-center rounded-[12px] bg-[#111111]"
+									class="animate-ups__item h-12 lg:h-12 px-3 inline-flex gap-3 items-center rounded-[12px] bg-[#111111]"
 								>
-									<div class="inline-flex relative w-6 lg:w-8 h-6 lg:h-8">
+									<div class="inline-flex relative w-4 lg:w-4 h-4 lg:h-4">
 										<nuxt-img
 											format="webp"
 											loading="lazy"
-											alt="Google Play"
-											width="32"
-											height="32"
-											src="/icons/chplay-icon.svg"
+											alt="UPS"
+											width="16"
+											height="16"
+											src="/logo/logo-row.png"
 											class="absolute w-full h-full object-contain"
 										/>
 									</div>
 
-									<div class="pr-0 lg:pr-5">
-										<p class="text-[10px] lg:text-xs uppercase font-normal text-white opacity-55">
-											Get it on
-										</p>
-										<p class="text-base lg:text-lg font-semibold text-white">Google Play</p>
-									</div>
-								</nuxt-link>
-
-								<nuxt-link
-									to="/"
-									target="_blank"
-									class="animate-ups__item h-[54px] lg:h-[68px] px-3 inline-flex gap-2 items-center rounded-[12px] bg-[#111111]"
-								>
-									<div class="inline-flex relative w-6 lg:w-8 h-6 lg:h-8">
-										<nuxt-img
-											format="webp"
-											loading="lazy"
-											alt="Google Play"
-											width="32"
-											height="32"
-											src="/icons/app-store-icon.svg"
-											class="absolute w-full h-full object-contain"
-										/>
-									</div>
-
-									<div class="pr-0 lg:pr-5">
-										<p class="text-[10px] lg:text-xs uppercase font-normal text-white opacity-55">
-											Download on the
-										</p>
-										<p class="text-base lg:text-lg font-semibold text-white">App Store</p>
-									</div>
+									<p class="text-lg text-white font-semibold">
+										Truy cập <span class="text-green-ups">Bảng giá</span> ngay
+									</p>
 								</nuxt-link>
 							</div>
 						</div>
