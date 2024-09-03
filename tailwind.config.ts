@@ -7,10 +7,13 @@ module.exports = {
 	prefix: "",
 	theme: {
 		screens: {
-			sm: "480px",
-			md: "768px",
-			lg: "992px",
-			xl: "1200px",
+			sm: "374px",
+			md: "767px",
+			lg: "1023px",
+			xl: "1279px",
+			xxl: "1439px",
+			
+
 		},
 		fontFamily: {
 			BG: ["Bricolage Grotesque", "sans-serif"],
