@@ -12,8 +12,6 @@ module.exports = {
 			lg: "1023px",
 			xl: "1279px",
 			xxl: "1439px",
-			
-
 		},
 		fontFamily: {
 			BG: ["Bricolage Grotesque", "sans-serif"],

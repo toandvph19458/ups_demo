@@ -29,11 +29,14 @@
 			</div>
 
 			<!-- TIN TỨC HOT -->
-			<div class="py-5 xl:py-10">
+			<div
+				v-if="data?.dataNews?.posts.length > 0"
+				class="py-5 xl:py-10"
+			>
 				<div
 					class="flex flex-col md:flex-row xl:flex-row h-[570px] bg-[#15171E] rounded-[20px] overflow-hidden"
 				>
-					<div class="flex-1 w-full h-full flex flex-col items-center justify-center">
+					<div class="flex-1 w-full h-full flex flex-col items-start justify-center">
 						<div class="p-5 md:px-[60px]">
 							<div
 								class="animate-about__item inline-flex relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]"
@@ -49,19 +52,17 @@
 							</div>
 
 							<h3 class="mt-5 text-[16px] md:text-[18px] xl:text-[32px] text-white font-medium font-BG">
-								Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina
+								{{ data?.dataNews?.posts[0]?.short_content?.title }}
 							</h3>
 
 							<div class="w-[140px] h-[2px] bg-[#02E56A] my-5 md:my-10 xl:my-[60px]"></div>
 
 							<p class="text-sm md:text-base xl:text-xl text-[#8A8C95] font-medium">
-								Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina
+								{{ data?.dataNews?.posts[0]?.short_content?.blurb }}
 							</p>
 
 							<nuxt-link
-								to="/tin-tuc/slug"
+								:to="`/tin-tuc/${data?.dataNews?.posts[0]?.short_content?.slug}`"
 								class="mt-8 inline-flex gap-3 items-center text-sm xl:text-base font-semibold text-white hover:underline"
 							>
 								<span>Xem chi tiết</span>
@@ -87,8 +88,9 @@
 						<nuxt-img
 							format="webp"
 							loading="lazy"
-							alt="UPS"
-							src="/images/tin-tuc-02.png"
+							height="78"
+							:alt="data?.dataNews?.posts[0]?.short_content?.title"
+							src="http://api.upse.vn/assets/835bb569-dfe3-4223-9944-f8de3c316acc"
 							class="w-full h-full object-cover"
 						/>
 					</div>
@@ -105,8 +107,8 @@
 
 						<div class="flex flex-col md:flex-row gap-5 items-center">
 							<div class="w-full flex items-center relative">
-								<i
-									><svg
+								<i>
+									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										width="24"
 										height="25"
@@ -235,18 +237,16 @@
 					<div class="mt-10 flex gap-10 flex-col">
 						<template v-if="data?.dataNews?.posts.length > 0">
 							<div
-								class="flex flex-col md:flex-row gap-8 group"
 								v-for="(doc, i) in data?.dataNews?.posts"
 								:key="i"
+								class="flex flex-col md:flex-row gap-8 group"
 							>
 								<div
 									class="w-full md:w-[400px] h-[220px] md:h-auto md:max-h-min relative rounded-[14px] overflow-hidden"
 								>
 									<nuxt-img
-										format="webp"
-										loading="lazy"
 										:alt="doc?.short_content?.title"
-										:src="'http://api.upse.vn/assets/835bb569-dfe3-4223-9944-f8de3c316acc'"
+										:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
 										class="absolute w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
 									/>
 								</div>
@@ -331,10 +331,10 @@
 					<div class="flex justify-center py-10 md:py-[60px]">
 						<Pagination
 							v-slot="{ page }"
-							:total="40"
-							:sibling-count="1"
+							:total="data?.dataNews?.posts_aggregated[0]?.count?.slug"
+							:sibling-count="10"
 							show-edges
-							:default-page="2"
+							:default-page="1"
 						>
 							<PaginationList
 								v-slot="{ items }"
@@ -374,47 +374,6 @@
 								<!-- <PaginationLast /> -->
 							</PaginationList>
 						</Pagination>
-					</div>
-
-					<!-- HASTAG -->
-
-					<div class="flex flex-wrap gap-10 justify-center pt-6 md:pt-[50px] pb-20 md:pb-[100px]">
-						<nuxt-link
-							to="/"
-							class="text-base text-black font-bold"
-						>
-							#tinthitruong
-						</nuxt-link>
-						<nuxt-link
-							to="/"
-							class="text-base text-black font-bold"
-						>
-							#tinxahoi
-						</nuxt-link>
-						<nuxt-link
-							to="/"
-							class="text-base text-black font-bold"
-						>
-							#congbomoi
-						</nuxt-link>
-						<nuxt-link
-							to="/"
-							class="text-base text-black font-bold"
-						>
-							#baocaomoingay
-						</nuxt-link>
-						<nuxt-link
-							to="/"
-							class="text-base text-black font-bold"
-						>
-							#thegioihanghoa
-						</nuxt-link>
-						<nuxt-link
-							to="/"
-							class="text-base text-black font-bold"
-						>
-							#phaisinh
-						</nuxt-link>
 					</div>
 				</div>
 				<div class="w-full max-w-full md:max-w-[340px] xl:max-w-[340px]">
@@ -472,7 +431,7 @@
 					</div>
 
 					<!-- TIN TỨC LIÊN QUAN -->
-					<div class="mt-[60px]">
+					<!-- <div class="mt-[60px]">
 						<div
 							v-for="i in 3"
 							:key="i"
@@ -487,6 +446,18 @@
 								Carolina
 							</p>
 						</div>
+					</div> -->
+
+					<!-- HASTAG -->
+					<div class="flex flex-wrap gap-6 pt-6 md:pt-[60px]">
+						<nuxt-link
+							v-for="(doc, i) in data?.dataCateAndTags?.p_tags"
+							:key="i"
+							:to="`/tin-tuc/${doc?.slug}`"
+							class="text-base text-black font-bold"
+						>
+							{{ `#${doc?.title}` }}
+						</nuxt-link>
 					</div>
 				</div>
 			</div>
@@ -518,7 +489,6 @@ import {
 	PaginationPrev,
 } from "@/components/ui/pagination";
 import NuxtInput from "@/components/ui/input/index.vue";
-import moment from "moment";
 
 export default defineComponent({
 	name: "tin-tuc",
@@ -546,6 +516,47 @@ export default defineComponent({
 				dataCateAndTags: dataCateAndTags.data?.data,
 				dataNews: dataNews.data?.data,
 			};
+		});
+
+		useHead({
+			title: "UPS - Tin Tức",
+			titleTemplate: "UPS - Tin Tức",
+			meta: [
+				{
+					name: "description",
+					content:
+						"Cập nhật những tin tức mới nhất về hệ thống UPS - Giải pháp cung cấp nguồn điện liên tục và bảo vệ thiết bị điện.",
+				},
+				{
+					property: "og:title",
+					content: "UPS - Tin Tức",
+				},
+				{
+					property: "og:description",
+					content:
+						"Tìm hiểu những thông tin quan trọng về hệ thống UPS, cách bảo vệ thiết bị của bạn khỏi mất điện và đảm bảo hoạt động liên tục.",
+				},
+				{
+					property: "og:image",
+					content: "URL_to_your_image",
+				},
+				{
+					name: "twitter:card",
+					content: "summary_large_image",
+				},
+				{
+					name: "twitter:title",
+					content: "UPS - Tin Tức",
+				},
+				{
+					name: "twitter:description",
+					content: "Khám phá các giải pháp UPS mới nhất để đảm bảo nguồn điện liên tục cho hệ thống của bạn.",
+				},
+				{
+					name: "twitter:image",
+					content: "URL_to_your_image",
+				},
+			],
 		});
 
 		return {

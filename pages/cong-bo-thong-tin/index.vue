@@ -243,18 +243,42 @@
 					</Drawer>
 				</div>
 				<div class="hidden xl:block w-[280px] xl:w-[350px]">
-					<div class="mb-10">
+					<div>
 						<div class="flex items-center relative">
+							<i>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="24"
+									height="25"
+									viewBox="0 0 24 25"
+									fill="none"
+								>
+									<path
+										d="M11.5 21.5C16.7467 21.5 21 17.2467 21 12C21 6.75329 16.7467 2.5 11.5 2.5C6.25329 2.5 2 6.75329 2 12C2 17.2467 6.25329 21.5 11.5 21.5Z"
+										stroke="#A3A3A3"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M22 22.5L20 20.5"
+										stroke="#A3A3A3"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</i>
 							<nuxt-input
-								class="w-[300px] h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#15171E] placeholder:text-base"
-								placeholder="Nội dung tin tức"
-								name="content"
+								class="w-full md:w-[300px] h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
+								placeholder="Tìm kiếm"
+								name="search"
 							/>
 							<div class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"></div>
 						</div>
 
 						<div class="flex gap-4 mt-5">
-							<div class="flex-1">
+							<!-- <div class="flex-1">
 								<div class="flex items-center relative">
 									<nuxt-input
 										class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#15171E] placeholder:text-base"
@@ -264,14 +288,14 @@
 									/>
 									<div class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"></div>
 								</div>
-							</div>
+							</div> -->
 							<div class="flex-1">
 								<div class="flex items-center relative">
 									<nuxt-input
 										class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
 										placeholder="Lọc theo ngày"
 										name="date"
-										type="date"
+										type="year"
 									/>
 									<div class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"></div>
 								</div>
@@ -280,123 +304,49 @@
 					</div>
 
 					<!-- DANH MỤC -->
-					<div class="flex gap-3 flex-col">
-						<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
+					<div
+						v-if="data?.dataCateAndTags?.a_categories?.length > 0"
+						class="mt-5 lg:mt-10 flex gap-3 flex-col"
+					>
+						<div
+							v-for="(doc, i) in data?.dataCateAndTags?.a_categories"
+							:key="i"
+							class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]"
+						>
 							<div
 								class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
 							>
-								1
+								{{ i + 1 }}
 							</div>
 							<div
 								class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
 							>
-								Tin cổ đông
-							</div>
-						</div>
-						<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
-							<div
-								class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
-							>
-								2
-							</div>
-							<div
-								class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
-							>
-								Báo cáo tài chính
-							</div>
-						</div>
-						<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
-							<div
-								class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
-							>
-								3
-							</div>
-							<div
-								class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
-							>
-								Quan hệ cổ đông
-							</div>
-						</div>
-
-						<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
-							<div
-								class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
-							>
-								4
-							</div>
-							<div
-								class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
-							>
-								Thông tin Quản trị
-							</div>
-						</div>
-						<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
-							<div
-								class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
-							>
-								5
-							</div>
-							<div
-								class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
-							>
-								Báo cáo thường niên
+								{{ doc?.title }}
 							</div>
 						</div>
 					</div>
 
-					<div class="mt-5 flex gap-4 flex-wrap">
-						<div
-							class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-lg font-medium text-black hover:bg-[#F3F5FB]"
+					<div
+						v-if="data?.dataCateAndTags?.a_tags?.length > 0"
+						class="mt-5 lg:mt-10 flex gap-4 flex-wrap"
+					>
+						<p
+							v-for="(doc, i) in data?.dataCateAndTags?.a_tags"
+							:key="i"
+							class="text-base lg:text-lg text-[#7F8494] font-normal cursor-pointer"
 						>
-							2024
-						</div>
-						<div
-							class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-lg font-medium text-black hover:bg-[#F3F5FB]"
-						>
-							2023
-						</div>
-						<div
-							class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-lg font-medium text-black hover:bg-[#F3F5FB]"
-						>
-							2022
-						</div>
-						<div
-							class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-lg font-medium text-black hover:bg-[#F3F5FB]"
-						>
-							2021
-						</div>
-						<div
-							class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-lg font-medium text-black hover:bg-[#F3F5FB]"
-						>
-							2020
-						</div>
-						<div
-							class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-lg font-medium text-black hover:bg-[#F3F5FB]"
-						>
-							2019
-						</div>
-						<div
-							class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-lg font-medium text-black hover:bg-[#F3F5FB]"
-						>
-							2018
-						</div>
-						<div
-							class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-lg font-medium text-black hover:bg-[#F3F5FB]"
-						>
-							2017
-						</div>
-						<div
-							class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-lg font-medium text-black hover:bg-[#F3F5FB]"
-						>
-							2016
-						</div>
+							{{ `#${doc?.raw}` }}
+						</p>
 					</div>
 				</div>
 				<div class="flex-1 w-full">
-					<div class="grid gap-y-5 xl:gap-y-0 grid-cols-1 md:grid-cols-3 xl:grid-cols-3">
+					<div
+						v-if="data?.dataAnnouce?.announce.length > 0"
+						class="grid gap-y-5 xl:gap-y-0 grid-cols-1 md:grid-cols-3 xl:grid-cols-3"
+					>
 						<div
-							v-for="doc in 9"
-							:key="doc"
+							v-for="(doc, i) in data?.dataAnnouce?.announce"
+							:key="i"
 							class="p-0 md:p-2 xl:p-5"
 						>
 							<div class="flex flex-col relative group">
@@ -404,17 +354,27 @@
 									<nuxt-img
 										format="webp"
 										loading="lazy"
-										alt="UPS"
 										width="350"
 										height="290"
-										:src="doc % 2 == 0 ? '/images/tin-tuc-04.png' : '/images/tin-tuc-06.png'"
+										:alt="doc?.short_content?.title"
+										:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
 										class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
 									/>
 								</div>
 
 								<div class="mt-3 md:mt-5">
 									<div class="flex justify-between">
-										<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnew</p>
+										<div class="flex gap-1">
+											<template v-if="doc?.short_content?.tags?.length > 0">
+												<p
+													v-for="(sub, k) in doc?.short_content?.tags"
+													:key="k"
+													class="text-sm md:text-base xl:text-[17px] text-[#F05] font-medium"
+												>
+													{{ `#${sub?.tag?.title}` }}
+												</p>
+											</template>
+										</div>
 										<div class="inline-flex gap-2 items-center text-xs text-black font-semibold">
 											<i>
 												<svg
@@ -493,18 +453,17 @@
 									<h4
 										class="text-sm md:text-base xl:text-xl text-black font-bold line-clamp-1 mt-3 md:mt-6"
 									>
-										Nội dung tin tức
+										{{ doc?.short_content?.title }}
 									</h4>
 									<p
 										class="text-sm md:text-base xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2"
 									>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-										incididunt...
+										{{ doc?.short_content?.blurb }}
 									</p>
 								</div>
 
 								<nuxt-link
-									to="/"
+									:to="`/cong-bo-thong-tin/${doc?.short_content?.slug}`"
 									class="absolute w-full h-full"
 								/>
 							</div>
@@ -515,10 +474,10 @@
 					<div class="flex justify-center mt-12">
 						<Pagination
 							v-slot="{ page }"
-							:total="40"
-							:sibling-count="1"
+							:total="data?.dataAnnouce?.announce_aggregated[0]?.count?.slug"
+							:sibling-count="10"
 							show-edges
-							:default-page="2"
+							:default-page="1"
 						>
 							<PaginationList
 								v-slot="{ items }"
@@ -570,6 +529,7 @@ import { defineComponent } from "vue";
 import { ChevronRight } from "lucide-vue-next";
 import NuxtInput from "@/components/ui/input/index.vue";
 import { cn } from "~/lib/utils";
+import { config } from "@/lib/config";
 import {
 	Pagination,
 	PaginationEllipsis,
@@ -614,8 +574,63 @@ export default defineComponent({
 		DrawerTrigger,
 	},
 	setup(props, ctx) {
+		const announceStore = useAnnounceStore();
+
+		const { data } = useAsyncData("news", async () => {
+			const dataCateAndTags = await announceStore.fnGetCateAndTags();
+			const dataAnnouce = await announceStore.fnGetListAnnounce();
+
+			return {
+				dataCateAndTags: dataCateAndTags.data?.data,
+				dataAnnouce: dataAnnouce.data?.data,
+			};
+		});
+
+		useHead({
+			title: "UPS - Công bố tin tức",
+			titleTemplate: "UPS - Công bố tin tức",
+			meta: [
+				{
+					name: "description",
+					content:
+						"Cập nhật những tin tức mới nhất về hệ thống UPS - Giải pháp cung cấp nguồn điện liên tục và bảo vệ thiết bị điện.",
+				},
+				{
+					property: "og:title",
+					content: "UPS - Công bố tin tức",
+				},
+				{
+					property: "og:description",
+					content:
+						"Tìm hiểu những thông tin quan trọng về hệ thống UPS, cách bảo vệ thiết bị của bạn khỏi mất điện và đảm bảo hoạt động liên tục.",
+				},
+				{
+					property: "og:image",
+					content: "URL_to_your_image",
+				},
+				{
+					name: "twitter:card",
+					content: "summary_large_image",
+				},
+				{
+					name: "twitter:title",
+					content: "UPS - Công bố tin tức",
+				},
+				{
+					name: "twitter:description",
+					content: "Khám phá các giải pháp UPS mới nhất để đảm bảo nguồn điện liên tục cho hệ thống của bạn.",
+				},
+				{
+					name: "twitter:image",
+					content: "URL_to_your_image",
+				},
+			],
+		});
+
 		return {
 			cn,
+			config,
+			data,
 		};
 	},
 });

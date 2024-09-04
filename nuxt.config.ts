@@ -61,6 +61,7 @@ export default defineNuxtConfig({
 	},
 
 	image: {
+		domains: ["api.upse.vn"],
 		screens: {
 			xs: 320,
 			sm: 640,

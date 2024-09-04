@@ -85,7 +85,7 @@
 														v-if="item.sub && item.sub.length > 0"
 														class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
 													>
-														<div class="flex items-center ">
+														<div class="flex items-center">
 															<div
 																class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
 															>
@@ -204,9 +204,9 @@
 							:default-value="defaultValue"
 						>
 							<AccordionItem
-								v-for="(item, index) in dataFake"
-								:key="item.value"
-								:value="item.value"
+								v-for="(item, index) in data?.dataDocument?.instruction_structure"
+								:key="item.slug"
+								:value="item.slug"
 							>
 								<AccordionTrigger class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]">
 									<div class="flex items-center text-left">
@@ -221,18 +221,20 @@
 									</div>
 									<template #icon> <div></div></template>
 								</AccordionTrigger>
-								<AccordionContent v-if="item.sub && item.sub.length > 0">
+								<AccordionContent v-if="item.documents && item.documents.length > 0">
 									<div class="ml-11 flex flex-col gap-3">
 										<div
-											v-for="(sub, k) in item.sub"
+											v-for="(sub, k) in item.documents"
 											:key="k"
-											class="flex items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
+											class="flex gap-2 items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
 										>
 											<div class="w-11 h-11 inline-flex items-center justify-center">
 												<div class="w-2 h-2 inline-flex bg-[#15171E] rounded-full"></div>
 											</div>
 
-											<p class="text-lg text-black font-bold">{{ sub.title }}</p>
+											<p class="w-full flex-1 text-lg text-black font-bold capitalize">
+												{{ sub?.document?.title }}
+											</p>
 										</div>
 									</div>
 								</AccordionContent>
@@ -513,6 +515,8 @@ export default defineComponent({
 		ScrollArea,
 	},
 	setup(props, ctx) {
+		const instructionStructureStore = useInstructionStructureStore();
+
 		const defaultValue = "1";
 
 		const dataFake = [
@@ -591,9 +595,74 @@ export default defineComponent({
 				content: "Yes! You can use the transition prop to configure the animation.",
 			},
 		];
+
+		const { data } = useAsyncData("document", async () => {
+			const dataDocument = await instructionStructureStore.fnGetListInstructionStructure();
+
+			return {
+				dataDocument: dataDocument?.data?.data,
+			};
+		});
+
+		useHead({
+			title: "UPS - Hướng Dẫn Sử Dụng",
+			titleTemplate: "UPS - Hướng Dẫn Sử Dụng",
+			meta: [
+				{
+					name: "description",
+					content:
+						"Hướng dẫn chi tiết về cách sử dụng hệ thống UPS. Tìm hiểu cách cài đặt, bảo trì và sử dụng UPS để bảo vệ thiết bị điện của bạn khỏi mất điện.",
+				},
+				{
+					property: "og:title",
+					content: "Hướng Dẫn Sử Dụng UPS - Tất Cả Những Gì Bạn Cần Biết",
+				},
+				{
+					property: "og:description",
+					content:
+						"Hướng dẫn từng bước cách sử dụng hệ thống UPS. Đảm bảo thiết bị của bạn luôn hoạt động an toàn và hiệu quả với các mẹo và lời khuyên từ chuyên gia.",
+				},
+				{
+					property: "og:image",
+					content: "URL_to_your_image", // Replace with the actual URL of the image you want to use
+				},
+				{
+					property: "og:type",
+					content: "article",
+				},
+				{
+					name: "twitter:card",
+					content: "summary_large_image",
+				},
+				{
+					name: "twitter:title",
+					content: "Hướng Dẫn Sử Dụng UPS - Tất Cả Những Gì Bạn Cần Biết",
+				},
+				{
+					name: "twitter:description",
+					content:
+						"Khám phá hướng dẫn chi tiết về cách cài đặt và sử dụng hệ thống UPS để bảo vệ thiết bị của bạn.",
+				},
+				{
+					name: "twitter:image",
+					content: "URL_to_your_image", // Replace with the actual URL of the image you want to use
+				},
+				{
+					name: "keywords",
+					content:
+						"Hướng dẫn sử dụng UPS, cài đặt UPS, bảo trì UPS, cách dùng UPS, bảo vệ thiết bị điện, UPS",
+				},
+				{
+					name: "author",
+					content: "Tên tác giả hoặc tên công ty", // Replace with the author's name or company name
+				},
+			],
+		});
+
 		return {
 			defaultValue,
 			dataFake,
+			data,
 		};
 	},
 });

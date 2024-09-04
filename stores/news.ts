@@ -40,5 +40,17 @@ export const useNewsStore = defineStore({
 
 			return await httpRequest.post(``, { query });
 		},
+
+		async fnGetNewDetail(slug: string) {
+			let query = `
+				query {
+					posts_by_id(id: "${slug}") {
+						raw_content
+					}
+				}
+			`;
+
+			return await httpRequest.post(``, { query });
+		},
 	},
 });
