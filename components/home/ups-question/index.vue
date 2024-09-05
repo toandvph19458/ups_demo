@@ -291,7 +291,7 @@
                     <h4
                       class="text-[16px] md:text-[28px] text-[#033E1E] font-bold"
                     >
-                      Phí giao dịch tại UPS?
+                      Sự khác biệt của UPS
                     </h4>
                     <p class="text-xl md:text-[40px] text-[#fff] font-semibold">
                       {{ `0${2 + 1}` }}
@@ -361,7 +361,7 @@
                     <h4
                       class="text-[16px] md:text-[28px] text-[#033E1E] font-bold"
                     >
-                      Phí giao dịch tại UPS?
+                      Hướng dẫn sử dụng
                     </h4>
                     <p class="text-xl md:text-[40px] text-[#fff] font-semibold">
                       {{ `0${3 + 1}` }}
