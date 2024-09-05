@@ -199,7 +199,7 @@
 					<NavigationMenuContent>
 						<div class="w-[400px] flex flex-col gap-5 px-6 py-5">
 							<nuxt-link
-								to="/"
+								to="/gioi-thieu"
 								class="flex items-center"
 							>
 								<i class="inline-flex items-center justify-center">
