@@ -81,7 +81,7 @@
 						<div class="mt-6 md:mt-20 xl:mt-32">
 							<div class="animate-ups__item flex gap-4 items-center">
 								<p class="text-sm lg:text-base xl:text-xl text-[#EEEEEE] font-normal">Tải ứng dụng</p>
-								<i>
+								<!-- <i>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										width="12"
@@ -94,7 +94,7 @@
 											fill="#02E56A"
 										/>
 									</svg>
-								</i>
+								</i> -->
 							</div>
 
 							<div class="mt-5 flex gap-4">
