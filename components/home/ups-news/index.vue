@@ -178,7 +178,7 @@
 
 							<div class="mt-3 md:mt-5">
 								<div class="flex justify-between">
-									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnew</p>
+									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnews</p>
 									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
 										5 phút trước
 									</p>
