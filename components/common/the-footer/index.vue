@@ -212,7 +212,7 @@
             </div>
           </div>
 
-          <div class="w-full xl:w-[800px] max-w-full">
+          <div class="w-full xl:w-[800px] max-w-full flex flex-col justify-between">
             <div class="flex flex-col lg:flex-row gap-10">
               <div class="w-max">
                 <h4 class="text-base xl:text-lg text-[#000] font-bold">

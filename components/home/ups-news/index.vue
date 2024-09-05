@@ -130,7 +130,7 @@
 									alt="UPS"
 									width="350"
 									height="290"
-									:src="`/images/new-02.png`"
+									:src="`/images/card-tin-tuc.png`"
 									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
 								/>
 							</div>
@@ -171,7 +171,7 @@
 									alt="UPS"
 									width="350"
 									height="290"
-									:src="`/images/new-01.png`"
+									:src="`/images/card-tin-tuc.png`"
 									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
 								/>
 							</div>
@@ -212,7 +212,7 @@
 									alt="UPS"
 									width="350"
 									height="290"
-									:src="`/images/new-03.png`"
+									:src="`/images/card-tin-tuc.png`"
 									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
 								/>
 							</div>
@@ -253,7 +253,7 @@
 									alt="UPS"
 									width="350"
 									height="290"
-									:src="`/images/new-03.png`"
+									:src="`/images/card-tin-tuc.png`"
 									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
 								/>
 							</div>

@@ -58,7 +58,7 @@
 		<div class="xl:w-[1200px] w-full flex justify-center mx-auto">
 			<div class="w-[327px] xl:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]">
 				<div class="text-left xl:w-[70%] lg:w-[70%] w-full">
-					<p class="text-[#696B75] text-[12px] font-normal leading-[20px]">
+					<p class="text-[#696B75] text-[18px] font-normal leading-[20px]">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
 						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -81,10 +81,10 @@
 						></iframe>
 					</div>
 					<div class="">
-						<h5 class="text-[#15171E] text-[16px] font-semibold leading-[20px] mb-[10px]">
+						<h5 class="text-[#15171E] text-[24px] font-semibold leading-[20px] mb-[10px]">
 							Lorem ipsum dolor sit amet
 						</h5>
-						<p class="text-[#696B75] text-[12px] font-normal leading-[20px]">
+						<p class="text-[#696B75] text-[18px] font-normal leading-[20px]">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
 							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in

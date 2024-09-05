@@ -195,7 +195,7 @@
 
 									<nuxt-link
 										to="/"
-										class="btn group animate-ups__item border border-[#222]"
+										class="btn group animate-ups__item border border-[#fff] hover:border-[#222]"
 									>
 										<span> Đăng nhập/Giao dịch ngay </span>
 										<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
@@ -304,7 +304,7 @@
 
 									<nuxt-link
 										to="/"
-										class="btn group animate-ups__item border border-[#222]"
+										class="btn group animate-ups__item border border-[#fff] hover:border-[#222]"
 									>
 										<span> Giao dịch ngay </span>
 										<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">

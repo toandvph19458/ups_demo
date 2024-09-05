@@ -18,7 +18,7 @@
 
 								<div class="mt-4 grid grid-cols-2 gap-4">
 									<nuxt-link to="/san-pham"
-										class="inline-flex items-center px-2 py-5 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
+										class="inline-flex items-center px-4 py-5 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Margin T+3</span>
 									</nuxt-link>
@@ -280,7 +280,7 @@
 												</i>
 
 												<div class="ml-5">
-													<p class="text-base text-[#000] font-semibold">Công bố tin</p>
+													<p class="text-base text-[#000] font-semibold">Công bố thông tin</p>
 												</div>
 											</nuxt-link>
 										</div>
