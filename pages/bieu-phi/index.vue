@@ -19,7 +19,7 @@
             <div class="grid md:grid-cols-4 sm:grid-cols-2 items-center gap-10 lg:gap-3 xxl:gap-8 sm:gap-3">
 
                 <div
-                    class="relative overflow-hidden flex xxl:h-[230px] lg:h-[152px] xxl:p-[40px_24px] lg:p-[32px_8px] flex-col justify-end items-center gap-[20px] flex-[1_0_0] rounded-[24px] bg-transparent group animate-ups__item">
+                    class="relative overflow-hidden flex xxl:h-[230px] lg:h-[152px] xxl:p-[40px_24px] lg:p-[32px_8px] flex-col justify-end items-center gap-[20px] flex-[1_0_0] lg:rounded-[24px] sm:rounded-[12px] bg-transparent group animate-ups__item">
                     <!-- Background Gradient -->
                     <div
                         class="absolute inset-0 bg-gradient-to-b from-[rgba(68,49,139,0.09)] to-[rgba(68,49,139,0.90)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
@@ -38,12 +38,12 @@
 
                     <!-- Text -->
                     <p
-                        class="text-black group-hover:text-white text-center font-BG font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30 transition-colors duration-300 xl:max-w-[240px]">
+                        class="text-black group-hover:text-white text-center font-BG font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[14px] sm:text-[12px] leading-normal z-30 transition-colors duration-300 xl:max-w-[240px]">
                         Biểu phí giao
                         dịch chứng khoán cơ sở</p>
                 </div>
                 <div
-                    class="relative overflow-hidden flex xxl:h-[230px] lg:h-[152px] xxl:p-[40px_24px] lg:p-[32px_8px] flex-col justify-end items-center gap-[20px] flex-[1_0_0] rounded-[24px] bg-lightgray group animate-ups__item">
+                    class="relative overflow-hidden flex xxl:h-[230px] lg:h-[152px] xxl:p-[40px_24px] lg:p-[32px_8px] flex-col justify-end items-center gap-[20px] flex-[1_0_0] lg:rounded-[24px] sm:rounded-[12px] bg-lightgray group animate-ups__item">
                     <div
                         class="absolute inset-0 bg-gradient-to-b from-[rgba(68,49,139,0.09)] to-[rgba(68,49,139,0.90)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                     </div>
@@ -58,13 +58,13 @@
 
                     <!-- Text -->
                     <p
-                        class="text-black group-hover:text-white font-BG text-center font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30">
+                        class="text-black group-hover:text-white font-BG text-center font-semibold xxl:text-[24px] xl:text-[20px] md:text-[14px] lg:text-[18px] sm:text-[14px] leading-normal z-30">
                         Biểu phí
                         giao dịch
                         chứng khoán phái sinh</p>
                 </div>
                 <div
-                    class="relative overflow-hidden flex xxl:h-[230px] lg:h-[152px] xxl:p-[40px_24px] lg:p-[32px_8px] flex-col justify-end items-center gap-[20px] flex-[1_0_0] rounded-[24px] bg-lightgray group animate-ups__item">
+                    class="relative overflow-hidden flex xxl:h-[230px] lg:h-[152px] xxl:p-[40px_24px] lg:p-[32px_8px] flex-col justify-end items-center gap-[20px] flex-[1_0_0] lg:rounded-[24px] sm:rounded-[12px] bg-lightgray group animate-ups__item">
                     <div
                         class="absolute inset-0 bg-gradient-to-b from-[rgba(68,49,139,0.09)] to-[rgba(68,49,139,0.90)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                     </div>
@@ -80,12 +80,12 @@
 
                     <!-- Text -->
                     <p
-                        class="text-black group-hover:text-white font-BG text-center font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30 max-w-[180px]">
+                        class="text-black group-hover:text-white font-BG text-center font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[14px] sm:text-[14px] leading-normal z-30 max-w-[180px]">
                         Biểu phí
                         dịch vụ tài chính</p>
                 </div>
                 <div
-                    class="relative overflow-hidden flex xxl:h-[230px] lg:h-[152px] xxl:p-[40px_24px] lg:p-[32px_8px] flex-col justify-end items-center gap-[20px] flex-[1_0_0] rounded-[24px] bg-lightgray group animate-ups__item">
+                    class="relative overflow-hidden flex xxl:h-[230px] lg:h-[152px] xxl:p-[40px_24px] lg:p-[32px_8px] flex-col justify-end items-center gap-[20px] flex-[1_0_0] lg:rounded-[24px] sm:rounded-[12px] bg-lightgray group animate-ups__item ">
                     <div
                         class="absolute inset-0 bg-gradient-to-b from-[rgba(68,49,139,0.09)] to-[rgba(68,49,139,0.90)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                     </div>
@@ -101,7 +101,7 @@
 
                     <!-- Text -->
                     <p
-                        class="text-black group-hover:text-white text-center font-BG font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30 max-w-[160px]">
+                        class="text-black group-hover:text-white text-center font-BG font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[14px] sm:text-[14px] leading-normal z-30 max-w-[160px]">
                         Biểu phí
                         chuyển tiền</p>
                 </div>
