@@ -3,7 +3,7 @@
 		<div class="flex justify-center items-center gap-4 pb-[50px]">
 			<h3
 				class="animate-ups__item text-[#01C159] font-BG text-[20px] md:text-[32px] xl:text-[60px] text-center lg:text-left font-semibold leading-[1 text-[52px] font-semibold">
-				Khách hàng của</h3>
+				Đối tác của</h3>
 			<div class="inline-flex relative w-[80px] h-[40px] md:w-[145px] md:h-[66px] xl:w-[132px] xl:h-[60px] mt-2">
 				<nuxt-img format="webp" loading="lazy" alt="UPS" width="132" height="60" src="/logo/logo-cap-dark.png"
 					class="animate-ups__item absolute w-full h-full object-cover" />

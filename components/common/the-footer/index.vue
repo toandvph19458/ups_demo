@@ -41,19 +41,19 @@
 										</span>
 									</nuxt-link>
 									<nuxt-link
-										href="tel:1800.0967"
+										href="tel:0243.944.6666"
 										class="flex gap-4"
 									>
 										<!-- <div class="w-5 h-5"></div> -->
-										<span class="text-base xl:text-lg text-[#15171E] font-bold"> 1800.0967 </span>
+										<span class="text-base xl:text-lg text-[#15171E] font-bold"> 0243.944.6666 </span>
 									</nuxt-link>
 									<nuxt-link
-										href="mailto:support@upsecurities.vn"
+										href="mailto:dvkh@upse.vn"
 										class="flex gap-4"
 									>
 										<!-- <div class="w-5 h-5"></div> -->
 										<span class="text-base xl:text-lg text-[#15171E] font-bold">
-											support@upsecurities.vn
+											dvkh@upse.vn
 										</span>
 									</nuxt-link>
 								</div>
@@ -161,19 +161,7 @@
 										to="/"
 										class="text-sm xl:text-base text-[#000] font-medium"
 									>
-										Margin T+3
-									</nuxt-link>
-									<nuxt-link
-										to="/"
-										class="text-sm xl:text-base text-[#000] font-medium"
-									>
-										Vay ký quỹ
-									</nuxt-link>
-									<nuxt-link
-										to="/"
-										class="text-sm xl:text-base text-[#000] font-medium"
-									>
-										Zero - Fee
+										Ưu đãi
 									</nuxt-link>
 									<nuxt-link
 										to="/"
@@ -219,14 +207,9 @@
 										to="/"
 										class="text-sm xl:text-base text-[#000] font-medium"
 									>
-										Cộng đồng
+										Hướng dẫn sử dụng
 									</nuxt-link>
-									<nuxt-link
-										to="/"
-										class="text-sm xl:text-base text-[#000] font-medium"
-									>
-										Cẩm nang đầu tư
-									</nuxt-link>
+									
 								</div>
 							</div>
 							<div class="w-max">
@@ -239,14 +222,9 @@
 										to="/"
 										class="text-sm lg:text-base text-[#000] font-medium"
 									>
-										Về chúng tôi
+										Công bố thông tin
 									</nuxt-link>
-									<nuxt-link
-										to="/"
-										class="text-sm lg:text-base text-[#000] font-medium"
-									>
-										Tin UPS
-									</nuxt-link>
+									
 									<nuxt-link
 										to="/"
 										class="text-sm lg:text-base text-[#000] font-medium"

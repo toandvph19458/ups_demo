@@ -66,27 +66,6 @@
 					></iframe>
 				</div>
 
-				<div
-					class="grid gap-0 md:gap-[60px] grid-cols-1 md:grid-cols-2 mt-4 md:mt-6 xl:mt-14 px-0 md:px-10 xl:px-20"
-				>
-					<p
-						class="animate-about__item text-sm lg:text-base xl:text-lg text-[#3C4052] font-medium mt-4 md:mt-5 xl:mt-8"
-					>
-						UPS không chỉ là một công ty chứng khoán thông thường, chúng tôi hướng đến mục tiêu trở thành
-						một điểm tựa vững chắc khuyến khích người trẻ tự tin khám phá thế giới tài chính. Kết hợp công
-						nghệ tiên tiến cùng tư duy liên tục đổi mới để tạo ra những sản phẩm, dịch vụ đầu tư đáp ứng sát
-						sao nhu cầu, mong muốn của nhà đầu tư.
-					</p>
-
-					<p
-						class="animate-about__item text-sm lg:text-base xl:text-lg text-[#3C4052] font-medium mt-4 md:mt-5 xl:mt-8"
-					>
-						UPS không chỉ là một công ty chứng khoán thông thường, chúng tôi hướng đến mục tiêu trở thành
-						một điểm tựa vững chắc khuyến khích người trẻ tự tin khám phá thế giới tài chính. Kết hợp công
-						nghệ tiên tiến cùng tư duy liên tục đổi mới để tạo ra những sản phẩm, dịch vụ đầu tư đáp ứng sát
-						sao nhu cầu, mong muốn của nhà đầu tư.
-					</p>
-				</div>
 			</div>
 		</section>
 
@@ -705,7 +684,7 @@
 							to="/"
 							class="btn active group"
 						>
-							<span> Mở tài khoản ngay </span>
+							<span> Xem báo cáo </span>
 							<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
 								<i class="w-full h-full group-hover:inline-flex hidden absolute">
 									<nuxt-img

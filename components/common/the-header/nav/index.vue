@@ -17,16 +17,17 @@
 								<p class="text-left text-2xl text-[#014227] font-semibold">Khách hàng cá nhân</p>
 
 								<div class="mt-4 grid grid-cols-2 gap-4">
-									<div
+									<nuxt-link to="/san-pham"
 										class="inline-flex items-center px-2 py-5 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Margin T+3</span>
-									</div>
-									<div
+									</nuxt-link>
+									<nuxt-link
+										to="/bieu-phi"
 										class="inline-flex items-center px-4 h-16 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Biểu phí giao dịch</span>
-									</div>
+									</nuxt-link>
 									<div
 										class="inline-flex items-center px-4 h-16 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
 									>
@@ -247,7 +248,7 @@
 									<AccordionContent>
 										<div class="flex gap-5 flex-col">
 											<nuxt-link
-												to="/"
+												to="/tin-tuc"
 												class="flex items-center"
 											>
 												<i class="inline-flex items-center justify-center">
@@ -265,7 +266,7 @@
 												</div>
 											</nuxt-link>
 											<nuxt-link
-												to="/"
+												to="/cong-bo-thong-tin"
 												class="flex items-center"
 											>
 												<i class="inline-flex items-center justify-center">
