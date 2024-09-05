@@ -5,15 +5,15 @@
             class="flex flex-col items-center xxl:gap-[80px] xl:gap-[60px] lg:gap-[40px] sm:gap-[24px] py-[80px] xl:py-[60px] lg:py-[40px] sm:py-[24px] xxl:px-[120px] px-[225px] xl:px-[100px] lg:px-[60px] sm:px-[24px] self-stretch w-full ">
             <div class="flex flex-col items-center gap-[40px] sm:gap-[24px]">
                 <p
-                    class="text-[#173025] text-center font-hanken xxl:text-[16px] lg:text-[12px] sm:text-[12px] text-[14px] xl:text-[12px] font-semibold leading-none tracking-[3.2px] uppercase animate-ups__item">
+                    class="text-[#173025] text-center font-HG xxl:text-[16px] lg:text-[12px] sm:text-[12px] text-[14px] xl:text-[12px] font-semibold leading-none tracking-[3.2px] uppercase animate-ups__item">
                     Khách hàng cá nhân
                 </p>
                 <p
-                    class="text-[var(--Black-Alpha---color-black-alpha-900,#000)] text-center font-bricolage xxl:text-[60px] lg:text-[32px] text-[45px] xl:text-[40px] sm:text-[20px] font-bold leading-none animate-ups__item">
+                    class="text-[var(--Black-Alpha---color-black-alpha-900,#000)]  text-center font-BG xxl:text-[60px] lg:text-[32px] text-[45px] xl:text-[40px] sm:text-[20px] font-bold leading-none animate-ups__item">
                     Margin T+3
                 </p>
                 <p
-                    class="text-black/60 text-center font-hanken xxl:text-[18px] text-[14px] xl:text-[12px] lg:text-[12px] sm:text-[12px] font-medium leading-[30px] self-stretch w-full animate-ups__item">
+                    class="text-black/60 text-center font-HG xxl:text-[18px] text-[14px] xl:text-[12px] lg:text-[12px] sm:text-[12px] font-medium leading-[30px] self-stretch w-full animate-ups__item">
                     Margin T+3 từ UP Securities là sản phẩm được thiết kế dành riêng cho những nhà đầu tư muốn tận dụng
                     tối đa cơ hội ngắn hạn trên thị trường chứng khoán. Với lãi suất ưu đãi chỉ từ 6.8% và thời gian nắm
                     giữ cổ phiếu lên đến 3 ngày (T+3), bạn có thể gia tăng lợi nhuận từ các giao dịch nhanh chóng và

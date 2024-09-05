@@ -28,11 +28,11 @@
 									>
 										<span class="text-base font-bold text-white">Biểu phí giao dịch</span>
 									</nuxt-link>
-									<div
+									<nuxt-link to="/bieu-phi"
 										class="inline-flex items-center px-4 h-16 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
 									>
 										<span class="text-base font-bold text-white">Vay ký quỹ</span>
-									</div>
+									</nuxt-link>
 									<div
 										class="inline-flex items-center px-4 h-16 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
 									>

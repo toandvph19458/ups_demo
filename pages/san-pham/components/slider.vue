@@ -11,14 +11,14 @@
 
                 <div class="xxl:flex xxl:flex-col xxl:gap-3">
                     <h3
-                        class="text-[#15171E] text-center font-bricolage xxl:text-[60px] text-[45px] xl:text-[40px] sm:text-[20px] font-semibold leading-none animate-ups__item">
+                        class="text-[#15171E] text-center font-BG xxl:text-[60px] text-[45px] xl:text-[40px] sm:text-[20px] font-semibold leading-none animate-ups__item">
                         Vì sao nên đăng ký
                         <span
-                            class="text-[#F51666] font-bricolage xxl:text-[60px] text-[45px] xl:text-[40px] sm:text-[20px] font-semibold leading-none animate-ups__item">Margin
+                            class="text-[#F51666] font-BG xxl:text-[60px] text-[45px] xl:text-[40px] sm:text-[20px] font-semibold leading-none animate-ups__item">Margin
                             T+3</span>
                     </h3>
                     <p
-                        class="text-black/60 text-center font-hanken xxl:text-[20px] text-[14px] sm:text-[12px] font-medium leading-none p-2 animate-ups__item">
+                        class="text-black/60 text-center font-HG xxl:text-[20px] text-[14px] sm:text-[12px] font-medium leading-none p-2 animate-ups__item">
                         Với margin T+3, nhà đầu tư có thể thực hiện giao dịch mua bán chứng khoán một cách linh hoạt và
                         nhanh chóng. Bạn không còn bị giới hạn bởi thời gian chờ đợi thanh toán, giúp bạn nắm bắt kịp
                         thời
@@ -62,11 +62,11 @@
                             <div
                                 class="flex xxl:p-6 xl:p-3 lg:p-3 flex-col items-start xxl:gap-3 xl:gap-1 lg:gap-1 rounded-xl xxl:w-[325px] xl:w-[250px] lg:w-[221px] xxl:h-[136px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute xxl:bottom-0 xl:bottom-0 xxl:right-0 xl:right-0 lg:bottom-10 lg:right-[50px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <p
-                                    class="text-[#15171E] font-bricolage xxl:text-[28px] xl:text-[20px] lg:text-[16px] font-semibold leading-none">
+                                    class="text-[#15171E] font-BG xxl:text-[28px] xl:text-[20px] lg:text-[16px] font-semibold leading-none">
                                     Lãi suất hấp dẫn
                                 </p>
                                 <p
-                                    class="text-black/80 font-hanken xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
+                                    class="text-black/80 font-HG xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
                                     Chỉ từ 6.8%, giúp giảm thiểu chi phí vay và tăng tối đa lợi nhuận
                                 </p>
                             </div>
@@ -83,11 +83,11 @@
                             <div
                                 class="flex p-3 flex-col items-start gap-1  rounded-xl w-[241px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute bottom-0 right-0">
                                 <p
-                                    class="text-[#15171E] font-bricolage xxl:text-[28px] xl:text-[20px] lg:text-[20px] font-semibold leading-none">
+                                    class="text-[#15171E] font-BG xxl:text-[28px] xl:text-[20px] lg:text-[20px] font-semibold leading-none">
                                     Lãi suất hấp dẫn
                                 </p>
                                 <p
-                                    class="text-black/80 font-hanken xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
+                                    class="text-black/80 font-HG xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
                                     Chỉ từ 6.8%, giúp giảm thiểu chi phí vay
                                     và tăng tối đa lợi nhuận
                                 </p>
@@ -104,10 +104,10 @@
                             </div>
                             <div
                                 class="flex p-3 flex-col items-start gap-1  rounded-xl w-[200px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute bottom-0 right-2">
-                                <p class="text-[#15171E] font-bricolage text-[12px] font-semibold leading-none">
+                                <p class="text-[#15171E] font-BG text-[12px] font-semibold leading-none">
                                     Lãi suất hấp dẫn
                                 </p>
-                                <p class="text-black/80 font-hanken text-[10px] font-medium leading-none">
+                                <p class="text-black/80 font-HG text-[10px] font-medium leading-none">
                                     Chỉ từ 6.8%, giúp giảm thiểu chi phí vay
                                     và tăng tối đa lợi nhuận
                                 </p>
@@ -129,11 +129,11 @@
                             <div
                                 class="flex xxl:p-6 xl:p-3 lg:p-3 flex-col items-start xxl:gap-3 xl:gap-1 lg:gap-1  rounded-xl xxl:w-[325px] xl:w-[250px] lg:w-[221px] xxl:h-[136px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute xxl:bottom-0 xl:bottom-0 xxl:right-0 xl:right-0 lg:bottom-10 lg:right-[50px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <p
-                                    class="text-[#15171E] font-bricolage xxl:text-[28px] xl:text-[20px] lg:text-[16px] font-semibold leading-none">
+                                    class="text-[#15171E] font-BG xxl:text-[28px] xl:text-[20px] lg:text-[16px] font-semibold leading-none">
                                     Lãi suất hấp dẫn
                                 </p>
                                 <p
-                                    class="text-black/80 font-hanken xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
+                                    class="text-black/80 font-HG xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
                                     Chỉ từ 6.8%, giúp giảm thiểu chi phí vay
                                     và tăng tối đa lợi nhuận
                                 </p>
@@ -150,11 +150,11 @@
                             <div
                                 class="flex p-3 flex-col items-start gap-1  rounded-xl w-[241px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute bottom-0 right-0">
                                 <p
-                                    class="text-[#15171E] font-bricolage xxl:text-[28px] xl:text-[20px] lg:text-[20px] font-semibold leading-none">
+                                    class="text-[#15171E] font-BG xxl:text-[28px] xl:text-[20px] lg:text-[20px] font-semibold leading-none">
                                     Lãi suất hấp dẫn
                                 </p>
                                 <p
-                                    class="text-black/80 font-hanken xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
+                                    class="text-black/80 font-HG xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
                                     Chỉ từ 6.8%, giúp giảm thiểu chi phí vay
                                     và tăng tối đa lợi nhuận
                                 </p>
@@ -171,10 +171,10 @@
                             </div>
                             <div
                                 class="flex p-3 flex-col items-start gap-1  rounded-xl w-[200px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute bottom-0 right-2">
-                                <p class="text-[#15171E] font-bricolage text-[12px] font-semibold leading-none">
+                                <p class="text-[#15171E] font-BG text-[12px] font-semibold leading-none">
                                     Lãi suất hấp dẫn
                                 </p>
-                                <p class="text-black/80 font-hanken text-[10px] font-medium leading-none">
+                                <p class="text-black/80 font-HG text-[10px] font-medium leading-none">
                                     Chỉ từ 6.8%, giúp giảm thiểu chi phí vay
                                     và tăng tối đa lợi nhuận
                                 </p>
@@ -197,11 +197,11 @@
                             <div
                                 class="flex xxl:p-6 xl:p-3 lg:p-3 flex-col items-start xxl:gap-3 xl:gap-1 lg:gap-1  rounded-xl xxl:w-[325px] xl:w-[250px] lg:w-[221px] xxl:h-[136px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute xxl:bottom-0 xl:bottom-0 xxl:right-0 xl:right-0 lg:bottom-10 lg:right-[50px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <p
-                                    class="text-[#15171E] font-bricolage xxl:text-[28px] xl:text-[20px] lg:text-[16px] font-semibold leading-none">
+                                    class="text-[#15171E] font-BG xxl:text-[28px] xl:text-[20px] lg:text-[16px] font-semibold leading-none">
                                     Lãi suất hấp dẫn
                                 </p>
                                 <p
-                                    class="text-black/80 font-hanken xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
+                                    class="text-black/80 font-HG xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
                                     Chỉ từ 6.8%, giúp giảm thiểu chi phí vay
                                     và tăng tối đa lợi nhuận
                                 </p>
@@ -218,11 +218,11 @@
                             <div
                                 class="flex p-3 flex-col items-start gap-1  rounded-xl w-[241px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute bottom-0 right-0">
                                 <p
-                                    class="text-[#15171E] font-bricolage xxl:text-[28px] xl:text-[20px] lg:text-[20px] font-semibold leading-none">
+                                    class="text-[#15171E] font-BG xxl:text-[28px] xl:text-[20px] lg:text-[20px] font-semibold leading-none">
                                     Lãi suất hấp dẫn
                                 </p>
                                 <p
-                                    class="text-black/80 font-hanken xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
+                                    class="text-black/80 font-HG xxl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
                                     Chỉ từ 6.8%, giúp giảm thiểu chi phí vay
                                     và tăng tối đa lợi nhuận
                                 </p>
@@ -238,10 +238,10 @@
                             </div>
                             <div
                                 class="flex p-3 flex-col items-start gap-1  rounded-xl w-[200px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute bottom-0 right-2">
-                                <p class="text-[#15171E] font-bricolage text-[12px] font-semibold leading-none">
+                                <p class="text-[#15171E] font-BG text-[12px] font-semibold leading-none">
                                     Lãi suất hấp dẫn
                                 </p>
-                                <p class="text-black/80 font-hanken text-[10px] font-medium leading-none">
+                                <p class="text-black/80 font-HG text-[10px] font-medium leading-none">
                                     Chỉ từ 6.8%, giúp giảm thiểu chi phí vay
                                     và tăng tối đa lợi nhuận
                                 </p>

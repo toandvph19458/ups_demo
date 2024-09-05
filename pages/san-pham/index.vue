@@ -134,7 +134,7 @@ export default defineComponent({
         <div
             class="flex sm:flex-col md:flex-row p-[40px_160px] sm:p-6 xl:p-[24px_100px] lg:p-[24px_60px] lg:gap-10 xxl:p-[24px_120px] justify-between items-center bg-[linear-gradient(269deg,_#FF76E1_3.83%,_rgba(255,_85,_17,_0.80)_98.43%)] animate-ups">
             <p
-                class="text-[#faf7f7] text-[36px] xl:text-[24px] md:text-[20px] sm:text-[14px] xxl:text-[28px] font-semibold leading-normal sm:w-full animate-ups__item">
+                class="text-[#faf7f7] font-BG text-[36px] xl:text-[24px] md:text-[20px] sm:text-[14px] xxl:text-[28px] font-semibold leading-normal sm:w-full animate-ups__item">
                 Để biết thêm chi tiết về sản phẩm Margin T+3 hoặc cần hỗ trợ đăng ký, hãy liên hệ với
                 chúng tôi:</p>
 
@@ -144,7 +144,7 @@ export default defineComponent({
                         <nuxt-img src="/icons/call-white.svg" class="absolute w-full h-full animate-ups__item" />
                     </div>
                     <p
-                        class="xxl:text-[18px] xl:text-[14px] md:text-[14px] text-[16px] text-white font-normal animate-ups__item">
+                        class="xxl:text-[18px] xl:text-[14px] md:text-[14px] text-[16px] text-white font-normal animate-ups__item font-BG">
                         (+84.24) 3 944 6666
                     </p>
                 </div>
@@ -154,7 +154,7 @@ export default defineComponent({
                             class="absolute w-full h-full animate-ups__item" />
                     </div>
                     <p
-                        class="xxl:text-[18px] xl:text-[14px] md:text-[14px] text-[16px] text-white font-normal animate-ups__item">
+                        class="xxl:text-[18px] xl:text-[14px] md:text-[14px] text-[16px] text-white font-normal animate-ups__item font-BG">
                         investmentbanking@upse.com.vn
                     </p>
                 </div>
@@ -163,7 +163,7 @@ export default defineComponent({
                         <nuxt-img src="/icons/global-white.svg" class="absolute w-full h-full animate-ups__item" />
                     </div>
                     <p
-                        class="xxl:text-[18px] xl:text-[14px] md:text-[14px] text-[16px] text-white font-normal animate-ups__item">
+                        class="xxl:text-[18px] xl:text-[14px] md:text-[14px] text-[16px] text-white font-normal animate-ups__item font-BG">
                         www.upse.com.vn
                     </p>
                 </div>

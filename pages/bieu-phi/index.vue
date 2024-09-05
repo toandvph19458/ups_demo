@@ -6,7 +6,7 @@
 
             <div class="flex justify-center items-center flex-col ">
                 <h2
-                    class="text-white text-center font-bold text-[60px] xxl:text-[40px] xl:text-[40px] lg:text-[32px] sm:text-[24px] leading-normal animate-ups__item">
+                    class="text-white text-center font-bold text-[60px] font-BG xxl:text-[40px] xl:text-[40px] lg:text-[32px] sm:text-[24px] leading-normal animate-ups__item">
                     Biểu phí dịch vụ
                 </h2>
                 <p
@@ -38,7 +38,7 @@
 
                     <!-- Text -->
                     <p
-                        class="text-black group-hover:text-white text-center font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30 transition-colors duration-300 xl:max-w-[240px]">
+                        class="text-black group-hover:text-white text-center font-BG font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30 transition-colors duration-300 xl:max-w-[240px]">
                         Biểu phí giao
                         dịch chứng khoán cơ sở</p>
                 </div>
@@ -58,7 +58,7 @@
 
                     <!-- Text -->
                     <p
-                        class="text-black group-hover:text-white text-center font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30">
+                        class="text-black group-hover:text-white font-BG text-center font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30">
                         Biểu phí
                         giao dịch
                         chứng khoán phái sinh</p>
@@ -80,7 +80,7 @@
 
                     <!-- Text -->
                     <p
-                        class="text-black group-hover:text-white text-center font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30 max-w-[180px]">
+                        class="text-black group-hover:text-white font-BG text-center font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30 max-w-[180px]">
                         Biểu phí
                         dịch vụ tài chính</p>
                 </div>
@@ -101,7 +101,7 @@
 
                     <!-- Text -->
                     <p
-                        class="text-black group-hover:text-white text-center font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30 max-w-[160px]">
+                        class="text-black group-hover:text-white text-center font-BG font-semibold xxl:text-[24px] xl:text-[20px] lg:text-[18px] sm:text-[14px] leading-normal z-30 max-w-[160px]">
                         Biểu phí
                         chuyển tiền</p>
                 </div>
@@ -114,7 +114,7 @@
             <div
                 class="flex flex-col gap-[40px] items-start xxl:w-[1080px] sm:w-full flex-shrink-0 flex-nowrap relative xxl:mx-auto ">
                 <p
-                    class="h-[48px] w-full flex-shrink-0 font-[700] xxl:text-[40px] xl:text-[32px] lg:text-[28px] md:text-[24px] sm:text-[18px] leading-[48px] text-[rgba(21,23,30,0.9)] relative text-center z-[1] font-bricolage animate-ups__item">
+                    class="h-[48px] w-full font-BG flex-shrink-0 font-[700] xxl:text-[40px] xl:text-[32px] lg:text-[28px] md:text-[24px] sm:text-[18px] leading-[48px] text-[rgba(21,23,30,0.9)] relative text-center z-[1] font-bricolage animate-ups__item">
                     Biểu
                     phí giao dịch chứng khoán cơ sở</p>
 
@@ -341,7 +341,7 @@
                                     class="absolute w-full h-full object-contain animate-ups__item" />
                             </div>
                             <p
-                                class="text-[#15171E]/90 text-center  text-[20px] xxl:text-[18px] xl:text-[16px] lg:text-[16px] sm:text-[12px] font-semibold leading-normal  animate-ups__item">
+                                class="text-[#15171E]/90 text-center font-BG text-[20px] xxl:text-[18px] xl:text-[16px] lg:text-[16px] sm:text-[12px] font-semibold leading-normal  animate-ups__item">
                                 Biểu phí giao dịch
                                 chứng khoán phái sinh
                             </p>
@@ -354,7 +354,7 @@
                                     class="absolute w-full h-full object-contain animate-ups__item" />
                             </div>
                             <p
-                                class="text-[#15171E]/90 text-center  text-[20px] xxl:text-[18px] xl:text-[16px] lg:text-[16px] sm:text-[12px] font-semibold leading-normal max-w-[128px] animate-ups__item">
+                                class="text-[#15171E]/90 text-center font-BG text-[20px] xxl:text-[18px] xl:text-[16px] lg:text-[16px] sm:text-[12px] font-semibold leading-normal max-w-[128px] animate-ups__item">
                                 Biểu phí
                                 dịch vụ tài chính
                             </p>
@@ -367,7 +367,7 @@
                                     class="absolute w-full h-full object-contain animate-ups__item" />
                             </div>
                             <p
-                                class="text-[#15171E]/90 text-center  text-[20px] xxl:text-[18px] xl:text-[16px] lg:text-[16px] sm:text-[12px] font-semibold leading-normal max-w-[128px] animate-ups__item">
+                                class="text-[#15171E]/90 text-center font-BG text-[20px] xxl:text-[18px] xl:text-[16px] lg:text-[16px] sm:text-[12px] font-semibold leading-normal max-w-[128px] animate-ups__item">
                                 Biểu phí
                                 chuyển tiền
                             </p>
@@ -382,7 +382,7 @@
                 class="md:container flex md:flex-row sm:flex-col p-[40px_160px] xxl:p-[24px_100px] xl:p-[24px-60px] lg:p-[24px-60px] lg:gap-[60px] sm:p-6 justify-between items-center self-stretch ">
                 <div class="md:w-2/3 sm:w-full">
                     <p
-                        class="text-[#15171E] text-[36px] xxl:text-[28px] xl:text-[24px] lg:text-[24px] sm:text-[16px] font-semibold leading-normal animate-ups__item">
+                        class="text-[#15171E] text-[36px] font-BG xxl:text-[28px] xl:text-[24px] lg:text-[24px] sm:text-[16px] font-semibold leading-normal animate-ups__item">
                         Để
                         biết thêm thông tin chi tiết,<br />
                         Quý Khách vui lòng liên hệ</p>
