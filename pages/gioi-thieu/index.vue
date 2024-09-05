@@ -567,9 +567,9 @@
                 <p
                   class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt -->
                 </p>
               </div>
             </div>
@@ -602,9 +602,9 @@
                 <p
                   class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt -->
                 </p>
               </div>
             </div>
@@ -638,9 +638,9 @@
                 <p
                   class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt -->
                 </p>
               </div>
             </div>
@@ -673,9 +673,9 @@
                 <p
                   class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt -->
                 </p>
               </div>
             </div>
