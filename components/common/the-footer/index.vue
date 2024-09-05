@@ -273,7 +273,7 @@
                     Nhận định thị trường
                   </nuxt-link>
                   <nuxt-link
-                    to="/"
+                    to="/hdsd"
                     class="text-sm xl:text-base text-[#000] font-medium"
                   >
                     Hướng dẫn sử dụng
@@ -289,7 +289,7 @@
 
                 <div class="mt-4 xl:mt-6 flex gap-3 flex-col">
                   <nuxt-link
-                    to="/"
+                    to="/cong-bo-thong-tin"
                     class="text-sm lg:text-base text-[#000] font-medium"
                   >
                     Công bố thông tin
@@ -305,29 +305,13 @@
               </div>
             </div>
             <div class="mt-10 lg:mt-[75px]">
-              <div class="flex gap-4 items-center">
-                <p class="text-base lg:text-base text-black font-bold">
-                  Đầu tư ngay
-                </p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="12"
-                  height="12"
-                  viewBox="0 0 12 12"
-                  fill="none"
-                >
-                  <path
-                    d="M1.70711 0.292893C1.31658 -0.0976311 0.683418 -0.0976311 0.292893 0.292893C-0.0976311 0.683418 -0.0976311 1.31658 0.292893 1.70711L1.70711 0.292893ZM11 12C11.5523 12 12 11.5523 12 11L12 2C12 1.44772 11.5523 1 11 1C10.4477 1 10 1.44772 10 2L10 10L2 10C1.44772 10 1 10.4477 1 11C1 11.5523 1.44772 12 2 12L11 12ZM0.292893 1.70711L10.2929 11.7071L11.7071 10.2929L1.70711 0.292893L0.292893 1.70711Z"
-                    fill="#15171E"
-                  />
-                </svg>
-              </div>
+              
 
               <div class="mt-5 flex gap-4">
                 <nuxt-link
                   to="/"
                   target="_blank"
-                  class="animate-ups__item h-12 lg:h-12 px-3 inline-flex gap-3 items-center rounded-[12px] bg-[#111111]"
+                  class="animate-ups__item h-12 lg:h-12 px-3 inline-flex gap-3 items-center rounded-full bg-[#111111]"
                 >
                   <div class="inline-flex relative w-4 lg:w-4 h-4 lg:h-4">
                     <nuxt-img
@@ -345,23 +329,25 @@
                     Truy cập <span class="text-green-ups">Bảng giá</span> ngay
                   </p>
                 </nuxt-link>
-				<nuxt-link
-										to="/"
-										class="btn group animate-ups__item border border-[#04C85E] hover:border-[#222]"
-									>
-										<span> Đăng nhập/Giao dịch ngay </span>
-										<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
-											<i class="w-full h-full inline-flex absolute">
-												<nuxt-img
-													src="/icons/arrow-dark-icon.svg"
-													loading="lazy"
-													width="16"
-													height="16"
-													alt="UPS"
-												/>
-											</i>
-										</div>
-									</nuxt-link>
+                <nuxt-link
+                  to="/"
+                  class="btn group animate-ups__item border border-[#04C85E] hover:border-[#222]"
+                >
+                  <span> Giao dịch ngay </span>
+                  <div
+                    class="inline-flex gap-1 w-4 h-4 overflow-hidden relative"
+                  >
+                    <i class="w-full h-full inline-flex absolute">
+                      <nuxt-img
+                        src="/icons/arrow-dark-icon.svg"
+                        loading="lazy"
+                        width="16"
+                        height="16"
+                        alt="UPS"
+                      />
+                    </i>
+                  </div>
+                </nuxt-link>
               </div>
             </div>
           </div>
