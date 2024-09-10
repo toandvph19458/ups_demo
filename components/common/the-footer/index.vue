@@ -176,13 +176,13 @@
 
 								<div class="flex gap-3 flex-col">
 									<nuxt-link
-										to="/"
+										to="/coming-soon"
 										class="text-[10.5px] xl:text-xs 2xl:text-base text-[#000] font-medium"
 									>
 										Ưu đãi
 									</nuxt-link>
 									<nuxt-link
-										to="/"
+										to="/bieu-phi"
 										class="text-[10.5px] xl:text-xs 2xl:text-base text-[#000] font-medium"
 									>
 										Biểu phí giao dịch
@@ -198,13 +198,13 @@
 
 								<div class="flex gap-3 flex-col">
 									<nuxt-link
-										to="/"
+										to="/coming-soon"
 										class="text-[10.5px] xl:text-xs 2xl:text-base text-[#000] font-medium"
 									>
 										Tư vấn tài chính
 									</nuxt-link>
 									<nuxt-link
-										to="/"
+										to="/tin-tuc"
 										class="text-[10.5px] xl:text-xs 2xl:text-base text-[#000] font-medium"
 									>
 										Tin đấu giá
@@ -220,7 +220,7 @@
 
 								<div class="flex gap-3 flex-col">
 									<nuxt-link
-										to="/"
+										to="/coming-soon"
 										class="text-[10.5px] xl:text-xs 2xl:text-base text-[#000] font-medium"
 									>
 										Nhận định thị trường
@@ -247,7 +247,7 @@
 									</nuxt-link>
 
 									<nuxt-link
-										to="/"
+										to="/gioi-thieu"
 										class="text-[10.5px] xl:text-xs 2xl:text-base text-[#000] font-medium"
 									>
 										Gia nhập UPS

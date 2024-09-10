@@ -65,9 +65,9 @@
 							<AccordionContent>
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
-										class="text-[#838383] font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] 2xl:text-[16px] leading-normal font-HG">
-										Không, lãi suất của Margin T+3 là cố định 6.8% trong suốt thời gian nắm giữ cổ
-										phiếu.
+										class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px] font-HG">
+										Không, Margin T+3 chỉ áp dụng cho các giao dịch nắm giữ trong 3 ngày. Sau thời
+										gian này, hệ thống sẽ tự động đóng vị thế.
 									</p>
 								</div>
 							</AccordionContent>
@@ -92,8 +92,8 @@
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
 										class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px] font-HG">
-										Không, lãi suất của Margin T+3 là cố định 6.8% trong suốt thời gian nắm giữ cổ
-										phiếu.
+										Margin T+3 phù hợp với những nhà đầu tư thích giao dịch ngắn hạn và muốn tận
+										dụng các cơ hội nhanh chóng trên thị trường.
 									</p>
 								</div>
 							</AccordionContent>

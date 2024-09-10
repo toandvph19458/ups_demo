@@ -32,11 +32,11 @@
 					<div>
 						<p
 							class="text-[#15171E] font-BG 3xl:text-[28px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[14px] text-[24px] font-semibold leading-none pb-2 animate-ups__item">
-							Lãi suất ưu đãi chỉ từ 6.8%
+							Thời gian nắm giữ T+3
 						</p>
 						<p
 							class="text-black/60 font-HG 3xl:text-[16px] 2xl:text-[14px] lg:text-[12px] md:text-[12px] text-[14px] font-medium leading-none animate-ups__item">
-							Đảm bảo chi phí vay thấp, giúp bạn tự tin hơn khi thực hiện các giao dịch ngắn hạn
+							Giúp bạn tận dụng tối đa các cơ hội đầu tư ngắn hạn mà vẫn quản lý tốt rủi ro.
 						</p>
 					</div>
 				</div>
@@ -45,11 +45,11 @@
 					<div>
 						<p
 							class="text-[#15171E] font-BG 3xl:text-[28px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[14px] text-[24px] font-semibold leading-none pb-2 animate-ups__item">
-							Lãi suất ưu đãi chỉ từ 6.8%
+							Hỗ trợ chuyên nghiệp
 						</p>
 						<p
 							class="text-black/60 font-HG 3xl:text-[16px] 2xl:text-[14px] lg:text-[12px] md:text-[12px] text-[14px] font-medium leading-none animate-ups__item">
-							Đảm bảo chi phí vay thấp, giúp bạn tự tin hơn khi thực hiện các giao dịch ngắn hạn
+							Đội ngũ tư vấn đầu tư giàu kinh nghiệm của UP Securities luôn sẵn sàng hỗ trợ bạn
 						</p>
 					</div>
 				</div>

@@ -62,16 +62,16 @@
 											/>
 										</i>
 
-										<div class="ml-5">
+										<nuxt-link to="/coming-soon" class="ml-5">
 											<p class="text-base text-[#000] font-semibold">Tư vấn tài chính</p>
 											<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
 												Nhận ngay sự hỗ trợ từ UPS
 											</p>
-										</div>
+										</nuxt-link>
 									</nuxt-link>
 
 									<nuxt-link
-										to="/"
+										to="/coming-soon"
 										class="flex items-center"
 									>
 										<i class="inline-flex items-center justify-center">
@@ -98,13 +98,13 @@
 
 								<div class="mt-4 grid gap-4 grid-cols-2">
 									<nuxt-link
-										to="/"
+										to="/coming-soon"
 										class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px]"
 									>
 										Web Trading
 									</nuxt-link>
 									<nuxt-link
-										to="/"
+										to="/coming-soon"
 										class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px]"
 									>
 										App Trading
@@ -126,7 +126,7 @@
 					<NavigationMenuContent>
 						<div class="w-[400px] flex flex-col gap-5 px-6 py-5">
 							<nuxt-link
-								to="/"
+								to="/coming-soon"
 								class="flex items-center"
 							>
 								<i class="inline-flex items-center justify-center">
@@ -148,7 +148,7 @@
 							</nuxt-link>
 
 							<nuxt-link
-								to="/"
+								to="/coming-soon"
 								class="flex items-center"
 							>
 								<i class="inline-flex items-center justify-center">
@@ -170,7 +170,7 @@
 							</nuxt-link>
 
 							<nuxt-link
-								to="/"
+								to="/hdsd"
 								class="flex items-center"
 							>
 								<i class="inline-flex items-center justify-center">
@@ -295,7 +295,7 @@
 							</Accordion>
 
 							<nuxt-link
-								to="/"
+								to="/coming-soon"
 								class="flex items-center"
 							>
 								<i class="inline-flex items-center justify-center">
