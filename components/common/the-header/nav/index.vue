@@ -184,7 +184,7 @@
 								</i>
 
 								<div class="ml-5">
-									<p class="text-base text-[#000] font-semibold">Cẩm nang đầu tư</p>
+									<p class="text-base text-[#000] font-semibold">Hướng dẫn sử dụng</p>
 									<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
 										Khám phá kho tàng kiến thức đỉnh cấp cùng UPS
 									</p>
