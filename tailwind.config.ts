@@ -1,4 +1,5 @@
 const animate = require("tailwindcss-animate");
+const textshadow = require("tailwindcss-textshadow");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -6,18 +7,39 @@ module.exports = {
 	safelist: ["light"],
 	prefix: "",
 	theme: {
+		// container: {
+		// 	center: true,
+		// 	padding: {
+		// 		DEFAULT: "0rem",
+		// 		// sm: "2rem",
+		// 		// lg: "4rem",
+		// 		// xl: "5rem",
+		// 		// "2xl": "6rem",
+		// 	},
+		// 	screens: {
+		// 		sm: "650px",
+		// 		md: "900px",
+		// 		lg: "1080px",
+		// 		xl: "1200px",
+		// 		"2xl": "1600px",
+		// 	},
+		// },
 		screens: {
-			sm: "374px",
-			md: "767px",
-			lg: "1023px",
-			xl: "1279px",
-			xxl: "1439px",
+			sm: "375px",
+			md: "768px",
+			lg: "1024px",
+			xl: "1280px",
+			"2xl": "1440px",
+			"3xl": "1760px",
 		},
 		fontFamily: {
 			BG: ["Bricolage Grotesque", "sans-serif"],
 			HG: ["Hanken Grotesk", "sans-serif"],
 		},
 		extend: {
+			textShadow: {
+				custom: "6px 6px 0px #071A11",
+			},
 			colors: {
 				black: "#15171E",
 				"green-ups": "#02E56A",
@@ -90,5 +112,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [animate],
+	plugins: [animate, textshadow],
 };

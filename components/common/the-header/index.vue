@@ -101,18 +101,7 @@
 						</div>
 
 						<!-- MENU MOBILE -->
-						<div class="flex xl:hidden">
-							<div class="w-6 h-6 relative inline-flex items-center justify-center cursor-pointer">
-								<nuxt-img
-									format="webp"
-									loading="lazy"
-									height="24"
-									alt="UPS"
-									src="/icons/menu-icon.svg"
-									class="absolute w-full h-full object-contain"
-								/>
-							</div>
-						</div>
+						<nav-mobile />
 					</div>
 				</div>
 			</div>
@@ -124,12 +113,14 @@
 import { defineComponent } from "vue";
 import NuxtButton from "~/components/ui/button/Button.vue";
 import Navigation from "./nav/index.vue";
+import NavMobile from "./nav-mobile/index.vue";
 
 export default defineComponent({
 	name: "the-header",
 	components: {
 		NuxtButton,
 		Navigation,
+		NavMobile,
 	},
 	setup(props, ctx) {
 		return {};

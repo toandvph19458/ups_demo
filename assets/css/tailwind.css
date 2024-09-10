@@ -97,6 +97,12 @@
 		@apply w-auto max-w-full mx-6 md:mx-6 lg:mx-10 xl:mx-auto xl:max-w-[1600px] !important;
 	}
 
+	/* layout common css */
+	.layout {
+		@apply w-full max-w-[calc(100%-48px)] md:max-w-[calc(648px+48px)] lg:max-w-[calc(904px+48px)] xl:max-w-[calc(1080px+48px)] 2xl:max-w-[calc(1200px+48px)] 3xl:max-w-[calc(1600px+48px)] mx-6 sm:mx-auto px-0 md:px-6
+	}
+
+
 	.btn {
 		@apply w-auto h-10 xl:h-[50px] px-4 md:px-6 flex gap-2 items-center rounded-[40px] text-xs md:text-sm xl:text-base font-bold text-[#15171E] bg-transparent !important;
 	}

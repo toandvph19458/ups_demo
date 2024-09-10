@@ -138,19 +138,7 @@
 									<h2
 										class="animate-ups__item flex items-center text-2xl lg:text-[40px] xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-loose"
 									>
-										Đã có
-										<div
-											class="inline-flex relative mx-4 w-[76px] h-[36px] lg:w-[145px] lg:h-[66px] xl:w-[200px] xl:h-[80px]"
-										>
-											<nuxt-img
-												loading="lazy"
-												alt="UPS"
-												src="/logo/logo-icon.png"
-												height="100"
-												class="link absolute w-full h-full object-contain"
-											/>
-										</div>
-										lo
+										Đã có UPS lo
 									</h2>
 
 									<p

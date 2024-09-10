@@ -19,9 +19,9 @@
 				đạp gió rẽ sóng, vượt ngàn chông gai!
 			</p>
 
-			<div
-				class="w-full xl:w-[950px] max-w-full relative flex flex-col gap-3 mt-10 p-3 border border-white rounded-[20px]"
-			>
+			<div class="form w-full xl:w-[950px] max-w-full relative flex flex-col gap-3 mt-10 p-3 rounded-[20px]">
+				<div class="glow"></div>
+
 				<div class="w-full grid gap-3 grid-cols-1 xl:grid-cols-3">
 					<div>
 						<nuxt-input
@@ -158,6 +158,23 @@ export default defineComponent({
 			content.value = "";
 		};
 
+		// Function to handle mouse movement
+		function handleMouseMove(e: any, form: any) {
+			const rect = form.getBoundingClientRect();
+			const mouseX = e.clientX - rect.left - rect.width / 2;
+			const mouseY = e.clientY - rect.top - rect.height / 2;
+			let angle = Math.atan2(mouseY, mouseX) * (180 / Math.PI);
+			angle = (angle + 360) % 360;
+			form.style.setProperty("--start", angle + 60);
+		}
+
+		onMounted(() => {
+			const formEl = document.querySelectorAll(".form");
+			formEl.forEach((form: any) => {
+				form.addEventListener("mousemove", (e: any) => handleMouseMove(e, form));
+			});
+		});
+
 		return {
 			fullname,
 			fullnameErr,
@@ -172,4 +189,74 @@ export default defineComponent({
 });
 </script>
 
-<style></style>
+<style scoped>
+.form {
+	--start: 0;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	border-radius: 20px;
+	transition: border-color 0.3s ease-in-out;
+}
+
+.form::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+	border: 2px solid transparent;
+	background: conic-gradient(from 90deg at 50% 50%, #adb2c0, #adb2c0);
+	background-attachment: fixed;
+	mask: linear-gradient(#0000, #0000),
+		conic-gradient(from calc((var(--start) - (20 * 1.1)) * 1deg), #ffffff1f 0deg, white, #ffffff00 100deg);
+	mask-composite: intersect;
+	mask-clip: padding-box, border-box;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
+.glow {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	filter: blur(14px);
+}
+
+.glow::before {
+	position: absolute;
+	content: "";
+	width: 98%;
+	height: 98%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+	border: 2px solid transparent;
+	background: conic-gradient(from 90deg at 50% 50%, #adb2c0, #adb2c0);
+	background-attachment: fixed;
+	mask: linear-gradient(#0000, #0000),
+		conic-gradient(from calc((var(--start) - (20 * 1.1)) * 1deg), #ffffff1f 0deg, white, #ffffff00 100deg);
+	mask-composite: intersect;
+	mask-clip: padding-box, border-box;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.form:hover > .glow::before {
+	opacity: 1;
+}
+
+.form:hover::before {
+	opacity: 0.6;
+}
+</style>

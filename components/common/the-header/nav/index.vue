@@ -11,40 +11,43 @@
 							Sản phẩm
 						</nuxt-link>
 					</NavigationMenuTrigger>
-					<NavigationMenuContent >
-						<div class="w-[1100px] px-6 py-5 flex gap-10 right-0" >
+					<NavigationMenuContent>
+						<div class="w-[800px] px-6 py-5 grid gap-x-10 gap-y-5 grid-cols-2">
 							<div class="w-full">
 								<p class="text-left text-2xl text-[#014227] font-semibold">Khách hàng cá nhân</p>
 
 								<div class="mt-4 grid grid-cols-2 gap-4">
-									<nuxt-link to="/san-pham"
-										class="inline-flex items-center px-4 py-5 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
+									<nuxt-link
+										to="/san-pham"
+										class="inline-flex items-center px-5 h-[54px] min-w-full rounded-[12px] bg-[#1D1E20] hover:bg-[#00BF52]"
 									>
 										<span class="text-base font-bold text-white">Margin T+3</span>
 									</nuxt-link>
 									<nuxt-link
-										to="/bieu-phi"
-										class="inline-flex items-center px-4 h-16 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
+										to="/san-pham"
+										class="inline-flex items-center px-5 h-[54px] min-w-full rounded-[12px] bg-[#1D1E20] hover:bg-[#00BF52]"
 									>
-										<span class="text-base font-bold text-white">Biểu phí giao dịch</span>
+										<span class="text-base font-bold text-white">Zero-Fee</span>
 									</nuxt-link>
-									<nuxt-link to="/bieu-phi"
-										class="inline-flex items-center px-4 h-16 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
+
+									<nuxt-link
+										to="/bieu-phi"
+										class="inline-flex items-center px-5 h-[54px] min-w-full rounded-[12px] bg-[#1D1E20] hover:bg-[#00BF52]"
 									>
 										<span class="text-base font-bold text-white">Vay ký quỹ</span>
 									</nuxt-link>
-									<div
-										class="inline-flex items-center px-4 h-16 min-w-[160px] rounded-[12px] bg-[#1D1E20]"
+									<nuxt-link
+										to="/bieu-phi"
+										class="inline-flex items-center px-5 h-[54px] min-w-full rounded-[12px] bg-[#1D1E20] hover:bg-[#00BF52]"
 									>
-										<span class="text-base font-bold text-white">Zero-Fee</span>
-									</div>
+										<span class="text-base font-bold text-white">Biểu phí giao dịch</span>
+									</nuxt-link>
 								</div>
 							</div>
-
 							<div class="w-full">
 								<p class="text-left text-2xl text-[#014227] font-semibold">Khách hàng doanh nghiệp</p>
 
-								<div class="flex flex-col gap-5 px-6 py-5">
+								<div class="flex flex-col gap-5 py-5">
 									<nuxt-link
 										to="/"
 										class="flex items-center"
@@ -61,7 +64,9 @@
 
 										<div class="ml-5">
 											<p class="text-base text-[#000] font-semibold">Tư vấn tài chính</p>
-											<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">Tư vấn tài chính</p>
+											<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
+												Nhận ngay sự hỗ trợ từ UPS
+											</p>
 										</div>
 									</nuxt-link>
 
@@ -81,12 +86,13 @@
 
 										<div class="ml-5">
 											<p class="text-base text-[#000] font-semibold">Tin đấu giá</p>
-											<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">Tin đấu giá</p>
+											<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
+												Cập nhật các sản phẩm HOT
+											</p>
 										</div>
 									</nuxt-link>
 								</div>
 							</div>
-
 							<div class="w-full">
 								<p class="text-left text-2xl text-[#014227] font-semibold">Nền tảng</p>
 
@@ -224,7 +230,7 @@
 								collapsible
 								:default-value="defaultValue"
 							>
-								<AccordionItem :value="1">
+								<AccordionItem value="1">
 									<AccordionTrigger class="flex items-center hover:no-underline">
 										<div class="flex">
 											<i class="inline-flex items-center justify-center">

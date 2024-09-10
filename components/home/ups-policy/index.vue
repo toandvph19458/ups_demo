@@ -440,7 +440,7 @@
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Nền tảng giao dịch cá nhân hóa
+											Mở tài khoản định danh eKYC tức thì
 										</p>
 									</div>
 									<div class="flex gap-3 items-center">

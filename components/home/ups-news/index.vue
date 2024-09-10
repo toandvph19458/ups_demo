@@ -20,7 +20,7 @@
 					<h3
 						class="animate-ups__item bg-[linear-gradient(269deg,#00C058_41.75%,#1FAB5F_110.86%)] bg-clip-text text-transparent font-BG text-[40px] md:text-[54px] xl:text-[80px] font-bold leading-[1.2]"
 					>
-						<span class="text-[#15171E]">Tin</span><br>
+						<span class="text-[#15171E]">Tin</span><br />
 						nổi bật
 					</h3>
 
@@ -107,19 +107,62 @@
 						},
 						768: {
 							slidesPerView: 2.2,
-							spaceBetween: 24,
+							spaceBetween: 12,
 						},
 						992: {
 							slidesPerView: 2.2,
-							spaceBetween: 24,
+							spaceBetween: 12,
 						},
 						1200: {
 							slidesPerView: 3.5,
-							spaceBetween: 40,
+							spaceBetween: 12,
 						},
 					}"
 				>
-					<swiper-slide>
+					<swiper-slide
+						v-for="i in 4"
+						:key="i"
+					>
+						<div class="card flex flex-col relative group p-5 rounded-[30px] overflow-hidden">
+							<div class="glow"></div>
+							<div
+								class="relative w-full h-[200px] md:h-[250px] xl:h-[288px] rounded-[14px] overflow-hidden"
+							>
+								<nuxt-img
+									format="webp"
+									loading="lazy"
+									alt="UPS"
+									width="350"
+									height="290"
+									:src="`/images/card-tin-tuc.png`"
+									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
+								/>
+							</div>
+							<div class="mt-3 md:mt-5">
+								<div class="flex justify-between">
+									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnews</p>
+									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
+										5 phút trước
+									</p>
+								</div>
+
+								<h4
+									class="text-sm md:text-base xl:text-xl text-black font-semibold line-clamp-1 mt-3 md:mt-6"
+								>
+									Nội dung tin tức
+								</h4>
+								<p class="text-sm md:text-base xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt...
+								</p>
+							</div>
+							<nuxt-link
+								to="/"
+								class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full"
+							/>
+						</div>
+					</swiper-slide>
+					<!-- <swiper-slide>
 						<div class="news_layout_item flex flex-col py-5 relative group">
 							<div
 								class="relative w-full h-[200px] md:h-[250px] xl:h-[288px] rounded-[14px] overflow-hidden"
@@ -241,48 +284,7 @@
 								class="absolute w-full h-full"
 							/>
 						</div>
-					</swiper-slide>
-					<swiper-slide>
-						<div class="news_layout_item flex flex-col py-5 relative group">
-							<div
-								class="relative w-full h-[200px] md:h-[250px] xl:h-[288px] rounded-[14px] overflow-hidden"
-							>
-								<nuxt-img
-									format="webp"
-									loading="lazy"
-									alt="UPS"
-									width="350"
-									height="290"
-									:src="`/images/card-tin-tuc.png`"
-									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-								/>
-							</div>
-
-							<div class="mt-3 md:mt-5">
-								<div class="flex justify-between">
-									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnews</p>
-									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
-										5 phút trước
-									</p>
-								</div>
-
-								<h4
-									class="text-sm md:text-base xl:text-xl text-black font-semibold line-clamp-1 mt-3 md:mt-6"
-								>
-									Nội dung tin tức
-								</h4>
-								<p class="text-sm md:text-base xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-									incididunt...
-								</p>
-							</div>
-
-							<nuxt-link
-								to="/"
-								class="absolute w-full h-full"
-							/>
-						</div>
-					</swiper-slide>
+					</swiper-slide> -->
 				</swiper>
 			</div>
 		</div>
@@ -290,7 +292,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { onMounted, defineComponent } from "vue";
 import { SwiperAutoplay, SwiperNavigation } from "#imports";
 import { cn } from "~/lib/utils";
 
@@ -314,6 +316,25 @@ export default defineComponent({
 		const prevVSwiperSlide = () => vSwiperRef?.slidePrev();
 		const nextVSwiperSlide = () => vSwiperRef?.slideNext();
 
+		// Function to handle mouse movement
+		function handleMouseMove(e: any, card: any) {
+			console.log(123);
+
+			const rect = card.getBoundingClientRect();
+			const mouseX = e.clientX - rect.left - rect.width / 2;
+			const mouseY = e.clientY - rect.top - rect.height / 2;
+			let angle = Math.atan2(mouseY, mouseX) * (180 / Math.PI);
+			angle = (angle + 360) % 360;
+			card.style.setProperty("--start", angle + 60);
+		}
+
+		onMounted(() => {
+			const cardsEl = document.querySelectorAll(".card");
+			cardsEl.forEach((card: any) => {
+				card.addEventListener("mousemove", (e: any) => handleMouseMove(e, card));
+			});
+		});
+
 		return {
 			cn,
 			vSwiperRef,
@@ -329,4 +350,76 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.card {
+	--start: 0;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	height: auto;
+	border-radius: 30px;
+	transition: border-color 0.3s ease-in-out;
+}
+
+.card::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 30px;
+	border: 2px solid transparent;
+	background: conic-gradient(from 90deg at 50% 50%, #02e56a, #ffffff);
+	background-attachment: fixed;
+	mask: linear-gradient(#0000, #0000),
+		conic-gradient(from calc((var(--start) - (20 * 1.1)) * 1deg), #ffffff1f 0deg, white, #ffffff00 100deg);
+	mask-composite: intersect;
+	mask-clip: padding-box, border-box;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
+.glow {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	filter: blur(14px);
+}
+
+.glow::before {
+	position: absolute;
+	content: "";
+	width: 98%;
+	height: 98%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 30px;
+	border: 2px solid transparent;
+	background: conic-gradient(from 90deg at 50% 50%, #02e56a, #ffffff);
+	background-attachment: fixed;
+	mask: linear-gradient(#0000, #0000),
+		conic-gradient(from calc((var(--start) - (20 * 1.1)) * 1deg), #ffffff1f 0deg, white, #ffffff00 100deg);
+	mask-composite: intersect;
+	mask-clip: padding-box, border-box;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.card:hover > .glow::before {
+	opacity: 1;
+}
+
+.card:hover::before {
+	opacity: 0.6;
+}
+</style>

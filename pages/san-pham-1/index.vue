@@ -23,7 +23,7 @@
 								class="btn active group"
 							>
 								<span> Đăng kí ngay </span>
-								<div class="inline-flex xxl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
+								<div class="inline-flex 2xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
 									<i class="w-full h-full group-hover:inline-flex hidden absolute">
 										<nuxt-img
 											src="/icons/arrow-dark-icon.svg"
@@ -52,7 +52,7 @@
 								class="btn group"
 							>
 								<span> Xem hướng dẫn </span>
-								<div class="inline-flex xxl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
+								<div class="inline-flex 2xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
 									<i class="w-full h-full inline-flex absolute">
 										<nuxt-img
 											src="/icons/arrow-dark-icon.svg"
@@ -411,17 +411,17 @@
 		<div class="py-[100px]">
 			<div class="container">
 				<p
-					class="text-[#15171E] text-center font-bold text-[60px] xl:text-[40px] lg:text-[32px] sm:text-[20px] xxl:text-[45px] leading-none font-BG"
+					class="text-[#15171E] text-center font-bold text-[60px] xl:text-[40px] lg:text-[32px] sm:text-[20px] 2xl:text-[45px] leading-none font-BG"
 				>
 					Câu hỏi thường gặp về
 					<span
-						class="text-[#E66D14] font-bold text-[60px] xl:text-[40px] lg:text-[32px] xxl:text-[45px] sm:text-[20px] leading-none"
+						class="text-[#E66D14] font-bold text-[60px] xl:text-[40px] lg:text-[32px] 2xl:text-[45px] sm:text-[20px] leading-none"
 					>
 						UPS Margin
 					</span>
 				</p>
 				<p
-					class="mt-2 text-black text-center font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] xxl:text-[16px] leading-normal"
+					class="mt-2 text-black text-center font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] 2xl:text-[16px] leading-normal"
 				>
 					Cập nhật các sản phẩm, dịch vụ mới nhất cũng như các hoạt động, sự kiện của UPS
 				</p>
@@ -429,7 +429,7 @@
 			<div class="w-[1000px] max-w-full mx-auto mt-20 flex items-center flex-col">
 				<Accordion
 					type="single"
-					class="w-2/3 xxl:w-3/4 sm:w-full lg:w-2/3"
+					class="w-2/3 2xl:w-3/4 sm:w-full lg:w-2/3"
 					collapsible
 				>
 					<AccordionItem value="1">
@@ -448,7 +448,7 @@
 								</i>
 								<div class="ml-5">
 									<p
-										class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] xxl:text-[24px] leading-normal"
+										class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] 2xl:text-[24px] leading-normal"
 									>
 										Khách hàng muốn giao dịch ký quỹ thì cần làm thủ tục gì?
 									</p>
@@ -458,7 +458,7 @@
 						<AccordionContent>
 							<div class="pl-[70px] sm:pl-12">
 								<p
-									class="text-[#838383] font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] xxl:text-[16px] leading-normal"
+									class="text-[#838383] font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] 2xl:text-[16px] leading-normal"
 								>
 									Khách hàng mở tài khoản giao dịch tại UPS, và đáp ứng đủ điều kiện về giao dịch ký
 									quỹ chứng khoán theo quy định của Pháp luật.
@@ -482,7 +482,7 @@
 								</i>
 								<div class="ml-5">
 									<p
-										class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] xxl:text-[24px] leading-normal"
+										class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] 2xl:text-[24px] leading-normal"
 									>
 										Khách hàng muốn trả khoản vay ký quỹ trước hạn có được không và thủ tục thế nào?
 									</p>
@@ -492,7 +492,7 @@
 						<AccordionContent>
 							<div class="pl-[70px] sm:pl-12">
 								<p
-									class="text-[#838383] font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] xxl:text-[16px] leading-normal"
+									class="text-[#838383] font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] 2xl:text-[16px] leading-normal"
 								>
 									Không, lãi suất của Margin T+3 là cố định 6.8% trong suốt thời gian nắm giữ cổ
 									phiếu.
@@ -516,7 +516,7 @@
 								</i>
 								<div class="ml-5">
 									<p
-										class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] xxl:text-[24px] leading-normal"
+										class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] 2xl:text-[24px] leading-normal"
 									>
 										Khách hàng có được phép gia hạn món vay của mình không?
 									</p>
@@ -526,7 +526,7 @@
 						<AccordionContent>
 							<div class="pl-[70px] sm:pl-12">
 								<p
-									class="text-[#838383] font-medium leading-normal xxl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px]"
+									class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px]"
 								>
 									Không, lãi suất của Margin T+3 là cố định 6.8% trong suốt thời gian nắm giữ cổ
 									phiếu.
@@ -550,7 +550,7 @@
 								</i>
 								<div class="ml-5">
 									<p
-										class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] xxl:text-[24px] leading-normal"
+										class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] 2xl:text-[24px] leading-normal"
 									>
 										Các mốc quan trọng của tài khoản khi thực hiện vay ký quỹ tại UPS là gì?
 									</p>
@@ -560,7 +560,7 @@
 						<AccordionContent>
 							<div class="pl-[70px] sm:pl-12">
 								<p
-									class="text-[#838383] font-medium leading-normal xxl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px]"
+									class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px]"
 								>
 									Các mốc quan trọng của tài khoản khi thực hiện vay ký quỹ tại UPS là gì?
 								</p>
@@ -583,7 +583,7 @@
 								</i>
 								<div class="ml-5">
 									<p
-										class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] xxl:text-[24px] leading-normal"
+										class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] 2xl:text-[24px] leading-normal"
 									>
 										Call Margin là gì?
 									</p>
@@ -593,7 +593,7 @@
 						<AccordionContent>
 							<div class="pl-[70px] sm:pl-12">
 								<p
-									class="text-[#838383] font-medium leading-normal xxl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px]"
+									class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px]"
 								>
 									Call Margin là gì?
 								</p>
