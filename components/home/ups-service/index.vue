@@ -55,7 +55,7 @@
 						<div class="grid grid-cols-2 mt-6 md:mt-[68px]">
 							<div class="animate-ups__item pr-5 md:pr-[40px] xl:pr-[60px]">
 								<h4
-									class="text-[30px] md:text-[52px] xl:text-[80px] font-bold leading-normal text-[#02E56A] text-shadow-custom"
+									class="text-[30px] md:text-[52px] xl:text-[80px] font-bold leading-normal text-[#02E56A] hover:text-shadow-custom"
 								>
 									60%
 								</h4>
@@ -67,7 +67,7 @@
 								class="animate-ups__item pl-5 md:pl-[40px] xl:pl-[60px] border-l-[2px] border-[#02E56A1a]"
 							>
 								<h4
-									class="text-[30px] md:text-[52px] xl:text-[80px] font-bold leading-normal text-[#02E56A] text-shadow-custom"
+									class="text-[30px] md:text-[52px] xl:text-[80px] font-bold leading-normal text-[#02E56A] hover:text-shadow-custom"
 								>
 									70%
 								</h4>

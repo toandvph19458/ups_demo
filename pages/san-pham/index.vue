@@ -131,51 +131,38 @@ export default defineComponent({
 		<feature />
 		<!-- thong tin lien he -->
 		<div
-			class="flex sm:flex-col md:flex-row p-[40px_160px] sm:p-6 xl:p-[24px_100px] lg:p-[24px_60px] lg:gap-10 2xl:p-[24px_120px] justify-between items-center bg-[linear-gradient(269deg,_#FF76E1_3.83%,_rgba(255,_85,_17,_0.80)_98.43%)] animate-ups"
-		>
+			class="flex flex-col md:flex-row md:px-[60px] md:py-6 p-6 gap-3 xl:p-[24px_100px] lg:p-[24px_60px] lg:gap-10 3xl:p-[40px_160px] 2xl:p-[24px_120px] justify-between items-center bg-[linear-gradient(269deg,_#FF76E1_3.83%,_rgba(255,_85,_17,_0.80)_98.43%)] animate-ups w-full">
 			<p
-				class="text-[#faf7f7] font-BG text-[36px] xl:text-[24px] md:text-[20px] sm:text-[14px] 2xl:text-[28px] font-semibold leading-normal sm:w-full animate-ups__item"
-			>
+				class=" text-[#faf7f7] font-BG text-[14px] xl:text-[24px] md:text-[14px] 2xl:text-[28px] 3xl:text-[32px] lg:text-[20px] font-semibold leading-normal animate-ups__item">
 				Để biết thêm chi tiết về sản phẩm Margin T+3 hoặc cần hỗ trợ đăng ký, hãy liên hệ với chúng tôi:
 			</p>
 
-			<div class="flex flex-col justify-center items-center gap-2 sm:w-full md:pl-10">
+			<div class="flex flex-col justify-center items-center gap-2 lg:w-2/3">
 				<div class="flex items-center gap-[12px] self-stretch">
 					<div class="2xl:w-6 2xl:h-6 relative h-4 w-4 xl:h-5 xl:w-5">
-						<nuxt-img
-							src="/icons/call-white.svg"
-							class="absolute w-full h-full animate-ups__item"
-						/>
+						<nuxt-img src="/icons/call-white.svg" class="absolute w-full h-full animate-ups__item" />
 					</div>
 					<p
-						class="2xl:text-[18px] xl:text-[14px] md:text-[14px] text-[16px] text-white font-normal animate-ups__item font-BG"
-					>
+						class="2xl:text-[18px] xl:text-[14px] md:text-[12px] lg:text-[14px] text-[16px] text-white font-normal animate-ups__item font-BG">
 						(+84.24) 3 944 6666
 					</p>
 				</div>
 				<div class="flex items-center gap-[12px] self-stretch">
 					<div class="2xl:w-6 2xl:h-6 relative h-4 w-4 xl:h-5 xl:w-5">
-						<nuxt-img
-							src="/icons/sms-tracking-white.svg"
-							class="absolute w-full h-full animate-ups__item"
-						/>
+						<nuxt-img src="/icons/sms-tracking-white.svg"
+							class="absolute w-full h-full animate-ups__item" />
 					</div>
 					<p
-						class="2xl:text-[18px] xl:text-[14px] md:text-[14px] text-[16px] text-white font-normal animate-ups__item font-BG"
-					>
+						class="2xl:text-[18px] xl:text-[14px] md:text-[12px] lg:text-[14px] text-[16px] text-white font-normal animate-ups__item font-BG">
 						investmentbanking@upse.com.vn
 					</p>
 				</div>
 				<div class="flex items-center gap-[12px] self-stretch">
 					<div class="2xl:w-6 2xl:h-6 relative h-4 w-4 xl:h-5 xl:w-5">
-						<nuxt-img
-							src="/icons/global-white.svg"
-							class="absolute w-full h-full animate-ups__item"
-						/>
+						<nuxt-img src="/icons/global-white.svg" class="absolute w-full h-full animate-ups__item" />
 					</div>
 					<p
-						class="2xl:text-[18px] xl:text-[14px] md:text-[14px] text-[16px] text-white font-normal animate-ups__item font-BG"
-					>
+						class="2xl:text-[18px] xl:text-[14px] md:text-[12px] lg:text-[14px] text-[16px] text-white font-normal animate-ups__item font-BG">
 						www.upse.com.vn
 					</p>
 				</div>
