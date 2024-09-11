@@ -68,8 +68,8 @@
             </div>
           </div>
 
-		  <div class="w-full h-[420px] relative group overflow-hidden">
-            <div class="absolute w-full h-full">
+		  <div class="w-full h-[420px] relative group overflow-hidden ">
+            <div class="absolute w-full h-full ">
               <nuxt-img
                 format="webp"
                 loading="lazy"

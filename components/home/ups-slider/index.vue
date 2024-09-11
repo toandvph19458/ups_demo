@@ -23,7 +23,7 @@
 					@slide-change="updateVSwiperIndex"
 				>
 					<swiper-slide>
-						<div class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center max-w-[1760px] mx-auto">
+						<div class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center ml-[300px]">
 							<div class="w-full md:max-w-[500px] xl:max-w-[768px]">
 								<div
 									class="inline-flex relative w-[76px] h-[36px] lg:w-[145px] lg:h-[66px] xl:w-[220px] xl:h-[100px]"
@@ -127,7 +127,7 @@
 						</div>
 					</swiper-slide>
 					<swiper-slide>
-						<div class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center max-w-[1760px] mx-auto">
+						<div class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center ml-[300px]">
 							<div class="w-full md:max-w-[500px] xl:max-w-[768px]">
 								<div class="my-3 lg:my-8">
 									<h2
@@ -218,7 +218,7 @@
 						</div>
 					</swiper-slide>
 					<swiper-slide>
-						<div class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center max-w-[1760px] mx-auto">
+						<div class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center ml-[300px]">
 							<div class="w-full md:max-w-[500px] xl:max-w-[768px]">
 								<div class="my-3 lg:my-8">
 									<h2

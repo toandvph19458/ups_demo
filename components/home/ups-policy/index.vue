@@ -131,7 +131,7 @@
 											width="782"
 											height="620"
 											alt="UPS"
-											src="/images/polyci-01.png"
+											src="/images/tucthi.png"
 											class="w-full h-full object-cover"
 										/>
 
@@ -222,7 +222,7 @@
 											width="782"
 											height="620"
 											alt="UPS"
-											src="/images/polyci-02.png"
+											src="/images/hoptac.png"
 											class="w-full h-full object-cover"
 										/>
 
@@ -313,7 +313,7 @@
 											width="782"
 											height="620"
 											alt="UPS"
-											src="/images/polyci-03.png"
+											src="/images/quanly.png"
 											class="w-full h-full object-cover"
 										/>
 
@@ -407,7 +407,7 @@
 									width="782"
 									height="620"
 									alt="UPS"
-									src="/images/polyci-01.png"
+									src="/images/tucthi.png"
 									class="w-full h-full object-cover"
 								/>
 
@@ -488,7 +488,7 @@
 									width="782"
 									height="620"
 									alt="UPS"
-									src="/images/polyci-02.png"
+									src="/images/hoptac.png"
 									class="w-full h-full object-cover"
 								/>
 
@@ -569,7 +569,7 @@
 									width="782"
 									height="620"
 									alt="UPS"
-									src="/images/polyci-03.png"
+									src="/images/quanly.png"
 									class="w-full h-full object-cover"
 								/>
 

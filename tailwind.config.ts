@@ -40,6 +40,9 @@ module.exports = {
 			textShadow: {
 				custom: "6px 6px 0px #071A11",
 			},
+			backgroundImage: {
+				'custom-gradient': 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 8.9%, #000 100%)',
+			  },
 			colors: {
 				black: "#15171E",
 				"green-ups": "#02E56A",
