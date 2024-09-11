@@ -42,6 +42,7 @@ export const useNewsStore = defineStore({
 		},
 
 		async fnGetNewDetail(slug: string) {
+			
 			let query = `
 				query {
 					posts_by_id(id: "${slug}") {
