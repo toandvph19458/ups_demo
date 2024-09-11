@@ -314,7 +314,7 @@
 						<p class="text-black text-[40px] leading-normal font-BG">6.2%/năm</p>
 						<p class="text-black text-[24px] leading-normal font-BG">dành cho khách hàng của UPS</p>
 					</div>
-					<div class="absolute top-0 right-1/4 ">
+					<div class="absolute top-0 w-[777px] h-[592px] right-1/4">
 						<nuxt-img format="webp" loading="lazy" src="/images/Group 427318928.png" alt="UPS"
 							class="w-full h-full object-cover" />
 					</div>

@@ -76,13 +76,13 @@
 											:default-value="defaultValue"
 										>
 											<AccordionItem
-												v-for="(item, index) in dataFake"
-												:key="item.value"
-												:value="item.value"
+												v-for="(item, index) in data?.dataDocument?.instruction_structure"
+												:key="item.slug"
+												:value="item.slug"
 											>
 												<AccordionTrigger>
 													<div
-														v-if="item.sub && item.sub.length > 0"
+														v-if="item?.documents && item?.documents.length > 0"
 														class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
 													>
 														<div class="flex items-center">
@@ -99,13 +99,12 @@
 														</div>
 													</div>
 
-													<DrawerClose
+													<nuxt-link
 														v-else
-														as-child
+														:to="`/hdsd#${item?.slug}`"
+														class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
 													>
-														<nuxt-link
-															class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
-														>
+														<DrawerClose as-child>
 															<div class="flex items-center">
 																<div
 																	class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
@@ -118,20 +117,20 @@
 																	{{ item.title }}
 																</p>
 															</div>
-														</nuxt-link>
-													</DrawerClose>
+														</DrawerClose>
+													</nuxt-link>
 
 													<template #icon> <div></div></template>
 												</AccordionTrigger>
-												<AccordionContent v-if="item.sub && item.sub.length > 0">
-													<nuxt-link
-														to="/hdsd#1"
-														class="ml-11 flex flex-col gap-3"
+												<AccordionContent v-if="item.documents && item.documents.length > 0">
+													<DrawerClose
+														v-for="(sub, k) in item.documents"
+														:key="k"
+														as-child
 													>
-														<DrawerClose
-															v-for="(sub, k) in item.sub"
-															:key="k"
-															as-child
+														<nuxt-link
+															:to="`/hdsd#${sub?.document?.slug}`"
+															class="ml-11 flex flex-col gap-3"
 														>
 															<div
 																class="flex items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
@@ -145,11 +144,11 @@
 																</div>
 
 																<p class="text-lg text-black font-bold">
-																	{{ sub.title }}
+																	{{ sub?.document?.title }}
 																</p>
 															</div>
-														</DrawerClose>
-													</nuxt-link>
+														</nuxt-link>
+													</DrawerClose>
 												</AccordionContent>
 											</AccordionItem>
 										</Accordion>
@@ -223,9 +222,10 @@
 								</AccordionTrigger>
 								<AccordionContent v-if="item.documents && item.documents.length > 0">
 									<div class="ml-11 flex flex-col gap-3">
-										<div
+										<nuxt-link
 											v-for="(sub, k) in item.documents"
 											:key="k"
+											:to="`/hdsd#${sub?.document?.slug}`"
 											class="flex gap-2 items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
 										>
 											<div class="w-11 h-11 inline-flex items-center justify-center">
@@ -235,7 +235,7 @@
 											<p class="w-full flex-1 text-lg text-black font-bold capitalize">
 												{{ sub?.document?.title }}
 											</p>
-										</div>
+										</nuxt-link>
 									</div>
 								</AccordionContent>
 							</AccordionItem>
@@ -243,138 +243,19 @@
 					</div>
 				</div>
 				<div class="flex-1 xl:flex-none w-full xl:w-[900px]">
-					<div class="">
-						<div
-							class="animate-about__item inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]"
-						>
-							<nuxt-img
-								format="webp"
-								loading="lazy"
-								width="173"
-								height="78"
-								alt="UPS"
-								src="/logo/logo-cap-dark.png"
-								class="absolute w-full h-full object-contain"
-							/>
-						</div>
-
-						<div class="mt-6">
-							<h5 class="text-[40px] text-black font-semibold font-BG">Mở tài khoản chứng khoán</h5>
-							<p class="text-base text-[#535662] font-medium">
-								Giới thiệu tóm tắt về chức năng bao gồm nội dung và hình ảnh đại diện
-							</p>
-
-							<div class="py-10">
-								<div
-									class="animate-about__item w-full h-[200px] md:h-[400px] xl:h-[500px] relative rounded-[18px] lg:rounded-[20px] overflow-hidden"
-								>
-									<iframe
-										width="100%"
-										height="100%"
-										src="https://www.youtube.com/embed/wwOWbN09Kkc?si=jQVujZYq4CnmT01-"
-										title="YouTube video player"
-										frameborder="0"
-										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-										referrerpolicy="strict-origin-when-cross-origin"
-										allowfullscreen
-										class="absolute w-full h-full"
-									></iframe>
-								</div>
-								<p class="mt-3 text-base text-[#535662] font-medium">
-									Người dùng truy cập Hiệu suất đầu tư bằng cách click chọn Hiệu suất đầu tư. Tại đây
-									hiển thị thông tin biểu đồ hiệu suất đầu tư, lợi nhuận theo tháng, biểu đồ giá trị
-									chứng khoán/tài sản ròng/nợ, thông tin lãi/ lỗ đã thực hiện, lợi nhuận mã chứng
-									khoán theo từng
-									<nuxt-link
-										to="/"
-										class="text-[#6382FF] underline"
-									>
-										tiểu khoản đã chọn tương ứng.
-									</nuxt-link>
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="mt-4 md:mt-6">
-						<h5 class="text-[24px] text-black font-semibold font-BG">Tài khoản</h5>
-						<p class="text-base text-[#535662] font-medium">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-							galley of type and scrambled it to make a type specimen book. It has survived not only five
-							centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-							passages, and more recently with desktop publishing software like Aldus PageMaker including
-							versions of Lorem Ipsum.
-						</p>
-
-						<div class="py-10">
-							<div
-								class="animate-about__item w-full h-[200px] md:h-[400px] xl:h-[500px] relative rounded-[18px] lg:rounded-[20px] overflow-hidden"
-							>
-								<nuxt-img
-									loading="lazy"
-									format="webp"
-									alt="UPS"
-									height="500"
-									src="/images/woman-hand-holding-credit-card-using-portable-tablet-online-banking-businesswoman-shopping-purchasing-online-paying-by-credit-card 1.png"
-									class="absolute w-full h-full object-cover"
-								/>
-							</div>
-						</div>
-					</div>
-
-					<div class="mt-4 md:mt-6">
-						<h5 class="text-[24px] text-black font-semibold font-BG">Hiệu suất đầu tư</h5>
-						<p class="text-base text-[#535662] font-medium">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-							galley of type and scrambled it to make a type specimen book. It has survived not only five
-							centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-							passages, and more recently with desktop publishing software like Aldus PageMaker including
-							versions of Lorem Ipsum.
-						</p>
-					</div>
-
-					<div class="mt-4 md:mt-6">
-						<h5 class="text-[24px] text-black font-semibold font-BG">Lãi lỗ đã thực hiện</h5>
-						<p class="text-base text-[#535662] font-medium">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-							been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-							galley of type and scrambled it to make a type specimen book. It has survived not only five
-							centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-							passages, and more recently with desktop publishing software like Aldus PageMaker including
-							versions of Lorem Ipsum.
-						</p>
-
-						<div class="py-4 md:py-10">
-							<div
-								class="animate-about__item w-full h-[200px] md:h-[400px] xl:h-[500px] relative rounded-[18px] lg:rounded-[20px] overflow-hidden"
-							>
-								<nuxt-img
-									loading="lazy"
-									format="webp"
-									alt="UPS"
-									height="500"
-									src="/images/woman-hand-holding-credit-card-using-portable-tablet-online-banking-businesswoman-shopping-purchasing-online-paying-by-credit-card 1.png"
-									class="absolute w-full h-full object-cover"
-								/>
-							</div>
-						</div>
-
-						<div class="mt-6">
-							<h5 class="text-[24px] text-black font-semibold font-BG">Lợi nhuận mã chứng khoán</h5>
-							<p class="text-base text-[#535662] font-medium">
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-								has been the industry's standard dummy text ever since the 1500s, when an unknown
-								printer took a galley of type and scrambled it to make a type specimen book. It has
-								survived not only five centuries, but also the leap into electronic typesetting,
-								remaining essentially unchanged. It was popularised in the 1960s with the release of
-								Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-								publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-							</p>
+					<div
+						v-for="(item, index) in data?.dataDocument?.instruction_structure"
+						:key="item.slug"
+						class="mt-4 md:mt-6"
+					>
+						<h5 class="text-[24px] text-black font-semibold font-BG">{{ item.title }}</h5>
+						<div v-if="item.documents && item.documents.length > 0">
+							<p
+								v-for="(sub, k) in item.documents"
+								:key="k"
+								class="mt-2 text-base text-[#535662] font-medium"
+								v-html="sub?.document?.content"
+							></p>
 						</div>
 					</div>
 
@@ -515,94 +396,18 @@ export default defineComponent({
 		ScrollArea,
 	},
 	setup(props, ctx) {
-		const instructionStructureStore = useInstructionStructureStore();
-
 		const defaultValue = "1";
-
-		const dataFake = [
-			{
-				value: "1",
-				title: "Sẵn sàng gia nhập UPS",
-				content: "Yes. It adheres to the WAI-ARIA design pattern.",
-				sub: [
-					{
-						value: "1-1",
-						title: "Mở tài khoản chứng khoán",
-					},
-					{
-						value: "1-2",
-						title: "Biểu mẫu chứng từ",
-					},
-					{
-						value: "1-3",
-						title: "Cập nhật thông tin",
-					},
-					{
-						value: "1-4",
-						title: "Bản công bố rủi ro",
-					},
-				],
-			},
-			{
-				value: "2",
-				title: "Đầu tư",
-				content: "Yes. It's unstyled by default, giving you freedom over the look and feel.",
-			},
-			{
-				value: "3",
-				title: "Giao dịch tiền",
-				content: "Yes! You can use the transition prop to configure the animation.",
-			},
-			{
-				value: "4",
-				title: "Hướng dẫn sử dụng",
-				content: "Yes! You can use the transition prop to configure the animation.",
-			},
-			{
-				value: "5",
-				title: "Lưu ký chứng khoán",
-				content: "Yes! You can use the transition prop to configure the animation.",
-			},
-			{
-				value: "6",
-				title: "Hướng dẫn công bố thông tin",
-				content: "Yes! You can use the transition prop to configure the animation.",
-			},
-
-			{
-				value: "7",
-				title: "Hướng dẫn giao dịch & Trái phiếu doanh nghiệp riêng lẻ",
-				content: "Yes! You can use the transition prop to configure the animation.",
-			},
-			{
-				value: "8",
-				title: "FAQ",
-				content: "Yes! You can use the transition prop to configure the animation.",
-			},
-			{
-				value: "9",
-				title: "Giao dịch tiền",
-				content: "Yes! You can use the transition prop to configure the animation.",
-			},
-			{
-				value: "10",
-				title: "Chính sách xử lý cá nhân",
-				content: "Yes! You can use the transition prop to configure the animation.",
-			},
-			{
-				value: "11",
-				title: "Chương trình khách hàng phát triển",
-				content: "Yes! You can use the transition prop to configure the animation.",
-			},
-		];
+		const instructionStructureStore = useInstructionStructureStore();
 
 		const { data } = useAsyncData("document", async () => {
 			const dataDocument = await instructionStructureStore.fnGetListInstructionStructure();
 
 			return {
-				dataDocument: dataDocument?.data?.data,
+				dataDocument: dataDocument.data?.data || [],
 			};
 		});
+
+		console.log("data", data.value?.dataDocument);
 
 		useHead({
 			title: "UPS - Hướng Dẫn Sử Dụng",
@@ -661,7 +466,6 @@ export default defineComponent({
 
 		return {
 			defaultValue,
-			dataFake,
 			data,
 		};
 	},

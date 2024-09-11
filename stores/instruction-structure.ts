@@ -8,7 +8,7 @@ export const useInstructionStructureStore = defineStore({
 		async fnGetListInstructionStructure(page: number = 1, limit: number = 10) {
 			let query = `
 				query {
-					instruction_structure (page: 1, limit: 8) {
+					instruction_structure {
 						slug
 						title
 						blurb
@@ -17,13 +17,14 @@ export const useInstructionStructureStore = defineStore({
 								slug
 								title
 								blurb
+								content
 							}
 						}
 					}
 				}
 			`;
 
-			return await httpRequest.post(``, { query });
+			return await httpRequest.post("", { query });
 		},
 	},
 });

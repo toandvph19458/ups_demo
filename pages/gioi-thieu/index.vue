@@ -367,30 +367,7 @@
               </div>
             </div>
 
-            <div class="flex group">
-              <div :class="cn(
-                'flex w-3 xl:w-[18px] h-3 xl:h-[18px] rounded-[4px] bg-[#01C159] group-hover:shadow-[0_0_32px_0_#00FF75]',
-                {
-                  '': 1 == 1,
-                }
-              )
-                "></div>
-              <div class="flex-1 ml-8 max-w-full md:max-w-[620px] xl:max-w-[620px]">
-                <p
-                  class="text-base md:text-[24px] xl:text-[40px] text-white font-BG font-semibold leading-[0.6] group-hover:text-[41px]">
-                  2015
-                </p>
-                <h5 class="mt-4 text-sm md:text-base xl:text-lg text-white font-bold">
-                  Tăng vốn điều lệ lên 300 tỷ đồng
-                </h5>
-
-                <p class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium">
-                  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmod tempor incididunt -->
-                </p>
-              </div>
-            </div>
+            
 
             <div class="flex group">
               <div :class="cn(
@@ -562,7 +539,7 @@
           </p>
           <div class="animate-about__item inline-flex my-6">
             <nuxt-link to="/" class="btn active group">
-              <span> Xem báo cáo </span>
+              <span> Xem tại đây </span>
               <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
                   <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />

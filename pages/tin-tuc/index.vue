@@ -29,10 +29,7 @@
 			</div>
 
 			<!-- TIN TỨC HOT -->
-			<div
-				v-if="data?.dataNews?.posts.length > 0"
-				class="py-5 xl:py-10"
-			>
+			<div class="py-5 xl:py-10">
 				<div
 					class="flex flex-col md:flex-row xl:flex-row h-[570px] bg-[#15171E] rounded-[20px] overflow-hidden"
 				>
@@ -235,96 +232,94 @@
 					</div>
 
 					<div class="mt-10 flex gap-10 flex-col">
-						<template v-if="data?.dataNews?.posts.length > 0">
+						<div
+							v-for="(doc, i) in data?.dataNews?.posts"
+							:key="i"
+							class="flex flex-col md:flex-row gap-8 group"
+						>
 							<div
-								v-for="(doc, i) in data?.dataNews?.posts"
-								:key="i"
-								class="flex flex-col md:flex-row gap-8 group"
+								class="w-full md:w-[400px] h-[220px] md:h-auto md:max-h-min relative rounded-[14px] overflow-hidden"
 							>
-								<div
-									class="w-full md:w-[400px] h-[220px] md:h-auto md:max-h-min relative rounded-[14px] overflow-hidden"
-								>
-									<nuxt-img
-										:alt="doc?.short_content?.title"
-										:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
-										class="absolute w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-									/>
-								</div>
-
-								<div class="flex-1 w-full">
-									<template v-if="doc?.short_content?.tags.length > 0">
-										<p
-											v-for="(sub, k) in doc?.short_content?.tags"
-											:key="k"
-											class="text-sm md:text-lg text-[#00C645] font-medium"
-										>
-											{{ `#${sub?.tag.slug}` }}
-										</p>
-									</template>
-
-									<h3 class="mt-3 md:mt-5 text-lg md:text-2xl text-black font-semibold line-clamp-2">
-										{{ doc?.short_content?.title }}
-									</h3>
-
-									<div class="flex gap-2 items-center my-5">
-										<i>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												width="18"
-												height="19"
-												viewBox="0 0 18 19"
-												fill="none"
-											>
-												<path
-													d="M9 17C13.1421 17 16.5 13.6421 16.5 9.5C16.5 5.35786 13.1421 2 9 2C4.85786 2 1.5 5.35786 1.5 9.5C1.5 13.6421 4.85786 17 9 17Z"
-													stroke="#696B75"
-													stroke-width="2"
-													stroke-linecap="round"
-													stroke-linejoin="round"
-												/>
-												<path
-													d="M9 5V9.5L12 11"
-													stroke="#696B75"
-													stroke-width="2"
-													stroke-linecap="round"
-													stroke-linejoin="round"
-												/>
-											</svg>
-										</i>
-
-										<span class="text-sm md:text-base text-[#696B75] font-semibold">
-											{{ doc?.short_content?.date_published }}
-										</span>
-									</div>
-
-									<p class="text-sm md:text-xl text-black font-normal line-clamp-2">
-										{{ doc?.short_content?.blurb }}
-									</p>
-
-									<nuxt-link
-										:to="`/tin-tuc/${doc?.short_content?.slug}`"
-										class="mt-5 inline-flex gap-5 items-center text-sm md:text-base text-black font-bold"
-									>
-										<span> Xem chi tiết </span>
-
-										<i>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												width="16"
-												height="13"
-												viewBox="0 0 16 13"
-												fill="none"
-											>
-												<path
-													d="M1 5.75C0.585786 5.75 0.25 6.08579 0.25 6.5C0.25 6.91421 0.585786 7.25 1 7.25V5.75ZM15.6725 7.03033C15.9654 6.73744 15.9654 6.26256 15.6725 5.96967L10.8995 1.1967C10.6066 0.903806 10.1317 0.903806 9.83883 1.1967C9.54594 1.48959 9.54594 1.96447 9.83883 2.25736L14.0815 6.5L9.83883 10.7426C9.54594 11.0355 9.54594 11.5104 9.83883 11.8033C10.1317 12.0962 10.6066 12.0962 10.8995 11.8033L15.6725 7.03033ZM1 7.25H15.1421V5.75H1V7.25Z"
-													fill="#15171E"
-												/>
-											</svg>
-										</i>
-									</nuxt-link>
-								</div>
+								<nuxt-img
+									:alt="doc?.short_content?.title"
+									:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
+									class="absolute w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
+								/>
 							</div>
-						</template>
+
+							<div class="flex-1 w-full">
+								<template v-if="doc?.short_content?.tags.length > 0">
+									<p
+										v-for="(sub, k) in doc?.short_content?.tags"
+										:key="k"
+										class="text-sm md:text-lg text-[#00C645] font-medium"
+									>
+										{{ `#${sub?.tag.slug}` }}
+									</p>
+								</template>
+
+								<h3 class="mt-3 md:mt-5 text-lg md:text-2xl text-black font-semibold line-clamp-2">
+									{{ doc?.short_content?.title }}
+								</h3>
+
+								<div class="flex gap-2 items-center my-5">
+									<i>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="18"
+											height="19"
+											viewBox="0 0 18 19"
+											fill="none"
+										>
+											<path
+												d="M9 17C13.1421 17 16.5 13.6421 16.5 9.5C16.5 5.35786 13.1421 2 9 2C4.85786 2 1.5 5.35786 1.5 9.5C1.5 13.6421 4.85786 17 9 17Z"
+												stroke="#696B75"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M9 5V9.5L12 11"
+												stroke="#696B75"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</i>
+
+									<span class="text-sm md:text-base text-[#696B75] font-semibold">
+										{{ doc?.short_content?.date_published }}
+									</span>
+								</div>
+
+								<p class="text-sm md:text-xl text-black font-normal line-clamp-2">
+									{{ doc?.short_content?.blurb }}
+								</p>
+
+								<nuxt-link
+									:to="`/tin-tuc/${doc?.short_content?.slug}`"
+									class="mt-5 inline-flex gap-5 items-center text-sm md:text-base text-black font-bold"
+								>
+									<span> Xem chi tiết </span>
+
+									<i>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="16"
+											height="13"
+											viewBox="0 0 16 13"
+											fill="none"
+										>
+											<path
+												d="M1 5.75C0.585786 5.75 0.25 6.08579 0.25 6.5C0.25 6.91421 0.585786 7.25 1 7.25V5.75ZM15.6725 7.03033C15.9654 6.73744 15.9654 6.26256 15.6725 5.96967L10.8995 1.1967C10.6066 0.903806 10.1317 0.903806 9.83883 1.1967C9.54594 1.48959 9.54594 1.96447 9.83883 2.25736L14.0815 6.5L9.83883 10.7426C9.54594 11.0355 9.54594 11.5104 9.83883 11.8033C10.1317 12.0962 10.6066 12.0962 10.8995 11.8033L15.6725 7.03033ZM1 7.25H15.1421V5.75H1V7.25Z"
+												fill="#15171E"
+											/>
+										</svg>
+									</i>
+								</nuxt-link>
+							</div>
+						</div>
 					</div>
 
 					<!-- PHÂN TRANG  -->
