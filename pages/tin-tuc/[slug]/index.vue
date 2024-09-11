@@ -408,7 +408,6 @@ export default defineComponent({
       };
     });
 
-    console.log(data);
 
     return {
       data,
