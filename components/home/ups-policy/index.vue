@@ -30,15 +30,13 @@
 						</p>
 
 						<div
-							class="animate-ups__item flex relative w-[190px] h-[40px] md:w-[190px] md:h-[54px] lg:w-[190px] lg:h-[86px]"
+							class="animate-ups__item flex relative w-[190px] h-[40px] md:w-[190px] md:h-[54px] lg:w-[190px] lg:h-[86px] object-cover"
 						>
 							<nuxt-img
 								loading="lazy"
 								alt="UPS"
-								width="190"
-								height="86"
 								src="/logo/logo-cap-dark.png"
-								class="absolute w-full h-full object-cover"
+								class="absolute w-full h-full object-contain"
 							/>
 						</div>
 					</div>

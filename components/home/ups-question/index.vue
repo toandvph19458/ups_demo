@@ -13,7 +13,7 @@
 							width="220"
 							height="100"
 							src="/logo/logo-cap-dark.png"
-							class="animate-ups__item absolute w-full h-full object-cover"
+							class="animate-ups__item absolute w-full h-full object-contain"
 						/>
 					</div>
 				</div>

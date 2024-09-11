@@ -24,7 +24,7 @@
         >
           <swiper-slide>
             <div
-              class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center ml-[24px] lg:ml-[300px]"
+              class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center ml-[24px] lg:ml-[300px] xl:ml-[100px]"
             >
               <div class="w-full md:max-w-[500px] xl:max-w-[768px]">
                 <div
@@ -138,7 +138,7 @@
           </swiper-slide>
           <swiper-slide>
             <div
-              class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center ml-[24px] lg:ml-[300px]"
+              class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center ml-[24px] lg:ml-[300px] xl:ml-[100px]"
             >
               <div class="w-full md:max-w-[500px] xl:max-w-[768px]">
                 <div class="my-3 lg:my-8">
@@ -239,7 +239,7 @@
           </swiper-slide>
           <swiper-slide>
             <div
-              class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center ml-[24px] lg:ml-[300px]"
+              class="flex flex-col-reverse lg:flex-row gap-10 lg:gap-14 items-center ml-[24px] lg:ml-[300px] xl:ml-[100px]"
             >
               <div class="w-full md:max-w-[500px] xl:max-w-[768px]">
                 <div class="my-3 lg:my-8">

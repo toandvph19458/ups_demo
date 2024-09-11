@@ -86,7 +86,7 @@
 					class="absolute bottom-7 right-6 inline-flex items-center justify-center h-[50px] px-8 text-base font-semibold text-green-ups bg-[rgba(255,255,255,0.08)] rounded-full"
 					@click="submit"
 				>
-					Đăng ký
+					Gửi tin nhắn
 				</button>
 			</div>
 		</div>
