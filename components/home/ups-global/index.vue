@@ -15,8 +15,7 @@
 					<p
 						class="animate-ups__item text-[20px] xl:text-[28px] text-center xl:text-left font-medium text-[#000]"
 					>
-						Đã có hơn <span class="text-[24px] xl:text-[40px] text-[#02E56A]"> 1500 khách hàng </span> đăng
-						ký đặt trước!
+					Đội ngũ chuyên gia tư vấn <span class="text-[24px] xl:text-[40px] text-[#02E56A]"> luôn sẵn sàng hỗ trợ </span> 
 					</p>
 					</div>
 

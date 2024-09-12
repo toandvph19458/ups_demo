@@ -7,7 +7,7 @@
 				class="animate-ups__item bg-[linear-gradient(99deg,_#FFF_-1.15%,_#FFF_71.81%,_rgba(255,255,255,0.30)_102.18%)] bg-clip-text text-transparent font-BG text-[20px] md:text-[32px] xl:text-[60px] text-center lg:text-left font-semibold leading-[1]"
 			>
 				Kết nối cùng
-				<span class="text-[#02D060]">UPS!</span>
+				<span class="text-[#02D060]">UPS</span>
 				ngay hôm nay!
 			</h3>
 

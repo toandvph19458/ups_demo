@@ -127,116 +127,39 @@
 								</div>
 
 								<!-- DANH MỤC -->
-								<div class="flex gap-3 flex-col">
-									<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
+								<div
+									v-if="data?.dataCateAndTags?.a_categories?.length > 0"
+									class="flex gap-3 flex-col"
+								>
+									<div
+										v-for="(doc, i) in data?.dataCateAndTags?.a_categories"
+										:key="i"
+										class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]"
+									>
 										<div
 											class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
 										>
-											1
+											{{ i + 1 }}
 										</div>
 										<div
 											class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
 										>
-											Tin cổ đông
-										</div>
-									</div>
-									<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
-										<div
-											class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
-										>
-											2
-										</div>
-										<div
-											class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
-										>
-											Báo cáo tài chính
-										</div>
-									</div>
-									<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
-										<div
-											class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
-										>
-											3
-										</div>
-										<div
-											class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
-										>
-											Quan hệ cổ đông
-										</div>
-									</div>
-
-									<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
-										<div
-											class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
-										>
-											4
-										</div>
-										<div
-											class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
-										>
-											Thông tin Quản trị
-										</div>
-									</div>
-									<div class="flex items-center cursor-pointer group hover:bg-[#F3F5FB]">
-										<div
-											class="w-11 h-11 inline-flex items-center justify-center text-lg font-medium text-[#7B7E89] bg-[#E7E9EF] group-hover:bg-[#34C759] group-hover:text-white"
-										>
-											5
-										</div>
-										<div
-											class="flex-1 w-full h-full px-5 text-lg text-[#7B7E89] group-hover:text-black font-medium"
-										>
-											Báo cáo thường niên
+											{{ doc?.title }}
 										</div>
 									</div>
 								</div>
 
-								<div class="mt-5 flex gap-4 flex-wrap">
-									<div
-										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
+								<div
+									v-if="data?.dataCateAndTags?.a_tags?.length > 0"
+									class="mt-5 lg:mt-10 flex gap-4 flex-wrap"
+								>
+									<p
+										v-for="(doc, i) in data?.dataCateAndTags?.a_tags"
+										:key="i"
+										class="text-base lg:text-lg text-[#7F8494] font-normal cursor-pointer"
 									>
-										2024
-									</div>
-									<div
-										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
-									>
-										2023
-									</div>
-									<div
-										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
-									>
-										2022
-									</div>
-									<div
-										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
-									>
-										2021
-									</div>
-									<div
-										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
-									>
-										2020
-									</div>
-									<div
-										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
-									>
-										2019
-									</div>
-									<div
-										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
-									>
-										2018
-									</div>
-									<div
-										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
-									>
-										2017
-									</div>
-									<div
-										class="inline-flex items-center justify-center h-11 px-6 rounded-[10px] cursor-pointer text-sm font-medium text-black hover:bg-[#F3F5FB]"
-									>
-										2016
-									</div>
+										{{ `#${doc?.raw}` }}
+									</p>
 								</div>
 							</div>
 						</DrawerContent>
@@ -478,6 +401,7 @@
 							:sibling-count="10"
 							show-edges
 							:default-page="1"
+							@update:page="(_val) => (curPage = _val)"
 						>
 							<PaginationList
 								v-slot="{ items }"
@@ -575,16 +499,23 @@ export default defineComponent({
 	},
 	setup(props, ctx) {
 		const announceStore = useAnnounceStore();
+		const curPage = ref<number>(1);
 
-		const { data } = useAsyncData("news", async () => {
-			const dataCateAndTags = await announceStore.fnGetCateAndTags();
-			const dataAnnouce = await announceStore.fnGetListAnnounce();
+		const { data } = useAsyncData(
+			"announce",
+			async () => {
+				const dataCateAndTags = await announceStore.fnGetCateAndTags();
+				const dataAnnouce = await announceStore.fnGetListAnnounce(Number(curPage.value));
 
-			return {
-				dataCateAndTags: dataCateAndTags.data?.data,
-				dataAnnouce: dataAnnouce.data?.data,
-			};
-		});
+				return {
+					dataCateAndTags: dataCateAndTags.data?.data,
+					dataAnnouce: dataAnnouce.data?.data,
+				};
+			},
+			{
+				watch: [curPage],
+			}
+		);
 
 		useHead({
 			title: "UPS - Công bố tin tức",
@@ -631,6 +562,7 @@ export default defineComponent({
 			cn,
 			config,
 			data,
+			curPage,
 		};
 	},
 });

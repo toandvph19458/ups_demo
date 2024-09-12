@@ -87,9 +87,14 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-family: "Hanken Grotesk", sans-serif;
+
   }
 
   /* COMMON */
@@ -113,6 +118,7 @@
   .image {
     @apply box-border block overflow-hidden w-auto h-auto bg-none opacity-100 border-0 m-0 p-0 absolute inset-0;
   }
+
   .shadow-custom {
     box-shadow: -10px 10px 0px 0px rgba(0, 0, 0, 0.31);
   }

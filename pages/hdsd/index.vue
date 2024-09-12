@@ -247,16 +247,16 @@
 						v-for="(item, index) in data?.dataDocument?.instruction_structure"
 						:key="item.slug"
 						class="mt-4 md:mt-6"
+						:id="item?.slug"
 					>
 						<h5 class="text-[24px] text-black font-semibold font-BG">{{ item.title }}</h5>
-						<div v-if="item.documents && item.documents.length > 0">
-							<p
-								v-for="(sub, k) in item.documents"
-								:key="k"
-								class="mt-2 text-base text-[#535662] font-medium"
-								v-html="sub?.document?.content"
-							></p>
-						</div>
+						<p
+							v-for="(sub, k) in item.documents"
+							:key="sub?.document?.slug"
+							:id="sub?.document?.slug"
+							class="mt-2 text-base text-[#535662] font-medium"
+							v-html="sub?.document?.content"
+						></p>
 					</div>
 
 					<!-- COMMENT -->

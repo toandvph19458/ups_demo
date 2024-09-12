@@ -38,6 +38,8 @@ export const useAnnounceStore = defineStore({
 				}
 			`;
 
+			console.log(query);
+
 			return await httpRequest.post(``, { query });
 		},
 	},
