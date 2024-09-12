@@ -9,7 +9,7 @@
 		<!-- tham gia ngay -->
 		<div class="flex p-6 flex-col justify-end items-start 3xl:px-[225px] 3xl:pt-[200px] 3xl:pb-[100px]">
 			<div
-				class="flex w-full flex-col 3xl:flex-row-reverse items-center 3xl:items-end gap-6 bg-gradient-to-b from-teal-400 via-indigo-500 to-purple-600 rounded-[20px] p-6 h-[343px] 3xl:h-[449px] relative mx-auto">
+				class="flex w-full flex-col 3xl:flex-row-reverse items-center 3xl:items-end gap-6 bg-gradient-to-l from-[#00D7B0] via-[#00D7B0] to-[#7B57FF] rounded-[20px] p-6 h-[343px] 3xl:h-[449px] relative mx-auto 3xl:p-12">
 				<div class="flex flex-col justify-center gap-3 w-[266px] 3xl:w-full  3xl:justify-end">
 					<p
 						class=" text-white text-center 3xl:text-right font-BG text-[22px] leading-normal capitalize 3xl:text-[60px]">
@@ -22,13 +22,13 @@
 						Để trải
 						nghiệm
 						giao
-						dịch chứng khoán
+						dịch chứng khoán <br />
 						với <span class="text-[#FFF35D] font-HG text-[18px] 3xl:text-[50px] 3xl:leading-[60px]">phí 0
 							đồng</span> cùng UPS
 					</p>
-					<div class="inline-flex mx-auto 3xl:w-full 3xl:justify-end">
+					<div class="inline-flex mx-auto 3xl:w-full 3xl:justify-end 3xl:mt-[40px]">
 						<nuxt-link to="/" class="btn active group ">
-							<span class="text-[10px] sm:text-[12px] xl:text-[14px] "> Đăng kí ngay </span>
+							<span class="text-[10px] sm:text-[12px] xl:text-[14px] "> Mở tài khoản ngay </span>
 							<div class="inline-flex 3xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
 								<i class="w-full h-full group-hover:inline-flex hidden absolute">
 									<nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
@@ -42,7 +42,7 @@
 						</nuxt-link>
 					</div>
 				</div>
-				<div class="border">
+				<div class="3xl:w-[90%]">
 					<p class="text-white text-center font-BG text-[14px] leading-normal px-10 3xl:text-[24px]">Thời gian
 						diễn ra từ
 						01/09/2024 đến

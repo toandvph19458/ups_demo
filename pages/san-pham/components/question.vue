@@ -31,7 +31,7 @@
 									<div class="ml-5">
 										<p
 											class="text-[#15171E] text-left font-semibold 3xl:text-[30px] xl:text-[20px] lg:text-[16px] md:text-[16px] text-[14px] 2xl:text-[24px] leading-normal animate-ups__item font-HG">
-											Lãi suất của Margin T+3 có thay đổi không?
+											Hạn mức dư nợ hưởng ưu đãi Margin T+ của UPS?
 										</p>
 									</div>
 								</div>
@@ -40,8 +40,8 @@
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
 										class="text-[#838383] font-medium 3xl:text-[20px] xl:text-[14px] lg:text-[12px] text-[12px] 2xl:text-[16px] leading-normal font-HG">
-										Không, lãi suất của Margin T+3 là cố định 6.8% trong suốt thời gian nắm giữ cổ
-										phiếu.
+										Dư nợ hưởng ưu đãi lãi suất tối đa 20 tỷ. Phần dư nợ vượt quá 20 tỷ sẽ tính lãi
+										theo lãi suất sau ưu đãi của từng gói T+.
 									</p>
 								</div>
 							</AccordionContent>
@@ -57,7 +57,7 @@
 									<div class="ml-5">
 										<p
 											class="text-[#15171E] text-left font-semibold 3xl:text-[30px] xl:text-[20px] lg:text-[16px] md:text-[16px] text-[14px] 2xl:text-[24px] leading-normal animate-ups__item font-HG">
-											Tôi có thể giữ cổ phiếu lâu hơn 3 ngày không?
+											Kỳ hạn cho vay của các gói Margin T+?
 										</p>
 									</div>
 								</div>
@@ -66,8 +66,8 @@
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
 										class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px] font-HG">
-										Không, Margin T+3 chỉ áp dụng cho các giao dịch nắm giữ trong 3 ngày. Sau thời
-										gian này, hệ thống sẽ tự động đóng vị thế.
+										Kỳ hạn cho vay của các gói Margin T+ tối đa 90 ngày kể từ ngày giải ngân. Không
+										gia hạn khoản vay.
 									</p>
 								</div>
 							</AccordionContent>
@@ -83,7 +83,7 @@
 									<div class="ml-5">
 										<p
 											class="text-[#15171E] text-left font-semibold 3xl:text-[30px] xl:text-[20px] lg:text-[16px] text-[14px] 2xl:text-[24px] leading-normal animate-ups__item font-HG">
-											Margin T+3 phù hợp với đối tượng nào?
+											Ngày tính lãi của các gói Margin T+
 										</p>
 									</div>
 								</div>
@@ -92,8 +92,8 @@
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
 										class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px] font-HG">
-										Margin T+3 phù hợp với những nhà đầu tư thích giao dịch ngắn hạn và muốn tận
-										dụng các cơ hội nhanh chóng trên thị trường.
+										Được tính kể từ ngày giải ngân khoản vay cho đến khi Khách hàng thực hiện thanh
+										toán khoản vay (bao gồm cả T7, CN, lễ Tết hay các ngày nghỉ khác)
 									</p>
 								</div>
 							</AccordionContent>

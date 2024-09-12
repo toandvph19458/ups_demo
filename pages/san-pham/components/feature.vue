@@ -9,11 +9,11 @@
 					<div>
 						<p
 							class="text-[#15171E] font-BG 3xl:text-[28px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[14px] text-[24px] font-semibold leading-none pb-2 animate-ups__item">
-							Lãi suất ưu đãi chỉ từ 6.8%
+							Gói vay đa dạng
 						</p>
 						<p
 							class="text-black/60 font-HG 3xl:text-[16px] 2xl:text-[14px] lg:text-[12px] text-[14px] md:text-[12px] font-medium leading-none animate-ups__item">
-							Đảm bảo chi phí vay thấp, giúp bạn tự tin hơn khi thực hiện các giao dịch ngắn hạn
+							Đảm bảo chi phí vay thấp từ 0%, giúp bạn tự tin hơn khi thực hiện các giao dịch ngắn hạn
 						</p>
 					</div>
 				</div>
@@ -32,11 +32,11 @@
 					<div>
 						<p
 							class="text-[#15171E] font-BG 3xl:text-[28px] 2xl:text-[24px] xl:text-[20px] lg:text-[18px] md:text-[14px] text-[24px] font-semibold leading-none pb-2 animate-ups__item">
-							Thời gian nắm giữ T+3
+							Thời gian nắm giữ T+
 						</p>
 						<p
 							class="text-black/60 font-HG 3xl:text-[16px] 2xl:text-[14px] lg:text-[12px] md:text-[12px] text-[14px] font-medium leading-none animate-ups__item">
-							Giúp bạn tận dụng tối đa các cơ hội đầu tư ngắn hạn mà vẫn quản lý tốt rủi ro.
+							Giúp bạn tận dụng tối đa các cơ hội đầu tư ngắn hạn mà vẫn quản lý tốt đầu tư
 						</p>
 					</div>
 				</div>
@@ -75,11 +75,11 @@
 								</div>
 								<div>
 									<p class="text-[#15171E] font-BG text-[14px] font-semibold leading-none pb-2">
-										Lãi suất ưu đãi chỉ từ 6.8%
+										Gói vay đa dạng
 									</p>
 									<p class="text-black/60 font-HG text-[12px] font-medium leading-none">
-										Đảm bảo chi phí vay thấp, giúp bạn tự tin hơn khi thực hiện các giao dịch ngắn
-										hạn
+										Đảm bảo chi phí vay thấp từ 0%, giúp bạn tự tin hơn khi thực hiện các giao dịch
+										ngắn hạn
 									</p>
 								</div>
 							</div>
@@ -91,10 +91,10 @@
 								</div>
 								<div>
 									<p class="text-[#15171E] font-BG text-[14px] font-semibold leading-none pb-2">
-										Thời gian nắm giữ T+3
+										Thời gian nắm giữ T+
 									</p>
 									<p class="text-black/60 font-HG text-[12px] font-medium leading-none">
-										Giúp bạn tận dụng tối đa các cơ hội đầu tư ngắn hạn mà vẫn quản lý tốt rủi ro.
+										Giúp bạn tận dụng tối đa các cơ hội đầu tư ngắn hạn mà vẫn quản lý tốt đầu tư
 									</p>
 								</div>
 							</div>
@@ -134,6 +134,48 @@
 				</div>
 				<div class="h-[80px] sm:h-[300px] md:h-[120px] "></div>
 				<div
+					class="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-3 w-full xl:p-[24px] lg:p-6 md:p-6 2xl:p-[40px] 3xl:p-[60px] sm:p-6 items-start xl:gap-5 lg:gap-4 md:gap-5 3xl:gap-[60px] 2xl:gap-[24px] sm:gap-4 rounded-[40px] border border-[#F51666] bg-white/60 backdrop-blur-[50px] absolute sm:top-1/3 lg:top-[60%] md:top-2/3 2xl:top-[73%] xl:top-[60%]">
+					<div class="animate-ups__item">
+						<p
+							class="text-[#15171E] font-BG 2xl:text-[36px] xl:text-[32px] lg:text-[28px] sm:text-[20px] text-[40px] font-semibold leading-normal">
+							Cách 1
+						</p>
+						<p class="bg-[#F19F00] w-[131px] h-[1px] my-2">
+						</p>
+						<p
+							class="text-[#15171E] font-BG 2xl:text-[24px] xl:text-[12px] lg:text-[12px] sm:text-[12px] text-[16px] font-semibold leading-[34px]">
+							Đăng ký tại quầy/gọi điện
+							lên tổng đài
+						</p>
+					</div>
+					<div class="animate-ups__item">
+						<p
+							class="text-[#15171E] font-BG 2xl:text-[36px] xl:text-[32px] lg:text-[28px] sm:text-[20px] text-[40px] font-semibold leading-normal">
+							Cách 2
+						</p>
+						<p class="bg-[#F19F00] w-[131px] h-[1px] my-2">
+						</p>
+						<p
+							class="text-[#15171E] font-BG 2xl:text-[24px] xl:text-[12px] lg:text-[12px] sm:text-[12px] text-[16px] font-semibold leading-[34px]">
+							Đăng ký thông qua nhân viên
+							chăm sóc
+						</p>
+					</div>
+					<div class="animate-ups__item">
+						<p
+							class="text-[#15171E] font-BG 2xl:text-[36px] xl:text-[32px] lg:text-[28px] sm:text-[20px] text-[40px] font-semibold leading-normal">
+							Cách 3
+						</p>
+						<p class="bg-[#F19F00] w-[131px] h-[1px] my-2">
+						</p>
+						<p
+							class="text-[#15171E] font-BG 2xl:text-[24px] xl:text-[12px] lg:text-[12px] sm:text-[12px] text-[16px] font-semibold leading-[34px]">
+							Đăng ký trên các ứng dụng phần mềm giao dịch trực tuyến của UPS
+						</p>
+					</div>
+
+				</div>
+				<!-- <div
 					class="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 w-full xl:p-[24px] lg:p-6 md:p-6 2xl:p-[40px] 3xl:p-[60px] sm:p-6 items-start xl:gap-5 lg:gap-4 md:gap-5 3xl:gap-[60px] 2xl:gap-[24px] sm:gap-4 rounded-[40px] border border-[#F51666] bg-white/60 backdrop-blur-[50px] absolute sm:top-1/3 lg:top-[60%] md:top-2/3 2xl:top-[73%] xl:top-[60%]">
 					<div class="animate-ups__item">
 						<p
@@ -191,7 +233,7 @@
 							Sau đó bạn có thể bắt đầu sử dụng sản phẩm Margin T+3 để thực hiện giao dịch
 						</p>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>

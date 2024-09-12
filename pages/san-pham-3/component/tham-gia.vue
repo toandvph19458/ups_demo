@@ -7,7 +7,7 @@
                 <div class="relative z-50">
                     <p class="text-[14px] font-BG font-semibold leading-normal 3xl:text-[28px]">Đăng ký mở tài khoản</p>
                     <p class="text-[12px] font-HG leading-normal 3xl:text-[16px]">Tại UPS thông qua website chính thức
-                        hoặc ứng dụng di động</p>
+                    </p>
                 </div>
                 <img src="/images/01.png" alt=""
                     class="absolute top-0 right-1/2 3xl:top-[-20px] 3xl:right-20 3xl:w-[80px] 3xl:h-[74px] object-contain w-[80px] h-[37px]">

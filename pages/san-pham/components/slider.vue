@@ -119,15 +119,16 @@
 							</div>
 
 							<div
-								class="flex 2xl:p-6 xl:p-3 lg:p-3 flex-col items-start 2xl:gap-3 xl:gap-1 lg:gap-1 rounded-xl 2xl:w-[325px] xl:w-[250px] lg:w-[221px] 2xl:h-[136px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute 2xl:bottom-0 xl:bottom-0 2xl:right-0 xl:right-0 lg:bottom-10 lg:right-[50px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+								class="flex 2xl:p-6 xl:p-3 lg:p-3 flex-col items-start 2xl:gap-3 xl:gap-1 lg:gap-1 rounded-xl 2xl:w-[325px] xl:w-[250px] lg:w-[221px] 2xl:min-h-[136px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute 2xl:bottom-0 xl:bottom-0 2xl:right-0 xl:right-0 lg:bottom-10 lg:right-[50px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
 								<p
 									class="text-[#15171E] font-BG 3xl:text-[24px] 2xl:text-[28px] xl:text-[20px] lg:text-[16px] font-semibold leading-none">
-									Linh hoạt và tiện lợi
+									Thanh toán dư nợ vay
+									đơn giản
 								</p>
 								<p
 									class="text-black/80 font-HG 2xl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
-									Thời gian nắm giữ ngắn hạn, dễ dàng điều chỉnh chiến lược đầu tư phù hợp với biến
-									động thị trường
+									Mọi khoản tiền có trên Tài khoản giao dịch của Khách hàng sẽ được ưu tiên trả khoản
+									vay và khoản lãi vay có ngày đến hạn gần nhất
 								</p>
 							</div>
 						</div>
@@ -143,12 +144,13 @@
 								class="flex p-3 flex-col items-start gap-1 rounded-xl w-[241px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute bottom-0 right-0">
 								<p
 									class="text-[#15171E] font-BG 2xl:text-[28px] xl:text-[20px] lg:text-[20px] font-semibold leading-none">
-									Linh hoạt và tiện lợi
+									Thanh toán dư nợ vay
+									đơn giản
 								</p>
 								<p
 									class="text-black/80 font-HG 2xl:text-[16px] xl:text-[14px] lg:text-[12px] font-medium leading-none">
-									Thời gian nắm giữ ngắn hạn, dễ dàng điều chỉnh chiến lược đầu tư phù hợp với biến
-									động thị trường
+									Mọi khoản tiền có trên Tài khoản giao dịch của Khách hàng sẽ được ưu tiên trả khoản
+									vay và khoản lãi vay có ngày đến hạn gần nhất
 								</p>
 							</div>
 						</div>
@@ -163,11 +165,12 @@
 							<div
 								class="flex p-3 flex-col items-start gap-1 rounded-xl w-[200px] bg-[linear-gradient(101deg,_#FFF35D_6.7%,_#F19F00_109.21%)] absolute bottom-0 right-2">
 								<p class="text-[#15171E] font-BG text-[12px] font-semibold leading-none">
-									Linh hoạt và tiện lợi
+									Thanh toán dư nợ vay
+									đơn giản
 								</p>
 								<p class="text-black/80 font-HG text-[10px] font-medium leading-none">
-									Thời gian nắm giữ ngắn hạn, dễ dàng điều chỉnh chiến lược đầu tư phù hợp với biến
-									động thị trường
+									Mọi khoản tiền có trên Tài khoản giao dịch của Khách hàng sẽ được ưu tiên trả khoản
+									vay và khoản lãi vay có ngày đến hạn gần nhất
 								</p>
 							</div>
 						</div>

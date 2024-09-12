@@ -163,7 +163,7 @@ export default defineComponent({
 					</div>
 					<p
 						class="2xl:text-[18px] xl:text-[14px] md:text-[12px] lg:text-[14px] text-[16px] text-white font-normal animate-ups__item font-BG">
-						www.upse.com.vn
+						Tầng 8 - Tòa nhà Harpo - Số 11B Cát Linh - Phường Quốc Tử Giám - Quận Đống Đa - Hà Nội
 					</p>
 				</div>
 			</div>

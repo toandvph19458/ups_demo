@@ -7,7 +7,7 @@
 				<div class="w-full">
 					<p
 						class="text-[#15171E] font-BG text-center font-bold  text-[20px] leading-normal animate-ups__item 3xl:text-[60px]">
-						Câu hỏi thường gặp về <br />
+						Câu hỏi thường gặp về
 						<span
 							class="text-[#01C159] font-BG font-bold text-[20px] leading-normal animate-ups__item 3xl:text-[60px]">
 							Zero - Fee
@@ -67,8 +67,8 @@
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
 										class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px] font-HG">
-										Không, Margin T+3 chỉ áp dụng cho các giao dịch nắm giữ trong 3 ngày. Sau thời
-										gian này, hệ thống sẽ tự động đóng vị thế.
+										Không, bạn có thể thực hiện không giới hạn số lượng giao dịch với phí 0 đồng
+										trong thời gian diễn ra chương trình.
 									</p>
 								</div>
 							</AccordionContent>
@@ -84,7 +84,7 @@
 									<div class="ml-5">
 										<p
 											class="text-[#15171E] text-left font-semibold 3xl:text-[30px] xl:text-[20px] lg:text-[16px] text-[14px] 2xl:text-[24px] leading-normal animate-ups__item font-HG">
-											Tôi có cần đăng ký riêng để tham gia chương trình không?
+											Tôi cần làm gì để có thể tham gia chương trình?
 										</p>
 									</div>
 								</div>
@@ -93,8 +93,9 @@
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
 										class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px] font-HG">
-										Margin T+3 phù hợp với những nhà đầu tư thích giao dịch ngắn hạn và muốn tận
-										dụng các cơ hội nhanh chóng trên thị trường.
+										Khách hàng mới chỉ cần mở tài khoản và sẽ tự động được áp dụng ưu đãi. Khách
+										hàng hiện tại không cần đăng ký thêm, ưu đãi sẽ tự động được kích hoạt cho tài
+										khoản của bạn.
 									</p>
 								</div>
 							</AccordionContent>
@@ -120,8 +121,8 @@
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
 										class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px] font-HG">
-										Margin T+3 phù hợp với những nhà đầu tư thích giao dịch ngắn hạn và muốn tận
-										dụng các cơ hội nhanh chóng trên thị trường.
+										Phí giao dịch sẽ được áp dụng theo biểu phí hiện hành của UPS. Mọi thay đổi sẽ
+										được thông báo trước đến quý khách hàng.
 									</p>
 								</div>
 							</AccordionContent>
@@ -137,8 +138,7 @@
 									<div class="ml-5">
 										<p
 											class="text-[#15171E] text-left font-semibold 3xl:text-[30px] xl:text-[20px] lg:text-[16px] text-[14px] 2xl:text-[24px] leading-normal animate-ups__item font-HG">
-											Tôi có thể kết hợp chương trình Zero-Fee với các
-											ưu đãi khác không?
+											Tôi có thể kết hợp chương trình Zero-Fee với các ưu đãi khác không?
 										</p>
 									</div>
 								</div>
@@ -147,8 +147,9 @@
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
 										class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px] font-HG">
-										Margin T+3 phù hợp với những nhà đầu tư thích giao dịch ngắn hạn và muốn tận
-										dụng các cơ hội nhanh chóng trên thị trường.
+										Chương trình Zero-Fee có thể được kết hợp với một số ưu đãi khác tùy theo quy
+										định của UPS tại từng thời điểm. Vui lòng liên hệ bộ phận hỗ trợ khách hàng để
+										biết thêm chi tiết.
 									</p>
 								</div>
 							</AccordionContent>
