@@ -12,7 +12,7 @@
               <span class="text-[#01C159]">Điều hành</span>
             </h2>
 
-            <div
+            <!-- <div
               class="animate-ups__item pl-4 pb-0 md:pb-5 xl:pb-6 inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]"
             >
               <nuxt-img
@@ -24,7 +24,7 @@
                 src="/logo/logo-cap-dark.png"
                 class="absolute w-full h-full object-contain"
               />
-            </div>
+            </div> -->
           </div>
 
           <p
