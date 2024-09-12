@@ -70,6 +70,7 @@ export default defineNuxtConfig({
 			xl: 1280,
 			"2xl": 1536,
 		},
+		formats: ['webp', 'gif','png','jpg']
 	},
 
 	compatibilityDate: "2024-08-13",
