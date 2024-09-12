@@ -25,7 +25,7 @@
 						</p>
 						<p
 							class="text-white/80 text-center font-BG text-[32px] md:text-[20px] 2xl:text-[32px] xl:text-[32px]  font-semibold leading-normal animate-ups__item">
-							Margin T+3
+							Margin T
 						</p>
 					</div>
 					<img src="/images/san-pham2.jpg" alt="" class="rounded-[12px] animate-ups__item" />
@@ -62,7 +62,7 @@
 					</p>
 					<p
 						class="text-white/80 text-center font-BG text-[18px] font-semibold leading-none animate-ups__item">
-						Margin T+3
+						Margin T
 					</p>
 				</div>
 				<div class="w-full min-h-min">
@@ -125,7 +125,7 @@
 					Cách đăng ký
 					<span
 						class="text-[#F51666] font-BG 3xl:text-[60px] 2xl:text-[45px] xl:text-[40px] lg:text-[32px] md:text-[32px] text-[45px] sm:text-[20px] font-semibold leading-none">Margin
-						T+3</span>
+						T</span>
 				</p>
 				<div
 					class="w-full flex justify-center items-center px-[275px] lg:px-[158px] 2xl:px-[255px] sm:p-7 lg:h-[630px]">

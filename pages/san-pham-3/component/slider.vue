@@ -8,7 +8,7 @@
             </div>
             <div
                 class="w-full flex p-6 flex-col gap-3 rounded-[20px] bg-gradient-to-tr from-[#00D7B0] to-[#7B57FF] h-[500px] 3xl:px-[60px] 3xl:py-[40px]">
-                <p class="font-HG text-[14px] leading-normal font-semibold 3xl:text-[24px]">dành cho</p>
+                <p class="font-HG text-[14px] leading-normal font-semibold 3xl:text-[24px]">Dành Cho</p>
                 <p class="font-BG text-[18px] leading-normal font-semibold 3xl:text-[40px] 3xl:text-white">Khách hàng
                     mới</p>
                 <div class="2xl:flex items-center gap-6 hidden ">
@@ -22,8 +22,9 @@
                                 <p class="w-[120px] h-[1px] bg-[#01C159]"></p>
                             </div>
                             <p class="font-HG text-[12px] 3xl:text-[16px] leading-normal">
-                                KH giao dịch trên tiểu khoản thường (không sử dụng sp vay) chỉ phải trả phí bằng phí trả
-                                Sở
+                                KH giao dịch trên tiểu khoản thường (không sử dụng sản phẩm vay) chỉ phải trả phí bằng
+                                phí trả
+                                Sở.
                             </p>
                         </div>
                     </div>
@@ -38,7 +39,7 @@
                                 <p class="w-[120px] h-[1px] bg-[#01C159]"></p>
                             </div>
                             <p class="font-HG text-[12px] 3xl:text-[16px] leading-normal">
-                                Tiếp cận các công cụ và dịch vụ hỗ trợ đầu tư chuyên nghiệp từ UPS
+                                Tiếp cận các công cụ và dịch vụ hỗ trợ đầu tư chuyên nghiệp từ UPS.
                             </p>
                         </div>
                     </div>
@@ -53,7 +54,7 @@
                                 <p class="w-[120px] h-[1px] bg-[#01C159]"></p>
                             </div>
                             <p class="font-HG text-[12px] 3xl:text-[16px] leading-normal">
-                                Thao tác mở tài khoản đơn giản, thuận tiện và được hỗ trợ tận tình từ đội ngũ UPS
+                                Thao tác mở tài khoản đơn giản, thuận tiện và được hỗ trợ tận tình từ đội ngũ UPS.
                             </p>
                         </div>
                     </div>
@@ -93,9 +94,9 @@
                                         <p class="w-[120px] h-[1px] bg-[#01C159]"></p>
                                     </div>
                                     <p class="font-HG text-[12px] leading-normal">
-                                        Tất cả các giao dịch chứng khoán của bạn trên tiểu khoản 1 sẽ được miễn phí hoàn
-                                        toàn trong suốt thời gian chương trình. Phí miễn không bao gồm các khoản phải
-                                        thu theo quy định của Ủy Ban Chứng khoán và Pháp luật hiện hành.
+                                        KH giao dịch trên tiểu khoản thường (không sử dụng sản phẩm vay) chỉ phải trả
+                                        phí bằng phí trả
+                                        Sở
                                     </p>
                                 </div>
                             </div>
@@ -117,8 +118,7 @@
                                         <p class="w-[120px] h-[1px] bg-[#01C159]"></p>
                                     </div>
                                     <p class="font-HG text-[12px] leading-normal">
-                                        Tiếp cận các công cụ và dịch vụ hỗ trợ đầu tư chuyên nghiệp đa nền tảng từ UPS
-                                        mà không tốn thêm chi phí.
+                                        Tiếp cận các công cụ và dịch vụ hỗ trợ đầu tư chuyên nghiệp từ UPS
                                     </p>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@
                                     </div>
                                     <p class="font-HG text-[12px] leading-normal">
                                         Thao tác mở tài khoản đơn giản, thuận tiện và được hỗ trợ tận tình từ đội ngũ
-                                        UPS.
+                                        UPS
                                     </p>
                                 </div>
                             </div>

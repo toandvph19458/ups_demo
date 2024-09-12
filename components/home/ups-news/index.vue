@@ -120,7 +120,7 @@
 					}"
 				>
 					<swiper-slide
-						v-for="i in 4"
+						v-for="(doc, i) in data?.dataNews?.posts"
 						:key="i"
 					>
 						<div class="card flex flex-col relative group p-5 rounded-[30px] overflow-hidden">
@@ -131,16 +131,22 @@
 								<nuxt-img
 									format="webp"
 									loading="lazy"
-									alt="UPS"
-									width="350"
-									height="290"
-									:src="`/images/card-tin-tuc.png`"
+									:alt="doc?.short_content?.title"
+									:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
 									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
 								/>
 							</div>
 							<div class="mt-3 md:mt-5">
 								<div class="flex justify-between">
-									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnews</p>
+									<template v-if="doc?.short_content?.tags.length > 0">
+										<p
+											v-for="(sub, k) in doc?.short_content?.tags"
+											:key="k"
+											class="text-sm md:text-base xl:text-lg text-[#F05] font-medium"
+										>
+											{{ `#${sub?.tag.slug}` }}
+										</p>
+									</template>
 									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
 										5 phút trước
 									</p>
@@ -149,15 +155,14 @@
 								<h4
 									class="text-sm md:text-base xl:text-xl text-black font-semibold line-clamp-1 mt-3 md:mt-6"
 								>
-									Nội dung tin tức
+									{{ doc?.short_content?.title }}
 								</h4>
 								<p class="text-sm md:text-base xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-									incididunt...
+									{{ doc?.short_content?.blurb }}
 								</p>
 							</div>
 							<nuxt-link
-								to="/"
+								:to="`/tin-tuc/${doc?.short_content?.slug}`"
 								class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full"
 							/>
 						</div>
@@ -295,6 +300,7 @@
 import { onMounted, defineComponent } from "vue";
 import { SwiperAutoplay, SwiperNavigation } from "#imports";
 import { cn } from "~/lib/utils";
+import { config } from "~/lib/config";
 
 export default defineComponent({
 	name: "ups-news",
@@ -335,8 +341,20 @@ export default defineComponent({
 			});
 		});
 
+		const newStore = useNewsStore();
+
+		const { data } = useAsyncData("news", async () => {
+			const dataNews = await newStore.fnGetListNews();
+
+			return {
+				dataNews: dataNews.data?.data,
+			};
+		});
+
 		return {
 			cn,
+			config,
+			data,
 			vSwiperRef,
 			vSwiperIndex,
 			SwiperAutoplay,

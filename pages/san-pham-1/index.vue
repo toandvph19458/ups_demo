@@ -158,7 +158,7 @@
               </i>
             </div>
 
-            <div class="mt-10 max-w-[650px]">
+            <div class="mt-10 max-w-[660px]">
               <!-- <h5 class="text-[40px] text-black font-semibold">Khái niệm</h5> -->
               <p class="text-[24px] font-normal mt-2">
                 Chương trình ưu đãi đặc biệt từ UPS! Từ ngày 15/09/2024 đến ngày
@@ -173,7 +173,7 @@
               <nuxt-img
                 format="webp"
                 loading="lazy"
-                src="/images/3731747fa4b1ec9324541a74f6667ad9.png"
+                src="/images/3731747fa4b1ec9324541a74f6667ad9.jpg"
                 alt="UPS"
                 class="w-full h-full object-cover"
               />
@@ -188,15 +188,15 @@
     >
       <div class="container">
         <div class="flex justify-between">
-          <div class="max-w-[420px]">
+          <div class="max-w-[520px]">
             <h4
               class="text-black text-[50px] font-BG font-semibold leading-[50px]"
             >
-			Chi tiết
+              Chi tiết
               <p
                 class="text-black text-[76px] font-BG font-semibold leading-[90px]"
               >
-			  Chương trình 
+                Chương trình
               </p>
             </h4>
             <p class="text-black font-lg font-medium mt-3">
@@ -213,10 +213,10 @@
                 <h5
                   class="text-[20px] font-medium text-[rgba(255,255,255,0.80)]"
                 >
-				Nhận ngay cho tài khoản mở mới
+                  Nhận ngay cho tài khoản mở mới
                 </h5>
                 <p class="text-[32px] text-white font-semibold font-BG">
-					1 triệu đồng
+                  1 triệu đồng
                 </p>
               </div>
               <!-- <div
@@ -237,10 +237,10 @@
                 <h5
                   class="text-[20px] font-medium text-[rgba(255,255,255,0.80)]"
                 >
-				Thời gian áp dụng
+                  Thời gian áp dụng
                 </h5>
                 <p class="text-[32px] text-white font-semibold font-BG">
-					15/09/2024 - 31/12/2024
+                  15/09/2024 - 31/12/2024
                 </p>
               </div>
             </div>
@@ -252,10 +252,10 @@
                 <h5
                   class="text-[20px] font-medium text-[rgba(255,255,255,0.80)]"
                 >
-				Đối tượng áp dụng
+                  Đối tượng áp dụng
                 </h5>
                 <p class="text-[32px] text-white font-semibold font-BG">
-					Sinh viên mở mới tài khoản từ ngày 15/09/2024
+                  Sinh viên mở mới tài khoản từ ngày 15/09/2024
                 </p>
               </div>
               <!-- <div
@@ -303,7 +303,7 @@
                 </div>
                 <div class="flex-1 w-full">
                   <h4 class="text-xl font-BG font-semibold">
-                    Tải ứng dụng UPS trên Appstore hoặc CH play
+                    Đăng ký mở tài khoản mới tại UPS
                   </h4>
                   <p class="text-base font-normal mt-1">
                     Tìm tên ứng dụng trên Appstore hoặc CH Play, tải và đăng ký
@@ -321,7 +321,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex gap-5">
+              <!-- <div class="flex gap-5">
                 <div
                   class="inline-flex items-center justify-center w-[38px] h-[38px] border border-black rounded-full text-lg text-black bg-white"
                 >
@@ -329,26 +329,13 @@
                 </div>
                 <div class="flex-1 w-full">
                   <h4 class="text-xl font-BG font-semibold">
-                    Hoàn thiện thông tin đăng ký theo các bước
+                    Sau khi tài khoản được kích hoạt, bạn sẽ nhận ngay 1 triệu
+                    đồng vào tài khoản giao dịch.
                   </h4>
-                  <!-- <div>
-										<p class="text-base font-normal mt-1">
-											Tìm tên ứng dụng trên Appstore hoặc CH Play, tải và đăng ký mở tài khoản
-										</p>
-
-										<div>
-											<p class="text-lg font-bold my-2">Quét để tải App</p>
-											<nuxt-img
-												loading="lazy"
-												format="webp"
-												src="/images/image 6307.png"
-												alt="UPS"
-											/>
-										</div>
-									</div> -->
+                
                 </div>
-              </div>
-              <div class="flex gap-5">
+              </div> -->
+              <!-- <div class="flex gap-5">
                 <div
                   class="inline-flex items-center justify-center w-[38px] h-[38px] border border-black rounded-full text-lg text-black bg-white"
                 >
@@ -358,24 +345,10 @@
                   <h4 class="text-xl font-BG font-semibold">
                     Nạp tiền vào tài khoản
                   </h4>
-                  <!-- <div>
-										<p class="text-base font-normal mt-1">
-											Tìm tên ứng dụng trên Appstore hoặc CH Play, tải và đăng ký mở tài khoản
-										</p>
-
-										<div>
-											<p class="text-lg font-bold my-2">Quét để tải App</p>
-											<nuxt-img
-												loading="lazy"
-												format="webp"
-												src="/images/image 6307.png"
-												alt="UPS"
-											/>
-										</div>
-									</div> -->
+                  
                 </div>
-              </div>
-              <div class="flex gap-5">
+              </div> -->
+              <!-- <div class="flex gap-5">
                 <div
                   class="inline-flex items-center justify-center w-[38px] h-[38px] border border-black rounded-full text-lg text-black bg-white"
                 >
@@ -385,50 +358,43 @@
                   <h4 class="text-xl font-BG font-semibold">
                     Tìm mã phái sinh VNF30
                   </h4>
-                  <!-- <div>
-										<p class="text-base font-normal mt-1">
-											Tìm tên ứng dụng trên Appstore hoặc CH Play, tải và đăng ký mở tài khoản
-										</p>
-
-										<div>
-											<p class="text-lg font-bold my-2">Quét để tải App</p>
-											<nuxt-img
-												loading="lazy"
-												format="webp"
-												src="/images/image 6307.png"
-												alt="UPS"
-											/>
-										</div>
-									</div> -->
+                  
                 </div>
-              </div>
+              </div> -->
               <div class="flex gap-5">
                 <div
                   class="inline-flex items-center justify-center w-[38px] h-[38px] border border-black rounded-full text-lg text-black bg-white"
                 >
-                  5
+                  2
                 </div>
                 <div class="flex-1 w-full">
                   <h4 class="text-xl font-BG font-semibold">
-                    Chọn chiều Mua/Bán và đặt lệnh
+                    Sau khi tài khoản được kích hoạt, bạn sẽ nhận ngay 1 triệu
+                    đồng vào tài khoản giao dịch.
                   </h4>
-                  <!-- <div>
-										<p class="text-base font-normal mt-1">
-											Tìm tên ứng dụng trên Appstore hoặc CH Play, tải và đăng ký mở tài khoản
-										</p>
-
-										<div>
-											<p class="text-lg font-bold my-2">Quét để tải App</p>
-											<nuxt-img
-												loading="lazy"
-												format="webp"
-												src="/images/image 6307.png"
-												alt="UPS"
-											/>
-										</div>
-									</div> -->
                 </div>
               </div>
+            </div>
+            <div class="flex items-center gap-[18px] mt-[40px]">
+              <i>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="38"
+                  height="38"
+                  viewBox="0 0 38 38"
+                  fill="none"
+                >
+                  <path
+                    d="M18.9998 3.16602C10.2757 3.16602 3.1665 10.2752 3.1665 18.9993C3.1665 27.7235 10.2757 34.8327 18.9998 34.8327C27.724 34.8327 34.8332 27.7235 34.8332 18.9993C34.8332 10.2752 27.724 3.16602 18.9998 3.16602ZM17.8123 12.666C17.8123 12.0168 18.3507 11.4785 18.9998 11.4785C19.649 11.4785 20.1873 12.0168 20.1873 12.666V20.5827C20.1873 21.2318 19.649 21.7702 18.9998 21.7702C18.3507 21.7702 17.8123 21.2318 17.8123 20.5827V12.666ZM20.4565 25.9343C20.3773 26.1402 20.2665 26.2985 20.124 26.4568C19.9657 26.5993 19.7915 26.7102 19.6015 26.7893C19.4115 26.8685 19.2057 26.916 18.9998 26.916C18.794 26.916 18.5882 26.8685 18.3982 26.7893C18.2082 26.7102 18.034 26.5993 17.8757 26.4568C17.7332 26.2985 17.6223 26.1402 17.5432 25.9343C17.464 25.7443 17.4165 25.5385 17.4165 25.3327C17.4165 25.1268 17.464 24.921 17.5432 24.731C17.6223 24.541 17.7332 24.3668 17.8757 24.2085C18.034 24.066 18.2082 23.9552 18.3982 23.876C18.7782 23.7177 19.2215 23.7177 19.6015 23.876C19.7915 23.9552 19.9657 24.066 20.124 24.2085C20.2665 24.3668 20.3773 24.541 20.4565 24.731C20.5357 24.921 20.5832 25.1268 20.5832 25.3327C20.5832 25.5385 20.5357 25.7443 20.4565 25.9343Z"
+                    fill="#E66D14"
+                  />
+                </svg>
+              </i>
+              <p>
+                Số tiền 1 triệu đồng chỉ được dùng để giao dịch, thanh toán phí
+                và lãi, không thể rút ra. Tuy nhiên, bạn có thể rút các khoản
+                lãi hoặc thặng dư từ số tiền giao dịch.
+              </p>
             </div>
           </div>
 
@@ -447,7 +413,7 @@
 
     <div class="py-[100px]">
       <div class="container">
-        <div
+        <!-- <div
           class="w-full h-[460px] rounded-[40px] relative bg-gradient-to-b from-[#FFF35D] to-[#F19F00] p-6 flex items-end justify-between"
         >
           <div class="">
@@ -503,6 +469,10 @@
               </nuxt-link>
             </div>
           </div>
+          
+        </div> -->
+        <div class="w-full h-[460px]  relative  p-6 flex items-end justify-between">
+          <nuxt-img src="/images/bg.png" class="absolute object-cover w-full h-full"/>
         </div>
       </div>
     </div>
@@ -516,7 +486,7 @@
           <span
             class="text-[#E66D14] font-bold text-[60px] xl:text-[40px] lg:text-[32px] 2xl:text-[45px] sm:text-[20px] leading-none"
           >
-            UPS Margin
+            Margin 4U
           </span>
         </p>
         <p
@@ -552,7 +522,7 @@
                   <p
                     class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] 2xl:text-[24px] leading-normal"
                   >
-                    Khách hàng muốn giao dịch ký quỹ thì cần làm thủ tục gì?
+                    Tôi có thể rút 1 triệu đồng không? 
                   </p>
                 </div>
               </div>
@@ -562,9 +532,9 @@
                 <p
                   class="text-[#838383] font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] 2xl:text-[16px] leading-normal"
                 >
-                  Khách hàng mở tài khoản giao dịch tại UPS, và đáp ứng đủ điều
-                  kiện về giao dịch ký quỹ chứng khoán theo quy định của Pháp
-                  luật.
+                  Không, số tiền 1 triệu đồng chỉ được dùng để giao dịch và
+                  thanh toán phí. Tuy nhiên, bạn có thể rút các khoản lợi nhuận
+                  thặng dư từ giao dịch.
                 </p>
               </div>
             </AccordionContent>
@@ -587,8 +557,7 @@
                   <p
                     class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] 2xl:text-[24px] leading-normal"
                   >
-                    Khách hàng muốn trả khoản vay ký quỹ trước hạn có được không
-                    và thủ tục thế nào?
+                    Chương trình áp dụng cho những ai?
                   </p>
                 </div>
               </div>
@@ -598,8 +567,7 @@
                 <p
                   class="text-[#838383] font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] 2xl:text-[16px] leading-normal"
                 >
-                  Không, lãi suất của Margin T+3 là cố định 6.8% trong suốt thời
-                  gian nắm giữ cổ phiếu.
+                Chỉ áp dụng cho sinh viên mở tài khoản mới từ 15/09/2024 đến 31/12/2024.
                 </p>
               </div>
             </AccordionContent>
@@ -622,7 +590,7 @@
                   <p
                     class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] 2xl:text-[24px] leading-normal"
                   >
-                    Khách hàng có được phép gia hạn món vay của mình không?
+                  Tôi có thể nhận các ưu đãi khác chứ?
                   </p>
                 </div>
               </div>
@@ -632,8 +600,7 @@
                 <p
                   class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px]"
                 >
-                  Không, lãi suất của Margin T+3 là cố định 6.8% trong suốt thời
-                  gian nắm giữ cổ phiếu.
+                Không giới hạn các ưu đãi khác: Bạn có thể nhận thêm các ưu đãi khác từ UPS.
                 </p>
               </div>
             </AccordionContent>
@@ -656,8 +623,7 @@
                   <p
                     class="text-[#15171E] text-left font-semibold text-[30px] xl:text-[20px] lg:text-[16px] sm:text-[14px] 2xl:text-[24px] leading-normal"
                   >
-                    Các mốc quan trọng của tài khoản khi thực hiện vay ký quỹ
-                    tại UPS là gì?
+                  Tôi có thể rút tiền như thế nào?
                   </p>
                 </div>
               </div>
@@ -667,13 +633,12 @@
                 <p
                   class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px]"
                 >
-                  Các mốc quan trọng của tài khoản khi thực hiện vay ký quỹ tại
-                  UPS là gì?
+                Công thức tính tiền rút: Tiền rút = max ( tiền nạp ; tiền nạp + max ( Lãi lỗ giao dịch - phí thuế - 1 triệu ) Ví dụ: Nếu bạn nạp thêm tiền vào tài khoản và giao dịch thành công, bạn có thể rút số tiền thặng dư dựa trên công thức trên.
                 </p>
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="5">
+          <!-- <AccordionItem value="5">
             <AccordionTrigger class="flex items-center hover:no-underline">
               <div class="flex items-center">
                 <i
@@ -705,7 +670,7 @@
                 </p>
               </div>
             </AccordionContent>
-          </AccordionItem>
+          </AccordionItem> -->
         </Accordion>
       </div>
     </div>

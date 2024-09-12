@@ -57,7 +57,7 @@
 			</div>
 			<div
 				class="w-full h-[100px] 3xl:h-[450px] 2xl:h-[380px] xl:h-[350px] md:h-[186px] lg:h-[260px] sm:h-[100px] animate-ups__item">
-				<nuxt-img src="/images/Frame 1171276226.png" class="w-full h-full" />
+				<nuxt-img src="/images/Frame 1171276226.png" class="w-full h-full 3xl:rounded-[40px] rounded-2xl" />
 			</div>
 		</div>
 	</section>

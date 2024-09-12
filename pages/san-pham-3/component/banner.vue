@@ -13,7 +13,7 @@
                         Khách
                         hàng cá nhân
                     </p>
-                    <p class="text-black text-[20px] 3xl:text-[60px] font-BG font-bold">Zero Fee -<br /> Đầu
+                    <p class="text-black text-[20px] 3xl:text-[60px] font-BG font-bold">Zero Fee <br /> Đầu
                         tư
                         "Free" - Giao dịch 0 phí</p>
                 </div>
@@ -22,7 +22,8 @@
                     chương trình ưu đãi đặc
                     biệt từ
                     UPS, mang đến cho bạn cơ hội giao dịch chứng khoán hoàn
-                    toàn miễn phí. Từ nay đến hết năm, mọi giao dịch của bạn sẽ được miễn phí 100%, giúp bạn tối ưu hóa
+                    toàn miễn phí. Từ nay đến hết 15/09, mọi giao dịch của bạn sẽ được miễn phí 100%, giúp bạn tối
+                    ưu hóa
                     lợi nhuận và trải nghiệm đầu tư tốt nhất. Hãy cùng UPS bước vào hành trình đầu tư hiệu quả mà không
                     còn lo lắng về chi phí giao dịch!</p>
             </div>

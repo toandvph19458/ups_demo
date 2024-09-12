@@ -45,7 +45,7 @@
 				<div class="3xl:w-[90%]">
 					<p class="text-white text-center font-BG text-[14px] leading-normal px-10 3xl:text-[24px]">Thời gian
 						diễn ra từ
-						01/09/2024 đến
+						15/09/2024 đến
 						hết 31/12/2024</p>
 				</div>
 				<img src="/images/san-pham-3-tham-gia.png" alt=""
@@ -70,27 +70,24 @@
 					<div
 						class="h-[380px] flex md:hidden flex-col 3xl:flex-row justify-center items-start gap-3  3xl:items-center">
 						<div
-							class="h-[120px] flex flex-col justify-center items-start gap-3 p-4 rounded-md border border-[#7B57FF] backdrop-blur-lg 3xl:flex-1">
+							class="h-[120px] w-full flex flex-col justify-center items-start gap-3 p-4 rounded-md border border-[#7B57FF] backdrop-blur-lg 3xl:flex-1">
 							<p class="font-BG text-[14px] font-semibold leading-normal text-left">Đối tượng áp dụng
 							</p>
-							<p class="font-HG text-[12px] leading-normal">Tất cả khách hàng mới và hiện tại của UPS
-								trong thời gian diễn ra chương trình</p>
+							<p class="font-HG text-[12px] leading-normal">Khách hàng mở mới từ ngày 15/09/2024</p>
 						</div>
 						<div
 							class="h-[120px] flex flex-col justify-center items-start gap-3 p-4 rounded-md border border-[#7B57FF] backdrop-blur-lg 3xl:flex-1">
 							<p class="font-BG text-[14px] font-semibold leading-normal text-left">Phạm vi áp dụng
 							</p>
-							<p class="font-HG text-[12px] leading-normal">Áp dụng cho các giao dịch chứng khoán cơ
-								sở
-								được thực hiện qua nền tảng giao dịch của UPS. Không áp dụng cho giao dịch margin và
-								các
+							<p class="font-HG text-[12px] leading-normal">Áp dụng cho các giao dịch chứng khoán cơ sở
+								được thực hiện qua nền tảng giao dịch của UPS. Không áp dụng cho giao dịch margin và các
 								sản phẩm tài chính khác</p>
 						</div>
 						<div
 							class="h-[120px] w-full flex flex-col justify-center items-start gap-3 p-4 rounded-md border border-[#7B57FF] backdrop-blur-lg 3xl:flex-1">
 							<p class="font-BG text-[14px] font-semibold leading-normal text-left">Thời gian áp dụng
 							</p>
-							<p class="font-HG text-[12px] leading-normal">Từ 01/09/2024 đến hết 31/12/2024</p>
+							<p class="font-HG text-[12px] leading-normal">Từ 15/09/2024</p>
 						</div>
 
 					</div>
@@ -110,8 +107,8 @@
 										class="h-[213px] flex flex-col justify-between items-start gap-3 p-10 rounded-[24px] border border-[#7B57FF] backdrop-blur-lg bg-white text-black hover:bg-blue-500 hover:text-white transition-colors duration-300 ">
 										<p class="font-BG text-[24px] font-semibold leading-normal text-left">Đối tượng
 											áp dụng</p>
-										<p class="font-HG text-[18px] leading-normal">Tất cả khách hàng mới và hiện tại
-											của UPS trong thời gian diễn ra chương trình</p>
+										<p class="font-HG text-[18px] leading-normal">Khách hàng mở mới từ ngày
+											15/09/2024</p>
 									</div>
 								</div>
 							</swiper-slide>
@@ -119,10 +116,13 @@
 								<div class=" w-full">
 									<div
 										class="h-[213px] flex flex-col justify-between items-start gap-3 p-10 rounded-[24px] border border-[#7B57FF] backdrop-blur-lg bg-white text-black hover:bg-blue-500 hover:text-white transition-colors duration-300 ">
-										<p class="font-BG text-[24px] font-semibold leading-normal text-left">Đối tượng
-											áp dụng</p>
-										<p class="font-HG text-[18px] leading-normal">Tất cả khách hàng mới và hiện tại
-											của UPS trong thời gian diễn ra chương trình</p>
+										<p class="font-BG text-[24px] font-semibold leading-normal text-left">Phạm vi áp
+											dụng</p>
+										<p class="font-HG text-[18px] leading-normal">Áp dụng cho các giao dịch chứng
+											khoán cơ sở
+											được thực hiện qua nền tảng giao dịch của UPS. Không áp dụng cho giao dịch
+											margin và các
+											sản phẩm tài chính khác</p>
 									</div>
 								</div>
 							</swiper-slide>
@@ -130,10 +130,9 @@
 								<div class=" w-full">
 									<div
 										class="h-[213px] flex flex-col justify-between items-start gap-3 p-10 rounded-[24px] border border-[#7B57FF] backdrop-blur-lg bg-white text-black hover:bg-blue-500 hover:text-white transition-colors duration-300 ">
-										<p class="font-BG text-[24px] font-semibold leading-normal text-left">Đối tượng
+										<p class="font-BG text-[24px] font-semibold leading-normal text-left">Thời gian
 											áp dụng</p>
-										<p class="font-HG text-[18px] leading-normal">Tất cả khách hàng mới và hiện tại
-											của UPS trong thời gian diễn ra chương trình</p>
+										<p class="font-HG text-[18px] leading-normal">Từ 15/09/2024</p>
 									</div>
 								</div>
 							</swiper-slide>
@@ -142,17 +141,14 @@
 
 					<div class="flex flex-col 3xl:flex-row items-start gap-3 3xl:w-[1042px] 3xl:gap-[60px] ">
 						<p class="font-BG text-[14px] font-semibold leading-normal 3xl:text-[24px]">Quy định khác</p>
-						<div>
-
+						<div class="flex flex-col gap-6">
 							<p class="font-HG text-[12px] leading-normal 3xl:text-[18px]">
 								UPS có quyền từ chối hoặc hủy bỏ ưu đãi nếu phát hiện khách hàng có hành vi gian lận
-								hoặc vi
-								phạm quy định.
+								hoặc vi phạm quy định.
 							</p>
 							<p class="font-HG text-[12px] leading-normal 3xl:text-[18px]">
 								UPS có quyền thay đổi, điều chỉnh hoặc kết thúc chương trình trước thời hạn và sẽ thông
-								báo
-								trước đến khách hàng thông qua các kênh thông tin chính thức.
+								báo trước đến khách hàng thông qua các kênh thông tin chính thức.
 							</p>
 							<p class="font-HG text-[12px] leading-normal 3xl:text-[18px]">
 								Các điều khoản và điều kiện khác tuân theo quy định hiện hành của UPS và pháp luật Việt
