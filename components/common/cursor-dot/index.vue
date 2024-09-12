@@ -1,9 +1,9 @@
 <template>
   <div
-    class="cursor_dot fixed top-0 left-0 z-[9999] pointer-events-none bg-[#02E56A] rounded-full hidden lg:block"
+    class="cursor_dot fixed top-0 left-0 z-[9999] pointer-events-none bg-[#02E56A] rounded-full hidden xl:block lg:block"
   ></div>
   <div
-    class="cursor_dot_2 fixed top-0 left-0 z-[9999] pointer-events-none bg-[#15171E] rounded-full hidden lg:block"
+    class="cursor_dot_2 fixed top-0 left-0 z-[9999] pointer-events-none bg-[#15171E] rounded-full hidden xl:block lg:block"
   >
     <div
       to="/"
@@ -163,8 +163,9 @@ export default defineComponent({
           duration: 0.3,
           opacity: 0.5,
         });
-        cursorDot.classList.add("hidden");
-        cursorDot2.classList.remove("hidden");
+        cursorDot.classList.add("xl:hidden");
+        cursorDot2.classList.remove("xl:hidden");
+        cursorDot2.classList.remove("lg:hidden");
         cursorDot2.classList.add("active");
         cursorDot2.style.left = `${event.clientX}px`;
         cursorDot2.style.top = `${event.clientY}px`;
@@ -179,9 +180,10 @@ export default defineComponent({
           opacity: 1,
           duration: 2,
         });
-        cursorDot.classList.remove("hidden");
+        cursorDot.classList.remove("xl:hidden");
         cursorDot2.classList.add("hidden");
-        cursorDot2.classList.remove("active");
+        cursorDot2.classList.add("xl:hidden");
+        cursorDot2.classList.add("lg:hidden");
         accountBtn.style.display = "none";
       };
 

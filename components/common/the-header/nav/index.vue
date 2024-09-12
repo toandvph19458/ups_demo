@@ -499,13 +499,52 @@
             <div class="w-[400px] flex flex-col gap-5 px-6 py-5">
               <nuxt-link to="/coming-soon" class="flex items-center">
                 <i class="inline-flex items-center justify-center">
-                  <nuxt-img
-                    format="webp"
-                    loading="lazy"
-                    alt="UPS"
-                    height="24"
-                    src="/icons/nhan-dinh-thi-truong.svg"
-                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                  >
+                    <path
+                      d="M6.87988 18.6501V16.5801"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M12 18.6498V14.5098"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M17.1201 18.6502V12.4302"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M17.1199 6.34961L16.6599 6.88961C14.1099 9.86961 10.6899 11.9796 6.87988 12.9296"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M14.1904 6.34961H17.1204V9.26961"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M9 22.5H15C20 22.5 22 20.5 22 15.5V9.5C22 4.5 20 2.5 15 2.5H9C4 2.5 2 4.5 2 9.5V15.5C2 20.5 4 22.5 9 22.5Z"
+                      stroke="#111111"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </i>
 
                 <div class="ml-5">
@@ -520,13 +559,42 @@
 
               <nuxt-link to="/coming-soon" class="flex items-center">
                 <i class="inline-flex items-center justify-center">
-                  <nuxt-img
-                    format="webp"
-                    loading="lazy"
-                    alt="UPS"
-                    height="24"
-                    src="/icons/cong-dong.svg"
-                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                  >
+                    <path
+                      d="M9.16006 11.37C9.06006 11.36 8.94006 11.36 8.83006 11.37C6.45006 11.29 4.56006 9.34 4.56006 6.94C4.56006 4.49 6.54006 2.5 9.00006 2.5C11.4501 2.5 13.4401 4.49 13.4401 6.94C13.4301 9.34 11.5401 11.29 9.16006 11.37Z"
+                      stroke="#111111"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M16.4098 4.5C18.3498 4.5 19.9098 6.07 19.9098 8C19.9098 9.89 18.4098 11.43 16.5398 11.5C16.4598 11.49 16.3698 11.49 16.2798 11.5"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.16021 15.06C1.74021 16.68 1.74021 19.32 4.16021 20.93C6.91021 22.77 11.4202 22.77 14.1702 20.93C16.5902 19.31 16.5902 16.67 14.1702 15.06C11.4302 13.23 6.92021 13.23 4.16021 15.06Z"
+                      stroke="#111111"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M18.3398 20.5C19.0598 20.35 19.7398 20.06 20.2998 19.63C21.8598 18.46 21.8598 16.53 20.2998 15.36C19.7498 14.94 19.0798 14.66 18.3698 14.5"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </i>
 
                 <div class="ml-5">
@@ -539,13 +607,42 @@
 
               <nuxt-link to="/hdsd" class="flex items-center">
                 <i class="inline-flex items-center justify-center">
-                  <nuxt-img
-                    format="webp"
-                    loading="lazy"
-                    alt="UPS"
-                    height="24"
-                    src="/icons/cam-nang-dau-tu.svg"
-                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                  >
+                    <path
+                      d="M3.5 18.5V7.5C3.5 3.5 4.5 2.5 8.5 2.5H15.5C19.5 2.5 20.5 3.5 20.5 7.5V17.5C20.5 17.64 20.5 17.78 20.49 17.92"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M6.35 15.5H20.5V19C20.5 20.93 18.93 22.5 17 22.5H7C5.07 22.5 3.5 20.93 3.5 19V18.35C3.5 16.78 4.78 15.5 6.35 15.5Z"
+                      stroke="#111111"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8 7.5H16"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8 11H13"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </i>
 
                 <div class="ml-5">
@@ -573,13 +670,56 @@
             <div class="w-[400px] flex flex-col gap-5 px-6 py-5">
               <nuxt-link to="/gioi-thieu" class="flex items-center">
                 <i class="inline-flex items-center justify-center">
-                  <nuxt-img
-                    format="webp"
-                    loading="lazy"
-                    alt="UPS"
-                    height="24"
-                    src="/icons/ve-chung-toi.svg"
-                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                  >
+                    <path
+                      d="M17.9976 7.66C17.9376 7.65 17.8676 7.65 17.8076 7.66C16.4276 7.61 15.3276 6.48 15.3276 5.08C15.3276 3.65 16.4776 2.5 17.9076 2.5C19.3376 2.5 20.4876 3.66 20.4876 5.08C20.4776 6.48 19.3776 7.61 17.9976 7.66Z"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M16.9675 14.9402C18.3375 15.1702 19.8475 14.9302 20.9075 14.2202C22.3175 13.2802 22.3175 11.7402 20.9075 10.8002C19.8375 10.0902 18.3075 9.85016 16.9375 10.0902"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M5.96754 7.66C6.02754 7.65 6.09754 7.65 6.15754 7.66C7.53754 7.61 8.63754 6.48 8.63754 5.08C8.63754 3.65 7.48754 2.5 6.05754 2.5C4.62754 2.5 3.47754 3.66 3.47754 5.08C3.48754 6.48 4.58754 7.61 5.96754 7.66Z"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M6.9975 14.9402C5.6275 15.1702 4.1175 14.9302 3.0575 14.2202C1.6475 13.2802 1.6475 11.7402 3.0575 10.8002C4.1275 10.0902 5.6575 9.85016 7.0275 10.0902"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12.0001 15.1302C11.9401 15.1202 11.8701 15.1202 11.8101 15.1302C10.4301 15.0802 9.33008 13.9502 9.33008 12.5502C9.33008 11.1202 10.4801 9.97021 11.9101 9.97021C13.3401 9.97021 14.4901 11.1302 14.4901 12.5502C14.4801 13.9502 13.3801 15.0902 12.0001 15.1302Z"
+                      stroke="#111111"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M9.09021 18.2804C7.68021 19.2204 7.68021 20.7603 9.09021 21.7003C10.6902 22.7703 13.3102 22.7703 14.9102 21.7003C16.3202 20.7603 16.3202 19.2204 14.9102 18.2804C13.3202 17.2204 10.6902 17.2204 9.09021 18.2804Z"
+                      stroke="#111111"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </i>
 
                 <div class="ml-5">
@@ -604,13 +744,43 @@
                   >
                     <div class="flex">
                       <i class="inline-flex items-center justify-center">
-                        <nuxt-img
-                          format="webp"
-                          loading="lazy"
-                          alt="UPS"
-                          height="24"
-                          src="/icons/tin-ups.svg"
-                        />
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="25"
+                          viewBox="0 0 24 25"
+                          fill="none"
+                        >
+                          <path
+                            d="M22 17.2402V5.17019C22 3.97019 21.02 3.08019 19.83 3.18019H19.77C17.67 3.36019 14.48 4.43019 12.7 5.55019L12.53 5.66019C12.24 5.84019 11.76 5.84019 11.47 5.66019L11.22 5.51019C9.44 4.40019 6.26 3.34019 4.16 3.17019C2.97 3.07019 2 3.97019 2 5.16019V17.2402C2 18.2002 2.78 19.1002 3.74 19.2202L4.03 19.2602C6.2 19.5502 9.55 20.6502 11.47 21.7002L11.51 21.7202C11.78 21.8702 12.21 21.8702 12.47 21.7202C14.39 20.6602 17.75 19.5502 19.93 19.2602L20.26 19.2202C21.22 19.1002 22 18.2002 22 17.2402Z"
+                            stroke="black"
+                            stroke-opacity="0.79"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M12 5.99023V20.9902"
+                            stroke="#00BF52"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M7.75 8.99023H5.5"
+                            stroke="#00BF52"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M8.5 11.9902H5.5"
+                            stroke="#00BF52"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
                       </i>
 
                       <div class="ml-5">
@@ -673,13 +843,43 @@
 
               <nuxt-link to="/coming-soon" class="flex items-center">
                 <i class="inline-flex items-center justify-center">
-                  <nuxt-img
-                    format="webp"
-                    loading="lazy"
-                    alt="UPS"
-                    height="24"
-                    src="/icons/gia-nhap-ups.svg"
-                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                  >
+                    <path
+                      d="M15.39 5.71L16.7999 8.52999C16.9899 8.91999 17.4999 9.28999 17.9299 9.36999L20.48 9.78999C22.11 10.06 22.49 11.24 21.32 12.42L19.3299 14.41C18.9999 14.74 18.81 15.39 18.92 15.86L19.4899 18.32C19.9399 20.26 18.9 21.02 17.19 20L14.7999 18.58C14.3699 18.32 13.65 18.32 13.22 18.58L10.8299 20C9.11994 21.01 8.07995 20.26 8.52995 18.32L9.09996 15.86C9.20996 15.4 9.01995 14.75 8.68995 14.41L6.69996 12.42C5.52996 11.25 5.90996 10.07 7.53996 9.78999L10.0899 9.36999C10.5199 9.29999 11.03 8.91999 11.22 8.52999L12.63 5.71C13.38 4.18 14.62 4.18 15.39 5.71Z"
+                      stroke="black"
+                      stroke-opacity="0.79"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M8 5.5H2"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M5 19.5H2"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3 12.5H2"
+                      stroke="#00BF52"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
                 </i>
 
                 <div class="ml-5">

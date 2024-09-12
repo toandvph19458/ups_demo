@@ -15,7 +15,7 @@
 				class="animate-ups__item text-sm md:text-lg xl:text-xl text-center lg:text-left font-bold mt-6 text-white opacity-90 leading-[1]"
 			>
 				Vinh dự đồng hành cùng
-				<span class="text-[#02D060]">500 nhà đầu tư</span>
+				<span class="text-[#02D060]">hàng triệu nhà đầu tư</span>
 				đạp gió rẽ sóng, vượt ngàn chông gai!
 			</p>
 
