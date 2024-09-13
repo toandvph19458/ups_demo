@@ -404,13 +404,49 @@
                 <div class="flex flex-col gap-5 py-5">
                   <nuxt-link to="/" class="flex items-center">
                     <i class="inline-flex items-center justify-center">
-                      <nuxt-img
-                        format="webp"
-                        loading="lazy"
-                        alt="UPS"
-                        height="24"
-                        src="/icons/tu-van-tai-chinh.svg"
-                      />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="25"
+                        viewBox="0 0 24 25"
+                        fill="none"
+                      >
+                        <path
+                          d="M8 11.9002C8 12.6702 8.6 13.3002 9.33 13.3002H10.83C11.47 13.3002 11.99 12.7502 11.99 12.0802C11.99 11.3502 11.67 11.0902 11.2 10.9202L8.8 10.0802C8.32 9.9102 8 9.6502 8 8.9202C8 8.2502 8.52 7.7002 9.16 7.7002H10.66C11.4 7.7102 12 8.3302 12 9.1002"
+                          stroke="#00BF52"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M10 13.3496V14.0896"
+                          stroke="#00BF52"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M10 6.91016V7.69016"
+                          stroke="#00BF52"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M9.99 18.48C14.4028 18.48 17.98 14.9028 17.98 10.49C17.98 6.07724 14.4028 2.5 9.99 2.5C5.57724 2.5 2 6.07724 2 10.49C2 14.9028 5.57724 18.48 9.99 18.48Z"
+                          stroke="#111111"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M12.98 20.38C13.88 21.65 15.35 22.48 17.03 22.48C19.76 22.48 21.98 20.26 21.98 17.53C21.98 15.87 21.16 14.4 19.91 13.5"
+                          stroke="#00BF52"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
                     </i>
 
                     <nuxt-link to="/coming-soon" class="ml-5">
@@ -425,13 +461,52 @@
 
                   <nuxt-link to="/coming-soon" class="flex items-center">
                     <i class="inline-flex items-center justify-center">
-                      <nuxt-img
-                        format="webp"
-                        loading="lazy"
-                        alt="UPS"
-                        height="24"
-                        src="/icons/tin-dau-gia.svg"
-                      />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="25"
+                        viewBox="0 0 24 25"
+                        fill="none"
+                      >
+                        <path
+                          d="M6.87988 18.6501V16.5801"
+                          stroke="#00BF52"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M12 18.6498V14.5098"
+                          stroke="#00BF52"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M17.1201 18.6502V12.4302"
+                          stroke="#00BF52"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M17.1199 6.34961L16.6599 6.88961C14.1099 9.86961 10.6899 11.9796 6.87988 12.9296"
+                          stroke="#00BF52"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M14.1904 6.34961H17.1204V9.26961"
+                          stroke="#00BF52"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M9 22.5H15C20 22.5 22 20.5 22 15.5V9.5C22 4.5 20 2.5 15 2.5H9C4 2.5 2 4.5 2 9.5V15.5C2 20.5 4 22.5 9 22.5Z"
+                          stroke="#111111"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
                     </i>
 
                     <div class="ml-5">
