@@ -374,7 +374,7 @@
 									</div>
 
 									<h4
-										class="text-sm md:text-base xl:text-xl text-black font-bold line-clamp-1 mt-3 md:mt-6"
+										class="text-sm md:text-base xl:text-xl text-black font-bold line-clamp-2 mt-3 md:mt-6"
 									>
 										{{ doc?.short_content?.title }}
 									</h4>
