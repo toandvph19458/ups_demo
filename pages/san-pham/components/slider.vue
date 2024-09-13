@@ -15,11 +15,11 @@
 						Vì sao nên đăng ký
 						<span
 							class="text-[#F51666] font-BG 3xl:text-[60px] 2xl:text-[45px] text-[45px] xl:text-[40px] lg:text-[32px] sm:text-[20px] font-semibold leading-none animate-ups__item">Margin
-							T</span>
+							T+</span>
 					</h3>
 					<p
 						class="text-black/60 text-center font-HG 3xl:text-[20px] 2xl:text-[14px] text-[14px] lg:text-[12px] sm:text-[12px] font-medium leading-none p-2 animate-ups__item 2xl:px-[150px]">
-						Với margin T, nhà đầu tư có thể thực hiện giao dịch mua bán chứng khoán một cách linh hoạt và
+						Với margin T+, nhà đầu tư có thể thực hiện giao dịch mua bán chứng khoán một cách linh hoạt và
 						nhanh chóng. Bạn không còn bị giới hạn bởi thời gian chờ đợi thanh toán, giúp bạn nắm bắt kịp
 						thời những biến động của thị trường và tối đa hóa lợi nhuận.
 					</p>

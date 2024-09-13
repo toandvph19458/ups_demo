@@ -298,7 +298,7 @@
 
                             <div class="ml-5">
                               <p class="text-base text-[#000] font-semibold">
-                                Margin T
+                                Margin T+
                               </p>
                             </div>
                           </nuxt-link>
