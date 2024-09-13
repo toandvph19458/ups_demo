@@ -298,24 +298,7 @@
 
                             <div class="ml-5">
                               <p class="text-base text-[#000] font-semibold">
-                                Margin T+3
-                              </p>
-                            </div>
-                          </nuxt-link>
-                          <nuxt-link to="/san-pham-1" class="flex items-center">
-                            <i class="inline-flex items-center justify-center">
-                              <nuxt-img
-                                format="webp"
-                                loading="lazy"
-                                alt="UPS"
-                                height="24"
-                                src="/icons/dots-icon.svg"
-                              />
-                            </i>
-
-                            <div class="ml-5">
-                              <p class="text-base text-[#000] font-semibold">
-                                Zero Fee
+                                Margin T
                               </p>
                             </div>
                           </nuxt-link>
@@ -332,7 +315,24 @@
 
                             <div class="ml-5">
                               <p class="text-base text-[#000] font-semibold">
-                                Margin 4U
+                                Zero Fee
+                              </p>
+                            </div>
+                          </nuxt-link>
+                          <nuxt-link to="/san-pham-1" class="flex items-center">
+                            <i class="inline-flex items-center justify-center">
+                              <nuxt-img
+                                format="webp"
+                                loading="lazy"
+                                alt="UPS"
+                                height="24"
+                                src="/icons/dots-icon.svg"
+                              />
+                            </i>
+
+                            <div class="ml-5">
+                              <p class="text-base text-[#000] font-semibold">
+                                Mở tài khoản mới - nhận 1 triệu đồng
                               </p>
                             </div>
                           </nuxt-link>
