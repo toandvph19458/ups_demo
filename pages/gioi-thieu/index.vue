@@ -135,7 +135,7 @@
               Sứ mệnh
             </h4>
             <p
-              class="mt-4 md:mt-6 xl:mt-8 text-sm md:text-base xl:text-[22px] text-[#D6DAEA] font-semibold font-BG"
+              class="mt-4 md:mt-6 xl:mt-8 text-sm md:text-base xl:text-[22px] text-[#D6DAEA] font-normal"
             >
               Tạo ra không gian đầu tư độc đáo, mới mẻ tràn đầy hứng khởi, từ đó
               định hình lại cách nhà đầu tư tiếp cận và trải nghiệm đầu tư tài

@@ -18,7 +18,7 @@
 							T+</span>
 					</h3>
 					<p
-						class="text-black/60 text-center font-HG 3xl:text-[20px] 2xl:text-[14px] text-[14px] lg:text-[12px] sm:text-[12px] font-medium leading-none p-2 animate-ups__item 2xl:px-[150px]">
+						class="text-black/60 text-center font-HG 3xl:text-[18px] text-[14px] xl:text-[12px] md:text-[12px] sm:text-[12px] font-medium self-stretch w-full animate-ups__item leading-normal 2xl:px-[150px]">
 						Với margin T+, nhà đầu tư có thể thực hiện giao dịch mua bán chứng khoán một cách linh hoạt và
 						nhanh chóng. Bạn không còn bị giới hạn bởi thời gian chờ đợi thanh toán, giúp bạn nắm bắt kịp
 						thời những biến động của thị trường và tối đa hóa lợi nhuận.

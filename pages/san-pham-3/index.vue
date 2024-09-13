@@ -12,7 +12,7 @@
 				class="flex w-full flex-col 3xl:flex-row-reverse items-center 3xl:items-end gap-6 bg-gradient-to-l from-[#00D7B0] via-[#00D7B0] to-[#7B57FF] rounded-[20px] p-6 h-[343px] 3xl:h-[449px] relative mx-auto 3xl:p-12">
 				<div class="flex flex-col justify-center gap-3 w-[266px] 3xl:w-full  3xl:justify-end">
 					<p
-						class=" text-white text-center 3xl:text-right font-BG text-[22px] leading-normal capitalize 3xl:text-[60px]">
+						class=" text-white text-center 3xl:text-right font-BG text-[22px] leading-normal capitalize 3xl:text-[60px] font-bold">
 						Tham gia ngay
 						hôm
 						nay
@@ -43,7 +43,7 @@
 					</div>
 				</div>
 				<div class="3xl:w-[90%]">
-					<p class="text-white text-center font-BG text-[14px] leading-normal px-10 3xl:text-[24px]">Thời gian
+					<p class="text-white text-center font-BG text-[14px] leading-normal 3xl:text-[24px]">Thời gian
 						diễn ra từ
 						15/09/2024 đến
 						hết 31/12/2024</p>

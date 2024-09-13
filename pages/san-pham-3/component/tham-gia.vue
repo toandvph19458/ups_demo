@@ -13,7 +13,7 @@
                     class="absolute top-0 right-1/2 3xl:top-[-20px] 3xl:right-20 3xl:w-[80px] 3xl:h-[74px] object-contain w-[80px] h-[37px]">
             </div>
             <div class="relative flex-1">
-                <p class="text-[14px] font-BG font-semibold leading-normal 3xl:text-[28px]">Hoàn tất thủ tục xác minh
+                <p class="text-[14px] font-BG font-semibold leading-normal 3xl:text-[28px]">Hoàn tất thủ tục
                 </p>
                 <p class="text-[12px] font-HG leading-normal 3xl:text-[16px]">Xác minh thông tin cá nhân theo hướng dẫn
                 </p>

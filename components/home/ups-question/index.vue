@@ -84,7 +84,7 @@
 						}"
 					>
 						<swiper-slide>
-							<div
+							<nuxt-link to="/tin-tuc"
 								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] border md:border-[2px] border-white rounded-[24px] overflow-hidden"
 							>
 								<div :class="cn('w-full md:w-[360px] flex flex-col bg-[#0A2E20]')">
@@ -132,7 +132,7 @@
 										</p>
 									</div>
 								</div>
-							</div>
+							</nuxt-link>
 						</swiper-slide>
 						<swiper-slide>
 							<nuxt-link to="/bieu-phi"
@@ -184,7 +184,7 @@
 							</nuxt-link>
 						</swiper-slide>
 						<swiper-slide>
-							<div
+							<nuxt-link to="/gioi-thieu"
 								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] border md:border-[2px] border-white rounded-[24px] overflow-hidden"
 							>
 								<div :class="cn('w-full md:w-[360px] flex flex-col bg-[#0A2E20]')">
@@ -229,7 +229,7 @@
 										</p>
 									</div>
 								</div>
-							</div>
+							</nuxt-link>
 						</swiper-slide>
 						<swiper-slide>
 							<nuxt-link to="/hdsd"
