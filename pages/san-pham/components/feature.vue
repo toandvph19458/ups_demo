@@ -170,7 +170,7 @@
 						</p>
 						<p
 							class="text-[#15171E] font-BG 2xl:text-[24px] xl:text-[12px] lg:text-[12px] sm:text-[12px] text-[16px] font-semibold leading-[34px]">
-							Đăng ký trên các ứng dụng phần mềm giao dịch trực tuyến của UPS
+							Đăng ký trên các ứng dụng phần mềm giao dịch trực tuyến của  UPS
 						</p>
 					</div>
 

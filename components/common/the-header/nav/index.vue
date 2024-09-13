@@ -8,7 +8,7 @@
               to="/"
               class="text-base text-[#5E6673] font-bold hover:text-black"
             >
-              Sản phẩm
+              Sản phẩm & Dịch vụ
             </nuxt-link>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -95,7 +95,7 @@
                         Cổ phiếu
                       </p>
                       <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-                        Tìm hiểu cơ bản để bắt đầu đầu tư
+                        Đầu tư hiệu quả đơn giản cùng UPS
                       </p>
                     </nuxt-link>
                   </nuxt-link>
@@ -151,10 +151,10 @@
 
                     <div class="ml-5">
                       <p class="text-base text-[#000] font-semibold">
-                        Trái phiếu
+                        Trái phiếu 
                       </p>
                       <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-                        Hướng dẫn đầu tư cho người mới bắt đầu
+                        Đón đầu mã trái phiếu hot nhất
                       </p>
                     </div>
                   </nuxt-link>
@@ -214,7 +214,7 @@
                         Phái sinh
                       </p>
                       <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-                        Kiến thức cơ sở để xây dựng chiến lược đầu tư
+                        Giao dịch phái sinh siêu tốc độ
                       </p>
                     </div>
                   </nuxt-link>
@@ -273,12 +273,12 @@
                             <p
                               class="text-left text-base text-[#000] font-semibold"
                             >
-                              Ưu đãi
+                              Hot Deals 🔥
                             </p>
                             <p
                               class="text-left text-sm text-[rgba(0,0,0,0.68)] font-medium"
                             >
-                              Cập nhật các sản phẩm HOT
+                             Khám phá ưu đãi mới nhất
                             </p>
                           </div>
                         </div>
@@ -332,7 +332,7 @@
 
                             <div class="ml-5">
                               <p class="text-base text-[#000] font-semibold">
-                                Mở tài khoản mới - nhận 1 triệu đồng
+                                Mở tài khoản mới + 1 triệu đồng
                               </p>
                             </div>
                           </nuxt-link>
@@ -390,7 +390,7 @@
                         Biểu phí giao dịch
                       </p>
                       <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-                        Áp dụng kiến thức đầu tư vào thực tế
+                        Cập nhật bảng giá 24/7
                       </p>
                     </div>
                   </nuxt-link>

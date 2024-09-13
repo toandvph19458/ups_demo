@@ -22,9 +22,7 @@
                                 <p class="w-[120px] h-[1px] bg-[#01C159]"></p>
                             </div>
                             <p class="font-HG text-[12px] 3xl:text-[16px] leading-normal">
-                                KH giao dịch trên tiểu khoản thường (không sử dụng sản phẩm vay) chỉ phải trả phí bằng
-                                phí trả
-                                Sở.
+                                Phí giao dịch: chỉ 0.027% (là mức phí UPS thu để thanh toán cho Sở Giao dịch Chứng khoán)
                             </p>
                         </div>
                     </div>

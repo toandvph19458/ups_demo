@@ -10,7 +10,7 @@
 						Câu hỏi thường gặp về
 						<span
 							class="text-[#F51666] font-BG font-bold 3xl:text-[60px] xl:text-[40px] lg:text-[32px] 2xl:text-[45px] md:text-[28px] text-[20px] leading-normal animate-ups__item">
-							Margin T+3
+							Margin T+
 						</span>
 					</p>
 					<p
@@ -40,8 +40,7 @@
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
 										class="text-[#838383] font-medium 3xl:text-[20px] xl:text-[14px] lg:text-[12px] text-[12px] 2xl:text-[16px] leading-normal font-HG">
-										Dư nợ hưởng ưu đãi lãi suất tối đa 20 tỷ. Phần dư nợ vượt quá 20 tỷ sẽ tính lãi
-										theo lãi suất sau ưu đãi của từng gói T+.
+										Dư nợ hưởng ưu đãi lãi suất tối đa 20 tỷ.
 									</p>
 								</div>
 							</AccordionContent>
@@ -66,8 +65,7 @@
 								<div class="md:pl-[70px] sm:pl-12">
 									<p
 										class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px] font-HG">
-										Kỳ hạn cho vay của các gói Margin T+ tối đa 90 ngày kể từ ngày giải ngân. Không
-										gia hạn khoản vay.
+										Kỳ hạn cho vay tối đa 90 ngày.
 									</p>
 								</div>
 							</AccordionContent>
@@ -93,7 +91,7 @@
 									<p
 										class="text-[#838383] font-medium leading-normal 2xl:text-[20px] lg:text-[12px] sm:text-[12px] xl:text-[14px] text-[16px] font-HG">
 										Được tính kể từ ngày giải ngân khoản vay cho đến khi Khách hàng thực hiện thanh
-										toán khoản vay (bao gồm cả T7, CN, lễ Tết hay các ngày nghỉ khác)
+										toán khoản vay.
 									</p>
 								</div>
 							</AccordionContent>
