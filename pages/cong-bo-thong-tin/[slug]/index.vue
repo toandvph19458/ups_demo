@@ -49,7 +49,7 @@
           15/08/2024 - 22:20
         </p>
       </div>
-      <div class="flex justify-center text-center xl:my-[80px] my-[30px]">
+      <!-- <div class="flex justify-center text-center xl:my-[80px] my-[30px]">
         <div
           class="inline-flex relative w-[327px] h-[208px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]"
         >
@@ -62,7 +62,7 @@
             class="link absolute w-full h-full object-cover"
           />
         </div>
-      </div>
+      </div> -->
       <div class="xl:w-[1200px] w-full flex justify-center mx-auto">
         <div
           class="w-[327px] xl:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]"
