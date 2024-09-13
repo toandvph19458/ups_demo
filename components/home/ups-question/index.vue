@@ -126,7 +126,7 @@
 											sau đây:
 										</p>
 										<p class="text-[16px]">Cách 1: Mở tài khoản trực tuyến qua website tại đây</p>
-										<p>Cách 2: Mở tài khoản trực tiếp tại quầy giao dịch của VPS.</p>
+										<p>Cách 2: Mở tài khoản trực tiếp tại quầy giao dịch của UPS.</p>
 										<p class="pt-2 text-[16px]">
 											Để được hỗ trợ thêm, vui lòng liên hệ hotline 0243.944.6666
 										</p>
