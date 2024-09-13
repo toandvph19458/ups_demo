@@ -281,8 +281,8 @@
         <div class="flex gap-[200px] max-w-[1200px] mx-auto">
           <div class="">
             <h3 class="text-[60px] font-semibold font-BG">
-              <span class="block">Các bước</span>
-              <span class="text-[#E66D14] block">giao dịch ký quỹ</span>
+              <span class="block">Nhận ngay 1 triệu đồng</span>
+              <span class="text-[#E66D14] block">chỉ với 2 bước</span>
             </h3>
 
             <div
@@ -482,11 +482,11 @@
         <p
           class="text-[#15171E] text-center font-bold text-[60px] xl:text-[40px] lg:text-[32px] sm:text-[20px] 2xl:text-[45px] leading-none font-BG"
         >
-          Câu hỏi thường gặp về
+          Câu hỏi thường gặp
           <span
             class="text-[#E66D14] font-bold text-[60px] xl:text-[40px] lg:text-[32px] 2xl:text-[45px] sm:text-[20px] leading-none"
           >
-            Margin 4U
+            
           </span>
         </p>
         <p
