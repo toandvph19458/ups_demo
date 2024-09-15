@@ -338,7 +338,6 @@ export default defineComponent({
           ?.slug
       );
       
-      console.log(dataDetail?.data?.data?.posts_by_id?.raw_content);
       
       return {
         newDetail: dataDetail?.data?.data?.posts_by_id?.raw_content,

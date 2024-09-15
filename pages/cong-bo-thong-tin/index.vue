@@ -78,191 +78,6 @@
 		<div class="container">
 			<div class="pb-16 flex flex-col xl:flex-row gap-10">
 				<!-- TOGGLE -->
-
-				<div class="flex-1 w-full">
-					<div
-						v-if="data?.dataAnnouce?.announce.length > 0"
-						class="grid gap-y-5 xl:gap-y-0 grid-cols-1 md:grid-cols-3 xl:grid-cols-3"
-					>
-						<div
-							v-for="(doc, i) in data?.dataAnnouce?.announce"
-							:key="i"
-							class="p-0 md:p-2 xl:p-5"
-						>
-							<div class="flex flex-col relative group">
-								<div class="relative w-full h-[250px] xl:h-[200px] rounded-[14px] overflow-hidden">
-									<nuxt-img
-										format="webp"
-										loading="lazy"
-										width="350"
-										height="290"
-										:alt="doc?.short_content?.title"
-										:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
-										class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-									/>
-								</div>
-
-								<div class="mt-3 md:mt-5">
-									<div class="flex justify-between">
-										<div class="flex gap-1">
-											<template v-if="doc?.short_content?.tags?.length > 0">
-												<p
-													v-for="(sub, k) in doc?.short_content?.tags"
-													:key="k"
-													class="text-sm md:text-base xl:text-[17px] text-[#F05] font-medium"
-												>
-													{{ `#${sub?.tag?.title}` }}
-												</p>
-											</template>
-										</div>
-										<div class="inline-flex gap-2 items-center text-xs text-black font-semibold">
-											<i>
-												<svg
-													xmlns="http://www.w3.org/2000/svg"
-													width="15"
-													height="14"
-													viewBox="0 0 15 14"
-													fill="none"
-												>
-													<g clip-path="url(#clip0_982_978)">
-														<mask
-															id="mask0_982_978"
-															style="mask-type: luminance"
-															maskUnits="userSpaceOnUse"
-															x="0"
-															y="0"
-															width="15"
-															height="14"
-														>
-															<path
-																d="M0.335938 9.53674e-07H14.3359V14H0.335938V9.53674e-07Z"
-																fill="white"
-															/>
-														</mask>
-														<g mask="url(#mask0_982_978)">
-															<path
-																d="M13.202 5.81365L7.07396 11.9417C5.62638 13.3892 3.27938 13.3892 1.83178 11.9417C0.384199 10.4941 0.384199 8.14706 1.83178 6.69948L7.55936 0.971894"
-																stroke="black"
-																stroke-width="0.9375"
-																stroke-miterlimit="10"
-																stroke-linecap="round"
-																stroke-linejoin="round"
-															/>
-															<path
-																d="M5.61719 6.4082L9.70655 2.31884"
-																stroke="black"
-																stroke-width="0.9375"
-																stroke-miterlimit="10"
-																stroke-linecap="round"
-																stroke-linejoin="round"
-															/>
-															<path
-																d="M11.0537 4.46715L5.3261 10.1947C4.84357 10.6773 4.06121 10.6773 3.5787 10.1947C3.09616 9.7122 3.09616 8.92987 3.5787 8.44734L5.61731 6.4087"
-																stroke="black"
-																stroke-width="0.9375"
-																stroke-miterlimit="10"
-																stroke-linecap="round"
-																stroke-linejoin="round"
-															/>
-															<path
-																d="M9.70703 2.31867C10.6721 1.35363 12.2368 1.35363 13.2018 2.31867C14.1669 3.28372 14.1669 4.84841 13.2018 5.81348"
-																stroke="black"
-																stroke-width="0.9375"
-																stroke-miterlimit="10"
-																stroke-linecap="round"
-																stroke-linejoin="round"
-															/>
-														</g>
-													</g>
-													<defs>
-														<clipPath id="clip0_982_978">
-															<rect
-																width="14"
-																height="14"
-																fill="white"
-																transform="translate(0.333984)"
-															/>
-														</clipPath>
-													</defs>
-												</svg>
-											</i>
-											Tệp đính kèm
-										</div>
-									</div>
-
-									<h4
-										class="text-sm md:text-base xl:text-xl text-black font-bold line-clamp-2 mt-3 md:mt-6"
-									>
-										{{ doc?.short_content?.title }}
-									</h4>
-									<p
-										class="text-sm md:text-base xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2"
-									>
-										{{ doc?.short_content?.blurb }}
-									</p>
-								</div>
-
-								<nuxt-link
-									:to="`/cong-bo-thong-tin/${doc?.short_content?.slug}`"
-									class="absolute w-full h-full"
-								/>
-							</div>
-						</div>
-					</div>
-
-					<!-- PHÂN TRANG  -->
-					<div
-						v-if="data?.dataAnnouce?.announce_aggregated[0]?.count?.slug"
-						class="flex justify-center mt-12"
-					>
-						<Pagination
-							v-slot="{ page }"
-							:total="data?.dataAnnouce?.announce_aggregated[0]?.count?.slug"
-							:sibling-count="10"
-							show-edges
-							:default-page="1"
-							@update:page="handlePageUpdate"
-						>
-							<PaginationList
-								v-slot="{ items }"
-								class="flex items-center gap-4"
-							>
-								<!-- <PaginationFirst /> -->
-								<PaginationPrev class="rounded-full bg-transparent hover:bg-transparent" />
-
-								<template v-for="(item, index) in items">
-									<PaginationListItem
-										v-if="item.type === 'page'"
-										:key="index"
-										:value="item.value"
-										as-child
-									>
-										<Button
-											:class="
-												cn(
-													'w-10 h-10 p-0 text-base font-semibold rounded-full bg-transparent text-black hover:bg-[#02E56A]',
-													{
-														'bg-[#02E56A]': item.value === page,
-													}
-												)
-											"
-										>
-											{{ `${item.value}` }}
-										</Button>
-									</PaginationListItem>
-									<PaginationEllipsis
-										v-else
-										:key="item.type"
-										:index="index"
-									/>
-								</template>
-
-								<PaginationNext class="rounded-full bg-transparent hover:bg-transparent" />
-								<!-- <PaginationLast /> -->
-							</PaginationList>
-						</Pagination>
-					</div>
-				</div>
 				<div class="flex items-center xl:hidden">
 					<Drawer direction="left">
 						<DrawerTrigger as-child>
@@ -581,6 +396,191 @@
 						</p>
 					</div>
 				</div>
+				<div class="flex-1 w-full">
+					<div
+						v-if="data?.dataAnnouce?.announce.length > 0"
+						class="grid gap-y-5 xl:gap-y-0 grid-cols-1 md:grid-cols-3 xl:grid-cols-3"
+					>
+						<div
+							v-for="(doc, i) in data?.dataAnnouce?.announce"
+							:key="i"
+							class="p-0 md:p-2 xl:p-5"
+						>
+							<div class="flex flex-col relative group">
+								<div class="relative w-full h-[250px] xl:h-[200px] rounded-[14px] overflow-hidden">
+									<nuxt-img
+										format="webp"
+										loading="lazy"
+										width="350"
+										height="290"
+										:alt="doc?.short_content?.title"
+										:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
+										class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
+									/>
+								</div>
+
+								<div class="mt-3 md:mt-5">
+									<div class="flex justify-between">
+										<div class="flex gap-1">
+											<template v-if="doc?.short_content?.tags?.length > 0">
+												<p
+													v-for="(sub, k) in doc?.short_content?.tags"
+													:key="k"
+													class="text-sm md:text-base xl:text-[17px] text-[#F05] font-medium"
+												>
+													{{ `#${sub?.tag?.title}` }}
+												</p>
+											</template>
+										</div>
+										<div class="inline-flex gap-2 items-center text-xs text-black font-semibold">
+											<i>
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													width="15"
+													height="14"
+													viewBox="0 0 15 14"
+													fill="none"
+												>
+													<g clip-path="url(#clip0_982_978)">
+														<mask
+															id="mask0_982_978"
+															style="mask-type: luminance"
+															maskUnits="userSpaceOnUse"
+															x="0"
+															y="0"
+															width="15"
+															height="14"
+														>
+															<path
+																d="M0.335938 9.53674e-07H14.3359V14H0.335938V9.53674e-07Z"
+																fill="white"
+															/>
+														</mask>
+														<g mask="url(#mask0_982_978)">
+															<path
+																d="M13.202 5.81365L7.07396 11.9417C5.62638 13.3892 3.27938 13.3892 1.83178 11.9417C0.384199 10.4941 0.384199 8.14706 1.83178 6.69948L7.55936 0.971894"
+																stroke="black"
+																stroke-width="0.9375"
+																stroke-miterlimit="10"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															/>
+															<path
+																d="M5.61719 6.4082L9.70655 2.31884"
+																stroke="black"
+																stroke-width="0.9375"
+																stroke-miterlimit="10"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															/>
+															<path
+																d="M11.0537 4.46715L5.3261 10.1947C4.84357 10.6773 4.06121 10.6773 3.5787 10.1947C3.09616 9.7122 3.09616 8.92987 3.5787 8.44734L5.61731 6.4087"
+																stroke="black"
+																stroke-width="0.9375"
+																stroke-miterlimit="10"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															/>
+															<path
+																d="M9.70703 2.31867C10.6721 1.35363 12.2368 1.35363 13.2018 2.31867C14.1669 3.28372 14.1669 4.84841 13.2018 5.81348"
+																stroke="black"
+																stroke-width="0.9375"
+																stroke-miterlimit="10"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+															/>
+														</g>
+													</g>
+													<defs>
+														<clipPath id="clip0_982_978">
+															<rect
+																width="14"
+																height="14"
+																fill="white"
+																transform="translate(0.333984)"
+															/>
+														</clipPath>
+													</defs>
+												</svg>
+											</i>
+											Tệp đính kèm
+										</div>
+									</div>
+
+									<h4
+										class="text-sm md:text-base xl:text-xl text-black font-bold line-clamp-2 mt-3 md:mt-6"
+									>
+										{{ doc?.short_content?.title }}
+									</h4>
+									<p
+										class="text-sm md:text-base xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2"
+									>
+										{{ doc?.short_content?.blurb }}
+									</p>
+								</div>
+
+								<nuxt-link
+									:to="`/cong-bo-thong-tin/${doc?.short_content?.slug}`"
+									class="absolute w-full h-full"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<!-- PHÂN TRANG  -->
+					<div
+						v-if="data?.dataAnnouce?.announce_aggregated[0]?.count?.slug"
+						class="flex justify-center mt-12"
+					>
+						<Pagination
+							v-slot="{ page }"
+							:total="data?.dataAnnouce?.announce_aggregated[0]?.count?.slug"
+							:sibling-count="10"
+							show-edges
+							:default-page="1"
+							@update:page="handlePageUpdate"
+						>
+							<PaginationList
+								v-slot="{ items }"
+								class="flex items-center gap-4"
+							>
+								<!-- <PaginationFirst /> -->
+								<PaginationPrev class="rounded-full bg-transparent hover:bg-transparent" />
+
+								<template v-for="(item, index) in items">
+									<PaginationListItem
+										v-if="item.type === 'page'"
+										:key="index"
+										:value="item.value"
+										as-child
+									>
+										<Button
+											:class="
+												cn(
+													'w-10 h-10 p-0 text-base font-semibold rounded-full bg-transparent text-black hover:bg-[#02E56A]',
+													{
+														'bg-[#02E56A]': item.value === page,
+													}
+												)
+											"
+										>
+											{{ `${item.value}` }}
+										</Button>
+									</PaginationListItem>
+									<PaginationEllipsis
+										v-else
+										:key="item.type"
+										:index="index"
+									/>
+								</template>
+
+								<PaginationNext class="rounded-full bg-transparent hover:bg-transparent" />
+								<!-- <PaginationLast /> -->
+							</PaginationList>
+						</Pagination>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 	</div>
