@@ -16,12 +16,12 @@
     </div>
     <div class="text-center mt-[30px] mb-[20px]">
       <h3
-        class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px]"
+        class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] w-[968px] mx-auto"
       >
         {{ data && data.newDetail.title }}
       </h3>
     </div>
-    <div class="flex gap-2 text-center justify-center items-center">
+    <!-- <div class="flex gap-2 text-center justify-center items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="w-[16px] h-[16px] xl:w-[24px] xl:h-[24px]"
@@ -48,21 +48,19 @@
       >
         15/08/2024 - 22:20
       </p>
-    </div>
-    <!-- <div class="flex justify-center text-center xl:my-[80px] my-[30px]">
+    </div> -->
+    <div class="flex justify-center text-center xl:my-[80px] my-[30px]">
       <div
         class="inline-flex relative w-[327px] h-[208px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]"
       >
         <nuxt-img
           loading="lazy"
           alt="UPS"
-          src={{data && data.newDnewDetail.thumnail}}
-          width="1600"
-          height="700"
+          :src="config.NUXT_APP_IMAGE_URL+data?.newDetail.cover?.id"
           class="link absolute w-full h-full object-cover"
         />
       </div>
-    </div> -->
+    </div>
     <div class="xl:w-[1200px] w-full flex justify-center mx-auto">
       <div
         class="w-[327px] xl:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]"
@@ -115,9 +113,7 @@
               nulla pariatur.
             </p>
           </div> -->
-		<div v-html="data?.newDetail.content">
-
-		</div>
+          <div v-html="data?.newDetail.content"></div>
           <div class="my-[30px]">
             <Comment />
           </div>
@@ -268,24 +264,28 @@
         </h2>
       </div>
       <div class="my-[40px] grid grid-cols-1 xl:grid-cols-3 gap-10">
-        <div class="card">
+        <div class="card relative" v-for="doc in data?.dataNews">
           <div class="flex justify-center text-center">
             <div class="inline-flex relative w-full h-[288px]">
               <nuxt-img
                 loading="lazy"
-                alt="UPS"
-                src="/images/tin-tuc-01.png"
+                :alt="doc?.short_content?.title"
+								:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
                 height="288"
                 class="link absolute w-full h-full object-cover rounded-[14px]"
               />
             </div>
           </div>
           <div class="flex justify-between items-center my-[24px]">
-            <div
-              class="tag text-[#F05] font-hanken-grotesk text-[18px] font-medium leading-normal"
-            >
-              #Hotnews
-            </div>
+            <template v-if="doc?.short_content?.tags.length > 0">
+										<p
+											v-for="(sub, k) in doc?.short_content?.tags"
+											:key="k"
+											class="text-sm md:text-base xl:text-lg text-[#F05] font-medium"
+										>
+											{{ `#${sub?.tag.slug}` }}
+										</p>
+									</template>
             <div
               class="time text-[#9498A8] font-hanken-grotesk text-[18px] font-medium leading-normal"
             >
@@ -294,93 +294,20 @@
           </div>
           <div class="">
             <h6
-              class="text-[#15171E] font-hanken-grotesk text-[20px] font-semibold leading-normal"
+              class="text-[#15171E] font-hanken-grotesk text-[20px] font-semibold leading-normal line-clamp-1"
             >
-              Nội dung tin tức
+            {{ doc?.short_content?.title }}
             </h6>
             <p
-              class="text-[#3C4052] font-hanken-grotesk text-[18px] font-medium leading-normal mt-[8px]"
+              class="text-[#3C4052] font-hanken-grotesk text-[18px] font-medium leading-normal mt-[8px] line-clamp-3"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt...
+            {{ doc?.short_content?.blurb }}
             </p>
           </div>
-        </div>
-        <div class="card">
-          <div class="flex justify-center text-center">
-            <div class="inline-flex relative w-full h-[288px]">
-              <nuxt-img
-                loading="lazy"
-                alt="UPS"
-                src="/images/tin-tuc-01.png"
-                height="288"
-                class="link absolute w-full h-full object-cover rounded-[14px]"
-              />
-            </div>
-          </div>
-          <div class="flex justify-between items-center my-[24px]">
-            <div
-              class="tag text-[#F05] font-hanken-grotesk text-[18px] font-medium leading-normal"
-            >
-              #Hotnews
-            </div>
-            <div
-              class="time text-[#9498A8] font-hanken-grotesk text-[18px] font-medium leading-normal"
-            >
-              5 phút trước
-            </div>
-          </div>
-          <div class="">
-            <h6
-              class="text-[#15171E] font-hanken-grotesk text-[20px] font-semibold leading-normal"
-            >
-              Nội dung tin tức
-            </h6>
-            <p
-              class="text-[#3C4052] font-hanken-grotesk text-[18px] font-medium leading-normal mt-[8px]"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt...
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="flex justify-center text-center">
-            <div class="inline-flex relative w-full h-[288px]">
-              <nuxt-img
-                loading="lazy"
-                alt="UPS"
-                src="/images/tin-tuc-01.png"
-                height="288"
-                class="link absolute w-full h-full object-cover rounded-[14px]"
-              />
-            </div>
-          </div>
-          <div class="flex justify-between items-center my-[24px]">
-            <div
-              class="tag text-[#F05] font-hanken-grotesk text-[18px] font-medium leading-normal"
-            >
-              #Hotnews
-            </div>
-            <div
-              class="time text-[#9498A8] font-hanken-grotesk text-[18px] font-medium leading-normal"
-            >
-              5 phút trước
-            </div>
-          </div>
-          <div class="">
-            <h6
-              class="text-[#15171E] font-hanken-grotesk text-[20px] font-semibold leading-normal"
-            >
-              Nội dung tin tức
-            </h6>
-            <p
-              class="text-[#3C4052] font-hanken-grotesk text-[18px] font-medium leading-normal mt-[8px]"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt...
-            </p>
-          </div>
+          <nuxt-link
+								:to="`/tin-tuc/${doc?.short_content?.slug}`"
+								class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full"
+							/>
         </div>
       </div>
     </div>
@@ -389,6 +316,7 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import Comment from "~/components/common/comment/index.vue";
+import { config } from "~/lib/config";
 
 export default defineComponent({
   name: "chi-tiet",
@@ -403,14 +331,24 @@ export default defineComponent({
       const dataDetail: any = await newStore.fnGetNewDetail(
         route.params?.slug as string
       );
+      const dataNews: any = await newStore.fnGetListNews(
+        1,
+        3,
+        dataDetail?.data?.data?.posts_by_id?.raw_content?.categories[0].category
+          ?.slug
+      );
+      
+      console.log(dataDetail?.data?.data?.posts_by_id?.raw_content);
+      
       return {
         newDetail: dataDetail?.data?.data?.posts_by_id?.raw_content,
+        dataNews:dataNews?.data?.data?.posts
       };
     });
 
-
     return {
       data,
+      config
     };
   },
 });

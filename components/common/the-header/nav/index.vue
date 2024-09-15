@@ -95,7 +95,7 @@
                         Cổ phiếu
                       </p>
                       <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-                        Đầu tư hiệu quả đơn giản cùng UPS
+                        Đầu tư đơn giản và hiệu quả
                       </p>
                     </nuxt-link>
                   </nuxt-link>
@@ -285,23 +285,6 @@
                       </AccordionTrigger>
                       <AccordionContent>
                         <div class="flex gap-5 flex-col">
-                          <nuxt-link to="/san-pham" class="flex items-center">
-                            <i class="inline-flex items-center justify-center">
-                              <nuxt-img
-                                format="webp"
-                                loading="lazy"
-                                alt="UPS"
-                                height="24"
-                                src="/icons/dots-icon.svg"
-                              />
-                            </i>
-
-                            <div class="ml-5">
-                              <p class="text-base text-[#000] font-semibold">
-                                Margin T+
-                              </p>
-                            </div>
-                          </nuxt-link>
                           <nuxt-link to="/san-pham-3" class="flex items-center">
                             <i class="inline-flex items-center justify-center">
                               <nuxt-img
@@ -319,6 +302,24 @@
                               </p>
                             </div>
                           </nuxt-link>
+                          <nuxt-link to="/san-pham" class="flex items-center">
+                            <i class="inline-flex items-center justify-center">
+                              <nuxt-img
+                                format="webp"
+                                loading="lazy"
+                                alt="UPS"
+                                height="24"
+                                src="/icons/dots-icon.svg"
+                              />
+                            </i>
+
+                            <div class="ml-5">
+                              <p class="text-base text-[#000] font-semibold">
+                                Margin T+
+                              </p>
+                            </div>
+                          </nuxt-link>
+                          
                           <nuxt-link to="/san-pham-1" class="flex items-center">
                             <i class="inline-flex items-center justify-center">
                               <nuxt-img
@@ -454,7 +455,7 @@
                         Tư vấn tài chính
                       </p>
                       <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-                        Nhận ngay sự hỗ trợ từ UPS
+                        Cùng doanh nghiệp phát triển bền vững
                       </p>
                     </nuxt-link>
                   </nuxt-link>
@@ -514,7 +515,7 @@
                         Tin đấu giá
                       </p>
                       <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-                        Cập nhật các sản phẩm HOT
+                        Bản tin đấu giá tại UPS
                       </p>
                     </div>
                   </nuxt-link>
@@ -524,16 +525,16 @@
                     Nền tảng
                   </p>
 
-                  <div class="mt-4 grid gap-4 grid-cols-2">
+                  <div class="mt-4 flex gap-4 flex-col">
                     <nuxt-link
                       to="/coming-soon"
-                      class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px]"
+                      class="w-[80%] h-[38px] flex items-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px]"
                     >
                       Web Trading
                     </nuxt-link>
                     <nuxt-link
                       to="/coming-soon"
-                      class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px]"
+                      class="w-[80%] h-[38px] flex items-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px]"
                     >
                       App Trading
                     </nuxt-link>
@@ -814,7 +815,7 @@
                 :default-value="defaultValue"
               >
                 <AccordionItem value="1">
-                  <AccordionTrigger
+                  <nuxt-link to="/tin-tuc"
                     class="flex items-center hover:no-underline"
                   >
                     <div class="flex">
@@ -871,8 +872,8 @@
                         </p>
                       </div>
                     </div>
-                  </AccordionTrigger>
-                  <AccordionContent>
+                  </nuxt-link>
+                  <!-- <AccordionContent>
                     <div class="flex gap-5 flex-col">
                       <nuxt-link to="/tin-tuc" class="flex items-center">
                         <i class="inline-flex items-center justify-center">
@@ -912,7 +913,7 @@
                         </div>
                       </nuxt-link>
                     </div>
-                  </AccordionContent>
+                  </AccordionContent> -->
                 </AccordionItem>
               </Accordion>
 

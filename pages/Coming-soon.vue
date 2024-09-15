@@ -10,7 +10,6 @@
                 <p class="text-[#535662] text-center font-HG text-[18px] font-medium leading-normal">
                     Nhận thông báo ngay về tính năng này khi được ra mắt
                 </p>
-
             </div>
             <div
                 class="flex w-[950px] p-[12px] items-center gap-[12px] rounded-[52px] border border-[#02E56A] bg-white/60 backdrop-blur-[20px]">

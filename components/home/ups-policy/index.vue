@@ -2,18 +2,21 @@
 	<section class="section_policy animate-ups">
 		<div class="py-5 md:py-11 bg-[linear-gradient(93deg,#02E56A_24.42%,#01A34B_67.1%)]">
 			<div class="container">
-				<div class="flex gap-3 md:gap-0 flex-col md:flex-row md:justify-between md:items-center">
+				<div class="flex flex-wrap md:flex-nowrap gap-3 md:gap-12 xl:gap-10 3xl:gap-[56px] md:justify-between md:items-center">
 					<h3
-						class="animate-ups__item text-xl md:text-[24px] lg:text-[36px] text-[#15171E] font-bold font-BG max-w-[400px] leading-[1.3] link">
+						class="animate-ups__item basis-full md:basis-1/2 text-xl md:text-[24px] lg:text-[36px] text-[#15171E] font-bold font-BG leading-[1.3] link">
 						<span>Bạn đang tìm </span>
 						<br />
 						<span> đối tác đầu tư phù hợp? </span>
 					</h3>
 
-					<p class="animate-ups__item text-sm lg:text-base font-medium text-white max-w-[615px] link">
-						UPS tin rằng đầu tư không đơn giản chỉ là con số, giao dịch khô khan mà còn là cuộc phiêu lưu
-						độc đáo mở ra hành trình tài chính cá nhân đầy hứng khởi và mới mẻ cho nhà đầu tư.
-					</p>
+					<div class="basis-full md:basis-1/2">
+						<p class="animate-ups__item 2xl:w-[70%] w-full text-sm lg:text-base font-medium text-white link">
+							UPS tin rằng đầu tư không đơn giản chỉ là con số, giao dịch khô khan mà còn là cuộc phiêu
+							lưu
+							độc đáo mở ra hành trình tài chính cá nhân đầy hứng khởi và mới mẻ cho nhà đầu tư.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -89,7 +92,7 @@
 								<div
 									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group">
 									<div
-										class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+										class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 										<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 											src="/images/tucthi.png" class="w-full h-full object-cover" />
 
@@ -150,7 +153,7 @@
 								<div
 									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group">
 									<div
-										class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+										class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 										<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 											src="/images/hoptac.png" class="w-full h-full object-cover" />
 
@@ -211,7 +214,7 @@
 								<div
 									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group">
 									<div
-										class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+										class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 										<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 											src="/images/quanly.png" class="w-full h-full object-cover" />
 
@@ -271,11 +274,11 @@
 						</swiper>
 					</div>
 
-					<div class="hidden md:flex xl:flex gap-10">
+					<div class="hidden md:flex xl:flex gap-3 md:gap-[20px] xl:gap-6 2xl:gap-8 3xl:gap-10">
 						<div
 							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-300 hover:flex-[2]">
 							<div
-								class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+								class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 								<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 									src="/images/tucthi.png" class="w-full h-full object-cover" />
 
@@ -287,7 +290,7 @@
 							<div
 								class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8">
 								<div
-									class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
+									class="inline-flex px-4 lg:px-5 py-[6px] text-[10px] md:text-[12px] xl:text-[16px] 2xl:text-[18px] text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 									#tốcđộ
 								</div>
 								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
@@ -330,7 +333,7 @@
 						<div
 							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-300 hover:flex-[2]">
 							<div
-								class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+								class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 								<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 									src="/images/hoptac.png" class="w-full h-full object-cover" />
 
@@ -342,7 +345,7 @@
 							<div
 								class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8">
 								<div
-									class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
+									class="inline-flex px-4 lg:px-5 py-[6px] text-[10px] md:text-[12px] xl:text-[16px] 2xl:text-[18px] text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 									#chuyênnghiệp
 								</div>
 								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
@@ -385,7 +388,7 @@
 						<div
 							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-300 hover:flex-[2]">
 							<div
-								class="relative w-full h-[230px] md:[330px] xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+								class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 								<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 									src="/images/quanly.png" class="w-full h-full object-cover" />
 
@@ -397,7 +400,7 @@
 							<div
 								class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8">
 								<div
-									class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
+									class="inline-flex px-4 lg:px-5 py-[6px] text-[10px] md:text-[12px] xl:text-[16px] 2xl:text-[18px] text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 									#hấpdẫn
 								</div>
 								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">

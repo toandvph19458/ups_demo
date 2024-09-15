@@ -23,14 +23,40 @@ export const useNewsStore = defineStore({
 
 			return await httpRequest.post(``, { query });
 		},
+		async fnGetListNews(
+			page: number = 1,
+			limit: number = 10,
+			categorySlug: string | null = null,
+			tagSlug: string | null = null,
+			date: string | null = null,
+			keyword: string | null = null
+		) {
+			let filterConditions = [];
 
-		async fnGetListNews(page: number = 1, limit: number = 8) {
+			if (categorySlug) {
+				filterConditions.push(`{ categories: { category: { slug: { _eq: "${categorySlug}" } } } }`);
+			}
+
+			if (tagSlug) {
+				filterConditions.push(`{ tags: { tag: { slug: { _eq: "${tagSlug}" } } } }`);
+			}
+
+			if (date) {
+				filterConditions.push(`{ date_published: { _eq: "${date}" } }`);
+			}
+
+			if (keyword) {
+				filterConditions.push(`{ title: { _contains: "${keyword}" } }`);
+			}
+
+			let filterString = filterConditions.length ? `filter: { _and: [${filterConditions.join(", ")}] }` : "";
+
 			let query = `
 				query {
-					posts (page: ${page}, limit: ${limit}, sort: "-date_published") {
+					posts (page: ${page}, limit: ${limit}, sort: "-date_published" ${filterString ? `, ${filterString}` : ""}) {
 						short_content
 					}
-					posts_aggregated {
+					posts_aggregated ${filterString ? `(${filterString})` : ""} {
 						count {
 							slug
 						}
@@ -38,11 +64,12 @@ export const useNewsStore = defineStore({
 				}
 			`;
 
+			console.log("query", query);
+
 			return await httpRequest.post(``, { query });
 		},
 
 		async fnGetNewDetail(slug: string) {
-			
 			let query = `
 				query {
 					posts_by_id(id: "${slug}") {

@@ -403,6 +403,7 @@
         const dataDetail: any = await newStore.fnGetAnnounceDetail(
           route.params?.slug as string
         );
+        console.log(dataDetail?.data?.data?.announce_by_id);
         return {
           newDetail: dataDetail?.data?.data?.announce_by_id?.raw_content,
         };

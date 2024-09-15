@@ -4,6 +4,7 @@ import Banner from "./components/banner.vue";
 import Slider from "./components/slider.vue";
 import feature from "./components/feature.vue";
 import question from "./components/question.vue";
+import Feedback from "~/components/common/feedback/index.vue";
 
 export default defineComponent({
 	name: "san-pham",
@@ -12,6 +13,7 @@ export default defineComponent({
 		Slider,
 		feature,
 		question,
+		Feedback,
 	},
 	setup(props, ctx) {
 		onMounted(() => {
@@ -130,7 +132,10 @@ export default defineComponent({
 		<!-- tinh-nang -->
 		<feature />
 		<!-- thong tin lien he -->
-		<div
+		<div class="layout">
+			<feedback />
+		</div>
+		<!-- <div
 			class="flex flex-col md:flex-row md:px-[60px] md:py-6 p-6 gap-3 xl:p-[24px_100px] lg:p-[24px_60px] lg:gap-10 3xl:p-[40px_160px] 2xl:p-[24px_120px] justify-between items-center bg-[linear-gradient(269deg,_#FF76E1_3.83%,_rgba(255,_85,_17,_0.80)_98.43%)] animate-ups w-full">
 			<p
 				class=" text-[#faf7f7] font-BG text-[14px] xl:text-[24px] md:text-[14px] 2xl:text-[28px] 3xl:text-[32px] lg:text-[20px] font-semibold leading-normal animate-ups__item">
@@ -167,7 +172,7 @@ export default defineComponent({
 					</p>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- cau hoi thuong gap -->
 		<question />
 	</section>

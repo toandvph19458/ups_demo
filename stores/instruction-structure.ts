@@ -17,9 +17,23 @@ export const useInstructionStructureStore = defineStore({
 								slug
 								title
 								blurb
-								content
 							}
 						}
+					}
+				}
+			`;
+
+			return await httpRequest.post("", { query });
+		},
+
+		async fnGetDetailInstructionStructure(slug: string) {
+			let query = `
+				query {
+					documents_by_id(id: "${slug}") {
+						title
+						slug
+						blurb
+						content
 					}
 				}
 			`;

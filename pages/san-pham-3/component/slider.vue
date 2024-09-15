@@ -11,8 +11,81 @@
                 <p class="font-HG text-[14px] leading-normal font-semibold 3xl:text-[24px]">Dành Cho</p>
                 <p class="font-BG text-[18px] leading-normal font-semibold 3xl:text-[40px] 3xl:text-white">Khách hàng
                     mới</p>
-                <div class="2xl:flex items-center gap-6 hidden ">
+                <!-- chuong trinh uu dai -->
+                <div class="2xl:flex items-center gap-6 hidden">
                     <div
+                        class="relative overflow-hidden px-2 py-4 md:py-6 w-full flex 3xl:h-[230px]  lg:h-[152px] 2xl:px-[40px] 2xl:py-[24px] 3xl:px-[24px] 3xl:py-[40px] lg:p-[32px_8px] flex-col justify-center items-center gap-3 flex-[1_0_0] lg:rounded-[24px] rounded-[12px] 2xl:rounded-xl group animate-ups__item bg-[rgba(255,255,255,0.10)] 3xl:gap-5">
+                        <!-- Background Gradient -->
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-[rgba(68,49,139,0.09)] to-[rgba(68,49,139,0.90)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                        </div>
+                        <!-- Background Image -->
+                        <img src="/images/bieuphi.jpg"
+                            class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                            alt="Background Image" />
+
+                        <!-- Text -->
+                        <div class="flex flex-col items-start justify-between h-full">
+                            <p
+                                class="text-black group-hover:text-white text-center text-[14px] md:text-[12px] font-BG font-semibold 3xl:text-[24px] 2xl:text-[20px] xl:text-[20px] lg:text-[18px]  leading-normal z-30 transition-colors duration-300 ">
+                                Phí giao
+                                dịch
+                            </p>
+                            <p
+                                class="text-black group-hover:text-white text-left text-[14px] md:text-[12px] font-BG font-semibold 3xl:text-[14px] 2xl:text-[20px] xl:text-[20px] lg:text-[18px]  leading-normal z-30 transition-colors duration-300 ">
+                                Phí giao dịch: chỉ 0.027% (là mức phí UPS thu để thanh toán cho Sở Giao dịch Chứng
+                                khoán)
+                            </p>
+                        </div>
+
+                    </div>
+                    <div
+                        class="relative overflow-hidden px-2 py-4 md:py-6 w-full flex 3xl:h-[230px]  lg:h-[152px] 2xl:px-[40px] 2xl:py-[24px] 3xl:px-[24px] 3xl:py-[40px] lg:p-[32px_8px] flex-col justify-center items-center gap-3 flex-[1_0_0] lg:rounded-[24px] rounded-[12px] 2xl:rounded-xl group animate-ups__item bg-[rgba(255,255,255,0.10)] 3xl:gap-5">
+                        <!-- Background Gradient -->
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-[rgba(68,49,139,0.09)] to-[rgba(68,49,139,0.90)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                        </div>
+                        <!-- Background Image -->
+                        <img src="/images/bieuphi.jpg"
+                            class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                            alt="Background Image" />
+
+                        <!-- Text -->
+                        <div class="flex flex-col items-start justify-between h-full">
+                            <p
+                                class="text-black group-hover:text-white text-center text-[14px] md:text-[12px] font-BG font-semibold 3xl:text-[24px] 2xl:text-[20px] xl:text-[20px] lg:text-[18px]  leading-normal z-30 transition-colors duration-300 ">
+                                Trải nghiệm dịch vụ cao cấp
+                            </p>
+                            <p
+                                class="text-black group-hover:text-white text-left text-[14px] md:text-[12px] font-BG font-semibold 3xl:text-[14px] 2xl:text-[20px] xl:text-[20px] lg:text-[18px]  leading-normal z-30 transition-colors duration-300 ">
+                                Tiếp cận các công cụ và dịch vụ hỗ trợ đầu tư chuyên nghiệp từ UPS
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="relative overflow-hidden px-2 py-4 md:py-6 w-full flex 3xl:h-[230px]  lg:h-[152px] 2xl:px-[40px] 2xl:py-[24px] 3xl:px-[24px] 3xl:py-[40px] lg:p-[32px_8px] flex-col justify-center items-center gap-3 flex-[1_0_0] lg:rounded-[24px] rounded-[12px] 2xl:rounded-xl group animate-ups__item bg-[rgba(255,255,255,0.10)] 3xl:gap-5">
+                        <!-- Background Gradient -->
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-[rgba(68,49,139,0.09)] to-[rgba(68,49,139,0.90)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                        </div>
+                        <!-- Background Image -->
+                        <img src="/images/bieuphi.jpg"
+                            class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                            alt="Background Image" />
+
+                        <!-- Text -->
+                        <div class="flex flex-col items-start justify-between h-full">
+                            <p
+                                class="text-black group-hover:text-white text-center text-[14px] md:text-[12px] font-BG font-semibold 3xl:text-[24px] 2xl:text-[20px] xl:text-[20px] lg:text-[18px]  leading-normal z-30 transition-colors duration-300 ">
+                                Hỗ trợ mở tài khoản nhanh chóng
+                            </p>
+                            <p
+                                class="text-black group-hover:text-white text-left text-[14px] md:text-[12px] font-BG font-semibold 3xl:text-[14px] 2xl:text-[20px] xl:text-[20px] lg:text-[18px]  leading-normal z-30 transition-colors duration-300 ">
+                                Thao tác mở tài khoản đơn giản, thuận tiện và được hỗ trợ tận tình từ đội ngũ UPS
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div
                         class="flex h-[210px] p-6 flex-col items-start rounded-[16px] border relative flex-1 bg-[url('/images/san-pham2.jpg')] bg-cover">
                         <div
                             class="flex p-4 flex-col items-start gap-4 rounded-[16px] bg-slate-50 absolute inset-0 transition-transform duration-300 hover:rotate-12 hover:translate-x-2 hover:translate-y-[180px] justify-between">
@@ -25,8 +98,8 @@
                                 Phí giao dịch: chỉ 0.027% (là mức phí UPS thu để thanh toán cho Sở Giao dịch Chứng khoán)
                             </p>
                         </div>
-                    </div>
-                    <div
+                    </div> -->
+                    <!-- <div
                         class="flex h-[210px] p-6 flex-col items-start rounded-[16px] border relative flex-1 bg-[url('/images/san-pham2.jpg')] bg-cover">
                         <div
                             class="flex p-4 flex-col items-start gap-4 rounded-[16px] bg-slate-50 absolute inset-0 transition-transform duration-300 hover:rotate-12 hover:translate-x-2 hover:translate-y-[180px] justify-between">
@@ -40,8 +113,8 @@
                                 Tiếp cận các công cụ và dịch vụ hỗ trợ đầu tư chuyên nghiệp từ UPS.
                             </p>
                         </div>
-                    </div>
-                    <div
+                    </div> -->
+                    <!-- <div
                         class="flex h-[210px] p-6 flex-col items-start rounded-[16px] border relative flex-1 bg-[url('/images/san-pham2.jpg')] bg-cover">
                         <div
                             class="flex p-4 flex-col items-start gap-4 rounded-[16px] bg-slate-50 absolute inset-0 transition-transform duration-300 hover:rotate-12 hover:translate-x-2 hover:translate-y-[180px] justify-between">
@@ -55,8 +128,9 @@
                                 Thao tác mở tài khoản đơn giản, thuận tiện và được hỗ trợ tận tình từ đội ngũ UPS.
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
+
                 <div class="block 3xl:hidden">
                     <swiper :modules="[SwiperNavigation]" :pagination="true" :loop="false" :speed="800"
                         :initial-slide="vSwiperIndex" @swiper="setVSwiperRef" @slide-change="updateVSwiperIndex"
@@ -86,13 +160,15 @@
                                 <div
                                     class="absolute left-0 top-[30%] flex p-4 flex-col items-start justify-between gap-4 rounded-[16px] bg-slate-50 h-[210px] w-full shadow-lg">
                                     <div>
-                                        <p class="font-BG text-[14px] 3xl:text-[24px] font-semibold leading-normal">Phí
+                                        <p class="font-BG text-[14px] 3xl:text-[24px] font-semibold leading-normal">
+                                            Phí
                                             giao dịch
                                         </p>
                                         <p class="w-[120px] h-[1px] bg-[#01C159]"></p>
                                     </div>
                                     <p class="font-HG text-[12px] leading-normal">
-                                        KH giao dịch trên tiểu khoản thường (không sử dụng sản phẩm vay) chỉ phải trả
+                                        KH giao dịch trên tiểu khoản thường (không sử dụng sản phẩm vay) chỉ phải
+                                        trả
                                         phí bằng phí trả
                                         Sở
                                     </p>
@@ -109,7 +185,8 @@
                                 <div
                                     class="absolute left-0 top-[30%] flex p-4 flex-col items-start justify-between gap-4 rounded-[16px] bg-slate-50 h-[210px] w-full shadow-lg">
                                     <div>
-                                        <p class="font-BG text-[14px] 3xl:text-[24px] font-semibold leading-normal">Trải
+                                        <p class="font-BG text-[14px] 3xl:text-[24px] font-semibold leading-normal">
+                                            Trải
                                             nghiệm dịch vụ
                                             cao cấp
                                         </p>
@@ -129,14 +206,16 @@
                                 <div
                                     class="absolute left-0 top-[30%] flex p-4 flex-col items-start justify-between gap-4 rounded-[16px] bg-slate-50 h-[210px] w-full shadow-lg">
                                     <div>
-                                        <p class="font-BG text-[14px] 3xl:text-[24px] font-semibold leading-normal">Hỗ
+                                        <p class="font-BG text-[14px] 3xl:text-[24px] font-semibold leading-normal">
+                                            Hỗ
                                             trợ mở tài khoản
                                             nhanh chóng
                                         </p>
                                         <p class="w-[120px] h-[1px] bg-[#01C159]"></p>
                                     </div>
                                     <p class="font-HG text-[12px] leading-normal">
-                                        Thao tác mở tài khoản đơn giản, thuận tiện và được hỗ trợ tận tình từ đội ngũ
+                                        Thao tác mở tài khoản đơn giản, thuận tiện và được hỗ trợ tận tình từ đội
+                                        ngũ
                                         UPS
                                     </p>
                                 </div>

@@ -54,6 +54,9 @@
 		</div>
 		<!-- câu hỏi thường gặp -->
 		<question />
+		<div class="layout">
+			<feedback />
+		</div>
 
 		<!-- điều kiện điều khoản -->
 		<div class="flex p-6 flex-col justify-end items-start gap-3 3xl:px-[225px] 3xl:py-[100px]">
@@ -171,6 +174,7 @@ import ThamGia from "./component/tham-gia.vue";
 import Question from "./component/question.vue";
 import { SwiperAutoplay, SwiperNavigation } from "#imports";
 import { cn } from "~/lib/utils";
+import Feedback from "~/components/common/feedback/index.vue";
 
 export default defineComponent({
 	name: "san-pham-3",
@@ -178,7 +182,8 @@ export default defineComponent({
 		Banner,
 		Slider,
 		ThamGia,
-		Question
+		Question,
+		Feedback
 	},
 	setup(props, ctx) {
 		let vSwiperRef: any = null;

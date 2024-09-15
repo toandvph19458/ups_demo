@@ -19,12 +19,16 @@
 				class="py-5 xl:py-8 flex flex-wrap gap-3 md:gap-10 xl:gap-10 items-start xl:items-center justify-center"
 			>
 				<nuxt-link
-					v-for="(doc, i) in data?.dataCateAndTags?.p_categories"
-					:key="i"
-					:to="`/tin-tuc/${doc?.slug}`"
+					:to="`/tin-tuc`"
 					class="py-1 md:py-2 text-base text-black font-bold hover:underline"
 				>
-					{{ doc?.title }}
+					Tin hoạt động
+				</nuxt-link>
+				<nuxt-link
+					:to="`/cong-bo-thong-tin`"
+					class="py-1 md:py-2 text-base text-black font-bold hover:underline"
+				>
+					Công bố thông tin
 				</nuxt-link>
 			</div>
 
@@ -96,6 +100,21 @@
 
 			<div class="flex flex-col md:flex-col xl:flex-row gap-0 md:gap-[90px] py-10">
 				<div class="flex-1 w-full">
+					<!-- HASTAG -->
+					<div class="flex flex-wrap gap-6 pb-10">
+						<p
+							v-for="(doc, i) in data?.dataCateAndTags?.p_categories"
+							:key="i"
+							:class="
+								cn('text-base text-black font-bold cursor-pointer pb-2', {
+									'border-b border-[#222]': slugCate == doc.slug,
+								})
+							"
+							@click="slugCate = doc.slug"
+						>
+							{{ `${doc?.title}` }}
+						</p>
+					</div>
 					<div class="flex flex-col md:flex-row justify-between">
 						<h4 class="text-[24px] md:text-[40px] font-semibold font-BG">
 							Tin
@@ -132,101 +151,121 @@
 									class="w-full md:w-[300px] h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
 									placeholder="Tìm kiếm"
 									name="fullname"
+									v-model="keyword"
 								/>
 								<div class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"></div>
 							</div>
 							<div class="w-full flex items-center relative">
-								<i>
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										width="24"
-										height="25"
-										viewBox="0 0 24 25"
-										fill="none"
-									>
-										<path
-											d="M8 2.5V5.5"
-											stroke="#A3A3A3"
-											stroke-width="1.5"
-											stroke-miterlimit="10"
-											stroke-linecap="round"
-											stroke-linejoin="round"
+								<Popover>
+									<PopoverTrigger as-child>
+										<div
+											class="w-full md:w-[200px] flex items-center relative h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc]"
+										>
+											<i class="mr-3">
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													width="24"
+													height="25"
+													viewBox="0 0 24 25"
+													fill="none"
+												>
+													<path
+														d="M8 2.5V5.5"
+														stroke="#A3A3A3"
+														stroke-width="1.5"
+														stroke-miterlimit="10"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M16 2.5V5.5"
+														stroke="#A3A3A3"
+														stroke-width="1.5"
+														stroke-miterlimit="10"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M3.5 9.59009H20.5"
+														stroke="#A3A3A3"
+														stroke-width="1.5"
+														stroke-miterlimit="10"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M21 9V17.5C21 20.5 19.5 22.5 16 22.5H8C4.5 22.5 3 20.5 3 17.5V9C3 6 4.5 4 8 4H16C19.5 4 21 6 21 9Z"
+														stroke="#A3A3A3"
+														stroke-width="1.5"
+														stroke-miterlimit="10"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M15.6947 14.2H15.7037"
+														stroke="#A3A3A3"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M15.6947 17.2H15.7037"
+														stroke="#A3A3A3"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M11.9955 14.2H12.0045"
+														stroke="#A3A3A3"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M11.9955 17.2H12.0045"
+														stroke="#A3A3A3"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M8.29431 14.2H8.30329"
+														stroke="#A3A3A3"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M8.29431 17.2H8.30329"
+														stroke="#A3A3A3"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+											</i>
+
+											<span class="text-[#ADB2C0] text-base">
+												{{
+													date
+														? moment(date.toDate(getLocalTimeZone())).format("YYYY-MM-DD")
+														: "Lọc theo ngày"
+												}}
+											</span>
+
+											<div
+												class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"
+											></div>
+										</div>
+									</PopoverTrigger>
+									<PopoverContent class="w-auto p-0">
+										<Calendar
+											v-model="date"
+											initial-focus
 										/>
-										<path
-											d="M16 2.5V5.5"
-											stroke="#A3A3A3"
-											stroke-width="1.5"
-											stroke-miterlimit="10"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										/>
-										<path
-											d="M3.5 9.59009H20.5"
-											stroke="#A3A3A3"
-											stroke-width="1.5"
-											stroke-miterlimit="10"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										/>
-										<path
-											d="M21 9V17.5C21 20.5 19.5 22.5 16 22.5H8C4.5 22.5 3 20.5 3 17.5V9C3 6 4.5 4 8 4H16C19.5 4 21 6 21 9Z"
-											stroke="#A3A3A3"
-											stroke-width="1.5"
-											stroke-miterlimit="10"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										/>
-										<path
-											d="M15.6947 14.2H15.7037"
-											stroke="#A3A3A3"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										/>
-										<path
-											d="M15.6947 17.2H15.7037"
-											stroke="#A3A3A3"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										/>
-										<path
-											d="M11.9955 14.2H12.0045"
-											stroke="#A3A3A3"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										/>
-										<path
-											d="M11.9955 17.2H12.0045"
-											stroke="#A3A3A3"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										/>
-										<path
-											d="M8.29431 14.2H8.30329"
-											stroke="#A3A3A3"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										/>
-										<path
-											d="M8.29431 17.2H8.30329"
-											stroke="#A3A3A3"
-											stroke-width="2"
-											stroke-linecap="round"
-											stroke-linejoin="round"
-										/>
-									</svg>
-								</i>
-								<nuxt-input
-									class="w-full md:w-[170px] h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
-									placeholder="Lọc theo ngày"
-									name="date"
-									type="date"
-								/>
-								<div class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"></div>
+									</PopoverContent>
+								</Popover>
 							</div>
 						</div>
 					</div>
@@ -323,13 +362,17 @@
 					</div>
 
 					<!-- PHÂN TRANG  -->
-					<div class="flex justify-center py-10 md:py-[60px]">
+					<div
+						v-if="data?.dataNews?.posts_aggregated[0]?.count?.slug > 0"
+						class="flex justify-center py-10 md:py-[60px]"
+					>
 						<Pagination
 							v-slot="{ page }"
 							:total="data?.dataNews?.posts_aggregated[0]?.count?.slug"
 							:sibling-count="10"
 							show-edges
-							:default-page="1"
+							:default-page="curPage"
+							@update:page="handlePageUpdate"
 						>
 							<PaginationList
 								v-slot="{ items }"
@@ -387,7 +430,7 @@
 						<h4
 							class="mt-6 text-[50px] font-semibold leading-tight bg-[linear-gradient(100deg,rgba(255,255,255,0.9)_-0.85%,rgba(255,255,255,0.9)_49.77%,rgba(255,255,255,0)_101.25%)] bg-clip-text text-transparent"
 						>
-							Đầu tư ngay cùng với <span class="text-[#02E56A]">UPS!</span> ngay nào
+							Đầu tư ngay cùng với <span class="text-[#02E56A]">UPS!</span> ngay hôm nay!
 						</h4>
 
 						<div class="mt-10 inline-flex">
@@ -445,14 +488,14 @@
 
 					<!-- HASTAG -->
 					<div class="flex flex-wrap gap-6 pt-6 md:pt-[60px]">
-						<nuxt-link
+						<p
 							v-for="(doc, i) in data?.dataCateAndTags?.p_tags"
 							:key="i"
-							:to="`/tin-tuc/${doc?.slug}`"
-							class="text-base text-black font-bold"
+							class="text-base text-black font-bold cursor-pointer"
+							@click="slugTag = doc.slug"
 						>
-							{{ `#${doc?.title}` }}
-						</nuxt-link>
+							{{ `#${doc?.raw}` }}
+						</p>
 					</div>
 				</div>
 			</div>
@@ -466,11 +509,15 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { type Ref, ref, defineComponent } from "vue";
 import { cn } from "~/lib/utils";
 import { config } from "~/lib/config";
-
 import { SwiperNavigation, SwiperAutoplay } from "#imports";
+import { CalendarDate, DateFormatter, getLocalTimeZone } from "@internationalized/date";
+import { Calendar as CalendarIcon } from "lucide-vue-next";
+import { Calendar } from "@/components/ui/calendar";
+import type { DateRange } from "radix-vue";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import Feedback from "@/components/common/feedback/index.vue";
 import { Button } from "@/components/ui/button";
 import {
@@ -484,6 +531,8 @@ import {
 	PaginationPrev,
 } from "@/components/ui/pagination";
 import NuxtInput from "@/components/ui/input/index.vue";
+import DatePickerRanger from "@/components/common/date-picker-ranger/index.vue";
+import moment from "moment";
 
 export default defineComponent({
 	name: "tin-tuc",
@@ -498,20 +547,53 @@ export default defineComponent({
 		PaginationListItem,
 		PaginationNext,
 		PaginationPrev,
+		DatePickerRanger,
+		Popover,
+		PopoverContent,
+		PopoverTrigger,
+		Calendar,
 	},
 
 	setup(props, ctx) {
+		const curPage = ref<number>(1);
+		const slugCate = ref<any>("");
+		const slugTag = ref<any>("");
+		const date = ref<any>();
+		const keyword = ref<any>("");
 		const newStore = useNewsStore();
 
-		const { data } = useAsyncData("news", async () => {
-			const dataCateAndTags = await newStore.fnGetCateAndTags();
-			const dataNews = await newStore.fnGetListNews();
-
-			return {
-				dataCateAndTags: dataCateAndTags.data?.data,
-				dataNews: dataNews.data?.data,
-			};
+		const df = new DateFormatter("en-US", {
+			dateStyle: "long",
+			timeZone: "Asia/Ho_Chi_Minh",
 		});
+
+		const { data } = useAsyncData(
+			"news",
+			async () => {
+				const dataCateAndTags = await newStore.fnGetCateAndTags();
+				const dataNews = await newStore.fnGetListNews(
+					Number(curPage.value),
+					10,
+					slugCate.value,
+					slugTag.value,
+					date.value,
+					keyword.value
+				);
+
+				return {
+					dataCateAndTags: dataCateAndTags.data?.data,
+					dataNews: dataNews.data?.data,
+				};
+			},
+			{
+				watch: [slugCate, slugTag, date, keyword],
+			}
+		);
+
+		const handlePageUpdate = (_val: number) => {
+			curPage.value = _val;
+			window.scrollTo(0, 0); // Scroll to top
+		};
 
 		useHead({
 			title: "UPS - Tin Tức",
@@ -557,10 +639,18 @@ export default defineComponent({
 		return {
 			SwiperNavigation,
 			SwiperAutoplay,
-
-			cn,
 			config,
 			data,
+			curPage,
+			slugCate,
+			slugTag,
+			date,
+			keyword,
+			df,
+			moment,
+			cn,
+			handlePageUpdate,
+			getLocalTimeZone,
 		};
 	},
 });

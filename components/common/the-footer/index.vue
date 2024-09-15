@@ -257,32 +257,24 @@
 						</div>
 
 						<div class="mt-8 md:mt-0 flex gap-4 flex-wrap">
-							<nuxt-link
-								to="/"
-								target="_blank"
-								class="animate-ups__item h-8 2xl:h-12 px-4 2xl:px-5 inline-flex gap-3 items-center rounded-full bg-[#111111]"
-							>
-								<div class="inline-flex relative w-3 2xl:w-4 h-3 2xl:h-4">
-									<nuxt-img
-										format="webp"
-										loading="lazy"
-										alt="UPS"
-										width="16"
-										height="16"
-										src="/logo/logo-row.png"
-										class="absolute w-full h-full object-contain"
-									/>
-								</div>
+							<nuxt-link to="/" class="btn active group">
+                        <span> Mở tài khoản ngay </span>
+                        <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                          <i class="w-full h-full group-hover:inline-flex hidden absolute">
+                            <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
+                              alt="UPS" />
+                          </i>
 
-								<p class="text-xs xl:text-[13.5px] 2xl:text-lg text-white font-semibold">
-									Truy cập <span class="text-green-ups">Bảng giá</span> ngay
-								</p>
-							</nuxt-link>
+                          <i class="w-full h-full group-hover:hidden inline-flex absolute">
+                            <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
+                          </i>
+                        </div>
+                      </nuxt-link>
 							<nuxt-link
 								to="/"
 								class="h-8 2xl:h-12 px-4 2xl:px-5 inline-flex gap-3 items-center rounded-full border border-transparent hover:border-[#222]"
 							>
-								<span class="text-xs xl:text-[13.5px] 2xl:text-lg font-bold"> Giao dịch ngay </span>
+								<span class="text-xs xl:text-[13.5px] 2xl:text-lg font-bold"> Đăng nhập/Giao dịch ngay </span>
 								<div class="inline-flex gap-1 w-3 2xl:w-4 h-3 2xl:h-4 overflow-hidden relative">
 									<i class="w-full h-full inline-flex absolute">
 										<nuxt-img

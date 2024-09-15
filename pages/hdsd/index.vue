@@ -1,15 +1,17 @@
 <template>
 	<div>
 		<div
-			class="pt-10 md:pt-12 xl:pt-[100px] pb-10 md:pb-12 xl:pb-20 rounded-b-[20px] bg-gradient-to-l from-[#125933] to-[#15171E] via-[#125933] [background-position:65%_center]"
+			class="py-5 md:py-10 xl:py-[50px] 2xl:py-[60px] 3xl:py-20 rounded-b-[20px] bg-gradient-to-l from-[#125933] to-[#15171E] via-[#125933] [background-position:65%_center]"
 		>
 			<div class="container">
 				<div>
-					<h3 class="text-[24px] md:text-[32px] xl:text-[60px] text-white font-bold font-BG">
+					<h3
+						class="text-[24px] md:text-[36px] xl:text-[52px] 2xl:text-[56px] 3xl:text-[60px] text-white font-bold font-BG"
+					>
 						Hướng dẫn sử dụng
 					</h3>
 					<div
-						class="text-[16px] md:text-[24px] xl:text-[50px] font-bold font-BG bg-gradient-to-r from-[#00C058] to-[#1FAB5F] [background-position:41.75%] bg-clip-text text-transparent"
+						class="text-[14px] md:text-[26px] xl:text-[42px] 2xl:text-[46px] 3xl:text-[50px] font-bold font-BG bg-gradient-to-r from-[#00C058] to-[#1FAB5F] [background-position:41.75%] bg-clip-text text-transparent"
 					>
 						Cùng bạn đồng hành, dẫn lối đầu tư
 					</div>
@@ -19,7 +21,7 @@
 
 		<!-- CHI TIẾT -->
 		<div class="container">
-			<div class="py-16 flex flex-col md:flex-row xl:flex-row gap-10 xl:gap-0 justify-between">
+			<div class="py-16 flex flex-col xl:flex-row gap-10 xl:gap-10 justify-between">
 				<!-- TOGGLE -->
 				<div class="flex items-center xl:hidden">
 					<Drawer direction="left">
@@ -158,7 +160,7 @@
 						</DrawerContent>
 					</Drawer>
 				</div>
-				<div class="hidden md:block xl:block w-[350px]">
+				<div class="hidden xl:block w-[350px]">
 					<div class="">
 						<h4 class="text-xl text-black font-bold">Hướng dẫn sử dụng</h4>
 						<div class="mt-5 flex items-center relative">
@@ -200,7 +202,7 @@
 							type="single"
 							class="w-full"
 							collapsible
-							:default-value="defaultValue"
+							:default-value="'2'"
 						>
 							<AccordionItem
 								v-for="(item, index) in data?.dataDocument?.instruction_structure"
@@ -226,7 +228,14 @@
 											v-for="(sub, k) in item.documents"
 											:key="k"
 											:to="`/hdsd#${sub?.document?.slug}`"
-											class="flex gap-2 items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
+											:class="
+												cn(
+													'flex gap-2 items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]',
+													{
+														'bg-[#F3F5FB] opacity-100': sub?.document?.slug == slug,
+													}
+												)
+											"
 										>
 											<div class="w-11 h-11 inline-flex items-center justify-center">
 												<div class="w-2 h-2 inline-flex bg-[#15171E] rounded-full"></div>
@@ -243,20 +252,42 @@
 					</div>
 				</div>
 				<div class="flex-1 xl:flex-none w-full xl:w-[900px]">
-					<div
+					<!-- <div
 						v-for="(item, index) in data?.dataDocument?.instruction_structure"
+						:id="item?.slug"
 						:key="item.slug"
 						class="mt-4 md:mt-6"
-						:id="item?.slug"
 					>
 						<h5 class="text-[24px] text-black font-semibold font-BG">{{ item.title }}</h5>
-						<p
+						<p class="mt-2 text-base text-[#535662] font-medium">{{ item.blurb }}</p>
+
+						<div
 							v-for="(sub, k) in item.documents"
-							:key="sub?.document?.slug"
-							:id="sub?.document?.slug"
+							:key="sub.document.slug"
+							class="mt-2"
+						>
+							<h5 class="text-[24px] text-black font-semibold font-BG">{{ sub?.document?.title }}</h5>
+							<div
+								class="mt-2 text-base text-[#535662] font-medium"
+								v-html="sub?.document?.content"
+							></div>
+						</div>
+					</div> -->
+
+					<div
+						v-if="dataDetail?.documentDetail"
+						class="mt-4 md:mt-6"
+					>
+						<h5 class="text-[24px] text-black font-semibold font-BG">
+							{{ dataDetail?.documentDetail?.documents_by_id?.title }}
+						</h5>
+						<p class="mt-2 text-base text-[#535662] font-medium">
+							{{ dataDetail?.documentDetail?.documents_by_id?.blurb }}
+						</p>
+						<div
 							class="mt-2 text-base text-[#535662] font-medium"
-							v-html="sub?.document?.content"
-						></p>
+							v-html="dataDetail?.documentDetail?.documents_by_id?.content"
+						></div>
 					</div>
 
 					<!-- COMMENT -->
@@ -285,7 +316,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="hidden xl:flex gap-6 flex-col w-[200px]">
+				<div class="hidden 3xl:flex gap-6 flex-col w-[200px]">
 					<div class="">
 						<h6 class="text-base text-black font-bold">Nội dung chính</h6>
 
@@ -358,7 +389,8 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { ref, computed, defineComponent } from "vue";
+import { cn } from "~/lib/utils";
 import Comment from "@/components/common/comment/index.vue";
 import NuxtInput from "@/components/ui/input/index.vue";
 import Feedback from "@/components/common/feedback/index.vue";
@@ -396,18 +428,50 @@ export default defineComponent({
 		ScrollArea,
 	},
 	setup(props, ctx) {
-		const defaultValue = "1";
+		const defaultValue = ref<string>("1");
+		const route = useRoute();
+
 		const instructionStructureStore = useInstructionStructureStore();
 
 		const { data } = useAsyncData("document", async () => {
 			const dataDocument = await instructionStructureStore.fnGetListInstructionStructure();
-
 			return {
-				dataDocument: dataDocument.data?.data || [],
+				dataDocument: dataDocument.data?.data,
 			};
 		});
 
-		console.log("data", data.value?.dataDocument);
+		// Tạo computed để tính toán slug từ route hoặc từ data API
+		const slug = computed(() => {
+			window.scrollTo(0, 0); // Scroll to top
+			return (
+				route.fullPath?.split("#")[1] ||
+				data.value?.dataDocument?.instruction_structure?.[0]?.documents?.[0]?.document?.slug
+			);
+		});
+
+		const { data: dataDetail, refresh } = useAsyncData(
+			"detail-document",
+			async (ctx) => {
+				const documentDetail = await instructionStructureStore.fnGetDetailInstructionStructure(slug.value);
+
+				return {
+					documentDetail: documentDetail.data?.data,
+				};
+			},
+			{
+				watch: [slug],
+			}
+		);
+
+		// Watch dữ liệu từ API lần đầu để tự động refresh khi có data
+		watch(
+			() => data.value,
+			(newData) => {
+				if (newData && slug.value) {
+					refresh(); // Gọi lại API chi tiết khi dữ liệu lần đầu đã có
+				}
+			}
+		);
 
 		useHead({
 			title: "UPS - Hướng Dẫn Sử Dụng",
@@ -466,7 +530,10 @@ export default defineComponent({
 
 		return {
 			defaultValue,
+			cn,
 			data,
+			slug,
+			dataDetail,
 		};
 	},
 });

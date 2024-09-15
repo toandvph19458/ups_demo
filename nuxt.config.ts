@@ -61,7 +61,7 @@ export default defineNuxtConfig({
 	},
 
 	image: {
-		domains: ["api.upse.vn","ups.truecms.io"],
+		domains: ["api.upse.vn", "ups.truecms.io"],
 		screens: {
 			xs: 320,
 			sm: 640,
@@ -70,7 +70,7 @@ export default defineNuxtConfig({
 			xl: 1280,
 			"2xl": 1536,
 		},
-		formats: ['webp', 'gif','png','jpg']
+		formats: ["webp", "gif", "png", "jpg"],
 	},
 
 	compatibilityDate: "2024-08-13",
