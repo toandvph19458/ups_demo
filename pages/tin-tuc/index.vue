@@ -100,21 +100,6 @@
 
 			<div class="flex flex-col md:flex-col xl:flex-row gap-0 md:gap-[90px] py-10">
 				<div class="flex-1 w-full">
-					<!-- HASTAG -->
-					<div class="flex flex-wrap gap-6 pb-10">
-						<p
-							v-for="(doc, i) in data?.dataCateAndTags?.p_categories"
-							:key="i"
-							:class="
-								cn('text-base text-black font-bold cursor-pointer pb-2', {
-									'border-b border-[#222]': slugCate == doc.slug,
-								})
-							"
-							@click="slugCate = doc.slug"
-						>
-							{{ `${doc?.title}` }}
-						</p>
-					</div>
 					<div class="flex flex-col md:flex-row justify-between">
 						<h4 class="text-[24px] md:text-[40px] font-semibold font-BG">
 							Tin
@@ -277,7 +262,7 @@
 							class="flex flex-col md:flex-row gap-8 group"
 						>
 							<div
-								class="w-full md:w-[400px] h-[220px] md:h-auto md:max-h-min relative rounded-[14px] overflow-hidden"
+								class="w-full md:w-[400px] h-[220px] md:h-auto  relative rounded-[14px] overflow-hidden"
 							>
 								<nuxt-img
 									:alt="doc?.short_content?.title"
