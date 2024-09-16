@@ -257,7 +257,7 @@
 						</div>
 
 						<div class="mt-8 md:mt-0 flex gap-4 flex-wrap">
-							<nuxt-link to="/" class="btn active group">
+							<nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group">
                         <span> Mở tài khoản ngay </span>
                         <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                           <i class="w-full h-full group-hover:inline-flex hidden absolute">
@@ -271,7 +271,7 @@
                         </div>
                       </nuxt-link>
 							<nuxt-link
-								to="/"
+								to="https://webtrading.upse.vn/"
 								class="h-8 2xl:h-12 px-4 2xl:px-5 inline-flex gap-3 items-center rounded-full border border-transparent hover:border-[#222]"
 							>
 								<span class="text-xs xl:text-[13.5px] 2xl:text-lg font-bold"> Đăng nhập/Giao dịch ngay </span>

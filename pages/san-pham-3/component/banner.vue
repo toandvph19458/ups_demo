@@ -29,7 +29,7 @@
             </div>
             <div class="btn-wrapper flex gap-5 sm:gap-3 items-center animate-ups__item">
                 <div class="inline-flex">
-                    <nuxt-link to="/" class="btn active group ">
+                    <nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group ">
                         <span class="text-[10px] sm:text-[12px] xl:text-[14px] "> Đăng kí ngay </span>
                         <div class="inline-flex 3xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
                             <i class="w-full h-full group-hover:inline-flex hidden absolute">

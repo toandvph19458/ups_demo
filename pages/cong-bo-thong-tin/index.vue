@@ -194,7 +194,7 @@
 				</div>
 				<div class="hidden xl:block w-[280px] xl:w-[350px]">
 					<div>
-						<div class="flex items-center relative pl-3">
+						<div class="flex items-center relative">
 							<i>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"

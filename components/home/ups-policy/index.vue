@@ -48,7 +48,7 @@
 						</p>
 
 						<div class="animate-ups__item inline-flex">
-							<nuxt-link to="/" class="btn active group">
+							<nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group">
 								<span> Mở tài khoản ngay </span>
 								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
 									<i class="w-full h-full group-hover:inline-flex hidden absolute">

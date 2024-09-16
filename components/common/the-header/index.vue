@@ -72,7 +72,7 @@
 
 						<div class="hidden xl:inline-flex">
 							<nuxt-link
-								to="/"
+								to="https://onboarding.upse.vn/index.html#/./open-account/check-info"
 								class="btn active group"
 							>
 								<span> Mở tài khoản ngay </span>

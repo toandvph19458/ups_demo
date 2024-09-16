@@ -18,7 +18,7 @@
 
           <div class="flex gap-5 sm:gap-2 items-center justify-center my-10">
             <div class="inline-flex animate-ups__item">
-              <nuxt-link to="/" class="btn active group">
+              <nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group">
                 <span> Đăng kí ngay </span>
                 <div class="inline-flex 2xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
                   <i class="w-full h-full group-hover:inline-flex hidden absolute">
