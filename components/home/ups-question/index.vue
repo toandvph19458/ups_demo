@@ -65,10 +65,9 @@
 						}">
 						<swiper-slide>
 							<nuxt-link to="/tin-tuc"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]">
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white">
 
-								<div
-									:class="cn('w-full md:w-[360px] flex flex-col bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]')">
+								<div :class="cn('w-full md:w-[360px] flex flex-col bg-white')">
 									<div
 										class="relative overflow-hidden w-full h-[320px] xl:h-full rounded-[24px] md:rounded-none">
 										<nuxt-img format="webp" loading="lazy" src="/images/question-01.png"
@@ -77,9 +76,9 @@
 								</div>
 
 								<div :class="cn(
-									'w-full flex-1 p-5 md:p-10 flex flex-col justify-between  transition-all duration-500 bg-[linear-gradient(0deg,rgba(0,0,0,0.3)_0%,rgba(0,0,0,0.3)_100%)]',
+									'w-full flex-1 p-5 md:p-10 flex flex-col justify-between  transition-all duration-500 bg-white',
 									{
-										'bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]':
+										'bg-white':
 											vSwiperIndex == 0,
 									}
 								)
@@ -109,20 +108,19 @@
 						</swiper-slide>
 						<swiper-slide>
 							<nuxt-link to="/bieu-phi"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]">
-								<div
-									:class="cn('w-full md:w-[360px] flex flex-col bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]')">
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white">
+								<div :class="cn('w-full md:w-[360px] flex flex-col bg-white')">
 									<div
-										class="relative overflow-hidden w-full h-[320px] xl:h-full rounded-[24px] md:rounded-none bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]">
+										class="relative overflow-hidden w-full h-[320px] xl:h-full rounded-[24px] md:rounded-none bg-white">
 										<nuxt-img format="webp" loading="lazy" src="/images/question-02.png"
 											class="absolute w-full h-full object-cover object-center" />
 									</div>
 								</div>
 
 								<div :class="cn(
-									'w-full flex-1 p-5 md:p-10 flex flex-col justify-between bg-[linear-gradient(0deg,rgba(0,0,0,0.3)_0%,rgba(0,0,0,0.3)_100%)] transition-all duration-500',
+									'w-full flex-1 p-5 md:p-10 flex flex-col justify-between bg-white transition-all duration-500',
 									{
-										'bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]':
+										'bg-white':
 											vSwiperIndex == 1,
 									}
 								)
@@ -151,9 +149,8 @@
 
 						<swiper-slide>
 							<nuxt-link to="/gioi-thieu"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]">
-								<div
-									:class="cn('w-full md:w-[360px] flex flex-col bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]')">
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white">
+								<div :class="cn('w-full md:w-[360px] flex flex-col bg-white')">
 									<div
 										class="relative overflow-hidden w-full h-[320px] xl:h-full rounded-[24px] md:rounded-none">
 										<nuxt-img format="webp" loading="lazy" src="/images/question-03.png"
@@ -162,9 +159,9 @@
 								</div>
 
 								<div :class="cn(
-									'w-full flex-1 p-5 md:p-10 flex flex-col justify-between  transition-all duration-500 bg-[linear-gradient(0deg,rgba(0,0,0,0.3)_0%,rgba(0,0,0,0.3)_100%)]',
+									'w-full flex-1 p-5 md:p-10 flex flex-col justify-between  transition-all duration-500 bg-white',
 									{
-										'bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]':
+										'bg-white':
 											vSwiperIndex == 2,
 									}
 								)
@@ -192,9 +189,8 @@
 
 						<swiper-slide>
 							<nuxt-link to="/hdsd"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]">
-								<div
-									:class="cn('w-full md:w-[360px] flex flex-col bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]')">
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white">
+								<div :class="cn('w-full md:w-[360px] flex flex-col bg-white')">
 									<div
 										class="relative overflow-hidden w-full h-[320px] xl:h-full rounded-[24px] md:rounded-none">
 										<nuxt-img format="webp" loading="lazy" src="/images/question-04.png"
@@ -203,9 +199,9 @@
 								</div>
 
 								<div :class="cn(
-									'w-full flex-1 p-5 md:p-10 flex flex-col justify-between  transition-all duration-500 bg-[linear-gradient(0deg,rgba(0,0,0,0.3)_0%,rgba(0,0,0,0.3)_100%)]',
+									'w-full flex-1 p-5 md:p-10 flex flex-col justify-between  transition-all duration-500 bg-white',
 									{
-										'bg-[linear-gradient(99deg,#FFF_-1.15%,#FFF_51.43%,rgba(255,255,255,0.30)_102.18%)]':
+										'bg-white':
 											vSwiperIndex == 3,
 									}
 								)

@@ -11,13 +11,13 @@
                   class="absolute w-full h-full object-contain" />
               </div>
 
-              <div
+              <!-- <div
                 class="hidden w-[48px] h-[48px] xl:w-[90px] xl:h-[90px] md:inline-flex items-center justify-center bg-[#15171E] rounded-full animate-about__item">
                 <div class="w-5 h-5 xl:w-10 xl:h-10 relative inline-flex">
                   <nuxt-img format="webp" loading="lazy" height="40" alt="UPS" src="/logo/logo-row.png"
                     class="animate-about__item absolute w-full h-full object-contain" />
                 </div>
-              </div>
+              </div> -->
             </div>
 
             <h2 class="animate-about__item text-[36px] xl:text-[64px] font-bold font-BG text-green-ups">
