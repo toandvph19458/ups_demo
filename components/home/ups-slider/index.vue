@@ -71,7 +71,7 @@
                 <div
                   class="w-full relative h-[240px] xl:h-[473px] md:h-[676px] 2xl:h-[492px] 3xl:h-[656px] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
                   <nuxt-img fit="cover" loading="lazy" src="/images/image-1.png" height="656" alt="UPS"
-                    class="absolute w-full h-full object-cover animate-ups__item" />
+                    class="absolute w-full h-full object-contain animate-ups__item" />
                 </div>
               </div>
             </div>
@@ -139,7 +139,7 @@
                 <div
                   class="w-full relative h-[240px] xl:h-[473px] md:h-[676px] 2xl:h-[492px] 3xl:h-[656px] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
                   <nuxt-img fit="cover" loading="lazy" src="/images/image-3.png" height="656" alt="UPS"
-                    class="absolute w-full h-full object-cover animate-ups__item" />
+                    class="absolute w-full h-full object-contain animate-ups__item" />
                 </div>
               </div>
             </div>
@@ -212,7 +212,7 @@
                 <div
                   class="w-full relative h-[240px] xl:h-[473px] md:h-[676px] 2xl:h-[492px] 3xl:h-[656px] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
                   <nuxt-img fit="cover" loading="lazy" src="/images/image-4.png" height="656" alt="UPS"
-                    class="absolute w-full h-full object-cover animate-ups__item" />
+                    class="absolute w-full h-full object-contain animate-ups__item" />
                 </div>
               </div>
             </div>
