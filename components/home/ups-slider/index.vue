@@ -39,7 +39,7 @@
 
                   <div class="btn-wrapper flex gap-5 items-center mt-6 md:mt-10 pl-1 pb-2">
                     <div class="inline-flex animate-ups__item">
-                      <nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group">
+                      <nuxt-link to="/" class="btn active group">
                         <span> Mở tài khoản ngay </span>
                         <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                           <i class="w-full h-full group-hover:inline-flex hidden absolute">
@@ -54,7 +54,7 @@
                       </nuxt-link>
                     </div>
 
-                    <nuxt-link to="https://webtrading.upse.vn/" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
+                    <nuxt-link to="/" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
                       <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
                       <span class="inline-block md:hidden"> Giao dịch ngay </span>
                       <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
@@ -71,7 +71,7 @@
                 <div
                   class="w-full relative h-[240px] xl:h-[473px] md:h-[676px] 2xl:h-[492px] 3xl:h-[656px] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
                   <nuxt-img fit="cover" loading="lazy" src="/images/image-1.png" height="656" alt="UPS"
-                    class="absolute w-full h-full object-contain animate-ups__item" />
+                    class="absolute w-full h-full object-cover md:object-contain animate-ups__item" />
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@
 
                   <div class="btn-wrapper flex gap-5 items-center mt-6 md:mt-10 pl-1 pb-2">
                     <div class="inline-flex animate-ups__item">
-                      <nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group">
+                      <nuxt-link to="/" class="btn active group">
                         <span> Mở tài khoản ngay </span>
                         <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                           <i class="w-full h-full group-hover:inline-flex hidden absolute">
@@ -121,7 +121,7 @@
                       </nuxt-link>
                     </div>
 
-                    <nuxt-link to="https://webtrading.upse.vn/" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
+                    <nuxt-link to="/" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
                       <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
                       <span class="inline-block md:hidden"> Giao dịch ngay </span>
                       <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
@@ -139,7 +139,7 @@
                 <div
                   class="w-full relative h-[240px] xl:h-[473px] md:h-[676px] 2xl:h-[492px] 3xl:h-[656px] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
                   <nuxt-img fit="cover" loading="lazy" src="/images/image-3.png" height="656" alt="UPS"
-                    class="absolute w-full h-full object-contain animate-ups__item" />
+                    class="absolute w-full h-full object-cover md:object-contain animate-ups__item" />
                 </div>
               </div>
             </div>
@@ -179,7 +179,7 @@
 
                   <div class="btn-wrapper flex gap-5 items-center mt-6 md:mt-10 pl-1 pb-2">
                     <div class="inline-flex animate-ups__item">
-                      <nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group">
+                      <nuxt-link to="/" class="btn active group">
                         <span> Mở tài khoản ngay </span>
                         <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                           <i class="w-full h-full group-hover:inline-flex hidden absolute">
@@ -194,7 +194,7 @@
                       </nuxt-link>
                     </div>
 
-                    <nuxt-link to="https://webtrading.upse.vn/" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
+                    <nuxt-link to="/" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
                       <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
                       <span class="inline-block md:hidden"> Giao dịch ngay </span>
                       <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
@@ -212,7 +212,7 @@
                 <div
                   class="w-full relative h-[240px] xl:h-[473px] md:h-[676px] 2xl:h-[492px] 3xl:h-[656px] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
                   <nuxt-img fit="cover" loading="lazy" src="/images/image-4.png" height="656" alt="UPS"
-                    class="absolute w-full h-full object-contain animate-ups__item" />
+                    class="absolute w-full h-full object-cover md:object-contain animate-ups__item" />
                 </div>
               </div>
             </div>
