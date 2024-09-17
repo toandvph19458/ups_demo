@@ -1,11 +1,11 @@
 <template>
 	<section class="animate-ups">
 		<div class="container">
-			<div class="relative py-10 md:py-[60px] lg:py-[100px] xl:py-[130px]">
-				<div class="px-0 xl:px-16 grid xl:grid-cols-2 grid-cols-1 items-end xl:gap-[50px] gap-5">
+			<div class="relative py-6 md:py-10 xl:py-[90px] 3xl:py-[130px]">
+				<div class="px-0 xl:px-16 grid lg:grid-cols-2 grid-cols-1 items-end lg:gap-[22px] xl:gap-[32px] 2xl:gap-[50px] gap-5">
 					<div class="item-end">
 						<h3
-						class="animate-ups__item text-[32px] xl:text-[60px] text-center xl:text-left font-semibold font-BG text-black leading-tight"
+						class="animate-ups__item text-[20px] md:text-[28px] lg:text-[32] xl:text-[40px] 2xl:text-[45px] 3xl:text-[60] text-center lg:text-left font-semibold font-BG text-black leading-tight"
 					>
 						<span> Bạn cần đầu tư, </span>
 						<br />
@@ -13,9 +13,9 @@
 					</h3>
 
 					<p
-						class="animate-ups__item text-[20px] xl:text-[28px] text-center xl:text-left font-medium text-[#000]"
+						class="animate-ups__item text-[12px] md:text-[14px] xl:text-[18px] 2xl:text-[20px] 3xl:text-[28px] text-center lg:text-left font-medium text-[#000]"
 					>
-					Đội ngũ chuyên gia tư vấn <span class="text-[24px] xl:text-[40px] text-[#02E56A]"> luôn sẵn sàng hỗ trợ </span> 
+					Đội ngũ chuyên gia tư vấn <span class="text-[18px] md:text-[20px] xl:text-[24px] 2xl:text-[30px]  3xl:text-[40px] text-[#02E56A]"> luôn sẵn sàng hỗ trợ </span> 
 					</p>
 					</div>
 
@@ -35,7 +35,7 @@
 								/>
 							</div>
 
-							<span class="hidden md:inline-block text-base text-white font-bold">Cộng đồng</span>
+							<span class="hidden md:inline-block text-xs 2xl:text-base text-white font-bold">Cộng đồng</span>
 						</nuxt-link>
 						<nuxt-link
 							to="/"
@@ -53,7 +53,7 @@
 								/>
 							</div>
 
-							<span class="hidden md:inline-block text-base text-white font-bold">Facebook</span>
+							<span class="hidden md:inline-block text-xs 2xl:text-base text-white font-bold">Facebook</span>
 						</nuxt-link>
 						<nuxt-link
 							to="/"
@@ -70,7 +70,7 @@
 								/>
 							</div>
 
-							<span class="hidden md:inline-block text-base text-white font-bold">Telegram</span>
+							<span class="hidden md:inline-block text-xs 2xl:text-base text-white font-bold">Telegram</span>
 						</nuxt-link>
 
 						<nuxt-link
@@ -88,7 +88,7 @@
 								/>
 							</div>
 
-							<span class="hidden md:inline-block text-base text-white font-bold">Zalo</span>
+							<span class="hidden md:inline-block text-xs 2xl:text-base text-white font-bold">Zalo</span>
 						</nuxt-link>
 					</div>
 				</div>

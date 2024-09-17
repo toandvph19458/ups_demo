@@ -285,7 +285,7 @@
 							{{ dataDetail?.documentDetail?.documents_by_id?.blurb }}
 						</p>
 						<div
-							class="mt-2 text-base text-[#535662] font-medium"
+							class="content-wrapper mt-2 text-base text-[#535662] font-medium"
 							v-html="dataDetail?.documentDetail?.documents_by_id?.content"
 						></div>
 					</div>
@@ -435,6 +435,8 @@ export default defineComponent({
 
 		const { data } = useAsyncData("document", async () => {
 			const dataDocument = await instructionStructureStore.fnGetListInstructionStructure();
+			console.log(dataDocument.data?.data);
+			
 			return {
 				dataDocument: dataDocument.data?.data,
 			};
@@ -539,4 +541,34 @@ export default defineComponent({
 });
 </script>
 
-<style></style>
+<style scoped>
+.content-wrapper :deep(*) {
+  all: revert;
+}
+
+.content-wrapper :deep(h1) {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+.content-wrapper :deep(h2) {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+}
+
+.content-wrapper :deep(p) {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.content-wrapper :deep(a) {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Add more specific styles as needed */
+</style>

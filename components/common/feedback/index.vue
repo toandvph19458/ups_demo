@@ -4,7 +4,7 @@
 			class="flex flex-col items-center justify-center h-min px-5 py-10 rounded-[40px] bg-[linear-gradient(304deg,#16181F_56.52%,#134A2F_96.86%)]"
 		>
 			<h3
-				class="animate-ups__item bg-[linear-gradient(99deg,_#FFF_-1.15%,_#FFF_71.81%,_rgba(255,255,255,0.30)_102.18%)] bg-clip-text text-transparent font-BG text-[20px] md:text-[32px] xl:text-[60px] text-center lg:text-left font-semibold leading-[1]"
+				class="animate-ups__item bg-[linear-gradient(99deg,_#FFF_-1.15%,_#FFF_71.81%,_rgba(255,255,255,0.30)_102.18%)] bg-clip-text text-transparent font-BG text-[18px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-center lg:text-left font-semibold leading-[1]"
 			>
 				Kết nối cùng
 				<span class="text-[#02D060]">UPS</span>
@@ -12,7 +12,7 @@
 			</h3>
 
 			<p
-				class="animate-ups__item text-sm md:text-lg xl:text-xl text-center lg:text-left font-bold mt-6 text-white opacity-90 leading-[1]"
+				class="animate-ups__item text-xs md:text-sm lg:text-base 3xl:text-xl text-center lg:text-left font-bold mt-3 text-white opacity-90 leading-[1]"
 			>
 				Vinh dự đồng hành cùng
 				<span class="text-[#02D060]">hàng triệu nhà đầu tư</span>
@@ -22,7 +22,7 @@
 			<div class="form w-full xl:w-[950px] max-w-full relative flex flex-col gap-3 mt-10 p-3 rounded-[20px]">
 				<div class="glow"></div>
 
-				<div class="w-full grid gap-3 grid-cols-1 xl:grid-cols-3">
+				<div class="w-full grid gap-3 grid-cols-1 md:grid-cols-3">
 					<div>
 						<nuxt-input
 							class="w-full h-[50px] px-6 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[40px] border-none focus:ring-0 placeholder:text-[#ADB2C0]"
@@ -83,7 +83,7 @@
 				</div>
 
 				<button
-					class="absolute bottom-7 right-6 inline-flex items-center justify-center h-[50px] px-8 text-base font-semibold text-green-ups bg-[rgba(255,255,255,0.08)] rounded-full"
+					class="absolute bottom-7 right-[50%] translate-x-1/2 md:right-6 md:translate-x-0 inline-flex items-center justify-center h-[50px] px-8 text-base font-semibold text-green-ups bg-[rgba(255,255,255,0.08)] rounded-full"
 					@click="submit"
 				>
 					Gửi tin nhắn

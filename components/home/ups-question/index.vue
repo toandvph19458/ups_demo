@@ -1,5 +1,5 @@
 <template>
-	<section class="animate-ups pt-20 pb-10">
+	<section class="animate-ups pt-20 lg:pt-0 3xl:pt-20 pb-10">
 		<div class="container">
 			<div class="w-full">
 				<div class="flex justify-center">
@@ -67,9 +67,9 @@
 							<nuxt-link to="/tin-tuc"
 								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white">
 
-								<div :class="cn('w-full md:w-[360px] flex flex-col bg-white')">
+								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
 									<div
-										class="relative overflow-hidden w-full h-[320px] xl:h-full rounded-[24px] md:rounded-none">
+										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-none">
 										<nuxt-img format="webp" loading="lazy" src="/images/question-01.png"
 											class="absolute w-full h-full object-cover object-center" />
 									</div>
@@ -87,7 +87,7 @@
 										<h4 class="text-[16px] md:text-[28px] text-[#033E1E] font-bold">
 											Tôi có thể mở tài khoản giao dịch tại UPS qua hình thức nào?
 										</h4>
-										<p class="text-xl md:text-[40px] text-black font-semibold">
+										<p class="text-xl md:text-[40px] text-[#00C058] font-semibold">
 											{{ `0${0 + 1}` }}
 										</p>
 									</div>
@@ -109,9 +109,9 @@
 						<swiper-slide>
 							<nuxt-link to="/bieu-phi"
 								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white">
-								<div :class="cn('w-full md:w-[360px] flex flex-col bg-white')">
+								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
 									<div
-										class="relative overflow-hidden w-full h-[320px] xl:h-full rounded-[24px] md:rounded-none bg-white">
+										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-none bg-white">
 										<nuxt-img format="webp" loading="lazy" src="/images/question-02.png"
 											class="absolute w-full h-full object-cover object-center" />
 									</div>
@@ -129,7 +129,7 @@
 										<h4 class="text-[16px] md:text-[28px] text-[#033E1E] font-bold">
 											Phí giao dịch tại UPS?
 										</h4>
-										<p class="text-xl md:text-[40px] text-black font-semibold">
+										<p class="text-xl md:text-[40px] text-[#00C058] font-semibold">
 											{{ `0${1 + 1}` }}
 										</p>
 									</div>
@@ -150,9 +150,9 @@
 						<swiper-slide>
 							<nuxt-link to="/gioi-thieu"
 								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white">
-								<div :class="cn('w-full md:w-[360px] flex flex-col bg-white')">
+								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
 									<div
-										class="relative overflow-hidden w-full h-[320px] xl:h-full rounded-[24px] md:rounded-none">
+										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-none">
 										<nuxt-img format="webp" loading="lazy" src="/images/question-03.png"
 											class="absolute w-full h-full object-cover object-center" />
 									</div>
@@ -170,7 +170,7 @@
 										<h4 class="text-[16px] md:text-[28px] text-[#033E1E] font-bold">
 											Sự khác biệt của UPS
 										</h4>
-										<p class="text-xl md:text-[40px] text-black font-semibold">
+										<p class="text-xl md:text-[40px] text-[#00C058] font-semibold">
 											{{ `0${2 + 1}` }}
 										</p>
 									</div>
@@ -190,9 +190,9 @@
 						<swiper-slide>
 							<nuxt-link to="/hdsd"
 								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white">
-								<div :class="cn('w-full md:w-[360px] flex flex-col bg-white')">
+								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
 									<div
-										class="relative overflow-hidden w-full h-[320px] xl:h-full rounded-[24px] md:rounded-none">
+										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-none">
 										<nuxt-img format="webp" loading="lazy" src="/images/question-04.png"
 											class="absolute w-full h-full object-cover object-center" />
 									</div>
@@ -210,7 +210,7 @@
 										<h4 class="text-[16px] md:text-[28px] text-[#033E1E] font-bold">
 											Hướng dẫn sử dụng
 										</h4>
-										<p class="text-xl md:text-[40px] text-black font-semibold">
+										<p class="text-xl md:text-[40px] text-[#00C058] font-semibold">
 											{{ `0${3 + 1}` }}
 										</p>
 									</div>

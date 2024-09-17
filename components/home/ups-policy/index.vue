@@ -2,7 +2,8 @@
 	<section class="section_policy animate-ups">
 		<div class="py-5 md:py-11 bg-[linear-gradient(93deg,#02E56A_24.42%,#01A34B_67.1%)]">
 			<div class="container">
-				<div class="flex flex-wrap md:flex-nowrap gap-3 md:gap-12 xl:gap-10 3xl:gap-[56px] md:justify-between md:items-center">
+				<div
+					class="flex flex-wrap md:flex-nowrap gap-3 md:gap-12 xl:gap-10 3xl:gap-[56px] md:justify-between md:items-center">
 					<h3
 						class="animate-ups__item basis-full md:basis-1/2 text-xl md:text-[24px] lg:text-[36px] text-[#15171E] font-bold font-BG leading-[1.3] link">
 						<span>Bạn đang tìm </span>
@@ -11,7 +12,8 @@
 					</h3>
 
 					<div class="basis-full md:basis-1/2">
-						<p class="animate-ups__item 2xl:w-[70%] w-full text-sm lg:text-base font-medium text-white link">
+						<p
+							class="animate-ups__item 2xl:w-[70%] w-full text-sm lg:text-base font-medium text-white link">
 							UPS tin rằng đầu tư không đơn giản chỉ là con số, giao dịch khô khan mà còn là cuộc phiêu
 							lưu
 							độc đáo mở ra hành trình tài chính cá nhân đầy hứng khởi và mới mẻ cho nhà đầu tư.
@@ -22,19 +24,19 @@
 		</div>
 
 		<div class="container">
-			<div class="py-10 lg:py-[100px]">
+			<div class="py-10 xl:py-[64px] 2xl:py-[80px] 3xl:py-[100px]">
 				<div class="px-0 lg:px-12">
-					<div class="reveal flex items-end">
-						<p
-							class="animate-ups__item max-w-full lg:max-w-[350px] text-[34px] md:text-[40px] lg:text-[60px] text-black font-semibold font-BG leading-[1.3]">
-							Chính sách đặc biệt của
-						</p>
-
+					<div class="reveal flex items-center lg:items-end gap-2">
 						<div
-							class="animate-ups__item flex relative w-[190px] h-[40px] md:w-[190px] md:h-[54px] lg:w-[190px] lg:h-[86px] object-cover">
-							<nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.png"
-								class="absolute w-full h-full object-contain" />
+							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[24px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">
+							Chính sách <br/> đặc biệt của
+							<div
+								class="animate-ups__item inline-block relative w-[52px] md:w-[72px] lg:w-[125px] 2xl:w-[142px] 3xl:w-[170px] pt-[16%] object-cover">
+								<nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.png"
+									class="absolute top-[5%] left-0 w-full h-full object-contain" />
+							</div>
 						</div>
+
 					</div>
 
 					<div
@@ -48,7 +50,8 @@
 						</p>
 
 						<div class="animate-ups__item inline-flex">
-							<nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group">
+							<nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info"
+								class="btn active group">
 								<span> Mở tài khoản ngay </span>
 								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
 									<i class="w-full h-full group-hover:inline-flex hidden absolute">
@@ -276,7 +279,7 @@
 
 					<div class="hidden md:flex xl:flex gap-3 md:gap-[20px] xl:gap-6 2xl:gap-8 3xl:gap-10">
 						<div
-							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-300 hover:flex-[2]">
+							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-700 hover:flex-[2]">
 							<div
 								class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 								<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
@@ -331,7 +334,7 @@
 							</div>
 						</div>
 						<div
-							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-300 hover:flex-[2]">
+							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-700 hover:flex-[2]">
 							<div
 								class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 								<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
@@ -386,7 +389,7 @@
 							</div>
 						</div>
 						<div
-							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-300 hover:flex-[2]">
+							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-700 hover:flex-[2]">
 							<div
 								class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 								<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
@@ -457,7 +460,7 @@
 								<path
 									d="M0.46967 5.46967C0.176777 5.76256 0.176777 6.23744 0.46967 6.53033L5.24264 11.3033C5.53553 11.5962 6.01041 11.5962 6.3033 11.3033C6.59619 11.0104 6.59619 10.5355 6.3033 10.2426L2.06066 6L6.3033 1.75736C6.59619 1.46447 6.59619 0.989593 6.3033 0.696699C6.01041 0.403806 5.53553 0.403806 5.24264 0.696699L0.46967 5.46967ZM15.1421 6.75C15.5563 6.75 15.8921 6.41421 15.8921 6C15.8921 5.58579 15.5563 5.25 15.1421 5.25V6.75ZM1 6.75H15.1421V5.25H1V6.75Z"
 									fill="#02E56A"
-									:class="cn('transition-all duration-300 group-hover:fill-[#15171E]', {})" />
+									:class="cn('transition-all duration-700 group-hover:fill-[#15171E]', {})" />
 							</svg>
 						</button>
 					</div>
@@ -475,7 +478,7 @@
 								<path
 									d="M1.14215 5.25C0.727937 5.25 0.392151 5.58579 0.392151 6C0.392151 6.41421 0.727937 6.75 1.14215 6.75V5.25ZM15.8146 6.53033C16.1075 6.23744 16.1075 5.76256 15.8146 5.46967L11.0416 0.696699C10.7488 0.403806 10.2739 0.403806 9.98099 0.696699C9.68809 0.989593 9.68809 1.46447 9.98099 1.75736L14.2236 6L9.98099 10.2426C9.68809 10.5355 9.68809 11.0104 9.98099 11.3033C10.2739 11.5962 10.7488 11.5962 11.0416 11.3033L15.8146 6.53033ZM1.14215 6.75H15.2843V5.25H1.14215V6.75Z"
 									fill="#02E56A"
-									:class="cn('transition-all duration-300 group-hover:fill-[#15171E]')" />
+									:class="cn('transition-all duration-700 group-hover:fill-[#15171E]')" />
 							</svg>
 						</button>
 					</div>

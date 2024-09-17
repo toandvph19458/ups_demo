@@ -2,7 +2,7 @@
   <div class="container">
     <div class="flex justify-center text-center mt-[100px]">
       <div
-        class="inline-flex relative w-[200px] h-[70px] xl:w-[220px] xl:h-[70px]"
+        class="inline-flex relative w-[125px] h-[56px] xl:w-[220px] xl:h-[70px]"
       >
         <nuxt-img
           loading="lazy"
@@ -16,7 +16,7 @@
     </div>
     <div class="text-center mt-[30px] mb-[20px]">
       <h3
-        class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] w-[968px] mx-auto"
+        class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] xl:w-[968px] w-full mx-auto"
       >
         {{ data && data.newDetail.title }}
       </h3>

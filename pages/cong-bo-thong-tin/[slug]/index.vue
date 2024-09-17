@@ -2,7 +2,7 @@
     <div class="container">
     <div class="flex justify-center text-center mt-[100px]">
       <div
-        class="inline-flex relative w-[200px] h-[70px] xl:w-[220px] xl:h-[70px]"
+        class="inline-flex relative w-[125px] h-[56px] xl:w-[220px] xl:h-[70px]"
       >
         <nuxt-img
           loading="lazy"
@@ -16,7 +16,7 @@
     </div>
     <div class="text-center mt-[30px] mb-[20px]">
       <h3
-        class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] w-[968px] mx-auto"
+        class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] xl:w-[968px] w-full mx-auto"
       >
         {{ data && data.newDetail.title }}
       </h3>
@@ -51,13 +51,13 @@
     </div> -->
     <div class="flex justify-center text-center xl:my-[80px] my-[30px]">
       <div
-        class="inline-flex relative w-[327px] h-[208px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]"
+        class="inline-flex relative w-[300px] h-[200px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]"
       >
         <nuxt-img
           loading="lazy"
           alt="UPS"
           :src="config.NUXT_APP_IMAGE_URL+data?.newDetail.cover?.id"
-          class="link absolute w-full h-full object-cover"
+          class="link absolute w-full h-full object-cover rounded-2xl"
         />
       </div>
     </div>
@@ -115,7 +115,7 @@
           </div> -->
           <div v-html="data?.newDetail.content"></div>
           <!-- Xem tài liệu -->
-          <div class="container text-center">
+          <div class="container text-center mt-3">
             <nuxt-link :to="config.NUXT_APP_IMAGE_URL+data?.newDetail.files[0].directus_files_id?.id" class="underline" target="_blank">Xem tài liệu</nuxt-link>
           </div>
           <div class="my-[30px]">

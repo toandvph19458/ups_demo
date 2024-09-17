@@ -1,7 +1,7 @@
 <template>
 	<section class="section_news animate-ups container">
 		<div
-			class="flex flex-col xl:flex-row gap-6 md:gap-10 xl:gap-14 items-center pt-0 pb-10 md:py-[80px] lg:py-[100px] xl:py-[130px]"
+			class="flex flex-col xl:flex-row gap-6 md:gap-10 xl:gap-14 items-center pt-0 py-8 md:py-10 xl:py-[80px] 3xl:py-[130px]"
 		>
 			<div class="w-full xl:w-[340px] flex flex-col gap-5 xl:gap-10">
 				<div class="animate-ups__item inline-flex relative w-[90px] h-[40px] xl:w-[140px] xl:h-[60px]">
@@ -18,13 +18,13 @@
 
 				<div>
 					<h3
-						class="animate-ups__item bg-[linear-gradient(269deg,#00C058_41.75%,#1FAB5F_110.86%)] bg-clip-text text-transparent font-BG text-[40px] md:text-[54px] xl:text-[80px] font-bold leading-[1.2]"
+						class="animate-ups__item bg-[linear-gradient(269deg,#00C058_41.75%,#1FAB5F_110.86%)] bg-clip-text text-transparent font-BG text-[24px] md:text-[32px] lg:text-[54] 2xl:text-[60px] 3xl:text-[80px] font-bold leading-[1.2]"
 					>
 						<span class="text-[#15171E]">Tin</span><br />
 						nổi bật
 					</h3>
 
-					<p class="animate-ups__item text-base text-[#000] font-normal">
+					<p class="animate-ups__item text-xs lg:text-sm 2xl:text-base text-[#000] font-normal">
 						Cập nhật các sản phẩm, dịch vụ mới nhất cũng như các hoạt động, sự kiện của UPS
 					</p>
 				</div>
@@ -142,22 +142,22 @@
 										<p
 											v-for="(sub, k) in doc?.short_content?.tags"
 											:key="k"
-											class="text-sm md:text-base xl:text-lg text-[#F05] font-medium"
+											class="text-xs md:text-sm 3xl:text-lg text-[#F05] font-medium"
 										>
 											{{ `#${sub?.tag.slug}` }}
 										</p>
 									</template>
-									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
+									<p class="text-xs md:text-sm 3xl:text-lg text-[#9498A8] font-medium">
 										5 phút trước
 									</p>
 								</div>
 
 								<h4
-									class="text-sm md:text-base xl:text-xl text-black font-semibold line-clamp-1 mt-3 md:mt-6"
+									class="text-sm 2xl:text-base 3xl:text-xl text-black font-semibold mt-3 md:mt-6"
 								>
 									{{ doc?.short_content?.title }}
 								</h4>
-								<p class="text-sm md:text-base xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2">
+								<p class="text-xs 2xl:text-sm 3xl:text-lg text-[#3C4052] font-medium mt-2">
 									{{ doc?.short_content?.blurb }}
 								</p>
 							</div>

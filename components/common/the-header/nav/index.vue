@@ -527,7 +527,7 @@
 
                   <div class="mt-4 flex gap-4 flex-col">
                     <nuxt-link
-                      to="https://webtrading.upse.vn/#/price/bang-gia/vn30"
+                      to="/coming-soon"
                       class="w-[80%] h-[38px] flex items-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px]"
                     >
                       Web Trading
