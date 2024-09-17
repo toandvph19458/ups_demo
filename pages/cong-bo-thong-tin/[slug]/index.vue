@@ -113,7 +113,7 @@
               nulla pariatur.
             </p>
           </div> -->
-          <div v-html="data?.newDetail.content"></div>
+          <div class="content-wrapper" v-html="data?.newDetail.content"></div>
           <!-- Xem tài liệu -->
           <div class="container text-center mt-3">
             <nuxt-link :to="config.NUXT_APP_IMAGE_URL+data?.newDetail.files[0].directus_files_id?.id" class="underline" target="_blank">Xem tài liệu</nuxt-link>
@@ -357,4 +357,35 @@ import { config } from "~/lib/config";
     },
   });
   </script>
+  <style scoped>
+  .content-wrapper :deep(*) {
+    all: revert;
+  }
+  
+  .content-wrapper :deep(h1) {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+  }
+  
+  .content-wrapper :deep(h2) {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+  }
+  
+  .content-wrapper :deep(p) {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .content-wrapper :deep(a) {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  /* Add more specific styles as needed */
+  </style>
   
