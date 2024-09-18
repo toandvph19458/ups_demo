@@ -1,7 +1,7 @@
 <template>
   <div class="h-[491px] md:h-[448px] 2xl:min-h-[570px] 3xl:min-h-[700px] rounded-3xl">
     <div
-      class="flex h-[491px] md:h-[448px] 2xl:min-h-[570px] 3xl:min-h-[700px] p-6 gap-6 flex-col items-center self-stretch rounded-3xl bg-[linear-gradient(145deg,#8A6AFF_36.89%,rgba(0,148,255,0.10)_129.39%),url('/images/banner-bieu-phi.png')] md:rounded-[50px] 2xl:p-[80px_120px] xl:p-[60px_100px] md:p-[40px_60px] 2xl:gap-[60px] 3xl:py-[100px] 3xl:px-0 relative bg-cover bg-center">
+      class="flex h-[491px] md:h-[448px] 2xl:min-h-[570px] 3xl:min-h-[700px] p-6 gap-6 flex-col items-center self-stretch rounded-3xl bg-[linear-gradient(145deg,#8A6AFF_36.89%,rgba(0,148,255,0.10)_129.39%),url('/images/banner-bieu-phi.png')] bg-no-repeat md:rounded-[50px] 2xl:p-[80px_120px] xl:p-[60px_100px] md:p-[40px_60px] 2xl:gap-[60px] 3xl:py-[100px] 3xl:px-0 relative bg-cover bg-center">
       <div>
 
       </div>
@@ -131,4 +131,8 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.custom-gradient-bieu-phi{
+  background: linear-gradient(145deg, #8A6AFF 36.89%, rgba(0, 148, 255, 0.10) 129.39%), url('/public/images/banner-bieu-phi.png') lightgray 50% / cover no-repeat;
+}
+</style>

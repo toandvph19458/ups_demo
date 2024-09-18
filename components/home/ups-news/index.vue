@@ -153,11 +153,11 @@
 								</div>
 
 								<h4
-									class="text-sm 2xl:text-base 3xl:text-xl text-black font-semibold mt-3 md:mt-6"
+									class="text-sm 2xl:text-base 3xl:text-xl text-black font-semibold line-clamp-3 mt-3 md:mt-6"
 								>
 									{{ doc?.short_content?.title }}
 								</h4>
-								<p class="text-xs 2xl:text-sm 3xl:text-lg text-[#3C4052] font-medium mt-2">
+								<p class="text-xs 2xl:text-sm 3xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2">
 									{{ doc?.short_content?.blurb }}
 								</p>
 							</div>

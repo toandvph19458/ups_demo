@@ -358,34 +358,52 @@ import { config } from "~/lib/config";
   });
   </script>
   <style scoped>
-  .content-wrapper :deep(*) {
-    all: revert;
-  }
-  
-  .content-wrapper :deep(h1) {
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-  }
-  
-  .content-wrapper :deep(h2) {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-  }
-  
-  .content-wrapper :deep(p) {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-  
-  .content-wrapper :deep(a) {
-    color: blue;
-    text-decoration: underline;
-  }
-  
-  /* Add more specific styles as needed */
+ 
+
+/* Custom style cho vùng content */
+.content-wrapper:deep(table)  {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.content-wrapper :deep(table),
+.content-wrapper :deep(th),
+.content-wrapper :deep(td) {
+	width: 100%;
+  border: 1px solid black;
+}
+
+.content-wrapper :deep(th),
+.content-wrapper :deep(td) {
+  padding: 8px;
+  text-align: left;
+}
+.content-wrapper :deep(*) {
+  all: revert;
+}
+
+.content-wrapper :deep(h1) {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+.content-wrapper :deep(h2) {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+}
+
+.content-wrapper :deep(p) {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.content-wrapper :deep(a) {
+  color: blue;
+  text-decoration: underline;
+}
   </style>
   

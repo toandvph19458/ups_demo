@@ -112,49 +112,48 @@
 
     <!-- SECTION VALUE -->
     <section class="container">
-      <div
-        class="flex gap-10 md:gap-[100px] xl:gap-[200px] flex-col md:flex-row xl:flex-row items-center py-10 md:pb-[200px] md:pt-0 xl:pt-0 xl:pb-[200px]">
-        <div
-          class="w-full max-w-full md:max-w-[200px] xl:max-w-[360px] flex gap-4 md:gap-0 xl:gap-0 flex-col items-center lg:items-start xl:items-start">
-          <div
-            class="animate-about__item inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]">
-            <nuxt-img format="webp" loading="lazy" width="173" height="78" alt="UPS" src="/logo/logo-cap-dark.png"
-              class="absolute w-full h-full object-contain" />
-          </div>
+      <div class="grid grid-cols-12 py-10 md:pb-[200px] md:pt-0 xl:py-[200px]">
+        <div class="col-span-4 flex gap-4 md:gap-0 xl:gap-0 flex-col items-center lg:items-start xl:items-start">
+          <div class="w-[80%]">
+            <div
+              class="animate-about__item inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]">
+              <nuxt-img format="webp" loading="lazy" width="173" height="78" alt="UPS" src="/logo/logo-cap-dark.png"
+                class="absolute w-full h-full object-contain" />
+            </div>
 
-          <div class="md:my-5 xl:my-10">
-            <h3
-              class="animate-about__item text-[20px] md:text-[32px] xl:text-[60px] text-[#000] text-center md:text-left xl:text-left font-bold font-BG">
-              Giá trị cốt lõi
-            </h3>
+            <div class="md:my-5 xl:my-10">
+              <h3
+                class="animate-about__item text-[20px] md:text-[32px] xl:text-[60px] text-[#000] text-center md:text-left xl:text-left font-bold font-BG">
+                Giá trị cốt lõi
+              </h3>
 
-            <p
-              class="animate-about__item max-w-[685px] text-sm xl:text-xl text-[#000] text-center md:text-left xl:text-left font-semibold">
-              Những nguyên tắc cơ bản, những giá trị quan trọng mà UPS và các
-              thành viên cam kết thực hiện
-            </p>
-          </div>
+              <p
+                class="animate-about__item max-w-[685px] text-sm xl:text-xl text-[#000] text-center md:text-left xl:text-left font-semibold">
+                Những nguyên tắc cơ bản, những giá trị quan trọng mà UPS và các
+                thành viên cam kết thực hiện
+              </p>
+            </div>
 
-          <div class="animate-about__item inline-flex">
-            <nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group">
-              <span> Mở tài khoản ngay </span>
-              <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
-                <i class="w-full h-full group-hover:inline-flex hidden absolute">
-                  <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
-                </i>
+            <div class="animate-about__item inline-flex">
+              <nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group">
+                <span> Mở tài khoản ngay </span>
+                <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                  <i class="w-full h-full group-hover:inline-flex hidden absolute">
+                    <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
+                  </i>
 
-                <i class="w-full h-full group-hover:hidden inline-flex absolute">
-                  <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
-                </i>
-              </div>
-            </nuxt-link>
+                  <i class="w-full h-full group-hover:hidden inline-flex absolute">
+                    <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
+                  </i>
+                </div>
+              </nuxt-link>
+            </div>
           </div>
         </div>
 
-        <div class="flex-1 w-full grid gap-5 md-gap-0 xl:gap-0 grid-cols-2 md:flex xl:flex justify-center relative">
-          <div class="hidden md:inline-flex xl:inline-flex -translate-x-1/2">
+        <div class="col-span-8 grid grid-cols-12 gap-5 md-gap-0 xl:gap-0 relative">
+          <div class="absolute top-0 left-1/2 hidden md:inline-flex xl:inline-flex -translate-x-1/2">
             <svg xmlns="http://www.w3.org/2000/svg" width="282" height="1075" viewBox="0 0 282 1075" fill="none">
-              <!-- Paths -->
               <path id="path1"
                 d="M281 1075L281 290.893C281 266.223 265.9 244.068 242.939 235.048L39.0609 154.952C16.0998 145.932 1.00001 123.777 1.00002 99.1074L1.00006 0"
                 stroke="#02E56A" stroke-width="2" />
@@ -171,160 +170,217 @@
             </svg>
           </div>
 
-          <div class="animate-about__item static md:absolute xl:absolute left-0 top-[260px] xl:top-[285px] w-full">
-            <div
-              class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
-              <div
-                class="hidden md:flex xl:flex absolute top-8 -right-[88px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159] shadow-[0_0_28px_0_#00FF75]">
-              </div>
+          <div class="col-span-6 animate-about__item group">
+            <div class="grid grid-rows-3 grid-flow-col">
+              <div class="row-span-2 row-start-1 flex flex-col items-start ">
 
-              <div
-                class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
-                <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
-                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-01.svg"
-                    class="absolute w-full h-full object-contain" />
+                <div class="flex justify-start w-full relative">
+                  <div class="basis-10/12 flex justify-end">
+                    <div
+                      class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                      <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
+                        <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS"
+                          src="/about-us/value-01.svg" class="absolute w-full h-full object-contain" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="hidden md:flex xl:flex absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159] group-hover:shadow-[0_0_28px_0_#00FF75]">
+                  </div>
+                </div>
+
+                <div class="flex justify-start w-full">
+                  <div class="basis-10/12">
+                    <h4
+                      class="text-[18px] xl:text-[32px] text-black text-center md:text-right xl:text-right font-bold font-BG">
+                      Tiên Phong
+                    </h4>
+
+                    <p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
+                      Luôn dẫn đầu xu hướng, tạo ra sáng kiến giúp trải nghiệm đầu tư
+                      dễ dàng và thú vị.
+                    </p>
+                  </div>
                 </div>
               </div>
-
-              <h4
-                class="text-[18px] xl:text-[32px] text-black text-center md:text-right xl:text-right font-bold font-BG mt-5">
-                Tiên Phong
-              </h4>
-              <p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
-                Luôn dẫn đầu xu hướng, tạo ra sáng kiến giúp trải nghiệm đầu tư
-                dễ dàng và thú vị.
-              </p>
             </div>
           </div>
 
-          <div class="animate-about__item static md:absolute xl:absolute left-0 top-[600px] w-full">
-            <div
-              class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
-              <div
-                class="hidden md:flex xl:flex absolute top-8 -right-[88px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]">
-              </div>
+          <div class="col-span-6 animate-about__item group">
+            <div class="grid grid-rows-3 grid-flow-col">
+              <div class="row-span-2 row-start-2 flex flex-col items-start">
 
-              <div
-                class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
-                <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
-                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-03.svg"
-                    class="absolute w-full h-full object-contain" />
+                <div class="flex justify-end w-full relative">
+                  <div class="basis-10/12 flex justify-start">
+                    <div
+                      class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                      <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
+                        <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS"
+                          src="/about-us/value-05.svg" class="absolute w-full h-full object-contain" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="hidden md:flex xl:flex absolute top-1/2 left-0 -translate-x-1/2 w-[18px] -translate-y-1/2 h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159] group-hover:shadow-[0_0_28px_0_#00FF75]">
+                  </div>
+                </div>
+
+                <div class="flex justify-end w-full">
+                  <div class="basis-10/12">
+                    <h4 class="text-[18px] xl:text-[32px] text-black xl:text-left font-bold font-BG">
+                      Cởi mở & Đổi mới
+                    </h4>
+                    <p class="text-sm xl:text-[18px] text-[#000] xl:text-left">
+                      Liên tục cập nhật và đổi mới, mang lại sự tươi mới trong hoạt
+                      động và dịch vụ.
+                    </p>
+                  </div>
                 </div>
               </div>
-
-              <h4
-                class="text-[18px] xl:text-[32px] text-black text-center md:text-right xl:text-right font-bold font-BG mt-5">
-                Giáo dục
-              </h4>
-              <p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
-                Chú trọng nâng cao kiến thức và kỹ năng đầu tư tài chính cho
-                khách hàng.
-              </p>
             </div>
           </div>
 
-          <div class="animate-about__item static md:absolute xl:absolute left-0 top-[920px] w-full">
-            <div
-              class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
-              <div
-                class="hidden md:flex xl:flex absolute top-8 -right-[88px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]">
-              </div>
+          <div class="col-span-6 animate-about__item group">
+            <div class="basis-10/12 grid grid-rows-3 grid-flow-col">
+              <div class="row-span-2 row-start-1 flex flex-col items-center md:items-end xl:items-end ">
 
-              <div
-                class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
-                <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
-                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-04.svg"
-                    class="absolute w-full h-full object-contain" />
+                <div class="flex justify-start w-full relative">
+                  <div class="basis-10/12 flex justify-end">
+                    <div
+                      class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                      <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
+                        <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS"
+                          src="/about-us/value-03.svg" class="absolute w-full h-full object-contain" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="hidden md:flex xl:flex absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159] group-hover:shadow-[0_0_28px_0_#00FF75]">
+                  </div>
+                </div>
+
+                <div class="flex justify-start w-full">
+                  <div class="basis-10/12">
+                    <h4
+                      class="text-[18px] xl:text-[32px] text-black text-center md:text-right xl:text-right font-bold font-BG">
+                      Giáo dục
+                    </h4>
+
+                    <p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
+                      Chú trọng nâng cao kiến thức và kỹ năng đầu tư tài chính cho
+                      khách hàng.
+                    </p>
+                  </div>
                 </div>
               </div>
-
-              <h4
-                class="text-[18px] xl:text-[32px] text-black text-center md:text-right xl:text-right font-bold font-BG mt-5">
-                Tư duy hướng công nghệ
-              </h4>
-              <p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
-                Đặt lợi ích và trải nghiệm của khách hàng lên hàng đầu.
-              </p>
             </div>
           </div>
 
-          <div
-            class="animate-about__item static md:absolute xl:absolute right-0 top-[285px] translate-y-0 md:translate-y-1/2 xl:translate-y-1/2 w-full flex justify-end">
-            <div
-              class="flex flex-col items-center md:items-start xl:items-start 2xl:items-start 3xl:items-start max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
-              <div
-                class="hidden md:flex xl:flex absolute top-8 -left-[90px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]">
-              </div>
+          <div class="col-span-6 animate-about__item group">
+            <div class="grid grid-rows-3 grid-flow-col">
+              <div class="row-span-2 row-start-2 flex flex-col items-start">
 
-              <div
-                class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
-                <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
-                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-05.svg"
-                    class="absolute w-full h-full object-contain" />
+                <div class="flex justify-end w-full relative">
+                  <div class="basis-10/12 flex justify-start">
+                    <div
+                      class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                      <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
+                        <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS"
+                          src="/about-us/value-06.svg" class="absolute w-full h-full object-contain" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="hidden md:flex xl:flex absolute top-1/2 left-0 -translate-x-1/2 w-[18px] -translate-y-1/2 h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159] group-hover:shadow-[0_0_28px_0_#00FF75]">
+                  </div>
+                </div>
+
+                <div class="flex justify-end w-full">
+                  <div class="basis-10/12">
+                    <h4 class="text-[18px] xl:text-[32px] text-black xl:text-left font-bold font-BG">
+                      Khách hàng là trung tâm
+                    </h4>
+                    <p class="text-sm xl:text-[18px] text-[#000] xl:text-left">
+                      Đặt lợi ích và trải nghiệm của khách hàng lên hàng đầu.
+                    </p>
+                  </div>
                 </div>
               </div>
-
-              <h4
-                class="text-[18px] xl:text-[32px] text-black text-center md:text-right xl:text-right font-bold font-BG mt-5">
-                Cởi mở & Đổi mới
-              </h4>
-              <p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-left">
-                Liên tục cập nhật và đổi mới, mang lại sự tươi mới trong hoạt
-                động và dịch vụ.
-              </p>
             </div>
           </div>
 
-          <div
-            class="animate-about__item static md:absolute xl:absolute right-0 top-[600px] w-full translate-y-0 md:translate-y-1/2 xl:translate-y-1/2 flex justify-end">
-            <div
-              class="flex flex-col items-center md:items-start xl:items-start 2xl:items-start 3xl:items-start max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
-              <div
-                class="hidden md:flex xl:flex absolute top-8 -left-[90px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]">
-              </div>
+          <div class="col-span-6 animate-about__item group">
+            <div class="basis-10/12 grid grid-rows-3 grid-flow-col">
+              <div class="row-span-2 row-start-1 flex flex-col items-center md:items-end xl:items-end ">
 
-              <div
-                class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
-                <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
-                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-06.svg"
-                    class="absolute w-full h-full object-contain" />
+                <div class="flex justify-start w-full relative">
+                  <div class="basis-10/12 flex justify-end">
+                    <div
+                      class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                      <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
+                        <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS"
+                          src="/about-us/value-04.svg" class="absolute w-full h-full object-contain" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="hidden md:flex xl:flex absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159] group-hover:shadow-[0_0_28px_0_#00FF75]">
+                  </div>
+                </div>
+
+                <div class="flex justify-start w-full">
+                  <div class="basis-10/12">
+                    <h4
+                      class="text-[18px] xl:text-[32px] text-black text-center md:text-right xl:text-right font-bold font-BG">
+                      Tư duy hướng công nghệ
+                    </h4>
+
+                    <p class="text-sm xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
+                      Đặt lợi ích và trải nghiệm của khách hàng lên hàng đầu.
+                    </p>
+                  </div>
                 </div>
               </div>
-
-              <h4
-                class="text-[18px] xl:text-[32px] text-black text-center md:text-right xl:text-right font-bold font-BG mt-5">
-                Khách hàng là trung tâm
-              </h4>
-              <p class="text-sm xl:text-[18px] text-[#000] text-center md:text-left xl:text-left">
-                Đặt lợi ích và trải nghiệm của khách hàng lên hàng đầu.
-              </p>
             </div>
           </div>
 
-          <div
-            class="animate-about__item static md:absolute xl:absolute right-0 top-[920px] w-full translate-y-0 md:translate-y-1/2 xl:translate-y-1/2 flex justify-end">
-            <div
-              class="flex flex-col items-center md:items-start xl:items-start 2xl:items-start 3xl:items-start max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
-              <div
-                class="hidden md:flex xl:flex absolute top-8 -left-[90px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]">
-              </div>
+          <div class="col-span-6 animate-about__item group">
+            <div class="grid grid-rows-3 grid-flow-col">
+              <div class="row-span-2 row-start-2 flex flex-col items-start">
 
-              <div
-                class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
-                <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
-                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-07.svg"
-                    class="absolute w-full h-full object-contain" />
+                <div class="flex justify-end w-full relative">
+                  <div class="basis-10/12 flex justify-start">
+                    <div
+                      class="w-12 h-12 xl:w-[90px] xl:h-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                      <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
+                        <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS"
+                          src="/about-us/value-07.svg" class="absolute w-full h-full object-contain" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="hidden md:flex xl:flex absolute top-1/2 left-0 -translate-x-1/2 w-[18px] -translate-y-1/2 h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159] group-hover:shadow-[0_0_28px_0_#00FF75]">
+                  </div>
+                </div>
+
+                <div class="flex justify-end w-full">
+                  <div class="basis-10/12">
+                    <h4 class="text-[18px] xl:text-[32px] text-black xl:text-left font-bold font-BG">
+                      Truyền cảm hứng
+                    </h4>
+                    <p class="text-sm xl:text-[18px] text-[#000] xl:text-left">
+                      Tối ưu hóa trải nghiệm người dùng, truyền cảm hứng về đầu tư tài
+                      chính cá nhân.
+                    </p>
+                  </div>
                 </div>
               </div>
-
-              <h4
-                class="text-[18px] xl:text-[32px] text-black text-center md:text-right xl:text-right font-bold font-BG mt-5">
-                Truyền cảm hứng
-              </h4>
-              <p class="text-sm xl:text-[18px] text-[#000] text-center md:text-left xl:text-left">
-                Tối ưu hóa trải nghiệm người dùng, truyền cảm hứng về đầu tư tài
-                chính cá nhân.
-              </p>
             </div>
           </div>
         </div>

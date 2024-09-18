@@ -353,6 +353,26 @@ export default defineComponent({
 });
 </script>
 <style scoped>
+
+
+/* Custom style cho vùng content */
+.content-wrapper:deep(table)  {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.content-wrapper :deep(table),
+.content-wrapper :deep(th),
+.content-wrapper :deep(td) {
+	width: 100%;
+  border: 1px solid black;
+}
+
+.content-wrapper :deep(th),
+.content-wrapper :deep(td) {
+  padding: 8px;
+  text-align: left;
+}
 .content-wrapper :deep(*) {
   all: revert;
 }

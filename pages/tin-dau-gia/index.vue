@@ -9,7 +9,7 @@
                     <nuxt-img format="webp" loading="lazy" alt="UPS" src="/logo/logo-cms.png"
                         class="absolute w-full h-full object-contain" />
                 </div>
-                <div class=" w-full flex flex-col items-start gap-3">
+                <div class="container w-full flex flex-col items-start gap-3">
                     <p
                         class="font-HG text-md text-white uppercase text-[12px] md:text-[12px] 2xl:text-[14px] leading-normal">
                         Khách hàng
@@ -47,7 +47,7 @@
             </div>
         </div>
         <!-- grid card -->
-        <div class="">
+        <div class="container">
             <div
                 class="p-6 flex flex-col gap-6 md:px-[60px] md:py-[46px] lg:px-[120px] lg:py-[46px] xl:px-[100px]  2xl:px-[120px] 2xl:py-[50px] 3xl:px-[225px] 3xl:py-[70px]">
                 <!-- TOGGLE -->

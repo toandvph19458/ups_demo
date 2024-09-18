@@ -123,3 +123,42 @@
     box-shadow: -10px 10px 0px 0px rgba(0, 0, 0, 0.31);
   }
 }
+@layer base {
+  .content-wrapper h1,
+  .content-wrapper h2,
+  .content-wrapper h3,
+  .content-wrapper h4,
+  .content-wrapper h5,
+  .content-wrapper h6 {
+    font-size: revert;
+    font-weight: revert;
+  }
+  
+  .content-wrapper ol,
+  .content-wrapper ul {
+    list-style: revert;
+    margin: revert;
+    padding: revert;
+  }
+  
+  .content-wrapper table {
+    border: revert;
+    border-collapse: revert;
+    border-spacing: revert;
+    width: revert;
+    margin: revert;
+  }
+  
+  .content-wrapper tr {
+    border: revert;
+  }
+  
+  .content-wrapper th,
+  .content-wrapper td {
+    padding: revert;
+    border: revert;
+    text-align: revert;
+    vertical-align: revert;
+  }
+  
+}
