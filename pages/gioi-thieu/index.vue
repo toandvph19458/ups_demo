@@ -173,7 +173,7 @@
 
           <div class="animate-about__item static md:absolute xl:absolute left-0 top-[260px] xl:top-[285px] w-full">
             <div
-              class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[234px] xl:max-w-[440px] relative">
+              class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
               <div
                 class="hidden md:flex xl:flex absolute top-8 -right-[88px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159] shadow-[0_0_28px_0_#00FF75]">
               </div>
@@ -199,7 +199,7 @@
 
           <div class="animate-about__item static md:absolute xl:absolute left-0 top-[600px] w-full">
             <div
-              class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[234px] xl:max-w-[440px] relative">
+              class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
               <div
                 class="hidden md:flex xl:flex absolute top-8 -right-[88px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]">
               </div>
@@ -225,7 +225,7 @@
 
           <div class="animate-about__item static md:absolute xl:absolute left-0 top-[920px] w-full">
             <div
-              class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[234px] xl:max-w-[440px] relative">
+              class="flex flex-col items-center md:items-end xl:items-end max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
               <div
                 class="hidden md:flex xl:flex absolute top-8 -right-[88px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]">
               </div>
@@ -251,7 +251,7 @@
           <div
             class="animate-about__item static md:absolute xl:absolute right-0 top-[285px] translate-y-0 md:translate-y-1/2 xl:translate-y-1/2 w-full flex justify-end">
             <div
-              class="flex flex-col items-center md:items-start xl:items-start max-w-full md:max-w-[234px] xl:max-w-[440px] relative">
+              class="flex flex-col items-center md:items-start xl:items-start 2xl:items-start 3xl:items-start max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
               <div
                 class="hidden md:flex xl:flex absolute top-8 -left-[90px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]">
               </div>
@@ -278,7 +278,7 @@
           <div
             class="animate-about__item static md:absolute xl:absolute right-0 top-[600px] w-full translate-y-0 md:translate-y-1/2 xl:translate-y-1/2 flex justify-end">
             <div
-              class="flex flex-col items-center md:items-start xl:items-start max-w-full md:max-w-[234px] xl:max-w-[440px] relative">
+              class="flex flex-col items-center md:items-start xl:items-start 2xl:items-start 3xl:items-start max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
               <div
                 class="hidden md:flex xl:flex absolute top-8 -left-[90px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]">
               </div>
@@ -304,7 +304,7 @@
           <div
             class="animate-about__item static md:absolute xl:absolute right-0 top-[920px] w-full translate-y-0 md:translate-y-1/2 xl:translate-y-1/2 flex justify-end">
             <div
-              class="flex flex-col items-center md:items-start xl:items-start max-w-full md:max-w-[234px] xl:max-w-[440px] relative">
+              class="flex flex-col items-center md:items-start xl:items-start 2xl:items-start 3xl:items-start max-w-full md:max-w-[128px] xl:max-w-[26px] 2xl:max-w-[440px] relative">
               <div
                 class="hidden md:flex xl:flex absolute top-8 -left-[90px] w-[18px] h-[18px] rounded-[36px] border-[4px] border-solid border-white bg-[#01C159]">
               </div>

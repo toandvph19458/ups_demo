@@ -52,7 +52,7 @@
 		</i>
 
 		<!-- Nút Back to Top -->
-		<div class="group">
+		<div class="group hidden md:block lg:block xl:block 2xl:block 3xl:block">
 			<i
 				v-show="showBackToTop"
 				:class="{

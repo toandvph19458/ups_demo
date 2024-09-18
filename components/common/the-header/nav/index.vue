@@ -221,7 +221,7 @@
 
                   <Accordion
                     type="single"
-                    class="w-full"
+                    class="w-full py-0"
                     collapsible
                     :default-value="defaultValue"
                   >
@@ -284,7 +284,7 @@
                         </div>
                       </AccordionTrigger>
                       <AccordionContent>
-                        <div class="flex gap-5 flex-col">
+                        <div class="flex gap-5 flex-col pt-4">
                           <nuxt-link to="/san-pham-3" class="flex items-center">
                             <i class="inline-flex items-center justify-center">
                               <nuxt-img
@@ -986,7 +986,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, onMounted, onBeforeMount } from 'vue';
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -1004,7 +1004,7 @@ import {
 } from "@/components/ui/accordion";
 
 export default defineComponent({
-  name: "navigation",
+  name: 'navigation',
   components: {
     NavigationMenu,
     NavigationMenuContent,
@@ -1040,6 +1040,37 @@ export default defineComponent({
       },
     ];
 
+    const injectStyles = () => {
+      if (typeof window !== 'undefined') {
+        const styleId = 'custom-nav-styles';
+        let styleElement = document.getElementById(styleId);
+
+        if (!styleElement) {
+          styleElement = document.createElement('style');
+          styleElement.id = styleId;
+          document.head.appendChild(styleElement);
+        }
+
+        styleElement.textContent = `
+          #radix-vue-accordion-trigger-6 {
+            padding-bottom: 0 !important;
+            padding-top: 0 !important;
+            justify-content: start !important;
+            gap:16px;
+          }
+        `;
+      }
+    };
+
+    onBeforeMount(() => {
+      injectStyles();
+    });
+
+    onMounted(() => {
+      // Ensure styles are applied after component is mounted
+      injectStyles();
+    });
+
     return {
       defaultValue,
       accordionItems,
@@ -1048,3 +1079,11 @@ export default defineComponent({
   },
 });
 </script>
+<style scoped>
+#radix-vue-accordion-trigger-6{
+  padding-top: 0;
+  padding-bottom: 0;
+  gap: 16px;
+  justify-content: start;
+}
+</style>

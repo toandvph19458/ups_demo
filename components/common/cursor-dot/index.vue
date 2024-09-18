@@ -1,6 +1,6 @@
 <template>
   <div
-    class="cursor_dot fixed top-0 left-0 z-[9999] pointer-events-none bg-[#02E56A] rounded-full hidden xl:block lg:block"
+    class="cursor_dot fixed top-0 left-0 z-[9999] pointer-events-none bg-[#02E56A] rounded-full hidden lg:block"
   ></div>
   <div
     class="cursor_dot_2 fixed top-0 left-0 z-[9999] pointer-events-none bg-[#15171E] rounded-full hidden xl:hidden lg:block"
@@ -227,3 +227,17 @@ export default defineComponent({
   },
 });
 </script>
+<style scoped>
+
+.cursor_dot{
+
+}
+@media (max-width: 768px){
+  .cursor_dot {
+    display: none !important;
+  }
+  .cursor_dot_2 {
+    display: none !important;
+  }
+}
+</style>

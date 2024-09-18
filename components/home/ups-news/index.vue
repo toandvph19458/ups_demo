@@ -24,7 +24,7 @@
 						nổi bật
 					</h3>
 
-					<p class="animate-ups__item text-xs lg:text-sm 2xl:text-base text-[#000] font-normal">
+					<p class="animate-ups__item text-sm lg:text-sm 2xl:text-base text-[#000] font-normal">
 						Cập nhật các sản phẩm, dịch vụ mới nhất cũng như các hoạt động, sự kiện của UPS
 					</p>
 				</div>
