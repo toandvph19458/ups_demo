@@ -95,10 +95,10 @@
         </div>
 
         <div class="col-span-5 block md:hidden xl:hidden mt-10 w-full h-[350px] flex-none">
-          <swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1.2" :loop="false" :speed="800"
+          <swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1" :loop="false" :speed="800"
             :space-between="12" :breakpoints="{
               480: {
-                slidesPerView: 1.2,
+                slidesPerView: 1,
                 spaceBetween: 12,
               },
               768: {
@@ -114,11 +114,11 @@
                 spaceBetween: 40,
               },
             }">
-            <swiper-slide v-for="i in 3" :key="i">
+            <swiper-slide >
               <div class="animate-ups__item w-full h-[350px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
-                  <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/images/employee-01.png"
-                    class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
+                  <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepdat.png"
+                    class="w-full  object-cover transition-all duration-300 object-center" />
                 </div>
 
                 <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
@@ -127,10 +127,53 @@
                   </div>
 
                   <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
-                    Phó Tổng giám đốc
+                  Tổng giám đốc
                   </p>
                   <h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
                     Ông Nguyễn Quang Đạt
+                  </h4>
+                </div>
+              </div>
+            </swiper-slide>
+
+            <swiper-slide >
+              <div class="animate-ups__item w-full h-[350px] relative group overflow-hidden">
+                <div class="absolute w-full h-full">
+                  <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepnam.png"
+                    class="w-full  object-cover transition-all duration-300 object-center" />
+                </div>
+
+                <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
+                  <div class="">
+                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />
+                  </div>
+
+                  <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
+                 Phó Tổng giám đốc
+                  </p>
+                  <h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
+                    Ông Trần Đức Nam
+                  </h4>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide >
+              <div class="animate-ups__item w-full h-[350px] relative group overflow-hidden">
+                <div class="absolute w-full h-full">
+                  <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepchien.png"
+                    class="w-full  object-cover transition-all duration-300 object-center" />
+                </div>
+
+                <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
+                  <div class="">
+                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />
+                  </div>
+
+                  <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
+                    Giám đốc tài chính kiêm Kế toán trưởng
+                  </p>
+                  <h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
+                    Ông Trần Văn Chiến
                   </h4>
                 </div>
               </div>

@@ -55,7 +55,7 @@
 
     <!-- SECTION VISION -->
     <section
-      class="relative w-full pt-[80%] md:pt-[50%] rounded-es-[30px] rounded-ee-[30px] overflow-hidden border border-white bg-[url('/background/bg-gioi-thieu.png')] bg-no-repeat bg-cover">
+      class="relative w-full pt-[80%] md:pt-[50%] rounded-es-[30px] rounded-ee-[30px] overflow-hidden border border-white bg-[url('/background/bg-gioi-thieu.png')] bg-no-repeat bg-cover bg-center">
 
       <div class="absolute inset-0 py-[40px] md:py-[40px] lg:py-[80px] xl:py-[100px] 3xl:py-[140px]">
         <div class="container flex justify-start items-center h-full">

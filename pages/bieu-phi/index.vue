@@ -5,7 +5,7 @@
 		<!-- bảng -->
 		<table-ups />
 		<!-- bên dưới bảng -->
-		<div class="bg-[linear-gradient(270deg,_#00D7B0_17.99%,_rgba(0,_148,_255,_0.50)_96.69%)]">
+		<!-- <div class="bg-[linear-gradient(270deg,_#00D7B0_17.99%,_rgba(0,_148,_255,_0.50)_96.69%)]">
 			<div
 				class="layout flex md:flex-row sm:flex-col 3xl:p-[40px_160px] 2xl:p-[24px_120px] xl:p-[24px-100px] lg:p-[24px_100px] md:p-[24px-60px] lg:gap-[60px] p-6 justify-between items-center self-stretch gap-3">
 				<div class="md:w-2/3 sm:w-full">
@@ -37,7 +37,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="2xl:p-[100px_160px] xl:p-[90px_120px] lg:p-[80px_100px] md:p-[60px_60px]  p-6">
 			<!-- UPS GLOBAL -->
