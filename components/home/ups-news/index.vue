@@ -137,7 +137,7 @@
 								/>
 							</div>
 							<div class="mt-3 md:mt-5">
-								<div class="flex justify-between">
+								<!-- <div class="flex justify-between">
 									<template v-if="doc?.short_content?.tags.length > 0">
 										<p
 											v-for="(sub, k) in doc?.short_content?.tags"
@@ -150,7 +150,7 @@
 									<p class="text-xs md:text-sm 3xl:text-lg text-[#9498A8] font-medium">
 										5 phút trước
 									</p>
-								</div>
+								</div> -->
 
 								<h4
 									class="text-sm 2xl:text-base 3xl:text-xl text-black font-semibold line-clamp-3 mt-3 md:mt-6"

@@ -221,7 +221,7 @@
                             class="md:w-[400px] w-full  font-[500] 2xl:text-[16px] xl:text-[14px] md:text-[14px] text-[12px] md:leading-[19px] sm:leading-normal text-black relative text-left z-[35] font-hanken animate-ups__item">Áp
                             dụng trên tài khoản tiền gửi của Nhà đầu tư từ ngày 15/02/2019</span>
                     </div>
-                    <div
+                    <!-- <div
                         class="h-[1px] w-full flex-shrink-0 bg-center bg-no-repeat bg-cover relative z-[36] bg-[#02E56A]">
                     </div>
                     <div class="flex items-center md:gap-[40px] gap-3 self-stretch">
@@ -260,7 +260,7 @@
                                 Biểu phí chuyển tiền
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

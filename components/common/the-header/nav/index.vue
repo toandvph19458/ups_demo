@@ -100,7 +100,7 @@
                     </nuxt-link>
                   </nuxt-link>
 
-                  <nuxt-link to="/coming-soon" class="flex items-center">
+                  <!-- <nuxt-link to="/coming-soon" class="flex items-center">
                     <i class="inline-flex items-center justify-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +217,7 @@
                         Giao dịch phái sinh siêu tốc độ
                       </p>
                     </div>
-                  </nuxt-link>
+                  </nuxt-link> -->
 
                   <Accordion
                     type="single"
@@ -723,7 +723,7 @@
 
                 <div class="ml-5">
                   <p class="text-base text-[#000] font-semibold">
-                    Hướng dẫn sử dụng
+                    Hỗ trợ khách hàng
                   </p>
                   <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
                     Khám phá kho tàng kiến thức đỉnh cấp cùng UPS
