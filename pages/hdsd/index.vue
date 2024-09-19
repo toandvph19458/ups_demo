@@ -564,7 +564,7 @@ export default defineComponent({
   text-align: left;
 }
 .content-wrapper :deep(*) {
-  all: revert;
+  /* all: revert; */
 }
 
 .content-wrapper :deep(h1) {

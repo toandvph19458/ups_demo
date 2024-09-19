@@ -1,6 +1,6 @@
 <template>
 	<section class="animate-ups mb-[100px] md:mb-[180px] xl:mb-[230px]">
-		<div class="bg-[linear-gradient(73deg,#15171E_29.09%,#125933_88.69%)]">
+		<div class="bg-custom">
 			<div class="container">
 				<div
 					class="w-full h-full grid grid-cols-1 md:grid-rows-2 lg:grid-rows-none lg:grid-cols-2 gap-10 md:gap-0 lg:gap-12 xl:gap-10 3xl:gap-[56px]">
@@ -34,7 +34,7 @@
 					</div>
 
 					<div
-						class="col-span-1 order-1 lg:order-2 h-full pb-8 lg:pb-[44px] 2xl:pb-[72px] 3xl:pb-[100px] pt-8 lg:pt-[80px] 2xl:pt-[100px] 3xl:pt-[150px]">
+						class="col-span-1 order-1 lg:order-2 h-full pb-8 lg:pb-[44px] 2xl:pb-[72px] 3xl:pb-[100px] pt-8 lg:pt-[80px] 2xl:pt-[100px] 3xl:pt-[150px] ">
 						<h3
 							class="block lg:hidden w-full mb-[20px] md:mb-[40px] animate-ups__item bg-[linear-gradient(100deg,rgba(255,255,255,0.47)_-0.85%,rgba(255,255,255,0.79)_49.77%,rgba(255,255,255,0)_101.25%)] bg-clip-text text-transparent font-BG text-[20px] xl:text-[26px] 2xl:text-[30px] font-semibold leading-normal">
 							<span
@@ -72,11 +72,11 @@
 
 						<div class="mt-4 md:mt-10 lg:mt-16 xl:mt-20 3xl:mt-32">
 							<div class="animate-ups__item flex gap-4 items-center">
-								<p class="text-xs xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">Tải ứng dụng</p>
+								<!-- <p class="text-xs xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">Tải ứng dụng</p> -->
 							</div>
 
 							<div class="mt-5 flex gap-4">
-								<nuxt-link to="/" target="_blank"
+								<!-- <nuxt-link to="/" target="_blank"
 									class="animate-ups__item flex-1 md:flex-none p-[8px] inline-flex gap-2 items-center rounded-[12px] bg-[#111111]">
 									<div class="relative w-8 h-8">
 										<nuxt-img format="webp" loading="lazy" alt="Google Play" width="32" height="32"
@@ -105,7 +105,7 @@
 										</p>
 										<p class="text-xs md:text-sm 3xl:text-lg font-semibold text-white">App Store</p>
 									</div>
-								</nuxt-link>
+								</nuxt-link> -->
 							</div>
 						</div>
 					</div>
@@ -125,4 +125,8 @@ export default defineComponent({
 });
 </script>
 
-<style></style>
+<style scoped>
+.bg-custom{
+	background: linear-gradient(86deg, rgba(21, 23, 30, 0.90) -5.13%, rgba(18, 89, 51, 0.90) 84.17%), url('/images/bg-home-1ed1wdw.png') lightgray 0px -3.557px / 100% 122.075% no-repeat;
+}
+</style>

@@ -379,7 +379,7 @@ import { config } from "~/lib/config";
   text-align: left;
 }
 .content-wrapper :deep(*) {
-  all: revert;
+  /* all: revert; */
 }
 
 .content-wrapper :deep(h1) {

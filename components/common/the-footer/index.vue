@@ -11,14 +11,13 @@
 									width="409" height="94" alt="UPS" class="absolute w-full h-full object-contain" />
 							</div>
 
-							<div class="flex flex-col">
+							<div class="flex flex-col w-[580px]">
 								<div class="w-full flex flex-col gap-3 md:gap-4 mt-6 xl:mt-10">
 									<nuxt-link href="/" class="flex items-start gap-2">
 										<nuxt-img format="webp" width="24" alt="UPS" src="/icons/address-icon.svg"
 											class="w-[18px] h-[18px] 2xl:w-6 2xl:h-6" />
 										<span class="text-sm 2xl:text-lg 3xl:text-xl text-[#15171E] font-bold">
-											Tầng 8 - Tòa nhà Hapro, Số 11B Cát Linh, Phường Quốc Tử Giám, Quận Đống Đa,
-											Hà Nội
+											Địa chỉ: Tầng 12, tòa nhà CDC số 25 phố Lê Đại Hành, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội 
 										</span>
 									</nuxt-link>
 
@@ -26,15 +25,15 @@
 										<nuxt-img format="webp" width="24" alt="UPS" src="/icons/phone-icon.svg"
 											class="w-[18px] h-[18px] 2xl:w-6 2xl:h-6" />
 										<span class="text-sm 2xl:text-lg 3xl:text-xl text-[#15171E] font-bold">
-											0243.944.6666
+											Tel: (024) 3 944 6666 - Fax: (024) 3944 6969
 										</span>
 									</nuxt-link>
 
-									<nuxt-link href="mailto:dvkh@upse.vn" class="flex items-start gap-2">
+									<nuxt-link href="mailto:info@upstock.com.vn" class="flex items-start gap-2">
 										<nuxt-img format="webp" width="24" alt="UPS" src="/icons/mail-icon.svg"
 											class="w-[18px] h-[18px] 2xl:w-6 2xl:h-6" />
 										<span class="text-sm 2xl:text-lg 3xl:text-xl text-[#15171E] font-bold">
-											dvkh@upse.vn
+											Email: info@upstock.com.vn
 										</span>
 									</nuxt-link>
 								</div>
@@ -197,7 +196,7 @@
 					</p>
 
 					<div class="flex flex-col lg:flex-row items-center mt-[10px] lg:mt-0 gap-[10px] lg:gap-6">
-						<nuxt-link href="/" class="text-[10.5px] 2xl:text-sm text-white opacity-75 font-medium">
+						<nuxt-link href="https://ups.truecms.io/assets/fe3751e3-1c6f-4442-a671-ed2ce3e28d7d" class="text-[10.5px] 2xl:text-sm text-white opacity-75 font-medium">
 							Điều khoản & Quyền hạn
 						</nuxt-link>
 						<nuxt-link href="/" class="text-[10.5px] 2xl:text-sm text-white opacity-75 font-medium">
