@@ -559,6 +559,7 @@ export default defineComponent({
 
 .content-wrapper :deep(th),
 .content-wrapper :deep(td) {
+	width: 100%;
   padding: 8px;
   text-align: left;
 }

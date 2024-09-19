@@ -52,7 +52,7 @@
               <AccordionItem value="1">
                 <AccordionTrigger>
                   <DrawerClose as-child>
-                    <div class="pr-3 py-0 text-black text-lg font-semibold no-underline hover:no-underline">
+                    <div class="pr-3 py-0 text-black text-lg font-semibold no-underline hover:no-underline font-HG">
                       Sản phẩm
                     </div>
                   </DrawerClose>
@@ -60,7 +60,7 @@
                 <AccordionContent>
                   <div class="w-full px-5 grid gap-x-10 gap-y-5 grid-cols-1">
                     <div class="w-full">
-                      <p class="text-left text-sm text-[#014227] font-semibold">
+                      <p class="text-left text-sm text-[#014227] font-semibold font-HG">
                         Khách hàng cá nhân
                       </p>
 
@@ -124,10 +124,10 @@
                           </i>
 
                           <nuxt-link to="/coming-soon" class="ml-5">
-                            <p class="text-base text-[#000] font-semibold">
+                            <p class="text-base text-[#000] font-semibold font-HG">
                               Cổ phiếu
                             </p>
-                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
+                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
                               Đầu tư đơn giản và hiệu quả
                             </p>
                           </nuxt-link>
@@ -155,10 +155,10 @@
                           </i>
 
                           <div class="ml-5">
-                            <p class="text-base text-[#000] font-semibold">
+                            <p class="text-base text-[#000] font-semibold font-HG">
                               Trái phiếu
                             </p>
-                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
+                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
                               Đón đầu mã trái phiếu hot nhất
                             </p>
                           </div>
@@ -186,10 +186,10 @@
                           </i>
 
                           <div class="ml-5">
-                            <p class="text-base text-[#000] font-semibold">
+                            <p class="text-base text-[#000] font-semibold font-HG">
                               Phái sinh
                             </p>
-                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
+                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
                               Giao dịch phái sinh siêu tốc độ
                             </p>
                           </div>
@@ -216,10 +216,10 @@
                                 </i>
 
                                 <div class="ml-5">
-                                  <p class="text-left text-base text-[#000] font-semibold">
+                                  <p class="text-left text-base text-[#000] font-semibold font-HG">
                                     Hot Deals 🔥
                                   </p>
-                                  <p class="text-left text-sm text-[rgba(0,0,0,0.68)] font-medium">
+                                  <p class="text-left text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
                                     Khám phá ưu đãi mới nhất
                                   </p>
                                 </div>
@@ -234,7 +234,7 @@
                                   </i>
 
                                   <div class="ml-5">
-                                    <p class="text-base text-[#000] font-semibold">
+                                    <p class="text-base text-[#000] font-semibold font-HG">
                                       Zero Fee
                                     </p>
                                   </div>
@@ -246,7 +246,7 @@
                                   </i>
 
                                   <div class="ml-5">
-                                    <p class="text-base text-[#000] font-semibold">
+                                    <p class="text-base text-[#000] font-semibold font-HG">
                                       Margin T+
                                     </p>
                                   </div>
@@ -259,7 +259,7 @@
                                   </i>
 
                                   <div class="ml-5">
-                                    <p class="text-base text-[#000] font-semibold">
+                                    <p class="text-base text-[#000] font-semibold font-HG">
                                       Mở tài khoản mới + 1 triệu đồng
                                     </p>
                                   </div>
@@ -289,10 +289,10 @@
                           </i>
 
                           <div class="ml-5">
-                            <p class="text-base text-[#000] font-semibold">
+                            <p class="text-base text-[#000] font-semibold font-HG">
                               Biểu phí giao dịch
                             </p>
-                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
+                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
                               Cập nhật bảng giá 24/7
                             </p>
                           </div>
@@ -300,7 +300,7 @@
                       </div>
                     </div>
                     <div class="w-full">
-                      <p class="text-left text-sm text-[#014227] font-semibold">
+                      <p class="text-left text-sm text-[#014227] font-semibold font-HG">
                         Khách hàng doanh nghiệp
                       </p>
 
@@ -326,10 +326,10 @@
                           </i>
 
                           <nuxt-link to="/coming-soon" class="ml-5">
-                            <p class="text-base text-[#000] font-semibold">
+                            <p class="text-base text-[#000] font-semibold font-HG">
                               Tư vấn tài chính
                             </p>
-                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
+                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
                               Cùng doanh nghiệp phát triển bền vững
                             </p>
                           </nuxt-link>
@@ -356,10 +356,10 @@
                           </i>
 
                           <div class="ml-5">
-                            <p class="text-base text-[#000] font-semibold">
+                            <p class="text-base text-[#000] font-semibold font-HG">
                               Tin đấu giá
                             </p>
-                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
+                            <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
                               Bản tin đấu giá tại UPS
                             </p>
                           </div>
@@ -367,20 +367,20 @@
                       </div>
                     </div>
                     <div class="w-full">
-                      <p class="text-left text-sm text-[#014227] font-semibold">
+                      <p class="text-left text-sm text-[#014227] font-semibold font-HG">
                         Nền tảng
                       </p>
 
                       <div class="mt-4 grid gap-4 grid-cols-2">
                         <DrawerClose as-child>
                           <nuxt-link to="/"
-                            class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px]">
+                            class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG">
                             Web Trading
                           </nuxt-link>
                         </DrawerClose>
                         <DrawerClose as-child>
                           <nuxt-link to="/"
-                            class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px]">
+                            class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG">
                             App Trading
                           </nuxt-link>
                         </DrawerClose>
@@ -392,7 +392,7 @@
               <AccordionItem value="2">
                 <AccordionTrigger>
                   <DrawerClose as-child>
-                    <div class="pr-3 py-0 text-black text-lg font-semibold no-underline hover:no-underline">
+                    <div class="pr-3 py-0 text-black text-lg font-semibold no-underline hover:no-underline font-HG">
                       Đầu tư cùng UPS
                     </div>
                   </DrawerClose>
@@ -407,12 +407,12 @@
                         </i>
 
                         <div class="ml-4">
-                          <p class="text-sm text-[#000] font-semibold">
+                          <p class="text-sm text-[#000] font-semibold font-HG">
                             Nhận định thị trường
                           </p>
-                          <!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-													Báo cáo phân tích nhanh nhất cùng UPS
-												</p> -->
+                          <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+                            Báo cáo phân tích nhanh nhất cùng UPS
+                          </p>
                         </div>
                       </nuxt-link>
                     </DrawerClose>
@@ -424,12 +424,12 @@
                         </i>
 
                         <div class="ml-4">
-                          <p class="text-sm text-[#000] font-semibold">
+                          <p class="text-sm text-[#000] font-semibold font-HG">
                             Cộng đồng
                           </p>
-                          <!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-													Đầu tư thông minh cùng cộng đồng UPS
-												</p> -->
+                          <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+                            Đầu tư thông minh cùng cộng đồng UPS
+                          </p>
                         </div>
                       </nuxt-link>
                     </DrawerClose>
@@ -441,12 +441,12 @@
                         </i>
 
                         <div class="ml-4">
-                          <p class="text-sm text-[#000] font-semibold">
-                            Cẩm nang đầu tư
+                          <p class="text-sm text-[#000] font-semibold font-HG">
+                            Hướng dẫn sử dụng
                           </p>
-                          <!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-													Khám phá kho tàng kiến thức đỉnh cấp cùng UPS
-												</p> -->
+                          <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+                            Khám phá kho tàng kiến thức đỉnh cấp cùng UPS
+                          </p>
                         </div>
                       </nuxt-link>
                     </DrawerClose>
@@ -456,7 +456,7 @@
               <AccordionItem value="3">
                 <AccordionTrigger>
                   <DrawerClose as-child>
-                    <div class="pr-3 py-0 text-black text-lg font-semibold no-underline hover:no-underline">
+                    <div class="pr-3 py-0 text-black text-lg font-semibold no-underline hover:no-underline font-HG">
                       Về UPS
                     </div>
                   </DrawerClose>
@@ -471,19 +471,36 @@
                         </i>
 
                         <div class="ml-4">
-                          <p class="text-sm text-[#000] font-semibold">
+                          <p class="text-sm text-[#000] font-semibold font-HG">
                             Về chúng tôi
                           </p>
-                          <!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-													Báo cáo phân tích nhanh nhất cùng UPS
-												</p> -->
+                          <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+                            Giới thiệu về UPS
+                          </p>
                         </div>
                       </nuxt-link>
                     </DrawerClose>
-                    <Accordion type="single" class="w-full" collapsible>
+                    <DrawerClose as-child>
+                      <nuxt-link to="/tin-tuc" class="flex items-center">
+                        <i class="w-5 h-5 inline-flex items-center justify-center">
+                          <nuxt-img format="webp" loading="lazy" alt="UPS" width="20" height="20"
+                            src="/icons/tin-ups.svg" />
+                        </i>
+
+                        <div class="ml-4">
+                          <p class="text-sm text-[#000] font-semibold font-HG">
+                            Tin UPS
+                          </p>
+                          <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+                            Các thông tin công bố từ UPS
+                          </p>
+                        </div>
+                      </nuxt-link>
+                    </DrawerClose>
+                    <!-- <Accordion type="single" class="w-full" collapsible>
                       <AccordionItem value="1">
                         <AccordionTrigger class="p-0 flex items-center hover:no-underline">
-                          <div class="flex">
+                          <div class="flex items-center">
                             <i class="w-5 h-5 inline-flex items-center justify-center">
                               <nuxt-img format="webp" loading="lazy" alt="UPS" width="20" height="20"
                                 src="/icons/tin-ups.svg" />
@@ -493,11 +510,9 @@
                               <p class="text-left text-sm text-[#000] font-semibold">
                                 Tin UPS
                               </p>
-                              <!-- <p
-																class="text-left text-sm text-[rgba(0,0,0,0.68)] font-medium"
-															>
-																Các thông tin công bố từ UPS
-															</p> -->
+                              <p class="text-left text-sm text-[rgba(0,0,0,0.68)] font-medium">
+                                Các thông tin công bố từ UPS
+                              </p>
                             </div>
                           </div>
                         </AccordionTrigger>
@@ -535,7 +550,7 @@
                           </div>
                         </AccordionContent>
                       </AccordionItem>
-                    </Accordion>
+                    </Accordion> -->
                     <DrawerClose as-child>
                       <nuxt-link to="/" class="flex items-center">
                         <i class="w-5 h-5 inline-flex items-center justify-center">
@@ -544,12 +559,12 @@
                         </i>
 
                         <div class="ml-4">
-                          <p class="text-sm text-[#000] font-semibold">
+                          <p class="text-sm text-[#000] font-semibold font-HG">
                             Gia nhập UPS
                           </p>
-                          <!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium">
-													Khám phá kho tàng kiến thức đỉnh cấp cùng UPS
-												</p> -->
+                          <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+                            Phát triển sự nghiệp cũng UPS
+                          </p>
                         </div>
                       </nuxt-link>
                     </DrawerClose>

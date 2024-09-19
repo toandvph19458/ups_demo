@@ -1,157 +1,149 @@
 <template>
-    <div class="3xl:py-[100px] 2xl:py-[80px] 3xl:flex 3xl:flex-col 3xl:items-center 3xl:gap-[100px] 2xl:gap-[80px]">
+    <div
+        class="3xl:py-[100px] xl:py-[60px] xl:px-[100px] 2xl:py-[80px] 2xl:px-[120px] 2xl:gap-[100px]  flex flex-col items-center 3xl:gap-[140px] xl:gap-[80px] gap-10 px-6 py-10 lg:px-[60px] lg:py-10 3xl:px-[140px]">
         <!-- Banner-2 -->
         <banner />
         <!-- co-phan-hoa -->
         <coPhanHoa />
         <!-- thoai-von -->
-        <div class="2xl:my-[80px] xl:my-[60px]">
-            <thoaiVon />
+
+        <thoaiVon />
+        <!-- ho-tro-doanh-nghiep -->
+        <div
+            class=" flex items-end border bg-gradient-to-r from-cyan-400 to-green-300 p-5 rounded-[16px] w-full md:p-8 xl:p-10 3xl:p-[60px] 3xl:rounded-[40px]">
+            <div
+                class="flex flex-col items-start lg:justify-between  gap-4 md:flex-row-reverse xl:gap-6 2xl:gap-[60px] 3xl:gap-[30px] w-full ">
+                <p class="font-BG text-[16px] text-[#15171E] leading-normal block md:hidden ">Hỗ trợ doanh
+                    nghiệp các vấn đề thường
+                    niên
+                </p>
+
+                <div class="flex items-start flex-col lg:flex-row 2xl:gap-6 2xl:min-w-[700px] 3xl:w-2/3">
+                    <div class="w-full flex 2xl:flex-row flex-col">
+                        <div class="flex items-start justify-center flex-col gap-2 2xl:w-1/2">
+                            <div class="flex items-center gap-[10px]">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
+                                        fill="none">
+                                        <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
+                                            fill="#3F424E" />
+                                    </svg></span>
+                                <p class="font-HG text-[14px] 3xl:text-[16px] leading-normal text-[#3F424E]">
+                                    Tư vấn thường niên về lĩnh vực chứng khoán
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-[10px]">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
+                                        fill="none">
+                                        <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
+                                            fill="#3F424E" />
+                                    </svg></span>
+                                <p class="font-HG text-[14px] 3xl:text-[16px] leading-normal text-[#3F424E]">
+                                    Hỗ trợ về công bố thông tin phù hợp với pháp luật
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-[10px]">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
+                                        fill="none">
+                                        <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
+                                            fill="#3F424E" />
+                                    </svg></span>
+                                <p class="font-HG text-[14px] 3xl:text-[16px] leading-normal text-[#3F424E]">
+                                    Hỗ trợ tổ chức đại hội đồng thường niên và bất thường
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-[10px]">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
+                                        fill="none">
+                                        <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
+                                            fill="#3F424E" />
+                                    </svg></span>
+                                <p class="font-HG text-[14px] 3xl:text-[16px] leading-normal text-[#3F424E]">
+                                    Hỗ trợ soạn thảo tài liệu họp ĐHCĐ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex items-start flex-col gap-2 2xl:w-1/2 ">
+                            <div class="flex items-center gap-[10px]">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
+                                        fill="none">
+                                        <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
+                                            fill="#3F424E" />
+                                    </svg></span>
+                                <p class="font-HG text-[14px] 3xl:text-[16px] leading-normal text-[#3F424E]">
+                                    Tư vấn bầu lại Hội đồng quản trị, ban kiểm soát
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-[10px]">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
+                                        fill="none">
+                                        <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
+                                            fill="#3F424E" />
+                                    </svg></span>
+                                <p class="font-HG text-[14px] 3xl:text-[16px] leading-normal text-[#3F424E]">
+                                    Trả cổ tức bằng tiền mặt hoặc cổ phiếu
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-[10px]">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
+                                        fill="none">
+                                        <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
+                                            fill="#3F424E" />
+                                    </svg></span>
+                                <p class="font-HG text-[14px] 3xl:text-[16px] leading-normal text-[#3F424E]">
+                                    Phát hành cổ phiếu thưởng cho cổ đông hiện hữu
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-[10px]">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
+                                        fill="none">
+                                        <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
+                                            fill="#3F424E" />
+                                    </svg></span>
+                                <p class="font-HG text-[14px] 3xl:text-[16px] leading-normal text-[#3F424E]">
+                                    Mua/ bán cổ phiếu quỹ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:flex md:flex-col md:gap-4 md:items-start 3xl:w-1/3">
+                    <p
+                        class="font-BG text-[16px] xl:text-[24px] 3xl:text-[32px] text-[#15171E] leading-normal hidden md:block font-semibold xl:w-2/3">
+                        Hỗ trợ
+                        doanh
+                        nghiệp các vấn đề thường
+                        niên
+                    </p>
+                    <div class="btn-wrapper flex gap-5 sm:gap-3 items-center animate-ups__item">
+                        <div class="inline-flex">
+                            <nuxt-link to="/" class="btn active group ">
+                                <span class="text-[10px] sm:text-[12px] xl:text-[14px] "> Liên hệ tư vấn </span>
+                                <div class="inline-flex 3xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
+                                    <i class="w-full h-full group-hover:inline-flex hidden absolute">
+                                        <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
+                                            alt="UPS" />
+                                    </i>
+                                    <i class="w-full h-full group-hover:hidden inline-flex absolute">
+                                        <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16"
+                                            alt="UPS" />
+                                    </i>
+                                </div>
+                            </nuxt-link>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="relative w-full h-[260px] xl:min-h-[440px] 2xl:min-h-[480px] ">
+            <nuxt-img src="/images/tuvan-1.jpg"
+                class="absolute w-full h-full object-cover rounded-[16px] 3xl:rounded-[40px]" />
         </div>
         <!-- niem-yet -->
         <niemYet />
-    </div>
-    <!-- ho-tro-doanh-nghiep -->
-    <div
-        class="3xl:px-[160px] 2xl:px-[120px] xl:px-[100px] 3xl:py-[60px] xl:py-[40px] 3xl:gap-[120px] xl:gap-5 flex items-end border bg-gradient-to-r from-cyan-400 to-green-300 my-[60px]">
-        <div class="flex 3xl:w-[580px] flex-col items-start 3xl:gap-10 xl:gap-[28px] xl:w-1/3">
-            <p class="font-BG 2xl:text-[32px] xl:text-[28px] leading-normal">Hỗ trợ doanh nghiệp các vấn đề thường niên
-            </p>
-            <div class="btn-wrapper flex gap-5 sm:gap-3 items-center animate-ups__item">
-                <div class="inline-flex">
-                    <nuxt-link to="/" class="btn active group ">
-                        <span class="text-[10px] sm:text-[12px] xl:text-[14px] "> Liên hệ tư vấn </span>
-                        <div class="inline-flex 3xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
-                            <i class="w-full h-full group-hover:inline-flex hidden absolute">
-                                <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
-                                    alt="UPS" />
-                            </i>
-                            <i class="w-full h-full group-hover:hidden inline-flex absolute">
-                                <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
-                            </i>
-                        </div>
-                    </nuxt-link>
-                </div>
-            </div>
-        </div>
-        <div class="flex items-start 3xl:gap-6  xl:w-2/3 xl:gap-3">
-            <ul class="flex-1 flex flex-col gap-4 ">
-                <li class="font-HG 3xl:text-[16px] 2xl:text-[14px] leading-normal">Tư vấn thường niên về lĩnh vực chứng
-                    khoán
-                </li>
-                <li class="font-HG 3xl:text-[16px] 2xl:text-[14px] leading-normal">Hỗ trợ về công bố thông tin phù hợp
-                    với pháp
-                    luật
-                </li>
-                <li class="font-HG 3xl:text-[16px] 2xl:text-[14px] leading-normal">Hỗ trợ tổ chức đại hội đồng thường
-                    niên và
-                    bất thường
-                </li>
-
-                <li class="font-HG 3xl:text-[16px] 2xl:text-[14px] leading-normal">Hỗ trợ soạn thảo tài liệu họp ĐHCĐ
-                </li>
-
-            </ul>
-            <ul class="flex-1 flex flex-col gap-4 ">
-                <li class="font-HG 3xl:text-[16px] 2xl:text-[14px] leading-normal">Tư vấn bầu lại Hội đồng quản trị, ban
-                    kiểm
-                    soát
-                </li>
-                <li class="font-HG 3xl:text-[16px] 2xl:text-[14px] leading-normal">Trả cổ tức bằng tiền mặt hoặc cổ
-                    phiếu
-                </li>
-                <li class="font-HG 3xl:text-[16px] 2xl:text-[14px] leading-normal">Phát hành cổ phiếu thưởng cho cổ đông
-                    hiện
-                    hữu
-                </li>
-
-                <li class="font-HG 3xl:text-[16px] 2xl:text-[14px] leading-normal">Mua/ bán cổ phiếu quỹ
-                </li>
-
-            </ul>
-        </div>
-    </div>
-    <!-- doi tac -->
-    <div class="3xl:py-[100px] layout">
-        <div class="flex justify-center items-center gap-4 pb-[50px]">
-            <h3
-                class="animate-ups__item text-[#01C159] font-BG text-[20px] md:text-[32px] xl:text-[60px] text-center lg:text-left font-semibold leading-[1 text-[52px] font-semibold">
-                Đối tác của
-            </h3>
-            <div class="inline-flex relative w-[80px] h-[40px] md:w-[145px] md:h-[66px] xl:w-[132px] xl:h-[60px] mt-2">
-                <nuxt-img format="webp" loading="lazy" alt="UPS" width="132" height="60" src="/logo/logo-cap-dark.png"
-                    class="animate-ups__item absolute w-full h-full object-cover" />
-            </div>
-        </div>
-        <client-only>
-            <vue3-marquee :duration="50" :gradient="true" :gradient-color="[255, 255, 255]" gradient-length="20%">
-                <div v-for="doc in 8" :key="doc" class="mx-[80px] group py-2">
-                    <nuxt-img format="webp" loading="lazy" alt="UPS" height="60" :src="`/partner/partner-0${doc}.png`"
-                        class="cursor-pointer object-contain transition-all duration-200 grayscale group-hover:grayscale-0 group-hover:scale-110" />
-                </div>
-            </vue3-marquee>
-        </client-only>
-    </div>
-    <!-- end -->
-    <div
-        class=" 3xl:py-[100px] 3xl:px-[400px]  flex items-center justify-center xl:w-full xl:my-[60px] 2xl:px-[300px] 2xl:py-[75px] xl:px-[260px] xl:py-[60px]">
-        <div
-            class="flex 3xl:h-[320px] 2xl:h-[240px] xl:h-[220px] 3xl:p-[32px] 2xl:p-6 flex-col items-start xl:rounded-[24px] justify-between bg-gradient-to-r from-gray-200 via-gray-200 to-transparent border xl:flex-1 xl:p-5">
-            <img src="/logo/logo-row.png" alt="abc" class="w-4 h-4">
-            <div class="flex flex-col gap-4 items-start">
-                <p class="font-BG 3xl:text-[24px] 2xl:text-[18px] xl:text-[16px] font-semibold leading-normal">Bộ phận
-                    ngân hàng đầu tư
-                </p>
-                <div class="flex items-center gap-3">
-                    <img src="/icons/sms-tracking.svg" alt="" class="2xl:w-[18px] 2xl:h-[18px] xl:w-[16px] xl:h-[16px]">
-                    <p class="font-BG 3xl:text-[18px] 2xl:text-[14px] leading-normal">investmentbanking@upse.com.vn</p>
-                </div>
-                <div class="flex items-center gap-3">
-                    <img src="/icons/call.svg" alt="" class="2xl:w-[18px] 2xl:h-[18px] xl:w-[16px] xl:h-[16px]">
-                    <p class="font-BG 3xl:text-[18px] xl:text-[14px] leading-normal">(024) 3944 6666</p>
-                </div>
-                <div class="flex items-center gap-3">
-                    <img src="/icons/location.svg" alt="" class="2xl:w-[18px] 2xl:h-[18px] xl:w-[16px] xl:h-[16px]">
-                    <p class="font-BG 3xl:text-[18px] xl:text-[14px] leading-normal">Tầng 8, Toà nhà 11B Cát Linh, Đống
-                        Đa, Hà
-                        Nội</p>
-                </div>
-            </div>
-        </div>
-        <div class="relative xl:w-1/2 top-0 3xl:right-[100px] 2xl:right-[50px] xl:right-[40px]">
-            <div
-                class="flex 3xl:p-[32px] 2xl:p-6 xl:p-5 items-end flex-col justify-between rounded-[24px] bg-gradient-to-r from-cyan-400 to-green-300 border xl:h-[220px] 3xl:h-[320px] 2xl:h-[240px] ">
-                <div class="xl:w-full ">
-                    <p
-                        class="font-BG 3xl:text-[40px] 2xl:text-[32px] xl:text-[28px] font-semibold leading-normal text-white">
-                        Tư vấn
-                        <br /> tài
-                        chính
-                        doanh
-                        nghiệp
-                    </p>
-                    <p class="font-BG 3xl:text-[40px] 2xl:text-[32px] xl:text-[28px] font-semibold leading-normal">ngay
-                        hôm nay</p>
-                </div>
-                <div class="btn-wrapper flex gap-5 sm:gap-3 items-center animate-ups__item">
-                    <div class="inline-flex">
-                        <nuxt-link to="/" class="btn active group ">
-                            <span class="text-[10px] sm:text-[12px] xl:text-[14px] "> Liên hệ tư vấn </span>
-                            <div class="inline-flex 3xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
-                                <i class="w-full h-full group-hover:inline-flex hidden absolute">
-                                    <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
-                                        alt="UPS" />
-                                </i>
-                                <i class="w-full h-full group-hover:hidden inline-flex absolute">
-                                    <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16"
-                                        alt="UPS" />
-                                </i>
-                            </div>
-                        </nuxt-link>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </template>
 
