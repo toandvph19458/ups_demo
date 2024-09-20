@@ -115,12 +115,14 @@
               },
             }">
             <swiper-slide >
-              <div class="animate-ups__item w-full h-[350px] relative group overflow-hidden">
+              <div class="animate-ups__item w-full h-[380px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepdat.png"
-                    class="w-full  object-cover transition-all duration-300 object-center" />
+                    class="w-full  object-cover transition-all duration-300 object-center " />
                 </div>
+                <div class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
 
+</div>
                 <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
                   <div class="">
                     <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />
@@ -137,12 +139,14 @@
             </swiper-slide>
 
             <swiper-slide >
-              <div class="animate-ups__item w-full h-[350px] relative group overflow-hidden">
+              <div class="animate-ups__item w-full h-[380px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepnam.png"
                     class="w-full  object-cover transition-all duration-300 object-center" />
                 </div>
+                <div class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
 
+</div>
                 <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
                   <div class="">
                     <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />
@@ -158,12 +162,14 @@
               </div>
             </swiper-slide>
             <swiper-slide >
-              <div class="animate-ups__item w-full h-[350px] relative group overflow-hidden">
+              <div class="animate-ups__item w-full h-[380px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepchien.png"
                     class="w-full  object-cover transition-all duration-300 object-center" />
                 </div>
+                <div class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
 
+</div>
                 <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
                   <div class="">
                     <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />

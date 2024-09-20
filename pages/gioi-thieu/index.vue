@@ -6,19 +6,6 @@
         <div class="px-0 lg:px-10 xl:px-20">
           <div class="pb-5 xl:pb-10 3xl:pb-14">
             <div class="flex justify-between">
-              <!-- <div
-                class="animate-about__item inline-flex relative w-[90px] pt-[10%] md:w-[86px] xl:w-[115px] 2xl:w-[128px] 3xl:w-[173px] md:pt-[5%]">
-                <nuxt-img format="webp" loading="lazy" height="78" alt="UPS" src="/logo/logo-cap-green.png"
-                  class="absolute top-0 left-0 w-full h-full object-contain" />
-              </div> -->
-
-              <!-- <div
-                class="hidden w-[48px] h-[48px] xl:w-[90px] xl:h-[90px] md:inline-flex items-center justify-center bg-[#15171E] rounded-full animate-about__item">
-                <div class="w-5 h-5 xl:w-10 xl:h-10 relative inline-flex">
-                  <nuxt-img format="webp" loading="lazy" height="40" alt="UPS" src="/logo/logo-row.png"
-                    class="animate-about__item absolute w-full h-full object-contain" />
-                </div>
-              </div> -->
             </div>
 
             <h2
@@ -39,15 +26,6 @@
 
         <div
           class="animate-about__item w-full h-[200px] md:h-[400px] xl:h-[700px] relative rounded-[18px] lg:rounded-[24px] overflow-hidden">
-          <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wwOWbN09Kkc?si=jQVujZYq4CnmT01-"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="absolute w-full h-full"></iframe> -->
-          <!-- <nuxt-img
-            format="gif"
-            src="/public/images/vechungtoi.gif"
-            class="absolute object-cover w-full h-full"
-          /> -->
           <img src="/public/images/vechungtoi.gif" alt="" class="absolute object-cover w-full h-full" />
         </div>
       </div>
@@ -104,20 +82,124 @@
           </div>
 
         </div>
-      </div>
+      </div>/
     </section>
-
-
 
 
     <!-- SECTION VALUE -->
     <section class="container">
-      <!-- <div class="relative w-[300px]">
-        <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/icons/line-icon.svg"
-          class="absolute top-0 left-1/2 2xl:-translate-x-[67px] 3xl:-translate-x-[14px] w-full h-auto object-cover transition-all duration-300 group-hover:scale-110" />
-      </div> -->
+      <div class="py-[40px] md:pt-[100px] md:pb-[40px] lg:pt-[120px] lg:pb-[60px] xl:pt-[160px] xl:pb-[100px] 3xl:pt-[200px] 3xl:pb-[140px]">
+        <div class="flex justify-center items-center">
 
-      <div class="grid grid-cols-12 gap-y-10 md:gap-0 py-10 md:pb-[80px] md:pt-[175px] xl:pb-[100px] xl:pt-[182px] 2xl:pt-[228px] 3xl:pb-[160px] 3xl:pt-[262px] ">
+        </div>
+        <div class="grid grid-cols-12 gap-y-16 md:gap-6 xl:gap-8 2xl:gap-[40px] 3xl:gap-[80px]">
+
+          <div class="col-span-full md:col-span-4 flex flex-col items-center gap-2 lg:gap-3 3xl:gap-5 md:-translate-y-1/3 order-1 md:order-2">
+            <div
+              class="animate-about__item inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]">
+              <nuxt-img format="webp" loading="lazy" width="173" height="78" alt="UPS" src="/logo/logo-cap-dark.png"
+                class="absolute w-full h-full object-contain" />
+            </div>
+
+            <div class="space-y-1">
+              <h3
+                class="animate-about__item text-[24px] md:text-[32px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-[#000] text-center font-bold font-BG">
+                Giá trị cốt lõi
+              </h3>
+
+              <p
+                class="animate-about__item max-w-[685px] text-sm 2xl:text-base 3xl:text-xl text-[#000] text-center font-semibold">
+                Những nguyên tắc cơ bản, những giá trị quan trọng mà UPS và các
+                thành viên cam kết thực hiện
+              </p>
+            </div>
+
+          </div>
+
+          <div
+            class="col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#0AB157] order-2 md:order-1">
+
+            <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
+
+              <div
+                class="absolute -top-1/2 left-1/2 -translate-x-1/2 h-full w-12 xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px]  inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
+                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-01.svg"
+                    class="absolute w-full h-full object-contain" />
+                </div>
+              </div>
+            </div>
+            <div class="space-y-2 xl:space-y-4">
+              <h4
+                class="text-base md:text-lg xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center leading-normal font-bold font-BG">
+                Sáng tạo
+              </h4>
+              <p class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center">
+                Tiên phong trong công nghệ tài chính, mang đến giải pháp đầu tư đột phá và khác biệt, giúp khách hàng
+                trải nghiệm đầu tư một cách dễ dàng và thú vị.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-span-full md:col-span-4 p-6 pt-0  md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#0AB157] order-3">
+
+            <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
+
+              <div
+                class="absolute -top-1/2 left-1/2 -translate-x-1/2 h-full w-12 xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px]  inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
+                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-01.svg"
+                    class="absolute w-full h-full object-contain" />
+                </div>
+              </div>
+            </div>
+            <div class="space-y-2 xl:space-y-4">
+              <h4
+                class="text-base md:text-lg xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center leading-normal font-bold font-BG">
+                Sáng tạo
+              </h4>
+              <p class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center">
+                Tiên phong trong công nghệ tài chính, mang đến giải pháp đầu tư đột phá và khác biệt, giúp khách hàng
+                trải nghiệm đầu tư một cách dễ dàng và thú vị.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="md:col-start-5 col-span-full md:col-span-4 p-6 pt-0  md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#0AB157] order-4">
+
+            <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
+
+              <div
+                class="absolute -top-1/2 left-1/2 -translate-x-1/2 h-full w-12 xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px]  inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
+                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-01.svg"
+                    class="absolute w-full h-full object-contain" />
+                </div>
+              </div>
+            </div>
+            <div class="space-y-2 xl:space-y-4">
+              <h4
+                class="text-base md:text-lg xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center leading-normal font-bold font-BG">
+                Sáng tạo
+              </h4>
+              <p class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center">
+                Tiên phong trong công nghệ tài chính, mang đến giải pháp đầu tư đột phá và khác biệt, giúp khách hàng
+                trải nghiệm đầu tư một cách dễ dàng và thú vị.
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION VALUE -->
+    <!-- <section class="container">
+      <div
+        class="grid grid-cols-12 gap-y-10 md:gap-0 py-10 md:pb-[80px] md:pt-[175px] xl:pb-[100px] xl:pt-[182px] 2xl:pt-[228px] 3xl:pb-[160px] 3xl:pt-[262px] ">
 
         <div class="col-span-full md:col-span-4 flex gap-4 md:gap-0 xl:gap-0 flex-col items-center md:items-start">
           <div class="w-[80%] 3xl:w-[70%] text-center md:text-start">
@@ -158,32 +240,8 @@
         </div>
 
         <div class="col-span-full md:col-span-8 grid grid-cols-12 relative gap-6 md:gap-0">
-          <!-- <div class="absolute top-0 left-1/2 -translate-y-1/2 hidden md:inline-flex xl:inline-flex -translate-x-1/2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="282" height="1075" viewBox="0 0 282 1075" fill="none">
-              <path id="path1"
-                d="M281 1075L281 290.893C281 266.223 265.9 244.068 242.939 235.048L39.0609 154.952C16.0998 145.932 1.00001 123.777 1.00002 99.1074L1.00006 0"
-                stroke="#02E56A" stroke-width="2" />
-              <path id="path2"
-                d="M281 1075L281 290.893C281 266.223 265.9 244.068 242.939 235.048L39.0609 154.952C16.0998 145.932 1.00001 123.777 1.00002 99.1074L1.00006 0"
-                stroke="url(#paint0_radial_530_1358)" stroke-width="2" />
-              <defs>
-                <radialGradient id="paint0_radial_530_1358" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-                  gradientTransform="translate(271.5 652) rotate(45) scale(902.975 3572.28)">
-                  <stop stop-color="#02E56A" />
-                  <stop offset="1" stop-color="#0F281A" />
-                </radialGradient>
-              </defs>
-            </svg>
-          </div> -->
-
-          <!-- <div class="absolute top-0 left-0 pl-[50%] h-[260px]">
-            <div class="relative w-fit h-full">
-  
-              <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/icons/line-icon.svg"
-                class="absolute top-0 left-1/2 2xl:-translate-x-[67px] 3xl:-translate-x-[14px] w-[300px] h-auto object-cover transition-all duration-300 group-hover:scale-110" />
-            </div>
-          </div> -->
-          <div class="absolute top-0 right-1/2 -translate-y-full md:translate-x-[1px] xl:translate-x-[1px] 3xl:translate-x-[2px]">
+          <div
+            class="absolute top-0 right-1/2 -translate-y-full md:translate-x-[1px] xl:translate-x-[1px] 3xl:translate-x-[2px]">
             <div class="relative w-0 md:w-[200px] xl:w-[208px] 2xl:w-[260px] 3xl:w-[300px] pt-[88%]">
               <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/icons/line-icon.svg"
                 class="absolute top-0 left-0 w-full h-full object-contain" />
@@ -191,34 +249,12 @@
           </div>
 
 
-          <div class="hidden md:block absolute top-0 left-1/2 -translate-x-1/2 w-[1.5px] 3xl:w-[2px] h-full z-10 bg-green-500">
+          <div
+            class="hidden md:block absolute top-0 left-1/2 -translate-x-1/2 w-[1.5px] 3xl:w-[2px] h-full z-10 bg-green-500">
             <div class="relative w-full h-full">
               <div class="absolute top-0 left-0 w-full h-full bg-green-500"></div>
             </div>
           </div>
-
-          <!-- <div class="absolute top-0 left-1/2 w-[1px] h-full z-10">
-            <div class="relative w-full h-full">
-              <div class="absolute top-0 left-0 w-full h-full bg-green-500"></div>
-
-              <div
-                class="absolute right-0 top-0 -translate-y-full w-[40px] h-[80px] border-r-[1px] border-t-[1px] border-green-500 rounded-tr-[500px]">
-              </div>
-
-
-              <div
-                class="absolute left-[0px] bottom-[150px] w-[50px] h-[1px] rotate-[45deg] origin-bottom-left bg-green-500">
-              </div>
-
-              <div
-                class="absolute left-[50px] bottom-[100px] w-[50px] h-[50px] border-l-[1px] border-b-[1px] border-green-500 rounded-bl-full">
-              </div>
-
-              <div class="absolute left-[-50px] bottom-[250px] w-[1px] h-[50px] bg-green-500"></div>
-            </div>
-          </div> -->
-
-
 
 
           <div class="col-span-6 animate-about__item group">
@@ -448,7 +484,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- SECTION EMPLOYEE -->
     <employee />
@@ -779,6 +815,25 @@ export default defineComponent({
       });
     });
 
+    // Function to handle mouse movement
+    function handleMouseMove(e: any, card: any) {
+      console.log(123);
+
+      const rect = card.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left - rect.width / 2;
+      const mouseY = e.clientY - rect.top - rect.height / 2;
+      let angle = Math.atan2(mouseY, mouseX) * (180 / Math.PI);
+      angle = (angle + 360) % 360;
+      card.style.setProperty("--start", angle + 60);
+    }
+
+    onMounted(() => {
+      const cardsEl = document.querySelectorAll(".card");
+      cardsEl.forEach((card: any) => {
+        card.addEventListener("mousemove", (e: any) => handleMouseMove(e, card));
+      });
+    });
+
     return {
       cn,
       SwiperNavigation,
@@ -787,4 +842,76 @@ export default defineComponent({
 });
 </script>
 
-<style></style>
+<style scoped>
+.card {
+  --start: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.card::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  border: 2px solid transparent;
+  background: conic-gradient(from 90deg at 50% 50%, #02e56a, #ffffff);
+  background-attachment: fixed;
+  mask: linear-gradient(#0000, #0000),
+    conic-gradient(from calc((var(--start) - (20 * 1.1)) * 1deg), #ffffff1f 0deg, white, #ffffff00 100deg);
+  mask-composite: intersect;
+  mask-clip: padding-box, border-box;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.glow {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(14px);
+}
+
+.glow::before {
+  position: absolute;
+  content: "";
+  width: 98%;
+  height: 98%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  border: 2px solid transparent;
+  background: conic-gradient(from 90deg at 50% 50%, #02e56a, #ffffff);
+  background-attachment: fixed;
+  mask: linear-gradient(#0000, #0000),
+    conic-gradient(from calc((var(--start) - (20 * 1.1)) * 1deg), #ffffff1f 0deg, white, #ffffff00 100deg);
+  mask-composite: intersect;
+  mask-clip: padding-box, border-box;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.card:hover>.glow::before {
+  opacity: 1;
+}
+
+.card:hover::before {
+  opacity: 0.6;
+}
+</style>

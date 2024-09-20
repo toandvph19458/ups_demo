@@ -12,7 +12,7 @@
 			</h3>
 
 			<p
-				class="animate-ups__item text-xs md:text-sm lg:text-base 3xl:text-xl text-center lg:text-left font-bold mt-3 text-white opacity-90 leading-[1]"
+				class="animate-ups__item text-sm lg:text-base 3xl:text-xl text-center lg:text-left font-bold mt-3 text-white opacity-90 leading-[1]"
 			>
 				Vinh dự đồng hành cùng
 				<span class="text-[#02D060]">hàng triệu nhà đầu tư</span>

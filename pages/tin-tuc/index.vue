@@ -6,9 +6,9 @@
 					class="text-[32px] md:text-[54px] 2xl:text-[60px] 3xl:text-[80px] text-black font-bold font-BG leading-tight">
 					Tin tức</h2>
 				<div
-					class="animate-about__item inline-flex relative  pt-[10%] xl:pt-[5%] w-[80px] md:w-[134px] 2xl:w-[150px] 3xl:w-[200px]">
+					class="animate-about__item inline-flex items-center relative  pt-[10%] xl:pt-[5%] w-[70px] md:w-[120px] 2xl:w-[150px] 3xl:w-[170px] 3xl:mt-2">
 					<nuxt-img format="webp" loading="lazy" height="78" alt="UPS" src="/logo/logo-cap-green.png"
-						class="absolute top-0 left-0 w-full h-full object-contain" />
+						class="absolute top-1/2 -translate-y-1/2 left-0 w-full h-full object-contain" />
 				</div>
 			</div>
 
@@ -331,24 +331,39 @@
 
 
 					<div class="flex flex-col gap-4 2xl:gap-5 3xl:gap-[30px]">
-						<div class="pb-4 2xl:pb-5 3xl:pb-[30px] border-b-[1px] border-[#DFDFDF] flex flex-col gap-[10px] xl:gap-3 2xl:gap-4 3xl:gap-5">
-							<div class="font-semibold text-sm xl:text-base 2xl:text-lg 3xl:text-2xl">Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
+						<div
+							class="pb-4 2xl:pb-5 3xl:pb-[30px] border-b-[1px] border-[#DFDFDF] flex flex-col gap-[10px] xl:gap-3 2xl:gap-4 3xl:gap-5">
+							<div class="font-semibold text-sm xl:text-base 2xl:text-lg 3xl:text-2xl">Ông Trump nói về
+								lạm phát, chỉ
+								trích bà Harris trong cuộc vận động tranh cử ở Bắc
 								Carolina</div>
-							<div class="font-medium text-[#696B75] text-sm md:text-sm 2xl:text-base 3xl:text-xl">Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina</div>
-						</div>
-
-						<div class="pb-4 2xl:pb-5 3xl:pb-[30px] border-b-[1px] border-[#DFDFDF] flex flex-col gap-[10px] xl:gap-3 2xl:gap-4 3xl:gap-5">
-							<div class="font-semibold text-sm xl:text-base 2xl:text-lg 3xl:text-2xl">Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina</div>
-							<div class="font-medium text-[#696B75] text-sm md:text-sm 2xl:text-base 3xl:text-xl">Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
+							<div class="font-medium text-[#696B75] text-sm md:text-sm 2xl:text-base 3xl:text-xl">Ông
+								Trump nói về lạm
+								phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
 								Carolina</div>
 						</div>
 
-						<div class="pb-4 2xl:pb-5 3xl:pb-[30px] border-b-[1px] border-[#DFDFDF] flex flex-col gap-[10px] xl:gap-3 2xl:gap-4 3xl:gap-5">
-							<div class="font-semibold text-sm xl:text-base 2xl:text-lg 3xl:text-2xl">Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
+						<div
+							class="pb-4 2xl:pb-5 3xl:pb-[30px] border-b-[1px] border-[#DFDFDF] flex flex-col gap-[10px] xl:gap-3 2xl:gap-4 3xl:gap-5">
+							<div class="font-semibold text-sm xl:text-base 2xl:text-lg 3xl:text-2xl">Ông Trump nói về
+								lạm phát, chỉ
+								trích bà Harris trong cuộc vận động tranh cử ở Bắc
 								Carolina</div>
-							<div class="font-medium text-[#696B75] text-sm md:text-sm 2xl:text-base 3xl:text-xl">Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
+							<div class="font-medium text-[#696B75] text-sm md:text-sm 2xl:text-base 3xl:text-xl">Ông
+								Trump nói về lạm
+								phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
+								Carolina</div>
+						</div>
+
+						<div
+							class="pb-4 2xl:pb-5 3xl:pb-[30px] border-b-[1px] border-[#DFDFDF] flex flex-col gap-[10px] xl:gap-3 2xl:gap-4 3xl:gap-5">
+							<div class="font-semibold text-sm xl:text-base 2xl:text-lg 3xl:text-2xl">Ông Trump nói về
+								lạm phát, chỉ
+								trích bà Harris trong cuộc vận động tranh cử ở Bắc
+								Carolina</div>
+							<div class="font-medium text-[#696B75] text-sm md:text-sm 2xl:text-base 3xl:text-xl">Ông
+								Trump nói về lạm
+								phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
 								Carolina</div>
 						</div>
 					</div>

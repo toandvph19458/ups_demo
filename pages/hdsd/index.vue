@@ -21,72 +21,91 @@
 
 		<!-- CHI TIẾT -->
 		<div class="container">
-			<div class="py-16 flex flex-col xl:flex-row gap-10 xl:gap-10 justify-between">
-				<!-- TOGGLE -->
-				<div class="flex items-center xl:hidden">
-					<Drawer direction="left">
-						<DrawerTrigger as-child>
-							<div class="flex items-center">
-								<div class="inline-flex w-6 h-6 relative">
-									<nuxt-img
-										format="webp"
-										loading="lazy"
-										src="/icons/filter-icon.svg"
-										alt="UPS"
-										class="absolute w-full h-full object-contain"
-									/>
-								</div>
-
-								<p class="ml-3 text-lg text-black underline font-bold font-BG">Hướng dẫn giao dịch</p>
+			<!-- TOGGLE -->
+			<div class="flex items-center xl:hidden mt-10">
+				<Drawer direction="left">
+					<DrawerTrigger as-child>
+						<div class="flex items-center">
+							<div class="inline-flex w-6 h-6 relative">
+								<nuxt-img
+									format="webp"
+									loading="lazy"
+									src="/icons/filter-icon.svg"
+									alt="UPS"
+									class="absolute w-full h-full object-contain"
+								/>
 							</div>
-						</DrawerTrigger>
-						<DrawerContent class="z-[101]">
-							<div class="w-full h-screen px-6 py-5">
-								<DrawerClose as-child>
-									<div class="flex items-center">
-										<div class="inline-flex w-6 h-6 relative">
-											<nuxt-img
-												format="webp"
-												loading="lazy"
-												src="/icons/close-icon.svg"
-												alt="UPS"
-												class="absolute w-full h-full object-contain"
-											/>
-										</div>
 
-										<p class="ml-3 text-lg text-black font-bold font-BG">Hướng dẫn giao dịch</p>
-									</div>
-								</DrawerClose>
-
-								<div class="">
-									<div class="mt-5 flex items-center relative">
-										<nuxt-input
-											class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
-											placeholder="Tìm kiếm"
-											name="fullname"
+							<p class="ml-3 text-lg text-black underline font-bold font-BG">Hướng dẫn giao dịch</p>
+						</div>
+					</DrawerTrigger>
+					<DrawerContent class="z-[101]">
+						<div class="w-full h-screen px-6 py-5">
+							<DrawerClose as-child>
+								<div class="flex items-center">
+									<div class="inline-flex w-6 h-6 relative">
+										<nuxt-img
+											format="webp"
+											loading="lazy"
+											src="/icons/close-icon.svg"
+											alt="UPS"
+											class="absolute w-full h-full object-contain"
 										/>
-										<div class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"></div>
 									</div>
-								</div>
 
-								<div class="mt-10">
-									<ScrollArea class="w-full h-[calc(100vh-200px)]">
-										<Accordion
-											type="single"
-											class="w-full"
-											collapsible
-											:default-value="defaultValue"
+									<p class="ml-3 text-lg text-black font-bold font-BG">Hướng dẫn giao dịch</p>
+								</div>
+							</DrawerClose>
+
+							<div class="">
+								<div class="mt-5 flex items-center relative">
+									<nuxt-input
+										class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
+										placeholder="Tìm kiếm"
+										name="fullname"
+									/>
+									<div class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"></div>
+								</div>
+							</div>
+
+							<div class="mt-10">
+								<ScrollArea class="w-full h-[calc(100vh-200px)]">
+									<Accordion
+										type="single"
+										class="w-full"
+										collapsible
+										:default-value="defaultValue"
+									>
+										<AccordionItem
+											v-for="(item, index) in data?.dataDocument?.instruction_structure"
+											:key="item.slug"
+											:value="item.slug"
 										>
-											<AccordionItem
-												v-for="(item, index) in data?.dataDocument?.instruction_structure"
-												:key="item.slug"
-												:value="item.slug"
-											>
-												<AccordionTrigger>
-													<div
-														v-if="item?.documents && item?.documents.length > 0"
-														class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
-													>
+											<AccordionTrigger>
+												<div
+													v-if="item?.documents && item?.documents.length > 0"
+													class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
+												>
+													<div class="flex items-center">
+														<div
+															class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
+														>
+															{{ `${index + 1}` }}
+														</div>
+														<p
+															class="flex-1 w-full h-full px-5 text-lg text-black font-bold line-clamp-1"
+														>
+															{{ item.title }}
+														</p>
+													</div>
+												</div>
+
+												<nuxt-link
+													v-else
+													:to="`/hdsd#${item?.slug}`"
+													class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
+												>
+													<DrawerClose as-child>
 														<div class="flex items-center">
 															<div
 																class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
@@ -99,97 +118,55 @@
 																{{ item.title }}
 															</p>
 														</div>
-													</div>
+													</DrawerClose>
+												</nuxt-link>
 
+												<template #icon> <div></div></template>
+											</AccordionTrigger>
+											<AccordionContent v-if="item.documents && item.documents.length > 0">
+												<DrawerClose
+													v-for="(sub, k) in item.documents"
+													:key="k"
+													as-child
+												>
 													<nuxt-link
-														v-else
-														:to="`/hdsd#${item?.slug}`"
-														class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
+														:to="`/hdsd#${sub?.document?.slug}`"
+														class="ml-11 flex flex-col gap-3"
 													>
-														<DrawerClose as-child>
-															<div class="flex items-center">
-																<div
-																	class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
-																>
-																	{{ `${index + 1}` }}
-																</div>
-																<p
-																	class="flex-1 w-full h-full px-5 text-lg text-black font-bold line-clamp-1"
-																>
-																	{{ item.title }}
-																</p>
-															</div>
-														</DrawerClose>
-													</nuxt-link>
-
-													<template #icon> <div></div></template>
-												</AccordionTrigger>
-												<AccordionContent v-if="item.documents && item.documents.length > 0">
-													<DrawerClose
-														v-for="(sub, k) in item.documents"
-														:key="k"
-														as-child
-													>
-														<nuxt-link
-															:to="`/hdsd#${sub?.document?.slug}`"
-															class="ml-11 flex flex-col gap-3"
+														<div
+															class="flex items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
 														>
 															<div
-																class="flex items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
+																class="w-11 h-11 inline-flex items-center justify-center"
 															>
 																<div
-																	class="w-11 h-11 inline-flex items-center justify-center"
-																>
-																	<div
-																		class="w-2 h-2 inline-flex bg-[#15171E] rounded-full"
-																	></div>
-																</div>
-
-																<p class="text-lg text-black font-bold">
-																	{{ sub?.document?.title }}
-																</p>
+																	class="w-2 h-2 inline-flex bg-[#15171E] rounded-full"
+																></div>
 															</div>
-														</nuxt-link>
-													</DrawerClose>
-												</AccordionContent>
-											</AccordionItem>
-										</Accordion>
-									</ScrollArea>
-								</div>
+
+															<p class="text-lg text-black font-bold">
+																{{ sub?.document?.title }}
+															</p>
+														</div>
+													</nuxt-link>
+												</DrawerClose>
+											</AccordionContent>
+										</AccordionItem>
+									</Accordion>
+								</ScrollArea>
 							</div>
-						</DrawerContent>
-					</Drawer>
-				</div>
-				<div class="hidden xl:block w-[350px]">
+						</div>
+					</DrawerContent>
+				</Drawer>
+			</div>
+
+			<div class="py-8 md:py-10 lg:py-12 grid grid-cols-12 gap-10 2xl:gap-[60px]">
+				<div class="xl:col-span-3 hidden xl:block">
 					<div class="">
 						<h4 class="text-xl text-black font-bold">Hướng dẫn sử dụng</h4>
 						<div class="mt-5 flex items-center relative">
-							<!-- <i>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="25"
-									viewBox="0 0 24 25"
-									fill="none"
-								>
-									<path
-										d="M11.5 21.5C16.7467 21.5 21 17.2467 21 12C21 6.75329 16.7467 2.5 11.5 2.5C6.25329 2.5 2 6.75329 2 12C2 17.2467 6.25329 21.5 11.5 21.5Z"
-										stroke="#A3A3A3"
-										stroke-width="1.5"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-									/>
-									<path
-										d="M22 22.5L20 20.5"
-										stroke="#A3A3A3"
-										stroke-width="1.5"
-										stroke-linecap="round"
-										stroke-linejoin="round"
-									/>
-								</svg>
-							</i> -->
 							<nuxt-input
-								class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
+								class="w-full h-[50px] pl-0 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] text-base placeholder:text-base"
 								placeholder="Tìm kiếm"
 								name="fullname"
 							/>
@@ -216,7 +193,7 @@
 										>
 											{{ `${index + 1}` }}
 										</div>
-										<p class="flex-1 w-full h-full px-5 text-lg text-black font-bold line-clamp-1">
+										<p class="flex-1 w-full h-full pl-5 text-lg text-black font-bold line-clamp-1">
 											{{ item.title }}
 										</p>
 									</div>
@@ -251,7 +228,8 @@
 						</Accordion>
 					</div>
 				</div>
-				<div class="flex-1 xl:flex-none w-full xl:w-[900px]">
+
+				<div class="col-span-full xl:col-span-9 3xl:col-span-7">
 					<!-- <div
 						v-for="(item, index) in data?.dataDocument?.instruction_structure"
 						:id="item?.slug"
@@ -276,7 +254,7 @@
 
 					<div
 						v-if="dataDetail?.documentDetail"
-						class="mt-4 md:mt-6"
+						class=""
 					>
 						<h5 class="text-[24px] text-black font-semibold font-BG">
 							{{ dataDetail?.documentDetail?.documents_by_id?.title }}
@@ -316,7 +294,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="hidden 3xl:flex gap-6 flex-col w-[200px]">
+
+				<div class="col-span-2 hidden 3xl:flex gap-6">
 					<div class="">
 						<h6 class="text-base text-black font-bold">Nội dung chính</h6>
 
@@ -346,21 +325,21 @@
 					</div>
 
 					<div class="p-4 rounded-[10px] round-[#C1C7DD] bg-[#F3F5FB]">
-						<h5 class="text-base text-black font-bold">Tôi muốn đọc nhiều hơn</h5>
-						<p class="text-sm text-[#535662] font-medium">
-							Đăng ký nhận thêm các hưỡng dẫn giao dịch tuyệt vời từ UPS qua email của bạn
+						<h5 class="text-base text-black font-bold">Tôi muốn nhận ưu đãi</h5>
+						<p class="text-sm text-[#535662] font-medium mt-1">
+							Đăng ký để nhận các thông tin chương trình ưu đãi mới nhất từ UPS qua email của bạn
 						</p>
 
 						<div class="my-4">
 							<nuxt-input
-								class="w-full h-[40px] px-6 text-[#535662] bg-[#ECEEF4] backdrop-blur-[20px] rounded-[40px] border-none focus:ring-0 placeholder:text-[#ADB2C0]"
+								class="w-full h-[40px] px-[10px] py-3 text-[#535662] bg-[#ECEEF4] backdrop-blur-[20px] rounded-[8px] border-none focus:ring-0 placeholder:text-[#ADB2C0]"
 								placeholder="abc@gmail.com"
 								name="email"
 							/>
 						</div>
 
 						<button
-							class="flex items-center justify-between w-full h-10 px-6 rounded-full bg-black text-green-ups group"
+							class="flex items-center justify-between w-full py-[10px] pl-[30px] pr-[24px] rounded-full bg-black text-green-ups group"
 						>
 							<span class="text-base font-semibold">Đăng ký</span>
 
@@ -436,7 +415,7 @@ export default defineComponent({
 		const { data } = useAsyncData("document", async () => {
 			const dataDocument = await instructionStructureStore.fnGetListInstructionStructure();
 			console.log(dataDocument.data?.data);
-			
+
 			return {
 				dataDocument: dataDocument.data?.data,
 			};
@@ -454,26 +433,21 @@ export default defineComponent({
 		const { data: dataDetail, refresh } = useAsyncData(
 			"detail-document",
 			async (ctx) => {
-				const documentDetail = await instructionStructureStore.fnGetDetailInstructionStructure(slug.value);
-
-				return {
-					documentDetail: documentDetail.data?.data,
-				};
+				if (slug.value) {
+					const documentDetail = await instructionStructureStore.fnGetDetailInstructionStructure(slug.value);
+					return { documentDetail: documentDetail.data?.data };
+				}
 			},
 			{
 				watch: [slug],
 			}
 		);
 
-		// Watch dữ liệu từ API lần đầu để tự động refresh khi có data
-		watch(
-			() => data.value,
-			(newData) => {
-				if (newData && slug.value) {
-					refresh(); // Gọi lại API chi tiết khi dữ liệu lần đầu đã có
-				}
+		onMounted(() => {
+			if (slug.value) {
+				refresh();
 			}
-		);
+		});
 
 		useHead({
 			title: "UPS - Hướng Dẫn Sử Dụng",
@@ -542,53 +516,51 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
-
 /* Custom style cho vùng content */
-.content-wrapper:deep(table)  {
-  border-collapse: collapse;
-  width: 100%;
+.content-wrapper:deep(table) {
+	border-collapse: collapse;
+	width: 100%;
 }
 
 .content-wrapper :deep(table),
 .content-wrapper :deep(th),
 .content-wrapper :deep(td) {
 	width: 100%;
-  border: 1px solid black;
+	border: 1px solid black;
 }
 
 .content-wrapper :deep(th),
 .content-wrapper :deep(td) {
 	width: 100%;
-  padding: 8px;
-  text-align: left;
+	padding: 8px;
+	text-align: left;
 }
 .content-wrapper :deep(*) {
-  /* all: revert; */
+	/* all: revert; */
 }
 
 .content-wrapper :deep(h1) {
-  font-size: 2em;
-  font-weight: bold;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
 }
 
 .content-wrapper :deep(h2) {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
 }
 
 .content-wrapper :deep(p) {
-  margin-top: 1em;
-  margin-bottom: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .content-wrapper :deep(a) {
-  color: blue;
-  text-decoration: underline;
+	color: blue;
+	text-decoration: underline;
 }
 
 /* Add more specific styles as needed */

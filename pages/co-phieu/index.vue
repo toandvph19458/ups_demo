@@ -519,7 +519,7 @@
             >
               Ưu đãi
             </h5>
-            <div class="absolute top-[0px] right-0 hidden group-hover:block">
+            <div class="absolute w-[350px] h-250px] bottom-0 hidden right-0 group-hover:block">
               <nuxt-img
                 src="/images/gift.png"
                 class="object-cover w-full h-full"
@@ -558,9 +558,9 @@
               Hướng dẫn<br />
               sử dụng
             </h5>
-            <div class="absolute top-[0px] right-0 hidden group-hover:block">
+            <div class="absolute w-[350px] h-250px] bottom-0 hidden right-0 group-hover:block">
               <nuxt-img
-                src="/images/gift.png"
+                src="/images/penchi.png"
                 class="object-cover w-full h-full"
               />
             </div>

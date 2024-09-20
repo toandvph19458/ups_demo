@@ -1,23 +1,14 @@
 <template>
-    <div class="container">
+  <div class="container">
     <div class="flex justify-center text-center mt-[100px]">
-      <div
-        class="inline-flex relative w-[125px] h-[56px] xl:w-[220px] xl:h-[70px]"
-      >
-        <nuxt-img
-          loading="lazy"
-          alt="UPS"
-          src="/logo/logo-cap-dark.png"
-          width="220"
-          height="100"
-          class="link absolute w-full h-full object-contain"
-        />
+      <div class="inline-flex relative w-[125px] h-[56px] xl:w-[220px] xl:h-[70px]">
+        <nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.png" width="220" height="100"
+          class="link absolute w-full h-full object-contain" />
       </div>
     </div>
     <div class="text-center mt-[30px] mb-[20px]">
       <h3
-        class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] xl:w-[968px] w-full mx-auto"
-      >
+        class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] xl:w-[968px] w-full mx-auto">
         {{ data && data.newDetail.title }}
       </h3>
     </div>
@@ -50,21 +41,13 @@
       </p>
     </div> -->
     <div class="flex justify-center text-center xl:my-[80px] my-[30px]">
-      <div
-        class="inline-flex relative w-[300px] h-[200px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]"
-      >
-        <nuxt-img
-          loading="lazy"
-          alt="UPS"
-          :src="config.NUXT_APP_IMAGE_URL+data?.newDetail.cover?.id"
-          class="link absolute w-full h-full object-cover rounded-2xl"
-        />
+      <div class="inline-flex relative w-[300px] h-[200px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]">
+        <nuxt-img loading="lazy" alt="UPS" :src="config.NUXT_APP_IMAGE_URL + data?.newDetail.cover?.id"
+          class="link absolute w-full h-full object-cover rounded-2xl" />
       </div>
     </div>
     <div class="xl:w-[1200px] w-full flex justify-center mx-auto">
-      <div
-        class="w-[327px] xl:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]"
-      >
+      <div class="w-[327px] xl:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]">
         <div class="text-left xl:w-[70%] lg:w-[70%] w-full">
           <!-- <p class="text-[#696B75] text-[18px] font-normal leading-[20px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -116,124 +99,76 @@
           <div class="content-wrapper" v-html="data?.newDetail.content"></div>
           <!-- Xem tài liệu -->
           <div class="container text-center mt-3">
-            <nuxt-link :to="config.NUXT_APP_IMAGE_URL+data?.newDetail.files[0].directus_files_id?.id" class="underline" target="_blank">Xem tài liệu</nuxt-link>
+            <nuxt-link :to="config.NUXT_APP_IMAGE_URL + data?.newDetail.files[0].directus_files_id?.id" class="underline"
+              target="_blank">Xem tài liệu</nuxt-link>
           </div>
           <div class="my-[30px]">
             <Comment />
           </div>
-          <p
-            class="text-center text-[#535662] font-hanken-grotesk text-[16px] font-medium leading-normal mb-[80px]"
-          >
+          <p class="text-center text-[#535662] font-hanken-grotesk text-[16px] font-medium leading-normal mb-[80px]">
             Cập nhật mới nhất: 20/08/2024
           </p>
         </div>
         <div class="xl:w-[30%] lg:w-[30%] w-full">
-          <h4
-            class="text-[#15171E] font-bricolage-grotesque text-[16px] font-semibold leading-[20px]"
-          >
+          <h4 class="text-[#15171E] font-bricolage-grotesque text-[16px] font-semibold leading-[20px]">
             Thẻ bài viết
           </h4>
           <ul class="my-[24px]">
             <li class="border-b py-[8px]">
-              <a
-                href=""
-                class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-                >Biến động thị trường</a
-              >
+              <a href=""
+                class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal">Biến
+                động thị trường</a>
             </li>
             <li class="border-b py-[8px]">
-              <a
-                class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-                href=""
-                >Báo cáo ngày</a
-              >
+              <a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+                href="">Báo cáo ngày</a>
             </li>
             <li class="border-b py-[8px]">
-              <a
-                class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-                href=""
-                >Phân tích từ UPS</a
-              >
+              <a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+                href="">Phân tích từ UPS</a>
             </li>
             <li class="border-b py-[8px]">
-              <a
-                class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-                href=""
-                >Sản phẩm đầu tư mới</a
-              >
+              <a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+                href="">Sản phẩm đầu tư mới</a>
             </li>
             <li class="border-b py-[8px]">
-              <a
-                class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-                href=""
-                >Về UPS</a
-              >
+              <a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+                href="">Về UPS</a>
             </li>
             <li class="border-b py-[8px]">
-              <a
-                class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-                href=""
-                >Sự kiện doanh nghiệp</a
-              >
+              <a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+                href="">Sự kiện doanh nghiệp</a>
             </li>
             <li class="border-b py-[8px]">
-              <a
-                class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-                href=""
-                >Nội bộ UPS</a
-              >
+              <a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+                href="">Nội bộ UPS</a>
             </li>
           </ul>
-          <div
-            class="my-[40px] rounded-[10px] border border-[#C1C7DD] bg-[#F3F5FB] p-[16px]"
-          >
-            <h5
-              class="text-[#15171E] font-hanken-grotesk text-[16px] font-bold leading-normal mb-[8px]"
-            >
+          <div class="my-[40px] rounded-[10px] border border-[#C1C7DD] bg-[#F3F5FB] p-[16px]">
+            <h5 class="text-[#15171E] font-hanken-grotesk text-[16px] font-bold leading-normal mb-[8px]">
               Tôi muốn đọc<br />
               nhiều hơn
             </h5>
-            <p
-              class="text-[#535662] font-hanken-grotesk text-[14px] font-medium leading-normal"
-            >
+            <p class="text-[#535662] font-hanken-grotesk text-[14px] font-medium leading-normal">
               Đăng ký nhận thêm các hưỡng dẫn giao dịch tuyệt vời từ UPS qua
               email của bạn
             </p>
             <form action="">
-              <input
-                type="text"
+              <input type="text"
                 class="rounded-[8px] bg-[#ECEEF4] backdrop-blur-[20px] py-[8px] px-[10px] my-[16px] w-full"
-                placeholder="abc@email.com"
-                required
-              />
+                placeholder="abc@email.com" required />
               <div class="hidden xl:inline-flex">
                 <nuxt-link to="/" class="btn active group">
                   <span> Mở tài khoản ngay </span>
-                  <div
-                    class="inline-flex gap-1 w-4 h-4 overflow-hidden relative"
-                  >
+                  <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                     <i
-                      class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-[-120%] group-hover:translate-x-0"
-                    >
-                      <nuxt-img
-                        src="/icons/arrow-icon.svg"
-                        loading="lazy"
-                        width="16"
-                        height="16"
-                        alt="UPS"
-                      />
+                      class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-[-120%] group-hover:translate-x-0">
+                      <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
                     </i>
 
                     <i
-                      class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-0 group-hover:translate-x-[120%]"
-                    >
-                      <nuxt-img
-                        src="/icons/arrow-icon.svg"
-                        loading="lazy"
-                        width="16"
-                        height="16"
-                        alt="UPS"
-                      />
+                      class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-0 group-hover:translate-x-[120%]">
+                      <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
                     </i>
                   </div>
                 </nuxt-link>
@@ -247,23 +182,13 @@
     <div class="w-full xl:w-[1200px] mx-auto">
       <div class="">
         <div class="flex justify-between">
-          <div
-            class="animate-about__item inline-flex relative w-[100px] h-[45px] xl:w-[132px] xl:h-[60px]"
-          >
-            <nuxt-img
-              format="webp"
-              loading="lazy"
-              height="78"
-              alt="UPS"
-              src="/logo/logo-cap-green.png"
-              class="absolute w-full h-full object-contain"
-            />
+          <div class="animate-about__item inline-flex relative w-[100px] h-[45px] xl:w-[132px] xl:h-[60px]">
+            <nuxt-img format="webp" loading="lazy" height="78" alt="UPS" src="/logo/logo-cap-green.png"
+              class="absolute w-full h-full object-contain" />
           </div>
         </div>
 
-        <h2
-          class="animate-about__item text-[36px] xl:text-[60px] font-bold font-BG"
-        >
+        <h2 class="animate-about__item text-[36px] xl:text-[60px] font-bold font-BG">
           Tin <span class="text-green-ups">liên quan</span>
         </h2>
       </div>
@@ -271,97 +196,80 @@
         <div class="card relative" v-for="doc in data?.dataNews">
           <div class="flex justify-center text-center">
             <div class="inline-flex relative w-full h-[288px]">
-              <nuxt-img
-                loading="lazy"
-                :alt="doc?.short_content?.title"
-								:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
-                height="288"
-                class="link absolute w-full h-full object-cover rounded-[14px]"
-              />
+              <nuxt-img loading="lazy" :alt="doc?.short_content?.title"
+                :src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id" height="288"
+                class="link absolute w-full h-full object-cover rounded-[14px]" />
             </div>
           </div>
           <div class="flex justify-between items-center my-[24px]">
             <template v-if="doc?.short_content?.tags.length > 0">
-										<p
-											v-for="(sub, k) in doc?.short_content?.tags"
-											:key="k"
-											class="text-sm md:text-base xl:text-lg text-[#F05] font-medium"
-										>
-											{{ `#${sub?.tag.slug}` }}
-										</p>
-									</template>
-            <div
-              class="time text-[#9498A8] font-hanken-grotesk text-[18px] font-medium leading-normal"
-            >
+              <p v-for="(sub, k) in doc?.short_content?.tags" :key="k"
+                class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">
+                {{ `#${sub?.tag.slug}` }}
+              </p>
+            </template>
+            <div class="time text-[#9498A8] font-hanken-grotesk text-[18px] font-medium leading-normal">
               5 phút trước
             </div>
           </div>
           <div class="">
-            <h6
-              class="text-[#15171E] font-hanken-grotesk text-[20px] font-semibold leading-normal line-clamp-1"
-            >
-            {{ doc?.short_content?.title }}
+            <h6 class="text-[#15171E] font-hanken-grotesk text-[20px] font-semibold leading-normal line-clamp-1">
+              {{ doc?.short_content?.title }}
             </h6>
-            <p
-              class="text-[#3C4052] font-hanken-grotesk text-[18px] font-medium leading-normal mt-[8px] line-clamp-3"
-            >
-            {{ doc?.short_content?.blurb }}
+            <p class="text-[#3C4052] font-hanken-grotesk text-[18px] font-medium leading-normal mt-[8px] line-clamp-3">
+              {{ doc?.short_content?.blurb }}
             </p>
           </div>
-          <nuxt-link
-								:to="`/tin-tuc/${doc?.short_content?.slug}`"
-								class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full"
-							/>
+          <nuxt-link :to="`/tin-tuc/${doc?.short_content?.slug}`"
+            class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full" />
         </div>
       </div>
     </div>
   </div>
-  </template>
-  <script lang="ts">
-  import { defineComponent } from "vue";
-  import Comment from "~/components/common/comment/index.vue";
-  import { useAnnounceStore } from "#imports";
+</template>
+<script lang="ts">
+import { defineComponent } from "vue";
+import Comment from "~/components/common/comment/index.vue";
+import { useAnnounceStore } from "#imports";
 import { config } from "~/lib/config";
-  export default defineComponent({
-    name: "chi-tiet-cong-bo",
-    components: {
-      Comment,
-    },
-    setup(props, ctx) {
-      const route = useRoute();
-      const newStore = useAnnounceStore();
-  
-      const { data } = useAsyncData("announce-detail", async () => {
-        const dataDetail: any = await newStore.fnGetAnnounceDetail(
-          route.params?.slug as string
-        );
-        const dataNews: any = await newStore.fnGetListAnnounce(
+export default defineComponent({
+  name: "chi-tiet-cong-bo",
+  components: {
+    Comment,
+  },
+  setup(props, ctx) {
+    const route = useRoute();
+    const newStore = useAnnounceStore();
+
+    const { data } = useAsyncData("announce-detail", async () => {
+      const dataDetail: any = await newStore.fnGetAnnounceDetail(
+        route.params?.slug as string
+      );
+      const dataNews: any = await newStore.fnGetListAnnounce(
         1,
         3,
         dataDetail?.data?.data?.posts_by_id?.raw_content?.categories[0].category
           ?.slug
       );
-        console.log(dataDetail?.data?.data?.announce_by_id?.raw_content);
-        
-        return {
-          newDetail: dataDetail?.data?.data?.announce_by_id?.raw_content,
-          dataNews:dataNews?.data?.data?.announce
-        };
-      });
-  
-  
-      return {
-        data,
-        config
-      };
-    },
-  });
-  </script>
-  <style scoped>
- 
+      console.log(dataDetail?.data?.data?.announce_by_id?.raw_content);
 
+      return {
+        newDetail: dataDetail?.data?.data?.announce_by_id?.raw_content,
+        dataNews: dataNews?.data?.data?.announce
+      };
+    });
+
+
+    return {
+      data,
+      config
+    };
+  },
+});
+</script>
+<style scoped>
 /* Custom style cho vùng content */
-.content-wrapper:deep(table)  {
+.content-wrapper:deep(table) {
   border-collapse: collapse;
   width: 100%;
 }
@@ -369,7 +277,7 @@ import { config } from "~/lib/config";
 .content-wrapper :deep(table),
 .content-wrapper :deep(th),
 .content-wrapper :deep(td) {
-	width: 100%;
+  width: 100%;
   border: 1px solid black;
 }
 
@@ -378,6 +286,7 @@ import { config } from "~/lib/config";
   padding: 8px;
   text-align: left;
 }
+
 .content-wrapper :deep(*) {
   /* all: revert; */
 }
@@ -405,5 +314,4 @@ import { config } from "~/lib/config";
   color: blue;
   text-decoration: underline;
 }
-  </style>
-  
+</style>

@@ -4,14 +4,14 @@
 			<div class="container">
 				<div class="h-max grid grid-cols-12 py-10 lg:pt-12 lg:pb-20 xl:py-[100px] gap-8 md:gap-10 lg:gap-0">
 					<div class="col-span-full md:col-span-6 lg:col-span-5">
-						<div class="w-full lg:w-[70%]">
+						<div class="w-full lg:w-[75%]">
 							<div
 								class="inline-flex w-full sm:w-[218px] md:w-[272px] lg:w-[272px] xl:w-[309px] 2xl:w-[409px] h-[54px] sm:h-[50px] md:h-[62px] lg:h-[62px] xl:h-[70px] 2xl:h-[94px] relative">
 								<nuxt-img format="webp" loading="lazy" quality="80" src="/logo/logo-footer.png"
 									width="409" height="94" alt="UPS" class="absolute w-full h-full object-contain" />
 							</div>
 
-							<div class="flex flex-col w-[580px]">
+							<div class="flex flex-col">
 								<div class="w-full flex flex-col gap-3 md:gap-4 mt-6 xl:mt-10">
 									<nuxt-link href="/" class="flex items-start gap-2">
 										<nuxt-img format="webp" width="24" alt="UPS" src="/icons/address-icon.svg"
