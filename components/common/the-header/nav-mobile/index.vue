@@ -123,7 +123,7 @@
                             </svg>
                           </i>
 
-                          <nuxt-link to="/coming-soon" class="ml-5">
+                          <nuxt-link to="/co-phieu" class="ml-5">
                             <p class="text-base text-[#000] font-semibold font-HG">
                               Cổ phiếu
                             </p>
@@ -325,7 +325,7 @@
                             </svg>
                           </i>
 
-                          <nuxt-link to="/coming-soon" class="ml-5">
+                          <nuxt-link to="/tu-van" class="ml-5">
                             <p class="text-base text-[#000] font-semibold font-HG">
                               Tư vấn tài chính
                             </p>

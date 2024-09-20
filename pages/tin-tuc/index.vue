@@ -197,7 +197,7 @@
 									<template v-if="doc?.short_content?.tags.length > 0">
 										<p v-for="(sub, k) in doc?.short_content?.tags" :key="k"
 											class="text-sm 2xl:text-base 3xl:text-lg text-[#00C645] font-medium">
-											{{ `#${sub?.tag.slug}` }}
+											{{ `#${sub?.tag.title}` }}
 										</p>
 									</template>
 								</div>
@@ -461,7 +461,7 @@ export default defineComponent({
 					date.value,
 					keyword.value
 				);
-
+				
 				return {
 					dataCateAndTags: dataCateAndTags.data?.data,
 					dataNews: dataNews.data?.data,

@@ -22,7 +22,7 @@
 		<!-- CHI TIẾT -->
 		<div class="container">
 			<!-- TOGGLE -->
-			<div class="flex items-center xl:hidden mt-10">
+			<div class="flex items-center xl:hidden mt-10 ">
 				<Drawer direction="left">
 					<DrawerTrigger as-child>
 						<div class="flex items-center">
@@ -39,7 +39,7 @@
 							<p class="ml-3 text-lg text-black underline font-bold font-BG">Hướng dẫn giao dịch</p>
 						</div>
 					</DrawerTrigger>
-					<DrawerContent class="z-[101]">
+					<DrawerContent class="z-[101] w-full md:w-[50%] lg:w-[40%] rounded-none">
 						<div class="w-full h-screen px-6 py-5">
 							<DrawerClose as-child>
 								<div class="flex items-center">
@@ -60,7 +60,7 @@
 							<div class="">
 								<div class="mt-5 flex items-center relative">
 									<nuxt-input
-										class="w-full h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
+										class="w-full h-[50px] pl-0 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
 										placeholder="Tìm kiếm"
 										name="fullname"
 									/>
@@ -80,20 +80,21 @@
 											v-for="(item, index) in data?.dataDocument?.instruction_structure"
 											:key="item.slug"
 											:value="item.slug"
+											class="group"
 										>
 											<AccordionTrigger>
 												<div
 													v-if="item?.documents && item?.documents.length > 0"
-													class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
+													class="pr-3 py-0 hover:no-underline group-hover:bg-[#F3F5FB] w-full "
 												>
 													<div class="flex items-center">
 														<div
-															class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
+															class="w-11 h-11 bg-[#E7E9EF] group-hover:bg-[#34C759] inline-flex items-center justify-center text-lg text-[#7B7E89] group-hover:text-white font-bold"
 														>
 															{{ `${index + 1}` }}
 														</div>
 														<p
-															class="flex-1 w-full h-full px-5 text-lg text-black font-bold line-clamp-1"
+															class="flex-1 w-full h-full px-5 text-lg text-[#7F8494] group-hover:text-black font-bold line-clamp-1 text-left group-hover:no-underline"
 														>
 															{{ item.title }}
 														</p>
@@ -103,17 +104,17 @@
 												<nuxt-link
 													v-else
 													:to="`/hdsd#${item?.slug}`"
-													class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]"
+													class="my-0 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB] no-underline"
 												>
 													<DrawerClose as-child>
 														<div class="flex items-center">
 															<div
-																class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
+																class="w-11 h-11 bg-[#E7E9EF] group-hover:bg-[#34C759] inline-flex items-center justify-center text-lg text-[#7B7E89] group-hover:text-white font-bold"
 															>
 																{{ `${index + 1}` }}
 															</div>
 															<p
-																class="flex-1 w-full h-full px-5 text-lg text-black font-bold line-clamp-1"
+																class="flex-1 w-full h-full px-5 text-lg text-[#7F8494] group-hover:text-black font-bold line-clamp-1 text-left group-hover:no-underline"
 															>
 																{{ item.title }}
 															</p>
@@ -123,6 +124,8 @@
 
 												<template #icon> <div></div></template>
 											</AccordionTrigger>
+
+
 											<AccordionContent v-if="item.documents && item.documents.length > 0">
 												<DrawerClose
 													v-for="(sub, k) in item.documents"
@@ -131,7 +134,7 @@
 												>
 													<nuxt-link
 														:to="`/hdsd#${sub?.document?.slug}`"
-														class="ml-11 flex flex-col gap-3"
+														class="my-3 ml-11 flex flex-col gap-3"
 													>
 														<div
 															class="flex items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]"
@@ -160,7 +163,7 @@
 				</Drawer>
 			</div>
 
-			<div class="py-8 md:py-10 lg:py-12 grid grid-cols-12 gap-10 2xl:gap-[60px]">
+			<div class="py-8 md:py-10 lg:py-12 grid grid-cols-12 gap-y-10 2xl:gap-[60px]">
 				<div class="xl:col-span-3 hidden xl:block">
 					<div class="">
 						<h4 class="text-xl text-black font-bold">Hướng dẫn sử dụng</h4>
@@ -177,7 +180,7 @@
 					<div class="mt-10">
 						<Accordion
 							type="single"
-							class="w-full"
+							class="w-full space-y-3"
 							collapsible
 							:default-value="'2'"
 						>
@@ -185,11 +188,12 @@
 								v-for="(item, index) in data?.dataDocument?.instruction_structure"
 								:key="item.slug"
 								:value="item.slug"
+								class="group"
 							>
-								<AccordionTrigger class="my-3 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]">
+								<AccordionTrigger class="my-0 pr-3 py-0 group hover:no-underline hover:bg-[#F3F5FB]">
 									<div class="flex items-center text-left">
 										<div
-											class="w-11 h-11 bg-[#34C759] inline-flex items-center justify-center text-lg text-white font-bold"
+											class="w-11 h-11 bg-[#E7E9EF] group-hover:bg-[#34C759] inline-flex items-center justify-center text-lg text-[#7B7E89] group-hover:text-white font-bold"
 										>
 											{{ `${index + 1}` }}
 										</div>
@@ -200,14 +204,14 @@
 									<template #icon> <div></div></template>
 								</AccordionTrigger>
 								<AccordionContent v-if="item.documents && item.documents.length > 0">
-									<div class="ml-11 flex flex-col gap-3">
+									<div class="mt-3 ml-11 flex flex-col gap-3">
 										<nuxt-link
 											v-for="(sub, k) in item.documents"
 											:key="k"
 											:to="`/hdsd#${sub?.document?.slug}`"
 											:class="
 												cn(
-													'flex gap-2 items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]',
+													'flex gap-2 pr-3 items-center cursor-pointer opacity-60 hover:opacity-100 hover:bg-[#F3F5FB]',
 													{
 														'bg-[#F3F5FB] opacity-100': sub?.document?.slug == slug,
 													}
@@ -295,7 +299,7 @@
 					</div>
 				</div>
 
-				<div class="col-span-2 hidden 3xl:flex gap-6">
+				<div class="col-span-2 hidden 3xl:flex gap-6 flex-col">
 					<div class="">
 						<h6 class="text-base text-black font-bold">Nội dung chính</h6>
 

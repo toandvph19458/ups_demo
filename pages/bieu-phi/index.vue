@@ -4,6 +4,8 @@
 		<banner />
 		<!-- bảng -->
 		<table-ups />
+
+
 		<!-- bên dưới bảng -->
 		<!-- <div class="bg-[linear-gradient(270deg,_#00D7B0_17.99%,_rgba(0,_148,_255,_0.50)_96.69%)]">
 			<div
@@ -41,11 +43,17 @@
 
 		<div class="2xl:p-[100px_160px] xl:p-[90px_120px] lg:p-[80px_100px] md:p-[60px_60px]  p-6">
 			<!-- UPS GLOBAL -->
-			<feedback />
-			<!-- UPS PARTNER -->
-			<partner-ups />
 
 		</div>
+		<div class="container">
+
+			<feedback />
+		</div>
+
+		<!-- UPS PARTNER -->
+		<partner-ups />
+
+
 	</section>
 </template>
 

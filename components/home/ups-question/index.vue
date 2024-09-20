@@ -64,7 +64,7 @@
 							},
 						}">
 						<swiper-slide>
-							<nuxt-link to="/tin-tuc"
+							<nuxt-link target="_blank" to="https://onboarding.upse.vn/index.html#/./open-account/check-info"
 								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white">
 
 								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
@@ -217,9 +217,7 @@
 
 									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
 										<p class="text-[16px]">
-											Để sử dụng App Trading, Web Trading, bảng giá giao dịch cũng như tìm hiểu
-											các sản phẩm, dịch vụ, điều khoản, bạn vui lòng tham khảo hướng dẫn giao
-											dịch tại đây.
+											Để tìm hiểu Hướng dẫn sử dụng Web Trading, Bảng giá Giao dịch cũng như tìm hiểu các sản phẩm, dịch vụ, điều khoản, bạn vui lòng tham khảo Hỗ trợ khách hàng tại đây.
 										</p>
 									</div>
 								</div>

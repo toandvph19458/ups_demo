@@ -138,13 +138,13 @@
               </div>
             </div>
             <div
-              class="hidden w-[48px] h-[48px] xl:w-[90px] xl:h-[90px] md:inline-flex items-center justify-center bg-[#15171E] rounded-[40px] animate-about__item"
+              class="hidden w-[48px] h-[48px] xl:w-[140px] xl:h-[140px] md:inline-flex items-center justify-center bg-[#15171E] rounded-[40px] animate-about__item"
             >
-              <div class="w-5 h-5 xl:w-10 xl:h-10 relative inline-flex">
+              <div class="w-5 h-5 xl:w-[48px] xl:h-[48px] relative inline-flex">
                 <nuxt-img
                   format="webp"
                   loading="lazy"
-                  height="40"
+                  height="48"
                   alt="UPS"
                   src="/logo/logo-row.png"
                   class="animate-about__item absolute w-full h-full object-contain"

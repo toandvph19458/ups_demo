@@ -197,15 +197,15 @@
             </div>
           </div>
           <div class="flex justify-between items-center my-[24px]">
-            <template v-if="doc?.short_content?.tags.length > 0">
+            <!-- <template v-if="doc?.short_content?.tags.length > 0">
               <p v-for="(sub, k) in doc?.short_content?.tags" :key="k"
                 class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">
-                {{ `#${sub?.tag.slug}` }}
+                {{ `#${sub?.tag.title}` }}
               </p>
             </template>
             <div class="time text-[#9498A8] font-hanken-grotesk text-[18px] font-medium leading-normal">
               5 phút trước
-            </div>
+            </div> -->
           </div>
           <div class="">
             <h6 class="text-[#15171E] font-hanken-grotesk text-[20px] font-semibold leading-normal line-clamp-1">

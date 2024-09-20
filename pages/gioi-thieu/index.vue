@@ -866,7 +866,7 @@
           <div class="animate-about__item inline-flex my-6">
             <nuxt-link
               target="_blank"
-              to="http://api.upse.vn/assets/d0ddc150-6ab3-40d3-9996-eba9abe8800b"
+              to="https://ups.truecms.io/assets/9ac5cc6e-b1a6-441f-8f68-35980b760930"
               class="btn active group"
             >
               <span> Xem tại đây </span>
