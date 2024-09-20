@@ -8,7 +8,7 @@
 					<h3
 						class="text-[24px] md:text-[36px] xl:text-[52px] 2xl:text-[56px] 3xl:text-[60px] text-white font-bold font-BG"
 					>
-						Hướng dẫn sử dụng
+					Hỗ trợ khách hàng
 					</h3>
 					<div
 						class="text-[14px] md:text-[26px] xl:text-[42px] 2xl:text-[46px] 3xl:text-[50px] font-bold font-BG bg-gradient-to-r from-[#00C058] to-[#1FAB5F] [background-position:41.75%] bg-clip-text text-transparent"
