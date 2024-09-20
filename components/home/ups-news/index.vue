@@ -1,5 +1,5 @@
 <template>
-	<section class="section_news animate-ups container">
+	<section class="section_news animate-ups ml-[100px]">
 		<div
 			class="flex flex-col xl:flex-row gap-6 md:gap-10 xl:gap-14 items-center pt-0 py-8 md:py-10 xl:py-[80px] 3xl:py-[130px]"
 		>
@@ -123,7 +123,7 @@
 						v-for="(doc, i) in data?.dataNews?.posts"
 						:key="i"
 					>
-						<div class="card flex flex-col relative group p-5 rounded-[30px] overflow-hidden">
+						<div class="card card-dot flex flex-col relative group p-5 rounded-[30px] overflow-hidden">
 							<div class="glow"></div>
 							<div
 								class="relative w-full h-[200px] md:h-[250px] xl:h-[288px] rounded-[14px] overflow-hidden"
@@ -324,7 +324,6 @@ export default defineComponent({
 
 		// Function to handle mouse movement
 		function handleMouseMove(e: any, card: any) {
-			console.log(123);
 
 			const rect = card.getBoundingClientRect();
 			const mouseX = e.clientX - rect.left - rect.width / 2;

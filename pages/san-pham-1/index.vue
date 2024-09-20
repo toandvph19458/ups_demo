@@ -99,7 +99,7 @@
       </div>
     </div>
 
-    <div class="py-20 bg-gradient-to-r from-[#FFF35D] via-[#F4B93D] to-[#E66D14]">
+    <div class="py-20 bg-[url('/images/bg-chi-tiet.png')] bg-cover bg-no-repeat overflow-hidden">
       <div class="container">
         <div class="flex justify-between">
           <div class="max-w-[520px]">

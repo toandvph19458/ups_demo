@@ -98,7 +98,7 @@
 											sau đây:
 										</p>
 										<p class="text-[16px]">Cách 1: Mở tài khoản trực tuyến qua website tại đây</p>
-										<p>Cách 2: Mở tài khoản trực tiếp tại quầy giao dịch của UPS.</p>
+										<p class="text-[16px]">Cách 2: Mở tài khoản trực tiếp tại quầy giao dịch của UPS.</p>
 										<p class="pt-2 text-[16px]">
 											Để được hỗ trợ thêm, vui lòng liên hệ hotline 0243.944.6666
 										</p>
@@ -137,8 +137,8 @@
 									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
 										<p class="text-[16px]">
 											UPS cung cấp mức phí giao dịch rất hấp dẫn trong các công ty chứng khoán tại
-											Việt NamĐể theo dõi thông tin chi tiết, bạn vui lòng truy cập thông báo Biểu
-											phí cập nhậtUPS liên tục triển khai các chương trình khuyến mãi và ưu đãi
+											Việt Nam Để theo dõi thông tin chi tiết, bạn vui lòng truy cập thông báo Biểu
+											phí cập nhật UPS liên tục triển khai các chương trình khuyến mãi và ưu đãi
 											lãi suất. Bạn vui lòng theo dõi website và facebook của chúng tôi tại đây để
 											nắm được chi tiết về các chương trình.
 										</p>

@@ -80,7 +80,7 @@ export default defineComponent({
       const cursorDot2 = document.querySelector(".cursor_dot_2") as HTMLElement;
       const accountBtn = document.querySelector("#account-btn") as HTMLElement;
       const newItems = document.querySelectorAll(
-        ".card"
+        ".card-dot"
       ) as NodeListOf<HTMLElement>;
       const btns = document.querySelectorAll(".btn") as NodeListOf<HTMLElement>;
 
