@@ -64,7 +64,7 @@
 							},
 						}">
 						<swiper-slide>
-							<nuxt-link target="_blank" to="https://ups-demo.vercel.app/hdsd#huong-dan-mo-tai-khoan-tai-ups-mm"
+							<nuxt-link target="_blank" to="/hdsd#huong-dan-mo-tai-khoan-tai-ups-mm"
 								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white">
 
 								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
