@@ -51,8 +51,8 @@ export default defineComponent({
                         </p>
                     </div>
                     <div class="flex flex-col items-start group">
-                        <div class="flex items-center gap-3">
-                            <p class="group-hover:text-white z-30">
+                        <div class="flex items-start gap-3 ">
+                            <p class="group-hover:text-white z-30  p-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                     fill="none">
                                     <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z" fill="black"
@@ -65,8 +65,8 @@ export default defineComponent({
                                 chuyển nhượng …
                             </p>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <p class="group-hover:text-white z-30">
+                        <div class="flex items-start gap-3 ">
+                            <p class="group-hover:text-white z-30 p-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                     fill="none">
                                     <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z" fill="black"
@@ -78,8 +78,8 @@ export default defineComponent({
                                 Tư vấn quản lý và quan hệ cổ đông
                             </p>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <p class="group-hover:text-white z-30">
+                        <div class="flex items-start gap-3 ">
+                            <p class="group-hover:text-white z-30 p-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                     fill="none">
                                     <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z" fill="black"
@@ -144,8 +144,8 @@ export default defineComponent({
                         </p>
                     </div>
                     <div class="flex flex-col items-start group">
-                        <div class="flex items-center gap-3">
-                            <p class="group-hover:text-white z-30">
+                        <div class="flex items-start gap-3 ">
+                            <p class="group-hover:text-white z-30 p-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                     fill="none">
                                     <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z" fill="black"
@@ -157,8 +157,8 @@ export default defineComponent({
                                 Xác định chiến lược, mục tiêu mua bán, sáp nhập, hợp tác đầu tư
                             </p>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <p class="group-hover:text-white z-30">
+                        <div class="flex items-start gap-3">
+                            <p class="group-hover:text-white z-30 p-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                     fill="none">
                                     <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z" fill="black"
@@ -170,8 +170,8 @@ export default defineComponent({
                                 Khảo sát đánh giá doanh nghiệp, dự án
                             </p>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <p class="group-hover:text-white z-30">
+                        <div class="flex items-start gap-3">
+                            <p class="group-hover:text-white z-30 p-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                     fill="none">
                                     <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z" fill="black"
@@ -236,8 +236,8 @@ export default defineComponent({
                         </p>
                     </div>
                     <div class="flex flex-col items-start group">
-                        <div class="flex items-center gap-3">
-                            <p class="group-hover:text-white z-30">
+                        <div class="flex items-start gap-3 ">
+                            <p class="group-hover:text-white z-30 p-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                     fill="none">
                                     <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z" fill="black"
@@ -249,8 +249,8 @@ export default defineComponent({
                                 Tư vấn lộ trình thích hợp để đăng ký giao dịch
                             </p>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <p class="group-hover:text-white z-30">
+                        <div class="flex items-start gap-3">
+                            <p class="group-hover:text-white z-30 p-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                     fill="none">
                                     <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z" fill="black"

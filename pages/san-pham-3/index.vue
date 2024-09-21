@@ -93,13 +93,14 @@
 
     <!-- điều kiện điều khoản -->
     <div
-      class="flex p-6 flex-col justify-end items-start gap-3 3xl:px-[225px] 3xl:py-[100px]"
+      class="flex p-6 flex-col justify-end items-start gap-3 3xl:px-[225px] 3xl:py-[100px] "
     >
       <div
-        class="flex p-6 flex-col justify-center items-center rounded-[24px] bg-gradient-to-tr from-[rgba(237,237,244,0.16)] via-[rgba(237,237,244,0.79)] to-[rgba(237,237,244,0.15)] mx-auto w-full"
+        style="background-position: left bottom;"
+	  class="flex p-6 flex-col justify-center items-center rounded-[24px] bg-[linear-gradient(104deg,rgba(237,237,244,0.16)_2.13%,rgba(237,237,244,0.79)_37.26%,rgba(237,237,244,0.15)_68.42%),url('/images/logo-bg-dkdk.png')] bg-no-repeat mx-auto w-full"
       >
         <div
-          class="w-[279px] 3xl:w-full flex flex-col items-start gap-6 3xl:items-end"
+          class="w-[279px] 3xl:w-full flex flex-col items-start gap-6 3xl:items-end pl-[80px] pt-[80px]"
         >
           <div class="w-full">
             <p
