@@ -29,7 +29,7 @@ module.exports = {
 			md: "768px",
 			lg: "1024px",
 			xl: "1280px",
-			"2xl": "1441px",
+			"2xl": "1440px",
 			"3xl": "1760px",
 		},
 		fontFamily: {
@@ -42,11 +42,11 @@ module.exports = {
 			},
 			boxShadow: {
 				'custom-shadow': '0px 4px 84px 0px rgba(0, 0, 0, 0.15)',
-			  },
+			},
 			backgroundImage: {
 				'custom-gradient': 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 8.9%, #000 100%)',
 				'custom-gradient-card-question': 'linear-gradient(99deg, #FFF -1.15%, #FFF 51.43%, rgba(255, 255, 255, 0.30) 102.18%)',
-			  },
+			},
 			colors: {
 				black: "#15171E",
 				"green-ups": "#02E56A",

@@ -32,7 +32,7 @@ export default defineComponent({
                     biệt là các Ủy ban dân tỉnh tại khu vực phía Bắc. UPS đã tư vấn thành công cho các Hợp đồng
                     thoái vốn Nhà nước theo đúng định hướng của Nhà nước, chỉ đạo của Chủ sở hữu. Nội dung tư vấn
                     thoái phần vốn Nhà nước tại doanh nghiệp gồm các bước:</p>
-                <p class="font-HG text-[14px] text-[#FFF] leading-normal font-bold underline">Xem thêm</p>
+                <!-- <p class="font-HG text-[14px] text-[#FFF] leading-normal font-bold underline">Xem thêm</p> -->
             </div>
             <div
                 class="3xl:px-[40px] 3xl:py-[60px]  flex-col items-start justify-center bg-[linear-gradient(94deg,rgba(237,237,244,0.9)_-10.9%,rgba(237,237,244,0)_95.88%)] rounded-[40px] 3xl:gap-[40px] hidden">

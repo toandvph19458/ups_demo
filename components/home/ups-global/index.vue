@@ -38,7 +38,7 @@
 							<span class="hidden md:inline-block text-xs 2xl:text-base text-white font-bold">Cộng đồng</span>
 						</nuxt-link>
 						<nuxt-link
-							to="/"
+							to="https://www.facebook.com/ChungkhoanUp"
 							class="animate-ups__item h-10 px-4 inline-flex gap-4 items-center rounded-[12px] bg-[#1877F2]"
 						>
 							<div class="inline-flex w-5 h-5 relative">

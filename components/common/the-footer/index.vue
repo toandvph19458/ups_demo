@@ -74,7 +74,7 @@
 							</div>
 
 							<!-- SOSIAL -->
-							<div class="mt-3 md:mt-4 flex gap-4">
+							<!-- <div class="mt-3 md:mt-4 flex gap-4">
 								<nuxt-link
 									href="/"
 									target="_blank"
@@ -159,7 +159,7 @@
 										class="absolute w-full h-full object-contain"
 									/>
 								</nuxt-link>
-							</div>
+							</div> -->
 						</div>
 					</div>
 
@@ -190,7 +190,7 @@
 								</div>
 							</div>
 
-							<div class="col-span-6 lg:col-span-3">
+							<div class="col-span-6 lg:col-span-4">
 								<h4 class="text-sm 2xl:text-lg 3xl:text-xl text-[#000] font-bold">
 									Khách hàng doanh nghiệp
 								</h4>
@@ -234,7 +234,7 @@
 								</div>
 							</div>
 
-							<div class="col-span-6 lg:col-span-3">
+							<div class="col-span-6 lg:col-span-2">
 								<h4 class="text-sm 2xl:text-lg 3xl:text-xl text-[#000] font-bold">Về UPS</h4>
 
 								<div class="my-3 xl:my-3 w-[10px] h-[1px] bg-[#3A6A50]"></div>

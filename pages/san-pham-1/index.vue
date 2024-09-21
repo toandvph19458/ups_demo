@@ -2,17 +2,18 @@
   <div>
     <!-- banner -->
     <div
-      class="3xl:pt-[100px] md:pt-10 sm:pt-5 md:mb-[300px] sm:mb-[100px] 3xl:h-[800px] md:h-[414px] sm:h-[364px] md:rounded-b-[60px] sm:rounded-b-[11px] bg-[url('/images/bg-san-pham-1.png')] bg-cover bg-center relative ">
+      class="3xl:pt-[100px] lg:pt-12 md:pt-10 sm:pt-5 md:mb-[300px] lg:mb-[100px] sm:mb-[100px] 3xl:h-[800px] md:h-[414px] sm:h-[364px] lg:h-[488px]  md:rounded-b-[60px] sm:rounded-b-[11px] bg-[url('/images/bg-san-pham-1.png')] bg-cover bg-center relative ">
       <div class="layout">
         <div class="w-[1150px] max-w-full mx-auto">
           <h4 class="text-center 3xl:text-base text-black tracking-[3.2px] font-semibold uppercase sm:text-[12px]">
             Khách hàng cá nhân
           </h4>
 
-          <h3 class="text-center 3xl:text-[60px] text-black font-bold font-BG my-6 md:text-[32px] sm:text-[20px]">
+          <h3
+            class="text-center 3xl:text-[60px] text-black font-bold font-BG my-6 md:text-[32px] sm:text-[20px] xl:text-[40px]">
             Mở tài khoản mới - Nhận 1 triệu đồng
           </h3>
-          <p class="text-center 3xl:text-lg text-[rgba(21,23,30,0.80)] font-bold md:text-[12px] sm:text-[12px]">
+          <p class="text-center 3xl:text-lg text-[rgba(21,23,30,0.80)] font-bold  sm:text-[12px]">
             Mở tài Khoản mới - Nhận ngay 1 triệu đồng từ UPS!<br />
             Ưu đãi đặc biệt đồng hành cùng sinh viên - Gen Z tại UPS
           </p>
@@ -46,17 +47,18 @@
         </div>
 
         <div
-          class="flex items-center justify-center absolute w-full 3xl:h-[520px] md:h-[276px] md:bottom-[-200px] sm:bottom-[-100px] left-1/2 -translate-x-1/2">
-          <nuxt-img loading="lazy" format="webp" height="520" src="/images/san-pham-1.png" alt="UPS"
-            class="3xl:w-[1220px] h-full object-cover 3xl:object-contain" />
+          class="flex items-center justify-center absolute w-full 3xl:h-[520px] md:h-[276px] md:bottom-[-200px] sm:bottom-[-100px] lg:bottom-[-100px] left-1/2 -translate-x-1/2 ">
+          <nuxt-img loading="lazy" format="webp" src="/images/san-pham-1.png" alt="UPS"
+            class="3xl:w-[1220px] h-full object-cover 3xl:object-contain " />
         </div>
       </div>
     </div>
     <!-- uu dai soc -->
     <div class="md:py-[100px] sm:p-10 ">
       <div class="layout w-full ">
-        <div class=" 3xl:max-w-[850px] md:max-w-[400px] ">
-          <h3 class="3xl:text-[60px] md:text-[32px] sm:text-[20px] text-black font-BG font-semibold">
+        <div class=" 3xl:max-w-[850px] md:max-w-[400px] lg:max-w-[500px] xl:max-w-[600px]">
+          <h3
+            class="3xl:text-[60px] xl:text-[50px] lg:text-[40px] md:text-[32px] sm:text-[20px] text-black font-BG font-semibold">
             <span class="text-[#E66D14] block sm:text-center md:text-left">Ưu đãi shock
               <span class="text-black">dành cho các bạn sinh viên - Chứng sĩ Gen Z </span></span>
           </h3>
@@ -91,9 +93,9 @@
               </i>
             </div>
 
-            <div class="mt-10 3xl:max-w-[660px] md:max-w-[250px] sm:w-full">
+            <div class="mt-10 3xl:max-w-[660px] md:max-w-[250px] lg:max-w-[350px] sm:w-full ">
               <!-- <h5 class="text-[40px] text-black font-semibold">Khái niệm</h5> -->
-              <p class="3xl:text-[24px] md:text-[12px] font-normal mt-2 sm:text-[12px]">
+              <p class="3xl:text-[24px] lg:text-[14px] md:text-[12px]  font-normal mt-2 sm:text-[12px]">
                 Chương trình ưu đãi đặc biệt từ UPS! Từ ngày 15/09/2024 đến ngày
                 31/12/2024, khi bạn mở mới tài khoản giao dịch tại UPS, bạn sẽ
                 nhận ngay 1 triệu đồng vào tài khoản để giao dịch.
@@ -101,7 +103,7 @@
             </div>
 
             <div
-              class="md:block hidden absolute 3xl:w-[632px] 3xl:h-[590px] md:w-[338px] md:h-[315px] sm:h-[304px] sm:w-full top-0 right-0 3xl:rounded-[30px] md:rounded-[16px] sm:rounded-sm overflow-hidden 3xl:translate-y-[-40%] md:translate-y-[-20%]">
+              class="md:block hidden absolute 3xl:w-[632px] 3xl:h-[590px] md:w-[338px] md:h-[315px] sm:h-[304px] sm:w-full xl:w-[420px] xl:h-[394px] top-0 right-0 3xl:rounded-[30px] md:rounded-[16px] sm:rounded-sm overflow-hidden 3xl:translate-y-[-40%] md:translate-y-[-20%] xl:translate-y-[-30%]">
               <nuxt-img format="webp" loading="lazy" src="/images/3731747fa4b1ec9324541a74f6667ad9.jpg" alt="UPS"
                 class="w-full h-full object-cover" />
             </div>
@@ -111,16 +113,16 @@
     </div>
     <!-- chi tiet chuong trinh -->
     <div
-      class="3xl:py-20 bg-[url('/images/bg-chi-tiet.png')] bg-cover bg-no-repeat overflow-hidden md:px-[60px] md:py-[40px] sm:px-[48px] sm:py-[56px]">
+      class="3xl:py-20 bg-[url('/images/bg-chi-tiet.png')] bg-cover bg-no-repeat overflow-hidden md:px-[60px] md:py-[40px] sm:px-[48px] sm:py-[56px] lg:py-[56px] xl:px-[100px] xl:py-[70px]">
       <div class="layout">
         <div
           class="flex 3xl:justify-between md:gap-6 sm:flex-col md:flex-row sm:gap-[32px] sm:items-start sm:justify-center">
           <div class="max-w-[520px]">
             <h4
-              class="text-black 3xl:text-[50px] md:text-[24px] sm:text-[20px] font-BG font-semibold 3xl:leading-[50px] sm:leading-[40px]">
+              class="text-black 3xl:text-[50px] md:text-[24px] sm:text-[20px] lg:text-[40px] xl:text-[50px] font-BG font-semibold 3xl:leading-[50px] sm:leading-[40px]">
               Chi tiết
               <p
-                class="text-black 3xl:text-[76px] md:text-[32px] sm:text-[20px] font-BG font-semibold 3xl:leading-[90px] sm:leading-[40px]">
+                class="text-black 3xl:text-[76px] md:text-[32px] sm:text-[20px] lg:text-[40px] xl:text-[50px] font-BG font-semibold 3xl:leading-[90px] sm:leading-[40px]">
                 Chương trình
               </p>
             </h4>
@@ -194,10 +196,10 @@
     <!-- huong dan -->
     <div class="3xl:py-[120px] sm:py-0">
       <div
-        class="container md:pt-10 md:pb-20 md:px-[60px] sm:px-[24px] sm:py-[48px] 3xl:px-[225px] 3xl:pt-[120px] 3xl:pb-[150px]">
+        class="layout md:pt-10 md:pb-20 md:px-[60px] sm:px-[24px] sm:py-[48px] 3xl:px-[225px] 3xl:pt-[120px] 3xl:pb-[150px] ">
         <div class="flex 3xl:gap-[200px] sm:gap-[50px] max-w-[1200px] mx-auto md:gap-10 sm:flex-col md:flex-row">
           <div class="md:w-2/3 sm:w-full">
-            <h3 class="3xl:text-[60px] font-semibold font-BG md:text-[32px] sm:text-[20px]">
+            <h3 class="3xl:text-[60px] font-semibold font-BG md:text-[32px] sm:text-[20px] xl:text-[40px]">
               <span class="block">Nhận ngay 1 triệu đồng</span>
               <span class="text-[#E66D14] block">chỉ với 2 bước</span>
             </h3>
@@ -298,7 +300,7 @@
             </div>
           </div>
 
-          <div class="flex items-center justify-center 3xl:h-[795px] 3xl:w-[395px]">
+          <div class="flex items-center justify-center 3xl:h-[795px] 3xl:w-[395px] xl:w-[262px]">
             <nuxt-img format="webp" loading="lazy" alt="UPS" height="800" src="/images/iphone-12-promax.png"
               class="w-full h-full object-contain" />
           </div>
@@ -374,8 +376,9 @@
     <div class="layout block 2xl:hidden">
       <feedback />
     </div>
-    <div class="py-[100px] flex flex-col items-center md:gap-10">
-      <div class="layout">
+    <div
+      class="py-[100px] flex flex-col items-center md:gap-10 bg-[url('./images/Grid.png')] bg-cover bg-center bg-no-repeat">
+      <div class="layout ">
         <p
           class="text-[#15171E] text-center font-bold text-[60px] xl:text-[40px] lg:text-[32px] md:text-[32px] 2xl:text-[45px] sm:text-[20px] leading-none font-BG">
           Câu hỏi thường gặp
@@ -391,13 +394,14 @@
         </p>
       </div>
       <div
-        class="w-[1000px] 3xl:w-full max-w-full mx-auto flex items-center flex-col container sm:px-6 md:px-10 3xl:px-[225px]">
-        <Accordion type="single" class="w-2/3 2xl:w-3/4 sm:w-full lg:w-2/3" collapsible>
+        class="w-[1000px] 3xl:w-full max-w-full mx-auto flex items-center flex-col container sm:px-6 md:px-10 3xl:px-[225px]  ">
+        <Accordion type="single"
+          class="w-2/3 2xl:w-3/4 sm:w-full lg:w-2/3 flex flex-col 2xl:gap-[50px] xl:gap-[20px] gap-2" collapsible>
           <AccordionItem value="1">
-            <AccordionTrigger class="flex items-center hover:no-underline">
+            <AccordionTrigger class="flex items-center hover:no-underline ">
               <div class="flex items-center">
                 <i
-                  class="inline-flex items-center justify-center border rounded-[10px] 3xl:w-[50px] 3xl:h-[50px] sm:w-7 sm:h-7">
+                  class="inline-flex items-center justify-center border rounded-[10px] 3xl:w-[50px] 3xl:h-[50px] 2xl:w-[38px] 2xl:h-[38px] sm:w-7 sm:h-7">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/icons/file.svg"
                     class="w-1/2 h-1/2 object-cover" />
                 </i>

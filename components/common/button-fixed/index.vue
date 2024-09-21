@@ -6,13 +6,13 @@
 				v-show="isListVisible"
 				class="mt-2 bg-black shadow-lg rounded-full p-2 space-y-2 transform transition duration-300 ease-out mb-2 flex flex-col gap-6 px-4 py-6"
 			>
-				<div class="flex items-center justify-center bg-black rounded-full cursor-pointer">
+				<nuxt-link to="https://www.facebook.com/messages/t/537421642948288" target="_blank" class="flex items-center justify-center bg-black rounded-full cursor-pointer">
 					<img
 						src="/icons/mess.png"
 						alt="Telegram"
 						class="w-[40px] h-[40px] object-cover"
 					/>
-				</div>
+				</nuxt-link>
 				<div class="flex items-center justify-center bg-black rounded-full cursor-pointer">
 					<img
 						src="/icons/tele.png"

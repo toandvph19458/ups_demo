@@ -179,7 +179,7 @@ export default defineComponent({
 
                         </div>
 
-                        <p class="font-BG text-[14px] font-semibold underline">Xem thêm</p>
+                        <!-- <p class="font-BG text-[14px] font-semibold underline">Xem thêm</p> -->
                     </div>
                     <div class="btn-wrapper flex gap-5 sm:gap-3 items-center animate-ups__item ">
                         <div class="inline-flex">

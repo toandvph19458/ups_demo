@@ -93,8 +93,8 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="flex flex-col gap-5">
-                        <p class="text-black font-HG font-bold underline leading-normal group-hover:text-white z-30">Xem
-                            thêm</p>
+                        <!-- <p class="text-black font-HG font-bold underline leading-normal group-hover:text-white z-30">Xem
+                            thêm</p> -->
                         <div class="btn-wrapper flex gap-5 sm:gap-3 items-start animate-ups__item w-full  z-30">
                             <!-- Added group-hover:text-white here -->
                             <div class="inline-flex">
@@ -185,8 +185,8 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="flex flex-col gap-5">
-                        <p class="text-black font-HG font-bold underline leading-normal group-hover:text-white z-30">Xem
-                            thêm</p>
+                        <!-- <p class="text-black font-HG font-bold underline leading-normal group-hover:text-white z-30">Xem
+                            thêm</p> -->
                         <div class="btn-wrapper flex gap-5 sm:gap-3 items-start animate-ups__item w-full  z-30">
                             <!-- Added group-hover:text-white here -->
                             <div class="inline-flex">
@@ -267,8 +267,8 @@ export default defineComponent({
 
                     </div>
                     <div class="flex flex-col gap-5">
-                        <p class="text-black font-HG font-bold underline leading-normal group-hover:text-white z-30">Xem
-                            thêm</p>
+                        <!-- <p class="text-black font-HG font-bold underline leading-normal group-hover:text-white z-30">Xem
+                            thêm</p> -->
                         <div class="btn-wrapper flex gap-5 sm:gap-3 items-start animate-ups__item w-full  z-30">
                             <!-- Added group-hover:text-white here -->
                             <div class="inline-flex">

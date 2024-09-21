@@ -192,5 +192,6 @@ export default defineComponent({
       rgba(18, 89, 51, 0.9) 84.17%
     ),
     url("/images/bg-home-1ed1wdw.png") lightgray 0px -3.557px / 100% 122.075% no-repeat;
+    background-position: center;
 }
 </style>

@@ -330,7 +330,7 @@
 
 
 
-					<div class="flex flex-col gap-4 2xl:gap-5 3xl:gap-[30px]">
+					<!-- <div class="flex flex-col gap-4 2xl:gap-5 3xl:gap-[30px]">
 						<div
 							class="pb-4 2xl:pb-5 3xl:pb-[30px] border-b-[1px] border-[#DFDFDF] flex flex-col gap-[10px] xl:gap-3 2xl:gap-4 3xl:gap-5">
 							<div class="font-semibold text-sm xl:text-base 2xl:text-lg 3xl:text-2xl">Ông Trump nói về
@@ -366,7 +366,7 @@
 								phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
 								Carolina</div>
 						</div>
-					</div>
+					</div> -->
 
 					<!-- HASTAG -->
 					<div class="flex flex-wrap gap-6">

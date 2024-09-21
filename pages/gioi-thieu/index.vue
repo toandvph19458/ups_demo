@@ -739,7 +739,7 @@
                 <h5
                   class="mt-4 text-[14px] md:text-xs 2xl:text-base 3xl:text-[18px] text-white font-bold"
                 >
-                  Thành lập Chứng khoán Hoàng Gia (IRS)
+                Thành lập Công ty CP Chứng Khoán Hoàng Gia (IRS)
                 </h5>
 
                 <p

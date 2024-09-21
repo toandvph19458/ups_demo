@@ -104,7 +104,7 @@
                     <p
                       class="animate-ups__item mr-0 md:mr-20 xl:mr-32 text-[12px] md:text-[14px] 2xl:text-sm 3xl:text-lg text-[#3C4052] font-medium">
                       UPS là công ty đầu tư chứng khoán đột phá dành cho thế hệ
-                      nhà đầu tư mới, nơi công nghệ và tư duy đổi mới, sáng tạo
+                      mới, nơi công nghệ và tư duy đổi mới, sáng tạo
                       hợp nhất để đem lại trải nghiệm đầu tư thông minh, dễ dàng,
                       và thú vị.
                     </p>
@@ -144,7 +144,7 @@
                 <div
                   class="w-full relative h-[240px] xl:h-[473px] md:h-[676px] 2xl:h-[492px] 3xl:h-[656px] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
                   <nuxt-img fit="cover" loading="lazy" src="/images/image-1.png" height="656" alt="UPS"
-                    class="absolute w-full h-full object-cover md:object-contain animate-ups__item" />
+                    class="absolute w-full h-full object-cover md:object-cover animate-ups__item" />
                 </div>
               </div>
             </div>
@@ -213,7 +213,7 @@
                 <div
                   class="w-full relative h-[240px] xl:h-[473px] md:h-[676px] 2xl:h-[492px] 3xl:h-[656px] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
                   <nuxt-img fit="cover" loading="lazy" src="/images/image-3.png" height="656" alt="UPS"
-                    class="absolute w-full h-full object-cover md:object-contain animate-ups__item" />
+                    class="absolute w-full h-full object-cover md:object-cover animate-ups__item" />
                 </div>
               </div>
             </div>
@@ -287,7 +287,7 @@
                 <div
                   class="w-full relative h-[240px] xl:h-[473px] md:h-[676px] 2xl:h-[492px] 3xl:h-[656px] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
                   <nuxt-img fit="cover" loading="lazy" src="/images/image-4.png" height="656" alt="UPS"
-                    class="absolute w-full h-full object-cover md:object-contain animate-ups__item" />
+                    class="absolute w-full h-full object-cover md:object-cover animate-ups__item" />
                 </div>
               </div>
             </div>
