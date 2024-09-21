@@ -227,7 +227,7 @@
                             </AccordionTrigger>
                             <AccordionContent>
                               <div class="flex gap-5 flex-col">
-                                <nuxt-link to="/san-pham-3" class="flex items-center">
+                                <!-- <nuxt-link to="/san-pham-3" class="flex items-center">
                                   <i class="inline-flex items-center justify-center">
                                     <nuxt-img format="webp" loading="lazy" alt="UPS" height="24"
                                       src="/icons/dots-icon.svg" />
@@ -250,7 +250,7 @@
                                       Margin T+
                                     </p>
                                   </div>
-                                </nuxt-link>
+                                </nuxt-link> -->
 
                                 <!-- <nuxt-link to="/san-pham-1" class="flex items-center">
                                   <i class="inline-flex items-center justify-center">
@@ -373,7 +373,7 @@
 
                       <div class="mt-4 grid gap-4 grid-cols-2">
                         <DrawerClose as-child>
-                          <nuxt-link to="/"
+                          <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30"
                             class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG">
                             Web Trading
                           </nuxt-link>
@@ -434,7 +434,7 @@
                       </nuxt-link>
                     </DrawerClose>
                     <DrawerClose as-child>
-                      <nuxt-link to="/" class="flex items-center">
+                      <nuxt-link to="/hdsd" class="flex items-center">
                         <i class="w-5 h-5 inline-flex items-center justify-center">
                           <nuxt-img format="webp" loading="lazy" alt="UPS" width="20" height="20"
                             src="/icons/cam-nang-dau-tu.svg" />

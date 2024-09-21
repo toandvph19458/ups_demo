@@ -248,7 +248,7 @@
 									</nuxt-link>
 
 									<nuxt-link
-										to="/gioi-thieu"
+										to="/coming-soon"
 										class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
 									>
 										Gia nhập UPS
@@ -259,7 +259,7 @@
 
 						<div class="flex gap-4 flex-wrap">
 							<nuxt-link
-								to="https://onboarding.upse.vn/index.html#/./open-account/check-info"
+								to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
 								class="btn active group"
 							>
 								<span class="text-sm 3xl:text-lg"> Mở tài khoản ngay </span>

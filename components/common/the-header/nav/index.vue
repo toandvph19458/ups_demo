@@ -229,7 +229,7 @@
                       <AccordionTrigger
                         class="flex items-center hover:no-underline"
                       >
-                        <div class="flex">
+                        <nuxt-link to="coming-soon" class="flex">
                           <i class="inline-flex items-center justify-center">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -281,11 +281,11 @@
                              Khám phá ưu đãi mới nhất
                             </p>
                           </div>
-                        </div>
+                        </nuxt-link>
                       </AccordionTrigger>
                       <AccordionContent>
                         <div class="flex gap-5 flex-col pt-4">
-                          <nuxt-link to="/san-pham-3" class="flex items-center">
+                          <!-- <nuxt-link to="/san-pham-3" class="flex items-center">
                             <i class="inline-flex items-center justify-center">
                               <nuxt-img
                                 format="webp"
@@ -318,7 +318,7 @@
                                 Margin T+
                               </p>
                             </div>
-                          </nuxt-link>
+                          </nuxt-link> -->
                           
                           <!-- <nuxt-link to="/san-pham-1" class="flex items-center">
                             <i class="inline-flex items-center justify-center">

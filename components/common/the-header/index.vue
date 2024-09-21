@@ -72,7 +72,7 @@
 
 						<div class="hidden xl:inline-flex">
 							<nuxt-link
-								to="https://onboarding.upse.vn/index.html#/./open-account/check-info"
+								to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
 								class="btn active group"
 							>
 								<span> Mở tài khoản ngay </span>
