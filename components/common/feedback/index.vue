@@ -29,7 +29,7 @@
 							placeholder="Tên của bạn"
 							name="fullname"
 							v-model="fullname"
-							@change="fullname = ''"
+							@change="fullnameErr = ''"
 						/>
 						<p
 							v-if="fullnameErr"
@@ -45,7 +45,7 @@
 							placeholder="Số điện thoại"
 							name="phone"
 							v-model="phone"
-							@change="phone = ''"
+							@change="phoneErr = ''"
 						/>
 						<p
 							v-if="phoneErr"
@@ -62,7 +62,7 @@
 							placeholder="Email"
 							name="email"
 							v-model="email"
-							@change="email = ''"
+							@change="emailErr = ''"
 						/>
 						<p
 							v-if="emailErr"
@@ -112,6 +112,8 @@ export default defineComponent({
 		const emailErr: Ref<string> = ref("");
 		const content: Ref<string> = ref("");
 
+		const supportStore = useSupport();
+
 		const submit = () => {
 			if (val()) return;
 
@@ -119,9 +121,25 @@ export default defineComponent({
 			const payload = {
 				fullname: fullname.value,
 				email: email.value,
+				phone: phone.value,
+				content: content.value,
 			};
 
-			reset();
+			supportStore
+				.fnMutation(payload)
+				.then((res: any) => {
+					const str = String(res.status).startsWith("2");
+
+					if (str) {
+						alert("Thông tin của bạn đã được gửi đi thành công");
+						reset();
+					} else {
+						alert("Thông tin của bạn đã được gửi đi thất bại");
+					}
+				})
+				.catch((err) => {
+					console.log("err", err);
+				});
 		};
 
 		const val = () => {

@@ -320,7 +320,7 @@
                             </div>
                           </nuxt-link>
                           
-                          <nuxt-link to="/san-pham-1" class="flex items-center">
+                          <!-- <nuxt-link to="/san-pham-1" class="flex items-center">
                             <i class="inline-flex items-center justify-center">
                               <nuxt-img
                                 format="webp"
@@ -336,7 +336,7 @@
                                 Mở tài khoản mới + 1 triệu đồng
                               </p>
                             </div>
-                          </nuxt-link>
+                          </nuxt-link> -->
                         </div>
                       </AccordionContent>
                     </AccordionItem>

@@ -127,7 +127,7 @@
                       </nuxt-link>
                     </div>
 
-                    <nuxt-link to="https://webtrading.upse.vn/" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
+                    <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
                       <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
                       <span class="inline-block md:hidden"> Giao dịch ngay </span>
                       <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
@@ -195,7 +195,7 @@
                       </nuxt-link>
                     </div>
 
-                    <nuxt-link to="https://webtrading.upse.vn/" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
+                    <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
                       <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
                       <span class="inline-block md:hidden"> Giao dịch ngay </span>
                       <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
@@ -269,7 +269,7 @@
                       </nuxt-link>
                     </div>
 
-                    <nuxt-link to="https://webtrading.upse.vn/" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
+                    <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
                       <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
                       <span class="inline-block md:hidden"> Giao dịch ngay </span>
                       <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
