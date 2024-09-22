@@ -41,11 +41,12 @@ module.exports = {
 				custom: "6px 6px 0px #071A11",
 			},
 			boxShadow: {
-				'custom-shadow': '0px 4px 84px 0px rgba(0, 0, 0, 0.15)',
+				"custom-shadow": "0px 4px 84px 0px rgba(0, 0, 0, 0.15)",
 			},
 			backgroundImage: {
-				'custom-gradient': 'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 8.9%, #000 100%)',
-				'custom-gradient-card-question': 'linear-gradient(99deg, #FFF -1.15%, #FFF 51.43%, rgba(255, 255, 255, 0.30) 102.18%)',
+				"custom-gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 8.9%, #000 100%)",
+				"custom-gradient-card-question":
+					"linear-gradient(99deg, #FFF -1.15%, #FFF 51.43%, rgba(255, 255, 255, 0.30) 102.18%)",
 			},
 			colors: {
 				black: "#15171E",

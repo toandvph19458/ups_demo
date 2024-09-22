@@ -33,7 +33,7 @@
               </div>
             </nuxt-link>
 
-            <nuxt-link to="https://webtrading.upse.vn/"
+            <nuxt-link to="/hdsd#co-phieu-HY"
               class="btn h-8 2xl:h-12 px-4 2xl:px-5 inline-flex gap-3 items-center rounded-full border lg:border-transparent border-[#222] hover:border-[#222]">
               <span class="text-sm 3xl:text-lg font-bold">
                 Hướng dẫn giao dịch

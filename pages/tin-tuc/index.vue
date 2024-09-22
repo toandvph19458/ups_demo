@@ -290,7 +290,7 @@
 						</h4>
 
 						<div class="mt-10 inline-flex">
-							<nuxt-link to="/"
+							<nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
 								class="w-auto h-[50px] px-6 flex gap-2 items-center rounded-[40px] text-base font-bold text-green-ups !bg-[#242733] group">
 								<span> Mở tài khoản ngay </span>
 								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">

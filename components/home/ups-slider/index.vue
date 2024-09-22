@@ -142,9 +142,9 @@
 
               <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" class="xl:basis-1/2 basis-full">
                 <div
-                  class="w-full relative h-[240px] xl:h-[473px] md:h-[676px] 2xl:h-[492px] 3xl:h-[656px] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
+                  class="w-full relative pt-[70%] rounded-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
                   <nuxt-img fit="cover" loading="lazy" src="/images/image-1.png" height="656" alt="UPS"
-                    class="absolute w-full h-full object-cover md:object-cover animate-ups__item" />
+                    class="absolute top-0 left-0 right-0 w-full h-full object-contain animate-ups__item" />
                 </div>
               </nuxt-link>
             </div>

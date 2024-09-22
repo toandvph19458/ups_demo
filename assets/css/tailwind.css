@@ -99,7 +99,7 @@
 
   /* COMMON */
   .container {
-    @apply w-full max-w-[calc(100%-48px)] md:max-w-[calc(648px+48px)] lg:max-w-[calc(904px+48px)] xl:max-w-[calc(1080px+48px)] 2xl:max-w-[calc(1200px+48px)] 3xl:max-w-[calc(1600px+48px)] mx-6 sm:mx-auto px-0 md:px-6;
+    @apply w-full max-w-[calc(100%-48px)] md:max-w-[calc(648px+48px)] lg:max-w-[calc(904px+48px)] xl:max-w-[calc(1080px+48px)] 2xl:max-w-[calc(1200px+48px)] 3xl:max-w-[calc(1600px+48px)] mx-6 sm:mx-auto px-0 md:px-6 !important;
   }
 
   /* layout common css */
@@ -123,7 +123,9 @@
     box-shadow: -10px 10px 0px 0px rgba(0, 0, 0, 0.31);
   }
 }
+
 @layer base {
+
   .content-wrapper h1,
   .content-wrapper h2,
   .content-wrapper h3,
@@ -133,14 +135,14 @@
     font-size: revert;
     font-weight: revert;
   }
-  
+
   .content-wrapper ol,
   .content-wrapper ul {
     list-style: revert;
     margin: revert;
     padding: revert;
   }
-  
+
   .content-wrapper table {
     border: revert;
     border-collapse: revert;
@@ -148,11 +150,11 @@
     width: revert;
     margin: revert;
   }
-  
+
   .content-wrapper tr {
     border: revert;
   }
-  
+
   .content-wrapper th,
   .content-wrapper td {
     padding: revert;
@@ -160,5 +162,5 @@
     text-align: revert;
     vertical-align: revert;
   }
-  
+
 }
