@@ -117,7 +117,7 @@
 					<p
 						class="text-center text-[#535662] font-hanken-grotesk text-[16px] font-medium leading-normal mb-[80px]"
 					>
-						Cập nhật mới nhất: 20/08/2024
+						<!-- Cập nhật mới nhất: 20/08/2024 -->
 					</p>
 				</div>
 				<div class="xl:w-[30%] lg:w-[30%] w-full">
@@ -195,7 +195,7 @@
 									to="/"
 									class="btn active group"
 								>
-									<span> Mở tài khoản ngay </span>
+									<span> Đăng ký </span>
 									<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
 										<i
 											class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-[-120%] group-hover:translate-x-0"

@@ -229,7 +229,7 @@
 										to="/hdsd"
 										class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
 									>
-										Hướng dẫn sử dụng
+									Hỗ trợ khách hàng
 									</nuxt-link>
 								</div>
 							</div>

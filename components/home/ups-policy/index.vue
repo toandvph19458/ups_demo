@@ -50,7 +50,7 @@
 						</p>
 
 						<div class="animate-ups__item inline-flex">
-							<nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info"
+							<nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
 								class="btn active group">
 								<span> Mở tài khoản ngay </span>
 								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">

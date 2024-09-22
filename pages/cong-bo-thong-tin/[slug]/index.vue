@@ -204,7 +204,7 @@
 									to="/"
 									class="btn active group"
 								>
-									<span> Mở tài khoản ngay </span>
+									<span> Đăng ký </span>
 									<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
 										<i
 											class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-[-120%] group-hover:translate-x-0"
@@ -274,7 +274,7 @@
 						</div>
 					</div>
 					<div class="flex justify-between items-center my-[24px]">
-						<template v-if="doc?.short_content?.tags.length > 0">
+						<!-- <template v-if="doc?.short_content?.tags.length > 0">
 							<p
 								v-for="(sub, k) in doc?.short_content?.tags"
 								:key="k"
@@ -285,7 +285,7 @@
 						</template>
 						<div class="time text-[#9498A8] font-hanken-grotesk text-[18px] font-medium leading-normal">
 							5 phút trước
-						</div>
+						</div> -->
 					</div>
 					<div class="">
 						<h6
