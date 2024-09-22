@@ -633,7 +633,7 @@
                 </div>
               </nuxt-link>
 
-              <nuxt-link to="/coming-soon" class="flex items-center">
+              <!-- <nuxt-link to="/coming-soon" class="flex items-center">
                 <i class="inline-flex items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -679,7 +679,7 @@
                     Đầu tư thông minh cùng cộng đồng UPS
                   </p>
                 </div>
-              </nuxt-link>
+              </nuxt-link> -->
 
               <nuxt-link to="/hdsd" class="flex items-center">
                 <i class="inline-flex items-center justify-center">

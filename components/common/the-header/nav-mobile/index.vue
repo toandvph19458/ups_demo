@@ -417,7 +417,7 @@
                       </nuxt-link>
                     </DrawerClose>
                     <DrawerClose as-child>
-                      <nuxt-link to="/" class="flex items-center">
+                      <!-- <nuxt-link to="/" class="flex items-center">
                         <i class="w-5 h-5 inline-flex items-center justify-center">
                           <nuxt-img format="webp" loading="lazy" alt="UPS" width="20" height="20"
                             src="/icons/cong-dong.svg" />
@@ -431,7 +431,7 @@
                             Đầu tư thông minh cùng cộng đồng UPS
                           </p>
                         </div>
-                      </nuxt-link>
+                      </nuxt-link> -->
                     </DrawerClose>
                     <DrawerClose as-child>
                       <nuxt-link to="/hdsd" class="flex items-center">
