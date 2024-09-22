@@ -52,7 +52,7 @@
 				<nuxt-img
 					loading="lazy"
 					alt="UPS"
-					:src="config.NUXT_APP_IMAGE_URL + data?.newDetail.cover?.id"
+					:src="config.NUXT_APP_IMAGE_URL + data?.newDetail.thumbnail?.id"
 					class="link absolute w-full h-full object-cover"
 				/>
 			</div>
@@ -317,7 +317,8 @@ export default defineComponent({
 				3,
 				dataDetail?.data?.data?.posts_by_id?.raw_content?.categories[0].category?.slug
 			);
-
+			console.log(dataDetail?.data?.data?.posts_by_id?.raw_content,);
+			
 			return {
 				newDetail: dataDetail?.data?.data?.posts_by_id?.raw_content,
 				dataNews: dataNews?.data?.data?.posts,
