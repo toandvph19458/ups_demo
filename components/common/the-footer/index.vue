@@ -287,7 +287,7 @@
 							</nuxt-link>
 
 							<nuxt-link
-								to="https://webtrading.upse.vn/"
+								to="https://trade.upstock.com.vn/#/price/bang-gia/vn30"
 								class="btn h-8 2xl:h-12 px-4 2xl:px-5 inline-flex gap-3 items-center rounded-full border lg:border-transparent border-[#222] hover:border-[#222]"
 							>
 								<span class="text-sm 3xl:text-lg font-bold"> Đăng nhập/Giao dịch ngay </span>
