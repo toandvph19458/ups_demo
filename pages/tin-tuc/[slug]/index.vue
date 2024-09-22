@@ -411,6 +411,7 @@ export default defineComponent({
 	font-weight: bold;
 	margin-top: 0.67em;
 	margin-bottom: 0.67em;
+	line-height: 1.2; /* Adjust line height for h1 */
 }
 
 .content-wrapper :deep(h2) {
@@ -418,6 +419,7 @@ export default defineComponent({
 	font-weight: bold;
 	margin-top: 0.83em;
 	margin-bottom: 0.83em;
+	line-height: 1.3; /* Adjust line height for h2 */
 }
 
 .content-wrapper :deep(p) {
