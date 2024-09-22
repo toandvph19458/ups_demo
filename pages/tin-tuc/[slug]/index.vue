@@ -317,7 +317,6 @@ export default defineComponent({
 				3,
 				dataDetail?.data?.data?.posts_by_id?.raw_content?.categories[0].category?.slug
 			);
-			console.log(dataDetail?.data?.data?.posts_by_id?.raw_content,);
 			
 			return {
 				newDetail: dataDetail?.data?.data?.posts_by_id?.raw_content,

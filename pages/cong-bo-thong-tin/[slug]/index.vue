@@ -52,7 +52,7 @@
 				<nuxt-img
 					loading="lazy"
 					alt="UPS"
-					:src="config.NUXT_APP_IMAGE_URL + data?.newDetail.cover?.id"
+					:src="config.NUXT_APP_IMAGE_URL + data?.newDetail?.thumbnail?.id"
 					class="link absolute w-full h-full object-cover rounded-2xl"
 				/>
 			</div>
