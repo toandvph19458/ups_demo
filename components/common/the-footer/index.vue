@@ -179,7 +179,7 @@
 										to="/coming-soon"
 										class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
 									>
-										Ưu đãi
+										Hot Deals
 									</nuxt-link>
 									<nuxt-link
 										to="/bieu-phi"
