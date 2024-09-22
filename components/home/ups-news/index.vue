@@ -1,26 +1,22 @@
 <template>
-	<section class="section_news animate-ups 3xl:ml-[100px] sm:py-8 sm:px-6 2xl:px-[120px] 2xl:py-[96px]">
-		<div
-			class="flex flex-col xl:flex-row gap-6 md:gap-10 xl:gap-14 items-center pt-0 py-8 md:py-10 xl:py-[80px] 3xl:py-[130px] ">
+	<section class="section_news animate-ups px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-[120px] py-8 sm:py-12 md:py-16 lg:py-20 xl:py-[80px] 2xl:py-[96px]">
+		<div class="flex flex-col xl:flex-row gap-6 md:gap-10 xl:gap-14 items-center">
 			<div class="w-full xl:w-[340px] flex flex-col gap-5 xl:gap-10 2xl:gap-[30px]">
-				<div
-					class="animate-ups__item inline-flex relative w-[90px] h-[40px] xl:w-[140px] xl:h-[60px] 2xl:w-[100px] 2xl:h-[45px] 3xl:w-[140px] 3xl:h-[60px]">
+				<div class="animate-ups__item inline-flex relative w-[90px] h-[40px] sm:w-[100px] sm:h-[45px] md:w-[120px] md:h-[50px] lg:w-[130px] lg:h-[55px] xl:w-[140px] xl:h-[60px] 2xl:w-[140px] 2xl:h-[60px]">
 					<nuxt-img format="webp" loading="lazy" width="140" height="60" alt="UPS"
 						src="/logo/logo-cap-dark.png" class="absolute w-full h-full object-contain" />
 				</div>
 
 				<div>
-					<h3
-						class="hidden md:block  animate-ups__item bg-[linear-gradient(269deg,#00C058_41.75%,#1FAB5F_110.86%)] bg-clip-text text-transparent font-BG text-[24px] md:text-[32px] lg:text-[54] 2xl:text-[60px] 3xl:text-[80px] font-bold leading-[1.2] 2xl:leading-normal">
+					<h3 class="hidden md:block animate-ups__item bg-gradient-to-r from-[#00C058] to-[#1FAB5F] bg-clip-text text-transparent font-BG text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[54px] 2xl:text-[60px] font-bold leading-tight">
 						<span class="text-[#15171E]">Tin</span><br />
 						nổi bật
 					</h3>
-					<h3
-						class="block md:hidden animate-ups__item bg-[linear-gradient(269deg,#00C058_41.75%,#1FAB5F_110.86%)] bg-clip-text text-transparent font-BG text-[24px] md:text-[32px] lg:text-[54] 2xl:text-[60px] 3xl:text-[80px] font-bold leading-[1.2]">
+					<h3 class="block md:hidden animate-ups__item bg-gradient-to-r from-[#00C058] to-[#1FAB5F] bg-clip-text text-transparent font-BG text-2xl sm:text-3xl font-bold leading-tight">
 						<span class="text-[#15171E]">Tin</span>
 						nổi bật
 					</h3>
-					<p class="animate-ups__item text-sm lg:text-sm 2xl:text-base text-[#000] font-normal">
+					<p class="animate-ups__item text-sm sm:text-base lg:text-lg xl:text-base 2xl:text-lg text-[#000] font-normal mt-2 sm:mt-4">
 						Cập nhật các sản phẩm, dịch vụ mới nhất cũng như các hoạt động, sự kiện của UPS
 					</p>
 				</div>
@@ -63,66 +59,51 @@
 					</div>
 				</div>
 			</div>
-			<div class="w-full xl:w-[calc(100%-300px)] 3xl:w-[calc(100%-340px)]">
+			<div class="w-full xl:w-[calc(100%-340px)] 2xl:w-[calc(100%-380px)]">
 				<swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1" :loop="false" :speed="800"
 					:space-between="12" :initial-slide="vSwiperIndex" @swiper="setVSwiperRef"
 					@slide-change="updateVSwiperIndex" :breakpoints="{
-						480: {
-							slidesPerView: 1,
-							spaceBetween: 12,
+						375: {
+							slidesPerView: 1.2,
+							spaceBetween: 10,
 						},
 						768: {
-							slidesPerView: 2.2,
+							slidesPerView: 2,
 							spaceBetween: 12,
 						},
-						992: {
-							slidesPerView: 2.2,
+						1024: {
+							slidesPerView: 2.5,
 							spaceBetween: 12,
 						},
-						1200: {
-							slidesPerView: 3.5,
+						1280: {
+							slidesPerView: 3,
 							spaceBetween: 12,
 						},
-						1300: {
+						1440: {
 							slidesPerView: 3.2,
-							spaceBetween: 10,
+							spaceBetween: 12,
 						},
-						1500: {
+						1920: {
 							slidesPerView: 3.5,
-							spaceBetween: 10,
+							spaceBetween: 12,
 						},
 					}">
 					<swiper-slide v-for="(doc, i) in data?.dataNews?.posts" :key="i">
 						<div
-							class="card card-dot flex flex-col relative group p-5 xl:p-4 rounded-[30px] 2xl:rounded-[22px] overflow-hidden  2xl:h-[359px] 3xl:min-h-[500px] w-full 2xl:w-[292px] 3xl:w-full ">
+							class="card card-dot flex flex-col relative group p-4 sm:p-5 rounded-[20px] sm:rounded-[30px] 2xl:rounded-[22px] overflow-hidden h-[400px] sm:h-[450px] md:h-[500px] lg:h-[450px] xl:h-[400px] 2xl:h-[450px] w-full">
 							<div class="glow"></div>
 							<div
-								class="relative w-full h-[200px] md:h-[250px] xl:h-[288px] 2xl:h-[216px] 3xl:h-[288px] rounded-[14px] overflow-hidden ">
+								class="relative w-full h-[200px] sm:h-[220px] md:h-[250px] lg:h-[230px] xl:h-[220px] 2xl:h-[260px] rounded-[14px] overflow-hidden">
 								<nuxt-img format="webp" loading="lazy" :alt="doc?.short_content?.title"
 									:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
 									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
 							</div>
-							<div class="mt-3 md:mt-5">
-								<!-- <div class="flex justify-between">
-									<template v-if="doc?.short_content?.tags.length > 0">
-										<p
-											v-for="(sub, k) in doc?.short_content?.tags"
-											:key="k"
-											class="text-xs md:text-sm 3xl:text-lg text-[#F05] font-medium"
-										>
-											{{ `#${sub?.tag.slug}` }}
-										</p>
-									</template>
-<p class="text-xs md:text-sm 3xl:text-lg text-[#9498A8] font-medium">
-	5 phút trước
-</p>
-</div> -->
-
+							<div class="mt-3 sm:mt-4 md:mt-5">
 								<h4
-									class="text-sm 2xl:text-base 3xl:text-xl text-black font-semibold line-clamp-3 mt-3 md:mt-6">
+									class="text-sm sm:text-base md:text-lg xl:text-base 2xl:text-lg text-black font-semibold line-clamp-3 mt-2 sm:mt-3 md:mt-4">
 									{{ doc?.short_content?.title }}
 								</h4>
-								<p class="text-xs 2xl:text-sm 3xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2">
+								<p class="text-xs sm:text-sm md:text-base xl:text-sm 2xl:text-base text-[#3C4052] font-medium line-clamp-3 mt-2 sm:mt-3">
 									{{ doc?.short_content?.blurb }}
 								</p>
 							</div>
@@ -130,129 +111,6 @@
 								class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full" />
 						</div>
 					</swiper-slide>
-					<!-- <swiper-slide>
-						<div class="news_layout_item flex flex-col py-5 relative group">
-							<div
-								class="relative w-full h-[200px] md:h-[250px] xl:h-[288px] rounded-[14px] overflow-hidden"
-							>
-								<nuxt-img
-									format="webp"
-									loading="lazy"
-									alt="UPS"
-									width="350"
-									height="290"
-									:src="`/images/card-tin-tuc.png`"
-									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-								/>
-							</div>
-
-							<div class="mt-3 md:mt-5">
-								<div class="flex justify-between">
-									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnews</p>
-									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
-										5 phút trước
-									</p>
-								</div>
-
-								<h4
-									class="text-sm md:text-base xl:text-xl text-black font-semibold line-clamp-1 mt-3 md:mt-6"
-								>
-									Nội dung tin tức
-								</h4>
-								<p class="text-sm md:text-base xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-									incididunt...
-								</p>
-							</div>
-
-							<nuxt-link
-								to="/"
-								class="absolute w-full h-full"
-							/>
-						</div>
-					</swiper-slide>
-					<swiper-slide>
-						<div class="news_layout_item flex flex-col py-5 relative group">
-							<div
-								class="relative w-full h-[200px] md:h-[250px] xl:h-[288px] rounded-[14px] overflow-hidden"
-							>
-								<nuxt-img
-									format="webp"
-									loading="lazy"
-									alt="UPS"
-									width="350"
-									height="290"
-									:src="`/images/card-tin-tuc.png`"
-									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-								/>
-							</div>
-
-							<div class="mt-3 md:mt-5">
-								<div class="flex justify-between">
-									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnews</p>
-									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
-										5 phút trước
-									</p>
-								</div>
-
-								<h4
-									class="text-sm md:text-base xl:text-xl text-black font-semibold line-clamp-1 mt-3 md:mt-6"
-								>
-									Nội dung tin tức
-								</h4>
-								<p class="text-sm md:text-base xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-									incididunt...
-								</p>
-							</div>
-
-							<nuxt-link
-								to="/"
-								class="absolute w-full h-full"
-							/>
-						</div>
-					</swiper-slide>
-					<swiper-slide>
-						<div class="news_layout_item flex flex-col py-5 relative group">
-							<div
-								class="relative w-full h-[200px] md:h-[250px] xl:h-[288px] rounded-[14px] overflow-hidden"
-							>
-								<nuxt-img
-									format="webp"
-									loading="lazy"
-									alt="UPS"
-									width="350"
-									height="290"
-									:src="`/images/card-tin-tuc.png`"
-									class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-								/>
-							</div>
-
-							<div class="mt-3 md:mt-5">
-								<div class="flex justify-between">
-									<p class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">#hotnews</p>
-									<p class="text-sm md:text-base xl:text-lg text-[#9498A8] font-medium">
-										5 phút trước
-									</p>
-								</div>
-
-								<h4
-									class="text-sm md:text-base xl:text-xl text-black font-semibold line-clamp-1 mt-3 md:mt-6"
-								>
-									Nội dung tin tức
-								</h4>
-								<p class="text-sm md:text-base xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-									incididunt...
-								</p>
-							</div>
-
-							<nuxt-link
-								to="/"
-								class="absolute w-full h-full"
-							/>
-						</div>
-					</swiper-slide> -->
 				</swiper>
 			</div>
 		</div>

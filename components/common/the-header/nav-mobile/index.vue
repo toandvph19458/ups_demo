@@ -374,6 +374,7 @@
                       <div class="mt-4 grid gap-4 grid-cols-2">
                         <DrawerClose as-child>
                           <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30"
+                          target="_blank"
                             class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG">
                             Web Trading
                           </nuxt-link>

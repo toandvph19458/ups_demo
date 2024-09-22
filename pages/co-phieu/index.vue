@@ -20,7 +20,7 @@
             tư trở nên đầy hứng khởi: đơn giản và hiệu quả. 
           </p>
           <div class="flex gap-4 flex-wrap">
-            <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info" class="btn active group">
+            <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info" target="_blank" class="btn active group">
               <span class="text-sm 3xl:text-lg"> Mở tài khoản ngay </span>
               <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
@@ -279,6 +279,7 @@
           </nuxt-link>
 
           <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
+          target="_blank"
             class="btn h-8 2xl:h-12 px-4 2xl:px-5 inline-flex gap-3 items-center rounded-full border lg:border-transparent border-[#222] hover:border-[#222]">
             <span class="text-sm 3xl:text-lg font-bold">
               Mở tài khoản ngay

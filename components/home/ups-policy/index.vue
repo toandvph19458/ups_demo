@@ -11,9 +11,9 @@
 						<span> đối tác đầu tư phù hợp? </span>
 					</h3>
 
-					<div class="basis-full md:basis-1/2">
+					<div class="basis-full md:basis-6/12 xl:basis-5/12">
 						<p
-							class="animate-ups__item 2xl:w-[70%] w-full text-sm lg:text-base font-medium text-white link">
+							class="animate-ups__item w-full text-sm lg:text-base font-medium text-white link">
 							UPS tin rằng đầu tư không đơn giản chỉ là con số, giao dịch khô khan mà còn là cuộc phiêu
 							lưu
 							độc đáo mở ra hành trình tài chính cá nhân đầy hứng khởi và mới mẻ cho nhà đầu tư.
@@ -51,6 +51,7 @@
 
 						<div class="animate-ups__item inline-flex">
 							<nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
+							target="_blank"
 								class="btn active group">
 								<span> Mở tài khoản ngay </span>
 								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">

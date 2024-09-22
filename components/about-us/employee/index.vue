@@ -33,7 +33,7 @@
         </div>
 
         <div class="col-span-5 xl:col-span-3 hidden md:grid gap-4 grid-cols-3">
-          <div class="col-span-1 h-[240px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
+          <div class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
             <div class="absolute w-full h-full">
               <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/images/sepdat.png"
                 class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
@@ -53,7 +53,7 @@
             </div>
           </div>
 
-          <div class="col-span-1 h-[240px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden ">
+          <div class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden ">
             <div class="absolute w-full h-full ">
               <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/images/sepnam.png"
                 class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
@@ -73,7 +73,7 @@
             </div>
           </div>
 
-          <div class="col-span-1 h-[240px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
+          <div class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
             <div class="absolute w-full h-full">
               <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/images/sepchien.png"
                 class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />

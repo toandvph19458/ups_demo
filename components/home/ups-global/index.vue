@@ -19,7 +19,7 @@
 					</p>
 					</div>
 
-					<div class="flex justify-center xl:justify-start gap-3 mt-5 xl:mt-12 mb-2">
+					<div class="flex justify-center lg:justify-end gap-3 mt-5 xl:mt-12 mb-2">
 						<nuxt-link
 							to="/"
 							class="animate-ups__item h-10 px-4 inline-flex gap-4 items-center rounded-[12px] bg-[#15171E]"
@@ -55,7 +55,7 @@
 
 							<span class="hidden md:inline-block text-xs 2xl:text-base text-white font-bold">Facebook</span>
 						</nuxt-link>
-						<nuxt-link
+						<!-- <nuxt-link
 							to="/"
 							class="animate-ups__item h-10 px-4 inline-flex gap-4 items-center rounded-[12px] bg-[#29A8E9]"
 						>
@@ -89,7 +89,7 @@
 							</div>
 
 							<span class="hidden md:inline-block text-xs 2xl:text-base text-white font-bold">Zalo</span>
-						</nuxt-link>
+						</nuxt-link> -->
 					</div>
 				</div>
 

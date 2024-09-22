@@ -3,7 +3,7 @@
     class="cursor_dot fixed top-0 left-0 z-[9999] pointer-events-none bg-[#02E56A] rounded-full hidden"
   ></div>
   <div
-    class="cursor_dot_2 fixed top-0 left-0 z-[9999] pointer-events-none bg-[#15171E] rounded-full hidden xl:hidden lg:hidden 2xl:block"
+    class="cursor_dot_2 fixed top-0 left-0 z-[9999] pointer-events-none bg-[#15171E] rounded-full hidden xl:hidden lg:hidden 2xl:hidden 3xl:block"
   >
     <div
       to="/"
@@ -232,7 +232,7 @@ export default defineComponent({
 .cursor_dot{
 
 }
-@media (max-width: 768px){
+@media (max-width: 1440px){
   .cursor_dot {
     display: none !important;
   }
