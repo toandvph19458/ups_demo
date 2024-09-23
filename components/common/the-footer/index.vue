@@ -198,13 +198,14 @@
                       to="/coming-soon"
                       class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
                     >
-                      Hot Deals
+                      
+                      <p class="link-effect inline-block">Hot Deals</p>
                     </nuxt-link>
                     <nuxt-link
                       to="/bieu-phi"
                       class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
                     >
-                      Biểu phí giao dịch
+                    <p class="link-effect inline-block">Biểu phí giao dịch</p>
                     </nuxt-link>
                   </div>
                 </div>
@@ -221,15 +222,15 @@
                   <div class="flex gap-3 flex-col">
                     <nuxt-link
                       to="/coming-soon"
-                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
+                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium "
                     >
-                      Tư vấn tài chính
+                     <p class="link-effect inline-block">Tư vấn tài chính</p> 
                     </nuxt-link>
                     <nuxt-link
                       to="/tin-tuc"
-                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
+                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium "
                     >
-                      Tin đấu giá
+                      <p class="link-effect inline-block">Tin đấu giá</p>
                     </nuxt-link>
                   </div>
                 </div>
@@ -248,13 +249,15 @@
                       to="/coming-soon"
                       class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
                     >
-                      Nhận định thị trường
+                    <p class="link-effect inline-block">Nhận định thị trường</p>
+                      
                     </nuxt-link>
                     <nuxt-link
                       to="/hdsd"
                       class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
                     >
-                      Hỗ trợ khách hàng
+                    <p class="link-effect inline-block">Hỗ trợ khách hàng</p>
+                      
                     </nuxt-link>
                   </div>
                 </div>
@@ -273,14 +276,15 @@
                       to="/cong-bo-thong-tin"
                       class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
                     >
-                      Công bố thông tin
+                    <p class="link-effect inline-block">Công bố thông tin</p>
                     </nuxt-link>
 
                     <nuxt-link
                       to="/coming-soon"
                       class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
                     >
-                      Gia nhập UPS
+                    <p class="link-effect inline-block"> Gia nhập UPS</p>
+                     
                     </nuxt-link>
                   </div>
                 </div>
@@ -393,4 +397,37 @@ export default defineComponent({
 });
 </script>
 
-<style></style>
+<style scoped>
+.link-effect {
+  display: inline-block;
+  position: relative;
+  transition: background-size 0.8s ease;
+  background-image: linear-gradient(180deg, transparent 95%, #080808 0);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+}
+
+.link-effect:hover {
+  background-size: 100% 100%;
+}
+/* .link-effect {
+  display: inline-block;
+  position: relative;
+}
+.link-effect:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.link-effect:hover:after { 
+  width: 100%; 
+  left: 0; 
+} */
+</style>
