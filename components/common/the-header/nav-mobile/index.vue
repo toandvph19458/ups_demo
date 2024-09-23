@@ -8,27 +8,20 @@
         </div>
       </div>
     </DrawerTrigger>
-    <DrawerContent class="z-[101] mt-[64px] md:mt-[84px] xl:mt-[90px] rounded-none border-none">
+    <DrawerContent class="z-[101] mt-[64px] md:mt-[84px] xl:mt-[90px] rounded-none border-none xl:hidden block">
       <div class="w-full h-[calc(100vh-64px)] md:h-[calc(100vh-84px)] xl:h-[calc(100vh-90px)] px-6 pb-10 relative">
-        <div class="absolute left-0 top-0 w-8 h-8 bg-white -translate-y-1/2"></div>
-        <div class="absolute right-0 top-0 w-8 h-8 bg-white -translate-y-1/2"></div>
+       <!-- <div class="absolute left-0 top-0 w-8 h-8 bg-white -translate-y-1/2 border"></div>
+        <div class="absolute right-0 top-0 w-8 h-8 bg-white -translate-y-1/2 border"></div> -->
         <DrawerClose as-child>
-					<div class="flex items-center">
-						<div class="inline-flex w-6 h-6 relative">
-							<nuxt-img
-								format="webp"
-								loading="lazy"
-								src="/icons/close-icon.svg"
-								alt="UPS"
-								class="absolute w-full h-full object-contain"
-							/>
-						</div>
+          <div class="w-full flex justify-end  py-2">
+            <div class="inline-flex w-6 h-6 relative border rounded-md">
+              <nuxt-img format="webp" loading="lazy" src="/icons/close-icon.svg" alt="UPS"
+                class="absolute w-full h-full object-contain" />
+            </div>
+          </div>
+        </DrawerClose>
 
-						<!-- <p class="ml-4 text-lg text-black font-bold font-BG">Hướng dẫn giao dịch</p> -->
-					</div>
-				</DrawerClose>
-
-        <div class="mt-4">
+        <!-- <div class="mt-4">
           <div class="flex items-center relative">
             <i>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
@@ -44,7 +37,7 @@
               placeholder="Tìm kiếm" name="fullname" />
             <div class="absolute left-0 right-0 bottom-0 w-full h-[1px] bg-[#ADB2C0]"></div>
           </div>
-        </div>
+        </div> -->
 
         <div class="mt-10">
           <ScrollArea class="w-full h-[calc(100vh-200px)]">
@@ -124,12 +117,15 @@
                           </i>
 
                           <nuxt-link to="/co-phieu" class="ml-5">
+                            <DrawerClose as-child>
                             <p class="text-base text-[#000] font-semibold font-HG">
                               Cổ phiếu
                             </p>
+                          
                             <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
                               Đầu tư đơn giản và hiệu quả
                             </p>
+                          </DrawerClose>
                           </nuxt-link>
                         </nuxt-link>
 
@@ -199,6 +195,7 @@
                           <AccordionItem value="1">
                             <AccordionTrigger class="flex items-center hover:no-underline">
                               <nuxt-link to="coming-soon" class="flex">
+                                <DrawerClose as-child>
                                 <i class="inline-flex items-center justify-center">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                                     fill="none">
@@ -223,6 +220,7 @@
                                     Khám phá ưu đãi mới nhất
                                   </p>
                                 </div>
+                                </DrawerClose>
                               </nuxt-link>
                             </AccordionTrigger>
                             <AccordionContent>
@@ -270,6 +268,7 @@
                         </Accordion>
 
                         <nuxt-link to="/bieu-phi" class="flex items-center">
+                          <DrawerClose as-child>
                           <i class="inline-flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                               fill="none">
@@ -296,6 +295,7 @@
                               Cập nhật bảng giá 24/7
                             </p>
                           </div>
+                          </DrawerClose>
                         </nuxt-link>
                       </div>
                     </div>
@@ -306,6 +306,7 @@
 
                       <div class="flex flex-col gap-5 py-5">
                         <nuxt-link to="/" class="flex items-center">
+                          <DrawerClose as-child>
                           <i class="inline-flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                               fill="none">
@@ -333,9 +334,11 @@
                               Cùng doanh nghiệp phát triển bền vững
                             </p>
                           </nuxt-link>
+                          </DrawerClose>
                         </nuxt-link>
 
                         <nuxt-link to="/coming-soon" class="flex items-center">
+                          <DrawerClose as-child>
                           <i class="inline-flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                               fill="none">
@@ -363,6 +366,8 @@
                               Bản tin đấu giá tại UPS
                             </p>
                           </div>
+                          </DrawerClose>
+                          
                         </nuxt-link>
                       </div>
                     </div>
@@ -622,3 +627,6 @@ export default defineComponent({
   setup(props, ctx) { },
 });
 </script>
+<style scoped>
+
+</style>
