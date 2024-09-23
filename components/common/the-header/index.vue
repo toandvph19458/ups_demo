@@ -1,35 +1,20 @@
 <template>
-	<header
-		id="header"
-		class="fixed flex items-center w-full h-[64px] md:h-[84px] xl:h-[90px] max-w-full px-6 md:px-6 lg:px-10 xl:px-auto z-[100] inset-0 bg-white rounded-es-[20px] rounded-ee-[20px]"
-	>
+	<header id="header"
+		class="fixed flex items-center w-full h-[64px] md:h-[84px] xl:h-[90px] max-w-full px-6 md:px-6 lg:px-10 xl:px-auto z-[100] inset-0 bg-white rounded-es-[20px] rounded-ee-[20px]">
 		<div class="w-full max-w-[1730px] mx-auto">
 			<div class="w-full h-full my-auto lg:py-5 flex justify-between items-center">
 				<!--@@@ LOGO -->
-				<nuxt-link
-					to="/"
-					class="inline-flex relative w-[181px] h-[41px] md:w-[167px] md:h-[37px] xl:w-[207px] xl:h-[47px]"
-				>
-					<nuxt-img
-						src="/logo/logo-full-v2.png"
-						alt="UPS"
-						width="207"
-						height="47"
-						loading="lazy"
-						class="absolute w-full h-full object-contain"
-					/>
+				<nuxt-link to="/"
+					class="inline-flex relative w-[181px] h-[41px] md:w-[167px] md:h-[37px] xl:w-[207px] xl:h-[47px]">
+					<nuxt-img src="/logo/UPS_LogoTenDayDu+KhauHieu 1.png" alt="UPS" width="207" height="47"
+						loading="lazy" class="absolute w-full h-full object-contain" />
 				</nuxt-link>
 
 				<div class="flex gap-10 items-center">
 					<!--@@@ SEARCH  -->
 					<div class="hidden xl:inline-flex w-6 h-6 relative cursor-pointer">
-						<nuxt-img
-							src="/icons/search-normal.svg"
-							alt="UPS"
-							loading="lazy"
-							height="24"
-							class="absolute w-full h-full object-contain"
-						/>
+						<nuxt-img src="/icons/search-normal.svg" alt="UPS" loading="lazy" height="24"
+							class="absolute w-full h-full object-contain" />
 					</div>
 
 					<!-- NAV -->
@@ -71,31 +56,18 @@
 						</div> -->
 
 						<div class="hidden xl:inline-flex">
-							<nuxt-link
-								to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
-								target="_blank"
-								class="btn active group"
-							>
+							<nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
+								target="_blank" class="btn active group">
 								<span> Mở tài khoản ngay </span>
 								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
 									<i class="w-full h-full group-hover:inline-flex hidden absolute">
-										<nuxt-img
-											src="/icons/arrow-dark-icon.svg"
-											loading="lazy"
-											width="16"
-											height="16"
-											alt="UPS"
-										/>
+										<nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
+											alt="UPS" />
 									</i>
 
 									<i class="w-full h-full group-hover:hidden inline-flex absolute">
-										<nuxt-img
-											src="/icons/arrow-icon.svg"
-											loading="lazy"
-											width="16"
-											height="16"
-											alt="UPS"
-										/>
+										<nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16"
+											alt="UPS" />
 									</i>
 								</div>
 							</nuxt-link>

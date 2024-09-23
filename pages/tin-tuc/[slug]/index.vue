@@ -2,20 +2,13 @@
 	<div class="container">
 		<div class="flex justify-center text-center mt-[100px]">
 			<div class="inline-flex relative w-[125px] h-[56px] xl:w-[220px] xl:h-[70px]">
-				<nuxt-img
-					loading="lazy"
-					alt="UPS"
-					src="/logo/logo-cap-dark.png"
-					width="220"
-					height="100"
-					class="link absolute w-full h-full object-contain"
-				/>
+				<nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.png" width="220" height="100"
+					class="link absolute w-full h-full object-contain" />
 			</div>
 		</div>
 		<div class="text-center mt-[30px] mb-[20px]">
 			<h3
-				class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] xl:w-[968px] w-full mx-auto"
-			>
+				class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] xl:w-[968px] w-full mx-auto">
 				{{ data && data.newDetail.title }}
 			</h3>
 		</div>
@@ -48,17 +41,15 @@
       </p>
     </div> -->
 		<div class="flex justify-center text-center xl:my-[80px] my-[30px]">
-			<div class="inline-flex relative w-[327px] h-[208px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]">
-				<nuxt-img
-					loading="lazy"
-					alt="UPS"
-					:src="config.NUXT_APP_IMAGE_URL + data?.newDetail.thumbnail?.id"
-					class="link absolute w-full h-full object-cover"
-				/>
+			<div class="inline-flex relative w-full pt-[60%] md:pt-[50%] xl:pt-[40%] 3xl:pt-[36%]">
+				<nuxt-img loading="lazy" alt="UPS" :src="config.NUXT_APP_IMAGE_URL + data?.newDetail.thumbnail?.id"
+					class="link absolute top-0 left-0 w-full h-full rounded-[20px] object-cover" />
 			</div>
 		</div>
-		<div class="xl:w-[1200px] w-full flex justify-center mx-auto">
-			<div class="w-[327px] xl:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]">
+
+		<div
+			class="w-full md:w-[668px] lg:w-[720px] xl:w-[800px] 2xl:w-[900px] 3xl:w-[1200px] flex justify-center mx-auto">
+			<div class="w-full lg:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]">
 				<div class="text-left xl:w-[70%] lg:w-[70%] w-full">
 					<!-- <p class="text-[#696B75] text-[18px] font-normal leading-[20px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -107,16 +98,12 @@
               nulla pariatur.
             </p>
           </div> -->
-					<div
-						class="content-wrapper"
-						v-html="data?.newDetail.content"
-					></div>
+					<div class="content-wrapper" v-html="data?.newDetail.content"></div>
 					<div class="my-[30px]">
 						<Comment />
 					</div>
 					<p
-						class="text-center text-[#535662] font-hanken-grotesk text-[16px] font-medium leading-normal mb-[80px]"
-					>
+						class="text-center text-[#535662] font-hanken-grotesk text-[16px] font-medium leading-normal mb-[80px]">
 						<!-- Cập nhật mới nhất: 20/08/2024 -->
 					</p>
 				</div>
@@ -126,53 +113,33 @@
 					</h4>
 					<ul class="my-[24px]">
 						<li class="border-b py-[8px]">
-							<a
-								href=""
-								class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-								>Biến động thị trường</a
-							>
+							<a href=""
+								class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal">Biến
+								động thị trường</a>
 						</li>
 						<li class="border-b py-[8px]">
-							<a
-								class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-								href=""
-								>Báo cáo ngày</a
-							>
+							<a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+								href="">Báo cáo ngày</a>
 						</li>
 						<li class="border-b py-[8px]">
-							<a
-								class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-								href=""
-								>Phân tích từ UPS</a
-							>
+							<a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+								href="">Phân tích từ UPS</a>
 						</li>
 						<li class="border-b py-[8px]">
-							<a
-								class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-								href=""
-								>Sản phẩm đầu tư mới</a
-							>
+							<a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+								href="">Sản phẩm đầu tư mới</a>
 						</li>
 						<li class="border-b py-[8px]">
-							<a
-								class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-								href=""
-								>Về UPS</a
-							>
+							<a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+								href="">Về UPS</a>
 						</li>
 						<li class="border-b py-[8px]">
-							<a
-								class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-								href=""
-								>Sự kiện doanh nghiệp</a
-							>
+							<a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+								href="">Sự kiện doanh nghiệp</a>
 						</li>
 						<li class="border-b py-[8px]">
-							<a
-								class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
-								href=""
-								>Nội bộ UPS</a
-							>
+							<a class="text-center text-[#15171E] font-hanken-grotesk text-[12px] font-semibold leading-normal"
+								href="">Nội bộ UPS</a>
 						</li>
 					</ul>
 					<div class="my-[40px] rounded-[10px] border border-[#C1C7DD] bg-[#F3F5FB] p-[16px]">
@@ -184,41 +151,23 @@
 							Đăng ký nhận thêm các hưỡng dẫn giao dịch tuyệt vời từ UPS qua email của bạn
 						</p>
 						<form action="">
-							<input
-								type="text"
+							<input type="text"
 								class="rounded-[8px] bg-[#ECEEF4] backdrop-blur-[20px] py-[8px] px-[10px] my-[16px] w-full"
-								placeholder="abc@email.com"
-								required
-							/>
+								placeholder="abc@email.com" required />
 							<div class="hidden xl:inline-flex">
-								<nuxt-link
-									to="/"
-									class="btn active group"
-								>
+								<nuxt-link to="/" class="btn active group">
 									<span> Đăng ký </span>
 									<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
 										<i
-											class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-[-120%] group-hover:translate-x-0"
-										>
-											<nuxt-img
-												src="/icons/arrow-icon.svg"
-												loading="lazy"
-												width="16"
-												height="16"
-												alt="UPS"
-											/>
+											class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-[-120%] group-hover:translate-x-0">
+											<nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16"
+												alt="UPS" />
 										</i>
 
 										<i
-											class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-0 group-hover:translate-x-[120%]"
-										>
-											<nuxt-img
-												src="/icons/arrow-icon.svg"
-												loading="lazy"
-												width="16"
-												height="16"
-												alt="UPS"
-											/>
+											class="w-full h-full inline-flex absolute transition-all duration-300 translate-x-0 group-hover:translate-x-[120%]">
+											<nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16"
+												alt="UPS" />
 										</i>
 									</div>
 								</nuxt-link>
@@ -229,39 +178,28 @@
 			</div>
 		</div>
 		<!-- tin liên quan -->
-		<div class="w-full xl:w-[1200px] mx-auto">
+		<div class="w-full md:w-[668px] lg:w-[720px] xl:w-[800px] 2xl:w-[900px] 3xl:w-[1200px] mx-auto">
 			<div class="">
 				<div class="flex justify-between">
-					<div class="animate-about__item inline-flex relative w-[100px] h-[45px] xl:w-[132px] xl:h-[60px]">
-						<nuxt-img
-							format="webp"
-							loading="lazy"
-							height="78"
-							alt="UPS"
-							src="/logo/logo-cap-green.png"
-							class="absolute w-full h-full object-contain"
-						/>
+					<div
+						class="animate-about__item inline-flex relative pt-[6%] w-[54px] md:w-[70px] lg:w-[86px] 2xl:w-[100px] 3xl:w-[130px]">
+						<nuxt-img format="webp" loading="lazy" height="78" alt="UPS" src="/logo/logo-cap-green.png"
+							class="absolute top-0 left-0 w-full h-full object-contain" />
 					</div>
 				</div>
 
-				<h2 class="animate-about__item text-[36px] xl:text-[60px] font-bold font-BG">
+				<h2
+					class="animate-about__item text-[24px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG">
 					Tin <span class="text-green-ups">liên quan</span>
 				</h2>
 			</div>
-			<div class="my-[40px] grid grid-cols-1 xl:grid-cols-3 gap-10">
-				<div
-					class="card relative"
-					v-for="doc in data?.dataNews"
-				>
+			<div class="my-[40px] grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6 3xl:gap-10">
+				<div class="card relative" v-for="doc in data?.dataNews">
 					<div class="flex justify-center text-center">
-						<div class="inline-flex relative w-full h-[288px]">
-							<nuxt-img
-								loading="lazy"
-								:alt="doc?.short_content?.title"
-								:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
-								height="288"
-								class="link absolute w-full h-full object-cover rounded-[14px]"
-							/>
+						<div class="inline-flex relative w-full pt-[70%]">
+							<nuxt-img loading="lazy" :alt="doc?.short_content?.title"
+								:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id" height="288"
+								class="link absolute top-0 left-0 w-full h-full object-cover rounded-[14px]" />
 						</div>
 					</div>
 					<div class="flex justify-between items-center my-[24px]">
@@ -271,26 +209,22 @@
                 {{ `#${sub?.tag.title}` }}
               </p>
             </template>
-            <div class="time text-[#9498A8] font-hanken-grotesk text-[18px] font-medium leading-normal">
-              5 phút trước
-            </div> -->
+<div class="time text-[#9498A8] font-hanken-grotesk text-[18px] font-medium leading-normal">
+	5 phút trước
+</div> -->
 					</div>
 					<div class="">
 						<h6
-							class="text-[#15171E] font-hanken-grotesk text-[20px] font-semibold leading-normal line-clamp-1"
-						>
+							class="text-[#15171E] font-hanken-grotesk text-sm 2xl:text-base 3xl:text-xl font-semibold leading-normal line-clamp-1">
 							{{ doc?.short_content?.title }}
 						</h6>
 						<p
-							class="text-[#3C4052] font-hanken-grotesk text-[18px] font-medium leading-normal mt-[8px] line-clamp-3"
-						>
+							class="text-[#3C4052] font-hanken-grotesk text-xs sm:text-sm md:text-sm xl:text-sm 2xl:text-lg font-medium leading-normal mt-[8px] line-clamp-3">
 							{{ doc?.short_content?.blurb }}
 						</p>
 					</div>
-					<nuxt-link
-						:to="`/tin-tuc/${doc?.short_content?.slug}`"
-						class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full"
-					/>
+					<nuxt-link :to="`/tin-tuc/${doc?.short_content?.slug}`"
+						class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full" />
 				</div>
 			</div>
 		</div>
@@ -317,7 +251,7 @@ export default defineComponent({
 				3,
 				dataDetail?.data?.data?.posts_by_id?.raw_content?.categories[0].category?.slug
 			);
-			
+
 			return {
 				newDetail: dataDetail?.data?.data?.posts_by_id?.raw_content,
 				dataNews: dataNews?.data?.data?.posts,
@@ -411,7 +345,8 @@ export default defineComponent({
 	font-weight: bold;
 	margin-top: 0.67em;
 	margin-bottom: 0.67em;
-	line-height: 1.2; /* Adjust line height for h1 */
+	line-height: 1.2;
+	/* Adjust line height for h1 */
 }
 
 .content-wrapper :deep(h2) {
@@ -419,7 +354,8 @@ export default defineComponent({
 	font-weight: bold;
 	margin-top: 0.83em;
 	margin-bottom: 0.83em;
-	line-height: 1.3; /* Adjust line height for h2 */
+	line-height: 1.3;
+	/* Adjust line height for h2 */
 }
 
 .content-wrapper :deep(p) {

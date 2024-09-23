@@ -12,7 +12,7 @@
       <div class="w-full h-[calc(100vh-64px)] md:h-[calc(100vh-84px)] xl:h-[calc(100vh-90px)] px-6 pb-10 relative">
         <div class="absolute left-0 top-0 w-8 h-8 bg-white -translate-y-1/2"></div>
         <div class="absolute right-0 top-0 w-8 h-8 bg-white -translate-y-1/2"></div>
-        <!-- <DrawerClose as-child>
+        <DrawerClose as-child>
 					<div class="flex items-center">
 						<div class="inline-flex w-6 h-6 relative">
 							<nuxt-img
@@ -24,9 +24,9 @@
 							/>
 						</div>
 
-						<p class="ml-4 text-lg text-black font-bold font-BG">Hướng dẫn giao dịch</p>
+						<!-- <p class="ml-4 text-lg text-black font-bold font-BG">Hướng dẫn giao dịch</p> -->
 					</div>
-				</DrawerClose> -->
+				</DrawerClose>
 
         <div class="mt-4">
           <div class="flex items-center relative">
@@ -198,7 +198,7 @@
                         <Accordion type="single" class="w-full" collapsible :default-value="defaultValue">
                           <AccordionItem value="1">
                             <AccordionTrigger class="flex items-center hover:no-underline">
-                              <div class="flex">
+                              <nuxt-link to="coming-soon" class="flex">
                                 <i class="inline-flex items-center justify-center">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
                                     fill="none">
@@ -223,7 +223,7 @@
                                     Khám phá ưu đãi mới nhất
                                   </p>
                                 </div>
-                              </div>
+                              </nuxt-link>
                             </AccordionTrigger>
                             <AccordionContent>
                               <div class="flex gap-5 flex-col">

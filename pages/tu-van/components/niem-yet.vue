@@ -42,7 +42,7 @@ export default defineComponent({
                     <div class="flex flex-col gap-5">
                         <div
                             class="relative w-[20px] h-[20px] md:w-[20px] md:h-[20px] lg:w-[24px] lg:h-[24px] xl:w-[28px] xl:h-[28px] flex-shrink-0 z-20">
-                            <nuxt-img src="/logo/logo-row.png" alt="" />
+                            <nuxt-img src="/logo/logo-row.svg" alt="" />
                         </div>
                         <!-- Text -->
                         <p
@@ -135,7 +135,7 @@ export default defineComponent({
                     <div class="flex flex-col gap-5">
                         <div
                             class="relative w-[20px] h-[20px] md:w-[20px] md:h-[20px] lg:w-[24px] lg:h-[24px] xl:w-[28px] xl:h-[28px] flex-shrink-0 z-20">
-                            <nuxt-img src="/logo/logo-row.png" alt="" />
+                            <nuxt-img src="/logo/logo-row.svg" alt="" />
                         </div>
                         <!-- Text -->
                         <p
@@ -227,7 +227,7 @@ export default defineComponent({
                     <div class="flex flex-col gap-5">
                         <div
                             class="relative w-[20px] h-[20px] md:w-[20px] md:h-[20px] lg:w-[24px] lg:h-[24px] xl:w-[28px] xl:h-[28px] flex-shrink-0 z-20">
-                            <nuxt-img src="/logo/logo-row.png" alt="" />
+                            <nuxt-img src="/logo/logo-row.svg" alt="" />
                         </div>
                         <!-- Text -->
                         <p

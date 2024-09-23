@@ -20,7 +20,8 @@
             tư trở nên đầy hứng khởi: đơn giản và hiệu quả. 
           </p>
           <div class="flex gap-4 flex-wrap">
-            <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info" target="_blank" class="btn active group">
+            <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info" target="_blank"
+              class="btn active group">
               <span class="text-sm 3xl:text-lg"> Mở tài khoản ngay </span>
               <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
@@ -97,7 +98,7 @@
             <div
               class="w-[48px] h-[48px] xl:w-[80px] xl:h-[80px] 2xl:w-[96px] 2xl:h-[96px] md:w-[93px] md:h-[93px] inline-flex items-center justify-center bg-[#15171E] 2xl:rounded-[32px] 3xl:rounded-[40px] md:rounded-[20px] lg:rounded-lg animate-about__item sm:rounded-md">
               <div class="w-5 h-5 xl:w-[48px] xl:h-[48px] relative inline-flex">
-                <nuxt-img format="webp" loading="lazy" height="48" alt="UPS" src="/logo/logo-row.png"
+                <nuxt-img format="webp" loading="lazy" height="48" alt="UPS" src="/logo/logo-row.svg"
                   class="animate-about__item absolute w-full h-full object-contain" />
               </div>
             </div>
@@ -278,8 +279,7 @@
             </div>
           </nuxt-link>
 
-          <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
-          target="_blank"
+          <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info" target="_blank"
             class="btn h-8 2xl:h-12 px-4 2xl:px-5 inline-flex gap-3 items-center rounded-full border lg:border-transparent border-[#222] hover:border-[#222]">
             <span class="text-sm 3xl:text-lg font-bold">
               Mở tài khoản ngay
@@ -324,7 +324,7 @@
               class="3xl:text-[40px] 2xl:text-[32px] md:text-[24px] sm:text-[14px] font-semibold leading-normal text-[#15171E] group-hover:text-white font-BG">
               Ưu đãi
             </h5>
-    
+
           </div>
         </div>
         <div class="group">
@@ -348,7 +348,7 @@
               Hướng dẫn<br />
               sử dụng
             </h5>
-            
+
           </div>
         </div>
       </div>

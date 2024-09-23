@@ -4,7 +4,8 @@
       <div class="grid grid-cols-5 gap-4 flex-col md:flex-row">
         <div class="col-span-5 xl:col-span-2">
           <div class="flex items-end">
-            <h2 class="animate-ups__item text-[32px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[76px] font-semibold font-BG text-black">
+            <h2
+              class="animate-ups__item text-[32px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[76px] font-semibold font-BG text-black">
               <span>Ban</span>
               <br />
               <span class="text-[#01C159]">Điều hành</span>
@@ -33,7 +34,8 @@
         </div>
 
         <div class="col-span-5 xl:col-span-3 hidden md:grid gap-4 grid-cols-3">
-          <div class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
+          <div
+            class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
             <div class="absolute w-full h-full">
               <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/images/sepdat.png"
                 class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
@@ -41,7 +43,7 @@
 
             <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
               <div class="">
-                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />
+                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
               </div>
 
               <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
@@ -53,7 +55,8 @@
             </div>
           </div>
 
-          <div class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden ">
+          <div
+            class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden ">
             <div class="absolute w-full h-full ">
               <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/images/sepnam.png"
                 class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
@@ -61,7 +64,7 @@
 
             <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
               <div class="">
-                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />
+                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
               </div>
 
               <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
@@ -73,7 +76,8 @@
             </div>
           </div>
 
-          <div class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
+          <div
+            class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
             <div class="absolute w-full h-full">
               <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/images/sepchien.png"
                 class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
@@ -81,7 +85,7 @@
 
             <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
               <div class="">
-                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />
+                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
               </div>
 
               <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
@@ -114,22 +118,23 @@
                 spaceBetween: 40,
               },
             }">
-            <swiper-slide >
+            <swiper-slide>
               <div class="animate-ups__item w-full h-[380px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepdat.png"
                     class="w-full  object-cover transition-all duration-300 object-center " />
                 </div>
-                <div class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
+                <div
+                  class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
 
-</div>
+                </div>
                 <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
                   <div class="">
-                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />
+                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
                   </div>
 
                   <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
-                  Tổng giám đốc
+                    Tổng giám đốc
                   </p>
                   <h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
                     Ông Nguyễn Quang Đạt
@@ -138,22 +143,23 @@
               </div>
             </swiper-slide>
 
-            <swiper-slide >
+            <swiper-slide>
               <div class="animate-ups__item w-full h-[380px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepnam.png"
                     class="w-full  object-cover transition-all duration-300 object-center" />
                 </div>
-                <div class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
+                <div
+                  class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
 
-</div>
+                </div>
                 <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
                   <div class="">
-                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />
+                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
                   </div>
 
                   <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
-                 Phó Tổng giám đốc
+                    Phó Tổng giám đốc
                   </p>
                   <h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
                     Ông Trần Đức Nam
@@ -161,18 +167,19 @@
                 </div>
               </div>
             </swiper-slide>
-            <swiper-slide >
+            <swiper-slide>
               <div class="animate-ups__item w-full h-[380px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepchien.png"
                     class="w-full  object-cover transition-all duration-300 object-center" />
                 </div>
-                <div class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
+                <div
+                  class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
 
-</div>
+                </div>
                 <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
                   <div class="">
-                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.png" />
+                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
                   </div>
 
                   <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
@@ -217,7 +224,7 @@
 								loading="lazy"
 								height="24"
 								alt="UPS"
-								src="/logo/logo-row.png"
+								src="/logo/logo-row.svg"
 							/>
 						</div>
 

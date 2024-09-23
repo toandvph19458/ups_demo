@@ -28,7 +28,8 @@
 				<div
 					class="grid grid-rows-2 md:grid-rows-none md:grid-cols-12  bg-[#15171E] rounded-[20px] overflow-hidden">
 
-					<nuxt-link :to="`/tin-tuc/${data?.dataNews?.posts[0]?.short_content?.slug}`" class="md:col-span-6 lg:col-span-5 w-full h-full flex flex-col items-start justify-center">
+					<nuxt-link :to="`/tin-tuc/${data?.dataNews?.posts[0]?.short_content?.slug}`"
+						class="md:col-span-6 lg:col-span-5 w-full h-full flex flex-col items-start justify-center">
 						<div class="p-5 md:py-4 md:px-8 lg:p-8 xl:p-10 2xl:p-[45px] 3xl:px-[60px] 3xl:py-[40px]">
 
 							<div
@@ -71,12 +72,12 @@
 
 							<!-- <nuxt-img format="webp" loading="lazy" height="78"
 								:alt="data?.dataNews?.posts[0]?.short_content?.title"
-								src="http://api.upse.vn/assets/835bb569-dfe3-4223-9944-f8de3c316acc"
+								:src="config.NUXT_APP_IMAGE_URL +data?.dataNews?.posts[0]?.short_content?.cover?.id +'?witdh=900'"
 								class="absolute top-0 left-0 w-full h-full object-cover" /> -->
-
-							<nuxt-img format="webp" loading="lazy" width="173" height="78" alt="UPS"
+							<img :src="config.NUXT_APP_IMAGE_URL +data?.dataNews?.posts[0]?.short_content?.cover?.id" :alt="data?.dataNews?.posts[0]?.short_content?.title" class="w-full h-full absolute top-0 left-0 object-contain md:object-cover">
+							<!-- <nuxt-img format="webp" loading="lazy" width="173" height="78" alt="UPS"
 								src="/background/bg-gioi-thieu.png"
-								class="absolute top-0 left-0 w-full h-full object-cover" />
+								class="absolute top-0 left-0 w-full h-full object-cover" /> -->
 						</div>
 
 					</div>
@@ -182,7 +183,8 @@
 					</div>
 
 					<div class="mt-10 flex gap-8 md:gap-5 xl:gap-6 2xl:gap-[20px] 3xl:gap-[30px] flex-col">
-						<nuxt-link :to="`/tin-tuc/${doc?.short_content?.slug}`" v-for="(doc, i) in data?.dataNews?.posts" :key="i"
+						<nuxt-link :to="`/tin-tuc/${doc?.short_content?.slug}`"
+							v-for="(doc, i) in data?.dataNews?.posts" :key="i"
 							class="grid grid-cols-12 gap-3 md:gap-4 xl:gap-[18px] 2xl:gap-5 3xl:gap-[30px] group">
 							<div
 								class="col-span-full md:col-span-6 lg:col-span-4 h-[220px] md:h-auto md:max-h-min relative rounded-[14px] overflow-hidden">
@@ -291,7 +293,7 @@
 
 						<div class="mt-10 inline-flex">
 							<nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
-							target="_blank"
+								target="_blank"
 								class="w-auto h-[50px] px-6 flex gap-2 items-center rounded-[40px] text-base font-bold text-green-ups !bg-[#242733] group">
 								<span> Mở tài khoản ngay </span>
 								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
@@ -462,7 +464,7 @@ export default defineComponent({
 					date.value,
 					keyword.value
 				);
-				
+
 				return {
 					dataCateAndTags: dataCateAndTags.data?.data,
 					dataNews: dataNews.data?.data,

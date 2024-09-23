@@ -35,7 +35,7 @@
             <!-- Icon -->
             <div
               class="relative w-[12px] h-[12px] md:w-[20px] md:h-[20px] 2xl:w-[24px] 2xl:h-[24px] flex-shrink-0 z-20 group-hover:filter group-hover:brightness-0 group-hover:invert transition-colors duration-300">
-              <nuxt-img src="/logo/logo-row.png" alt="" />
+              <nuxt-img src="/logo/logo-row.svg" alt="" />
             </div>
 
             <!-- Text -->
@@ -56,7 +56,7 @@
 
             <div
               class="relative w-[12px] h-[12px] md:w-[20px] md:h-[20px] 2xl:w-[24px] 2xl:h-[24px] flex-shrink-0 z-20 group-hover:filter group-hover:brightness-0 group-hover:invert transition-colors duration-300">
-              <nuxt-img src="/logo/logo-row.png" alt="" />
+              <nuxt-img src="/logo/logo-row.svg" alt="" />
             </div>
 
             <p
@@ -76,7 +76,7 @@
 
             <div
               class="relative w-[12px] h-[12px] md:w-[20px] md:h-[20px] 2xl:w-[24px] 2xl:h-[24px] flex-shrink-0 z-20 group-hover:filter group-hover:brightness-0 group-hover:invert transition-colors duration-300">
-              <nuxt-img src="/logo/logo-row.png" alt="" />
+              <nuxt-img src="/logo/logo-row.svg" alt="" />
             </div>
             <p
               class="text-white text-center text-[14px] md:text-[12px] font-BG font-semibold 3xl:text-[24px] 2xl:text-[20px] xl:text-[20px] lg:text-[18px] leading-normal z-30 transition-colors duration-300">
@@ -95,7 +95,7 @@
 
             <div
               class="relative w-[12px] h-[12px] md:w-[20px] md:h-[20px] 2xl:w-[24px] 2xl:h-[24px] flex-shrink-0 z-20 group-hover:filter group-hover:brightness-0 group-hover:invert transition-colors duration-300">
-              <nuxt-img src="/logo/logo-row.png" alt="" />
+              <nuxt-img src="/logo/logo-row.svg" alt="" />
             </div>
             <p
               class="text-white text-center text-[14px] md:text-[12px] font-BG font-semibold 3xl:text-[24px] 2xl:text-[20px] xl:text-[20px] lg:text-[18px] leading-normal z-30 transition-colors duration-300">

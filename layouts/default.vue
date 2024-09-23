@@ -4,7 +4,7 @@
 		class="w-full h-full"
 	>
 		<!-- HOVER CHUỘT -->
-		<cursor-dot />
+		<!-- <cursor-dot /> -->
 		<button-fixed />
 		<!--@@@ THE HEADER -->
 		<the-header />

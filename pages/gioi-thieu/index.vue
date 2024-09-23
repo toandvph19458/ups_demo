@@ -26,12 +26,12 @@
         </div>
 
         <div
-          class="animate-about__item w-full h-[200px] md:h-[400px] xl:h-[700px] relative rounded-[18px] lg:rounded-[24px] overflow-hidden"
+          class="animate-about__item w-full pt-[60%] md:pt-[44%] relative rounded-[18px] lg:rounded-[24px] overflow-hidden"
         >
           <img
             src="/public/images/vechungtoi.gif"
             alt=""
-            class="absolute object-cover w-full h-full"
+            class="absolute top-0 left-0  w-full h-full"
           />
         </div>
       </div>

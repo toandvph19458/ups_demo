@@ -1,14 +1,15 @@
 <template>
 	<section class="section_news animate-ups px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-[120px] py-8 sm:py-12 md:py-16 lg:py-20 xl:py-[80px] 2xl:py-[96px]">
-		<div class="flex flex-col xl:flex-row gap-6 md:gap-10 xl:gap-14 items-center">
-			<div class="w-full xl:w-[340px] flex flex-col gap-5 xl:gap-10 2xl:gap-[30px]">
-				<div class="animate-ups__item inline-flex relative w-[90px] h-[40px] sm:w-[100px] sm:h-[45px] md:w-[120px] md:h-[50px] lg:w-[130px] lg:h-[55px] xl:w-[140px] xl:h-[60px] 2xl:w-[140px] 2xl:h-[60px]">
+		<div class="flex flex-col md:flex-row gap-6 md:gap-[24px] 2xl:gap-[30px] 3xl:gap-10 items-center">
+
+			<div class="w-full xl:w-[340px] md:w-[225px] 2xl:w-[250px] 3xl:w-[340px] flex flex-col gap-5 xl:gap-10 2xl:gap-[30px]">
+				<!-- <div class="animate-ups__item inline-flex relative w-[90px] h-[40px] sm:w-[100px] sm:h-[45px] md:w-[120px] md:h-[50px] lg:w-[130px] lg:h-[55px] xl:w-[140px] xl:h-[60px] 2xl:w-[140px] 2xl:h-[60px]">
 					<nuxt-img format="webp" loading="lazy" width="140" height="60" alt="UPS"
 						src="/logo/logo-cap-dark.png" class="absolute w-full h-full object-contain" />
-				</div>
+				</div> -->
 
 				<div>
-					<h3 class="hidden md:block animate-ups__item bg-gradient-to-r from-[#00C058] to-[#1FAB5F] bg-clip-text text-transparent font-BG text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[54px] 2xl:text-[60px] font-bold leading-tight">
+					<h3 class="hidden md:block animate-ups__item bg-gradient-to-r from-[#00C058] to-[#1FAB5F] bg-clip-text text-transparent font-BG text-2xl md:text-[32px] lg:text-[54px] 2xl:text-[60px] 3xl:text-[80px] font-bold lg:leading-[1.25]">
 						<span class="text-[#15171E]">Tin</span><br />
 						nổi bật
 					</h3>
@@ -59,7 +60,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="w-full xl:w-[calc(100%-340px)] 2xl:w-[calc(100%-380px)]">
+			<div class="w-full md:w-[calc(100%-225px-24px)] 2xl:w-[calc(100%-250px-30px)] 3xl:w-[calc(100%-340px-40px)]">
 				<swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1" :loop="false" :speed="800"
 					:space-between="12" :initial-slide="vSwiperIndex" @swiper="setVSwiperRef"
 					@slide-change="updateVSwiperIndex" :breakpoints="{
@@ -68,7 +69,7 @@
 							spaceBetween: 10,
 						},
 						768: {
-							slidesPerView: 2,
+							slidesPerView: 1.7,
 							spaceBetween: 12,
 						},
 						1024: {
@@ -76,11 +77,11 @@
 							spaceBetween: 12,
 						},
 						1280: {
-							slidesPerView: 3,
+							slidesPerView: 3.5,
 							spaceBetween: 12,
 						},
 						1440: {
-							slidesPerView: 3.2,
+							slidesPerView: 3.5,
 							spaceBetween: 12,
 						},
 						1920: {
@@ -100,10 +101,10 @@
 							</div>
 							<div class="mt-3 sm:mt-4 md:mt-5">
 								<h4
-									class="text-sm sm:text-base md:text-lg xl:text-base 2xl:text-lg text-black font-semibold line-clamp-3 mt-2 sm:mt-3 md:mt-4">
+									class="text-sm 2xl:text-base 3xl:text-xl text-black font-semibold line-clamp-3 mt-2 sm:mt-3 md:mt-4">
 									{{ doc?.short_content?.title }}
 								</h4>
-								<p class="text-xs sm:text-sm md:text-base xl:text-sm 2xl:text-base text-[#3C4052] font-medium line-clamp-3 mt-2 sm:mt-3">
+								<p class="text-xs sm:text-sm md:text-sm xl:text-sm 2xl:text-lg text-[#3C4052] font-medium line-clamp-3 mt-2 sm:mt-3">
 									{{ doc?.short_content?.blurb }}
 								</p>
 							</div>

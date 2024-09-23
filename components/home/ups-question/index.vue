@@ -6,7 +6,7 @@
 					<div
 						class="inline-flex relative w-[80px] h-[40px] md:w-[145px] md:h-[66px] xl:w-[220px] xl:h-[100px]">
 						<nuxt-img format="webp" loading="lazy" alt="UPS" width="220" height="100"
-							src="/logo/logo-cap-dark.png"
+							src="/logo/logo-cap-dark.svg"
 							class="animate-ups__item absolute w-full h-full object-contain" />
 					</div>
 				</div>
@@ -98,7 +98,8 @@
 											sau đây:
 										</p>
 										<p class="text-[16px]">Cách 1: Mở tài khoản trực tuyến qua website tại đây</p>
-										<p class="text-[16px]">Cách 2: Mở tài khoản trực tiếp tại quầy giao dịch của UPS.</p>
+										<p class="text-[16px]">Cách 2: Mở tài khoản trực tiếp tại quầy giao dịch của
+											UPS.</p>
 										<p class="pt-2 text-[16px]">
 											Để được hỗ trợ thêm, vui lòng liên hệ hotline 0243.944.6666
 										</p>
@@ -137,10 +138,10 @@
 									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
 										<p class="text-[16px]">
 											UPS cung cấp mức phí giao dịch rất hấp dẫn trong các công ty chứng khoán tại
-											Việt Nam Để theo dõi thông tin chi tiết, bạn vui lòng truy cập thông báo Biểu
-											phí cập nhật UPS liên tục triển khai các chương trình khuyến mãi và ưu đãi
-											lãi suất. Bạn vui lòng theo dõi website và facebook của chúng tôi tại đây để
-											nắm được chi tiết về các chương trình.
+											Việt Nam. Để theo dõi thông tin chi tiết, bạn vui lòng truy cập thông báo
+											Biểu phí cập nhật tại đây. UPS liên tục triển khai các chương trình khuyến
+											mãi và ưu đãi lãi suất. Bạn vui lòng theo dõi website của UPS để nắm được
+											chi tiết về các chương trình.
 										</p>
 									</div>
 								</div>
@@ -217,7 +218,9 @@
 
 									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
 										<p class="text-[16px]">
-											Để tìm hiểu Hướng dẫn sử dụng Web Trading, Bảng giá Giao dịch cũng như tìm hiểu các sản phẩm, dịch vụ, điều khoản, bạn vui lòng tham khảo Hỗ trợ khách hàng tại đây.
+											Để tìm hiểu Hướng dẫn sử dụng Web Trading, Bảng giá Giao dịch cũng như tìm
+											hiểu các sản phẩm, dịch vụ, điều khoản, bạn vui lòng tham khảo Hỗ trợ khách
+											hàng tại đây.
 										</p>
 									</div>
 								</div>

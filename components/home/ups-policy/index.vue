@@ -12,8 +12,7 @@
 					</h3>
 
 					<div class="basis-full md:basis-6/12 xl:basis-5/12">
-						<p
-							class="animate-ups__item w-full text-sm lg:text-base font-medium text-white link">
+						<p class="animate-ups__item w-full text-sm lg:text-base font-medium text-white link">
 							UPS tin rằng đầu tư không đơn giản chỉ là con số, giao dịch khô khan mà còn là cuộc phiêu
 							lưu
 							độc đáo mở ra hành trình tài chính cá nhân đầy hứng khởi và mới mẻ cho nhà đầu tư.
@@ -24,12 +23,12 @@
 		</div>
 
 		<div class="container">
-			<div class="py-10 xl:py-[64px] 2xl:py-[80px] 3xl:py-[100px]">
-				<div class="px-0 lg:px-12">
+			<div class="py-10 xl:py-[64px] 2xl:py-[80px] 3xl:py-[100px] ">
+				<div class="px-0 lg:px-12  xl:px-0">
 					<div class="reveal flex items-center lg:items-end gap-2">
 						<div
 							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[24px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">
-							Chính sách <br/> đặc biệt của
+							Chính sách <br /> đặc biệt của
 							<div
 								class="animate-ups__item inline-block relative w-[52px] md:w-[72px] lg:w-[125px] 2xl:w-[142px] 3xl:w-[170px] pt-[16%] object-cover">
 								<nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.png"
@@ -51,8 +50,7 @@
 
 						<div class="animate-ups__item inline-flex">
 							<nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
-							target="_blank"
-								class="btn active group">
+								target="_blank" class="btn active group">
 								<span> Mở tài khoản ngay </span>
 								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
 									<i class="w-full h-full group-hover:inline-flex hidden absolute">
@@ -119,7 +117,7 @@
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-														src="/logo/logo-row.png" />
+														src="/logo/logo-row.svg" />
 												</div>
 
 												<p
@@ -130,7 +128,7 @@
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-														src="/logo/logo-row.png" />
+														src="/logo/logo-row.svg" />
 												</div>
 
 												<p
@@ -141,7 +139,7 @@
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-														src="/logo/logo-row.png" />
+														src="/logo/logo-row.svg" />
 												</div>
 
 												<p
@@ -180,7 +178,7 @@
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-														src="/logo/logo-row.png" />
+														src="/logo/logo-row.svg" />
 												</div>
 
 												<p
@@ -191,7 +189,7 @@
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-														src="/logo/logo-row.png" />
+														src="/logo/logo-row.svg" />
 												</div>
 
 												<p
@@ -202,7 +200,7 @@
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-														src="/logo/logo-row.png" />
+														src="/logo/logo-row.svg" />
 												</div>
 
 												<p
@@ -241,7 +239,7 @@
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-														src="/logo/logo-row.png" />
+														src="/logo/logo-row.svg" />
 												</div>
 
 												<p
@@ -252,7 +250,7 @@
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-														src="/logo/logo-row.png" />
+														src="/logo/logo-row.svg" />
 												</div>
 
 												<p
@@ -263,7 +261,7 @@
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-														src="/logo/logo-row.png" />
+														src="/logo/logo-row.svg" />
 												</div>
 
 												<p
@@ -304,7 +302,7 @@
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-												src="/logo/logo-row.png" />
+												src="/logo/logo-row.svg" />
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
@@ -314,7 +312,7 @@
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-												src="/logo/logo-row.png" />
+												src="/logo/logo-row.svg" />
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
@@ -324,7 +322,7 @@
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-												src="/logo/logo-row.png" />
+												src="/logo/logo-row.svg" />
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
@@ -359,7 +357,7 @@
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-												src="/logo/logo-row.png" />
+												src="/logo/logo-row.svg" />
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
@@ -369,7 +367,7 @@
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-												src="/logo/logo-row.png" />
+												src="/logo/logo-row.svg" />
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
@@ -379,7 +377,7 @@
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-												src="/logo/logo-row.png" />
+												src="/logo/logo-row.svg" />
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
@@ -414,7 +412,7 @@
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-												src="/logo/logo-row.png" />
+												src="/logo/logo-row.svg" />
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
@@ -424,7 +422,7 @@
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-												src="/logo/logo-row.png" />
+												src="/logo/logo-row.svg" />
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
@@ -434,7 +432,7 @@
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-												src="/logo/logo-row.png" />
+												src="/logo/logo-row.svg" />
 										</div>
 
 										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">

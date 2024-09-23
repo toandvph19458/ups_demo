@@ -13,7 +13,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 useHead({
-	titleTemplate: "UPS",
+	titleTemplate: "UP Securities",
 	script: [
     {
       innerHTML: `

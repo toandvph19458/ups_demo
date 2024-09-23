@@ -18,7 +18,7 @@ export default defineComponent({
             <div
                 class="flex flex-col items-start justify-center bg-[#15171E] gap-4 rounded-[16px] p-4 md:p-6 lg:p-8 h-full xl:p-10 xl:gap-4 ">
                 <div>
-                    <img src="/logo/logo-row.png" alt="" class="w-5 h-5  2xl:w-6 2xl:h-6 xl:w-8 xl:h-8 lg:w-6 lg:h-6 ">
+                    <img src="/logo/logo-row.svg" alt="" class="w-5 h-5  2xl:w-6 2xl:h-6 xl:w-8 xl:h-8 lg:w-6 lg:h-6 ">
                 </div>
                 <div>
                     <p
