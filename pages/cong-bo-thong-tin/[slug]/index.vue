@@ -1,10 +1,10 @@
 <template>
 	<div class="container">
 		<div class="flex justify-center text-center mt-[100px]">
-			<div class="inline-flex relative w-[125px] h-[56px] xl:w-[220px] xl:h-[70px]">
+			<!-- <div class="inline-flex relative w-[125px] h-[56px] xl:w-[220px] xl:h-[70px]">
 				<nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.png" width="220" height="100"
 					class="link absolute w-full h-full object-contain" />
-			</div>
+			</div> -->
 		</div>
 		<div class="text-center mt-[30px] mb-[20px]">
 			<h3

@@ -96,7 +96,7 @@
                   <div
                     class="inline-flex relative w-[79px] h-[36px] lg:w-[145px] lg:h-[66px] xl:w-[220px] xl:h-[100px] ">
                     <img alt="UPS" src="/logo/logo-cap-dark.svg" width="230" height="100"
-                      class=" w-full h-full object-cover" />
+                      class=" w-full h-full object-cover hidden md:block" />
                   </div>
 
                   <div class="my-3 lg:my-8">
@@ -170,7 +170,7 @@
                   <div
                     class="inline-flex relative w-[79px] h-[36px] lg:w-[145px] lg:h-[66px] xl:w-[220px] xl:h-[100px] ">
                     <img alt="UPS" src="/logo/logo-cap-dark.svg" width="230" height="100"
-                      class="w-full h-full object-cover" />
+                      class="w-full h-full object-cover hidden md:block" />
                   </div>
                   <div class="my-3 lg:my-8">
                     <h2
