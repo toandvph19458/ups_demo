@@ -8,7 +8,7 @@
               to="/"
               class="text-base text-[#5E6673] font-bold hover:text-black"
             >
-              Sản phẩm & Dịch vụ
+              Sản phẩm
             </nuxt-link>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -970,7 +970,7 @@
             </div>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <!-- <NavigationMenuItem>
+        <NavigationMenuItem>
 					<NavigationMenuLink :class="navigationMenuTriggerStyle()">
 						<nuxt-link
 							to="/"
@@ -979,7 +979,7 @@
 							Bảng giá
 						</nuxt-link>
 					</NavigationMenuLink>
-				</NavigationMenuItem> -->
+				</NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   </div>

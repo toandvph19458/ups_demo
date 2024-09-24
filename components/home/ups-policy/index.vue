@@ -1,11 +1,11 @@
 <template>
 	<section class="section_policy animate-ups">
-		<div class="py-5 md:py-11 bg-[linear-gradient(93deg,#02E56A_24.42%,#01A34B_67.1%)]">
+		<div class="py-6 lg:py-11 xl:py-[30px] 2xl:py-[33px] 3xl:py-11 bg-[linear-gradient(207deg,#02E56A_11.71%,#01A34B_74.48%)] md:bg-[linear-gradient(93deg,#02E56A_24.42%,#01A34B_67.1%)]">
 			<div class="container">
 				<div
 					class="flex flex-wrap md:flex-nowrap gap-3 md:gap-12 xl:gap-10 3xl:gap-[56px] md:justify-between md:items-center">
 					<h3
-						class="animate-ups__item basis-full md:basis-1/2 text-xl md:text-[24px] lg:text-[36px] text-[#15171E] font-bold font-BG leading-[1.3] link">
+						class="animate-ups__item basis-full md:basis-1/2 font-semibold text-xl md:text-[24px] lg:text-[36px] text-[#15171E] font-BG leading-[1.3] link">
 						<span>Bạn đang tìm </span>
 						<br />
 						<span> đối tác đầu tư phù hợp? </span>
@@ -27,10 +27,10 @@
 				<div class="px-0 lg:px-12  xl:px-0">
 					<div class="reveal flex items-center lg:items-end gap-2">
 						<div
-							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[24px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">
+							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[20px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">
 							Chính sách <br /> đặc biệt của
 							<div
-								class="animate-ups__item inline-block relative w-[52px] md:w-[72px] lg:w-[125px] 2xl:w-[142px] 3xl:w-[170px] pt-[16%] object-cover">
+								class="animate-ups__item inline-block relative w-[52px] md:w-[72px] lg:w-[125px] 2xl:w-[142px] 3xl:w-[170px] pt-[16%]">
 								<nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.png"
 									class="absolute top-[5%] left-0 w-full h-full object-contain" />
 							</div>
@@ -41,7 +41,7 @@
 					<div
 						class="mt-3 lg:mt-[30px] flex gap-5 xl:gap-0 flex-col xl:flex-row items-start xl:items-center justify-between">
 						<p
-							class="animate-ups__item max-w-full lg:max-w-[848px] text-[#3C4052] text-sm lg:text-lg font-medium leading-normal">
+							class="animate-ups__item w-full xl:max-w-[60%] text-[#3C4052] text-sm lg:text-lg font-medium leading-normal">
 							UPS không chỉ cung cấp dịch vụ đầu tư minh bạch, đáng tin cậy, đem lại nguồn lợi nhuận đa
 							dạng, mà còn mong muốn trở thành người bạn đồng hành, trợ thủ đắc lực truyền cảm hứng trong
 							hành trình học hỏi và kiến tạo tài chính cá nhân không giới hạn dành cho các nhà đầu tư thế

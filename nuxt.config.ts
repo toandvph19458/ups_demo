@@ -91,6 +91,7 @@ export default defineNuxtConfig({
 
 	security: {
 		headers: {
+			crossOriginEmbedderPolicy :false,
 			contentSecurityPolicy: {
 			  'img-src': ["'self'", 'data:', 'https://ups.truecms.io'],
 			},

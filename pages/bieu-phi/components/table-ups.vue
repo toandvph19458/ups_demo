@@ -59,7 +59,7 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[19px] text-black text-left font-hanken"
-              >0,15% - 0.50%</span
+              >0,15% - 0.4%</span
             >
           </div>
 
@@ -154,14 +154,36 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[19px] text-black text-left font-hanken"
-              >0,2 đồng/trái phiếu/tháng</span
+              >0,27 đồng/cổ phiếu, chứng chỉ quỹ/tháng
+              </span
             >
           </div>
 
           <div
             class="h-[1px] w-full flex-shrink-0 bg-center bg-no-repeat bg-cover relative z-[15] border"
           ></div>
+          <div
+            class="flex py-[12px] md:gap-[40px] sm:gap-3 items-center w-full flex-shrink-0 flex-nowrap relative z-[11] h-[19px] animate-ups__item"
+          >
+            <span
+              class="flex-[0.1] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[19px] text-black relative text-center font-hanken"
+              >2</span
+            >
 
+            <span
+              class="flex-[2.5] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[24px] text-black text-left font-hanken"
+              >Lưu trái phiếu</span
+            >
+            <span
+              class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[19px] text-black text-left font-hanken"
+              > 0,2 đồng/trái phiếu/tháng
+              </span
+            >
+          </div>
+
+          <div
+            class="h-[1px] w-full flex-shrink-0 bg-center bg-no-repeat bg-cover relative z-[15] border"
+          ></div>
           <div
             class="flex md:gap-[40px] gap-3 items-center w-full flex-shrink-0 flex-nowrap relative z-[11] animate-ups__item"
           >
@@ -177,8 +199,10 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[19px] text-black text-left font-hanken"
-              >0,5 đồng/1 chứng khoán/1 lần chuyển khoản/1 mã chứng khoán <br />
-              Tối thiểu 100.000 VNĐ/ bộ hồ sơ</span
+              >- 0,3 đồng/1 chứng khoán/1 lần chuyển khoản/1 mã chứng khoán <br />
+              - Tối thiểu 100.000 VNĐ/ bộ hồ sơ<br/>
+              - Tối đa 300.000 VNĐ/1 chứng khoán/1 lần chuyển khoản/1 mã chứng khoán.
+              </span
             >
           </div>
 
@@ -332,6 +356,28 @@
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[19px] text-black text-left font-hanken"
               >12%/năm<br/>
               Phí tối thiểu: 50.000 VNĐ/ lần</span
+            >
+          </div>
+
+          <div
+            class="h-[1px] w-full flex-shrink-0 bg-center bg-no-repeat bg-cover relative z-[15] border"
+          ></div>
+          <div
+            class="flex md:gap-[40px] gap-3 items-center w-full flex-shrink-0 flex-nowrap relative z-[11] animate-ups__item"
+          >
+            <span
+              class="flex-[0.1] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[19px] text-black relative text-center font-hanken"
+              >11</span
+            >
+
+            <span
+              class="flex-[2.5] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[24px] text-black text-left font-hanken"
+              >Lãi tiền gửi không kỳ hạn</span
+            >
+            <span
+              class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[19px] text-black text-left font-hanken"
+              >0.2%/năm
+              </span
             >
           </div>
 

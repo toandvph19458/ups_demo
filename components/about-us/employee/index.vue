@@ -89,7 +89,7 @@
               </div>
 
               <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
-                Giám đốc tài chính kiêm Kế toán trưởng
+                Giám đốc tài chính
               </p>
               <h4 class="mt-3 text-[14px] 2xl:text-[16] 3xl:text-xl text-white font-semibold font-BG">
                 Ông Trần Văn Chiến
@@ -183,7 +183,7 @@
                   </div>
 
                   <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
-                    Giám đốc tài chính kiêm Kế toán trưởng
+                    Giám đốc tài chính
                   </p>
                   <h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
                     Ông Trần Văn Chiến
