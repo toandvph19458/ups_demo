@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 	app: {
 		head: {
 			htmlAttrs: { lang: "vi" },
-			link: [{ rel: "icon", type: "image/x-icon", href: "/logo/logo-cap-dark.png" }],
+			link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.svg" }],
 			meta: [
 				{ charset: "utf-8" },
 				{ name: "viewport", content: "width=device-width, initial-scale=1" },
