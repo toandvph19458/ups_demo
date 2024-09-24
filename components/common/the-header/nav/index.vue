@@ -970,7 +970,7 @@
             </div>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        <!-- <NavigationMenuItem>
 					<NavigationMenuLink :class="navigationMenuTriggerStyle()">
 						<nuxt-link
 							to="/"
@@ -979,7 +979,7 @@
 							Bảng giá
 						</nuxt-link>
 					</NavigationMenuLink>
-				</NavigationMenuItem>
+				</NavigationMenuItem> -->
       </NavigationMenuList>
     </NavigationMenu>
   </div>

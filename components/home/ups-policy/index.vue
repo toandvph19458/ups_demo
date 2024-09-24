@@ -1,6 +1,7 @@
 <template>
 	<section class="section_policy animate-ups">
-		<div class="py-6 lg:py-11 xl:py-[30px] 2xl:py-[33px] 3xl:py-11 bg-[linear-gradient(207deg,#02E56A_11.71%,#01A34B_74.48%)] md:bg-[linear-gradient(93deg,#02E56A_24.42%,#01A34B_67.1%)]">
+		<div
+			class="py-6 lg:py-11 xl:py-[30px] 2xl:py-[33px] 3xl:py-11 bg-[linear-gradient(207deg,#02E56A_11.71%,#01A34B_74.48%)] md:bg-[linear-gradient(93deg,#02E56A_24.42%,#01A34B_67.1%)]">
 			<div class="container">
 				<div
 					class="flex flex-wrap md:flex-nowrap gap-3 md:gap-12 xl:gap-10 3xl:gap-[56px] md:justify-between md:items-center">
@@ -18,13 +19,49 @@
 							độc đáo mở ra hành trình tài chính cá nhân đầy hứng khởi và mới mẻ cho nhà đầu tư.
 						</p>
 					</div>
+
+					<div
+						class="block md:hidden w-fit bg-[#15171E] rounded-full">
+						<div to="/" id="account-btn" class="btn group flex items-center justify-center">
+							<span class="text-[#02E56A] text-xs"> Chi tiết </span>
+							<i class="mt-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+									fill="none">
+									<g filter="url(#filter0_d_129_13421)">
+										<path
+											d="M4.89594 10.4697C4.60305 10.7626 4.60305 11.2374 4.89594 11.5303C5.18883 11.8232 5.66371 11.8232 5.9566 11.5303L4.89594 10.4697ZM16.1763 1C16.1763 0.585787 15.8405 0.25 15.4263 0.25L8.67627 0.25C8.26206 0.25 7.92627 0.585786 7.92627 1C7.92627 1.41421 8.26206 1.75 8.67627 1.75H14.6763V7.75C14.6763 8.16421 15.0121 8.5 15.4263 8.5C15.8405 8.5 16.1763 8.16421 16.1763 7.75L16.1763 1ZM5.9566 11.5303L15.9566 1.53033L14.8959 0.46967L4.89594 10.4697L5.9566 11.5303Z"
+											fill="#02E56A" />
+									</g>
+									<defs>
+										<filter id="filter0_d_129_13421" x="0.67627" y="0.25" width="19.5" height="19.5"
+											filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+											<feFlood flood-opacity="0" result="BackgroundImageFix" />
+											<feColorMatrix in="SourceAlpha" type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+											<feOffset dy="4" />
+											<feGaussianBlur stdDeviation="2" />
+											<feComposite in2="hardAlpha" operator="out" />
+											<feColorMatrix type="matrix"
+												values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+											<feBlend mode="normal" in2="BackgroundImageFix"
+												result="effect1_dropShadow_129_13421" />
+											<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_129_13421"
+												result="shape" />
+										</filter>
+									</defs>
+								</svg>
+							</i>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
+
+
 		<div class="container">
 			<div class="py-10 xl:py-[64px] 2xl:py-[80px] 3xl:py-[100px] ">
-				<div class="px-0 lg:px-12  xl:px-0">
+				<div class="px-0 lg:px-12">
 					<div class="reveal flex items-center lg:items-end gap-2">
 						<div
 							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[20px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">

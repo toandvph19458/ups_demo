@@ -107,7 +107,6 @@
     @apply w-full max-w-[calc(100%-24px)] md:max-w-[calc(648px+24px)] lg:max-w-[calc(904px+24px)] xl:max-w-[calc(1080px+48px)] 2xl:max-w-[calc(1200px+48px)] 3xl:max-w-[calc(1600px+48px)] ml-6 sm:mx-auto px-0 md:pl-6 !important;
   }
 
-
   /* layout common css */
   .layout {
     @apply w-full max-w-[calc(100%-48px)] md:max-w-[calc(648px+48px)] lg:max-w-[calc(904px+48px)] xl:max-w-[calc(1080px+48px)] 2xl:max-w-[calc(1200px+48px)] 3xl:max-w-[calc(1600px+48px)] mx-6 sm:mx-auto px-0 md:px-6;

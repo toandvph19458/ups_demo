@@ -80,10 +80,11 @@
 						class="w-full px-6 py-4 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[25px] border-none focus:ring-0 placeholder:text-[#ADB2C0]"
 						placeholder="Nội dung"
 					></textarea>
+					
 				</div>
 
 				<button
-					class="absolute bottom-7 right-[50%] translate-x-1/2 md:right-6 md:translate-x-0 inline-flex items-center justify-center h-[50px] px-8 text-base font-semibold text-green-ups bg-[rgba(255,255,255,0.08)] rounded-full"
+					class="absolute z-50 bottom-7 left-6 md:left-auto right-6 inline-flex items-center justify-center h-[50px] px-8 text-base font-semibold text-green-ups bg-[rgba(255,255,255,0.08)] rounded-full"
 					@click="submit"
 				>
 					Gửi tin nhắn

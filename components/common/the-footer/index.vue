@@ -18,13 +18,13 @@
             />
           </div>
           <div
-            class="h-max grid grid-cols-12 gap-y-8 md:gap-10 lg:gap-0"
+            class="h-max grid grid-cols-12 gap-y-10 md:gap-10 lg:gap-0"
           >
             <div class="col-span-full md:col-span-6 lg:col-span-5">
               <div class="w-full lg:w-[75%]">
                 <div class="flex flex-col">
                   <div
-                    class="w-full flex flex-col gap-3 md:gap-4 mt-6 xl:mt-10"
+                    class="w-full flex flex-col gap-5 md:gap-3 2xl:gap-4 mt-6 xl:mt-10"
                   >
                     <nuxt-link href="/" class="flex items-start gap-2">
                       <nuxt-img
@@ -35,7 +35,7 @@
                         class="w-[18px] h-[18px] 2xl:w-6 2xl:h-6"
                       />
                       <span
-                        class="text-sm 2xl:text-lg 3xl:text-xl text-[#15171E] font-bold"
+                        class="text-sm md:text-xs 2xl:text-[13.5px] 3xl:text-xl text-[#15171E] font-bold"
                       >
                         Địa chỉ: Tầng 12, tòa nhà CDC số 25 phố Lê Đại Hành,
                         Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội
@@ -54,7 +54,7 @@
                         class="w-[18px] h-[18px] 2xl:w-6 2xl:h-6"
                       />
                       <span
-                        class="text-sm 2xl:text-lg 3xl:text-xl text-[#15171E] font-bold"
+                        class="text-sm md:text-xs 2xl:text-[13.5px] 3xl:text-xl text-[#15171E] font-bold"
                       >
                         Tel: (024) 3 944 6666 - Fax: (024) 3944 6969
                       </span>
@@ -72,7 +72,7 @@
                         class="w-[18px] h-[18px] 2xl:w-6 2xl:h-6"
                       />
                       <span
-                        class="text-sm 2xl:text-lg 3xl:text-xl text-[#15171E] font-bold"
+                        class="text-sm md:text-xs 2xl:text-[13.5px] 3xl:text-xl text-[#15171E] font-bold"
                       >
                         Email: info@upstock.com.vn
                       </span>
@@ -177,13 +177,13 @@
             </div>
 
             <div
-              class="col-span-full md:col-span-6 lg:col-span-7 flex flex-col justify-between w-full gap-8 lg:gap-10"
+              class="col-span-full md:col-span-6 lg:col-span-7 flex flex-col justify-between w-full gap-10 lg:gap-10"
             >
               <div
-                class="grid grid-cols-12 gap-y-7 gap-x-0 md:gap-x-4 md:gap-7 2xl:gap-10 mt-6 xl:mt-10"
+                class="grid grid-cols-12 gap-y-7 gap-x-6 md:gap-x-4 md:gap-7 xl:gap-10 mt-0 md:mt-6 xl:mt-10 3xl:gap-[60px]"
               >
                 <div
-                  class="col-span-6 lg:col-span-3 space-y-[8px] 3xl:space-y-3"
+                  class="col-span-6 lg:col-span-3 space-y-4 md:space-y-2 3xl:space-y-3"
                 >
                   <h4
                     class="text-sm 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
@@ -191,70 +191,71 @@
                     Khách hàng cá nhân
                   </h4>
 
-                  <div class="xl:my-3 w-[10px] h-[1px] bg-[#3A6A50]"></div>
+                  <div class="w-[10px] h-[1px] bg-[#3A6A50]"></div>
 
-                  <div class="flex gap-3 flex-col">
+                  <div class="flex gap-4 md:gap-2 3xl:gap-3 flex-col">
                     <nuxt-link
                       to="/coming-soon"
-                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
+                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                       
                       <p class="link-effect inline-block">Hot Deals</p>
                     </nuxt-link>
+                    
                     <nuxt-link
                       to="/bieu-phi"
-                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
+                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                     <p class="link-effect inline-block">Biểu phí giao dịch</p>
                     </nuxt-link>
                   </div>
                 </div>
 
-                <div class="col-span-6 lg:col-span-3">
+                <div class="col-span-6 lg:col-span-3 space-y-4 md:space-y-2 3xl:space-y-3">
                   <h4
                     class="text-sm 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
                   >
                     Khách hàng doanh nghiệp
                   </h4>
 
-                  <div class="my-3 xl:my-3 w-[10px] h-[1px] bg-[#3A6A50]"></div>
+                  <div class="w-[10px] h-[1px] bg-[#3A6A50]"></div>
 
-                  <div class="flex gap-3 flex-col">
+                  <div class="flex gap-4 md:gap-2 3xl:gap-3 flex-col">
                     <nuxt-link
                       to="/coming-soon"
-                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium "
+                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium "
                     >
                      <p class="link-effect inline-block">Tư vấn tài chính</p> 
                     </nuxt-link>
                     <nuxt-link
                       to="/tin-tuc"
-                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium "
+                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium "
                     >
                       <p class="link-effect inline-block">Tin đấu giá</p>
                     </nuxt-link>
                   </div>
                 </div>
 
-                <div class="col-span-6 lg:col-span-3">
+                <div class="col-span-6 lg:col-span-3 space-y-4 md:space-y-2 3xl:space-y-3">
                   <h4
                     class="text-sm 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
                   >
                     Đầu tư cùng UPS
                   </h4>
 
-                  <div class="my-3 xl:my-3 w-[10px] h-[1px] bg-[#3A6A50]"></div>
+                  <div class="w-[10px] h-[1px] bg-[#3A6A50]"></div>
 
-                  <div class="flex gap-3 flex-col">
+                  <div class="flex gap-4 md:gap-2 3xl:gap-3 flex-col">
                     <nuxt-link
                       to="/coming-soon"
-                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
+                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                     <p class="link-effect inline-block">Nhận định thị trường</p>
                       
                     </nuxt-link>
                     <nuxt-link
                       to="/hdsd"
-                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
+                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                     <p class="link-effect inline-block">Hỗ trợ khách hàng</p>
                       
@@ -262,26 +263,26 @@
                   </div>
                 </div>
 
-                <div class="col-span-6 lg:col-span-3">
+                <div class="col-span-6 lg:col-span-3 space-y-4 md:space-y-2 3xl:space-y-3">
                   <h4
                     class="text-sm 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
                   >
                     Về UPS
                   </h4>
 
-                  <div class="my-3 xl:my-3 w-[10px] h-[1px] bg-[#3A6A50]"></div>
+                  <div class="w-[10px] h-[1px] bg-[#3A6A50]"></div>
 
-                  <div class="flex gap-3 flex-col">
+                  <div class="flex gap-4 md:gap-2 3xl:gap-3 flex-col">
                     <nuxt-link
                       to="/cong-bo-thong-tin"
-                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
+                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                     <p class="link-effect inline-block">Công bố thông tin</p>
                     </nuxt-link>
 
                     <nuxt-link
                       to="/coming-soon"
-                      class="text-sm 2xl:text-base 3xl:text-lg text-[#000] font-medium"
+                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                     <p class="link-effect inline-block"> Gia nhập UPS</p>
                      
@@ -357,25 +358,25 @@
       <div class="px-6 md:px-6 lg:px-10 xl:px-auto">
         <div class="w-full max-w-[1730px] mx-auto">
           <div
-            class="flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-between py-5 2xl:py-[30px]"
+            class="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between py-5 2xl:py-[30px]"
           >
-            <p class="text-[10.5px] 2xl:text-sm text-white opacity-75">
+            <p class="text-xs 2xl:text-sm text-white opacity-75">
               © 2024 <span class="text-green-ups">UP Securities</span>. All
               right reserved
             </p>
 
             <div
-              class="flex flex-col lg:flex-row items-center mt-[10px] lg:mt-0 gap-[10px] lg:gap-6"
+              class="flex flex-col md:flex-row items-center mt-[10px] md:mt-0 gap-[10px] lg:gap-6"
             >
               <nuxt-link
                 href="https://ups.truecms.io/assets/fe3751e3-1c6f-4442-a671-ed2ce3e28d7d"
-                class="text-[10.5px] 2xl:text-sm text-white opacity-75 font-medium"
+                class="text-xs 2xl:text-sm text-white opacity-75 font-medium"
               >
                 Điều khoản & Quyền hạn
               </nuxt-link>
               <nuxt-link
                 href="/"
-                class="text-[10.5px] 2xl:text-sm text-white opacity-75 font-medium"
+                class="text-xs 2xl:text-sm text-white opacity-75 font-medium"
               >
                 Trung tâm hỗ trợ khách hàng
               </nuxt-link>

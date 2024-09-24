@@ -107,27 +107,27 @@
 					:breakpoints="{
 						375: {
 							slidesPerView: 1.2,
-							spaceBetween: 10,
+							spaceBetween: 16,
 						},
 						768: {
 							slidesPerView: 1.7,
-							spaceBetween: 12,
+							spaceBetween: 8,
 						},
 						1024: {
 							slidesPerView: 2.5,
-							spaceBetween: 12,
+							spaceBetween: 8,
 						},
 						1280: {
 							slidesPerView: 3.5,
-							spaceBetween: 12,
+							spaceBetween: 8,
 						},
 						1440: {
 							slidesPerView: 3.5,
-							spaceBetween: 12,
+							spaceBetween: 8,
 						},
 						1920: {
 							slidesPerView: 3.5,
-							spaceBetween: 12,
+							spaceBetween: 10,
 						},
 					}"
 				>
@@ -136,7 +136,7 @@
 						:key="i"
 					>
 						<div
-							class="card card-dot flex flex-col relative group gap-y-3 sm:gap-y-4 md:gap-y-5 p-4 sm:p-5 rounded-[20px] sm:rounded-[30px] 2xl:rounded-[22px] overflow-hidden h-[400px] sm:h-[450px] md:h-[500px] lg:h-[450px] xl:h-[400px] 2xl:h-[450px] w-full"
+							class="card card-dot flex flex-col relative group gap-y-3 sm:gap-y-4 md:gap-y-5 p-0 xl:p-3 md:p-3 2xl:p-4 3xl:p-5 rounded-[20px] sm:rounded-[30px] 2xl:rounded-[22px] overflow-hidden h-[400px] sm:h-[450px] md:h-[500px] lg:h-[450px] xl:h-[400px] 2xl:h-[450px] w-full"
 						>
 							<div class="glow"></div>
 							<div

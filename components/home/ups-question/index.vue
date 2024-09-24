@@ -1,5 +1,5 @@
 <template>
-	<section class="animate-ups pt-20 lg:pt-0 3xl:pt-20 pb-10">
+	<section class="animate-ups pt-20 lg:pt-0 3xl:pt-0 pb-10">
 		<div class="container">
 			<div class="w-full">
 				<div class="flex justify-center">
@@ -18,7 +18,7 @@
 					</div>
 				</div>
 
-				<div class="mt-3 md:mt-5 xl:mt-10">
+				<div class="mt-3 md:mt-5 xl:mt-0">
 					<h3
 						class="animate-ups__item text-[20px] md:text-[40px] xl:text-[60px] text-center font-semibold font-BG text-black"
 					>
@@ -95,11 +95,11 @@
 							<nuxt-link
 								target="_blank"
 								to="/hdsd#huong-dan-mo-tai-khoan-tai-ups-mm"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
 								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
 									<div
-										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-none"
+										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-s-none"
 									>
 										<nuxt-img
 											format="webp"
@@ -113,7 +113,7 @@
 								<div
 									:class="
 										cn(
-											'w-full flex-1 p-5 md:p-10 flex flex-col justify-between  transition-all duration-500 bg-white',
+											'w-full flex-1 p-5 md:p-6 lg:p-8 2xl:p-10 flex flex-col justify-between transition-all duration-500 bg-white',
 											{
 												'bg-white': vSwiperIndex == 0,
 											}
@@ -121,38 +121,39 @@
 									"
 								>
 									<div class="flex gap-5 items-center">
-										<h4 class="text-[16px] md:text-[28px] text-[#033E1E] font-bold">
+										<h4 class="text-lg md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Tôi có thể mở tài khoản giao dịch tại UPS qua hình thức nào?
 										</h4>
-										<p class="text-xl md:text-[40px] text-[#00C058] font-semibold">
+										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
 											{{ `0${0 + 1}` }}
 										</p>
 									</div>
 
-									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
-										<p class="text-[16px]">
+									<div class="mt-2 md:mt-0 text-sm 3xl:text-base text-[#033E1E]">
+										<p class="">
 											Để mở tài khoản giao dịch tại UPS, bạn có thể lựa chọn một trong những cách
 											sau đây:
 										</p>
-										<p class="text-[16px]">Cách 1: Mở tài khoản trực tuyến qua website tại đây</p>
-										<p class="text-[16px]">
+										<p class="">Cách 1: Mở tài khoản trực tuyến qua website tại đây</p>
+										<p class="">
 											Cách 2: Mở tài khoản trực tiếp tại quầy giao dịch của UPS.
 										</p>
-										<p class="pt-2 text-[16px]">
+										<p class="pt-2 ">
 											Để được hỗ trợ thêm, vui lòng liên hệ hotline 0243.944.6666
 										</p>
 									</div>
 								</div>
 							</nuxt-link>
 						</swiper-slide>
+						
 						<swiper-slide>
 							<nuxt-link
 								to="/bieu-phi"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
 								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
 									<div
-										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-none bg-white"
+										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-s-none bg-white"
 									>
 										<nuxt-img
 											format="webp"
@@ -174,16 +175,16 @@
 									"
 								>
 									<div class="flex gap-5 items-center justify-between">
-										<h4 class="text-[16px] md:text-[28px] text-[#033E1E] font-bold">
+										<h4 class="text-lg md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Phí giao dịch tại UPS?
 										</h4>
-										<p class="text-xl md:text-[40px] text-[#00C058] font-semibold">
+										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
 											{{ `0${1 + 1}` }}
 										</p>
 									</div>
 
 									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
-										<p class="text-[16px]">
+										<p class="text-sm 3xl:text-base">
 											UPS cung cấp mức phí giao dịch rất hấp dẫn trong các công ty chứng khoán tại
 											Việt Nam. Để theo dõi thông tin chi tiết, bạn vui lòng truy cập thông báo
 											Biểu phí cập nhật tại đây. UPS liên tục triển khai các chương trình khuyến
@@ -198,11 +199,11 @@
 						<swiper-slide>
 							<nuxt-link
 								to="/gioi-thieu"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
 								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
 									<div
-										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-none"
+										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-s-none"
 									>
 										<nuxt-img
 											format="webp"
@@ -224,16 +225,16 @@
 									"
 								>
 									<div class="flex gap-5 items-center justify-between">
-										<h4 class="text-[16px] md:text-[28px] text-[#033E1E] font-bold">
+										<h4 class="text-lg md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Sự khác biệt của UPS
 										</h4>
-										<p class="text-xl md:text-[40px] text-[#00C058] font-semibold">
+										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
 											{{ `0${2 + 1}` }}
 										</p>
 									</div>
 
 									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
-										<p class="text-[16px]">
+										<p class="text-sm 3xl:text-base">
 											UPS không chỉ cung cấp dịch vụ đầu tư minh bạch, đáng tin cậy, đem lại nguồn
 											lợi nhuận đa dạng, mà còn mong muốn trở thành người bạn đồng hành, trợ thủ
 											đắc lực truyền cảm hứng trong hành trình học hỏi và kiến tạo tài chính cá
@@ -247,11 +248,11 @@
 						<swiper-slide>
 							<nuxt-link
 								to="/hdsd"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full max-w-[920px] h-max md:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
 								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
 									<div
-										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-none"
+										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-s-none"
 									>
 										<nuxt-img
 											format="webp"
@@ -273,16 +274,16 @@
 									"
 								>
 									<div class="flex gap-5 items-center justify-between">
-										<h4 class="text-[16px] md:text-[28px] text-[#033E1E] font-bold">
+										<h4 class="text-lg md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Hướng dẫn sử dụng
 										</h4>
-										<p class="text-xl md:text-[40px] text-[#00C058] font-semibold">
+										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
 											{{ `0${3 + 1}` }}
 										</p>
 									</div>
 
 									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
-										<p class="text-[16px]">
+										<p class="text-sm 3xl:text-base">
 											Để tìm hiểu Hướng dẫn sử dụng Web Trading, Bảng giá Giao dịch cũng như tìm
 											hiểu các sản phẩm, dịch vụ, điều khoản, bạn vui lòng tham khảo Hỗ trợ khách
 											hàng tại đây.
