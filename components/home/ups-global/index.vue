@@ -79,7 +79,7 @@
 					</div>
 				</div>
 
-				<div class="pt-10 md:pt-[60px] lg:pt-[100px] xl:pt-[150px]">
+				<div class="py-10 md:py-[60px] lg:py-[100px] xl:py-[150px]">
 					<!-- FEEDBACK -->
 					<feedback />
 				</div>
