@@ -1,7 +1,7 @@
 <template>
 	<section class="animate-ups">
 		<div class="container">
-			<div class="relative py-6 md:py-10 xl:py-[90px] 3xl:py-[130px]">
+			<div class="relative">
 				<div
 					class="px-0 xl:px-16 grid lg:grid-cols-2 grid-cols-1 items-end lg:gap-[22px] xl:gap-[32px] 2xl:gap-[50px] gap-5">
 					<div class="item-end">

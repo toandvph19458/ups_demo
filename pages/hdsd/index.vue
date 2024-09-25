@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div
-			class="py-5 md:py-10 xl:py-[50px] 2xl:py-[60px] 3xl:py-20 rounded-b-[20px] bg-gradient-to-l from-[#125933] to-[#15171E] via-[#125933] [background-position:65%_center]"
+			class="py-5 md:py-10 xl:py-[50px] 2xl:py-[60px] 3xl:py-20 rounded-b-[20px] bg-custom-hdsd bg-cover bg-no-repeat"
 		>
 			<div class="container">
 				<div>
@@ -569,6 +569,8 @@ export default defineComponent({
 	color: blue;
 	text-decoration: underline;
 }
-
+.bg-custom-hdsd{
+	background: linear-gradient(265deg, rgba(21, 23, 30, 0.86) 25.6%, rgba(18, 89, 51, 0.86) 87.49%), url('/images/banner-hdsd.png');
+}
 /* Add more specific styles as needed */
 </style>
