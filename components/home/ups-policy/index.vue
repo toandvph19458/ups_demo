@@ -60,7 +60,7 @@
 
 
 		<div class="container">
-			<div class="py-10 xl:py-[64px] 2xl:py-[80px] 3xl:py-[100px] ">
+			<div class="pt-10 pb-[50px] xl:py-[64px] 2xl:py-[80px] 3xl:py-[100px] ">
 				<div class="px-0 lg:px-12">
 					<div class="reveal flex items-center lg:items-end gap-2">
 						<div
@@ -105,9 +105,9 @@
 					</div>
 				</div>
 
-				<div class="mt-6 lg:mt-[60px]">
+				<div class="mt-8 md:mt-10 2xl:mt-12 3xl:mt-[60px]">
 					<div class="block md:hidden xl:hidden">
-						<swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1" :loop="false"
+						<swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1.2" :loop="false"
 							:speed="800" :space-between="12" :initial-slide="vSwiperIndex" @swiper="setVSwiperRef"
 							@slide-change="updateVSwiperIndex" :breakpoints="{
 								// 480: {
@@ -147,7 +147,7 @@
 											#tốc độ
 										</div>
 										<h3
-											class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
+											class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 											Giao dịch tức thì
 										</h3>
 										<div class="flex flex-col gap-2">
@@ -188,6 +188,7 @@
 									</div>
 								</div>
 							</swiper-slide>
+
 							<swiper-slide>
 								<div
 									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group">
@@ -208,7 +209,7 @@
 											#chuyên nghiệp
 										</div>
 										<h3
-											class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
+											class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 											Chính sách hợp tác hấp dẫn
 										</h3>
 										<div class="flex flex-col gap-2">
@@ -249,6 +250,7 @@
 									</div>
 								</div>
 							</swiper-slide>
+							
 							<swiper-slide>
 								<div
 									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group">
@@ -269,7 +271,7 @@
 											#hấpdẫn
 										</div>
 										<h3
-											class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
+											class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 											Quản lý đầu tư hiệu quả
 										</h3>
 										<div class="flex flex-col gap-2">
@@ -332,7 +334,7 @@
 									class="inline-flex px-4 lg:px-5 py-[6px] text-[10px] md:text-[12px] xl:text-[16px] 2xl:text-[18px] text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 									#tốcđộ
 								</div>
-								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
+								<h3 class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 									Giao dịch tức thì
 								</h3>
 								<div class="hidden group-hover:flex flex-col gap-2">
@@ -387,7 +389,7 @@
 									class="inline-flex px-4 lg:px-5 py-[6px] text-[10px] md:text-[12px] xl:text-[16px] 2xl:text-[18px] text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 									#chuyênnghiệp
 								</div>
-								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
+								<h3 class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 									Chính sách hợp tác hấp dẫn
 								</h3>
 								<div class="hidden group-hover:flex flex-col gap-2">
@@ -442,7 +444,7 @@
 									class="inline-flex px-4 lg:px-5 py-[6px] text-[10px] md:text-[12px] xl:text-[16px] 2xl:text-[18px] text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 									#hấpdẫn
 								</div>
-								<h3 class="text-sm md:text-xl lg:text-2xl xl:text-[32px] text-white font-medium my-3">
+								<h3 class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 									Quản lý đầu tư hiệu quả
 								</h3>
 								<div class="hidden group-hover:flex flex-col gap-2">
@@ -482,7 +484,7 @@
 					</div>
 				</div>
 
-				<div class="mt-6 lg:mt-11 px-0 lg:px-12 flex gap-3">
+				<div class="hidden md:flex mt-6 lg:mt-11 px-0 lg:px-12 gap-3">
 					<div class="inline-flex animate-ups__item">
 						<button :class="cn(
 							`h-10 px-6 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,

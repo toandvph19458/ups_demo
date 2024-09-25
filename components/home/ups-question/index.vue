@@ -2,7 +2,7 @@
 	<section class="animate-ups pt-20 lg:pt-0 3xl:pt-0 pb-10">
 		<div class="container">
 			<div class="w-full">
-				<div class="flex justify-center">
+				<div class="hidden md:flex justify-center">
 					<div
 						class="inline-flex relative w-[80px] h-[40px] md:w-[145px] md:h-[66px] xl:w-[220px] xl:h-[100px]"
 					>
@@ -51,13 +51,13 @@
 						:initial-slide="vSwiperIndex"
 						@swiper="setVSwiperRef"
 						@slide-change="updateVSwiperIndex"
-						class="swiper-question"
+						class="swiper-question md:translate-x-[60px] lg:translate-x-0 2xl:translate-x-[130px] 3xl:translate-x-0"
 						:breakpoints="{
 							480: {
 								coverflowEffect: {
 									rotate: 0,
-									stretch: 700,
-									depth: 100,
+									stretch: 100,
+									depth: 250,
 									modifier: 1,
 									slideShadows: false,
 								},
@@ -65,22 +65,40 @@
 							768: {
 								coverflowEffect: {
 									rotate: 0,
-									stretch: 700,
+									stretch: 800,
 									depth: 250,
 									modifier: 1,
 									slideShadows: false,
 								},
 							},
-							992: {
+							1024: {
 								coverflowEffect: {
 									rotate: 0,
-									stretch: 700,
+									stretch: 800,
 									depth: 250,
 									modifier: 1,
 									slideShadows: false,
 								},
 							},
-							1200: {
+							1280: {
+								coverflowEffect: {
+									rotate: 0,
+									stretch: 800,
+									depth: 250,
+									modifier: 1,
+									slideShadows: false,
+								},
+							},
+							1440: {
+								coverflowEffect: {
+									rotate: 0,
+									stretch: 800,
+									depth: 250,
+									modifier: 1,
+									slideShadows: false,
+								},
+							},
+							1920: {
 								coverflowEffect: {
 									rotate: 0,
 									stretch: 700,
@@ -95,9 +113,9 @@
 							<nuxt-link
 								target="_blank"
 								to="/hdsd#huong-dan-mo-tai-khoan-tai-ups-mm"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-[92%] md:max-w-[520px] lg:max-w-[612px] 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
-								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
+								<div :class="cn('w-full md:w-[200px] lg:w-[240px] 2xl:w-[270px] 3xl:w-[360px] flex flex-col bg-white')">
 									<div
 										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-s-none"
 									>
@@ -121,7 +139,7 @@
 									"
 								>
 									<div class="flex gap-5 items-center">
-										<h4 class="text-lg md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
+										<h4 class="text-sm md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Tôi có thể mở tài khoản giao dịch tại UPS qua hình thức nào?
 										</h4>
 										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
@@ -149,9 +167,9 @@
 						<swiper-slide>
 							<nuxt-link
 								to="/bieu-phi"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-[92%] md:max-w-[520px] lg:max-w-[612px] 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
-								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
+								<div :class="cn('w-full md:w-[200px] lg:w-[240px] 2xl:w-[270px] 3xl:w-[360px] flex flex-col bg-white')">
 									<div
 										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-s-none bg-white"
 									>
@@ -175,7 +193,7 @@
 									"
 								>
 									<div class="flex gap-5 items-center justify-between">
-										<h4 class="text-lg md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
+										<h4 class="text-sm md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Phí giao dịch tại UPS?
 										</h4>
 										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
@@ -199,9 +217,9 @@
 						<swiper-slide>
 							<nuxt-link
 								to="/gioi-thieu"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-[92%] md:max-w-[520px] lg:max-w-[612px] 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
-								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
+								<div :class="cn('w-full md:w-[200px] lg:w-[240px] 2xl:w-[270px] 3xl:w-[360px] flex flex-col bg-white')">
 									<div
 										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-s-none"
 									>
@@ -225,7 +243,7 @@
 									"
 								>
 									<div class="flex gap-5 items-center justify-between">
-										<h4 class="text-lg md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
+										<h4 class="text-sm md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Sự khác biệt của UPS
 										</h4>
 										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
@@ -248,9 +266,9 @@
 						<swiper-slide>
 							<nuxt-link
 								to="/hdsd"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-full md:max-w-[520px] lg:max-w-[612px] 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
-								<div :class="cn('w-full md:w-[300px] lg:w-[360px] flex flex-col bg-white')">
+								<div :class="cn('w-full md:w-[200px] lg:w-[240px] 2xl:w-[270px] 3xl:w-[360px] flex flex-col bg-white')">
 									<div
 										class="relative overflow-hidden w-full h-[320px] md:h-full rounded-[24px] md:rounded-s-none"
 									>
@@ -274,7 +292,7 @@
 									"
 								>
 									<div class="flex gap-5 items-center justify-between">
-										<h4 class="text-lg md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
+										<h4 class="text-sm md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Hướng dẫn sử dụng
 										</h4>
 										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
@@ -295,7 +313,7 @@
 					</swiper>
 				</div>
 
-				<div class="flex gap-6 flex-col md items-center justify-center">
+				<div class="hidden md:flex gap-6 flex-col md items-center justify-center">
 					<div class="inline-flex gap-3">
 						<div class="inline-flex animate-ups__item">
 							<button

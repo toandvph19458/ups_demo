@@ -1,6 +1,6 @@
 <template>
 	<section
-		class="section_news animate-ups px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-[120px] py-8 sm:py-12 md:py-16 lg:py-20 xl:py-[80px] 2xl:py-[96px]"
+		class="section_news animate-ups px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-[120px] pb-12 md:py-16 lg:py-20 xl:py-[80px] 2xl:py-[96px]"
 	>
 		<div class="flex flex-col md:flex-row gap-6 md:gap-[24px] 2xl:gap-[30px] 3xl:gap-10 items-center">
 			<div
@@ -13,24 +13,25 @@
 
 				<div>
 					<h3
-						class="hidden md:block animate-ups__item bg-gradient-to-r from-[#00C058] to-[#1FAB5F] bg-clip-text text-transparent font-BG text-2xl md:text-[32px] lg:text-[54px] 2xl:text-[60px] 3xl:text-[80px] font-bold lg:leading-[1.25]"
+						class="hidden md:block animate-ups__item bg-gradient-to-r from-[#00C058] to-[#1FAB5F] bg-clip-text text-transparent font-BG text-2xl md:text-[32px] lg:text-[54px] 2xl:text-[60px] 3xl:text-[80px] font-bold lg:leading-[1.75]"
 					>
 						<span class="text-[#15171E]">Tin</span><br />
 						nổi bật
 					</h3>
+
 					<h3
-						class="block md:hidden animate-ups__item bg-gradient-to-r from-[#00C058] to-[#1FAB5F] bg-clip-text text-transparent font-BG text-2xl sm:text-3xl font-bold leading-tight"
+						class="block md:hidden animate-ups__item bg-gradient-to-r from-[#00C058] to-[#1FAB5F] bg-clip-text text-transparent font-BG text-xl font-bold leading-normal"
 					>
 						<span class="text-[#15171E]">Tin</span>
 						nổi bật
 					</h3>
 					<p
-						class="animate-ups__item text-sm sm:text-base lg:text-lg xl:text-base 2xl:text-lg text-[#000] font-normal mt-2 sm:mt-4"
+						class="animate-ups__item text-sm lg:text-lg xl:text-base 2xl:text-lg text-[#000] font-normal mt-1 md:mt-2"
 					>
 						Cập nhật các sản phẩm, dịch vụ mới nhất cũng như các hoạt động, sự kiện của UPS
 					</p>
 				</div>
-				<div class="flex gap-3">
+				<div class="hidden md:flex gap-3">
 					<div class="inline-flex animate-ups__item">
 						<button
 							:class="

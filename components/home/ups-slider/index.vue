@@ -29,11 +29,11 @@
 
                           <div>
                             <h2
-                              class="animate-ups__item text-lg md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
+                              class="animate-ups__item text-xl md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
                               Chính thức ra mắt
                             </h2>
                             <h2
-                              class="animate-ups__item text-2xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-normal">
+                              class="animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
                               Dẫn lối hành trình đầu tư
                             </h2>
 
@@ -124,11 +124,11 @@
 
                           <div>
                             <h2
-                              class="animate-ups__item text-lg md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
+                              class="animate-ups__item text-xl md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
                               Đầu tư không khó
                             </h2>
                             <h2
-                              class="animate-ups__item text-2xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-normal">
+                              class="animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
                               Đã có UPS lo
                             </h2>
 
@@ -214,23 +214,23 @@
                       <div class="pr-5 md:pr-6 xl:pr-4 3xl:pr-[26px]">
 
                         <div class="space-y-3 md:space-y-5 2xl:space-y-6 3xl:space-y-8">
-                          <h2
-                            class="animate-ups__item flex items-center text-lg md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] font-bold font-BG">
-                            Cùng
-                            <div
-                              class="inline-flex relative mx-3 w-[76px] h-[36px] lg:w-[145px] lg:h-[66px] xl:w-[130px] xl:h-[58px]">
-                              <nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.svg" width="130px" height="58"
-                                class="link absolute w-full h-full object-cover" />
-                            </div>
-                          </h2>
-
+                          
                           <div>
                             <h2
-                              class="animate-ups__item text-lg md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
+                              class="animate-ups__item flex items-center text-lg md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] font-bold font-BG">
+                              Cùng
+                              <div
+                                class="inline-flex relative mx-3 w-[46px] h-[30px] md:w-[76px] md:h-[36px] lg:w-[145px] lg:h-[66px] xl:w-[130px] xl:h-[58px]">
+                                <nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.svg" width="130px" height="58"
+                                  class="link absolute w-full h-full object-cover" />
+                              </div>
+                            </h2>
+                            <h2
+                              class="animate-ups__item text-xl md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
                               ngay hôm nay
                             </h2>
                             <h2
-                              class="animate-ups__item text-2xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-normal">
+                              class="animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
                               Kiến tạo trải nghiệm đầu tư đầy hứng khởi
                             </h2>
 

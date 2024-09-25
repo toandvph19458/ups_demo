@@ -43,7 +43,7 @@
               thị trường
             </h3>
 
-            <p class="animate-ups__item text-xs xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
+            <p class="animate-ups__item text-sm xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
               Với phương châm gần gũi và thân thuộc với khách hàng. UPS tự tin
               trở thành người bạn, người trợ thủ đáng tin cậy, luôn sẵn lòng hỗ
               trợ và đồng hành cùng nhà đầu tư trong mọi bước đi.
@@ -56,7 +56,7 @@
                   id="monitor">
                   {{ count }}%
                 </h4>
-                <p class="text-xs xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
+                <p class="text-sm xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
                   Nhà đầu tư trẻ bước đầu loay hoay trong việc lựa chọn sàn giao
                   dịch đầu tư
                 </p>
@@ -66,7 +66,7 @@
                   class="text-[30px] md:text-[40px] xl:text-[52px] 2xl:text-[60px] 3xl:text-[80px] font-bold leading-normal text-[#02E56A] hover:text-shadow-custom">
                   {{ count2 }}%
                 </h4>
-                <p class="text-xs xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
+                <p class="text-sm xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
                   Nhà đầu tư trẻ cần trau dồi thêm kiến thức, kỹ năng về chứng
                   khoán để tránh rủi ro thất bại
                 </p>

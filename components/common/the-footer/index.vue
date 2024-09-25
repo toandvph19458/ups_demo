@@ -360,7 +360,7 @@
           <div
             class="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between py-5 2xl:py-[30px]"
           >
-            <p class="text-xs 2xl:text-sm text-white opacity-75">
+            <p class="text-sm md:text-xs 2xl:text-sm text-white opacity-75">
               © 2024 <span class="text-green-ups">UP Securities</span>. All
               right reserved
             </p>
@@ -370,13 +370,13 @@
             >
               <nuxt-link
                 href="https://ups.truecms.io/assets/fe3751e3-1c6f-4442-a671-ed2ce3e28d7d"
-                class="text-xs 2xl:text-sm text-white opacity-75 font-medium"
+                class="text-sm md:text-xs 2xl:text-sm text-white opacity-75 font-medium"
               >
                 Điều khoản & Quyền hạn
               </nuxt-link>
               <nuxt-link
                 href="/"
-                class="text-xs 2xl:text-sm text-white opacity-75 font-medium"
+                class="text-sm md:text-xs 2xl:text-sm text-white opacity-75 font-medium"
               >
                 Trung tâm hỗ trợ khách hàng
               </nuxt-link>
