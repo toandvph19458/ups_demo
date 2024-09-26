@@ -18,7 +18,7 @@
                     class="h-full flex flex-row-reverse md:flex-row flex-wrap xl:flex-nowrap gap-[36px] md:gap-8 lg:gap-12 xl:gap-10 3xl:gap-[56px] items-center">
 
                     <div class="xl:basis-1/2 basis-full order-2 md:order-1">
-                      <div class="pr-5 md:pr-6 xl:pr-4 3xl:pr-[26px]">
+                      <div class="pr-0 md:pr-6 xl:pr-4 3xl:pr-[26px]">
 
                         <div class="space-y-0 md:space-y-5 2xl:space-y-6 3xl:space-y-8">
                           <div
@@ -52,8 +52,8 @@
 
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                               target="_blank" class="btn active group">
-                              <span class="text-sm"> Mở tài khoản ngay </span>
-                              <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                              <span class="text-base"> Mở tài khoản ngay </span>
+                              <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
                                   <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                     alt="UPS" />
@@ -70,7 +70,7 @@
                           <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" target="_blank"
                             class="btn group animate-ups__item md:hover:border-[#222] border-[1px] border-[#747887] md:border-white">
                             <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
-                            <span class="inline-block md:hidden text-sm"> Giao dịch ngay </span>
+                            <span class="inline-block md:hidden text-base"> Giao dịch ngay </span>
                             <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                               <i class="w-full h-full inline-flex absolute">
                                 <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
@@ -113,7 +113,7 @@
                     class="h-full flex flex-row-reverse md:flex-row flex-wrap xl:flex-nowrap gap-[36px] md:gap-8 lg:gap-12 xl:gap-10 3xl:gap-[56px] items-center">
 
                     <div class="xl:basis-1/2 basis-full order-2 md:order-1">
-                      <div class="pr-5 md:pr-6 xl:pr-4 3xl:pr-[26px]">
+                      <div class="pr-0 md:pr-6 xl:pr-4 3xl:pr-[26px]">
 
                         <div class="space-y-0 md:space-y-5 2xl:space-y-6 3xl:space-y-8">
                           <div
@@ -147,8 +147,8 @@
 
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                               target="_blank" class="btn active group">
-                              <span class="text-sm"> Mở tài khoản ngay </span>
-                              <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                              <span class="text-base"> Mở tài khoản ngay </span>
+                              <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
                                   <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                     alt="UPS" />
@@ -165,7 +165,7 @@
                           <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" target="_blank"
                             class="btn group animate-ups__item md:hover:border-[#222] border-[1px] border-[#747887] md:border-white">
                             <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
-                            <span class="inline-block md:hidden text-sm"> Giao dịch ngay </span>
+                            <span class="inline-block md:hidden text-base"> Giao dịch ngay </span>
                             <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                               <i class="w-full h-full inline-flex absolute">
                                 <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
@@ -211,7 +211,7 @@
                     class="h-full flex flex-row-reverse md:flex-row flex-wrap xl:flex-nowrap gap-[36px] md:gap-8 lg:gap-12 xl:gap-10 3xl:gap-[56px] items-center">
 
                     <div class="xl:basis-1/2 basis-full order-2 md:order-1">
-                      <div class="pr-5 md:pr-6 xl:pr-4 3xl:pr-[26px]">
+                      <div class="pr-0 md:pr-6 xl:pr-4 3xl:pr-[26px]">
 
                       
                         <div class="space-y-0 md:space-y-5 2xl:space-y-6 3xl:space-y-8">
@@ -228,7 +228,7 @@
                             </h2>
                             <h2
                               class="mb-[12px] animate-ups__item text-[28px] md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
-                              Kiến tạo trải nghiệm đầu tư
+                              Kiến tạo trải nghiệm đầu tư đầy hứng khởi
                             </h2>
 
                           </div>
@@ -248,8 +248,8 @@
 
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                               target="_blank" class="btn active group">
-                              <span class="text-sm"> Mở tài khoản ngay </span>
-                              <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                              <span class="text-base"> Mở tài khoản ngay </span>
+                              <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
                                   <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                     alt="UPS" />
@@ -266,7 +266,7 @@
                           <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" target="_blank"
                             class="btn group animate-ups__item md:hover:border-[#222] border-[1px] border-[#747887] md:border-white">
                             <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
-                            <span class="inline-block md:hidden text-sm"> Giao dịch ngay </span>
+                            <span class="inline-block md:hidden text-base"> Giao dịch ngay </span>
                             <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                               <i class="w-full h-full inline-flex absolute">
                                 <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
@@ -339,7 +339,7 @@
                     <div class="inline-flex animate-ups__item">
                       <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                         target="_blank" class="btn active group">
-                        <span class="text-sm"> Mở tài khoản ngay </span>
+                        <span class="text-base"> Mở tài khoản ngay </span>
                         <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                           <i class="w-full h-full group-hover:inline-flex hidden absolute">
                             <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
@@ -356,7 +356,7 @@
                     <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" target="_blank"
                       class="btn group animate-ups__item md:hover:border-[#222] border-[1px] border-[#747887] md:border-white">
                       <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
-                      <span class="inline-block md:hidden text-sm"> Giao dịch ngay </span>
+                      <span class="inline-block md:hidden text-base"> Giao dịch ngay </span>
                       <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                         <i class="w-full h-full inline-flex absolute">
                           <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />

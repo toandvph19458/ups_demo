@@ -6,14 +6,14 @@
 				<div
 					class="flex flex-wrap md:flex-nowrap gap-3 md:gap-12 xl:gap-10 3xl:gap-[56px] md:justify-between md:items-center">
 					<h3
-						class="animate-ups__item basis-full md:basis-1/2 font-semibold text-2xl md:text-[24px] lg:text-[36px] text-[#15171E] font-BG leading-[1.3] link">
+						class="animate-ups__item basis-full md:basis-1/2 font-semibold text-[28px] md:text-[24px] lg:text-[36px] text-[#15171E] font-BG leading-[1.3] link">
 						<span>Bạn đang tìm </span>
 						<br />
 						<span> đối tác đầu tư phù hợp? </span>
 					</h3>
 
 					<div class="basis-full md:basis-6/12 xl:basis-5/12">
-						<p class="animate-ups__item w-full text-sm lg:text-base font-semibold text-white link">
+						<p class="animate-ups__item w-full text-base lg:text-base font-semibold text-white link">
 							UPS tin rằng đầu tư không đơn giản chỉ là con số, giao dịch khô khan mà còn là cuộc phiêu
 							lưu
 							độc đáo mở ra hành trình tài chính cá nhân đầy hứng khởi và mới mẻ cho nhà đầu tư.
@@ -24,8 +24,8 @@
 				<div
 					class="block md:hidden w-fit bg-[#15171E] rounded-full mt-4 md:mt-0 animate-ups__item">
 					<div to="/" id="account-btn" class="btn group flex items-center justify-center">
-						<span class="text-[#02E56A] text-sm"> Chi tiết </span>
-						<i class="mt-2 rotate-45">
+						<span class="text-[#02E56A] text-base"> Chi tiết </span>
+						<i class="mt-2 rotate-45 hidden">
 							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
 								fill="none">
 								<g filter="url(#filter0_d_129_13421)">
@@ -64,7 +64,7 @@
 				<div class="px-0 lg:px-12">
 					<div class="reveal flex items-center lg:items-end gap-2">
 						<div
-							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[24px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">
+							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[28px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">
 							Chính sách <br /> đặc biệt của <span class="text-[#02E56A]">UPS</span>
 							<!-- <div
 								class="animate-ups__item inline-block relative w-[52px] md:w-[72px] lg:w-[125px] 2xl:w-[142px] 3xl:w-[170px] pt-[16%]">
@@ -78,7 +78,7 @@
 					<div
 						class="mt-3 lg:mt-[30px] flex gap-5 xl:gap-0 flex-col xl:flex-row items-start xl:items-center justify-between">
 						<p
-							class="animate-ups__item w-full xl:max-w-[60%] text-[#3C4052] text-sm lg:text-lg font-medium leading-normal">
+							class="animate-ups__item w-full xl:max-w-[60%] text-[#3C4052] text-base lg:text-lg font-medium leading-normal">
 							UPS không chỉ cung cấp dịch vụ đầu tư minh bạch, đáng tin cậy, đem lại nguồn lợi nhuận đa
 							dạng, mà còn mong muốn trở thành người bạn đồng hành, trợ thủ đắc lực truyền cảm hứng trong
 							hành trình học hỏi và kiến tạo tài chính cá nhân không giới hạn dành cho các nhà đầu tư thế
@@ -88,8 +88,8 @@
 						<div class="animate-ups__item inline-flex">
 							<nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
 								target="_blank" class="btn active group">
-								<span class="text-sm font-bold"> Mở tài khoản ngay </span>
-								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+								<span class="text-base font-bold"> Mở tài khoản ngay </span>
+								<div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
 									<i class="w-full h-full group-hover:inline-flex hidden absolute">
 										<nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
 											alt="UPS" />
@@ -107,7 +107,7 @@
 
 				<div class="mt-8 md:mt-10 2xl:mt-12 3xl:mt-[60px]">
 					<div class="block md:hidden xl:hidden">
-						<swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1.2" :loop="false"
+						<swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1.1" :loop="false"
 							:speed="800" :space-between="12" :initial-slide="vSwiperIndex" @swiper="setVSwiperRef"
 							@slide-change="updateVSwiperIndex" :breakpoints="{
 								// 480: {
@@ -131,7 +131,7 @@
 								<div
 									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group">
 									<div
-										class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+										class="relative w-full h-[280px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 										<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 											src="/images/tucthi.png" class="w-full h-full object-cover" />
 
@@ -143,14 +143,14 @@
 									<div
 										class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8">
 										<div
-											class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
+											class="inline-flex px-4 lg:px-5 py-[6px] text-base lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 											#tốc độ
 										</div>
 										<h3
-											class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
+											class="text-base md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 											Giao dịch tức thì
 										</h3>
-										<div class="flex flex-col gap-2">
+										<div class="flex flex-col gap-1">
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
@@ -158,7 +158,7 @@
 												</div>
 
 												<p
-													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 													Mở tài khoản định danh eKYC tức thì
 												</p>
 											</div>
@@ -169,7 +169,7 @@
 												</div>
 
 												<p
-													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 													Nền tảng giao dịch cá nhân hóa
 												</p>
 											</div>
@@ -180,7 +180,7 @@
 												</div>
 
 												<p
-													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 													Tốc độ đặt lệnh siêu nhanh
 												</p>
 											</div>
@@ -193,7 +193,7 @@
 								<div
 									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group">
 									<div
-										class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+										class="relative w-full h-[280px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 										<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 											src="/images/hoptac.png" class="w-full h-full object-cover" />
 
@@ -205,14 +205,14 @@
 									<div
 										class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8">
 										<div
-											class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
+											class="inline-flex px-4 lg:px-5 py-[6px] text-base lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 											#chuyên nghiệp
 										</div>
 										<h3
-											class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
+											class="text-base md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 											Chính sách hợp tác hấp dẫn
 										</h3>
-										<div class="flex flex-col gap-2">
+										<div class="flex flex-col gap-1">
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
@@ -220,7 +220,7 @@
 												</div>
 
 												<p
-													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 													Tỷ lệ hoa hồng hấp dẫn nhất thị trường
 												</p>
 											</div>
@@ -231,7 +231,7 @@
 												</div>
 
 												<p
-													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 													Gia tăng thu nhập không giới hạn
 												</p>
 											</div>
@@ -242,8 +242,8 @@
 												</div>
 
 												<p
-													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-													Cơ hội giao lưu cộng đồng đầu tư chuyên nghiệp
+													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
+													Giao lưu cộng đồng đầu tư chuyên nghiệp
 												</p>
 											</div>
 										</div>
@@ -255,7 +255,7 @@
 								<div
 									class="policy_collection-item relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group">
 									<div
-										class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+										class="relative w-full h-[280px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 										<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 											src="/images/quanly.png" class="w-full h-full object-cover" />
 
@@ -267,14 +267,14 @@
 									<div
 										class="w-[calc(100%-24px)] lg:w-[calc(100%-64px)] absolute z-10 left-3 lg:left-8 bottom-3 lg:bottom-8">
 										<div
-											class="inline-flex px-4 lg:px-5 py-[6px] text-sm lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
+											class="inline-flex px-4 lg:px-5 py-[6px] text-base lg:text-base text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 											#hấpdẫn
 										</div>
 										<h3
-											class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
+											class="text-base md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 											Quản lý đầu tư hiệu quả
 										</h3>
-										<div class="flex flex-col gap-2">
+										<div class="flex flex-col gap-1">
 											<div class="flex gap-3 items-center">
 												<div class="">
 													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
@@ -282,7 +282,7 @@
 												</div>
 
 												<p
-													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 													Phí giao dịch cạnh tranh
 												</p>
 											</div>
@@ -293,7 +293,7 @@
 												</div>
 
 												<p
-													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 													Sản phẩm margin hấp dẫn, ưu đãi shock
 												</p>
 											</div>
@@ -304,7 +304,7 @@
 												</div>
 
 												<p
-													class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 													Tư vấn hiệu quả 24/7
 												</p>
 											</div>
@@ -319,7 +319,7 @@
 						<div
 							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-700 hover:flex-[2]">
 							<div
-								class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+								class="relative w-full h-[280px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 								<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 									src="/images/tucthi.png" class="w-full h-full object-cover" />
 
@@ -334,17 +334,17 @@
 									class="inline-flex px-4 lg:px-5 py-[6px] text-[10px] md:text-[12px] xl:text-[16px] 2xl:text-[18px] text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 									#tốcđộ
 								</div>
-								<h3 class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
+								<h3 class="text-base md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 									Giao dịch tức thì
 								</h3>
-								<div class="hidden group-hover:flex flex-col gap-2">
+								<div class="hidden group-hover:flex flex-col gap-1">
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
 												src="/logo/logo-row.svg" />
 										</div>
 
-										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+										<p class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 											Mở tài khoản định danh eKYC tức thì
 										</p>
 									</div>
@@ -354,7 +354,7 @@
 												src="/logo/logo-row.svg" />
 										</div>
 
-										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+										<p class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 											Nền tảng giao dịch cá nhân hóa
 										</p>
 									</div>
@@ -364,7 +364,7 @@
 												src="/logo/logo-row.svg" />
 										</div>
 
-										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+										<p class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 											Tốc độ đặt lệnh siêu nhanh
 										</p>
 									</div>
@@ -374,7 +374,7 @@
 						<div
 							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-700 hover:flex-[2]">
 							<div
-								class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+								class="relative w-full h-[280px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 								<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 									src="/images/hoptac.png" class="w-full h-full object-cover" />
 
@@ -389,17 +389,17 @@
 									class="inline-flex px-4 lg:px-5 py-[6px] text-[10px] md:text-[12px] xl:text-[16px] 2xl:text-[18px] text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 									#chuyênnghiệp
 								</div>
-								<h3 class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
+								<h3 class="text-base md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 									Chính sách hợp tác hấp dẫn
 								</h3>
-								<div class="hidden group-hover:flex flex-col gap-2">
+								<div class="hidden group-hover:flex flex-col gap-1">
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
 												src="/logo/logo-row.svg" />
 										</div>
 
-										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+										<p class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 											Tỷ lệ hoa hồng hấp dẫn nhất thị trường
 										</p>
 									</div>
@@ -409,7 +409,7 @@
 												src="/logo/logo-row.svg" />
 										</div>
 
-										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+										<p class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 											Gia tăng thu nhập không giới hạn
 										</p>
 									</div>
@@ -419,8 +419,8 @@
 												src="/logo/logo-row.svg" />
 										</div>
 
-										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Cơ hội giao lưu cộng đồng đầu tư chuyên nghiệp
+										<p class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
+											Giao lưu cộng đồng đầu tư chuyên nghiệp
 										</p>
 									</div>
 								</div>
@@ -429,7 +429,7 @@
 						<div
 							class="policy_collection-item flex-1 relative rounded-[16px] md:rounded-[24px] xl:rounded-[48px] overflow-hidden group transition-all duration-700 hover:flex-[2]">
 							<div
-								class="relative w-full h-[230px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
+								class="relative w-full h-[280px] md:h-[330px] xl:h-[420px] 3xl:h-[620px] transition-all duration-500 group-hover:scale-110">
 								<nuxt-img fit="cover" loading="lazy" width="782" height="620" alt="UPS"
 									src="/images/quanly.png" class="w-full h-full object-cover" />
 
@@ -444,17 +444,17 @@
 									class="inline-flex px-4 lg:px-5 py-[6px] text-[10px] md:text-[12px] xl:text-[16px] 2xl:text-[18px] text-[#02E56A] bg-[#000] rounded-[8px] lg:rounded-[14px]">
 									#hấpdẫn
 								</div>
-								<h3 class="text-sm md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
+								<h3 class="text-base md:text-base xl:text-xl 2xl:text-2xl 3xl:text-[32px] text-white font-medium my-3">
 									Quản lý đầu tư hiệu quả
 								</h3>
-								<div class="hidden group-hover:flex flex-col gap-2">
+								<div class="hidden group-hover:flex flex-col gap-1">
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
 												src="/logo/logo-row.svg" />
 										</div>
 
-										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+										<p class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 											Phí giao dịch cạnh tranh
 										</p>
 									</div>
@@ -464,7 +464,7 @@
 												src="/logo/logo-row.svg" />
 										</div>
 
-										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+										<p class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 											Sản phẩm margin hấp dẫn, ưu đãi shock
 										</p>
 									</div>
@@ -474,7 +474,7 @@
 												src="/logo/logo-row.svg" />
 										</div>
 
-										<p class="text-sm lg:text-base xl:text-xl font-normal text-white opacity-80">
+										<p class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 											Tư vấn hiệu quả 24/7
 										</p>
 									</div>

@@ -20,13 +20,13 @@
 
 				<div class="mt-3 md:mt-5 xl:mt-0">
 					<h3
-						class="animate-ups__item text-[20px] md:text-[40px] xl:text-[60px] text-center font-semibold font-BG text-black"
+						class="animate-ups__item text-[28px] md:text-[40px] xl:text-[60px] text-center font-semibold font-BG text-black"
 					>
 						Bạn muốn tìm hiểu về
 						<span class="text-green-ups"> UPS </span>
 					</h3>
 
-					<p class="animate-ups__item text-sm md:text-base xl:text-xl text-center text-[#000] font-medium">
+					<p class="animate-ups__item text-base xl:text-xl text-center text-[#000] font-medium">
 						Cập nhật các sản phẩm, dịch vụ mới nhất cũng như các hoạt động, sự kiện của UPS
 					</p>
 				</div>
@@ -140,7 +140,7 @@
 									"
 								>
 									<div class="flex gap-5 items-center">
-										<h4 class="text-sm md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
+										<h4 class="text-base md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Tôi có thể mở tài khoản giao dịch tại UPS qua hình thức nào?
 										</h4>
 										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
@@ -148,7 +148,7 @@
 										</p>
 									</div>
 
-									<div class="mt-2 md:mt-0 text-sm 3xl:text-base text-[#033E1E]">
+									<div class="mt-5 md:mt-0 text-sm 3xl:text-base text-[#3C4052]">
 										<p class="">
 											Để mở tài khoản giao dịch tại UPS, bạn có thể lựa chọn một trong những cách
 											sau đây:
@@ -194,7 +194,7 @@
 									"
 								>
 									<div class="flex gap-5 items-center justify-between">
-										<h4 class="text-sm md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
+										<h4 class="text-base md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Phí giao dịch tại UPS?
 										</h4>
 										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
@@ -202,7 +202,7 @@
 										</p>
 									</div>
 
-									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
+									<div class="mt-5 md:mt-0 text-sm text-[#3C4052]">
 										<p class="text-sm 3xl:text-base">
 											UPS cung cấp mức phí giao dịch rất hấp dẫn trong các công ty chứng khoán tại
 											Việt Nam. Để theo dõi thông tin chi tiết, bạn vui lòng truy cập thông báo
@@ -244,7 +244,7 @@
 									"
 								>
 									<div class="flex gap-5 items-center justify-between">
-										<h4 class="text-sm md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
+										<h4 class="text-base md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Sự khác biệt của UPS
 										</h4>
 										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
@@ -252,7 +252,7 @@
 										</p>
 									</div>
 
-									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
+									<div class="mt-5 md:mt-0 text-sm text-[#3C4052]">
 										<p class="text-sm 3xl:text-base">
 											UPS không chỉ cung cấp dịch vụ đầu tư minh bạch, đáng tin cậy, đem lại nguồn
 											lợi nhuận đa dạng, mà còn mong muốn trở thành người bạn đồng hành, trợ thủ
@@ -293,7 +293,7 @@
 									"
 								>
 									<div class="flex gap-5 items-center justify-between">
-										<h4 class="text-sm md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
+										<h4 class="text-base md:text-sm 2xl:text-base 3xl:text-xl text-[#033E1E] font-bold">
 											Hướng dẫn sử dụng
 										</h4>
 										<p class="text-base md:text-2xl lg:text-[26px] 2xl:text-[30px] 3xl:text-[40px] text-[#00C058] font-semibold">
@@ -301,7 +301,7 @@
 										</p>
 									</div>
 
-									<div class="mt-2 md:mt-0 text-sm text-[#033E1E]">
+									<div class="mt-5 md:mt-0 text-sm text-[#3C4052]">
 										<p class="text-sm 3xl:text-base">
 											Để tìm hiểu Hướng dẫn sử dụng Web Trading, Bảng giá Giao dịch cũng như tìm
 											hiểu các sản phẩm, dịch vụ, điều khoản, bạn vui lòng tham khảo Hỗ trợ khách

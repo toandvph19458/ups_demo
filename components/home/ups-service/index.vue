@@ -37,13 +37,13 @@
           <div
             class="col-span-6 order-1 lg:order-3 h-full pb-8 lg:pb-[44px] 2xl:pb-[72px] 3xl:pb-[100px] pt-8 md:pb-0 lg:pt-[80px] 2xl:pt-[100px] 3xl:pt-[150px]">
             <h3
-              class="block lg:hidden w-full mb-[20px] md:mb-[40px] animate-ups__item bg-[linear-gradient(100deg,rgba(255,255,255,0.47)_-0.85%,rgba(255,255,255,0.79)_49.77%,rgba(255,255,255,0)_101.25%)] bg-clip-text text-transparent font-BG text-[20px] xl:text-[26px] 2xl:text-[30px] font-semibold leading-normal">
-              <span class="text-[#02E56A] text-[32px] xl:text-[40px] 2xl:text-[44px] 3xl:text-6xl">UPS</span>
+              class="block lg:hidden w-full mb-[20px] md:mb-[40px] animate-ups__item bg-[linear-gradient(100deg,rgba(255,255,255,0.47)_-0.85%,rgba(255,255,255,0.79)_49.77%,rgba(255,255,255,0)_101.25%)] bg-clip-text text-transparent font-BG text-[28px] xl:text-[26px] 2xl:text-[30px] font-semibold leading-normal">
+              <span class="text-[#02E56A]">UPS</span>
               cung cấp cho bạn các dịch vụ và đội ngũ tốt nhất, hiện đại nhất
               thị trường
             </h3>
 
-            <p class="animate-ups__item text-sm xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
+            <p class="animate-ups__item text-base xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
               Với phương châm gần gũi và thân thuộc với khách hàng. UPS tự tin
               trở thành người bạn, người trợ thủ đáng tin cậy, luôn sẵn lòng hỗ
               trợ và đồng hành cùng nhà đầu tư trong mọi bước đi.
@@ -56,7 +56,7 @@
                   id="monitor">
                   {{ count }}%
                 </h4>
-                <p class="text-sm xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
+                <p class="text-base xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
                   Nhà đầu tư trẻ bước đầu loay hoay trong việc lựa chọn sàn giao
                   dịch đầu tư
                 </p>
@@ -66,7 +66,7 @@
                   class="text-[30px] md:text-[40px] xl:text-[52px] 2xl:text-[60px] 3xl:text-[80px] font-bold leading-normal text-[#02E56A] hover:text-shadow-custom">
                   {{ count2 }}%
                 </h4>
-                <p class="text-sm xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
+                <p class="text-base xl:text-base 3xl:text-xl text-[#EEEEEE] font-normal">
                   Nhà đầu tư trẻ cần trau dồi thêm kiến thức, kỹ năng về chứng
                   khoán để tránh rủi ro thất bại
                 </p>
