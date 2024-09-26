@@ -64,7 +64,7 @@
 				<div class="px-0 lg:px-12">
 					<div class="reveal flex items-center lg:items-end gap-2">
 						<div
-							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[20px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">
+							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[24px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">
 							Chính sách <br /> đặc biệt của
 							<div
 								class="animate-ups__item inline-block relative w-[52px] md:w-[72px] lg:w-[125px] 2xl:w-[142px] 3xl:w-[170px] pt-[16%]">

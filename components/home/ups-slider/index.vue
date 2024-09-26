@@ -47,7 +47,7 @@
                           </p>
                         </div>
 
-                        <div class="btn-wrapper flex gap-6 md:gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
+                        <div class="btn-wrapper flex gap-[8px] md:gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
                           <div class="inline-flex animate-ups__item">
 
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
@@ -142,7 +142,7 @@
                           </p>
                         </div>
 
-                        <div class="btn-wrapper flex gap-6 md:gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
+                        <div class="btn-wrapper flex gap-[8px] md:gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
                           <div class="inline-flex animate-ups__item">
 
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
@@ -243,7 +243,7 @@
 
                         
 
-                        <div class="btn-wrapper flex gap-6 md:gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
+                        <div class="btn-wrapper flex gap-[8px] md:gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
                           <div class="inline-flex animate-ups__item">
 
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"

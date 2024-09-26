@@ -36,7 +36,7 @@ export default defineComponent({
             </div>
             <div
                 class="3xl:px-[40px] 3xl:py-[60px]  flex-col items-start justify-center bg-[linear-gradient(94deg,rgba(237,237,244,0.9)_-10.9%,rgba(237,237,244,0)_95.88%)] rounded-[40px] 3xl:gap-[40px] hidden">
-                <div class="flex flex-col gap-[6px]">
+                <div class="flex flex-col gap-[8px]">
                     <div class="flex items-center gap-2">
                         <p><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9" fill="none">
                                 <path d="M4 0.5L8 4.5L4 8.5L0 4.5L4 0.5Z" fill="#02E56A" />
