@@ -6,16 +6,16 @@
 					class="px-0 xl:px-16 grid lg:grid-cols-2 grid-cols-1 items-end lg:gap-[22px] xl:gap-[32px] 2xl:gap-[50px] gap-5">
 					<div class="item-end">
 						<h3
-							class="animate-ups__item text-[20px] md:text-[28px] lg:text-[32] xl:text-[40px] 2xl:text-[45px] 3xl:text-[60] text-center lg:text-left font-semibold font-BG text-black leading-tight">
+							class="animate-ups__item text-[28px] md:text-[28px] lg:text-[32] xl:text-[40px] 2xl:text-[45px] 3xl:text-[60] text-center lg:text-left font-semibold font-BG text-black leading-tight">
 							<span> Bạn cần đầu tư, </span>
 							<br />
 							<span><span class="text-[#02E56A]">UPS</span> luôn bên Bạn!</span>
 						</h3>
 
 						<p
-							class="animate-ups__item text-[14px] xl:text-[18px] 2xl:text-[20px] 3xl:text-[28px] text-center lg:text-left font-medium text-[#000]">
+							class="animate-ups__item text-[16px] xl:text-[18px] 2xl:text-[20px] 3xl:text-[28px] text-center lg:text-left font-medium text-[#000]">
 							Đội ngũ chuyên gia tư vấn <span
-								class="text-[14px] md:text-[24px] 2xl:text-[30px] 3xl:text-[40px] text-[#02E56A] font-bold md:font-semibold">
+								class="text-[16px] md:text-[24px] 2xl:text-[30px] 3xl:text-[40px] text-[#02E56A] font-bold md:font-semibold">
 								luôn sẵn sàng hỗ trợ </span>
 						</p>
 					</div>

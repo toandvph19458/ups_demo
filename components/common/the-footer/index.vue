@@ -35,7 +35,7 @@
                         class="w-[18px] h-[18px] 2xl:w-6 2xl:h-6"
                       />
                       <span
-                        class="text-sm md:text-xs 2xl:text-[13.5px] 3xl:text-xl text-[#15171E] font-bold"
+                        class="text-base 2xl:text-[13.5px] 3xl:text-xl text-[#15171E] font-bold"
                       >
                         Địa chỉ: Tầng 12, tòa nhà CDC số 25 phố Lê Đại Hành,
                         Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội
@@ -54,7 +54,7 @@
                         class="w-[18px] h-[18px] 2xl:w-6 2xl:h-6"
                       />
                       <span
-                        class="text-sm md:text-xs 2xl:text-[13.5px] 3xl:text-xl text-[#15171E] font-bold"
+                        class="text-base 2xl:text-[13.5px] 3xl:text-xl text-[#15171E] font-bold"
                       >
                         Tel: (024) 3 944 6666 - Fax: (024) 3944 6969
                       </span>
@@ -72,7 +72,7 @@
                         class="w-[18px] h-[18px] 2xl:w-6 2xl:h-6"
                       />
                       <span
-                        class="text-sm md:text-xs 2xl:text-[13.5px] 3xl:text-xl text-[#15171E] font-bold"
+                        class="text-base 2xl:text-[13.5px] 3xl:text-xl text-[#15171E] font-bold"
                       >
                         Email: info@upstock.com.vn
                       </span>
@@ -186,9 +186,9 @@
                   class="col-span-6 lg:col-span-3 space-y-4 md:space-y-2 3xl:space-y-3"
                 >
                   <h4
-                    class="text-sm 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
+                    class="text-base 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
                   >
-                    Khách hàng cá nhân
+                  KH Cá nhân
                   </h4>
 
                   <div class="w-[10px] h-[1px] bg-[#3A6A50]"></div>
@@ -196,7 +196,7 @@
                   <div class="flex gap-4 md:gap-2 3xl:gap-3 flex-col">
                     <nuxt-link
                       to="/coming-soon"
-                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
+                      class="text-base 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                       
                       <p class="link-effect inline-block">Hot Deals</p>
@@ -204,7 +204,7 @@
                     
                     <nuxt-link
                       to="/bieu-phi"
-                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
+                      class="text-base 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                     <p class="link-effect inline-block">Biểu phí giao dịch</p>
                     </nuxt-link>
@@ -213,9 +213,9 @@
 
                 <div class="col-span-6 lg:col-span-3 space-y-4 md:space-y-2 3xl:space-y-3">
                   <h4
-                    class="text-sm 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
+                    class="text-base 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
                   >
-                    Khách hàng doanh nghiệp
+                    KH Doanh nghiệp
                   </h4>
 
                   <div class="w-[10px] h-[1px] bg-[#3A6A50]"></div>
@@ -223,13 +223,13 @@
                   <div class="flex gap-4 md:gap-2 3xl:gap-3 flex-col">
                     <nuxt-link
                       to="/coming-soon"
-                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium "
+                      class="text-base 2xl:text-xs 3xl:text-sm text-[#000] font-medium "
                     >
                      <p class="link-effect inline-block">Tư vấn tài chính</p> 
                     </nuxt-link>
                     <nuxt-link
                       to="/tin-tuc"
-                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium "
+                      class="text-base 2xl:text-xs 3xl:text-sm text-[#000] font-medium "
                     >
                       <p class="link-effect inline-block">Tin đấu giá</p>
                     </nuxt-link>
@@ -238,7 +238,7 @@
 
                 <div class="col-span-6 lg:col-span-3 space-y-4 md:space-y-2 3xl:space-y-3">
                   <h4
-                    class="text-sm 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
+                    class="text-base 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
                   >
                     Đầu tư cùng UPS
                   </h4>
@@ -248,14 +248,14 @@
                   <div class="flex gap-4 md:gap-2 3xl:gap-3 flex-col">
                     <nuxt-link
                       to="/coming-soon"
-                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
+                      class="text-base 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                     <p class="link-effect inline-block">Nhận định thị trường</p>
                       
                     </nuxt-link>
                     <nuxt-link
                       to="/hdsd"
-                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
+                      class="text-base 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                     <p class="link-effect inline-block">Hỗ trợ khách hàng</p>
                       
@@ -265,7 +265,7 @@
 
                 <div class="col-span-6 lg:col-span-3 space-y-4 md:space-y-2 3xl:space-y-3">
                   <h4
-                    class="text-sm 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
+                    class="text-base 2xl:text-lg 3xl:text-xl text-[#000] font-bold"
                   >
                     Về UPS
                   </h4>
@@ -275,14 +275,14 @@
                   <div class="flex gap-4 md:gap-2 3xl:gap-3 flex-col">
                     <nuxt-link
                       to="/cong-bo-thong-tin"
-                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
+                      class="text-base 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                     <p class="link-effect inline-block">Công bố thông tin</p>
                     </nuxt-link>
 
                     <nuxt-link
                       to="/coming-soon"
-                      class="text-sm md:text-[11px] 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
+                      class="text-base 2xl:text-xs 3xl:text-sm text-[#000] font-medium"
                     >
                     <p class="link-effect inline-block"> Gia nhập UPS</p>
                      
@@ -296,7 +296,7 @@
                   to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                   class="btn active group"
                 >
-                  <span class="text-sm 3xl:text-lg"> Mở tài khoản ngay </span>
+                  <span class="text-base 3xl:text-lg"> Mở tài khoản ngay </span>
                   <div
                     class="inline-flex gap-1 w-4 h-4 overflow-hidden relative"
                   >
@@ -330,7 +330,7 @@
                   to="https://trade.upstock.com.vn/#/price/bang-gia/vn30"
                   class="btn h-8 2xl:h-12 px-4 2xl:px-5 inline-flex gap-3 items-center rounded-full border lg:border-transparent border-[#222] hover:border-[#222]"
                 >
-                  <span class="text-sm 3xl:text-lg font-bold">
+                  <span class="text-base 3xl:text-lg font-bold">
                     Đăng nhập/Giao dịch ngay
                   </span>
                   <div

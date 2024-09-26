@@ -148,7 +148,7 @@
 										</p>
 									</div>
 
-									<div class="mt-5 md:mt-0 text-sm 3xl:text-base text-[#3C4052]">
+									<div class="mt-5 md:mt-0 text-base 3xl:text-base text-[#3C4052]">
 										<p class="">
 											Để mở tài khoản giao dịch tại UPS, bạn có thể lựa chọn một trong những cách
 											sau đây:
@@ -203,7 +203,7 @@
 									</div>
 
 									<div class="mt-5 md:mt-0 text-sm text-[#3C4052]">
-										<p class="text-sm 3xl:text-base">
+										<p class="text-base 3xl:text-base">
 											UPS cung cấp mức phí giao dịch rất hấp dẫn trong các công ty chứng khoán tại
 											Việt Nam. Để theo dõi thông tin chi tiết, bạn vui lòng truy cập thông báo
 											Biểu phí cập nhật tại đây. UPS liên tục triển khai các chương trình khuyến
@@ -253,7 +253,7 @@
 									</div>
 
 									<div class="mt-5 md:mt-0 text-sm text-[#3C4052]">
-										<p class="text-sm 3xl:text-base">
+										<p class="text-base 3xl:text-base">
 											UPS không chỉ cung cấp dịch vụ đầu tư minh bạch, đáng tin cậy, đem lại nguồn
 											lợi nhuận đa dạng, mà còn mong muốn trở thành người bạn đồng hành, trợ thủ
 											đắc lực truyền cảm hứng trong hành trình học hỏi và kiến tạo tài chính cá
@@ -302,7 +302,7 @@
 									</div>
 
 									<div class="mt-5 md:mt-0 text-sm text-[#3C4052]">
-										<p class="text-sm 3xl:text-base">
+										<p class="text-base 3xl:text-base">
 											Để tìm hiểu Hướng dẫn sử dụng Web Trading, Bảng giá Giao dịch cũng như tìm
 											hiểu các sản phẩm, dịch vụ, điều khoản, bạn vui lòng tham khảo Hỗ trợ khách
 											hàng tại đây.

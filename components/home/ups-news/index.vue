@@ -20,13 +20,13 @@
 					</h3>
 
 					<h3
-						class="block md:hidden animate-ups__item bg-gradient-to-r from-[#00C058] to-[#1FAB5F] bg-clip-text text-transparent font-BG text-xl font-bold leading-normal"
+						class="block md:hidden animate-ups__item bg-gradient-to-r from-[#00C058] to-[#1FAB5F] bg-clip-text text-transparent font-BG text-[28px] font-bold leading-normal"
 					>
 						<span class="text-[#15171E]">Tin</span>
 						nổi bật
 					</h3>
 					<p
-						class="animate-ups__item text-sm lg:text-lg xl:text-base 2xl:text-lg text-[#000] font-normal mt-1 md:mt-2"
+						class="animate-ups__item text-base lg:text-lg xl:text-base 2xl:text-lg text-[#000] font-normal mt-1 md:mt-2"
 					>
 						Cập nhật các sản phẩm, dịch vụ mới nhất cũng như các hoạt động, sự kiện của UPS
 					</p>
@@ -155,12 +155,12 @@
 								class="h-[calc(100%-200px)] sm:h-[calc(100%-220px)] md:h-[calc(100%-250px)] lg:h-[calc(100%-230px)] xl:h-[calc(100%-220px)] 2xl:h-[calc(100%-260px)]"
 							>
 								<h4
-									class="text-sm 2xl:text-base 3xl:text-xl text-black font-semibold line-clamp-2 mt-2 sm:mt-3 md:mt-4"
+									class="text-lg 2xl:text-base 3xl:text-xl text-black font-bold line-clamp-2 mt-2 sm:mt-3 md:mt-4"
 								>
 									{{ doc?.short_content?.title }}
 								</h4>
 								<p
-									class="text-xs sm:text-sm md:text-sm xl:text-sm 2xl:text-lg text-[#3C4052] font-medium line-clamp-2 mt-2 sm:mt-3"
+									class="text-base md:text-sm xl:text-sm 2xl:text-lg text-[#3C4052] font-medium line-clamp-2 mt-2 sm:mt-3"
 								>
 									{{ doc?.short_content?.blurb }}
 								</p>
@@ -255,7 +255,7 @@ export default defineComponent({
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	border-radius: 30px;
+	border-radius: 16px;
 	transition: border-color 0.3s ease-in-out;
 }
 

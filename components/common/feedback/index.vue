@@ -1,25 +1,25 @@
 <template>
 	<div class="w-full">
 		<div
-			class="flex flex-col items-center justify-center h-min px-5 py-10 rounded-[40px] bg-[linear-gradient(304deg,#16181F_56.52%,#134A2F_96.86%)]"
+			class="flex flex-col items-center justify-center h-min px-5 pt-10 pb-3 md:py-10 rounded-[40px] bg-[linear-gradient(304deg,#16181F_56.52%,#134A2F_96.86%)]"
 		>
 			<h3
-				class="animate-ups__item bg-[linear-gradient(99deg,_#FFF_-1.15%,_#FFF_71.81%,_rgba(255,255,255,0.30)_102.18%)] bg-clip-text text-transparent font-BG text-[18px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-center lg:text-left font-semibold leading-[1]"
+				class="animate-ups__item bg-[linear-gradient(99deg,_#FFF_-1.15%,_#FFF_71.81%,_rgba(255,255,255,0.30)_102.18%)] bg-clip-text text-transparent font-BG text-[28px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-center lg:text-left font-semibold"
 			>
 				Kết nối cùng
 				<span class="text-[#02D060]">UPS</span>
-				ngay hôm nay!
+				<br/>ngay hôm nay!
 			</h3>
 
 			<p
-				class="animate-ups__item text-sm lg:text-base 3xl:text-xl text-center lg:text-left font-medium mt-3 text-white opacity-90 leading-normal"
+				class="animate-ups__item text-base 3xl:text-xl text-center lg:text-left font-medium mt-3 text-white opacity-90 leading-normal"
 			>
 				Vinh dự đồng hành cùng
-				<span class="text-[#02D060] font-bold">hàng triệu nhà đầu tư</span>
+				<span class="text-[#02D060] font-bold text-base">hàng triệu nhà đầu tư</span>
 				đạp gió rẽ sóng, vượt ngàn chông gai!
 			</p>
 
-			<div class="form w-full xl:w-[950px] max-w-full relative flex flex-col gap-3 mt-10 p-3 rounded-[20px]">
+			<div class="form w-full xl:w-[950px] max-w-full relative flex flex-col gap-3 mt-4 p-3 rounded-[20px]">
 				<div class="glow"></div>
 
 				<div class="w-full grid gap-3 grid-cols-1 md:grid-cols-3">
@@ -75,7 +75,7 @@
 
 				<div class="w-full">
 					<textarea
-						rows="3"
+						rows="6"
 						v-model="content"
 						class="w-full px-6 py-4 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[25px] border-none focus:ring-0 placeholder:text-[#ADB2C0]"
 						placeholder="Nội dung"
