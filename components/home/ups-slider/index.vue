@@ -10,30 +10,30 @@
           :initial-slide="vSwiperIndex" @swiper="setVSwiperRef" @slide-change="updateVSwiperIndex">
 
           <swiper-slide>
-            <div class="md:relative w-full min-h-[560px] md:min-h-[850px] lg:min-h-[1020px] xl:min-h-0 xl:pt-[34%]">
+            <div class="md:relative w-full min-h-[544px] md:min-h-[850px] lg:min-h-[1020px] xl:min-h-0 xl:pt-[34%]">
               <div class="md:absolute inset-0">
                 <div class="container h-full">
 
                   <div
-                    class="h-full flex flex-row-reverse md:flex-row flex-wrap xl:flex-nowrap gap-6 md:gap-8 lg:gap-12 xl:gap-10 3xl:gap-[56px] items-center">
+                    class="h-full flex flex-row-reverse md:flex-row flex-wrap xl:flex-nowrap gap-[36px] md:gap-8 lg:gap-12 xl:gap-10 3xl:gap-[56px] items-center">
 
                     <div class="xl:basis-1/2 basis-full order-2 md:order-1">
                       <div class="pr-5 md:pr-6 xl:pr-4 3xl:pr-[26px]">
 
-                        <div class="space-y-3 md:space-y-5 2xl:space-y-6 3xl:space-y-8">
+                        <div class="space-y-0 md:space-y-5 2xl:space-y-6 3xl:space-y-8">
                           <div
                             class="hidden md:block relative md:pt-[11%] lg:pt-[8%] xl:pt-[13%] 2xl:pt-[13%] 3xl:pt-[11%] md:w-[146px] 2xl:w-[165px] 3xl:w-[194px]">
                             <img alt="UPS" src="/logo/logo-cap-dark.svg" width="230" height="100"
                               class="absolute top-0 left-0 w-full h-full object-cover" />
                           </div>
 
-                          <div>
+                          <div class="mb-[12px] md:mb-0">
                             <h2
                               class="animate-ups__item text-xl md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
                               Chính thức ra mắt
                             </h2>
                             <h2
-                              class="animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
+                              class="mb-[12px] animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
                               Dẫn lối hành trình đầu tư
                             </h2>
 
@@ -47,13 +47,13 @@
                           </p>
                         </div>
 
-                        <div class="btn-wrapper flex gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
+                        <div class="btn-wrapper flex gap-6 md:gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
                           <div class="inline-flex animate-ups__item">
 
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                               target="_blank" class="btn active group">
-                              <span> Mở tài khoản ngay </span>
-                              <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                              <span class="text-sm"> Mở tài khoản ngay </span>
+                              <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
                                   <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                     alt="UPS" />
@@ -68,10 +68,10 @@
                           </div>
 
                           <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" target="_blank"
-                            class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
+                            class="btn group animate-ups__item md:hover:border-[#222] border-[1px] border-[#747887] md:border-white">
                             <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
-                            <span class="inline-block md:hidden"> Giao dịch ngay </span>
-                            <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                            <span class="inline-block md:hidden text-sm"> Giao dịch ngay </span>
+                            <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                               <i class="w-full h-full inline-flex absolute">
                                 <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                   alt="UPS" />
@@ -105,30 +105,30 @@
           </swiper-slide>
 
           <swiper-slide>
-            <div class="md:relative w-full min-h-[560px] md:min-h-[850px] lg:min-h-[1020px] xl:min-h-0 xl:pt-[34%]">
+            <div class="md:relative w-full min-h-[544px] md:min-h-[850px] lg:min-h-[1020px] xl:min-h-0 xl:pt-[34%]">
               <div class="md:absolute inset-0">
                 <div class="container h-full">
 
                   <div
-                    class="h-full flex flex-row-reverse md:flex-row flex-wrap xl:flex-nowrap gap-6 md:gap-8 lg:gap-12 xl:gap-10 3xl:gap-[56px] items-center">
+                    class="h-full flex flex-row-reverse md:flex-row flex-wrap xl:flex-nowrap gap-[36px] md:gap-8 lg:gap-12 xl:gap-10 3xl:gap-[56px] items-center">
 
                     <div class="xl:basis-1/2 basis-full order-2 md:order-1">
                       <div class="pr-5 md:pr-6 xl:pr-4 3xl:pr-[26px]">
 
-                        <div class="space-y-3 md:space-y-5 2xl:space-y-6 3xl:space-y-8">
+                        <div class="space-y-0 md:space-y-5 2xl:space-y-6 3xl:space-y-8">
                           <div
                             class="hidden md:block relative md:pt-[11%] lg:pt-[8%] xl:pt-[13%] 2xl:pt-[13%] 3xl:pt-[11%] md:w-[146px] 2xl:w-[165px] 3xl:w-[194px]">
                             <img alt="UPS" src="/logo/logo-cap-dark.svg" width="230" height="100"
                               class="absolute top-0 left-0 w-full h-full object-cover" />
                           </div>
 
-                          <div>
+                          <div class="mb-[12px] md:mb-0">
                             <h2
                               class="animate-ups__item text-xl md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
                               Đầu tư không khó
                             </h2>
                             <h2
-                              class="animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
+                              class="mb-[12px] animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
                               Đã có UPS lo
                             </h2>
 
@@ -142,13 +142,13 @@
                           </p>
                         </div>
 
-                        <div class="btn-wrapper flex gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
+                        <div class="btn-wrapper flex gap-6 md:gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
                           <div class="inline-flex animate-ups__item">
 
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                               target="_blank" class="btn active group">
-                              <span> Mở tài khoản ngay </span>
-                              <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                              <span class="text-sm"> Mở tài khoản ngay </span>
+                              <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
                                   <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                     alt="UPS" />
@@ -163,10 +163,10 @@
                           </div>
 
                           <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" target="_blank"
-                            class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
+                            class="btn group animate-ups__item md:hover:border-[#222] border-[1px] border-[#747887] md:border-white">
                             <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
-                            <span class="inline-block md:hidden"> Giao dịch ngay </span>
-                            <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                            <span class="inline-block md:hidden text-sm"> Giao dịch ngay </span>
+                            <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                               <i class="w-full h-full inline-flex absolute">
                                 <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                   alt="UPS" />
@@ -203,35 +203,32 @@
           </swiper-slide>
 
           <swiper-slide>
-            <div class="md:relative w-full min-h-[560px] md:min-h-[850px] lg:min-h-[1020px] xl:min-h-0 xl:pt-[34%]">
+            <div class="md:relative w-full min-h-[544px] md:min-h-[850px] lg:min-h-[1020px] xl:min-h-0 xl:pt-[34%]">
               <div class="md:absolute inset-0">
                 <div class="container h-full">
 
                   <div
-                    class="h-full flex flex-row-reverse md:flex-row flex-wrap xl:flex-nowrap gap-6 md:gap-8 lg:gap-12 xl:gap-10 3xl:gap-[56px] items-center">
+                    class="h-full flex flex-row-reverse md:flex-row flex-wrap xl:flex-nowrap gap-[36px] md:gap-8 lg:gap-12 xl:gap-10 3xl:gap-[56px] items-center">
 
                     <div class="xl:basis-1/2 basis-full order-2 md:order-1">
                       <div class="pr-5 md:pr-6 xl:pr-4 3xl:pr-[26px]">
 
-                        <div class="space-y-3 md:space-y-5 2xl:space-y-6 3xl:space-y-8">
-                          
-                          <div>
-                            <h2
-                              class="animate-ups__item flex items-center text-lg md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] font-bold font-BG">
-                              Cùng
-                              <div
-                                class="inline-flex relative mx-3 w-[46px] h-[30px] md:w-[76px] md:h-[36px] lg:w-[145px] lg:h-[66px] xl:w-[130px] xl:h-[58px]">
-                                <nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.svg" width="130px" height="58"
-                                  class="link absolute w-full h-full object-cover" />
-                              </div>
-                            </h2>
+                      
+                        <div class="space-y-0 md:space-y-5 2xl:space-y-6 3xl:space-y-8">
+                          <div
+                            class="hidden md:block relative md:pt-[11%] lg:pt-[8%] xl:pt-[13%] 2xl:pt-[13%] 3xl:pt-[11%] md:w-[146px] 2xl:w-[165px] 3xl:w-[194px]">
+                            <img alt="UPS" src="/logo/logo-cap-dark.svg" width="230" height="100"
+                              class="absolute top-0 left-0 w-full h-full object-cover" />
+                          </div>
+
+                          <div class="mb-[12px] md:mb-0">
                             <h2
                               class="animate-ups__item text-xl md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
-                              ngay hôm nay
+                              Cùng UPS
                             </h2>
                             <h2
-                              class="animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
-                              Kiến tạo trải nghiệm đầu tư đầy hứng khởi
+                              class="mb-[12px] animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
+                              Kiến tạo trải nghiệm đầu tư
                             </h2>
 
                           </div>
@@ -244,18 +241,15 @@
                           </p>
                         </div>
 
-                        <div class="my-3 lg:my-8">
+                        
 
-
-                        </div>
-
-                        <div class="btn-wrapper flex gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
+                        <div class="btn-wrapper flex gap-6 md:gap-5 items-center mt-8 md:mt-6 2xl:mt-8 3xl:mt-10 pl-1 pb-2">
                           <div class="inline-flex animate-ups__item">
 
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                               target="_blank" class="btn active group">
-                              <span> Mở tài khoản ngay </span>
-                              <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                              <span class="text-sm"> Mở tài khoản ngay </span>
+                              <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
                                   <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                     alt="UPS" />
@@ -270,10 +264,10 @@
                           </div>
 
                           <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" target="_blank"
-                            class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
+                            class="btn group animate-ups__item md:hover:border-[#222] border-[1px] border-[#747887] md:border-white">
                             <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
-                            <span class="inline-block md:hidden"> Giao dịch ngay </span>
-                            <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                            <span class="inline-block md:hidden text-sm"> Giao dịch ngay </span>
+                            <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                               <i class="w-full h-full inline-flex absolute">
                                 <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                   alt="UPS" />
@@ -345,8 +339,8 @@
                     <div class="inline-flex animate-ups__item">
                       <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                         target="_blank" class="btn active group">
-                        <span> Mở tài khoản ngay </span>
-                        <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                        <span class="text-sm"> Mở tài khoản ngay </span>
+                        <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                           <i class="w-full h-full group-hover:inline-flex hidden absolute">
                             <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                               alt="UPS" />
@@ -360,10 +354,10 @@
                     </div>
 
                     <nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" target="_blank"
-                      class="btn group animate-ups__item border border-[#fff] hover:border-[#222]">
+                      class="btn group animate-ups__item md:hover:border-[#222] border-[1px] border-[#747887] md:border-white">
                       <span class="hidden md:inline-block"> Đăng nhập/Giao dịch ngay </span>
-                      <span class="inline-block md:hidden"> Giao dịch ngay </span>
-                      <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                      <span class="inline-block md:hidden text-sm"> Giao dịch ngay </span>
+                      <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                         <i class="w-full h-full inline-flex absolute">
                           <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
                         </i>
@@ -391,7 +385,7 @@
 
       </div>
     </div>
-    <div class="w-full container h-20 md:h-[60px] lg:h-[100px] max-h-full flex items-start md:items-center relative">
+    <div class="w-full container h-[58px] md:h-[60px] lg:h-[100px] max-h-full flex items-start md:items-center relative">
       <div class="hidden 3xl:flex gap-3 items-center">
         <div
           class="icon-scroll relative w-5 h-7 border-[2px] border-[#9EA1AE] rounded-[25px] cursor-pointer flex items-start justify-center">
