@@ -29,17 +29,17 @@
 
                           <div class="mb-[12px] md:mb-0">
                             <h2
-                              class="animate-ups__item text-xl md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
+                              class="animate-ups__item text-[28px] md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
                               Chính thức ra mắt
                             </h2>
                             <h2
-                              class="mb-[12px] animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
+                              class="mb-[12px] animate-ups__item text-[28px] md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
                               Dẫn lối hành trình đầu tư
                             </h2>
 
                           </div>
 
-                          <p class="animate-ups__item w-full md:w-[80%] text-sm 3xl:text-lg text-[#3C4052] font-medium">
+                          <p class="animate-ups__item w-full md:w-[80%] text-base 3xl:text-lg text-[#3C4052] font-medium">
                             UPS là công ty chứng khoán đột phá dành cho thế hệ
                             mới, nơi công nghệ và tư duy đổi mới, sáng tạo
                             hợp nhất để đem lại trải nghiệm đầu tư thông minh, dễ dàng,
@@ -53,7 +53,7 @@
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                               target="_blank" class="btn active group">
                               <span class="text-sm"> Mở tài khoản ngay </span>
-                              <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                              <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
                                   <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                     alt="UPS" />
@@ -124,17 +124,17 @@
 
                           <div class="mb-[12px] md:mb-0">
                             <h2
-                              class="animate-ups__item text-xl md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
+                              class="animate-ups__item text-[28px] md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
                               Đầu tư không khó
                             </h2>
                             <h2
-                              class="mb-[12px] animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
+                              class="mb-[12px] animate-ups__item text-[28px] md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
                               Đã có UPS lo
                             </h2>
 
                           </div>
 
-                          <p class="animate-ups__item w-full md:w-[80%] text-sm 3xl:text-lg text-[#3C4052] font-medium">
+                          <p class="animate-ups__item w-full md:w-[80%] text-base 3xl:text-lg text-[#3C4052] font-medium">
                             UPS là công ty chứng khoán đột phá dành cho thế hệ
                             nhà đầu tư mới, nơi công nghệ và tư duy đổi mới, sáng tạo
                             hợp nhất để đem lại trải nghiệm đầu tư thông minh, dễ dàng,
@@ -148,7 +148,7 @@
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                               target="_blank" class="btn active group">
                               <span class="text-sm"> Mở tài khoản ngay </span>
-                              <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                              <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
                                   <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                     alt="UPS" />
@@ -223,17 +223,17 @@
 
                           <div class="mb-[12px] md:mb-0">
                             <h2
-                              class="animate-ups__item text-xl md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
+                              class="animate-ups__item text-[28px] md:text-[32px] 2xl:text-[36px] 3xl:text-[48px] leading-normal font-bold font-BG">
                               Cùng UPS
                             </h2>
                             <h2
-                              class="mb-[12px] animate-ups__item text-xl md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
+                              class="mb-[12px] animate-ups__item text-[28px] md:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-bold font-BG bg-gradient-to-l from-[#02E56A] via-[#01A34B] to-[#01A34B] bg-clip-text text-transparent capitalize leading-[1.25]">
                               Kiến tạo trải nghiệm đầu tư
                             </h2>
 
                           </div>
 
-                          <p class="animate-ups__item w-full md:w-[80%] text-sm 3xl:text-lg text-[#3C4052] font-medium">
+                          <p class="animate-ups__item w-full md:w-[80%] text-base 3xl:text-lg text-[#3C4052] font-medium">
                             UPS là công ty chứng khoán đột phá dành cho thế hệ
                             nhà đầu tư mới, nơi công nghệ và tư duy đổi mới, sáng tạo
                             hợp nhất để đem lại trải nghiệm đầu tư thông minh, dễ dàng,
@@ -249,7 +249,7 @@
                             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
                               target="_blank" class="btn active group">
                               <span class="text-sm"> Mở tài khoản ngay </span>
-                              <div class="hidden md:inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                              <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
                                 <i class="w-full h-full group-hover:inline-flex hidden absolute">
                                   <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
                                     alt="UPS" />

@@ -22,7 +22,7 @@
 
 				</div>
 				<div
-					class="block md:hidden w-fit bg-[#15171E] rounded-full mt-4 md:mt-0">
+					class="block md:hidden w-fit bg-[#15171E] rounded-full mt-4 md:mt-0 animate-ups__item">
 					<div to="/" id="account-btn" class="btn group flex items-center justify-center">
 						<span class="text-[#02E56A] text-sm"> Chi tiết </span>
 						<i class="mt-2 rotate-45">
@@ -65,12 +65,12 @@
 					<div class="reveal flex items-center lg:items-end gap-2">
 						<div
 							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[24px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">
-							Chính sách <br /> đặc biệt của
-							<div
+							Chính sách <br /> đặc biệt của <span class="text-[#02E56A]">UPS</span>
+							<!-- <div
 								class="animate-ups__item inline-block relative w-[52px] md:w-[72px] lg:w-[125px] 2xl:w-[142px] 3xl:w-[170px] pt-[16%]">
 								<nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.png"
 									class="absolute top-[5%] left-0 w-full h-full object-contain" />
-							</div>
+							</div> -->
 						</div>
 
 					</div>
@@ -88,7 +88,7 @@
 						<div class="animate-ups__item inline-flex">
 							<nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info"
 								target="_blank" class="btn active group">
-								<span> Mở tài khoản ngay </span>
+								<span class="text-sm font-bold"> Mở tài khoản ngay </span>
 								<div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
 									<i class="w-full h-full group-hover:inline-flex hidden absolute">
 										<nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
