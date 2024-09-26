@@ -6,7 +6,7 @@
 				<div
 					class="flex flex-wrap md:flex-nowrap gap-3 md:gap-12 xl:gap-10 3xl:gap-[56px] md:justify-between md:items-center">
 					<h3
-						class="animate-ups__item basis-full md:basis-1/2 font-semibold text-[28px] md:text-[24px] lg:text-[36px] text-[#15171E] font-BG leading-[1.3] link">
+						class="animate-ups__item basis-full md:basis-1/2 font-bold text-[28px] md:text-[24px] lg:text-[36px] text-[#15171E] font-BG leading-[1.3] link">
 						<span>Bạn đang tìm </span>
 						<br />
 						<span> đối tác đầu tư phù hợp? </span>
@@ -64,7 +64,7 @@
 				<div class="px-0 lg:px-12">
 					<div class="reveal flex items-center lg:items-end gap-2">
 						<div
-							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[28px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-semibold font-BG leading-[1.3]">
+							class="animate-ups__item inline-flex gap-2 xl:gap-4 items-end w-fit text-[28px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-black font-bold font-BG leading-[1.3]">
 							Chính sách <br /> đặc biệt của <span class="text-[#02E56A]">UPS</span>
 							<!-- <div
 								class="animate-ups__item inline-block relative w-[52px] md:w-[72px] lg:w-[125px] 2xl:w-[142px] 3xl:w-[170px] pt-[16%]">

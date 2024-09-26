@@ -20,7 +20,7 @@
 
 				<div class="mt-3 md:mt-5 xl:mt-0">
 					<h3
-						class="animate-ups__item text-[28px] md:text-[40px] xl:text-[60px] text-center font-semibold font-BG text-black"
+						class="animate-ups__item text-[28px] md:text-[40px] xl:text-[60px] text-center font-bold font-BG text-black"
 					>
 						Bạn muốn tìm hiểu về
 						<span class="text-green-ups"> UPS </span>

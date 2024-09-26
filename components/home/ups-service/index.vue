@@ -37,7 +37,7 @@
           <div
             class="col-span-6 order-1 lg:order-3 h-full pb-8 lg:pb-[44px] 2xl:pb-[72px] 3xl:pb-[100px] pt-8 md:pb-0 lg:pt-[80px] 2xl:pt-[100px] 3xl:pt-[150px]">
             <h3
-              class="block lg:hidden w-full mb-[20px] md:mb-[40px] animate-ups__item bg-[linear-gradient(100deg,rgba(255,255,255,0.47)_-0.85%,rgba(255,255,255,0.79)_49.77%,rgba(255,255,255,0)_101.25%)] bg-clip-text text-transparent font-BG text-[28px] xl:text-[26px] 2xl:text-[30px] font-semibold leading-[1.3] md:leading-normal">
+              class="block lg:hidden w-full mb-[20px] md:mb-[40px] animate-ups__item bg-[linear-gradient(100deg,rgba(255,255,255,0.47)_-0.85%,rgba(255,255,255,0.79)_49.77%,rgba(255,255,255,0)_101.25%)] bg-clip-text text-transparent font-BG text-[28px] xl:text-[26px] 2xl:text-[30px] font-bold leading-[1.3] md:leading-normal">
               <span class="text-[#02E56A]">UPS</span>
               cung cấp cho bạn các dịch vụ và đội ngũ tốt nhất, hiện đại nhất
               thị trường
