@@ -4,17 +4,12 @@
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>
-            <!-- <nuxt-link
+            <nuxt-link
               to="/"
               class="text-base text-[#5E6673] font-bold hover:text-black"
             >
-              Sản phẩm & Dịch vụ
-            </nuxt-link> -->
-            <div
-              class="text-base text-[#5E6673] font-bold hover:text-black"
-            >
-              Sản phẩm & Dịch vụ
-            </div>
+              Sản phẩm
+            </nuxt-link>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <div class="w-[800px] px-6 py-5 grid gap-x-10 gap-y-5 grid-cols-2">
@@ -569,17 +564,12 @@
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger>
-            <!-- <nuxt-link
+            <nuxt-link
               to="/"
               class="text-base text-[#5E6673] font-bold hover:text-black"
             >
               Đầu tư cùng UPS
-            </nuxt-link> -->
-            <div
-              class="text-base text-[#5E6673] font-bold hover:text-black"
-            >
-              Đầu tư cùng UPS
-            </div>
+            </nuxt-link>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <div class="w-[400px] flex flex-col gap-5 px-6 py-5">
@@ -745,17 +735,12 @@
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger>
-            <!-- <nuxt-link
+            <nuxt-link
               to="/gioi-thieu"
               class="text-base text-[#5E6673] font-bold hover:text-black"
             >
               Về UPS
-            </nuxt-link> -->
-            <div
-              class="text-base text-[#5E6673] font-bold hover:text-black"
-            >
-              Về UPS
-            </div>
+            </nuxt-link>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <div class="w-[400px] flex flex-col gap-5 px-6 py-5">

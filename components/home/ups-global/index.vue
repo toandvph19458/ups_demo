@@ -1,7 +1,7 @@
 <template>
 	<section class="animate-ups">
 		<div class="container">
-			<div class="relative py-6 md:py-10 xl:py-[90px] 3xl:py-[130px]">
+			<div class="relative">
 				<div
 					class="px-0 xl:px-16 grid lg:grid-cols-2 grid-cols-1 items-end lg:gap-[22px] xl:gap-[32px] 2xl:gap-[50px] gap-5">
 					<div class="item-end">
@@ -13,14 +13,14 @@
 						</h3>
 
 						<p
-							class="animate-ups__item text-[12px] md:text-[14px] xl:text-[18px] 2xl:text-[20px] 3xl:text-[28px] text-center lg:text-left font-medium text-[#000]">
+							class="animate-ups__item text-[14px] xl:text-[18px] 2xl:text-[20px] 3xl:text-[28px] text-center lg:text-left font-medium text-[#000]">
 							Đội ngũ chuyên gia tư vấn <span
-								class="text-[18px] md:text-[20px] xl:text-[24px] 2xl:text-[30px]  3xl:text-[40px] text-[#02E56A]">
+								class="text-[14px] md:text-[24px] 2xl:text-[30px] 3xl:text-[40px] text-[#02E56A] font-bold md:font-semibold">
 								luôn sẵn sàng hỗ trợ </span>
 						</p>
 					</div>
 
-					<div class="flex justify-center lg:justify-end gap-3 mt-5 xl:mt-12 mb-2">
+					<div class="flex justify-center lg:justify-end gap-3 md:mt-5 xl:mt-12 mb-2">
 						<nuxt-link to="/"
 							class="animate-ups__item h-10 px-4 inline-flex gap-4 items-center rounded-[12px] bg-[#15171E]">
 							<div class="inline-flex">
@@ -79,7 +79,7 @@
 					</div>
 				</div>
 
-				<div class="pt-10 md:pt-[60px] lg:pt-[100px] xl:pt-[150px]">
+				<div class="py-10 md:py-[60px] lg:py-[100px] xl:py-[150px]">
 					<!-- FEEDBACK -->
 					<feedback />
 				</div>

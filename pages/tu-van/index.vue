@@ -1,10 +1,8 @@
 <template>
     <div
-        class="container 3xl:py-[100px] xl:py-[60px] 2xl:py-[80px] 2xl:gap-[100px] flex flex-col items-center 3xl:gap-[140px] xl:gap-[80px] gap-10 py-10 lg:py-10">
+        class="3xl:py-[100px] xl:py-[60px] xl:px-[100px] 2xl:py-[80px] 2xl:px-[120px] 2xl:gap-[100px]  flex flex-col items-center 3xl:gap-[140px] xl:gap-[80px] gap-10 px-6 py-10 lg:px-[60px] lg:py-10 3xl:px-[140px]">
         <!-- Banner-2 -->
         <banner />
-
-        
         <!-- co-phan-hoa -->
         <coPhanHoa />
         <!-- thoai-von -->

@@ -51,11 +51,8 @@ export default defineComponent({
                 chức bán cổ phần ra bên ngoài qua phương thức đấu giá. Đây là yếu tố rất quan trọng giúp cho quá
                 trình cổ phần hoá doanh nghiệp thành công và là lợi thế cạnh tranh của UPS</p>
         </div>
-
-
         <div class="flex items-center 3xl:gap-6 3xl:h-[470px] h-full ">
             <div class="flex 3xl:gap-6 items-center lg:h-full lg:flex-row-reverse gap-5 flex-col 3xl:h-full h-full">
-                
                 <div class="w-full min-h-min md:hidden">
                     <swiper :modules="[SwiperNavigation]" :pagination="true" :loop="false" :speed="800">
                         <swiper-slide>
@@ -72,7 +69,7 @@ export default defineComponent({
                 </div>
 
                 <div
-                    class="basis-1/2 md:grid md:grid-cols-2 gap-3 hidden lg:grid-cols-2 lg:min-h-[400px] xl:min-h-[420px] w-full ">
+                    class="md:grid md:grid-cols-2 gap-3 hidden lg:grid-cols-2 lg:min-h-[400px] xl:min-h-[420px] w-full ">
                     <div
                         class="flex p-4 xl:gap-[14px] xl:p-8 3xl:p-10 flex-col justify-center items-start gap-2 hover:bg-gradient-to-r from-[#00e7ff] to-[#a4fb5a] bg-[#EDEDF4] rounded-[16px] min-h-[120px] 2xl:min-h-[230px]">
 
@@ -126,9 +123,8 @@ export default defineComponent({
                             lẻ</p>
                     </div>
                 </div>
-
                 <div
-                    class="basis-1/2 flex 3xl:px-[60px] 2xl:p-10 3xl:py-[40px] flex-col xl:rounded-[40px]  bg-[linear-gradient(94deg,rgba(237,237,244,0.9)_-10.9%,rgba(237,237,244,0)_95.88%)] w-full p-5 rounded-[12px] gap-10 md:p-6 xl:p-10 xl:gap-10 2xl:gap-10 h-full ">
+                    class="flex 3xl:px-[60px] 2xl:p-10 3xl:py-[40px] flex-col xl:rounded-[40px]  bg-[linear-gradient(94deg,rgba(237,237,244,0.9)_-10.9%,rgba(237,237,244,0)_95.88%)] w-full p-5 rounded-[12px] gap-10 md:p-6 xl:p-10 xl:gap-10 2xl:gap-10 h-full ">
 
                     <div class="flex flex-col gap-3 item-start self-stretch  w-full 2xl:gap-6">
                         <p class="font-BG text-[16px] 2xl:text-[28px] 3xl:text-[32px] leading-normal font-semibold">Tư
