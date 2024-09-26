@@ -80,6 +80,13 @@ useHead({
 		// },
 	],
 });
+
+const handleReset = () => {
+	date.value = undefined;
+	slugTag.value = "";
+	slugCate.value = "";
+	keyword.value = "";
+};
 </script>
 
 <template>
@@ -676,6 +683,13 @@ useHead({
 									</p>
 								</div>
 							</div>
+						</div>
+
+						<div
+							class="btn active inline-flex items-center justify-center cursor-pointer max-w-max"
+							@click="handleReset"
+						>
+							Xóa bộ lọc
 						</div>
 					</div>
 				</div>
