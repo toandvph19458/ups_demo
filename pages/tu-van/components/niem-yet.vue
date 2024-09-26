@@ -98,14 +98,14 @@ export default defineComponent({
                         <div class="btn-wrapper flex gap-5 sm:gap-3 items-start animate-ups__item w-full  z-30">
                             <!-- Added group-hover:text-white here -->
                             <div class="inline-flex">
-                                <nuxt-link to="/" class="btn active">
+                                <nuxt-link to="/" class="btn active group/btn">
                                     <span class="text-[10px] sm:text-[12px] xl:text-[14px]"> Liên hệ tư vấn </span>
                                     <div class="inline-flex 3xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative z-30">
-                                        <i class="w-full h-full group-hover:inline-flex hidden absolute">
+                                        <i class="w-full h-full group-hover/btn:inline-flex hidden absolute">
                                             <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16"
                                                 height="16" alt="UPS" />
                                         </i>
-                                        <i class="w-full h-full group-hover:hidden inline-flex absolute">
+                                        <i class="w-full h-full group-hover/btn:hidden inline-flex absolute">
                                             <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16"
                                                 alt="UPS" />
                                         </i>
@@ -117,6 +117,8 @@ export default defineComponent({
                 </div>
 
             </div>
+
+            
             <div
                 class="relative p-5 lg:p-8 2xl:p-10 border w-full flex flex-col justify-center items-center gap-6 rounded-[12px] group animate-ups__item h-full lg:h-[515px] flex-1 md:p-8 2xl:min-h-[545px] 3xl:p-[60px] 3xl:rounded-[32px] 3xl:h-[642px]">
                 <!-- Background Gradient -->
@@ -190,14 +192,14 @@ export default defineComponent({
                         <div class="btn-wrapper flex gap-5 sm:gap-3 items-start animate-ups__item w-full  z-30">
                             <!-- Added group-hover:text-white here -->
                             <div class="inline-flex">
-                                <nuxt-link to="/" class="btn active">
+                                <nuxt-link to="/" class="btn active group/btn">
                                     <span class="text-[10px] sm:text-[12px] xl:text-[14px]"> Liên hệ tư vấn </span>
                                     <div class="inline-flex 3xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative z-30">
-                                        <i class="w-full h-full group-hover:inline-flex hidden absolute">
+                                        <i class="w-full h-full group-hover/btn:inline-flex hidden absolute">
                                             <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16"
                                                 height="16" alt="UPS" />
                                         </i>
-                                        <i class="w-full h-full group-hover:hidden inline-flex absolute">
+                                        <i class="w-full h-full group-hover/btn:hidden inline-flex absolute">
                                             <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16"
                                                 alt="UPS" />
                                         </i>
@@ -272,14 +274,14 @@ export default defineComponent({
                         <div class="btn-wrapper flex gap-5 sm:gap-3 items-start animate-ups__item w-full  z-30">
                             <!-- Added group-hover:text-white here -->
                             <div class="inline-flex">
-                                <nuxt-link to="/" class="btn active">
+                                <nuxt-link to="/" class="btn active group/btn">
                                     <span class="text-[10px] sm:text-[12px] xl:text-[14px]"> Liên hệ tư vấn </span>
                                     <div class="inline-flex 3xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative z-30">
-                                        <i class="w-full h-full group-hover:inline-flex hidden absolute">
+                                        <i class="w-full h-full group-hover/btn:inline-flex hidden absolute">
                                             <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16"
                                                 height="16" alt="UPS" />
                                         </i>
-                                        <i class="w-full h-full group-hover:hidden inline-flex absolute">
+                                        <i class="w-full h-full group-hover/btn:hidden inline-flex absolute">
                                             <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16"
                                                 alt="UPS" />
                                         </i>

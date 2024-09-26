@@ -14,7 +14,7 @@
             </h2>
 
             <p
-              class="animate-about__item max-w-full xl:max-w-[70%] lg:max-w-[50%] text-justify text-xs md:text-sm 3xl:text-lg text-[#3C4052] font-medium mt-2"
+              class="animate-about__item max-w-full xl:max-w-[70%] lg:max-w-[50%] text-justify text-sm md:text-sm 3xl:text-lg text-[#3C4052] font-medium mt-2"
             >
               UPS không chỉ là một công ty chứng khoán thông thường, chúng tôi
               hướng đến mục tiêu trở thành một điểm tựa vững chắc khuyến khích
@@ -82,7 +82,7 @@
                     Sứ mệnh
                   </h4>
                   <p
-                    class="text-xs xl:text-base 2xl:text-[16px] 3xl:text-[22px] text-[#15171E] font-normal leading-normal font-BG"
+                    class="text-sm xl:text-base 2xl:text-[16px] 3xl:text-[22px] text-[#15171E] font-normal leading-normal font-BG"
                   >
                     Tạo ra không gian đầu tư độc đáo, mới mẻ tràn đầy hứng khởi,
                     từ đó định hình lại cách nhà đầu tư tiếp cận và trải nghiệm
@@ -780,7 +780,7 @@
         </h4>
 
         <p
-          class="mt-4 text-center text-xs md:text-sm 3xl:text-lg text-[#000] font-medium"
+          class="mt-4 text-center text-sm md:text-sm 3xl:text-lg text-[#000] font-medium"
         >
           Chúng tôi luôn nỗ lực không ngừng để đạt được những mục tiêu đầy tham
           vọng và tạo ra những giá trị lâu dài

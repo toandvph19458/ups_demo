@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div
-			class="py-5 md:py-10 xl:py-[50px] 2xl:py-[60px] 3xl:py-20 rounded-b-[20px] bg-custom-hdsd bg-cover bg-no-repeat"
+			class="py-5 md:py-10 xl:py-[50px] 2xl:py-[60px] 3xl:py-20 rounded-b-[20px] bg-gradient-to-l from-[#125933] to-[#15171E] via-[#125933] [background-position:65%_center]"
 		>
 			<div class="container">
 				<div>
@@ -164,7 +164,7 @@
 			</div>
 
 			<div class="py-8 md:py-10 lg:py-12 grid grid-cols-12 gap-y-10 2xl:gap-[60px]">
-				<div class="3xl:col-span-3 xl:col-span-4 hidden xl:block">
+				<div class="xl:col-span-3 hidden xl:block">
 					<div class="">
 						<h4 class="text-xl text-black font-bold">Hướng dẫn sử dụng</h4>
 						<div class="mt-5 flex items-center relative">
@@ -233,7 +233,7 @@
 					</div>
 				</div>
 
-				<div class="col-span-full xl:col-span-7 3xl:col-span-7">
+				<div class="col-span-full xl:col-span-9 3xl:col-span-7">
 					<!-- <div
 						v-for="(item, index) in data?.dataDocument?.instruction_structure"
 						:id="item?.slug"
@@ -526,9 +526,7 @@ export default defineComponent({
 	border-collapse: collapse;
 	width: 100%;
 }
-.content-wrapper :deep(table){
-	
-}
+
 .content-wrapper :deep(table),
 .content-wrapper :deep(th),
 .content-wrapper :deep(td) {
@@ -545,9 +543,7 @@ export default defineComponent({
 .content-wrapper :deep(*) {
 	/* all: revert; */
 }
-.container-wrapper :deep(iframe){
-	width: 100% !important;
-}
+
 .content-wrapper :deep(h1) {
 	font-size: 2em;
 	font-weight: bold;
@@ -573,14 +569,6 @@ export default defineComponent({
 	color: blue;
 	text-decoration: underline;
 }
-.bg-custom-hdsd{
-	background: linear-gradient(265deg, rgba(21, 23, 30, 0.86) 25.6%, rgba(18, 89, 51, 0.86) 87.49%), url('/images/banner-hdsd.png');
-}
+
 /* Add more specific styles as needed */
-@media ((min-width: 1280px) and (max-width: 1440px)) {
-    .container {
-	margin-left: 60px !important;
-	margin-right: 60px !important;
-    }
-}
 </style>

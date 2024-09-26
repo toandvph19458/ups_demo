@@ -328,8 +328,7 @@
           </div>
         </div>
         <div class="group">
-          <nuxt-link to="/hdsd">
-            <div
+          <div
             class="relative xl:rounded-[24px] md:rounded-[16px] group-hover:bg-[linear-gradient(0deg,rgba(0,0,0,0.60)_0%,rgba(0,0,0,0.60)_100%),url('/images/hd.png')] border border-[#C8C8D2] bg-cover bg-no-repeat bg-bottom xl:h-[200px] 2xl:h-[260px] p-[32px] md:p-6 md:h-[160px] flex flex-col justify-between sm:h-[100px] sm:p-3 sm:rounded-[12px]">
             <div class="flex justify-end">
               <div
@@ -351,7 +350,6 @@
             </h5>
 
           </div>
-          </nuxt-link>
         </div>
       </div>
     </div>

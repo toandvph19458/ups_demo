@@ -9,16 +9,15 @@
                 <div>
 
                     <p
-                        class="text-black text-sm 3xl:text-[16px] leading-normal font-HG uppercase font-semibold 3xl:tracking-[3px]">
+                        class="text-black text-[12px] leading-normal font-HG uppercase font-semibold 3xl:text-[16px] 3xl:tracking-[3px]">
                         Khách
                         hàng cá nhân
                     </p>
-                    <p class="text-black text-[20px] md:text-[32px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-BG font-bold">Zero Fee <br /> Đầu
+                    <p class="text-black text-[20px] 3xl:text-[60px] font-BG font-bold">Zero Fee <br /> Đầu
                         tư
                         "Free" - Giao dịch 0 phí</p>
                 </div>
-
-                <p class="text-black text-[14px] 3xl:text-[18px] 3xl:leading-[30px] leading-normal font-HG 3xl:w-[80%]">
+                <p class="text-black text-[12px] 3xl:text-[18px] 3xl:leading-[30px] leading-normal font-HG 3xl:w-[80%]">
                     Zero-Fee là
                     chương trình ưu đãi đặc
                     biệt từ
@@ -28,11 +27,10 @@
                     lợi nhuận và trải nghiệm đầu tư tốt nhất. Hãy cùng UPS bước vào hành trình đầu tư hiệu quả mà không
                     còn lo lắng về chi phí giao dịch!</p>
             </div>
-
             <div class="btn-wrapper flex gap-5 sm:gap-3 items-center animate-ups__item">
                 <div class="inline-flex">
                     <nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group ">
-                        <span class="text-xs lg:text-[14px] 3xl:text-[16px]"> Đăng kí ngay </span>
+                        <span class="text-[10px] sm:text-[12px] xl:text-[14px] "> Đăng kí ngay </span>
                         <div class="inline-flex 3xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
                             <i class="w-full h-full group-hover:inline-flex hidden absolute">
                                 <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"
@@ -46,7 +44,7 @@
                 </div>
 
                 <nuxt-link to="/" class="btn group  border border-transparent hover:border-[#222]">
-                    <span class="text-xs lg:text-[14px] 3xl:text-[16px]"> Xem hướng dẫn </span>
+                    <span class="text-[10px] sm:text-[12px] xl:text-[14px]"> Xem hướng dẫn </span>
                     <div class="inline-flex 3xl:gap-1 gap-2 w-4 h-4 overflow-hidden relative">
                         <i class="w-full h-full inline-flex absolute">
                             <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16"

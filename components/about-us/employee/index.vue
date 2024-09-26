@@ -1,5 +1,5 @@
 <template>
-  <section class="py-10 xl:pt-[120px] xl:pb-[60px] bg-[#EDEDF4]">
+  <section class="pt-10 pb-16 md:py-10 xl:pt-[120px] xl:pb-[60px] bg-[#EDEDF4]">
     <div class="container">
       <div class="grid grid-cols-5 gap-4 flex-col md:flex-row">
         <div class="col-span-5 xl:col-span-2">
@@ -27,7 +27,7 @@
           </div>
 
           <p
-            class="animate-ups__item max-w-full md:max-w-[380px] xl:max-w-[380px] text-xs md:text-sm 3xl:text-lg text-black font-medium mt-3 md:mt-4 xl:mt-5">
+            class="animate-ups__item max-w-full md:max-w-[380px] xl:max-w-[380px] text-sm md:text-sm 3xl:text-lg text-black font-medium mt-3 md:mt-4 xl:mt-5">
             Chúng tôi luôn nỗ lực không ngừng để đạt được những mục tiêu đầy
             tham vọng và tạo ra những giá trị lâu dài
           </p>
@@ -89,7 +89,7 @@
               </div>
 
               <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
-                Giám đốc tài chính
+                Giám đốc tài chính kiêm Kế toán trưởng
               </p>
               <h4 class="mt-3 text-[14px] 2xl:text-[16] 3xl:text-xl text-white font-semibold font-BG">
                 Ông Trần Văn Chiến
@@ -183,7 +183,7 @@
                   </div>
 
                   <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
-                    Giám đốc tài chính
+                    Giám đốc tài chính kiêm Kế toán trưởng
                   </p>
                   <h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
                     Ông Trần Văn Chiến

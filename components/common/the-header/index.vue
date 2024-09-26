@@ -1,7 +1,7 @@
 <template>
 	<header id="header"
-		class="fixed flex items-center w-full h-[64px] md:h-[84px] xl:h-[90px] max-w-full  z-[100] inset-0 bg-white rounded-es-[20px] rounded-ee-[20px]">
-		<div class="container">
+		class="fixed flex items-center w-full h-[64px] md:h-[84px] xl:h-[90px] max-w-full px-6 md:px-6 lg:px-10 xl:px-auto z-[100] inset-0 bg-white rounded-es-[20px] rounded-ee-[20px]">
+		<div class="w-full max-w-[1730px] mx-auto">
 			<div class="w-full h-full my-auto lg:py-5 flex justify-between items-center">
 				<!--@@@ LOGO -->
 				<nuxt-link to="/"

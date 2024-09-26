@@ -14,7 +14,7 @@ const forwarded = useForwardPropsEmits(props, emits);
 
 <template>
 	<DrawerPortal>
-		<!-- <DrawerOverlay /> -->
+		<DrawerOverlay />
 		<DrawerContent
 			v-bind="forwarded"
 			:class="

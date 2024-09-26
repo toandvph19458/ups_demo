@@ -37,8 +37,6 @@ module.exports = {
 			HG: ["Hanken Grotesk", "sans-serif"],
 		},
 		extend: {
-
-			
 			textShadow: {
 				custom: "6px 6px 0px #071A11",
 			},
