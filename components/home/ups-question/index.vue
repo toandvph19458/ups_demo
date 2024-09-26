@@ -32,7 +32,8 @@
 				</div>
 
 				<div class="my-6 xl:py-10 mx-auto">
-					<swiper
+					<div class="lg:pl-[0px] xl:pl-[100px] 2xl:pl-0 overflow-x-hidden">
+						<swiper
 						:modules="[SwiperNavigation, SwiperPagination, SwiperEffectCards, SwiperEffectCoverflow]"
 						:slidesPerView="'auto'"
 						:centeredSlides="true"
@@ -51,7 +52,7 @@
 						:initial-slide="vSwiperIndex"
 						@swiper="setVSwiperRef"
 						@slide-change="updateVSwiperIndex"
-						class="swiper-question md:translate-x-[60px] lg:translate-x-0 2xl:translate-x-[130px] 3xl:translate-x-0"
+						class="swiper-question md:translate-x-[60px] lg:translate-x-[150px] xl:translate-x-[120px] 2xl:translate-x-[110px] 3xl:translate-x-0"
 						:breakpoints="{
 							480: {
 								coverflowEffect: {
@@ -65,7 +66,7 @@
 							768: {
 								coverflowEffect: {
 									rotate: 0,
-									stretch: 800,
+									stretch: 750,
 									depth: 250,
 									modifier: 1,
 									slideShadows: false,
@@ -311,6 +312,7 @@
 							</nuxt-link>
 						</swiper-slide>
 					</swiper>
+					</div>
 				</div>
 
 				<div class="hidden md:flex gap-6 flex-col md items-center justify-center">

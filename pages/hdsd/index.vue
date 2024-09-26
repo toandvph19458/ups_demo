@@ -526,7 +526,9 @@ export default defineComponent({
 	border-collapse: collapse;
 	width: 100%;
 }
-
+.content-wrapper :deep(table){
+	
+}
 .content-wrapper :deep(table),
 .content-wrapper :deep(th),
 .content-wrapper :deep(td) {
@@ -543,7 +545,9 @@ export default defineComponent({
 .content-wrapper :deep(*) {
 	/* all: revert; */
 }
-
+.container-wrapper :deep(iframe){
+	width: 100% !important;
+}
 .content-wrapper :deep(h1) {
 	font-size: 2em;
 	font-weight: bold;

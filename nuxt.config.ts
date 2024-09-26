@@ -61,7 +61,7 @@ export default defineNuxtConfig({
 	},
 
 	image: {
-		domains: ["api.upse.vn", "ups.truecms.io"],
+		domains: ["cms.upse.vn"],
 		screens: {
 			xs: 320,
 			sm: 640,
@@ -93,7 +93,7 @@ export default defineNuxtConfig({
 		headers: {
 			crossOriginEmbedderPolicy :false,
 			contentSecurityPolicy: {
-			  'img-src': ["'self'", 'data:', 'https://ups.truecms.io'],
+			  'img-src': ["'self'", 'data:', 'https://cms.upse.vn'],
 			},
 		  },
 	},

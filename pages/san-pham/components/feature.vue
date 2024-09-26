@@ -130,7 +130,7 @@
 				<div
 					class="w-full flex justify-center items-center px-[275px] lg:px-[158px] 2xl:px-[255px] sm:p-7 lg:h-[630px]">
 					<img src="/images/image@2x.png"
-						class="sm:w-[327px] sm:h-[245px] 3xl:h-[630px] 3xl:w-[840px] 2xl:w-[687px] 2xl:h-[515px] object-cover md:w-[589px] md:h-[442px] xl:w-[687px] xl:h-[515px] animate-ups__item" />
+						class="sm:w-[327px] sm:h-[245px] 3xl:translate-y-[11%] 3xl:h-[540px] 3xl:w-[840px] 2xl:w-[687px] 2xl:h-[515px] object-cover md:w-[589px] md:h-[442px] xl:w-[687px] xl:h-[515px] animate-ups__item" />
 				</div>
 				<div class="h-[80px] sm:h-[300px] md:h-[120px] "></div>
 				<div
