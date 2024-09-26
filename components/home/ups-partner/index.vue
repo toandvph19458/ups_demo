@@ -2,7 +2,7 @@
 	<section class="pb-[60px] lg:pb-[100px] xl:pb-[150px]">
 		<div class="flex justify-center items-center gap-2 md:gap-4 pb-[20px] md:pb-[50px]">
 			<h3
-				class="animate-ups__item text-[#01C159] font-BG text-[20px] md:text-[28px] lg:text-[32] xl:text-[40px] 2xl:text-[45px] 3xl:text-[60] text-center lg:text-left font-semibold">
+				class="animate-ups__item text-[#01C159] font-BG text-[28px] lg:text-[32] xl:text-[40px] 2xl:text-[45px] 3xl:text-[60] text-center lg:text-left font-semibold">
 				Đối tác của <span class="text-[#014227] font-bold">UPS</span></h3>
 			<!-- <div class="inline-flex relative w-[80px] h-[40px] md:w-[145px] md:h-[66px] xl:w-[132px] xl:h-[60px] mt-2">
 				<nuxt-img format="webp" loading="lazy" alt="UPS" width="132" height="60" src="/logo/logo-cap-dark.png"

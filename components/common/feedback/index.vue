@@ -4,7 +4,7 @@
 			class="flex flex-col items-center justify-center h-min px-5 pt-10 pb-3 md:py-10 rounded-[40px] bg-[linear-gradient(304deg,#16181F_56.52%,#134A2F_96.86%)]"
 		>
 			<h3
-				class="animate-ups__item bg-[linear-gradient(99deg,_#FFF_-1.15%,_#FFF_71.81%,_rgba(255,255,255,0.30)_102.18%)] bg-clip-text text-transparent font-BG text-[28px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-center lg:text-left font-semibold"
+				class="animate-ups__item bg-[linear-gradient(99deg,_#FFF_-1.15%,_#FFF_71.81%,_rgba(255,255,255,0.30)_102.18%)] bg-clip-text text-transparent font-BG text-[28px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-center lg:text-left font-semibold leading-[1.3]"
 			>
 				Kết nối cùng
 				<span class="text-[#02D060]">UPS</span>
@@ -25,7 +25,7 @@
 				<div class="w-full grid gap-3 grid-cols-1 md:grid-cols-3">
 					<div>
 						<nuxt-input
-							class="w-full h-[50px] px-6 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[40px] border-none focus:ring-0 placeholder:text-[#ADB2C0]"
+							class="w-full h-[50px] px-6 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[40px] border-none focus:ring-0 placeholder:text-[#ADB2C0] text-base"
 							placeholder="Tên của bạn"
 							name="fullname"
 							v-model="fullname"
@@ -33,7 +33,7 @@
 						/>
 						<p
 							v-if="fullnameErr"
-							class="text-sm text-[#F05] font-medium mt-1"
+							class="text-base text-[#F05] font-medium mt-1"
 						>
 							{{ fullnameErr }}
 						</p>
@@ -41,7 +41,7 @@
 
 					<div>
 						<nuxt-input
-							class="w-full h-[50px] px-6 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[40px] border-none focus:ring-0 placeholder:text-[#ADB2C0]"
+							class="w-full h-[50px] px-6 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[40px] border-none focus:ring-0 placeholder:text-[#ADB2C0] text-base"
 							placeholder="Số điện thoại"
 							name="phone"
 							v-model="phone"
@@ -49,7 +49,7 @@
 						/>
 						<p
 							v-if="phoneErr"
-							class="text-sm text-[#F05] font-medium mt-1"
+							class="text-base text-[#F05] font-medium mt-1"
 						>
 							{{ phoneErr }}
 						</p>
@@ -58,7 +58,7 @@
 					<div>
 						<nuxt-input
 							type="email"
-							class="w-full h-[50px] px-6 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[40px] border-none focus:ring-0 placeholder:text-[#ADB2C0]"
+							class="w-full h-[50px] px-6 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[40px] border-none focus:ring-0 placeholder:text-[#ADB2C0] text-base"
 							placeholder="Email"
 							name="email"
 							v-model="email"
@@ -66,7 +66,7 @@
 						/>
 						<p
 							v-if="emailErr"
-							class="text-sm text-[#F05] font-medium mt-1"
+							class="text-base text-[#F05] font-medium mt-1"
 						>
 							{{ emailErr }}
 						</p>
@@ -77,7 +77,7 @@
 					<textarea
 						rows="6"
 						v-model="content"
-						class="w-full px-6 py-4 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[25px] border-none focus:ring-0 placeholder:text-[#ADB2C0]"
+						class="w-full px-6 py-4 text-white bg-[rgba(255,255,255,0.08)] backdrop-blur-[20px] rounded-[25px] border-none focus:ring-0 placeholder:text-[#ADB2C0] text-base"
 						placeholder="Nội dung"
 					></textarea>
 					

@@ -26,7 +26,7 @@
 						nổi bật
 					</h3>
 					<p
-						class="animate-ups__item text-base lg:text-lg xl:text-base 2xl:text-lg text-[#000] font-normal mt-1 md:mt-2"
+						class="animate-ups__item text-base lg:text-lg xl:text-base 2xl:text-lg mt-1 md:mt-2 3xl:text-lg text-[#3C4052] font-medium"
 					>
 						Cập nhật các sản phẩm, dịch vụ mới nhất cũng như các hoạt động, sự kiện của UPS
 					</p>
@@ -160,7 +160,7 @@
 									{{ doc?.short_content?.title }}
 								</h4>
 								<p
-									class="text-base md:text-sm xl:text-sm 2xl:text-lg text-[#3C4052] font-medium line-clamp-2 mt-2 sm:mt-3"
+									class="text-base md:text-sm xl:text-sm 2xl:text-lg line-clamp-2 mt-2 sm:mt-3 3xl:text-lg text-[#3C4052] font-medium"
 								>
 									{{ doc?.short_content?.blurb }}
 								</p>
