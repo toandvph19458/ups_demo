@@ -219,7 +219,7 @@
                     </div>
                   </nuxt-link> -->
 
-                  <Accordion
+                  <!-- <Accordion
                     type="single"
                     class="w-full py-0"
                     collapsible
@@ -285,7 +285,7 @@
                       </AccordionTrigger>
                       <AccordionContent>
                         <div class="flex gap-5 flex-col pt-4">
-                          <!-- <nuxt-link to="/san-pham-3" class="flex items-center">
+                          <nuxt-link to="/san-pham-3" class="flex items-center">
                             <i class="inline-flex items-center justify-center">
                               <nuxt-img
                                 format="webp"
@@ -318,9 +318,9 @@
                                 Margin T+
                               </p>
                             </div>
-                          </nuxt-link> -->
+                          </nuxt-link>
                           
-                          <!-- <nuxt-link to="/san-pham-1" class="flex items-center">
+                          <nuxt-link to="/san-pham-1" class="flex items-center">
                             <i class="inline-flex items-center justify-center">
                               <nuxt-img
                                 format="webp"
@@ -336,11 +336,11 @@
                                 Mở tài khoản mới + 1 triệu đồng
                               </p>
                             </div>
-                          </nuxt-link> -->
+                          </nuxt-link>
                         </div>
                       </AccordionContent>
                     </AccordionItem>
-                  </Accordion>
+                  </Accordion> -->
 
                   <nuxt-link to="/bieu-phi" class="flex items-center">
                     <i class="inline-flex items-center justify-center">

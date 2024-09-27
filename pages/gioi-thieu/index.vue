@@ -32,13 +32,12 @@
 
     <!-- SECTION VISION -->
     <section
-      class="relative w-full pt-[190%] md:pt-[60%] lg:pt-[46%] rounded-b-[12px] overflow-hidden border border-white bg-[url('/background/bg-gioi-thieu.png')] bg-no-repeat bg-cover bg-center">
-      <div class="absolute inset-0 pt-[52px] pb-[37px] md:py-[40px] lg:py-[80px] xl:py-[100px] 3xl:py-[146px]">
-        <div class="container flex flex-col md:flex-row justify-between items-center h-full gap-10 md:gap-[80px]">
-
+      class="relative w-full pt-[194%] md:pt-[65%] lg:pt-[58%] xl:pt-[50%] 2xl:pt-[51%] 3xl:pt-[47%] rounded-b-[12px] overflow-hidden border border-white bg-[url('/background/bg-gioi-thieu.png')] bg-no-repeat bg-cover bg-center">
+      <div class="absolute inset-0 pt-[52px] pb-[37px] md:py-[40px] lg:py-[90px] xl:py-[112px] 2xl:py-[125px] 3xl:py-[146px]">
+        <div class="container flex flex-col md:flex-row justify-between items-center h-full gap-10 lg:gap-[80px]">
 
           <div
-            class="basis-full md:basis-2/3 lg:basis-7/12 flex flex-col md:h-full gap-10 md:gap-[24px] lg:gap-[76px]">
+            class="basis-full md:basis-7/12 flex flex-col md:h-full gap-10 md:gap-[24px] lg:gap-[76px]">
             <div class="w-full md:w-[80%]">
               <!-- <div
                 class="animate-about__item relative inline-flex items-center justify-center w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]">
@@ -81,7 +80,7 @@
             </div>
           </div>
 
-          <div class="basis-full md:basis-2/3 lg:basis-5/12 w-full">
+          <div class="basis-full md:basis-5/12 w-full">
             <div class="relative inline-flex w-full pt-[82%] md:pt-[100%]">
               <nuxt-img format="webp" loading="lazy" alt="UPS" src="/icons/icon_about_us.svg"
                 class="absolute top-0 left-0 w-full h-full" />
@@ -99,7 +98,7 @@
     <!-- SECTION VALUE -->
     <section class="container">
       <div
-        class="py-[40px] md:pt-[100px] md:pb-[40px] lg:pt-[120px] lg:pb-[60px] xl:pt-[160px] xl:pb-[100px] 3xl:pt-[200px] 3xl:pb-[140px]">
+        class="py-[40px] md:pt-[120px] md:pb-[40px] lg:pt-[120px] lg:pb-[60px] xl:pt-[160px] xl:pb-[100px] 3xl:pt-[200px] 3xl:pb-[140px]">
         <div class="flex justify-center items-center"></div>
         <div class="grid grid-cols-12 gap-y-[42px] md:gap-6 xl:gap-8 2xl:gap-[40px] 3xl:gap-[80px]">
 
@@ -146,7 +145,7 @@
             <div class="glow"></div>
             <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
               <div
-                class="absolute -top-1/2 left-1/2 -translate-x-1/2 md:h-full w-[60px] h-[60px] xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                class="absolute -top-1/2 left-1/2 -translate-x-1/2 xl:h-full w-[60px] h-[60px] xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
                 <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
                   <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-01.svg"
                     class="absolute w-full h-full object-contain" />
@@ -196,7 +195,7 @@
             <div class="glow"></div>
             <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
               <div
-                class="absolute -top-1/2 left-1/2 -translate-x-1/2 h-full w-[60px] h-[60px] xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                class="absolute -top-1/2 left-1/2 -translate-x-1/2 xl:h-full w-[60px] h-[60px] xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
                 <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
                   <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/icons/status-up.svg"
                     class="absolute w-full h-full object-contain" />
@@ -760,7 +759,7 @@
         </div>
       </div>
 
-      <div class="hidden md:block pt-8 pb-12 md:py-8">
+      <div class="hidden pt-8 pb-12 md:py-8">
         <swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1.2" :loop="false" :speed="800"
           :space-between="16" :breakpoints="{
             480: {
@@ -789,6 +788,7 @@
           </swiper-slide>
         </swiper>
       </div>
+      
       <div class="block md:hidden pt-8 pb-12 md:py-8">
         <div class="w-full h-[210px] md:h-[210px] xl:h-[396px] rounded-[8px] md:rounded-[14px] overflow-hidden group">
           <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
