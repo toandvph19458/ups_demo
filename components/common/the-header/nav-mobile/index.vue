@@ -47,11 +47,11 @@
 			</div>
 		  </div> -->
 
-				<div class="">
-					<ScrollArea class="w-full h-[calc(100vh-200px)]">
+				<div class="border-none outline-none">
+					<ScrollArea class="w-full h-[calc(100vh-200px)] boder border-none outline-none">
 						<Accordion
 							type="single"
-							class="w-full"
+							class="w-full border-none outline-none"
 							collapsible
 						>
 							<AccordionItem value="1">
@@ -65,9 +65,9 @@
 									</DrawerClose>
 								</AccordionTrigger>
 								<AccordionContent>
-									<div class="w-full px-5 grid gap-x-10 gap-y-5 grid-cols-1">
+									<div class="w-full px-3 grid gap-x-10 gap-y-10 grid-cols-1">
 										<div class="w-full">
-											<p class="text-left text-sm text-[#014227] font-semibold font-HG">
+											<p class="text-left text-lg text-[#014227] font-semibold font-HG">
 												Khách hàng cá nhân
 											</p>
 
@@ -110,16 +110,16 @@
 													  </nuxt-link>
 												  </DrawerClose>
 											  </div> -->
-											<div class="flex flex-col gap-5 py-5">
+											<div class="flex flex-col gap-[16px] py-5">
 												<nuxt-link
 													to="/"
-													class="flex items-center"
+													class="flex items-center gap-[12px]" 
 												>
 													<i class="inline-flex items-center justify-center">
 														<svg
 															xmlns="http://www.w3.org/2000/svg"
-															width="24"
-															height="25"
+															width="20"
+															height="20"
 															viewBox="0 0 24 25"
 															fill="none"
 														>
@@ -160,18 +160,18 @@
 
 													<nuxt-link
 														to="/co-phieu"
-														class="ml-5"
+														class=""
 													>
 														<DrawerClose as-child>
-															<p class="text-base text-[#000] font-semibold font-HG">
+															<p class="text-base text-[#5E6673] font-[700] font-HG">
 																Cổ phiếu
 															</p>
 
-															<p
+															<!-- <p
 																class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG"
 															>
 																Đầu tư đơn giản và hiệu quả
-															</p>
+															</p> -->
 														</DrawerClose>
 													</nuxt-link>
 												</nuxt-link>
@@ -198,7 +198,7 @@
 							</i>
   
 							<div class="ml-5">
-							  <p class="text-base text-[#000] font-semibold font-HG">
+							  <p class="text-base text-[#5E6673] font-semibold font-HG">
 								Trái phiếu
 							  </p>
 							  <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
@@ -229,7 +229,7 @@
 							</i>
   
 							<div class="ml-5">
-							  <p class="text-base text-[#000] font-semibold font-HG">
+							  <p class="text-base text-[#5E6673] font-semibold font-HG">
 								Phái sinh
 							  </p>
 							  <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
@@ -248,14 +248,14 @@
 														<AccordionTrigger class="flex items-center hover:no-underline">
 															<nuxt-link
 																to="coming-soon"
-																class="flex"
+																class="flex gap-[12px]"
 															>
 																<DrawerClose as-child>
 																	<i class="inline-flex items-center justify-center">
 																		<svg
 																			xmlns="http://www.w3.org/2000/svg"
-																			width="24"
-																			height="25"
+																			width="20"
+																			height="20"
 																			viewBox="0 0 24 25"
 																			fill="none"
 																		>
@@ -290,17 +290,17 @@
 																		</svg>
 																	</i>
 
-																	<div class="ml-5">
+																	<div class="">
 																		<p
-																			class="text-left text-base text-[#000] font-semibold font-HG"
+																			class="text-left text-base text-[#5E6673] font-semibold font-HG"
 																		>
 																			Hot Deals 🔥
 																		</p>
-																		<p
+																		<!-- <p
 																			class="text-left text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG"
 																		>
 																			Khám phá ưu đãi mới nhất
-																		</p>
+																		</p> -->
 																	</div>
 																</DrawerClose>
 															</nuxt-link>
@@ -314,7 +314,7 @@
 									</i>
   
 									<div class="ml-5">
-									  <p class="text-base text-[#000] font-semibold font-HG">
+									  <p class="text-base text-[#5E6673] font-semibold font-HG">
 										Zero Fee
 									  </p>
 									</div>
@@ -326,7 +326,7 @@
 									</i>
   
 									<div class="ml-5">
-									  <p class="text-base text-[#000] font-semibold font-HG">
+									  <p class="text-base text-[#5E6673] font-semibold font-HG">
 										Margin T+
 									  </p>
 									</div>
@@ -339,7 +339,7 @@
 									</i>
   
 									<div class="ml-5">
-									  <p class="text-base text-[#000] font-semibold font-HG">
+									  <p class="text-base text-[#5E6673] font-semibold font-HG">
 										Mở tài khoản mới + 1 triệu đồng
 									  </p>
 									</div>
@@ -351,14 +351,14 @@
 
 												<nuxt-link
 													to="/bieu-phi"
-													class="flex items-center"
+													class="flex items-center gap-[12px]"
 												>
 													<DrawerClose as-child>
 														<i class="inline-flex items-center justify-center">
 															<svg
 																xmlns="http://www.w3.org/2000/svg"
-																width="24"
-																height="25"
+																width="20"
+																height="20"
 																viewBox="0 0 24 25"
 																fill="none"
 															>
@@ -397,36 +397,36 @@
 															</svg>
 														</i>
 
-														<div class="ml-5">
-															<p class="text-base text-[#000] font-semibold font-HG">
+														<div class="">
+															<p class="text-base text-[#5E6673] font-semibold font-HG">
 																Biểu phí giao dịch
 															</p>
-															<p
+															<!-- <p
 																class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG"
 															>
 																Cập nhật bảng giá 24/7
-															</p>
+															</p> -->
 														</div>
 													</DrawerClose>
 												</nuxt-link>
 											</div>
 										</div>
 										<div class="w-full">
-											<p class="text-left text-sm text-[#014227] font-semibold font-HG">
+											<p class="text-left text-lg text-[#014227] font-semibold font-HG">
 												Khách hàng doanh nghiệp
 											</p>
 
-											<div class="flex flex-col gap-5 py-5">
+											<div class="flex flex-col gap-[16px] py-5">
 												<nuxt-link
 													to="/"
-													class="flex items-center"
+													class="flex items-center gap-[12px]"
 												>
 													<DrawerClose as-child>
 														<i class="inline-flex items-center justify-center">
 															<svg
 																xmlns="http://www.w3.org/2000/svg"
-																width="24"
-																height="25"
+																width="20"
+																height="20"
 																viewBox="0 0 24 25"
 																fill="none"
 															>
@@ -470,30 +470,30 @@
 
 														<nuxt-link
 															to="/tu-van"
-															class="ml-5"
+															class=""
 														>
-															<p class="text-base text-[#000] font-semibold font-HG">
+															<p class="text-base text-[#5E6673] font-semibold font-HG">
 																Tư vấn tài chính
 															</p>
-															<p
+															<!-- <p
 																class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG"
 															>
 																Cùng doanh nghiệp phát triển bền vững
-															</p>
+															</p> -->
 														</nuxt-link>
 													</DrawerClose>
 												</nuxt-link>
 
 												<nuxt-link
 													to="/coming-soon"
-													class="flex items-center"
+													class="flex items-center gap-[12px]"
 												>
 													<DrawerClose as-child>
 														<i class="inline-flex items-center justify-center">
 															<svg
 																xmlns="http://www.w3.org/2000/svg"
-																width="24"
-																height="25"
+																width="20"
+																height="20"
 																viewBox="0 0 24 25"
 																fill="none"
 															>
@@ -538,22 +538,22 @@
 															</svg>
 														</i>
 
-														<div class="ml-5">
-															<p class="text-base text-[#000] font-semibold font-HG">
+														<div class="">
+															<p class="text-base text-[#5E6673] font-semibold font-HG">
 																Tin đấu giá
 															</p>
-															<p
+															<!-- <p
 																class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG"
 															>
 																Bản tin đấu giá tại UPS
-															</p>
+															</p> -->
 														</div>
 													</DrawerClose>
 												</nuxt-link>
 											</div>
 										</div>
 										<div class="w-full">
-											<p class="text-left text-sm text-[#014227] font-semibold font-HG">
+											<p class="text-left text-lg text-[#014227] font-semibold font-HG">
 												Nền tảng
 											</p>
 
@@ -562,7 +562,7 @@
 													<nuxt-link
 														to="https://trade.upstock.com.vn/#/price/bang-gia/vn30"
 														target="_blank"
-														class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG"
+														class="w-full h-[38px] flex items-center justify-center px-3 text-lg text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG"
 													>
 														Web Trading
 													</nuxt-link>
@@ -570,7 +570,7 @@
 												<DrawerClose as-child>
 													<nuxt-link
 														to="/"
-														class="w-full h-[38px] flex items-center justify-center px-3 text-sm text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG"
+														class="w-full h-[38px] flex items-center justify-center px-3 text-lg text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG"
 													>
 														App Trading
 													</nuxt-link>
@@ -591,11 +591,11 @@
 									</DrawerClose>
 								</AccordionTrigger>
 								<AccordionContent>
-									<div class="w-full flex flex-col gap-4 px-5">
+									<div class="w-full flex flex-col gap-4 px-3">
 										<DrawerClose as-child>
 											<nuxt-link
 												to="/"
-												class="flex items-center"
+												class="flex items-center gap-[12px]"
 											>
 												<i class="w-5 h-5 inline-flex items-center justify-center">
 													<nuxt-img
@@ -608,13 +608,13 @@
 													/>
 												</i>
 
-												<div class="ml-4">
-													<p class="text-sm text-[#000] font-semibold font-HG">
+												<div class="">
+													<p class="text-lg text-[#5E6673] font-semibold font-HG">
 														Nhận định thị trường
 													</p>
-													<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
 														Báo cáo phân tích nhanh nhất cùng UPS
-													</p>
+													</p> -->
 												</div>
 											</nuxt-link>
 										</DrawerClose>
@@ -626,7 +626,7 @@
 						  </i>
   
 						  <div class="ml-4">
-							<p class="text-sm text-[#000] font-semibold font-HG">
+							<p class="text-sm text-[#5E6673] font-semibold font-HG">
 							  Cộng đồng
 							</p>
 							<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
@@ -638,7 +638,7 @@
 										<DrawerClose as-child>
 											<nuxt-link
 												to="/hdsd"
-												class="flex items-center"
+												class="flex items-center gap-[12px]"
 											>
 												<i class="w-5 h-5 inline-flex items-center justify-center">
 													<nuxt-img
@@ -651,13 +651,13 @@
 													/>
 												</i>
 
-												<div class="ml-4">
-													<p class="text-sm text-[#000] font-semibold font-HG">
+												<div class="">
+													<p class="text-lg text-[#5E6673] font-semibold font-HG">
 														Hỗ trợ khách hàng
 													</p>
-													<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
 														Khám phá kho tàng kiến thức đỉnh cấp cùng UPS
-													</p>
+													</p> -->
 												</div>
 											</nuxt-link>
 										</DrawerClose>
@@ -675,11 +675,11 @@
 									</DrawerClose>
 								</AccordionTrigger>
 								<AccordionContent>
-									<div class="w-full flex flex-col gap-4 px-5">
+									<div class="w-full flex flex-col gap-4 px-3">
 										<DrawerClose as-child>
 											<nuxt-link
 												to="/gioi-thieu"
-												class="flex items-center"
+												class="flex items-center gap-[12px]"
 											>
 												<i class="w-5 h-5 inline-flex items-center justify-center">
 													<nuxt-img
@@ -692,20 +692,20 @@
 													/>
 												</i>
 
-												<div class="ml-4">
-													<p class="text-sm text-[#000] font-semibold font-HG">
+												<div class="">
+													<p class="text-lg text-[#5E6673] font-semibold font-HG">
 														Về chúng tôi
 													</p>
-													<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
 														Giới thiệu về UPS
-													</p>
+													</p> -->
 												</div>
 											</nuxt-link>
 										</DrawerClose>
 										<DrawerClose as-child>
 											<nuxt-link
 												to="/tin-tuc"
-												class="flex items-center"
+												class="flex items-center gap-[12px]"
 											>
 												<i class="w-5 h-5 inline-flex items-center justify-center">
 													<nuxt-img
@@ -718,11 +718,11 @@
 													/>
 												</i>
 
-												<div class="ml-4">
-													<p class="text-sm text-[#000] font-semibold font-HG">Tin UPS</p>
-													<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+												<div class="">
+													<p class="text-lg text-[#5E6673] font-semibold font-HG">Tin UPS</p>
+													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
 														Các thông tin công bố từ UPS
-													</p>
+													</p> -->
 												</div>
 											</nuxt-link>
 										</DrawerClose>
@@ -736,7 +736,7 @@
 							  </i>
   
 							  <div class="ml-4">
-								<p class="text-left text-sm text-[#000] font-semibold">
+								<p class="text-left text-sm text-[#5E6673] font-semibold">
 								  Tin UPS
 								</p>
 								<p class="text-left text-sm text-[rgba(0,0,0,0.68)] font-medium">
@@ -755,7 +755,7 @@
 								  </i>
   
 								  <div class="ml-4">
-									<p class="text-sm text-[#000] font-semibold">
+									<p class="text-sm text-[#5E6673] font-semibold">
 									  Tin hoạt động
 									</p>
 								  </div>
@@ -770,7 +770,7 @@
 								  </i>
   
 								  <div class="ml-4">
-									<p class="text-sm text-[#000] font-semibold">
+									<p class="text-sm text-[#5E6673] font-semibold">
 									  Công bố tin
 									</p>
 								  </div>
@@ -797,12 +797,12 @@
 												</i>
 
 												<div class="ml-4">
-													<p class="text-sm text-[#000] font-semibold font-HG">
+													<p class="text-lg text-[#5E6673] font-semibold font-HG">
 														Gia nhập UPS
 													</p>
-													<p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
+													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
 														Phát triển sự nghiệp cũng UPS
-													</p>
+													</p> -->
 												</div>
 											</nuxt-link>
 										</DrawerClose>
@@ -854,4 +854,8 @@ export default defineComponent({
 	setup(props, ctx) {},
 });
 </script>
-<style scoped></style>
+<style scoped>
+div[data-radix-scroll-area-viewport] {
+  border: none !important;
+}
+</style>
