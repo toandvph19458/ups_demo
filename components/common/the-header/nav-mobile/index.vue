@@ -456,7 +456,7 @@
 												</i>
 
 												<div class="">
-													<p class="text-lg text-[#5E6673] font-semibold font-HG">
+													<p class="text-base text-[#5E6673] font-semibold font-HG">
 														Nhận định thị trường
 													</p>
 													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
@@ -490,7 +490,7 @@
 												</i>
 
 												<div class="">
-													<p class="text-lg text-[#5E6673] font-semibold font-HG">
+													<p class="text-base text-[#5E6673] font-semibold font-HG">
 														Hỗ trợ khách hàng
 													</p>
 													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
@@ -521,7 +521,7 @@
 												</i>
 
 												<div class="">
-													<p class="text-lg text-[#5E6673] font-semibold font-HG">
+													<p class="text-base text-[#5E6673] font-semibold font-HG">
 														Về chúng tôi
 													</p>
 													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
@@ -538,7 +538,7 @@
 												</i>
 
 												<div class="">
-													<p class="text-lg text-[#5E6673] font-semibold font-HG">Tin UPS</p>
+													<p class="text-base text-[#5E6673] font-semibold font-HG">Tin UPS</p>
 													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
 														Các thông tin công bố từ UPS
 													</p> -->
