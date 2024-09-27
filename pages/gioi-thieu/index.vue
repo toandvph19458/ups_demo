@@ -2,20 +2,18 @@
   <div class="animate-about">
     <!-- SECTION ABOUT US -->
     <section class="container">
-      <div class="pt-0 pb-10 md:py-8 xl:py-16">
+      <div class="pt-0 pb-[52px] md:py-8 xl:py-16">
         <div class="px-0 lg:px-10 xl:px-20">
-          <div class="pb-5 xl:pb-10 3xl:pb-14">
+          <div class="pb-10 xl:pb-10 3xl:pb-14">
             <div class="flex justify-between"></div>
 
             <h2
-              class="animate-about__item text-[28px] md:text-[32px] lg:text-[36px] xl:text-[42px] 2xl:text-[48px] 3xl:text-[64px] font-bold font-BG text-green-ups"
-            >
+              class="animate-about__item text-[28px] md:text-[32px] lg:text-[36px] xl:text-[42px] 2xl:text-[48px] 3xl:text-[64px] font-bold font-BG bg-gradient-to-r to-[#02E56A] from-[#01A34B] bg-clip-text text-transparent w-fit">
               Về chúng tôi
             </h2>
 
             <p
-              class="animate-about__item max-w-full xl:max-w-[70%] lg:max-w-[50%] text-justify text-xs md:text-sm 3xl:text-lg text-[#3C4052] font-medium mt-2"
-            >
+              class="animate-about__item max-w-full xl:max-w-[70%] lg:max-w-[50%] text-left text-base 3xl:text-lg text-[#3C4052] font-medium mt-4">
               UPS không chỉ là một công ty chứng khoán thông thường, chúng tôi
               hướng đến mục tiêu trở thành một điểm tựa vững chắc khuyến khích
               người trẻ tự tin khám phá thế giới tài chính. Kết hợp công nghệ
@@ -26,28 +24,21 @@
         </div>
 
         <div
-          class="animate-about__item w-full pt-[60%] md:pt-[44%] relative rounded-[18px] lg:rounded-[24px] overflow-hidden"
-        >
-          <img
-            src="/public/images/vechungtoi.gif"
-            alt=""
-            class="absolute top-0 left-0  w-full h-full"
-          />
+          class="animate-about__item w-full pt-[60%] md:pt-[44%] relative rounded-[16px] lg:rounded-[24px] overflow-hidden">
+          <img src="/public/images/vechungtoi.gif" alt="" class="absolute top-0 left-0  w-full h-full" />
         </div>
       </div>
     </section>
 
     <!-- SECTION VISION -->
     <section
-      class="relative w-full pt-[80%] md:pt-[50%] rounded-es-[30px] rounded-ee-[30px] overflow-hidden border border-white bg-[url('/background/bg-gioi-thieu.png')] bg-no-repeat bg-cover bg-center"
-    >
-      <div
-        class="absolute inset-0 py-[40px] md:py-[40px] lg:py-[80px] xl:py-[100px] 3xl:py-[140px]"
-      >
-        <div class="container flex justify-start items-center h-full">
+      class="relative w-full pt-[190%] md:pt-[60%] lg:pt-[46%] rounded-b-[12px] overflow-hidden border border-white bg-[url('/background/bg-gioi-thieu.png')] bg-no-repeat bg-cover bg-center">
+      <div class="absolute inset-0 pt-[52px] pb-[37px] md:py-[40px] lg:py-[80px] xl:py-[100px] 3xl:py-[146px]">
+        <div class="container flex flex-col md:flex-row justify-between items-center h-full gap-10 md:gap-[80px]">
+
+
           <div
-            class="basis-full md:basis-2/3 lg:basis-1/2 flex flex-col justify-between h-full"
-          >
+            class="basis-full md:basis-2/3 lg:basis-7/12 flex flex-col md:h-full gap-10 md:gap-[24px] lg:gap-[76px]">
             <div class="w-full md:w-[80%]">
               <!-- <div
                 class="animate-about__item relative inline-flex items-center justify-center w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]">
@@ -56,14 +47,12 @@
               </div> -->
 
               <h3
-                class="animate-about__item text-[24px] md:text-[32px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[76px] text-green-ups font-bold font-BG"
-              >
+                class="animate-about__item text-[28px] md:text-[32px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[76px] text-green-ups font-bold font-BG">
                 Tầm nhìn
               </h3>
 
               <p
-                class="animate-about__item text-sm font-HG xl:text-[18px] 2xl:text-[22px] 3xl:text-[30px] text-[#15171E] leading-normal font-semibold"
-              >
+                class="animate-about__item text-base font-HG xl:text-[18px] 2xl:text-[22px] 3xl:text-[30px] text-white leading-normal font-medium mt-4 md:mt-0">
                 Trở thành Công ty chứng khoán bán lẻ hàng đầu cung cấp các giải
                 pháp tài chính đầu tư cá nhân dành cho thế hệ trẻ
               </p>
@@ -71,19 +60,13 @@
 
             <div>
               <div
-                class="group animate-about__item w-full md:w-[80%] float-right rounded-[12px] lg:rounded-[20px] border border-[#8CEE7D] bg-[rgba(255,255,255,0.4)] backdrop-blur-[10px] relative"
-              >
-                <div
-                  class="px-6 md:px-8 xl:px-10 2xl:px-12 3xl:px-16 py-4 md:py-6 xl:py-8 2xl:py-9 3xl:py-12"
-                >
+                class="group animate-about__item w-full md:w-[80%] float-right rounded-[12px] lg:rounded-[20px] border border-[#8CEE7D]  relative">
+                <div class="px-6 md:px-8 xl:px-10 2xl:px-12 3xl:px-16 py-4 md:py-6 xl:py-8 2xl:py-9 3xl:py-12">
                   <h4
-                    class="text-[20px] lg:text-[28px] xl:text-[34px] 2xl:text-[40px] 3xl:text-[52px] font-bold text-green-ups font-BG group-hover:text-green-500"
-                  >
+                    class="text-[28px] lg:text-[28px] xl:text-[34px] 2xl:text-[40px] 3xl:text-[52px] font-bold text-green-ups font-BG group-hover:text-green-500">
                     Sứ mệnh
                   </h4>
-                  <p
-                    class="text-xs xl:text-base 2xl:text-[16px] 3xl:text-[22px] text-[#15171E] font-normal leading-normal font-BG"
-                  >
+                  <p class="text-base 2xl:text-[16px] 3xl:text-[22px] text-white font-medium leading-normal font-BG mt-4 md:mt-3">
                     Tạo ra không gian đầu tư độc đáo, mới mẻ tràn đầy hứng khởi,
                     từ đó định hình lại cách nhà đầu tư tiếp cận và trải nghiệm
                     đầu tư tài chính cá nhân.
@@ -97,85 +80,85 @@
               </div>
             </div>
           </div>
+
+          <div class="basis-full md:basis-2/3 lg:basis-5/12 w-full">
+            <div class="relative inline-flex w-full pt-[82%] md:pt-[100%]">
+              <nuxt-img format="webp" loading="lazy" alt="UPS" src="/icons/icon_about_us.svg"
+                class="absolute top-0 left-0 w-full h-full" />
+            </div>
+          </div>
+
+
         </div>
       </div>
-      /
+      
     </section>
+
+
 
     <!-- SECTION VALUE -->
     <section class="container">
       <div
-        class="py-[40px] md:pt-[100px] md:pb-[40px] lg:pt-[120px] lg:pb-[60px] xl:pt-[160px] xl:pb-[100px] 3xl:pt-[200px] 3xl:pb-[140px]"
-      >
+        class="py-[40px] md:pt-[100px] md:pb-[40px] lg:pt-[120px] lg:pb-[60px] xl:pt-[160px] xl:pb-[100px] 3xl:pt-[200px] 3xl:pb-[140px]">
         <div class="flex justify-center items-center"></div>
-        <div
-          class="grid grid-cols-12 gap-y-16 md:gap-6 xl:gap-8 2xl:gap-[40px] 3xl:gap-[80px]"
-        >
+        <div class="grid grid-cols-12 gap-y-[42px] md:gap-6 xl:gap-8 2xl:gap-[40px] 3xl:gap-[80px]">
+
           <div
-            class="col-span-full md:col-span-4 flex flex-col items-center gap-2 lg:gap-3 3xl:gap-5 md:-translate-y-1/3 order-1 md:order-2"
-          >
+            class="col-span-full md:col-span-4 flex flex-col items-center gap-2 lg:gap-3 3xl:gap-5 md:-translate-y-1/3 order-1 md:order-2 mb-[22px]">
             <div
-              class="animate-about__item inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]"
-            >
-              <nuxt-img
-                format="webp"
-                loading="lazy"
-                width="173"
-                height="78"
-                alt="UPS"
-                src="/logo/logo-cap-dark.png"
-                class="absolute w-full h-full object-contain"
-              />
+              class="animate-about__item hidden md:inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]">
+              <nuxt-img format="webp" loading="lazy" width="173" height="78" alt="UPS" src="/logo/logo-cap-dark.png"
+                class="absolute w-full h-full object-contain" />
             </div>
 
-            <div class="space-y-1">
+            <div class="space-y-2">
               <h3
-                class="animate-about__item text-[24px] md:text-[32px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-[#000] text-center font-bold font-BG"
-              >
+                class="animate-about__item text-[28px] md:text-[32px] xl:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-[#000] text-center font-bold font-BG">
                 Giá trị cốt lõi
               </h3>
 
               <p
-                class="animate-about__item max-w-[685px] text-sm 2xl:text-base 3xl:text-xl text-[#000] text-center font-semibold"
-              >
+                class="animate-about__item max-w-[685px] text-base 2xl:text-base 3xl:text-xl text-[#000] text-center font-medium">
                 Những nguyên tắc cơ bản, những giá trị quan trọng mà UPS và các
                 thành viên cam kết thực hiện
               </p>
             </div>
+
+            <div class="md:hidden inline-flex mt-4">
+              <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info" target="_blank"
+                class="btn active group">
+                <span class="text-base"> Mở tài khoản ngay </span>
+                <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
+                  <i class="w-full h-full group-hover:inline-flex hidden absolute">
+                    <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
+                  </i>
+
+                  <i class="w-full h-full group-hover:hidden inline-flex absolute">
+                    <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
+                  </i>
+                </div>
+              </nuxt-link>
+            </div>
           </div>
 
           <div
-            class="card col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#0AB157] hover:border-[#fff] order-2 md:order-1"
-          >
+            class="card col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[16px] md:rounded-[24px] group border border-[#00C058] hover:border-[#fff] order-2 md:order-1">
             <div class="glow"></div>
-            <div
-              class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]"
-            >
+            <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
               <div
-                class="absolute -top-1/2 left-1/2 -translate-x-1/2 h-full w-12 xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]"
-              >
+                class="absolute -top-1/2 left-1/2 -translate-x-1/2 md:h-full w-[60px] h-[60px] xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
                 <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
-                  <nuxt-img
-                    format="webp"
-                    loading="lazy"
-                    width="44"
-                    height="44"
-                    alt="UPS"
-                    src="/about-us/value-01.svg"
-                    class="absolute w-full h-full object-contain"
-                  />
+                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/about-us/value-01.svg"
+                    class="absolute w-full h-full object-contain" />
                 </div>
               </div>
             </div>
             <div class="space-y-2 xl:space-y-4">
               <h4
-                class="text-base md:text-lg xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center leading-normal font-bold font-BG"
-              >
+                class="text-[24px] xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center leading-normal font-bold font-BG">
                 Sáng tạo
               </h4>
-              <p
-                class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center"
-              >
+              <p class="text-base font-medium 2xl:text-base 3xl:text-[18px] text-[#000] text-center">
                 Tiên phong trong công nghệ tài chính, mang đến giải pháp đầu tư
                 đột phá và khác biệt, giúp khách hàng trải nghiệm đầu tư một
                 cách dễ dàng và thú vị.
@@ -184,37 +167,23 @@
           </div>
 
           <div
-            class="card col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#0AB157] hover:border-[#fff] order-3"
-          >
+            class="card col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#00C058] hover:border-[#fff] order-3">
             <div class="glow"></div>
-            <div
-              class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]"
-            >
+            <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
               <div
-                class="absolute -top-1/2 left-1/2 -translate-x-1/2 h-full w-12 xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]"
-              >
-                <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
-                  <nuxt-img
-                    format="webp"
-                    loading="lazy"
-                    width="44"
-                    height="44"
-                    alt="UPS"
-                    src="/icons/shield-tick.svg"
-                    class="absolute w-full h-full object-contain"
-                  />
+                class="absolute -top-1/2 left-1/2 -translate-x-1/2 xl:h-full w-[60px] h-[60px] xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
+                <div class="relative inline-flex w-8 h-8 xl:w-11 xl:h-11">
+                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/icons/shield-tick.svg"
+                    class="absolute w-full h-full object-contain" />
                 </div>
               </div>
             </div>
             <div class="space-y-2 xl:space-y-4">
               <h4
-                class="text-base md:text-lg xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center leading-normal font-bold font-BG"
-              >
+                class="text-[24px] xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center leading-normal font-bold font-BG">
                 Tin cậy
               </h4>
-              <p
-                class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center"
-              >
+              <p class="text-base font-medium 2xl:text-base 3xl:text-[18px] text-[#000] text-center">
                 Xây dựng niềm tin vững chắc qua sự trung thực và minh bạch trong
                 mọi hoạt động, luôn đặt lợi ích và trải nghiệm của khách hàng
                 lên hàng đầu.
@@ -223,37 +192,23 @@
           </div>
 
           <div
-            class="card md:col-start-5 col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#0AB157] hover:border-[#fff] order-4"
-          >
+            class="card md:col-start-5 col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#00C058] hover:border-[#fff] order-4">
             <div class="glow"></div>
-            <div
-              class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]"
-            >
+            <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
               <div
-                class="absolute -top-1/2 left-1/2 -translate-x-1/2 h-full w-12 xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]"
-              >
+                class="absolute -top-1/2 left-1/2 -translate-x-1/2 h-full w-[60px] h-[60px] xl:w-[70px] 2xl:w-[80px] 3xl:w-[90px] inline-flex items-center justify-center rounded-full bg-[#0AB157] group-hover:shadow-[0_4px_36px_0_rgba(2,229,106,0.5)]">
                 <div class="relative inline-flex w-6 h-6 xl:w-11 xl:h-11">
-                  <nuxt-img
-                    format="webp"
-                    loading="lazy"
-                    width="44"
-                    height="44"
-                    alt="UPS"
-                    src="/icons/status-up.svg"
-                    class="absolute w-full h-full object-contain"
-                  />
+                  <nuxt-img format="webp" loading="lazy" width="44" height="44" alt="UPS" src="/icons/status-up.svg"
+                    class="absolute w-full h-full object-contain" />
                 </div>
               </div>
             </div>
             <div class="space-y-2 xl:space-y-4">
               <h4
-                class="text-base md:text-lg xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center leading-normal font-bold font-BG"
-              >
+                class="text-[24px] xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center leading-normal font-bold font-BG">
                 Hiệu quả
               </h4>
-              <p
-                class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center"
-              >
+              <p class="text-base font-medium 2xl:text-base 3xl:text-[18px] text-[#000] text-center">
                 Tập trung tối ưu hóa kết quả đầu tư, tạo ra giá trị thực và cộng
                 đồng đầu tư bền vững cho khách hàng.
               </p>
@@ -353,7 +308,7 @@
                     </h4>
 
                     <p
-                      class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
+                      class="text-base font-medium 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
                       Luôn dẫn đầu xu hướng, tạo ra sáng kiến giúp trải nghiệm đầu tư
                       dễ dàng và thú vị.
                     </p>
@@ -390,7 +345,7 @@
                       class="text-base md:text-lg xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center md:text-left font-bold font-BG">
                       Cởi mở & Đổi mới
                     </h4>
-                    <p class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-left">
+                    <p class="text-base font-medium 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-left">
                       Liên tục cập nhật và đổi mới, mang lại sự tươi mới trong hoạt
                       động và dịch vụ.
                     </p>
@@ -429,7 +384,7 @@
                     </h4>
 
                     <p
-                      class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
+                      class="text-base font-medium 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
                       Chú trọng nâng cao kiến thức và kỹ năng đầu tư tài chính cho
                       khách hàng.
                     </p>
@@ -466,7 +421,7 @@
                       class="text-base md:text-lg xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center md:text-left font-bold font-BG">
                       Truyền cảm hứng
                     </h4>
-                    <p class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-left">
+                    <p class="text-base font-medium 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-left">
                       Tối ưu hóa trải nghiệm người dùng, truyền cảm hứng về đầu tư tài
                       chính cá nhân.
                     </p>
@@ -505,7 +460,7 @@
                     </h4>
 
                     <p
-                      class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
+                      class="text-base font-medium 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-right xl:text-right">
                       Đặt lợi ích và trải nghiệm của khách hàng lên hàng đầu.
                     </p>
                   </div>
@@ -541,7 +496,7 @@
                       class="text-base md:text-lg xl:text-[20px] 2xl:text-[24] 3xl:text-[32px] text-black text-center md:text-left font-bold font-BG">
                       Khách hàng là trung tâm
                     </h4>
-                    <p class="text-sm 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-left">
+                    <p class="text-base font-medium 2xl:text-base 3xl:text-[18px] text-[#000] text-center md:text-left">
                       Đặt lợi ích và trải nghiệm của khách hàng lên hàng đầu.
                     </p>
                   </div>
@@ -616,68 +571,51 @@
     <!-- SECTION CHẶNG ĐƯỜNG PHÁT TRIỂN -->
     <section class="bg-[linear-gradient(81deg,#0E1F16_0.74%,#125933_87.97%)]">
       <div class="container">
-        <div
-          class="flex flex-wrap md:flex-nowrap gap-10 md:gap-0 pt-10 md:pt-[60px] xl:pt-[100px] divide-x-[1px] divide-[#01C159]"
-        >
+        <div class="flex flex-wrap md:flex-nowrap gap-[46px] md:gap-0 pt-10 md:pt-[60px] xl:pt-[100px] ">
+
           <div class="basis-full md:basis-1/2">
             <div
-              class="animate-about__item relative w-[100px] md:w-[100px] lg:w-[134px] 2xl:w-[150px] 3xl:w-[200px] pt-[14%]"
-            >
-              <nuxt-img
-                format="webp"
-                loading="lazy"
-                height="78"
-                alt="UPS"
-                src="/logo/logo-cap-light.png"
-                class="absolute top-0 left-0 w-full h-full object-contain"
-              />
+              class="animate-about__item hidden md:block relative w-[100px] md:w-[100px] lg:w-[134px] 2xl:w-[150px] 3xl:w-[200px] pt-[14%]">
+              <nuxt-img format="webp" loading="lazy" height="78" alt="UPS" src="/logo/logo-cap-light.png"
+                class="absolute top-0 left-0 w-full h-full object-contain" />
             </div>
 
             <h3
-              class="text-[24px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-BG font-semibold leading-tight space-x-2 md:space-x-0 mt-2"
-            >
+              class="text-[28px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] font-BG font-bold leading-tight md:space-x-0 mt-2">
               <span class="text-white">Chặng đường</span>
-              <span class="inline-block md:block text-green-ups"
-                >phát triển</span
-              >
+              <span class="block text-green-ups">phát triển</span>
             </h3>
           </div>
 
           <div
-            class="basis-full md:basis-1/2 flex flex-col gap-12 relative pb-10 md:pb-[60px] xl:pb-[100px]"
-          >
-            <div class="group">
-              <div
-                :class="
-                  cn(
-                    'absolute top-0 left-0 translate-x-[-50%] w-3 xl:w-[18px] h-3 xl:h-[18px] rounded-[4px] bg-[#01C159] group-hover:shadow-[0_0_32px_0_#00FF75]',
-                    {
-                      '': 1 == 1,
-                    }
-                  )
-                "
-              ></div>
+            class="basis-full md:basis-1/2 flex flex-col gap-4 md:gap-12 relative pb-[128px] md:pb-[60px] xl:pb-[100px]">
+            <div
+              class="absolute top-0 left-0 -translate-x-1/2 w-[1px] h-full bg-gradient-to-b from-transparent from-[5%] via-[#01C159] via-[5%] to-[#01C159] md:to-[#005B2A]/0">
 
-              <div class="ml-8 max-w-full xl:max-w-[70%]">
+            </div>
+
+            <div class="relative group">
+              <div :class="cn(
+                'absolute top-[11px] xl:top-[9px] 2xl:top-[12px] 3xl:top-[20px] left-0 translate-x-[-50%] w-3 xl:w-[18px] h-3 xl:h-[18px] rounded-[4px] bg-[#01C159] group-hover:shadow-[0_0_32px_0_#00FF75]',
+                {
+                  '': 1 == 1,
+                }
+              )
+                "></div>
+
+              <div class="ml-[25px] md:ml-8 max-w-full xl:max-w-[70%]">
                 <p
-                  class="text-[24px] 2xl:text-[30px] 3xl:text-[40px] text-white font-BG font-semibold leading-[0.6] group-hover:text-[41px]"
-                >
+                  class="text-[24px] 2xl:text-[30px] 3xl:text-[40px] text-white font-BG font-semibold group-hover:text-[41px]">
                   2024
                 </p>
-                <h5
-                  class="mt-4 text-[14px] md:text-xs 2xl:text-base 3xl:text-[18px] text-white font-bold"
-                >
+                <h5 class="mt-1 text-[16px] 2xl:text-base 3xl:text-[18px] text-white font-semibold">
                   Thay đổi logo và hệ thống nhận diện mới
                 </h5>
-                <h5
-                  class="mt-2 text-[14px] md:text-xs 2xl:text-base 3xl:text-[18px] text-white font-bold"
-                >
+                <h5 class="mt-1 text-[16px] 2xl:text-base 3xl:text-[18px] text-white font-semibold">
                   Đổi tên thành Công ty CP Chứng khoán UP (UPS)
                 </h5>
 
-                <p
-                  class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium"
-                >
+                <p class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium">
                   <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt. Lorem ipsum dolor sit amet,
                   consectetur adipiscing elit, sed do eiusmod tempor incididunt -->
@@ -686,32 +624,24 @@
             </div>
 
             <div class="relative group">
-              <div
-                :class="
-                  cn(
-                    'absolute top-0 left-0 translate-x-[-50%] w-3 xl:w-[18px] h-3 xl:h-[18px] rounded-[4px] bg-[#01C159] group-hover:shadow-[0_0_32px_0_#00FF75]',
-                    {
-                      '': 1 == 1,
-                    }
-                  )
-                "
-              ></div>
-              <div class="ml-8 max-w-full xl:max-w-[70%]">
+              <div :class="cn(
+                'absolute top-[11px] xl:top-[9px] 2xl:top-[12px] 3xl:top-[20px] left-0 translate-x-[-50%] w-3 xl:w-[18px] h-3 xl:h-[18px] rounded-[4px] bg-[#01C159] group-hover:shadow-[0_0_32px_0_#00FF75]',
+                {
+                  '': 1 == 1,
+                }
+              )
+                "></div>
+              <div class="ml-[25px] md:ml-8 max-w-full xl:max-w-[70%]">
                 <p
-                  class="text-[24px] 2xl:text-[30px] 3xl:text-[40px] text-white font-BG font-semibold leading-[0.6] group-hover:text-[41px]"
-                >
+                  class="text-[24px] 2xl:text-[30px] 3xl:text-[40px] text-white font-BG font-semibold group-hover:text-[41px]">
                   2009
                 </p>
-                <h5
-                  class="mt-4 text-[14px] md:text-xs 2xl:text-base 3xl:text-[18px] text-white font-bold"
-                >
+                <h5 class="mt-1 text-[16px] 2xl:text-base 3xl:text-[18px] text-white font-semibold">
                   Lọt vào TOP 5 những công ty chứng khoán có thị phần môi giới
                   lớn trên Sở Giao dịch chứng khoán Hà Nội
                 </h5>
 
-                <p
-                  class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium"
-                >
+                <p class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium">
                   <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt. Lorem ipsum dolor sit amet,
                   consectetur adipiscing elit, sed do eiusmod tempor incididunt -->
@@ -720,31 +650,23 @@
             </div>
 
             <div class="relative group">
-              <div
-                :class="
-                  cn(
-                    'absolute top-0 left-0 translate-x-[-50%] w-3 xl:w-[18px] h-3 xl:h-[18px] rounded-[4px] bg-[#01C159] group-hover:shadow-[0_0_32px_0_#00FF75]',
-                    {
-                      '': 1 == 1,
-                    }
-                  )
-                "
-              ></div>
-              <div class="ml-8 max-w-full xl:max-w-[70%]">
+              <div :class="cn(
+                'absolute top-[11px] xl:top-[9px] 2xl:top-[12px] 3xl:top-[20px] left-0 translate-x-[-50%] w-3 xl:w-[18px] h-3 xl:h-[18px] rounded-[4px] bg-[#01C159] group-hover:shadow-[0_0_32px_0_#00FF75]',
+                {
+                  '': 1 == 1,
+                }
+              )
+                "></div>
+              <div class="ml-[25px] md:ml-8 max-w-full xl:max-w-[70%]">
                 <p
-                  class="text-[24px] 2xl:text-[30px] 3xl:text-[40px] text-white font-BG font-semibold leading-[0.6] group-hover:text-[41px]"
-                >
+                  class="text-[24px] 2xl:text-[30px] 3xl:text-[40px] text-white font-BG font-semibold group-hover:text-[41px]">
                   2007
                 </p>
-                <h5
-                  class="mt-4 text-[14px] md:text-xs 2xl:text-base 3xl:text-[18px] text-white font-bold"
-                >
-                Công ty CP Chứng khoán Quốc Tế Hoàng Gia (IRS)
+                <h5 class="mt-1 text-[16px] 2xl:text-base 3xl:text-[18px] text-white font-semibold">
+                  Công ty CP Chứng khoán Quốc Tế Hoàng Gia (IRS)
                 </h5>
 
-                <p
-                  class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium"
-                >
+                <p class="mt-2 text-sm md:text-base xl:text-lg text-[rgba(255,255,255,0.79)] font-medium">
                   <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt. Lorem ipsum dolor sit amet,
                   consectetur adipiscing elit, sed do eiusmod tempor incididunt -->
@@ -758,60 +680,35 @@
 
     <!-- SECTION CHỨNG CHỈ VÀ GIẤY PHÉP -->
     <section class="container">
-      <div class="flex lg:hidden flex-col items-center mt-12">
+      <div class="flex lg:hidden flex-col items-center mt-[52px]">
         <div
-          class="animate-about__item relative inline-flex items-center justify-center w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]"
-        >
-          <nuxt-img
-            format="webp"
-            loading="lazy"
-            height="78"
-            alt="UPS"
-            src="/logo/logo-cap-dark.png"
-            class="absolute w-full h-full object-contain"
-          />
+          class="animate-about__item relative hidden md:inline-flex items-center justify-center w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]">
+          <nuxt-img format="webp" loading="lazy" height="78" alt="UPS" src="/logo/logo-cap-dark.png"
+            class="absolute w-full h-full object-contain" />
         </div>
 
         <h4
-          class="text-center text-[24px] md:text-[32px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[60px] font-semibold font-BG leading-tight mt-2"
-        >
+          class="text-center text-[28px] md:text-[32px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[60px] font-bold font-BG leading-tight md:mt-2">
           Chứng chỉ
-          <span class="text-green-ups">và giấy phép</span>
+          <span class="block md:inline-block text-green-ups">và giấy phép</span>
         </h4>
 
-        <p
-          class="mt-4 text-center text-xs md:text-sm 3xl:text-lg text-[#000] font-medium"
-        >
+        <p class="mt-4 text-center text-base 3xl:text-lg text-[#000] font-medium">
           Chúng tôi luôn nỗ lực không ngừng để đạt được những mục tiêu đầy tham
           vọng và tạo ra những giá trị lâu dài
         </p>
 
-        <div class="animate-about__item inline-flex mt-6">
-          <nuxt-link
-            target="_blank"
-            to="http://api.upse.vn/assets/d0ddc150-6ab3-40d3-9996-eba9abe8800b"
-            class="btn active group"
-          >
-            <span> Xem tại đây </span>
+        <div class="animate-about__item hidden md:inline-flex mt-6">
+          <nuxt-link target="_blank" to="http://api.upse.vn/assets/d0ddc150-6ab3-40d3-9996-eba9abe8800b"
+            class="btn active group">
+            <span class="text-base"> Xem tại đây </span>
             <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
               <i class="w-full h-full group-hover:inline-flex hidden absolute">
-                <nuxt-img
-                  src="/icons/arrow-dark-icon.svg"
-                  loading="lazy"
-                  width="16"
-                  height="16"
-                  alt="UPS"
-                />
+                <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
               </i>
 
               <i class="w-full h-full group-hover:hidden inline-flex absolute">
-                <nuxt-img
-                  src="/icons/arrow-icon.svg"
-                  loading="lazy"
-                  width="16"
-                  height="16"
-                  alt="UPS"
-                />
+                <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
               </i>
             </div>
           </nuxt-link>
@@ -819,40 +716,22 @@
       </div>
 
       <div
-        class="py-12 md:py-[40px] 2xl:py-[120px] xl:py-[100px] lg:py-[80px] 3xl:py-[160px] hidden md:grid gap-x-6 gap-y-8 lg:gap-x-8 xl:gap-y-16 grid-cols-2 lg:grid-cols-3"
-      >
-        <div
-          class="relative w-full rounded-[7px] md:rounded-[14px] overflow-hidden group"
-        >
-          <nuxt-img
-            format="webp"
-            loading="lazy"
-            alt="UPS"
-            src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
-            class="absolute top-0 left-0 w-full h-full object-contain transition-all duration-300 group-hover:scale-110"
-          />
+        class="py-12 md:py-[40px] 2xl:py-[120px] xl:py-[100px] lg:py-[80px] 3xl:py-[160px] hidden md:grid gap-x-6 gap-y-8 lg:gap-x-8 xl:gap-y-16 grid-cols-2 lg:grid-cols-3">
+        <div class="relative w-full rounded-[7px] md:rounded-[14px] overflow-hidden group">
+          <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
+            class="absolute top-0 left-0 w-full h-full object-contain transition-all duration-300 group-hover:scale-110" />
         </div>
 
-        <div
-          class="relative w-full rounded-[7px] md:rounded-[14px] overflow-hidden group"
-        >
-          <nuxt-img
-            format="webp"
-            loading="lazy"
-            alt="UPS"
-            src="/images/chung-chi-2.png"
-            class="w-full h-full object-contain transition-all duration-300 group-hover:scale-110"
-          />
+        <div class="relative w-full rounded-[7px] md:rounded-[14px] overflow-hidden group">
+          <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/chung-chi-2.png"
+            class="w-full h-full object-contain transition-all duration-300 group-hover:scale-110" />
         </div>
 
-        <div
-          class="relative w-full hidden lg:flex flex-col items-end justify-center group"
-        >
+        <div class="relative w-full hidden lg:flex flex-col items-end justify-center group">
           <!-- <nuxt-img format="webp" loading="lazy" alt="UPS" width="130" height="60" src="/logo/logo-cap-dark.png" /> -->
 
           <h4
-            class="text-right text-[40px] md:text-[32px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[60px] font-semibold font-BG leading-tight"
-          >
+            class="text-right text-[40px] md:text-[32px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[60px] font-semibold font-BG leading-tight">
             <span class="text-black">Chứng chỉ</span>
             <br />
             <span class="text-green-ups">và giấy phép</span>
@@ -864,35 +743,16 @@
           </p>
 
           <div class="animate-about__item inline-flex my-6">
-            <nuxt-link
-              target="_blank"
-              to="https://ups.truecms.io/assets/9ac5cc6e-b1a6-441f-8f68-35980b760930"
-              class="btn active group"
-            >
+            <nuxt-link target="_blank" to="https://ups.truecms.io/assets/9ac5cc6e-b1a6-441f-8f68-35980b760930"
+              class="btn active group">
               <span> Xem tại đây </span>
               <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
-                <i
-                  class="w-full h-full group-hover:inline-flex hidden absolute"
-                >
-                  <nuxt-img
-                    src="/icons/arrow-dark-icon.svg"
-                    loading="lazy"
-                    width="16"
-                    height="16"
-                    alt="UPS"
-                  />
+                <i class="w-full h-full group-hover:inline-flex hidden absolute">
+                  <nuxt-img src="/icons/arrow-dark-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
                 </i>
 
-                <i
-                  class="w-full h-full group-hover:hidden inline-flex absolute"
-                >
-                  <nuxt-img
-                    src="/icons/arrow-icon.svg"
-                    loading="lazy"
-                    width="16"
-                    height="16"
-                    alt="UPS"
-                  />
+                <i class="w-full h-full group-hover:hidden inline-flex absolute">
+                  <nuxt-img src="/icons/arrow-icon.svg" loading="lazy" width="16" height="16" alt="UPS" />
                 </i>
               </div>
             </nuxt-link>
@@ -900,18 +760,12 @@
         </div>
       </div>
 
-      <div class="block md:hidden py-8">
-        <swiper
-          :modules="[SwiperNavigation]"
-          :pagination="true"
-          :slides-per-view="1.2"
-          :loop="false"
-          :speed="800"
-          :space-between="12"
-          :breakpoints="{
+      <div class="hidden md:block pt-8 pb-12 md:py-8">
+        <swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1.2" :loop="false" :speed="800"
+          :space-between="16" :breakpoints="{
             480: {
               slidesPerView: 1.2,
-              spaceBetween: 12,
+              spaceBetween: 16,
             },
             768: {
               slidesPerView: 1.2,
@@ -925,22 +779,21 @@
               slidesPerView: 2.5,
               spaceBetween: 40,
             },
-          }"
-        >
+          }">
           <swiper-slide v-for="i in 5" :key="i">
             <div
-              class="w-full h-[210px] md:h-[210px] xl:h-[396px] rounded-[7px] md:rounded-[14px] overflow-hidden group"
-            >
-              <nuxt-img
-                format="webp"
-                loading="lazy"
-                alt="UPS"
-                src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
-                class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-              />
+              class="w-full h-[210px] md:h-[210px] xl:h-[396px] rounded-[8px] md:rounded-[14px] overflow-hidden group">
+              <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
+                class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
             </div>
           </swiper-slide>
         </swiper>
+      </div>
+      <div class="block md:hidden pt-8 pb-12 md:py-8">
+        <div class="w-full h-[210px] md:h-[210px] xl:h-[396px] rounded-[8px] md:rounded-[14px] overflow-hidden group">
+          <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
+            class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
+        </div>
       </div>
     </section>
   </div>
@@ -1026,7 +879,7 @@ export default defineComponent({
   align-items: flex-start;
   width: 100%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 16px;
   transition: border-color 0.3s ease-in-out;
 }
 
@@ -1043,12 +896,10 @@ export default defineComponent({
   background: conic-gradient(from 90deg at 50% 50%, #02e56a, #ffffff);
   background-attachment: fixed;
   mask: linear-gradient(#0000, #0000),
-    conic-gradient(
-      from calc((var(--start) - (20 * 1.1)) * 1deg),
+    conic-gradient(from calc((var(--start) - (20 * 1.1)) * 1deg),
       #ffffff1f 0deg,
       white,
-      #ffffff00 100deg
-    );
+      #ffffff00 100deg);
   mask-composite: intersect;
   mask-clip: padding-box, border-box;
   opacity: 0;
@@ -1079,19 +930,17 @@ export default defineComponent({
   background: conic-gradient(from 90deg at 50% 50%, #02e56a, #ffffff);
   background-attachment: fixed;
   mask: linear-gradient(#0000, #0000),
-    conic-gradient(
-      from calc((var(--start) - (20 * 1.1)) * 1deg),
+    conic-gradient(from calc((var(--start) - (20 * 1.1)) * 1deg),
       #ffffff1f 0deg,
       white,
-      #ffffff00 100deg
-    );
+      #ffffff00 100deg);
   mask-composite: intersect;
   mask-clip: padding-box, border-box;
   opacity: 0;
   transition: 1s ease;
 }
 
-.card:hover > .glow::before {
+.card:hover>.glow::before {
   opacity: 1;
 }
 

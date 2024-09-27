@@ -11,7 +11,7 @@
 		<!--@@@ MAIN -->
 		<div
 			id="smooth-content"
-			class="mt-[108px]"
+			class="mt-[115px]"
 		>
 			<slot />
 		</div>

@@ -1,14 +1,19 @@
 <template>
-  <section class="py-10 xl:pt-[120px] xl:pb-[60px] bg-[#EDEDF4]">
+  <section class="pt-10 pb-[70px] md:py-10 xl:pt-[120px] xl:pb-[60px] bg-[#EDEDF4]">
     <div class="container">
       <div class="grid grid-cols-5 gap-4 flex-col md:flex-row">
         <div class="col-span-5 xl:col-span-2">
           <div class="flex items-end">
             <h2
-              class="animate-ups__item text-[32px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[76px] font-semibold font-BG text-black">
+              class="animate-ups__item hidden xl:block text-[28px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[76px] font-bold font-BG text-black leading-[1.3]">
               <span>Ban</span>
               <br />
-              <span class="text-[#01C159]">Điều hành</span>
+              <span class="text-[#01C159]">điều hành</span>
+            </h2>
+
+            <h2
+              class="animate-ups__item block xl:hidden text-[28px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[76px] font-bold font-BG text-black leading-[1.3]">
+              Ban <span class="text-[#01C159]">điều hành</span>
             </h2>
 
             <!-- <div
@@ -27,7 +32,7 @@
           </div>
 
           <p
-            class="animate-ups__item max-w-full md:max-w-[380px] xl:max-w-[380px] text-xs md:text-sm 3xl:text-lg text-black font-medium mt-3 md:mt-4 xl:mt-5">
+            class="animate-ups__item max-w-full md:max-w-[380px] xl:max-w-[380px] text-base 3xl:text-lg text-black font-medium mt-3 md:mt-4 xl:mt-5">
             Chúng tôi luôn nỗ lực không ngừng để đạt được những mục tiêu đầy
             tham vọng và tạo ra những giá trị lâu dài
           </p>
@@ -41,15 +46,15 @@
                 class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
             </div>
 
-            <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
+            <div class="absolute bottom-0 left-0 right-0 p-[16px_12px] md:p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
               <div class="">
-                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
+                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" class="w-4 h-4 md:w-6 md:h-6" />
               </div>
 
-              <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
+              <p class="mt-2 text-base text-white font-medium">
                 Tổng giám đốc
               </p>
-              <h4 class="mt-3 text-[16px] md:text-[14px] xl:text-[16px] 3xl:text-xl text-white font-semibold font-BG">
+              <h4 class="mt-1 text-[18px] md:text-[14px] xl:text-[16px] 3xl:text-xl text-white font-semibold font-BG">
                 Ông Nguyễn Quang Đạt
               </h4>
             </div>
@@ -62,15 +67,15 @@
                 class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
             </div>
 
-            <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
+            <div class="absolute bottom-0 left-0 right-0 p-[16px_12px] md:p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
               <div class="">
-                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
+                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" class="w-4 h-4 md:w-6 md:h-6" />
               </div>
 
-              <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
+              <p class="mt-2 text-base text-white font-medium">
                 Phó Tổng giám đốc
               </p>
-              <h4 class="mt-3 text-[14px] 2xl:text-[16] 3xl:text-xl text-white font-semibold font-BG">
+              <h4 class="mt-1 text-[18px] md:text-[14px] xl:text-[16px] 3xl:text-xl text-white font-semibold font-BG">
                 Ông Trần Đức Nam
               </h4>
             </div>
@@ -83,23 +88,23 @@
                 class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
             </div>
 
-            <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
+            <div class="absolute bottom-0 left-0 right-0 p-[16px_12px] md:p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
               <div class="">
-                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
+                <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" class="w-4 h-4 md:w-6 md:h-6" />
               </div>
 
-              <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
+              <p class="mt-2 text-base text-white font-medium">
                 Giám đốc tài chính
               </p>
-              <h4 class="mt-3 text-[14px] 2xl:text-[16] 3xl:text-xl text-white font-semibold font-BG">
+              <h4 class="mt-1 text-[18px] md:text-[14px] xl:text-[16px] 3xl:text-xl text-white font-semibold font-BG">
                 Ông Trần Văn Chiến
               </h4>
             </div>
           </div>
         </div>
 
-        <div class="col-span-5 block md:hidden xl:hidden mt-10 w-full h-[350px] flex-none">
-          <swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1" :loop="false" :speed="800"
+        <div class="col-span-5 block md:hidden xl:hidden mt-[30px] md:mt-10 w-full h-[350px] flex-none">
+          <swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1.4" :loop="false" :speed="800"
             :space-between="12" :breakpoints="{
               480: {
                 slidesPerView: 1,
@@ -119,24 +124,24 @@
               },
             }">
             <swiper-slide>
-              <div class="animate-ups__item w-full h-[380px] relative group overflow-hidden">
+              <div class="animate-ups__item w-full h-[371px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepdat.png"
-                    class="w-full  object-cover transition-all duration-300 object-center " />
+                    class="w-full object-cover transition-all duration-300 object-center " />
                 </div>
                 <div
                   class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
 
                 </div>
-                <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
+                <div class="absolute bottom-0 left-0 right-0 p-[16px_12px] md:p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
                   <div class="">
-                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
+                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" class="w-4 h-4 md:w-6 md:h-6" />
                   </div>
 
-                  <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
+                  <p class="mt-2 text-base text-white font-medium">
                     Tổng giám đốc
                   </p>
-                  <h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
+                  <h4 class="mt-1 text-lg xl:text-xl text-white font-bold font-BG">
                     Ông Nguyễn Quang Đạt
                   </h4>
                 </div>
@@ -144,7 +149,7 @@
             </swiper-slide>
 
             <swiper-slide>
-              <div class="animate-ups__item w-full h-[380px] relative group overflow-hidden">
+              <div class="animate-ups__item w-full h-[371px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepnam.png"
                     class="w-full  object-cover transition-all duration-300 object-center" />
@@ -153,22 +158,22 @@
                   class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
 
                 </div>
-                <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
+                <div class="absolute bottom-0 left-0 right-0 p-[16px_12px] md:p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
                   <div class="">
-                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
+                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" class="w-4 h-4 md:w-6 md:h-6" />
                   </div>
 
-                  <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
+                  <p class="mt-2 text-base text-white font-medium">
                     Phó Tổng giám đốc
                   </p>
-                  <h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
+                  <h4 class="mt-1 text-lg xl:text-xl text-white font-bold font-BG">
                     Ông Trần Đức Nam
                   </h4>
                 </div>
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="animate-ups__item w-full h-[380px] relative group overflow-hidden">
+              <div class="animate-ups__item w-full h-[371px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepchien.png"
                     class="w-full  object-cover transition-all duration-300 object-center" />
@@ -177,15 +182,15 @@
                   class="absolute h-[110px] w-full bg-[linear-gradient(180deg,rgba(0,0,0,0.00)_8.9%,#000_100%)] bottom-0">
 
                 </div>
-                <div class="absolute bottom-0 left-0 right-0 p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
+                <div class="absolute bottom-0 left-0 right-0 p-[16px_12px] md:p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
                   <div class="">
-                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" />
+                    <nuxt-img format="webp" loading="lazy" height="24" alt="UPS" src="/logo/logo-row.svg" class="w-4 h-4 md:w-6 md:h-6" />
                   </div>
 
-                  <p class="mt-2 text-sm md:tex-xs 2xl:text-[14px] text-white font-medium">
+                  <p class="mt-2 text-base text-white font-medium">
                     Giám đốc tài chính
                   </p>
-                  <h4 class="mt-3 text-base xl:text-xl text-white font-semibold font-BG">
+                  <h4 class="mt-1 text-lg xl:text-xl text-white font-bold font-BG">
                     Ông Trần Văn Chiến
                   </h4>
                 </div>

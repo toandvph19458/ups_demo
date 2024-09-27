@@ -14,7 +14,7 @@
 				</div>
 			</div>
 		</DrawerTrigger>
-		<DrawerContent class="z-[101] mt-[94px] md:mt-[84px] xl:mt-[90px] border rounded-none border-none block xl:hidden top-0">
+		<DrawerContent class="z-[101] mt-[64px] md:mt-[84px] xl:mt-[90px] border rounded-none border-none block xl:hidden top-0">
 			<div
 				class="w-full h-[calc(100vh-64px)] md:h-[calc(100vh-84px)] xl:h-[calc(100vh-90px)] px-6 pb-10 relative"
 			>
