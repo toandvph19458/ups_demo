@@ -22,7 +22,7 @@
 			</div>
 
 			<div
-				class="py-5 xl:py-8 flex flex-wrap gap-3 md:gap-10 xl:gap-10 items-start xl:items-center justify-center"
+				class="py-2 md:py-5 xl:py-8 flex flex-wrap gap-3 md:gap-10 xl:gap-10 items-start xl:items-center justify-center"
 			>
 				<nuxt-link
 					:to="`/tin-tuc`"
@@ -49,7 +49,7 @@
 					>
 						<div class="p-5 md:py-4 md:px-8 lg:p-8 xl:p-10 2xl:p-[45px] 3xl:px-[60px] 3xl:py-[40px]">
 							<div
-								class="animate-about__item relative w-[50px] md:w-[80px] 2xl:w-[150px] 3xl:w-[200px] pt-[14%]"
+								class="animate-about__item relative w-[70px] md:w-[80px] 2xl:w-[150px] 3xl:w-[200px] pt-[14%]"
 							>
 								<nuxt-img
 									format="webp"
@@ -62,7 +62,7 @@
 							</div>
 
 							<h3
-								class="md:mt-2 text-base xl:text-xl 2xl:text-[24px] 3xl:text-[32px] text-white font-medium font-BG 3xl:leading-[2.5rem]"
+								class="md:mt-2 text-lg xl:text-xl 2xl:text-[24px] 3xl:text-[32px] text-white font-bold font-BG 3xl:leading-[2.5rem]"
 							>
 								{{ data?.dataNews?.posts[0]?.short_content?.title }}
 							</h3>
@@ -71,7 +71,7 @@
 								class="w-[140px] h-[1px] bg-[#02E56A] my-3 md:my-5 lg:my-[28px] xl:my-[34px] 2xl:my-[40px] 3xl:my-[60px]"
 							></div>
 
-							<p class="text-sm xl:text-sm 2xl:text-base 3xl:text-xl text-[#8A8C95] font-medium">
+							<p class="text-base 2xl:text-base 3xl:text-xl text-[#8A8C95] font-medium">
 								{{ data?.dataNews?.posts[0]?.short_content?.blurb }}
 							</p>
 
@@ -79,7 +79,7 @@
 								:to="`/tin-tuc/${data?.dataNews?.posts[0]?.short_content?.slug}`"
 								class="mt-4 3xl:mt-8 inline-flex gap-3 items-center text-sm xl:text-base font-semibold text-white hover:underline"
 							>
-								<span>Xem chi tiết</span>
+								<span class="text-base font-bold">Xem chi tiết</span>
 								<i>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
@@ -107,18 +107,20 @@
 							<img
 								:src="config.NUXT_APP_IMAGE_URL + data?.dataNews?.posts[0]?.short_content?.cover?.id"
 								:alt="data?.dataNews?.posts[0]?.short_content?.title"
-								class="w-full h-full absolute top-0 left-0 object-contain md:object-cover"
+								class="w-full h-full absolute top-0 left-0 object-cover md:object-cover"
 							/>
 							<!-- <nuxt-img format="webp" loading="lazy" width="173" height="78" alt="UPS"
 								src="/background/bg-gioi-thieu.png"
 								class="absolute top-0 left-0 w-full h-full object-cover" /> -->
 						</div>
 					</div>
+					
+
 				</div>
 			</div>
 
-			<div class="grid grid-cols-12 gap-0 md:gap-8 lg:gap-10 xl:gap-[60px] 2xl:gap-[68px] 3xl:gap-[90px] py-10">
-				<div class="col-span-full md:col-span-8 lg:col-span-9">
+			<div class="grid grid-cols-12 gap-0 md:gap-8 lg:gap-10 xl:gap-[60px] 2xl:gap-[68px] 3xl:gap-[90px] pt-10 pb-0 md:py-10 md:pb-0 lg:py-10">
+				<div class="col-span-full md:col-span-full lg:col-span-9">
 					<!-- HASTAG -->
 					<div class="hidden md:flex flex-wrap gap-6 pb-10">
 						<p
@@ -138,7 +140,7 @@
 					<div class="flex flex-col md:flex-row justify-between gap-3 md:gap-0">
 						<div class="flex items-center">
 							<h4
-								class="text-[20px] xl:text-[26px] 2xl:text-[30px] 3xl:text-[40px] font-semibold font-BG"
+								class="text-[28px] 2xl:text-[30px] 3xl:text-[40px] font-bold font-BG"
 							>
 								Tin
 								<span class="text-green-ups">hàng ngày</span>
@@ -175,7 +177,7 @@
 									</svg>
 								</i>
 								<nuxt-input
-									class="w-full h-[36px] 3xl:h-[50px] pl-3 pr-6 text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-sm 2xl:placeholder:text-base"
+									class="w-full h-[36px] 3xl:h-[50px] pl-3 pr-6 text-base text-black border-none border-b border-[1px] border-[#ccc] focus:ring-0 ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 placeholder:text-[#ADB2C0] placeholder:text-base"
 									placeholder="Tìm kiếm"
 									name="fullname"
 									v-model="keyword"
@@ -275,7 +277,7 @@
 												</svg>
 											</i>
 
-											<span class="text-[#ADB2C0] text-sm 2xl:text-base">
+											<span class="text-[#ADB2C0] text-base">
 												{{
 													date
 														? moment(date.toDate(getLocalTimeZone())).format("YYYY-MM-DD")
@@ -297,12 +299,13 @@
 								</Popover>
 							</div>
 
-							<div
-								class="basis-full md:basis-6/12 xl:basis-5/12 btn active inline-flex items-center justify-center cursor-pointer max-w-max"
+							<!-- <div
+								class="mt-3 basis-full md:basis-6/12 xl:basis-5/12 btn active inline-flex items-center justify-center cursor-pointer max-w-max !text-base !font-bold"
 								@click="handleReset"
+
 							>
 								Xóa bộ lọc
-							</div>
+							</div> -->
 						</div>
 					</div>
 
@@ -314,24 +317,24 @@
 							class="grid grid-cols-12 gap-3 md:gap-4 xl:gap-[18px] 2xl:gap-5 3xl:gap-[30px] group"
 						>
 							<div
-								class="col-span-full md:col-span-6 lg:col-span-4 h-[220px] md:h-auto md:max-h-min relative rounded-[14px] overflow-hidden"
+								class="col-span-full md:col-span-5 2xl:col-span-4 w-full pt-[66%] md:pt-0 md:h-auto relative rounded-[14px] overflow-hidden"
 							>
 								<nuxt-img
 									:alt="doc?.short_content?.title"
 									:src="config.NUXT_APP_IMAGE_URL + doc?.short_content?.cover?.id"
-									class="absolute w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
+									class="absolute top-0 left-0 w-full h-full transition-all duration-300 group-hover:scale-110"
 								/>
 							</div>
 
 							<div
-								class="col-span-full md:col-span-6 lg:col-span-8 w-full flex flex-col gap-[8px] md:gap-[10px] xl:gap-[14px] 2xl:gap-4 3xl:gap-5"
+								class="col-span-full md:col-span-7 2xl:col-span-8 w-full flex flex-col gap-[8px] md:gap-[10px] xl:gap-[14px] 2xl:gap-4 3xl:gap-5"
 							>
 								<div class="flex items-center gap-3">
 									<template v-if="doc?.short_content?.tags.length > 0">
 										<p
 											v-for="(sub, k) in doc?.short_content?.tags"
 											:key="k"
-											class="text-sm 2xl:text-base 3xl:text-lg text-[#00C645] font-medium"
+											class="text-base 3xl:text-lg text-[#00C645] font-medium"
 										>
 											{{ `#${sub?.tag.title}` }}
 										</p>
@@ -339,7 +342,7 @@
 								</div>
 
 								<h3
-									class="text-sm xl:text-base 2xl:text-lg 3xl:text-2xl text-black font-semibold line-clamp-2"
+									class="text-lg 3xl:text-2xl text-black font-bold line-clamp-2"
 								>
 									{{ doc?.short_content?.title }}
 								</h3>
@@ -370,12 +373,12 @@
 										</svg>
 									</i>
 
-									<span class="text-sm 2xl:text-sm 3xl:text-lg text-[#696B75] font-semibold">
+									<span class="text-base 3xl:text-lg text-[#696B75] font-medium">
 										{{ doc?.short_content?.date_published }}
 									</span>
 								</div>
 
-								<p class="text-sm 2xl:text-sm 3xl:text-[20px] text-black font-normal line-clamp-2">
+								<p class="text-base 3xl:text-[20px] text-black font-medium line-clamp-2">
 									{{ doc?.short_content?.blurb }}
 								</p>
 
@@ -383,7 +386,7 @@
 									:to="`/tin-tuc/${doc?.short_content?.slug}`"
 									class="inline-flex gap-5 items-center text-sm md:text-base text-black font-bold"
 								>
-									<span> Xem chi tiết </span>
+									<span class="text-base font-bold"> Xem chi tiết </span>
 
 									<i>
 										<svg
@@ -458,7 +461,7 @@
 					</div>
 				</div>
 
-				<div class="col-span-full md:col-span-4 lg:col-span-3 flex flex-col gap-[60px]">
+				<div class="flex flex-col-reverse md:hidden lg:flex col-span-full md:col-span-4 lg:col-span-3 md:flex-col gap-[64px]">
 					<div
 						class="w-full px-6 py-10 rounded-[14px] bg-[linear-gradient(71deg,#15171E_28.57%,#125933_88.27%)]"
 					>
@@ -513,62 +516,6 @@
 						</div>
 					</div>
 
-					<!-- TIN TỨC LIÊN QUAN -->
-					<!-- <div class="mt-[60px]">
-						<div
-							v-for="i in 3"
-							:key="i"
-							class="py-8 border-t border-[#ccc]"
-						>
-							<h4 class="text-base md:text-[24px] text-black font-BG font-semibold line-clamp-3">
-								Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina
-							</h4>
-							<p class="mt-4 text-sm md:text-[20px] text-[#696B75] line-clamp-3 font-medium">
-								Ông Trump nói về lạm phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina
-							</p>
-						</div>
-					</div> -->
-
-					<!-- <div class="flex flex-col gap-4 2xl:gap-5 3xl:gap-[30px]">
-						<div
-							class="pb-4 2xl:pb-5 3xl:pb-[30px] border-b-[1px] border-[#DFDFDF] flex flex-col gap-[10px] xl:gap-3 2xl:gap-4 3xl:gap-5">
-							<div class="font-semibold text-sm xl:text-base 2xl:text-lg 3xl:text-2xl">Ông Trump nói về
-								lạm phát, chỉ
-								trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina</div>
-							<div class="font-medium text-[#696B75] text-sm md:text-sm 2xl:text-base 3xl:text-xl">Ông
-								Trump nói về lạm
-								phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina</div>
-						</div>
-
-						<div
-							class="pb-4 2xl:pb-5 3xl:pb-[30px] border-b-[1px] border-[#DFDFDF] flex flex-col gap-[10px] xl:gap-3 2xl:gap-4 3xl:gap-5">
-							<div class="font-semibold text-sm xl:text-base 2xl:text-lg 3xl:text-2xl">Ông Trump nói về
-								lạm phát, chỉ
-								trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina</div>
-							<div class="font-medium text-[#696B75] text-sm md:text-sm 2xl:text-base 3xl:text-xl">Ông
-								Trump nói về lạm
-								phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina</div>
-						</div>
-
-						<div
-							class="pb-4 2xl:pb-5 3xl:pb-[30px] border-b-[1px] border-[#DFDFDF] flex flex-col gap-[10px] xl:gap-3 2xl:gap-4 3xl:gap-5">
-							<div class="font-semibold text-sm xl:text-base 2xl:text-lg 3xl:text-2xl">Ông Trump nói về
-								lạm phát, chỉ
-								trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina</div>
-							<div class="font-medium text-[#696B75] text-sm md:text-sm 2xl:text-base 3xl:text-xl">Ông
-								Trump nói về lạm
-								phát, chỉ trích bà Harris trong cuộc vận động tranh cử ở Bắc
-								Carolina</div>
-						</div>
-					</div> -->
-
 					<!-- HASTAG -->
 					<div class="flex flex-wrap gap-6">
 						<p
@@ -584,7 +531,7 @@
 			</div>
 
 			<!-- LIÊN HỆ -->
-			<div class="pt-[50px] pb-[100px]">
+			<div class="pt-[50px] md:pt-0 lg:pt-[50px] pb-[50px] lg:pb-[100px] md:pb-[60px]">
 				<feedback />
 			</div>
 		</div>

@@ -509,7 +509,7 @@
 
 				<div class="col-span-full xl:col-span-9">
 					<div class="flex items-center px-0 py-4 xl:p-3 2xl:p-4 3xl:p-5">
-						<h4 class="text-[20px] xl:text-[26px] 2xl:text-[30px] 3xl:text-[40px] font-semibold font-BG">
+						<h4 class="text-[28px] 2xl:text-[30px] 3xl:text-[40px] font-bold font-BG">
 							Công bố
 							<span class="text-green-ups">thông tin</span>
 						</h4>
@@ -555,7 +555,7 @@
 										</div>
 
 										<div
-											class="inline-flex gap-2 items-center text-xs 3xl:text-sm text-black font-semibold"
+											class="inline-flex gap-2 items-center text-sm 3xl:text-sm text-black font-semibold"
 										>
 											<i>
 												<svg
@@ -632,10 +632,10 @@
 									</div>
 
 									<div class="space-y-[6px] md:space-y-[8px] lg:space-y-[6px] xl:space-y-[8px]">
-										<h4 class="text-sm 2xl:text-base 3xl:text-xl text-black font-bold line-clamp-2">
+										<h4 class="text-base 3xl:text-xl text-black font-bold line-clamp-2">
 											{{ doc?.short_content?.title }}
 										</h4>
-										<p class="text-sm 3xl:text-lg text-[#3C4052] font-medium line-clamp-3">
+										<p class="text-base 3xl:text-lg text-[#3C4052] font-medium line-clamp-3">
 											{{ doc?.short_content?.blurb }}
 										</p>
 									</div>

@@ -372,4 +372,10 @@ export default defineComponent({
 	color: blue;
 	text-decoration: underline;
 }
+.content-wrapper :deep(iframe) {
+  width: 100% !important;
+  height: 400px !important; /* Adjust the height as needed */
+  border: none;
+  max-width: 97%;
+}
 </style>

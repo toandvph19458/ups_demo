@@ -1,5 +1,5 @@
 <template>
-	<section class="animate-ups pt-20 lg:pt-0 3xl:pt-0 pb-10">
+	<section class="animate-ups pt-[72px] md:pt-20 lg:pt-0 3xl:pt-0 pb-10">
 		<div class="container">
 			<div class="w-full">
 				<div class="hidden md:flex justify-center">
@@ -114,7 +114,7 @@
 							<nuxt-link
 								target="_blank"
 								to="/hdsd#huong-dan-mo-tai-khoan-tai-ups-mm"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-[92%] md:max-w-[520px] lg:max-w-[612px] 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-[92%] lg:w-full md:max-w-[520px] lg:max-w-[612px] 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
 								<div :class="cn('w-full md:w-[200px] lg:w-[240px] 2xl:w-[270px] 3xl:w-[360px] flex flex-col bg-white')">
 									<div
@@ -168,7 +168,7 @@
 						<swiper-slide>
 							<nuxt-link
 								to="/bieu-phi"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-[92%] md:max-w-[520px] lg:max-w-[612px] 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-[92%] lg:w-full md:max-w-[520px] lg:max-w-[612px] 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
 								<div :class="cn('w-full md:w-[200px] lg:w-[240px] 2xl:w-[270px] 3xl:w-[360px] flex flex-col bg-white')">
 									<div
@@ -218,7 +218,7 @@
 						<swiper-slide>
 							<nuxt-link
 								to="/gioi-thieu"
-								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-[92%] md:max-w-[520px] lg:max-w-[612px] 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
+								class="animate-ups__item flex flex-col md:flex-row xl:flex-row w-[92%] lg:w-full md:max-w-[520px] lg:max-w-[612px] 2xl:max-w-[690px] 3xl:max-w-[920px] h-max md:h-[300px] lg:h-[320px] 2xl:h-[360px] 3xl:h-[480px] rounded-[24px] overflow-hidden border-2 border-[#c1e4a1] bg-white"
 							>
 								<div :class="cn('w-full md:w-[200px] lg:w-[240px] 2xl:w-[270px] 3xl:w-[360px] flex flex-col bg-white')">
 									<div

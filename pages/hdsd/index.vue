@@ -545,8 +545,11 @@ export default defineComponent({
 .content-wrapper :deep(*) {
 	/* all: revert; */
 }
-.container-wrapper :deep(iframe){
-	width: 100% !important;
+.content-wrapper :deep(iframe) {
+  width: 100% !important;
+  height: 400px !important; /* Adjust the height as needed */
+  border: none;
+  max-width: 97%;
 }
 .content-wrapper :deep(h1) {
 	font-size: 2em;

@@ -1,6 +1,6 @@
 <template>
 	<section
-		class="section_news animate-ups px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-[120px] pb-12 md:py-16 lg:py-20 xl:py-[80px] 2xl:py-[96px]"
+		class="section_news animate-ups px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-[120px] py-12 md:py-16 lg:py-20 xl:py-[80px] 2xl:py-[96px]"
 	>
 		<div class="flex flex-col md:flex-row gap-6 md:gap-[24px] 2xl:gap-[30px] 3xl:gap-10 items-center">
 			<div
@@ -107,7 +107,7 @@
 					@slide-change="updateVSwiperIndex"
 					:breakpoints="{
 						375: {
-							slidesPerView: 1.2,
+							slidesPerView: 1,
 							spaceBetween: 16,
 						},
 						768: {
@@ -137,7 +137,7 @@
 						:key="i"
 					>
 						<div
-							class="card card-dot flex flex-col relative group gap-y-3 sm:gap-y-4 md:gap-y-5 p-0 xl:p-3 md:p-3 2xl:p-4 3xl:p-5 rounded-[20px] sm:rounded-[30px] 2xl:rounded-[22px] overflow-hidden h-[400px] sm:h-[450px] md:h-[500px] lg:h-[450px] xl:h-[400px] 2xl:h-[450px] w-full"
+							class="card card-dot flex flex-col relative group gap-y-3 sm:gap-y-4 md:gap-y-5 p-0 xl:p-3 md:p-3 2xl:p-4 3xl:p-5 rounded-[20px] sm:rounded-[30px] 2xl:rounded-[22px] overflow-hidden h-[400px] sm:h-[400px] md:h-[500px] lg:h-[450px] xl:h-[400px] 2xl:h-[450px] w-full"
 						>
 							<div class="glow"></div>
 							<div
@@ -172,6 +172,68 @@
 						</div>
 					</swiper-slide>
 				</swiper>
+			</div>
+			<div>
+				<div class="md:hidden flex gap-3">
+					<div class="inline-flex animate-ups__item">
+						<button
+							:class="
+								cn(
+									`h-10 px-6 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
+									{
+										'cursor-auto': !vSwiperIndex,
+									}
+								)
+							"
+							@click="prevVSwiperSlide"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="12"
+								viewBox="0 0 16 12"
+								fill="none"
+							>
+								<path
+									d="M0.46967 5.46967C0.176777 5.76256 0.176777 6.23744 0.46967 6.53033L5.24264 11.3033C5.53553 11.5962 6.01041 11.5962 6.3033 11.3033C6.59619 11.0104 6.59619 10.5355 6.3033 10.2426L2.06066 6L6.3033 1.75736C6.59619 1.46447 6.59619 0.989593 6.3033 0.696699C6.01041 0.403806 5.53553 0.403806 5.24264 0.696699L0.46967 5.46967ZM15.1421 6.75C15.5563 6.75 15.8921 6.41421 15.8921 6C15.8921 5.58579 15.5563 5.25 15.1421 5.25V6.75ZM1 6.75H15.1421V5.25H1V6.75Z"
+									fill="#02E56A"
+									:class="cn('transition-all duration-300 group-hover:fill-[#15171E]', {})"
+								/>
+							</svg>
+						</button>
+					</div>
+					<div class="inline-flex animate-ups__item">
+						<button
+							:class="
+								cn(
+									`h-10 px-6 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
+									{
+										'cursor-auto': vSwiperIndex === 2,
+									}
+								)
+							"
+							@click="nextVSwiperSlide"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="17"
+								height="12"
+								viewBox="0 0 17 12"
+								fill="none"
+							>
+								<path
+									d="M1.14215 5.25C0.727937 5.25 0.392151 5.58579 0.392151 6C0.392151 6.41421 0.727937 6.75 1.14215 6.75V5.25ZM15.8146 6.53033C16.1075 6.23744 16.1075 5.76256 15.8146 5.46967L11.0416 0.696699C10.7488 0.403806 10.2739 0.403806 9.98099 0.696699C9.68809 0.989593 9.68809 1.46447 9.98099 1.75736L14.2236 6L9.98099 10.2426C9.68809 10.5355 9.68809 11.0104 9.98099 11.3033C10.2739 11.5962 10.7488 11.5962 11.0416 11.3033L15.8146 6.53033ZM1.14215 6.75H15.2843V5.25H1.14215V6.75Z"
+									fill="#02E56A"
+									:class="
+										cn('transition-all duration-300 group-hover:fill-[#15171E]', {
+											'group-hover:fill-[#02E56A]': vSwiperIndex === 2,
+										})
+									"
+								/>
+							</svg>
+						</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

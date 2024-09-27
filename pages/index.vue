@@ -9,15 +9,15 @@
 
 		<!-- UPS SERVICE -->
 		<ups-service />
-		
-		<!-- UPS QUESTION -->
-		<ups-question />
 
 		<!-- UPS NEWS -->
 		<ups-news />
 
 		<!-- UPS GLOBAL -->
 		<ups-global />
+
+		<!-- UPS QUESTION -->
+		<ups-question />
 
 		<!-- UPS PARTNER -->
 		<ups-partner />
