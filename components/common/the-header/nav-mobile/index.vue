@@ -451,8 +451,26 @@
 										<DrawerClose as-child>
 											<nuxt-link to="/" class="flex items-center gap-[12px]">
 												<i class="w-5 h-5 inline-flex items-center justify-center">
-													<nuxt-img format="webp" loading="lazy" alt="UPS" width="20"
-														height="20" src="/icons/nhan-dinh-thi-truong.svg" />
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+														viewBox="0 0 20 20" fill="none">
+														<path d="M5.7334 15.1254V13.4004" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round" />
+														<path d="M10 15.1248V11.6748" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round" />
+														<path d="M14.2666 15.1247V9.94141" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round" />
+														<path
+															d="M14.2667 4.875L13.8834 5.325C11.7584 7.80834 8.9084 9.56667 5.7334 10.3583"
+															stroke="#00BF52" stroke-width="1.5"
+															stroke-linecap="round" />
+														<path d="M11.8252 4.875H14.2669V7.30834" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path
+															d="M7.50033 18.3337H12.5003C16.667 18.3337 18.3337 16.667 18.3337 12.5003V7.50033C18.3337 3.33366 16.667 1.66699 12.5003 1.66699H7.50033C3.33366 1.66699 1.66699 3.33366 1.66699 7.50033V12.5003C1.66699 16.667 3.33366 18.3337 7.50033 18.3337Z"
+															stroke="#111111" stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+													</svg>
 												</i>
 
 												<div class="">
@@ -485,8 +503,23 @@
 										<DrawerClose as-child>
 											<nuxt-link to="/hdsd" class="flex items-center gap-[12px]">
 												<i class="w-5 h-5 inline-flex items-center justify-center">
-													<nuxt-img format="webp" loading="lazy" alt="UPS" width="20"
-														height="20" src="/icons/cam-nang-dau-tu.svg" />
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+														viewBox="0 0 20 20" fill="none">
+														<path
+															d="M2.91699 15.0003V5.83366C2.91699 2.50033 3.75033 1.66699 7.08366 1.66699H12.917C16.2503 1.66699 17.0837 2.50033 17.0837 5.83366V14.167C17.0837 14.2837 17.0837 14.4003 17.0753 14.517"
+															stroke="#00BF52" stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path
+															d="M5.29199 12.5H17.0837V15.4167C17.0837 17.025 15.7753 18.3333 14.167 18.3333H5.83366C4.22533 18.3333 2.91699 17.025 2.91699 15.4167V14.875C2.91699 13.5667 3.98366 12.5 5.29199 12.5Z"
+															stroke="#111111" stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path d="M6.66699 5.83301H13.3337" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path d="M6.66699 8.75H10.8337" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+													</svg>
 												</i>
 
 												<div class="">
@@ -516,8 +549,33 @@
 										<DrawerClose as-child>
 											<nuxt-link to="/gioi-thieu" class="flex items-center gap-[12px]">
 												<i class="w-5 h-5 inline-flex items-center justify-center">
-													<nuxt-img format="webp" loading="lazy" alt="UPS" width="20"
-														height="20" src="/icons/ve-chung-toi.svg" />
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+														viewBox="0 0 20 20" fill="none">
+														<path
+															d="M14.9984 5.96798C14.9484 5.95964 14.8901 5.95964 14.8401 5.96798C13.6901 5.92631 12.7734 4.98464 12.7734 3.81797C12.7734 2.6263 13.7318 1.66797 14.9234 1.66797C16.1151 1.66797 17.0734 2.63464 17.0734 3.81797C17.0651 4.98464 16.1484 5.92631 14.9984 5.96798Z"
+															stroke="#00BF52" stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path
+															d="M14.1393 12.0348C15.2809 12.2264 16.5393 12.0264 17.4226 11.4348C18.5976 10.6514 18.5976 9.36811 17.4226 8.58477C16.5309 7.9931 15.2559 7.7931 14.1143 7.9931"
+															stroke="#00BF52" stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path
+															d="M4.97246 5.96798C5.02246 5.95964 5.08079 5.95964 5.13079 5.96798C6.28079 5.92631 7.19746 4.98464 7.19746 3.81797C7.19746 2.6263 6.23913 1.66797 5.04746 1.66797C3.8558 1.66797 2.89746 2.63464 2.89746 3.81797C2.90579 4.98464 3.82246 5.92631 4.97246 5.96798Z"
+															stroke="#00BF52" stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path
+															d="M5.83157 12.0348C4.68991 12.2264 3.43158 12.0264 2.54824 11.4348C1.37324 10.6514 1.37324 9.36811 2.54824 8.58477C3.43991 7.9931 4.71491 7.7931 5.85657 7.9931"
+															stroke="#00BF52" stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path
+															d="M9.99941 12.1926C9.94941 12.1843 9.89108 12.1843 9.84108 12.1926C8.69108 12.1509 7.77441 11.2093 7.77441 10.0426C7.77441 8.85091 8.73275 7.89258 9.92441 7.89258C11.1161 7.89258 12.0744 8.85925 12.0744 10.0426C12.0661 11.2093 11.1494 12.1593 9.99941 12.1926Z"
+															stroke="#111111" stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path
+															d="M7.57461 14.8178C6.39961 15.6011 6.39961 16.8844 7.57461 17.6678C8.90794 18.5594 11.0913 18.5594 12.4246 17.6678C13.5996 16.8844 13.5996 15.6011 12.4246 14.8178C11.0996 13.9344 8.90794 13.9344 7.57461 14.8178Z"
+															stroke="#111111" stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+													</svg>
 												</i>
 
 												<div class="">
@@ -533,12 +591,27 @@
 										<DrawerClose as-child>
 											<nuxt-link to="/tin-tuc" class="flex items-center gap-[12px]">
 												<i class="w-5 h-5 inline-flex items-center justify-center">
-													<nuxt-img format="webp" loading="lazy" alt="UPS" width="20"
-														height="20" src="/icons/tin-ups.svg" />
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+														viewBox="0 0 20 20" fill="none">
+														<path
+															d="M18.3337 13.9511V3.89272C18.3337 2.89272 17.517 2.15105 16.5253 2.23439H16.4753C14.7253 2.38439 12.067 3.27605 10.5837 4.20939L10.442 4.30105C10.2003 4.45105 9.80033 4.45105 9.55866 4.30105L9.35033 4.17605C7.86699 3.25105 5.21699 2.36772 3.46699 2.22605C2.47533 2.14272 1.66699 2.89272 1.66699 3.88439V13.9511C1.66699 14.7511 2.31699 15.5011 3.11699 15.6011L3.35866 15.6344C5.16699 15.8761 7.95866 16.7927 9.55866 17.6677L9.59199 17.6844C9.81699 17.8094 10.1753 17.8094 10.392 17.6844C11.992 16.8011 14.792 15.8761 16.6087 15.6344L16.8837 15.6011C17.6837 15.5011 18.3337 14.7511 18.3337 13.9511Z"
+															stroke="black" stroke-opacity="0.79" stroke-width="1.5"
+															stroke-linecap="round" stroke-linejoin="round" />
+														<path d="M10 4.57617V17.0762" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path d="M6.45801 7.07617H4.58301" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path d="M7.08301 9.57617H4.58301" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+													</svg>
 												</i>
 
 												<div class="">
-													<p class="text-base text-[#5E6673] font-semibold font-HG">Tin UPS</p>
+													<p class="text-base text-[#5E6673] font-semibold font-HG">Tin UPS
+													</p>
 													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
 														Các thông tin công bố từ UPS
 													</p> -->
@@ -600,14 +673,28 @@
 						</AccordionItem>
 					  </Accordion> -->
 										<DrawerClose as-child>
-											<nuxt-link to="/" class="flex items-center">
+											<nuxt-link to="/" class="flex items-center gap-[12px]">
 												<i class="w-5 h-5 inline-flex items-center justify-center">
-													<nuxt-img format="webp" loading="lazy" alt="UPS" width="20"
-														height="20" src="/icons/gia-nhap-ups.svg" />
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+														viewBox="0 0 20 20" fill="none">
+														<path
+															d="M12.8255 4.34297L14.0004 6.69297C14.1588 7.01797 14.5838 7.3263 14.9421 7.39296L17.0671 7.74296C18.4255 7.96796 18.7421 8.9513 17.7671 9.93464L16.1088 11.593C15.8338 11.868 15.6755 12.4096 15.7671 12.8013L16.2421 14.8513C16.6171 16.468 15.7504 17.1013 14.3254 16.2513L12.3338 15.068C11.9754 14.8513 11.3754 14.8513 11.0171 15.068L9.02544 16.2513C7.60044 17.093 6.73378 16.468 7.10878 14.8513L7.58379 12.8013C7.67545 12.418 7.51712 11.8763 7.24212 11.593L5.58379 9.93464C4.60879 8.95963 4.92545 7.9763 6.28379 7.74296L8.40878 7.39296C8.76711 7.33463 9.19211 7.01797 9.35045 6.69297L10.5255 4.34297C11.1505 3.06797 12.1838 3.06797 12.8255 4.34297Z"
+															stroke="black" stroke-opacity="0.79" stroke-width="1.5"
+															stroke-linecap="round" stroke-linejoin="round" />
+														<path d="M6.66699 4.16797H1.66699" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path d="M4.16699 15.834H1.66699" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+														<path d="M2.50033 10.001H1.66699" stroke="#00BF52"
+															stroke-width="1.5" stroke-linecap="round"
+															stroke-linejoin="round" />
+													</svg>
 												</i>
 
-												<div class="ml-4">
-													<p class="text-lg text-[#5E6673] font-semibold font-HG">
+												<div class="">
+													<p class="text-base text-[#5E6673] font-semibold font-HG">
 														Gia nhập UPS
 													</p>
 													<!-- <p class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG">
