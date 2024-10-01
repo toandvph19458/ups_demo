@@ -63,9 +63,6 @@ export const useNewsStore = defineStore({
 					}
 				}
 			`;
-
-			console.log("query", query);
-
 			return await httpRequest.post(``, { query });
 		},
 

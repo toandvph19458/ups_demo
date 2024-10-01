@@ -1,7 +1,7 @@
 <template>
-	<div>
+	<div class="mt-[-80px] md:mt-[-50px]">
 		<div
-			class="py-5 md:py-10 xl:py-[50px] 2xl:py-[60px] 3xl:py-20 rounded-b-[20px] bg-custom-hdsd bg-cover bg-no-repeat"
+			class="pb-5 pt-[50px] md:pb-10 md:pt-[70px] xl:pb-[50px] xl:pt-[80px] 2xl:pt-[90px] 2xl:pb-[60px] 3xl:pb-20 3xl:pt-[110px] rounded-b-[20px] bg-custom-hdsd bg-cover bg-no-repeat"
 		>
 			<div class="container">
 				<div>
