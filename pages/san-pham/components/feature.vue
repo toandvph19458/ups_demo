@@ -1,9 +1,9 @@
 <template>
-	<section class="animate-ups">
+	<section class="">
 		<div
 			class="flex flex-col items-center w-full 3xl:px-[225px] 3xl:py-[100px] 2xl:py-[80px] lg:py-[40px] md:py-[40px] xl:py-[60px] xl:px-[100px] lg:px-[60px] md:px-[60px] 2xl:px-[120px] sm:p-6 2xl:gap-[120px] xl:gap-[100px] lg:gap-[60px] gap-[120px] bg-[linear-gradient(0deg,_rgba(255,_243,_93,_0)_36.67%,_#F51666_105.87%)]">
 
-			<div class="md:flex items-start 2xl:gap-[40px] gap-[24px] self-stretch hidden">
+			<div class="animate-ups md:flex items-start 2xl:gap-[40px] gap-[24px] self-stretch hidden">
 				<div class="flex flex-col items-start 2xl:gap-[32px] gap-[24px] flex-1">
 					<img src="/images/san-pham1.jpg" alt="" class="rounded-[12px] animate-ups__item" />
 					<div>
@@ -55,7 +55,7 @@
 				</div>
 			</div>
 
-			<div class="md:hidden flex flex-col items-center w-full">
+			<div class="animate-ups md:hidden flex flex-col items-center w-full">
 				<div class="pb-[40px]">
 					<p class="text-[#FFF] text-center font-BG text-[20px] font-semibold leading-none animate-ups__item">
 						Tính năng nổi bật
@@ -119,7 +119,7 @@
 				</div>
 			</div>
 
-			<div class="relative flex flex-col items-center w-full">
+			<div class="animate-ups relative flex flex-col items-center w-full">
 				<p
 					class="text-[#15171E] text-center font-BG 3xl:text-[60px] 2xl:text-[45px] xl:text-[40px] lg:text-[32px] md:text-[32px] sm:text-[20px] text-[45px] font-semibold leading-none 2xl:my-6 animate-ups__item">
 					Cách đăng ký
@@ -133,8 +133,9 @@
 						class="sm:w-[327px] sm:h-[245px] 3xl:translate-y-[11%] 3xl:h-[540px] 3xl:w-[840px] 2xl:w-[687px] 2xl:h-[515px] object-cover md:w-[589px] md:h-[442px] xl:w-[687px] xl:h-[515px] animate-ups__item" />
 				</div>
 				<div class="h-[80px] sm:h-[300px] md:h-[120px] "></div>
+
 				<div
-					class="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-3 w-full xl:p-[24px] lg:p-6 md:p-6 2xl:p-[40px] 3xl:p-[60px] sm:p-6 items-start xl:gap-5 lg:gap-4 md:gap-5 3xl:gap-[60px] 2xl:gap-[24px] sm:gap-4 rounded-[40px] border border-[#F51666] bg-white/60 backdrop-blur-[50px] absolute sm:top-1/3 lg:top-[60%] md:top-2/3 2xl:top-[73%] xl:top-[60%]">
+					class="animate-ups grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-3 w-full xl:p-[24px] lg:p-6 md:p-6 2xl:p-[40px] 3xl:p-[60px] sm:p-6 items-start xl:gap-5 lg:gap-4 md:gap-5 3xl:gap-[60px] 2xl:gap-[24px] sm:gap-4 rounded-[40px] border border-[#F51666] bg-white/60 backdrop-blur-[50px] absolute sm:top-1/3 lg:top-[60%] md:top-2/3 2xl:top-[73%] xl:top-[60%]">
 					<div class="animate-ups__item">
 						<p
 							class="text-[#15171E] font-BG 2xl:text-[36px] xl:text-[32px] lg:text-[28px] sm:text-[20px] text-[40px] font-semibold leading-normal">

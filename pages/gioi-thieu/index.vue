@@ -80,7 +80,7 @@
             </div>
           </div>
 
-          <div class="basis-full md:basis-5/12 w-full">
+          <div class="animate-about__item basis-full md:basis-5/12 w-full">
             <div class="relative inline-flex w-full pt-[82%] md:pt-[100%]">
               <nuxt-img format="webp" loading="lazy" alt="UPS" src="/icons/icon_about_us.svg"
                 class="absolute top-0 left-0 w-full h-full" />
@@ -141,7 +141,7 @@
           </div>
 
           <div
-            class="card col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[16px] md:rounded-[24px] group border border-[#00C058] hover:border-[#fff] order-2 md:order-1">
+            class="animate-about__item card col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[16px] md:rounded-[24px] group border border-[#00C058] hover:border-[#fff] order-2 md:order-1">
             <div class="glow"></div>
             <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
               <div
@@ -166,7 +166,7 @@
           </div>
 
           <div
-            class="card col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#00C058] hover:border-[#fff] order-3">
+            class="animate-about__item card col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#00C058] hover:border-[#fff] order-3">
             <div class="glow"></div>
             <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
               <div
@@ -191,7 +191,7 @@
           </div>
 
           <div
-            class="card md:col-start-5 col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#00C058] hover:border-[#fff] order-4">
+            class="animate-about__item card md:col-start-5 col-span-full md:col-span-4 p-6 pt-0 md:p-3 md:pt-0 lg:p-4 lg:pt-0 2xl:p-6 2xl:pt-0 3xl:p-8 3xl:pt-0 rounded-[24px] group border border-[#00C058] hover:border-[#fff] order-4">
             <div class="glow"></div>
             <div class="relative w-full h-12 xl:h-[70px] 2xl:h-[80px] 3xl:h-[90px]">
               <div
@@ -572,7 +572,7 @@
       <div class="container">
         <div class="flex flex-wrap md:flex-nowrap gap-[46px] md:gap-0 pt-10 md:pt-[60px] xl:pt-[100px] ">
 
-          <div class="basis-full md:basis-1/2">
+          <div class="animate-about__item basis-full md:basis-1/2">
             <div
               class="animate-about__item hidden md:block relative w-[100px] md:w-[100px] lg:w-[134px] 2xl:w-[150px] 3xl:w-[200px] pt-[14%]">
               <nuxt-img format="webp" loading="lazy" height="78" alt="UPS" src="/logo/logo-cap-light.png"
@@ -587,7 +587,7 @@
           </div>
 
           <div
-            class="basis-full md:basis-1/2 flex flex-col gap-4 md:gap-12 relative pb-[128px] md:pb-[60px] xl:pb-[100px]">
+            class="animate-about__item basis-full md:basis-1/2 flex flex-col gap-4 md:gap-12 relative pb-[128px] md:pb-[60px] xl:pb-[100px]">
             <div
               class="absolute top-0 left-0 -translate-x-1/2 w-[1px] h-full bg-gradient-to-b from-transparent from-[5%] via-[#01C159] via-[5%] to-[#01C159] md:to-[#005B2A]/0">
 
@@ -679,7 +679,7 @@
 
     <!-- SECTION CHỨNG CHỈ VÀ GIẤY PHÉP -->
     <section class="container">
-      <div class="flex lg:hidden flex-col items-center mt-[52px]">
+      <div class="animate-about__item flex lg:hidden flex-col items-center mt-[52px]">
         <div
           class="animate-about__item relative hidden md:inline-flex items-center justify-center w-[100px] h-[45px] xl:w-[173px] xl:h-[78px]">
           <nuxt-img format="webp" loading="lazy" height="78" alt="UPS" src="/logo/logo-cap-dark.png"
@@ -715,7 +715,7 @@
       </div>
 
       <div
-        class="py-12 md:py-[40px] 2xl:py-[120px] xl:py-[100px] lg:py-[80px] 3xl:py-[160px] hidden md:grid gap-x-6 gap-y-8 lg:gap-x-8 xl:gap-y-16 grid-cols-2 lg:grid-cols-3">
+        class="animate-about__item py-12 md:py-[40px] 2xl:py-[120px] xl:py-[100px] lg:py-[80px] 3xl:py-[160px] hidden md:grid gap-x-6 gap-y-8 lg:gap-x-8 xl:gap-y-16 grid-cols-2 lg:grid-cols-3">
         <div class="relative w-full rounded-[7px] md:rounded-[14px] overflow-hidden group">
           <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/97b76b3dc58b2d884e49c03137cd0fc7.png"
             class="absolute top-0 left-0 w-full h-full object-contain transition-all duration-300 group-hover:scale-110" />
@@ -742,7 +742,7 @@
           </p>
 
           <div class="animate-about__item inline-flex my-6">
-            <nuxt-link target="_blank" to="https://ups.truecms.io/assets/9ac5cc6e-b1a6-441f-8f68-35980b760930"
+            <nuxt-link target="_blank" to="https://cms.upse.vn/assets/d0ddc150-6ab3-40d3-9996-eba9abe8800b"
               class="btn active group">
               <span> Xem tại đây </span>
               <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
@@ -759,7 +759,7 @@
         </div>
       </div>
 
-      <div class="hidden pt-8 pb-12 md:py-8">
+      <div class="animate-about__item hidden pt-8 pb-12 md:py-8">
         <swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1.2" :loop="false" :speed="800"
           :space-between="16" :breakpoints="{
             480: {
@@ -810,7 +810,7 @@ export default defineComponent({
   components: {
     Employee,
   },
-  setup(props, ctx) {
+  setup(props:any, ctx:any) {
     onMounted(() => {
       const animateUpsEl = document.querySelectorAll(".animate-about");
 

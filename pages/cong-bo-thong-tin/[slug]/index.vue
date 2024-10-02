@@ -6,9 +6,9 @@
 					class="link absolute w-full h-full object-contain" />
 			</div> -->
 		</div>
-		<div class="text-center mt-[30px] mb-[20px]">
+		<div class="animate-ups text-center mt-[30px] mb-[20px]">
 			<h3
-				class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] xl:w-[968px] w-full mx-auto">
+				class="animate-ups__item text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] xl:w-[968px] w-full mx-auto">
 				{{ data && data.newDetail.title }}
 			</h3>
 		</div>
@@ -40,15 +40,15 @@
         15/08/2024 - 22:20
       </p>
     </div> -->
-		<div class="flex justify-center text-center xl:my-[80px] my-[30px]">
-			<div class="inline-flex relative w-[300px] h-[200px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]">
+		<div class="animate-ups flex justify-center text-center xl:my-[80px] my-[30px]">
+			<div class="animate-ups__item inline-flex relative w-[300px] h-[200px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]">
 				<nuxt-img loading="lazy" alt="UPS" :src="config.NUXT_APP_IMAGE_URL + data?.newDetail?.thumbnail?.id"
 					class="link absolute w-full h-full object-cover rounded-2xl" />
 			</div>
 		</div>
-		<div class="xl:w-[1200px] w-full flex justify-center mx-auto">
+		<div class="animate-ups xl:w-[1200px] w-full flex justify-center mx-auto">
 			<div class="w-[327px] xl:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]">
-				<div class="text-left xl:w-[70%] lg:w-[70%] w-full">
+				<div class="animate-ups__item text-left xl:w-[70%] lg:w-[70%] w-full">
 					<!-- <p class="text-[#696B75] text-[18px] font-normal leading-[20px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -110,7 +110,8 @@
 						Cập nhật mới nhất: 20/08/2024
 					</p>
 				</div>
-				<div class="xl:w-[30%] lg:w-[30%] w-full">
+
+				<div class="animate-ups__item xl:w-[30%] lg:w-[30%] w-full">
 					<h4 class="text-[#15171E] font-bricolage-grotesque text-[16px] font-semibold leading-[20px]">
 						Thẻ bài viết
 					</h4>
@@ -181,8 +182,8 @@
 			</div>
 		</div>
 		<!-- tin liên quan -->
-		<div class="w-full xl:w-[1200px] mx-auto">
-			<div class="">
+		<div class="animate-ups w-full xl:w-[1200px] mx-auto">
+			<div class="animate-ups__item">
 				<div class="flex justify-between">
 					<div class="animate-about__item inline-flex relative w-[100px] h-[45px] xl:w-[132px] xl:h-[60px]">
 						<nuxt-img format="webp" loading="lazy" height="78" alt="UPS" src="/logo/logo-cap-green.png"
@@ -194,7 +195,8 @@
 					Tin <span class="text-green-ups">liên quan</span>
 				</h2>
 			</div>
-			<div class="my-[40px] grid grid-cols-1 xl:grid-cols-3 gap-10">
+
+			<div class="animate-ups__item my-[40px] grid grid-cols-1 xl:grid-cols-3 gap-10">
 				<div class="card relative" v-for="doc in data?.dataNews">
 					<div class="flex justify-center text-center">
 						<div class="inline-flex relative w-full h-[288px]">
@@ -314,6 +316,110 @@ export default defineComponent({
 
 		useHead(metaTag);
 
+		onMounted(() => {
+			const animateUpsEl = document.querySelectorAll(".animate-ups");
+
+			animateUpsEl.forEach((el) => {
+				const upsEl = el.querySelectorAll(".animate-ups__item");
+				useGsap.fromTo(
+					upsEl,
+					{
+						y: 100,
+						opacity: 0,
+					},
+					{
+						y: 0,
+						opacity: 1,
+						duration: 0.8,
+						ease: "power1.out",
+						stagger: {
+							from: 0,
+							axis: "x",
+							amount: 0.5,
+						},
+						scrollTrigger: {
+							trigger: el,
+							start: "top center",
+							end: "bottom center",
+							scrub: false,
+						},
+					}
+				);
+			});
+
+			const btnWrapper = document.querySelectorAll(".link");
+			btnWrapper.forEach((el) => {
+				useGsap.fromTo(
+					el,
+					{
+						y: 100,
+						opacity: 0,
+					},
+					{
+						y: 0,
+						opacity: 1,
+						duration: 0.8,
+						ease: "power1.out",
+						stagger: {
+							from: 0,
+							axis: "x",
+							amount: 0.5,
+						},
+					}
+				);
+			});
+
+			useGsap.fromTo(
+				".policy_collection-item",
+				{
+					y: 100,
+					opacity: 0,
+				},
+				{
+					y: 0,
+					opacity: 1,
+					duration: 0.8,
+					ease: "power1.out",
+					stagger: {
+						from: 0,
+						axis: "x",
+						amount: 0.5,
+					},
+					scrollTrigger: {
+						trigger: ".section_policy",
+						start: "top center", // When the top of .section hits the center of viewport
+						end: "bottom center", // When the bottom of .section hits the center of viewport
+						scrub: false,
+					},
+				}
+			);
+
+			useGsap.fromTo(
+				".news_layout_item",
+				{
+					y: 100,
+					opacity: 0,
+				},
+				{
+					y: 0,
+					opacity: 1,
+					duration: 1,
+					ease: "sine.out",
+					stagger: {
+						from: 0,
+						axis: "x",
+						amount: 0.5,
+					},
+					scrollTrigger: {
+						trigger: ".section_news",
+						start: "top center", // When the top of .section hits the center of viewport
+						end: "bottom center", // When the bottom of .section hits the center of viewport
+						scrub: false,
+					},
+				}
+			);
+		});
+
 		return {
 			data,
 			config,
@@ -372,10 +478,12 @@ export default defineComponent({
 	color: blue;
 	text-decoration: underline;
 }
+
 .content-wrapper :deep(iframe) {
-  width: 100% !important;
-  height: 400px !important; /* Adjust the height as needed */
-  border: none;
-  max-width: 97%;
+	width: 100% !important;
+	height: 400px !important;
+	/* Adjust the height as needed */
+	border: none;
+	max-width: 97%;
 }
 </style>

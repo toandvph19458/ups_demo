@@ -10,10 +10,10 @@
         <thoaiVon />
         <!-- ho-tro-doanh-nghiep -->
         <div
-            class=" flex items-end border bg-gradient-to-r from-cyan-400 to-green-300 p-5 rounded-[16px] w-full md:p-8 xl:p-10 3xl:p-[60px] 3xl:rounded-[40px]">
+            class="animate-ups flex items-end border bg-gradient-to-r from-cyan-400 to-green-300 p-5 rounded-[16px] w-full md:p-8 xl:p-10 3xl:p-[60px] 3xl:rounded-[40px]">
             <div
                 class="flex flex-col items-start lg:justify-between  gap-4 md:flex-row-reverse xl:gap-6 2xl:gap-[60px] 3xl:gap-[30px] w-full ">
-                <p class="font-BG text-[16px] text-[#15171E] leading-normal block md:hidden ">Hỗ trợ doanh
+                <p class="animate-ups__item font-BG text-[16px] text-[#15171E] leading-normal block md:hidden ">Hỗ trợ doanh
                     nghiệp các vấn đề thường
                     niên
                 </p>
@@ -21,7 +21,7 @@
                 <div class="flex items-start flex-col lg:flex-row 2xl:gap-6 2xl:min-w-[700px] 3xl:w-2/3">
                     <div class="w-full flex 2xl:flex-row flex-col">
                         <div class="flex items-start justify-center flex-col gap-2 2xl:w-1/2">
-                            <div class="flex items-center gap-[10px]">
+                            <div class="animate-ups__item flex items-center gap-[10px]">
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                         fill="none">
                                         <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
@@ -31,7 +31,7 @@
                                     Tư vấn thường niên về lĩnh vực chứng khoán
                                 </p>
                             </div>
-                            <div class="flex items-center gap-[10px]">
+                            <div class="animate-ups__item flex items-center gap-[10px]">
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                         fill="none">
                                         <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
@@ -41,7 +41,7 @@
                                     Hỗ trợ về công bố thông tin phù hợp với pháp luật
                                 </p>
                             </div>
-                            <div class="flex items-center gap-[10px]">
+                            <div class="animate-ups__item flex items-center gap-[10px]">
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                         fill="none">
                                         <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
@@ -51,7 +51,7 @@
                                     Hỗ trợ tổ chức đại hội đồng thường niên và bất thường
                                 </p>
                             </div>
-                            <div class="flex items-center gap-[10px]">
+                            <div class="animate-ups__item flex items-center gap-[10px]">
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                         fill="none">
                                         <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                         <div class="flex items-start flex-col gap-2 2xl:w-1/2 ">
-                            <div class="flex items-center gap-[10px]">
+                            <div class="animate-ups__item flex items-center gap-[10px]">
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                         fill="none">
                                         <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
@@ -73,7 +73,7 @@
                                     Tư vấn bầu lại Hội đồng quản trị, ban kiểm soát
                                 </p>
                             </div>
-                            <div class="flex items-center gap-[10px]">
+                            <div class="animate-ups__item flex items-center gap-[10px]">
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                         fill="none">
                                         <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
@@ -83,7 +83,7 @@
                                     Trả cổ tức bằng tiền mặt hoặc cổ phiếu
                                 </p>
                             </div>
-                            <div class="flex items-center gap-[10px]">
+                            <div class="animate-ups__item flex items-center gap-[10px]">
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                         fill="none">
                                         <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
@@ -93,7 +93,7 @@
                                     Phát hành cổ phiếu thưởng cho cổ đông hiện hữu
                                 </p>
                             </div>
-                            <div class="flex items-center gap-[10px]">
+                            <div class="animate-ups__item flex items-center gap-[10px]">
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9"
                                         fill="none">
                                         <path d="M4 0.0742188L8 4.07422L4 8.07422L0 4.07422L4 0.0742188Z"
@@ -109,13 +109,13 @@
 
                 <div class="md:flex md:flex-col md:gap-4 md:items-start 3xl:w-1/3">
                     <p
-                        class="font-BG text-[16px] xl:text-[24px] 3xl:text-[32px] text-[#15171E] leading-normal hidden md:block font-semibold xl:w-2/3">
+                        class="animate-ups__item font-BG text-[16px] xl:text-[24px] 3xl:text-[32px] text-[#15171E] leading-normal hidden md:block font-semibold xl:w-2/3">
                         Hỗ trợ
                         doanh
                         nghiệp các vấn đề thường
                         niên
                     </p>
-                    <div class="btn-wrapper flex gap-5 sm:gap-3 items-center animate-ups__item">
+                    <div class="animate-ups__item btn-wrapper flex gap-5 sm:gap-3 items-center">
                         <div class="inline-flex">
                             <nuxt-link to="/" class="btn active group ">
                                 <span class="text-[10px] sm:text-[12px] xl:text-[14px] "> Liên hệ tư vấn </span>
@@ -138,9 +138,9 @@
             </div>
 
         </div>
-        <div class="relative w-full h-[260px] xl:min-h-[440px] 2xl:min-h-[480px] ">
+        <div class="animate-ups relative w-full h-[260px] xl:min-h-[440px] 2xl:min-h-[480px] ">
             <nuxt-img src="/images/tuvan-1.jpg"
-                class="absolute w-full h-full object-cover rounded-[16px] 3xl:rounded-[40px]" />
+                class="animate-ups__item absolute w-full h-full object-cover rounded-[16px] 3xl:rounded-[40px]" />
         </div>
         <!-- niem-yet -->
         <niemYet />

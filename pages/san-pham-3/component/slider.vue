@@ -1,14 +1,14 @@
 <template>
     <section>
         <div class="flex p-6 flex-col items-start gap-6 bg-white 3xl:px-[225px] 3xl:py-[100px] 3xl:gap-[60px]">
-            <div class="w-full mx-auto">
-                <p class="text-center font-BG text-[20px] font-semibold leading-normal 3xl:text-[60px]">Chương trình
+            <div class="animate-ups w-full mx-auto">
+                <p class="animate-ups__item text-center font-BG text-[20px] font-semibold leading-normal 3xl:text-[60px]">Chương trình
                     <span class="text-[#01C159]">ưu đãi</span>
                 </p>
             </div>
             <div
-                class="w-full flex p-6 flex-col gap-6 rounded-[20px] bg-gradient-to-tr from-[#00D7B0] to-[#7B57FF] h-[390px] md:h-[450px] lg:h-[430px] xl:h-[655px] 3xl:px-[60px] 3xl:py-[40px]">
-                <div>
+                class="animate-ups w-full flex p-6 flex-col gap-6 rounded-[20px] bg-gradient-to-tr from-[#00D7B0] to-[#7B57FF] h-[390px] md:h-[450px] lg:h-[430px] xl:h-[655px] 3xl:px-[60px] 3xl:py-[40px]">
+                <div class="animate-ups__item">
                     <p
                         class="font-HG text-sm md:text-[18px] xl:text-[20px] leading-normal font-semibold 3xl:text-[24px]">
                         Dành Cho</p>

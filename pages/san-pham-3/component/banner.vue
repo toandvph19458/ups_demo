@@ -1,10 +1,11 @@
 <template>
     <div
-        class="flex p-6 flex-col items-start gap-6 bg-gradient-to-b from-teal-400 to-transparent 3xl:px-[225px] 3xl:py-[80px] 3xl:gap-[80px]">
-        <div class="w-full">
+        class="animate-ups flex p-6 flex-col items-start gap-6 bg-gradient-to-b from-teal-400 to-transparent 3xl:px-[225px] 3xl:py-[80px] 3xl:gap-[80px]">
+        <div class="w-full animate-ups__item">
             <img src="/images/san-pham3.png" alt="" class="w-full object-cover h-full 3xl:rounded-[40px] rounded-2xl">
         </div>
-        <div class="flex flex-col 3xl:gap-[40px] gap-[32px]">
+
+        <div class="animate-ups__item flex flex-col 3xl:gap-[40px] gap-[32px]">
             <div class="flex items-start gap-3 flex-col 3xl:w-2/3">
                 <div>
 
@@ -29,7 +30,7 @@
                     còn lo lắng về chi phí giao dịch!</p>
             </div>
 
-            <div class="btn-wrapper flex gap-5 sm:gap-3 items-center animate-ups__item">
+            <div class="animate-ups__item btn-wrapper flex gap-5 sm:gap-3 items-center animate-ups__item">
                 <div class="inline-flex">
                     <nuxt-link to="https://onboarding.upse.vn/index.html#/./open-account/check-info" class="btn active group ">
                         <span class="text-xs lg:text-[14px] 3xl:text-[16px]"> Đăng kí ngay </span>

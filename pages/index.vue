@@ -45,7 +45,7 @@ export default defineComponent({
 		UpsQuestion,
 		UpsPartner,
 	},
-	setup(props, ctx) {
+	setup(props:any, ctx:any) {
 		onMounted(() => {
 			const animateUpsEl = document.querySelectorAll(".animate-ups");
 

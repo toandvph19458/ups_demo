@@ -1,25 +1,25 @@
 <template>
   <!-- banner cổ phiếu -->
   <div
-    class=" 3xl:py-[160px] 3xl:px-[100px]  2xl:px-[120px] 2xl:py-[80px] w-full xl:px-[100px] xl:py-[60px] lg:px-[60px] lg:py-[40px] md:px-[60px] md:py-[40px] sm:px-6 sm:py-8">
+    class="animate-ups 3xl:py-[160px] 3xl:px-[100px]  2xl:px-[120px] 2xl:py-[80px] w-full xl:px-[100px] xl:py-[60px] lg:px-[60px] lg:py-[40px] md:px-[60px] md:py-[40px] sm:px-6 sm:py-8">
     <div class="flex 2xl:gap-[40px] w-full sm:gap-6 sm:flex-col-reverse lg:flex-row">
       <!-- cột trái của banner -->
       <div class="flex flex-col 3xl:w-[40%] 2xl:w-[45%] lg:w-1/2 justify-between lg:pt-6 ">
         <div
           class="border-b 3xl:pb-[164px] xl:pb-[40px] md:pb-[32px] sm:pb-[24px] flex flex-col items-start 2xl:gap-6 md:gap-5 sm:gap-3">
           <h1
-            class="text-[#15171E] font-BG 3xl:text-[60px] xl:text-[45px] md:text-[32px] sm:text-[24px] font-bold leading-normal">
+            class="animate-ups__item text-[#15171E] font-BG 3xl:text-[60px] xl:text-[45px] md:text-[32px] sm:text-[24px] font-bold leading-normal">
             Cổ phiếu
           </h1>
           <p
-            class="text-[#838383] font-HG 3xl:text-[18px] sm:text-[14px] font-medium 3xl:leading-[28px] lg:leading-[20px]">
+            class="animate-ups__item text-[#838383] font-HG 3xl:text-[18px] sm:text-[14px] font-medium 3xl:leading-[28px] lg:leading-[20px]">
             Tham gia giao dịch Cổ phiếu là giải pháp đơn giản và dễ dàng giúp
             bạn hiện thực hóa ước mơ tăng trưởng tài chính và chinh phục những
             đỉnh cao cuộc sống. Với sự cải tiến vượt trội của kênh đầu tư và đặc
             quyền đầu tư tại UPS chính là động lực thúc đẩy, giúp hành trình đầu
             tư trở nên đầy hứng khởi: đơn giản và hiệu quả. 
           </p>
-          <div class="flex gap-4 flex-wrap">
+          <div class="animate-ups__item flex gap-4 flex-wrap">
             <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info" target="_blank"
               class="btn active group">
               <span class="text-sm 3xl:text-lg"> Mở tài khoản ngay </span>
@@ -47,7 +47,7 @@
             </nuxt-link>
           </div>
         </div>
-        <div class="flex items-center xl:my-[40px] md:mt-[32px] sm:mt-[24px] ">
+        <div class="animate-ups__item flex items-center xl:my-[40px] md:mt-[32px] sm:mt-[24px] ">
           <i>
             <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
               <path
@@ -70,7 +70,7 @@
       <div class="2xl:w-[55%] lg:w-1/2 w-full">
         <div class="flex justify-end w-full">
           <div
-            class="relative 3xl:w-[664px] 3xl:h-[336px] 2xl:w-[450px] 2xl:h-[225px] xl:w-[375px] xl:h-[200px] lg:w-[320px] lg:h-[171px] md:w-[440px] md:h-[230px] sm:w-[222px] sm:h-[116px] ">
+            class="animate-ups__item relative 3xl:w-[664px] 3xl:h-[336px] 2xl:w-[450px] 2xl:h-[225px] xl:w-[375px] xl:h-[200px] lg:w-[320px] lg:h-[171px] md:w-[440px] md:h-[230px] sm:w-[222px] sm:h-[116px] ">
             <nuxt-img loading="lazy" alt="UPS" src="/images/banner-co-phieu.png"
               class="absolute w-full h-full object-cover 3xl:rounded-[40px] md:rounded-[20px] sm:rounded-[12px]" />
           </div>
@@ -79,7 +79,7 @@
           <div
             class="flex flex-col justify-end 3xl:gap-[24px] 2xl:gap-4 items-end xl:w-1/2 lg:gap-3 md:justify-between sm:gap-[10px]">
             <div
-              class="3xl:p-[60px] 2xl:p-10 lg:p-8  2xl:rounded-[40px] bg-[linear-gradient(315deg,#14FFD4_3.8%,#755CF6_85.1%)] flex items-center justify-center flex-col md:rounded-[20px] md:p-10 sm:p-4 sm:rounded-[12px]">
+              class="animate-ups__item 3xl:p-[60px] 2xl:p-10 lg:p-8  2xl:rounded-[40px] bg-[linear-gradient(315deg,#14FFD4_3.8%,#755CF6_85.1%)] flex items-center justify-center flex-col md:rounded-[20px] md:p-10 sm:p-4 sm:rounded-[12px]">
               <p
                 class="text-white font-BG 3xl:text-[32px] 2xl:text-[20px] xl:text-[18px] md:text-[22px] sm:text-[12px] font-bold leading-normal">
                 Mở tài khoản eKYC
@@ -96,7 +96,7 @@
               </div>
             </div>
             <div
-              class="w-[48px] h-[48px] xl:w-[80px] xl:h-[80px] 2xl:w-[96px] 2xl:h-[96px] md:w-[93px] md:h-[93px] inline-flex items-center justify-center bg-[#15171E] 2xl:rounded-[32px] 3xl:rounded-[40px] md:rounded-[20px] lg:rounded-lg animate-about__item sm:rounded-md">
+              class="animate-ups__item w-[48px] h-[48px] xl:w-[80px] xl:h-[80px] 2xl:w-[96px] 2xl:h-[96px] md:w-[93px] md:h-[93px] inline-flex items-center justify-center bg-[#15171E] 2xl:rounded-[32px] 3xl:rounded-[40px] md:rounded-[20px] lg:rounded-lg animate-about__item sm:rounded-md">
               <div class="w-5 h-5 xl:w-[48px] xl:h-[48px] relative inline-flex">
                 <nuxt-img format="webp" loading="lazy" height="48" alt="UPS" src="/logo/logo-row.svg"
                   class="animate-about__item absolute w-full h-full object-contain" />
@@ -105,7 +105,7 @@
           </div>
           <div class="flex justify-end sm:w-1/2">
             <div
-              class="relative w-full 3xl:h-[407px] 3xl:w-[443px] 2xl:h-[258px] xl:w-[260px] xl:h-[211px] lg:w-[223px] lg:h-[185px] md:w-[353px] md:h-[256px] sm:h-[117px]">
+              class="animate-ups__item relative w-full 3xl:h-[407px] 3xl:w-[443px] 2xl:h-[258px] xl:w-[260px] xl:h-[211px] lg:w-[223px] lg:h-[185px] md:w-[353px] md:h-[256px] sm:h-[117px]">
               <nuxt-img loading="lazy" alt="UPS" src="/images/images-2-co-phieu.png"
                 class="absolute w-full h-full object-cover 2xl:rounded-[40px] md:rounded-[20px] sm:rounded-[12px]" />
             </div>
@@ -116,21 +116,21 @@
   </div>
   <!-- lợi ích cổ phiếu -->
   <div
-    class="rounded-tl-[200px] xl:rounded-tl-[160px] lg:rounded-tl-[120px] md:rounded-tl-[100px] sm:rounded-tl-[60px] bg-[linear-gradient(333deg,#14FFD4_5.41%,#755CF6_87.8%)]  3xl:px-[160px] 3xl:py-[120px] 2xl:px-[120px] 2xl:py-[80px] lg:p-[60px] flex items-center flex-col 2xl:gap-[60px] mx-auto xl:px-[100px] xl:py-[60px] lg:gap-10 md:px-[60px] md:py-10 md:gap-[28px] sm:px-6 sm:py-8 sm:gap-6">
+    class="animate-ups rounded-tl-[200px] xl:rounded-tl-[160px] lg:rounded-tl-[120px] md:rounded-tl-[100px] sm:rounded-tl-[60px] bg-[linear-gradient(333deg,#14FFD4_5.41%,#755CF6_87.8%)]  3xl:px-[160px] 3xl:py-[120px] 2xl:px-[120px] 2xl:py-[80px] lg:p-[60px] flex items-center flex-col 2xl:gap-[60px] mx-auto xl:px-[100px] xl:py-[60px] lg:gap-10 md:px-[60px] md:py-10 md:gap-[28px] sm:px-6 sm:py-8 sm:gap-6">
     <div class="text-center flex items-center justify-center 2xl:gap-6 xl:gap-5 flex-col md:gap-4">
       <div
-        class="animate-about__item inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[120px] xl:h-[52px] 2xl:w-[138px] 2xl:h-[60px]">
+        class="animate-ups__item  inline-flex items-center justify-center relative w-[100px] h-[45px] xl:w-[120px] xl:h-[52px] 2xl:w-[138px] 2xl:h-[60px]">
         <nuxt-img format="webp" loading="lazy" width="173" height="78" alt="UPS" src="/logo/logo-cap-light.png"
           class="absolute w-full h-full object-contain" />
       </div>
       <div
         class="flex flex-col items-center justify-center 2xl:gap-3 3xl:max-w-[900px] 2xl:max-w-[700px] lg:max-w-[600px] xl:gap-3">
         <h1
-          class="text-[#fff] font-BG 3xl:text-[60px] 2xl:text-[45px] font-bold leading-normal xl:text-[40px] lg:text-[32px] md:text-[28px] sm:text-[20px]">
+          class="animate-ups__item text-[#fff] font-BG 3xl:text-[60px] 2xl:text-[45px] font-bold leading-normal xl:text-[40px] lg:text-[32px] md:text-[28px] sm:text-[20px]">
           Lợi ích khi giao dịch cổ phiếu
         </h1>
         <p
-          class="text-white/80 text-center font-HG 3xl:text-[20px] 2xl:text-[16px] sm:text-[14px] font-medium leading-normal  ">
+          class="animate-ups__item text-white/80 text-center font-HG 3xl:text-[20px] 2xl:text-[16px] sm:text-[14px] font-medium leading-normal  ">
           Thị trường chứng khoán luôn biến động, tạo ra nhiều cơ hội giao dịch
           linh hoạt, giúp nhà đầu tư chủ động điều chỉnh danh mục đầu tư. Bạn có
           thể dễ dàng mua bán cổ phiếu bất kỳ lúc nào, phù hợp với nhiều mục
@@ -141,7 +141,7 @@
 
     <div class="grid md:grid-cols-3 2xl:gap-[40px] lg:gap-[24px] md:gap-4 sm:grid-cols-1 sm:gap-3">
       <div
-        class="bg-[url('/images/card-1-bieu-phi.png')] 3xl:h-[380px] lg:h-[250px] md:h-[220px] sm:h-[206px] bg-cover bg-center xl:rounded-[24px] sm:rounded-[16px]">
+        class="animate-ups__item bg-[url('/images/card-1-bieu-phi.png')] 3xl:h-[380px] lg:h-[250px] md:h-[220px] sm:h-[206px] bg-cover bg-center xl:rounded-[24px] sm:rounded-[16px]">
         <div class="flex flex-col justify-between xl:p-[40px] h-full lg:p-6 md:p-5 sm:p-6">
           <div class="flex items-center gap-[12px]">
             <i><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -177,7 +177,7 @@
       </div>
 
       <div
-        class="bg-[url('/images/card-2-bieu-phi.png')] 3xl:h-[380px] lg:h-[250px] md:h-[220px] sm:h-[206px] bg-cover bg-center xl:rounded-[24px]  sm:rounded-[16px]">
+        class="animate-ups__item bg-[url('/images/card-2-bieu-phi.png')] 3xl:h-[380px] lg:h-[250px] md:h-[220px] sm:h-[206px] bg-cover bg-center xl:rounded-[24px]  sm:rounded-[16px]">
         <div class="flex flex-col justify-between xl:p-[40px] h-full lg:p-6 md:p-5 sm:p-6">
           <div class="flex items-center gap-[12px]">
             <i><svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
@@ -211,7 +211,7 @@
         </div>
       </div>
       <div
-        class="bg-[url('/images/card-2-bieu-phi.png')] 3xl:h-[380px] lg:h-[250px] md:h-[220px] sm:h-[206px] bg-cover bg-center xl:rounded-[24px]  sm:rounded-[16px]">
+        class="animate-ups__item bg-[url('/images/card-2-bieu-phi.png')] 3xl:h-[380px] lg:h-[250px] md:h-[220px] sm:h-[206px] bg-cover bg-center xl:rounded-[24px]  sm:rounded-[16px]">
         <div class="flex flex-col justify-between xl:p-[40px] h-full lg:p-6 md:p-5 sm:p-6">
           <div class="flex items-center gap-[12px]">
             <i><svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
@@ -245,28 +245,28 @@
     </div>
   </div>
   <!-- bieu phi giao dich -->
-  <div class="container">
+  <div class="container animate-ups">
     <div
       class="flex sm:flex-col lg:flex-row 3xl:py-[160px] 3xl:px-[80px] items-center xl:gap-[80px] 2xl:px-[120px] 2xl:py-[80px] xl:px-[100px] xl:py-[60px] lg:p-[60px] lg:gap-[60px] md:px-[60px] md:py-[40px] md:gap-10 sm:py-8 sm:px-6 sm:gap-6">
       <div
-        class="relative  3xl:h-[440px] 2xl:h-[400px] xl:h-[320px] lg:h-[250px] lg:w-1/2 sm:w-full md:h-[280px] sm:h-[180px]">
+        class="animate-ups__item relative  3xl:h-[440px] 2xl:h-[400px] xl:h-[320px] lg:h-[250px] lg:w-1/2 sm:w-full md:h-[280px] sm:h-[180px]">
         <nuxt-img loading="lazy" alt="UPS" src="/images/bieu-phi-co-phieu.png"
           class="absolute w-full h-full  rounded-[24px]" />
       </div>
       <div class="flex items-start lg:gap-10 flex-col lg:w-1/2 md:w-full  md:px-4 lg:px-0 sm:gap-6">
         <div class="flex flex-col items-start gap-3">
           <h3
-            class="text-[#15171E] font-BG 3xl:text-[60px] xl:text-[40px] lg:text-[32px] md:text-[28px] sm:text-[20px] font-semibold leading-normal">
+            class="animate-ups__item text-[#15171E] font-BG 3xl:text-[60px] xl:text-[40px] lg:text-[32px] md:text-[28px] sm:text-[20px] font-semibold leading-normal">
             Biểu phí giao dịch
           </h3>
           <p
-            class="text-[#15171E] font-HG 3xl:text-[20px] md:text-[16px] font-medium xl:leading-[30px] lg:leading-[24px] sm:text-[14px]">
+            class="animate-ups__item text-[#15171E] font-HG 3xl:text-[20px] md:text-[16px] font-medium xl:leading-[30px] lg:leading-[24px] sm:text-[14px]">
             Khám phá biểu phí giao dịch và chương trình phí ưu đãi hấp dẫn tại UPS
             tại đây
           </p>
         </div>
         <div class="flex 3xl:gap-4 2xl:gap-2 flex-wrap w-full md:gap-4 sm:gap-[10px]">
-          <nuxt-link to="/bieu-phi" class="btn active group">
+          <nuxt-link to="/bieu-phi" class="animate-ups__item btn active group">
             <span class="text-sm 3xl:text-lg"> Xem chi tiết</span>
             <div class="inline-flex gap-1 w-4 h-4 overflow-hidden relative">
               <i class="w-full h-full group-hover:inline-flex hidden absolute">
@@ -280,7 +280,7 @@
           </nuxt-link>
 
           <nuxt-link to="https://onboarding.upstock.com.vn/index.html#/./open-account/check-info" target="_blank"
-            class="btn h-8 2xl:h-12 px-4 2xl:px-5 inline-flex gap-3 items-center rounded-full border lg:border-transparent border-[#222] hover:border-[#222]">
+            class="animate-ups__item btn h-8 2xl:h-12 px-4 2xl:px-5 inline-flex gap-3 items-center rounded-full border lg:border-transparent border-[#222] hover:border-[#222]">
             <span class="text-sm 3xl:text-lg font-bold">
               Mở tài khoản ngay
             </span>
@@ -295,16 +295,17 @@
     </div>
   </div>
   <!-- co the ban quan tam -->
-  <div class="layout">
+  <div class="layout animate-ups">
     <div class="flex xl:gap-[80px] lg:gap-10 2xl:px-[80px] xl:px-8 items-center lg:flex-row sm:flex-col sm:gap-6">
       <div class="3xl:w-[500px] lg:w-[400px] sm:w-full">
-        <h4 class="3xl:text-[40px] lg:text-[32px] md:text-[28px] font-semibold leading-normal text-[#15171E] font-BG">
+        <h4
+          class="animate-ups__item 3xl:text-[40px] lg:text-[32px] md:text-[28px] font-semibold leading-normal text-[#15171E] font-BG">
           Có thể <br />
           bạn quan tâm
         </h4>
       </div>
       <div class="grid grid-cols-2 md:gap-[24px] w-full sm:gap-3">
-        <div class="group">
+        <div class="animate-ups__item group">
           <div
             class="relative xl:rounded-[24px] md:rounded-[16px] group-hover:bg-[linear-gradient(0deg,rgba(0,0,0,0.60)_0%,rgba(0,0,0,0.60)_100%),url('/images/uu-dai.png')] border border-[#C8C8D2] bg-cover bg-no-repeat bg-bottom xl:h-[200px] 2xl:h-[260px] xl:p-[32px] md:p-6 md:h-[160px] flex flex-col justify-between sm:h-[100px] sm:p-3 sm:rounded-[12px]">
             <div class="flex justify-end">
@@ -327,37 +328,39 @@
 
           </div>
         </div>
-        <div class="group">
+        <div class="animate-ups__item group">
           <nuxt-link to="/hdsd">
             <div
-            class="relative xl:rounded-[24px] md:rounded-[16px] group-hover:bg-[linear-gradient(0deg,rgba(0,0,0,0.60)_0%,rgba(0,0,0,0.60)_100%),url('/images/hd.png')] border border-[#C8C8D2] bg-cover bg-no-repeat bg-bottom xl:h-[200px] 2xl:h-[260px] p-[32px] md:p-6 md:h-[160px] flex flex-col justify-between sm:h-[100px] sm:p-3 sm:rounded-[12px]">
-            <div class="flex justify-end">
-              <div
-                class="xl:w-[48px] xl:h-[48px] bg-[#14FFD4] rounded-full flex items-center justify-center sm:w-[15px] sm:h-[15px]">
-                <i>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
-                    class="group-hover:text-[#000] sm:w-2 sm:h-2 md:w-full md:h-full">
-                    <path
-                      d="M15.9915 0.850053C15.9915 0.38473 15.6143 0.00751194 15.149 0.00751223L7.56611 0.00751253C7.10079 0.00751219 6.72357 0.384731 6.72357 0.850052C6.72357 1.31537 7.10079 1.69259 7.56611 1.69259L14.3064 1.69259L14.3064 8.43292C14.3064 8.89824 14.6836 9.27546 15.149 9.27546C15.6143 9.27546 15.9915 8.89824 15.9915 8.43292L15.9915 0.850053ZM1.44635 15.7442L15.7447 1.44582L14.5532 0.254287L0.25482 14.5527L1.44635 15.7442Z"
-                      fill="black" />
-                  </svg>
-                </i>
+              class="relative xl:rounded-[24px] md:rounded-[16px] group-hover:bg-[linear-gradient(0deg,rgba(0,0,0,0.60)_0%,rgba(0,0,0,0.60)_100%),url('/images/hd.png')] border border-[#C8C8D2] bg-cover bg-no-repeat bg-bottom xl:h-[200px] 2xl:h-[260px] p-[32px] md:p-6 md:h-[160px] flex flex-col justify-between sm:h-[100px] sm:p-3 sm:rounded-[12px]">
+              <div class="flex justify-end">
+                <div
+                  class="xl:w-[48px] xl:h-[48px] bg-[#14FFD4] rounded-full flex items-center justify-center sm:w-[15px] sm:h-[15px]">
+                  <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                      class="group-hover:text-[#000] sm:w-2 sm:h-2 md:w-full md:h-full">
+                      <path
+                        d="M15.9915 0.850053C15.9915 0.38473 15.6143 0.00751194 15.149 0.00751223L7.56611 0.00751253C7.10079 0.00751219 6.72357 0.384731 6.72357 0.850052C6.72357 1.31537 7.10079 1.69259 7.56611 1.69259L14.3064 1.69259L14.3064 8.43292C14.3064 8.89824 14.6836 9.27546 15.149 9.27546C15.6143 9.27546 15.9915 8.89824 15.9915 8.43292L15.9915 0.850053ZM1.44635 15.7442L15.7447 1.44582L14.5532 0.254287L0.25482 14.5527L1.44635 15.7442Z"
+                        fill="black" />
+                    </svg>
+                  </i>
+                </div>
               </div>
-            </div>
-            <h5
-              class="3xl:text-[40px] 2xl:text-[32px] md:text-[24px] sm:text-[14px] font-semibold leading-normal text-[#15171E] group-hover:text-white font-BG">
-              Hướng dẫn<br />
-              sử dụng
-            </h5>
+              <h5
+                class="3xl:text-[40px] 2xl:text-[32px] md:text-[24px] sm:text-[14px] font-semibold leading-normal text-[#15171E] group-hover:text-white font-BG">
+                Hướng dẫn<br />
+                sử dụng
+              </h5>
 
-          </div>
+            </div>
           </nuxt-link>
         </div>
       </div>
     </div>
   </div>
-  <div class="container mt-[80px] mb-[100px]">
-    <feedback />
+  <div class="container mt-[80px] mb-[100px] animate-ups">
+    <div class="animate-ups__item ">
+      <feedback />
+    </div>
   </div>
 </template>
 <script lang="ts">
@@ -367,6 +370,112 @@ export default defineComponent({
   name: "co-phieu",
   components: {
     Feedback,
+  },
+
+  setup(props: any, ctx: any) {
+    onMounted(() => {
+      const animateUpsEl = document.querySelectorAll(".animate-ups");
+
+      animateUpsEl.forEach((el) => {
+        const upsEl = el.querySelectorAll(".animate-ups__item");
+        useGsap.fromTo(
+          upsEl,
+          {
+            y: 100,
+            opacity: 0,
+          },
+          {
+            y: 0,
+            opacity: 1,
+            duration: 0.8,
+            ease: "power1.out",
+            stagger: {
+              from: 0,
+              axis: "x",
+              amount: 0.5,
+            },
+            scrollTrigger: {
+              trigger: el,
+              start: "top center",
+              end: "bottom center",
+              scrub: false,
+            },
+          }
+        );
+      });
+
+      const btnWrapper = document.querySelectorAll(".link");
+      btnWrapper.forEach((el) => {
+        useGsap.fromTo(
+          el,
+          {
+            y: 100,
+            opacity: 0,
+          },
+          {
+            y: 0,
+            opacity: 1,
+            duration: 0.8,
+            ease: "power1.out",
+            stagger: {
+              from: 0,
+              axis: "x",
+              amount: 0.5,
+            },
+          }
+        );
+      });
+
+      useGsap.fromTo(
+        ".policy_collection-item",
+        {
+          y: 100,
+          opacity: 0,
+        },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 0.8,
+          ease: "power1.out",
+          stagger: {
+            from: 0,
+            axis: "x",
+            amount: 0.5,
+          },
+          scrollTrigger: {
+            trigger: ".section_policy",
+            start: "top center", // When the top of .section hits the center of viewport
+            end: "bottom center", // When the bottom of .section hits the center of viewport
+            scrub: false,
+          },
+        }
+      );
+
+      useGsap.fromTo(
+        ".news_layout_item",
+        {
+          y: 100,
+          opacity: 0,
+        },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 1,
+          ease: "sine.out",
+          stagger: {
+            from: 0,
+            axis: "x",
+            amount: 0.5,
+          },
+          scrollTrigger: {
+            trigger: ".section_news",
+            start: "top center", // When the top of .section hits the center of viewport
+            end: "bottom center", // When the bottom of .section hits the center of viewport
+            scrub: false,
+          },
+        }
+      );
+    });
   },
 });
 </script>

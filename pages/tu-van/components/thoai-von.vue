@@ -9,12 +9,12 @@ export default defineComponent({
 });
 </script>
 <template>
-    <div class="grid items-center 3xl:gap-[40px] 2xl:gap-[30px] md:grid-cols-2 gap-3 md:gap-4 xl:gap-5">
-        <div class="relative  w-full h-full xl:h-[400px]">
+    <div class="animate-ups grid items-center 3xl:gap-[40px] 2xl:gap-[30px] md:grid-cols-2 gap-3 md:gap-4 xl:gap-5">
+        <div class="animate-ups__item relative  w-full h-full xl:h-[400px]">
             <nuxt-img src="/images/Frame 1597881199.png"
                 class="w-full h-full object-cover overflow-hidden rounded-2xl" />
         </div>
-        <div class="flex 3xl:flex-col 3xl:gap-10  h-full">
+        <div class="animate-ups__item flex 3xl:flex-col 3xl:gap-10  h-full">
             <div
                 class="flex flex-col items-start justify-center bg-[#15171E] gap-4 rounded-[16px] p-4 md:p-6 lg:p-8 h-full xl:p-10 xl:gap-4 ">
                 <div>

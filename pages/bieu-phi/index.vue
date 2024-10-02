@@ -45,9 +45,11 @@
 			<!-- UPS GLOBAL -->
 
 		</div>
-		<div class="container">
+		<div class="container animate-ups">
+			<div class="animate-ups__item">
+				<feedback />
+			</div>
 
-			<feedback />
 		</div>
 
 		<!-- UPS PARTNER -->

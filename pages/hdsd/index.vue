@@ -1,17 +1,17 @@
 <template>
 	<div class="mt-[-80px] md:mt-[-50px]">
 		<div
-			class="pb-5 pt-[50px] md:pb-10 md:pt-[70px] xl:pb-[50px] xl:pt-[80px] 2xl:pt-[90px] 2xl:pb-[60px] 3xl:pb-20 3xl:pt-[110px] rounded-b-[20px] bg-custom-hdsd bg-cover bg-no-repeat"
+			class="animate-ups pb-5 pt-[50px] md:pb-10 md:pt-[70px] xl:pb-[50px] xl:pt-[80px] 2xl:pt-[90px] 2xl:pb-[60px] 3xl:pb-20 3xl:pt-[110px] rounded-b-[20px] bg-custom-hdsd bg-cover bg-no-repeat"
 		>
 			<div class="container">
 				<div>
 					<h3
-						class="text-[24px] md:text-[36px] xl:text-[52px] 2xl:text-[56px] 3xl:text-[60px] text-white font-bold font-BG"
+						class="animate-ups__item text-[24px] md:text-[36px] xl:text-[52px] 2xl:text-[56px] 3xl:text-[60px] text-white font-bold font-BG"
 					>
 					Hỗ trợ khách hàng
 					</h3>
 					<div
-						class="text-[14px] md:text-[26px] xl:text-[42px] 2xl:text-[46px] 3xl:text-[50px] font-bold font-BG bg-gradient-to-r from-[#00C058] to-[#1FAB5F] [background-position:41.75%] bg-clip-text text-transparent"
+						class="animate-ups__item text-[14px] md:text-[26px] xl:text-[42px] 2xl:text-[46px] 3xl:text-[50px] font-bold font-BG bg-gradient-to-r from-[#00C058] to-[#1FAB5F] [background-position:41.75%] bg-clip-text text-transparent"
 					>
 						Cùng bạn đồng hành, dẫn lối đầu tư
 					</div>
@@ -20,9 +20,9 @@
 		</div>
 
 		<!-- CHI TIẾT -->
-		<div class="container">
+		<div class="container animate-ups">
 			<!-- TOGGLE -->
-			<div class="flex items-center xl:hidden mt-10 ">
+			<div class="animate-ups__item flex items-center xl:hidden mt-10 ">
 				<Drawer direction="left">
 					<DrawerTrigger as-child>
 						<div class="flex items-center">
@@ -163,7 +163,7 @@
 				</Drawer>
 			</div>
 
-			<div class="py-8 md:py-10 lg:py-12 grid grid-cols-12 gap-y-10 2xl:gap-[60px]">
+			<div class="animate-ups__item py-8 md:py-10 lg:py-12 grid grid-cols-12 gap-y-10 2xl:gap-[60px]">
 				<div class="3xl:col-span-3 xl:col-span-4 hidden xl:block">
 					<div class="">
 						<h4 class="text-xl text-black font-bold">Hướng dẫn sử dụng</h4>
@@ -363,8 +363,8 @@
 		</div>
 
 		<!-- FEEDBACK -->
-		<div class="container">
-			<div class="pt-0 pb-20 md:py-[100px]">
+		<div class="container animate-ups">
+			<div class="animate-ups__item pt-0 pb-20 md:py-[100px]">
 				<feedback />
 			</div>
 		</div>
@@ -410,7 +410,7 @@ export default defineComponent({
 		DrawerTrigger,
 		ScrollArea,
 	},
-	setup(props, ctx) {
+	setup(props:any, ctx:any) {
 		const defaultValue = ref<string>("1");
 		const route = useRoute();
 
@@ -507,6 +507,111 @@ export default defineComponent({
 					content: "Tên tác giả hoặc tên công ty", // Replace with the author's name or company name
 				},
 			],
+		});
+
+
+		onMounted(() => {
+			const animateUpsEl = document.querySelectorAll(".animate-ups");
+
+			animateUpsEl.forEach((el) => {
+				const upsEl = el.querySelectorAll(".animate-ups__item");
+				useGsap.fromTo(
+					upsEl,
+					{
+						y: 100,
+						opacity: 0,
+					},
+					{
+						y: 0,
+						opacity: 1,
+						duration: 0.8,
+						ease: "power1.out",
+						stagger: {
+							from: 0,
+							axis: "x",
+							amount: 0.5,
+						},
+						scrollTrigger: {
+							trigger: el,
+							start: "top center",
+							end: "bottom center",
+							scrub: false,
+						},
+					}
+				);
+			});
+
+			const btnWrapper = document.querySelectorAll(".link");
+			btnWrapper.forEach((el) => {
+				useGsap.fromTo(
+					el,
+					{
+						y: 100,
+						opacity: 0,
+					},
+					{
+						y: 0,
+						opacity: 1,
+						duration: 0.8,
+						ease: "power1.out",
+						stagger: {
+							from: 0,
+							axis: "x",
+							amount: 0.5,
+						},
+					}
+				);
+			});
+
+			useGsap.fromTo(
+				".policy_collection-item",
+				{
+					y: 100,
+					opacity: 0,
+				},
+				{
+					y: 0,
+					opacity: 1,
+					duration: 0.8,
+					ease: "power1.out",
+					stagger: {
+						from: 0,
+						axis: "x",
+						amount: 0.5,
+					},
+					scrollTrigger: {
+						trigger: ".section_policy",
+						start: "top center", // When the top of .section hits the center of viewport
+						end: "bottom center", // When the bottom of .section hits the center of viewport
+						scrub: false,
+					},
+				}
+			);
+
+			useGsap.fromTo(
+				".news_layout_item",
+				{
+					y: 100,
+					opacity: 0,
+				},
+				{
+					y: 0,
+					opacity: 1,
+					duration: 1,
+					ease: "sine.out",
+					stagger: {
+						from: 0,
+						axis: "x",
+						amount: 0.5,
+					},
+					scrollTrigger: {
+						trigger: ".section_news",
+						start: "top center", // When the top of .section hits the center of viewport
+						end: "bottom center", // When the bottom of .section hits the center of viewport
+						scrub: false,
+					},
+				}
+			);
 		});
 
 		return {

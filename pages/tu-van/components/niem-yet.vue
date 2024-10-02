@@ -9,14 +9,14 @@ export default defineComponent({
 });
 </script>
 <template>
-    <div class="flex flex-col items-center w-full gap-5 2xl:gap-10">
+    <div class="animate-ups flex flex-col items-center w-full gap-5 2xl:gap-10">
         <div class="flex 3xl:w-[700px] flex-col 3xl:gap-3">
             <p
-                class="text-center font-BG text-[16px] xl:text-[28px] 2xl:text-[32px] 3xl:text-[40px] leading-normal font-semibold">
+                class="animate-ups__item text-center font-BG text-[16px] xl:text-[28px] 2xl:text-[32px] 3xl:text-[40px] leading-normal font-semibold">
                 Niêm yết và giao
                 dịch
             </p>
-            <p class="text-center font-HG text-[14px] 2xl:text-[16px] leading-normal text-[rgba(83, 86, 98, 0.80)]">
+            <p class="animate-ups__item text-center font-HG text-[14px] 2xl:text-[16px] leading-normal text-[rgba(83, 86, 98, 0.80)]">
                 UPS sẽ
                 giúp doanh nghiệp
                 chuẩn bị các điều kiện nhằm đáp ứng yêu cầu niêm yết
@@ -25,7 +25,7 @@ export default defineComponent({
         </div>
         <div class="flex flex-col justify-center items-start gap-3 lg:flex-row min-h-[280px] 2xl:gap-6 3xl:gap-10">
             <div
-                class="relative p-5 lg:p-8 2xl:p-10 border w-full flex flex-col justify-center items-center gap-6 rounded-[12px] group animate-ups__item h-full lg:h-[515px] flex-1 md:p-8 2xl:min-h-[545px] 3xl:p-[60px] 3xl:rounded-[32px] 3xl:h-[642px]">
+                class="animate-ups__item relative p-5 lg:p-8 2xl:p-10 border w-full flex flex-col justify-center items-center gap-6 rounded-[12px] group animate-ups__item h-full lg:h-[515px] flex-1 md:p-8 2xl:min-h-[545px] 3xl:p-[60px] 3xl:rounded-[32px] 3xl:h-[642px]">
                 <!-- Background Gradient -->
                 <div
                     class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 rounded-[12px] 3xl:rounded-[32px]">
@@ -118,7 +118,7 @@ export default defineComponent({
 
             </div>
             <div
-                class="relative p-5 lg:p-8 2xl:p-10 border w-full flex flex-col justify-center items-center gap-6 rounded-[12px] group animate-ups__item h-full lg:h-[515px] flex-1 md:p-8 2xl:min-h-[545px] 3xl:p-[60px] 3xl:rounded-[32px] 3xl:h-[642px]">
+                class="animate-ups__item relative p-5 lg:p-8 2xl:p-10 border w-full flex flex-col justify-center items-center gap-6 rounded-[12px] group animate-ups__item h-full lg:h-[515px] flex-1 md:p-8 2xl:min-h-[545px] 3xl:p-[60px] 3xl:rounded-[32px] 3xl:h-[642px]">
                 <!-- Background Gradient -->
                 <div
                     class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 rounded-[12px] 3xl:rounded-[32px]">
@@ -210,7 +210,7 @@ export default defineComponent({
 
             </div>
             <div
-                class="relative p-5 lg:p-8 2xl:p-10 border w-full flex flex-col justify-center items-center gap-6 rounded-[12px] group animate-ups__item h-full lg:h-[515px] flex-1 md:p-8 2xl:min-h-[545px] 3xl:p-[60px] 3xl:rounded-[32px] 3xl:h-[642px]">
+                class="animate-ups__item relative p-5 lg:p-8 2xl:p-10 border w-full flex flex-col justify-center items-center gap-6 rounded-[12px] group animate-ups__item h-full lg:h-[515px] flex-1 md:p-8 2xl:min-h-[545px] 3xl:p-[60px] 3xl:rounded-[32px] 3xl:h-[642px]">
                 <!-- Background Gradient -->
                 <div
                     class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 rounded-[12px] 3xl:rounded-[32px]">

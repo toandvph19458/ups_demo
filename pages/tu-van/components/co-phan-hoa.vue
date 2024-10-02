@@ -39,13 +39,13 @@ export default defineComponent({
 });
 </script>
 <template>
-    <div class="flex flex-col items-center 2xl:gap-10 xl:gap-[26px]  gap-5 w-full h-full">
+    <div class="animate-ups flex flex-col items-center 2xl:gap-10 xl:gap-[26px]  gap-5 w-full h-full">
         <div class="flex flex-col 3xl:gap-3 items-center xl:w-2/3 ">
             <p
-                class="text-[#1D1E22] text-center font-BG 3xl:text-[40px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[16px] leading-normal font-semibold">
+                class="animate-ups__item text-[#1D1E22] text-center font-BG 3xl:text-[40px] 2xl:text-[32px] xl:text-[28px] lg:text-[24px] text-[16px] leading-normal font-semibold">
                 Cổ phần
                 hóa và phát hành chứng khoán</p>
-            <p class="text-[rgba(83,86,98,0.80)] text-center font-HG 2xl:text-[16px] text-[14px] leading-normal">
+            <p class="animate-ups__item text-[rgba(83,86,98,0.80)] text-center font-HG 2xl:text-[16px] text-[14px] leading-normal">
                 Với mạng
                 lưới quan hệ rộng lớn, UPS có khả năng tìm kiếm nhà đầu tư tiềm năng cho doanh nghiệp, giúp tổ
                 chức bán cổ phần ra bên ngoài qua phương thức đấu giá. Đây là yếu tố rất quan trọng giúp cho quá
@@ -71,7 +71,7 @@ export default defineComponent({
                 <div
                     class="md:grid md:grid-cols-2 gap-3 hidden lg:grid-cols-2 lg:min-h-[400px] xl:min-h-[420px] w-full ">
                     <div
-                        class="flex p-4 xl:gap-[14px] xl:p-8 3xl:p-10 flex-col justify-center items-start gap-2 hover:bg-gradient-to-r from-[#00e7ff] to-[#a4fb5a] bg-[#EDEDF4] rounded-[16px] min-h-[120px] 2xl:min-h-[230px]">
+                        class="animate-ups__item flex p-4 xl:gap-[14px] xl:p-8 3xl:p-10 flex-col justify-center items-start gap-2 hover:bg-gradient-to-r from-[#00e7ff] to-[#a4fb5a] bg-[#EDEDF4] rounded-[16px] min-h-[120px] 2xl:min-h-[230px]">
 
                         <nuxt-img src="/icons/wallet-money.svg"
                             class="w-[24px] h-[24px] xl:w-8 xl:h-8 3xl:w-10 3xl:h-10" />
@@ -84,7 +84,7 @@ export default defineComponent({
                             chuyển đổi loại hình doanh nghiệp</p>
                     </div>
                     <div
-                        class="flex p-4 xl:gap-[14px] xl:p-8 3xl:p-10 flex-col justify-center items-start gap-2 hover:bg-gradient-to-r from-[#00e7ff] to-[#a4fb5a] bg-[#EDEDF4] rounded-[16px] flex-grow flex-shrink-0 basis-0 min-h-[120px] 2xl:min-h-[230px]">
+                        class="animate-ups__item flex p-4 xl:gap-[14px] xl:p-8 3xl:p-10 flex-col justify-center items-start gap-2 hover:bg-gradient-to-r from-[#00e7ff] to-[#a4fb5a] bg-[#EDEDF4] rounded-[16px] flex-grow flex-shrink-0 basis-0 min-h-[120px] 2xl:min-h-[230px]">
 
                         <nuxt-img src="/icons/wallet-money.svg"
                             class="w-[24px] h-[24px] xl:w-8 xl:h-8 3xl:w-10 3xl:h-10" />
@@ -97,7 +97,7 @@ export default defineComponent({
                         </p>
                     </div>
                     <div
-                        class="flex p-4 xl:gap-[14px] xl:p-8 3xl:p-10 flex-col justify-center items-start gap-2 hover:bg-gradient-to-r from-[#00e7ff] to-[#a4fb5a] bg-[#EDEDF4] rounded-[16px] flex-grow flex-shrink-0 basis-0 min-h-[120px] 2xl:min-h-[230px]">
+                        class="animate-ups__item flex p-4 xl:gap-[14px] xl:p-8 3xl:p-10 flex-col justify-center items-start gap-2 hover:bg-gradient-to-r from-[#00e7ff] to-[#a4fb5a] bg-[#EDEDF4] rounded-[16px] flex-grow flex-shrink-0 basis-0 min-h-[120px] 2xl:min-h-[230px]">
 
                         <nuxt-img src="/icons/wallet-money.svg"
                             class="w-[24px] h-[24px] xl:w-8 xl:h-8 3xl:w-10 3xl:h-10" />
@@ -110,7 +110,7 @@ export default defineComponent({
                             chúng</p>
                     </div>
                     <div
-                        class="flex p-4 xl:gap-[14px] xl:p-8 3xl:p-10 flex-col justify-center items-start gap-2 hover:bg-gradient-to-r from-[#00e7ff] to-[#a4fb5a] bg-[#EDEDF4] rounded-[16px] flex-grow flex-shrink-0 basis-0 min-h-[120px] 2xl:min-h-[230px]">
+                        class="animate-ups__item flex p-4 xl:gap-[14px] xl:p-8 3xl:p-10 flex-col justify-center items-start gap-2 hover:bg-gradient-to-r from-[#00e7ff] to-[#a4fb5a] bg-[#EDEDF4] rounded-[16px] flex-grow flex-shrink-0 basis-0 min-h-[120px] 2xl:min-h-[230px]">
 
                         <nuxt-img src="/icons/wallet-money.svg"
                             class="w-[24px] h-[24px] xl:w-8 xl:h-8 3xl:w-10 3xl:h-10" />
@@ -124,7 +124,7 @@ export default defineComponent({
                     </div>
                 </div>
                 <div
-                    class="flex 3xl:px-[60px] 2xl:p-10 3xl:py-[40px] flex-col xl:rounded-[40px]  bg-[linear-gradient(94deg,rgba(237,237,244,0.9)_-10.9%,rgba(237,237,244,0)_95.88%)] w-full p-5 rounded-[12px] gap-10 md:p-6 xl:p-10 xl:gap-10 2xl:gap-10 h-full ">
+                    class="animate-ups__item flex 3xl:px-[60px] 2xl:p-10 3xl:py-[40px] flex-col xl:rounded-[40px]  bg-[linear-gradient(94deg,rgba(237,237,244,0.9)_-10.9%,rgba(237,237,244,0)_95.88%)] w-full p-5 rounded-[12px] gap-10 md:p-6 xl:p-10 xl:gap-10 2xl:gap-10 h-full ">
 
                     <div class="flex flex-col gap-3 item-start self-stretch  w-full 2xl:gap-6">
                         <p class="font-BG text-[16px] 2xl:text-[28px] 3xl:text-[32px] leading-normal font-semibold">Tư

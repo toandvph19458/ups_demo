@@ -6,9 +6,9 @@
 					class="link absolute w-full h-full object-contain" />
 			</div> -->
 		</div>
-		<div class="text-center mt-[30px] mb-[20px]">
+		<div class="animate-ups text-center mt-[30px] mb-[20px]">
 			<h3
-				class="text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] xl:w-[968px] w-full mx-auto">
+				class="animate-ups__item text-[#15171E] font-bricolage-grotesque xl:text-[50px] font-semibold leading-normal text-[24px] xl:w-[968px] w-full mx-auto">
 				{{ data && data.newDetail.title }}
 			</h3>
 		</div>
@@ -40,17 +40,17 @@
         15/08/2024 - 22:20
       </p>
     </div> -->
-		<div class="flex justify-center text-center xl:my-[80px] my-[30px]">
-			<div class="inline-flex relative w-full pt-[60%] md:pt-[50%] xl:pt-[40%] 3xl:pt-[36%]">
+		<div class="animate-ups flex justify-center text-center xl:my-[80px] my-[30px]">
+			<div class="animate-ups__item inline-flex relative w-full pt-[60%] md:pt-[50%] xl:pt-[40%] 3xl:pt-[36%]">
 				<nuxt-img loading="lazy" alt="UPS" :src="config.NUXT_APP_IMAGE_URL + data?.newDetail.thumbnail?.id"
 					class="link absolute top-0 left-0 w-full h-full rounded-[20px] object-cover" />
 			</div>
 		</div>
 
 		<div
-			class="w-full md:w-[668px] lg:w-[720px] xl:w-[800px] 2xl:w-[900px] 3xl:w-[1200px] flex justify-center mx-auto">
+			class="animate-ups w-full md:w-[668px] lg:w-[720px] xl:w-[800px] 2xl:w-[900px] 3xl:w-[1200px] flex justify-center mx-auto">
 			<div class="w-full lg:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]">
-				<div class="text-left xl:w-[70%] lg:w-[70%] w-full">
+				<div class="animate-ups__item text-left xl:w-[70%] lg:w-[70%] w-full">
 					<!-- <p class="text-[#696B75] text-[18px] font-normal leading-[20px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -99,15 +99,17 @@
             </p>
           </div> -->
 					<div class="content-wrapper" v-html="data?.newDetail.content"></div>
-					<div class="my-[30px]">
-						<Comment />
+					<div class="my-[30px] animate-ups">
+						<div class="animate-ups__item">
+							<Comment />
+						</div>
 					</div>
 					<p
 						class="text-center text-[#535662] font-hanken-grotesk text-[16px] font-medium leading-normal mb-[80px]">
 						<!-- Cập nhật mới nhất: 20/08/2024 -->
 					</p>
 				</div>
-				<div class="xl:w-[30%] lg:w-[30%] w-full">
+				<div class="animate-ups__item xl:w-[30%] lg:w-[30%] w-full">
 					<h4 class="text-[#15171E] font-bricolage-grotesque text-[16px] font-semibold leading-[20px]">
 						Thẻ bài viết
 					</h4>
@@ -178,8 +180,8 @@
 			</div>
 		</div>
 		<!-- tin liên quan -->
-		<div class="w-full md:w-[668px] lg:w-[720px] xl:w-[800px] 2xl:w-[900px] 3xl:w-[1200px] mx-auto">
-			<div class="">
+		<div class="animate-ups w-full md:w-[668px] lg:w-[720px] xl:w-[800px] 2xl:w-[900px] 3xl:w-[1200px] mx-auto">
+			<div class="animate-ups__item">
 				<div class="flex justify-between">
 					<div
 						class="animate-about__item inline-flex relative pt-[6%] w-[54px] md:w-[70px] lg:w-[86px] 2xl:w-[100px] 3xl:w-[130px]">
@@ -193,7 +195,7 @@
 					Tin <span class="text-green-ups">liên quan</span>
 				</h2>
 			</div>
-			<div class="my-[40px] grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6 3xl:gap-10">
+			<div class="animate-ups__item my-[40px] grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6 3xl:gap-10">
 				<div class="card relative" v-for="doc in data?.dataNews">
 					<div class="flex justify-center text-center">
 						<div class="inline-flex relative w-full pt-[70%]">
@@ -309,6 +311,110 @@ export default defineComponent({
 
 		useHead(metaTag);
 
+		onMounted(() => {
+			const animateUpsEl = document.querySelectorAll(".animate-ups");
+
+			animateUpsEl.forEach((el) => {
+				const upsEl = el.querySelectorAll(".animate-ups__item");
+				useGsap.fromTo(
+					upsEl,
+					{
+						y: 100,
+						opacity: 0,
+					},
+					{
+						y: 0,
+						opacity: 1,
+						duration: 0.8,
+						ease: "power1.out",
+						stagger: {
+							from: 0,
+							axis: "x",
+							amount: 0.5,
+						},
+						scrollTrigger: {
+							trigger: el,
+							start: "top center",
+							end: "bottom center",
+							scrub: false,
+						},
+					}
+				);
+			});
+
+			const btnWrapper = document.querySelectorAll(".link");
+			btnWrapper.forEach((el) => {
+				useGsap.fromTo(
+					el,
+					{
+						y: 100,
+						opacity: 0,
+					},
+					{
+						y: 0,
+						opacity: 1,
+						duration: 0.8,
+						ease: "power1.out",
+						stagger: {
+							from: 0,
+							axis: "x",
+							amount: 0.5,
+						},
+					}
+				);
+			});
+
+			useGsap.fromTo(
+				".policy_collection-item",
+				{
+					y: 100,
+					opacity: 0,
+				},
+				{
+					y: 0,
+					opacity: 1,
+					duration: 0.8,
+					ease: "power1.out",
+					stagger: {
+						from: 0,
+						axis: "x",
+						amount: 0.5,
+					},
+					scrollTrigger: {
+						trigger: ".section_policy",
+						start: "top center", // When the top of .section hits the center of viewport
+						end: "bottom center", // When the bottom of .section hits the center of viewport
+						scrub: false,
+					},
+				}
+			);
+
+			useGsap.fromTo(
+				".news_layout_item",
+				{
+					y: 100,
+					opacity: 0,
+				},
+				{
+					y: 0,
+					opacity: 1,
+					duration: 1,
+					ease: "sine.out",
+					stagger: {
+						from: 0,
+						axis: "x",
+						amount: 0.5,
+					},
+					scrollTrigger: {
+						trigger: ".section_news",
+						start: "top center", // When the top of .section hits the center of viewport
+						end: "bottom center", // When the bottom of .section hits the center of viewport
+						scrub: false,
+					},
+				}
+			);
+		});
+
 		return {
 			data,
 			config,
@@ -367,11 +473,14 @@ export default defineComponent({
 	color: blue;
 	text-decoration: underline;
 }
+
 .content-wrapper :deep(iframe) {
-  width: 100% !important;
-  height: 400px !important; /* Adjust the height as needed */
-  border: none;
-  max-width: 97%;
+	width: 100% !important;
+	height: 400px !important;
+	/* Adjust the height as needed */
+	border: none;
+	max-width: 97%;
 }
+
 /* Add more specific styles as needed */
 </style>

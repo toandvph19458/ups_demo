@@ -2,7 +2,7 @@
   <section class="pt-10 pb-[70px] md:py-10 xl:pt-[120px] xl:pb-[60px] bg-[#EDEDF4]">
     <div class="container">
       <div class="grid grid-cols-5 gap-4 flex-col md:flex-row">
-        <div class="col-span-5 xl:col-span-2">
+        <div class="animate-about__item col-span-5 xl:col-span-2">
           <div class="flex items-end">
             <h2
               class="animate-ups__item hidden xl:block text-[28px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] 3xl:text-[76px] font-bold font-BG text-black leading-[1.3]">
@@ -38,7 +38,7 @@
           </p>
         </div>
 
-        <div class="col-span-5 xl:col-span-3 hidden md:grid gap-4 grid-cols-3">
+        <div class="animate-about__item col-span-5 xl:col-span-3 hidden md:grid gap-4 grid-cols-3">
           <div
             class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
             <div class="absolute w-full h-full">
@@ -103,7 +103,7 @@
           </div>
         </div>
 
-        <div class="col-span-5 block md:hidden xl:hidden mt-[30px] md:mt-10 w-full h-[350px] flex-none">
+        <div class="animate-about__item col-span-5 block md:hidden xl:hidden mt-[30px] md:mt-10 w-full h-[350px] flex-none">
           <swiper :modules="[SwiperNavigation]" :pagination="true" :slides-per-view="1.4" :loop="false" :speed="800"
             :space-between="12" :breakpoints="{
               480: {

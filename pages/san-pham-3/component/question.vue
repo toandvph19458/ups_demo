@@ -4,9 +4,9 @@
 			class="flex px-6 pt-[60px] pb-6 flex-col items-center gap-6 3xl:px-[225px] 3xl:pt-[100px] 3xl:pb-[160px] 3xl:gap-[80px]">
 			<div
 				class="w-full flex flex-col items-center 2xl:gap-[80px] lg:gap-[40px] gap-6 bg-[url('./images/Grid.png')] bg-cover bg-center bg-no-repeat">
-				<div class="w-full">
+				<div class="animate-ups w-full">
 					<p
-						class="text-[#15171E] font-BG text-center font-bold  text-[20px] leading-normal animate-ups__item 3xl:text-[60px]">
+						class="animate-ups__item text-[#15171E] font-BG text-center font-bold  text-[20px] leading-normal animate-ups__item 3xl:text-[60px]">
 						Câu hỏi thường gặp về
 						<span
 							class="text-[#01C159] font-BG font-bold text-[20px] leading-normal animate-ups__item 3xl:text-[60px]">
@@ -14,12 +14,13 @@
 						</span>
 					</p>
 					<p
-						class="text-black text-center font-HG font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] 2xl:text-[16px] leading-normal animate-ups__item 3xl:text-[20px]">
+						class="animate-ups__item text-black text-center font-HG font-medium text-[20px] xl:text-[14px] lg:text-[12px] sm:text-[12px] 2xl:text-[16px] leading-normal animate-ups__item 3xl:text-[20px]">
 						Cập nhật các sản phẩm, dịch vụ mới nhất cũng như các hoạt động, sự kiện của UPS
 					</p>
 				</div>
-				<div class="w-full flex items-center flex-col">
-					<Accordion type="single" class="w-2/3 2xl:w-3/4 sm:w-full lg:w-2/3" collapsible>
+
+				<div class="animate-ups w-full flex items-center flex-col">
+					<Accordion type="single" class="animate-ups__item w-2/3 2xl:w-3/4 sm:w-full lg:w-2/3" collapsible>
 						<AccordionItem :value="1">
 							<AccordionTrigger class="flex items-center hover:no-underline">
 								<div class="flex items-center">

@@ -132,8 +132,11 @@ export default defineComponent({
 		<!-- tinh-nang -->
 		<feature />
 		<!-- thong tin lien he -->
-		<div class="layout">
-			<feedback />
+		<div class="layout animate-ups">
+			<div class="animate-ups__item">
+
+				<feedback />
+			</div>
 		</div>
 		<!-- <div
 			class="flex flex-col md:flex-row md:px-[60px] md:py-6 p-6 gap-3 xl:p-[24px_100px] lg:p-[24px_60px] lg:gap-10 3xl:p-[40px_160px] 2xl:p-[24px_120px] justify-between items-center bg-[linear-gradient(269deg,_#FF76E1_3.83%,_rgba(255,_85,_17,_0.80)_98.43%)] animate-ups w-full">
