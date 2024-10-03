@@ -1,5 +1,5 @@
 <template>
-  <section class="animate-ups mt-11 relative">
+  <section class="animate-ups relative">
     <div class="hidden xl:block 3xl:px-4 3xl:py-6 px-2 py-4 bg-[#15171E] absolute left-0 bottom-0">
       <nuxt-img loading="lazy" src="/logo/logo-row.svg" width="38" height="38" alt="UPS" />
     </div>

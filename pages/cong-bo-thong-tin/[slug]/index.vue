@@ -98,9 +98,9 @@
           </div> -->
 					<div class="content-wrapper" v-html="data?.newDetail.content"></div>
 					<!-- Xem tài liệu -->
-					<div class="container text-center mt-3">
-						<nuxt-link :to="config.NUXT_APP_IMAGE_URL + data?.newDetail.files[0].directus_files_id?.id"
-							class="underline" target="_blank">Xem tài liệu</nuxt-link>
+					<div class="container text-center mt-3 flex items-center justify-center gap-[12px] flex-col md:flex-row " v-for="doc in data?.newDetail.files">
+						<nuxt-link :to="config.NUXT_APP_IMAGE_URL + doc.directus_files_id?.id"
+							class="underline" target="_blank">Xem tài liệu  {{ doc.directus_files_id?.title }}</nuxt-link>
 					</div>
 					<div class="my-[30px]">
 						<Comment />
@@ -229,7 +229,7 @@
 							{{ doc?.short_content?.blurb }}
 						</p>
 					</div>
-					<nuxt-link :to="`/tin-tuc/${doc?.short_content?.slug}`"
+					<nuxt-link :to="`/cong-bo-thong-tin/${doc?.short_content?.slug}`"
 						class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full" />
 				</div>
 			</div>
@@ -258,7 +258,8 @@ export default defineComponent({
 				3,
 				dataDetail?.data?.data?.posts_by_id?.raw_content?.categories[0].category?.slug
 			);
-
+			console.log(dataDetail?.data?.data?.announce_by_id?.raw_content);
+			
 			return {
 				newDetail: dataDetail?.data?.data?.announce_by_id?.raw_content,
 				dataNews: dataNews?.data?.data?.announce,

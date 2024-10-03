@@ -1,7 +1,7 @@
 <template>
 	<header
 		id="header"
-		class="fixed bg-white flex items-center w-full h-[64px] md:h-[84px] xl:h-[90px] max-w-full z-[100] inset-0"
+		class="fixed bg-white flex items-center w-full h-[64px] md:h-[84px] xl:h-[90px] max-w-full z-[100] inset-0 rounded-b-[20px]"
 	>
 		<div class="container">
 			<div class="w-full h-full my-auto lg:py-5 flex justify-between items-center">

@@ -205,7 +205,7 @@ onMounted(() => {
 					<nuxt-img format="webp" loading="lazy" alt="UPS" src="/logo/logo-cms.png"
 						class="absolute w-full h-full object-contain" />
 				</div>
-				<div class="container w-full flex flex-col items-start gap-3">
+				<div class=" w-full flex flex-col items-start gap-3 mx-0">
 					<p
 						class="animate-ups__item font-HG text-md text-white uppercase text-[12px] md:text-[12px] 2xl:text-[14px] leading-normal">
 						Khách hàng doanh nghiệp
@@ -243,7 +243,7 @@ onMounted(() => {
 		</div>
 		<!-- grid card -->
 		<div class="container animate-ups">
-			<div class="p-6 flex flex-col gap-6 md:py-[46px] lg:py-[46px] 2xl:py-[50px] 3xl:py-[70px]">
+			<div class="py-6 px-0 flex flex-col gap-6 md:py-[46px] lg:py-[46px] 2xl:py-[50px] 3xl:py-[70px]">
 				<!-- TOGGLE -->
 				<div class="animate-ups__item flex items-center xl:hidden md:hidden">
 					<Drawer direction="left">
@@ -514,7 +514,7 @@ onMounted(() => {
 						</div>
 
 						<div
-							class="p-[11px] xl:p-[12px] 3xl:p-[16px] md:p-2 gap-4 md:gap-[10px] 3xl:gap-[16px] xl:gap-4 flex flex-col items-start bg-[#e8ecf7] border-[#C1C7DD] rounded-lg w-full md:w-[140px] xl:w-[180px] border 2xl:w-[175px] 3xl:w-[220px]">
+							class="p-[11px] xl:p-[12px] 3xl:p-[16px] md:p-2 gap-4 md:gap-[10px] 3xl:gap-[16px] xl:gap-4 flex flex-col items-start bg-[#e8ecf7] border-[#C1C7DD] rounded-lg w-full md:w-[140px] xl:w-[180px] border 2xl:w-[198px] 3xl:w-[220px]">
 							<div class="w-full">
 								<p class="text-black font-HG text-[14px] 3xl:text-[16px] font-bold leading-normal">
 									Tôi muốn đọc nhiều hơn

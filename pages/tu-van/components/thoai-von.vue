@@ -9,32 +9,39 @@ export default defineComponent({
 });
 </script>
 <template>
-    <div class="animate-ups grid items-center 3xl:gap-[40px] 2xl:gap-[30px] md:grid-cols-2 gap-3 md:gap-4 xl:gap-5">
-        <div class="animate-ups__item relative  w-full h-full xl:h-[400px]">
-            <nuxt-img src="/images/Frame 1597881199.png"
-                class="w-full h-full object-cover overflow-hidden rounded-2xl" />
+    <div class="animate-ups flex flex-col md:flex-row 3xl:gap-[40px] 2xl:gap-[30px] gap-3 md:gap-4 xl:gap-5">
+        <div class="basis-full md:basis-1/2 flex-1 animate-ups__item">
+            <div class="relative w-full h-full pt-[100%] md:pt-0">
+                <nuxt-img src="/images/Frame 1597881199.png" class="absolute top-0 left-0 w-full h-full rounded-2xl" />
+            </div>
         </div>
-        <div class="animate-ups__item flex 3xl:flex-col 3xl:gap-10  h-full">
+
+        <div class="basis-full md:basis-1/2 animate-ups__item flex 3xl:flex-col 3xl:gap-10  h-full">
             <div
-                class="flex flex-col items-start justify-center bg-[#15171E] gap-4 rounded-[16px] p-4 md:p-6 lg:p-8 h-full xl:p-10 xl:gap-4 ">
+                class="flex flex-col items-start justify-center gap-4 h-full bg-[#15171E] rounded-[16px] p-5 md:p-6 lg:p-8 xl:p-10 3xl:p-[60px]">
                 <div>
                     <img src="/logo/logo-row.svg" alt="" class="w-5 h-5  2xl:w-6 2xl:h-6 xl:w-8 xl:h-8 lg:w-6 lg:h-6 ">
                 </div>
                 <div>
                     <p
-                        class="font-BG text-[#02E56A] text-[16px] xl:text-[24px] font-semibold leading-normal lg:text-[20px]">
+                        class="font-BG text-[#02E56A] text-[18px] xl:text-[24px] font-semibold leading-normal lg:text-[20px]">
                         Tư vấn
                         thoái phần vốn Nhà
                         nước tại Công ty cổ phần, Công ty TNHH</p>
                 </div>
-                <p class=" font-HG 3xl:text-[16px] text-[14px] leading-normal text-[#FFFFFF] ">
+                <p class=" font-HG 3xl:text-[16px] text-[16px] leading-normal text-[#FFFFFF] ">
                     UPS là đơn vị đã tạo được thương hiệu về việc thoái vốn tại các Tập đoàn, Tổng Công ty và đặc
                     biệt là các Ủy ban dân tỉnh tại khu vực phía Bắc. UPS đã tư vấn thành công cho các Hợp đồng
                     thoái vốn Nhà nước theo đúng định hướng của Nhà nước, chỉ đạo của Chủ sở hữu. Nội dung tư vấn
                     thoái phần vốn Nhà nước tại doanh nghiệp gồm các bước:</p>
-                <!-- <p class="font-HG text-[14px] text-[#FFF] leading-normal font-bold underline">Xem thêm</p> -->
+
+                <p class="font-HG text-[16px] text-[#FFF] leading-normal font-bold underline">Xem thêm</p>
             </div>
-            <div
+
+
+
+
+            <!-- <div
                 class="3xl:px-[40px] 3xl:py-[60px]  flex-col items-start justify-center bg-[linear-gradient(94deg,rgba(237,237,244,0.9)_-10.9%,rgba(237,237,244,0)_95.88%)] rounded-[40px] 3xl:gap-[40px] hidden">
                 <div class="flex flex-col gap-[8px]">
                     <div class="flex items-center gap-2">
@@ -84,7 +91,7 @@ export default defineComponent({
                         </nuxt-link>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>

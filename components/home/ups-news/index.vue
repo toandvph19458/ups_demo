@@ -331,7 +331,7 @@ export default defineComponent({
 	transform: translate(-50%, -50%);
 	border-radius: 30px;
 	border: 2px solid transparent;
-	background: conic-gradient(from 90deg at 50% 50%, #02e56a, #ffffff);
+	background: conic-gradient(from 100deg at 99% 99%, #02e56a, #ffffff);
 	background-attachment: fixed;
 	mask: linear-gradient(#0000, #0000),
 		conic-gradient(from calc((var(--start) - (20 * 1.1)) * 1deg), #ffffff1f 0deg, white, #ffffff00 100deg);
@@ -362,7 +362,7 @@ export default defineComponent({
 	transform: translate(-50%, -50%);
 	border-radius: 30px;
 	border: 2px solid transparent;
-	background: conic-gradient(from 90deg at 50% 50%, #02e56a, #ffffff);
+	background: conic-gradient(from 90% 90%, #02e56a, #ffffff);
 	background-attachment: fixed;
 	mask: linear-gradient(#0000, #0000),
 		conic-gradient(from calc((var(--start) - (20 * 1.1)) * 1deg), #ffffff1f 0deg, white, #ffffff00 100deg);

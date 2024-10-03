@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full h-full">
+	<div class="w-full h-full pt-[50px] md:pt-0">
 		<!-- UPS SLIDER -->
 		<ups-slider />
 
