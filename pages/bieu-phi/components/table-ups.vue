@@ -172,7 +172,7 @@
 
             <span
               class="flex-[2.5] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[24px] text-black text-left font-hanken"
-              >Lưu trái phiếu</span
+              >Lưu ký trái phiếu</span
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[19px] text-black text-left font-hanken"
@@ -283,7 +283,7 @@
 
             <span
               class="flex-[2.5] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[24px] text-black text-left font-hanken"
-              >Biếu, Tăng, Cho, Thừa kế chứng khoán</span
+              >Biếu, Tặng, Cho, Thừa kế chứng khoán</span
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[19px] text-black text-left font-hanken"

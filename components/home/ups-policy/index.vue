@@ -283,17 +283,6 @@
 
 												<p
 													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
-													Phí giao dịch cạnh tranh
-												</p>
-											</div>
-											<div class="flex gap-3 items-center">
-												<div class="">
-													<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-														src="/logo/logo-row.svg" />
-												</div>
-
-												<p
-													class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
 													Sản phẩm margin hấp dẫn, ưu đãi shock
 												</p>
 											</div>
@@ -448,16 +437,6 @@
 									Quản lý đầu tư hiệu quả
 								</h3>
 								<div class="hidden group-hover:flex flex-col gap-1">
-									<div class="flex gap-3 items-center">
-										<div class="">
-											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"
-												src="/logo/logo-row.svg" />
-										</div>
-
-										<p class="text-base lg:text-base xl:text-xl font-normal text-white opacity-80">
-											Phí giao dịch cạnh tranh
-										</p>
-									</div>
 									<div class="flex gap-3 items-center">
 										<div class="">
 											<nuxt-img loading="lazy" alt="UPS" width="12" height="12"

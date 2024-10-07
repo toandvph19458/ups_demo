@@ -4,11 +4,17 @@
 			class="flex flex-col items-center justify-center h-min px-5 pt-10 pb-3 md:py-10 rounded-[30px] md:rounded-[40px] bg-[linear-gradient(304deg,#16181F_56.52%,#134A2F_96.86%)]"
 		>
 			<h3
-				class="animate-ups__item bg-[linear-gradient(99deg,_#FFF_-1.15%,_#FFF_71.81%,_rgba(255,255,255,0.30)_102.18%)] bg-clip-text text-transparent font-BG text-[28px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-center font-bold leading-[1.3]"
+				class="md:hidden animate-ups__item bg-[linear-gradient(99deg,_#FFF_-1.15%,_#FFF_71.81%,_rgba(255,255,255,0.30)_102.18%)] bg-clip-text text-transparent font-BG text-[28px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-center font-bold leading-[1.3]"
 			>
 				Kết nối cùng
 				<span class="text-[#02D060]">UPS</span>
 				<br/>ngay hôm nay!
+			</h3>
+			<h3
+				class="hidden md:block animate-ups__item bg-[linear-gradient(99deg,_#FFF_-1.15%,_#FFF_71.81%,_rgba(255,255,255,0.30)_102.18%)] bg-clip-text text-transparent font-BG text-[28px] md:text-[32px] lg:text-[40px] 2xl:text-[45px] 3xl:text-[60px] text-center font-bold leading-[1.3]"
+			>
+				Kết nối cùng
+				<span class="text-[#02D060]">UPS</span> ngay hôm nay!
 			</h3>
 
 			<p

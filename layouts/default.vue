@@ -1,18 +1,12 @@
 <template>
-	<div
-		id="smooth-wrapper"
-		class="w-full h-full"
-	>
+	<div id="smooth-wrapper" class="w-full h-full">
 		<!-- HOVER CHUỘT -->
 		<!-- <cursor-dot /> -->
 		<button-fixed />
 		<!--@@@ THE HEADER -->
 		<the-header />
 		<!--@@@ MAIN -->
-		<div
-			id="smooth-content"
-			class="mt-[64px] md:mt-[84px] xl:mt-[90px]"
-		>
+		<div id="smooth-content" class="mt-[64px] md:mt-[84px] xl:mt-[90px]">
 			<slot />
 		</div>
 		<!--@@@ THE FOOTER  -->
@@ -36,13 +30,28 @@ export default defineComponent({
 	},
 	setup(props, ctx) {
 		useHead({
-			meta: [
-				{
-					name: "viewport",
-					content: "width=device-width, initial-scale=1.0",
-				},
-			],
-		});
+  meta: [
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0",
+    }
+  ],
+  script: [
+    {
+      async: true,
+      src: "https://www.googletagmanager.com/gtag/js?id=AW-16725917125",
+    },
+    {
+      children: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-16725917125');
+      `,
+      type: 'text/javascript'
+    }
+  ],
+})
 	},
 });
 </script>

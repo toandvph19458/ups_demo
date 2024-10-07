@@ -132,7 +132,6 @@
                 class="animate-ups__item absolute w-full h-full object-cover rounded-[16px] 3xl:rounded-[40px]" />
         </div>
 
-
         <!-- niem-yet -->
         <niemYet />
     </div>
