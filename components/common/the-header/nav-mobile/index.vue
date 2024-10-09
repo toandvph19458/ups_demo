@@ -194,7 +194,7 @@
 							</div>
 						  </nuxt-link> -->
 
-								<Accordion type="single" class="w-full py-0" collapsible :default-value="defaultValue">
+								<!-- <Accordion type="single" class="w-full py-0" collapsible :default-value="defaultValue">
 									<AccordionItem value="1">
 										<AccordionTrigger class="flex items-center hover:no-underline">
 											<nuxt-link to="coming-soon" class="flex items-center gap-[12px]">
@@ -236,45 +236,35 @@
 														</p>
 													</div>
 												</nuxt-link>
-												<!-- <nuxt-link to="/san-pham" class="flex items-center">
-                            <i class="inline-flex items-center justify-center">
-                              <nuxt-img
-                                format="webp"
-                                loading="lazy"
-                                alt="UPS"
-                                height="24"
-                                src="/icons/dots-icon.svg"
-                              />
-                            </i>
+												<nuxt-link to="/san-pham" class="flex items-center">
+													<i class="inline-flex items-center justify-center">
+														<nuxt-img format="webp" loading="lazy" alt="UPS" height="24"
+															src="/icons/dots-icon.svg" />
+													</i>
 
-                            <div class="ml-5">
-                              <p class="text-base text-[#000] font-semibold">
-                                Margin T+
-                              </p>
-                            </div>
-                          </nuxt-link> -->
+													<div class="ml-5">
+														<p class="text-base text-[#000] font-semibold">
+															Margin T+
+														</p>
+													</div>
+												</nuxt-link>
 
-												<!-- <nuxt-link to="/san-pham-1" class="flex items-center">
-                            <i class="inline-flex items-center justify-center">
-                              <nuxt-img
-                                format="webp"
-                                loading="lazy"
-                                alt="UPS"
-                                height="24"
-                                src="/icons/dots-icon.svg"
-                              />
-                            </i>
+												<nuxt-link to="/san-pham-1" class="flex items-center">
+													<i class="inline-flex items-center justify-center">
+														<nuxt-img format="webp" loading="lazy" alt="UPS" height="24"
+															src="/icons/dots-icon.svg" />
+													</i>
 
-                            <div class="ml-5">
-                              <p class="text-base text-[#000] font-semibold">
-                                Mở tài khoản mới + 1 triệu đồng
-                              </p>
-                            </div>
-                          </nuxt-link> -->
+													<div class="ml-5">
+														<p class="text-base text-[#000] font-semibold">
+															Mở tài khoản mới + 1 triệu đồng
+														</p>
+													</div>
+												</nuxt-link>
 											</div>
 										</AccordionContent>
 									</AccordionItem>
-								</Accordion>
+								</Accordion> -->
 
 								<nuxt-link to="/bieu-phi" class="flex items-center gap-[12px]" @click="toggle">
 									<i class="inline-flex items-center justify-center">
