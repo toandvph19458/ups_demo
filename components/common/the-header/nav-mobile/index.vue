@@ -53,7 +53,7 @@
 					</div>
 
 					<div :class="cn(
-						'w-full max-h-0 overflow-hidden transition-all duration-500 px-3 grid gap-x-6 gap-y-6 grid-cols-1',
+						'w-full max-h-0 transition-all duration-500 px-3 grid gap-x-6 gap-y-6 grid-cols-1 overflow-scroll overflow-x-hidden',
 						{
 							'max-h-[450px]': subMenu == 1,
 						}
@@ -378,17 +378,17 @@
 								</nuxt-link>
 							</div>
 						</div>
-						<div class="w-full">
+						<div class="w-full overscroll-y-auto">
 							<p class="text-left text-lg text-[#014227] font-semibold font-HG">Nền tảng</p>
 
 							<div class="mt-4 grid gap-4 grid-cols-2">
 								<nuxt-link to="https://trade.upstock.com.vn/#/price/bang-gia/vn30" target="_blank"
-									class="w-full h-[38px] flex items-center justify-center px-3 text-lg text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG"
+									class="w-full h-[38px] flex items-center justify-center p-3 text-base text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG"
 									@click="toggle">
 									Web Trading
 								</nuxt-link>
 								<nuxt-link to="/"
-									class="w-full h-[38px] flex items-center justify-center px-3 text-lg text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG"
+									class="w-full h-[38px] flex items-center justify-center p-3 text-base text-[rgba(0,0,0,0.79)] font-semibold bg-[rgba(0,0,0,0.11)] rounded-[10px] font-HG"
 									@click="toggle">
 									App Trading
 								</nuxt-link>
