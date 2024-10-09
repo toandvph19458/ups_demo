@@ -335,7 +335,7 @@
 										</svg>
 									</i>
 
-									<div class="" @click="toggle">
+									<div class="">
 										<p class="text-base text-[#5E6673] font-semibold font-HG">Tư vấn tài chính</p>
 										<!-- <p
 																class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG"
@@ -367,7 +367,7 @@
 										</svg>
 									</i>
 
-									<div class="" @click="toggle">
+									<div class="">
 										<p class="text-base text-[#5E6673] font-semibold font-HG">Tin đấu giá</p>
 										<!-- <p
 																class="text-sm text-[rgba(0,0,0,0.68)] font-medium font-HG"

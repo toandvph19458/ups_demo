@@ -97,7 +97,7 @@
                 class="hidden xl:block absolute top-full xl:top-0 right-0 w-full xl:w-1/2 pl-5 md:pl-0 xl:pl-4 3xl:pl-[26px]">
                 <div
                   class="w-full relative pt-[70%] rounded-s-[16px] md:rounded-e-[0] md:rounded-s-[40px] overflow-hidden">
-                  <nuxt-img fit="cover" loading="lazy" src="/images/image-1.png" height="656" alt="UPS"
+                  <nuxt-img fit="cover" loading="lazy" src="/images/image-1.png" height="656" alt="UPS" :placeholder="`/images/image-1.png`"
                     class="absolute top-0 left-0 right-0 w-full h-full  animate-ups__item" />
                 </div>
               </nuxt-link>
