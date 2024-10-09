@@ -134,7 +134,6 @@ export default defineComponent({
 		<!-- thong tin lien he -->
 		<div class="layout animate-ups">
 			<div class="animate-ups__item">
-
 				<feedback />
 			</div>
 		</div>
