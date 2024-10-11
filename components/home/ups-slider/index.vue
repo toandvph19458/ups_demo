@@ -86,7 +86,7 @@
                       class="block xl:hidden xl:basis-1/2 basis-full order-1 md:order-2">
                       <div class="w-full relative pt-[70%] rounded-[16px] md:rounded-[40px] overflow-hidden">
                         <nuxt-img fit="cover" loading="lazy" src="/images/image-1.png" height="656" alt="UPS"
-                          class="absolute top-0 left-0 right-0 w-full h-full object-cover animate-ups__item" />
+                          class="absolute top-0 left-0 right-0 w-full h-full object-cover animate-ups__item" placeholder="/images/image-1.png" />
                       </div>
                     </nuxt-link>
                   </div>
