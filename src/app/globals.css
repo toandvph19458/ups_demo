@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border font-hanken;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .btn {
+    @apply flex h-[42px] w-auto items-center gap-2 rounded-[12px] bg-transparent pl-4 pr-3 text-sm font-bold text-[#15171E] md:pl-6 lg:h-[50px] lg:rounded-[16px] lg:pr-4 lg:text-base;
+  }
+
+  .btn.active {
+    @apply relative flex h-[42px] w-auto items-center gap-2 rounded-[12px] bg-[#02e56a] pl-4 pr-3 text-sm font-bold text-[#15171E] duration-200 after:absolute after:bottom-[0] after:left-0 after:z-[-1] after:h-full after:w-full after:translate-x-0 after:translate-y-0 after:rounded-[16px] after:bg-[#00813B] after:transition-all after:content-[''] hover:bg-[#02E56A] hover:text-black hover:after:translate-x-[-2px] hover:after:translate-y-[3px] md:pl-6 lg:h-[50px] lg:rounded-[16px] lg:pr-4 lg:text-base;
+  }
+
+  .custom-container {
+    @apply mx-6 w-full max-w-[calc(100%-48px)] px-0 sm:mx-auto md:max-w-[calc(720px+48px)] md:px-6 lg:max-w-[calc(944px+48px)] lg2:max-w-[calc(1120px+48px)] xl:max-w-[calc(1120px+48px)] 2xl:max-w-[calc(1280px+48px)] 3xl:max-w-[calc(1440px+48px)] !important;
+  }
+
+  .container-slide {
+    @apply mx-0 w-full max-w-[calc(100%)] px-0 md:mx-auto lg:max-w-[calc(944px+48px)] lg:px-6 lg2:max-w-[calc(1120px+48px)] xl:max-w-[calc(1120px+48px)] 2xl:max-w-[calc(1280px+48px)] 3xl:max-w-[calc(1440px+48px)] !important;
+  }
+
+  .bg-radial-gradient {
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: 0px 0px;
+    background-image: radial-gradient(
+      75% 75% at 105% 94%,
+      #01190cff 0%,
+      #015822ff 0%,
+      #151f15ff 100%
+    );
+  }
+
+  .bg-border-gradient {
+    background-size: cover;
+    background-image: radial-gradient(
+      75% 75% at 105% 94%,
+      #01190cff 0%,
+      #05be5a 0%,
+      #151f15ff 100%
+    );
+  }
+
+  .typing {
+    color: #fff;
+    border-right: 5px solid black;
+    width: 100%;
+    width: 595px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+      tyg 3s steps(21, end) infinite,
+      blink-caret 0.8s step-end infinite alternate;
+  }
+
+  @keyframes tyg {
+    from {
+      width: 0;
+    }
+  }
+
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  .card {
+    --start: 0;
+    transition: border-color 0.3s ease-in-out;
+  }
+
+  .card::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    border: 2px solid #05be5a;
+    mask: linear-gradient(#0000, #0000),
+      conic-gradient(
+        from calc(var(--start) * 1deg),
+        #ffffff1f 0deg,
+        white,
+        #ffffff00 100deg
+      );
+    mask-composite: intersect;
+    mask-clip: padding-box, border-box;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  .card:hover::before {
+    opacity: 0.6;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
