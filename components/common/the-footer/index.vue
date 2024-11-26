@@ -266,7 +266,7 @@
                 class="text-base 2xl:text-sm text-white opacity-75 font-medium">
                 Điều khoản & Quyền hạn
               </nuxt-link>
-              <nuxt-link href="https://cms.upse.vn/assets/21fd8e07-affb-47a5-8d0c-a9e5810b032f"
+              <nuxt-link href="https://cms.upse.vn/assets/f699e405-0614-43ad-8d1a-64177956f50c"
                 class="text-base 2xl:text-sm text-white opacity-75 font-medium">
                 Chính sách bảo mật
               </nuxt-link>
