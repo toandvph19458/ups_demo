@@ -394,7 +394,7 @@ export default defineComponent({
 		const date = ref<any>();
 		const keyword = ref<any>("");
 		const newStore = useNewsStore();
-
+		
 		const df = new DateFormatter("en-US", {
 			dateStyle: "long",
 			timeZone: "Asia/Ho_Chi_Minh",
@@ -404,6 +404,8 @@ export default defineComponent({
 			"news",
 			async () => {
 				const dataCateAndTags = await newStore.fnGetCateAndTags();
+				
+
 				const dataNews = await newStore.fnGetListNews(
 					Number(curPage.value),
 					10,
@@ -412,7 +414,7 @@ export default defineComponent({
 					date.value,
 					keyword.value
 				);
-
+				
 				return {
 					dataCateAndTags: dataCateAndTags.data?.data,
 					dataNews: dataNews.data?.data,

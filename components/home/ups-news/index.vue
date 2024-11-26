@@ -286,12 +286,12 @@ export default defineComponent({
 
 		const { data } = useAsyncData("news", async () => {
 			const dataNews = await newStore.fnGetListNews();
-
+			
+			
 			return {
 				dataNews: dataNews.data?.data,
 			};
 		});
-
 		return {
 			cn,
 			config,

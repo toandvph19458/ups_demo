@@ -262,9 +262,13 @@
             </p>
 
             <div class="flex flex-col md:flex-row items-center mt-[10px] md:mt-0 gap-[10px] lg:gap-6">
-              <nuxt-link href="https://ups.truecms.io/assets/fe3751e3-1c6f-4442-a671-ed2ce3e28d7d"
+              <nuxt-link href="https://cms.upse.vn/assets/fe3751e3-1c6f-4442-a671-ed2ce3e28d7d"
                 class="text-base 2xl:text-sm text-white opacity-75 font-medium">
                 Điều khoản & Quyền hạn
+              </nuxt-link>
+              <nuxt-link href="https://cms.upse.vn/assets/21fd8e07-affb-47a5-8d0c-a9e5810b032f"
+                class="text-base 2xl:text-sm text-white opacity-75 font-medium">
+                Chính sách bảo mật
               </nuxt-link>
               <nuxt-link href="/" class="text-base 2xl:text-sm text-white opacity-75 font-medium">
                 Trung tâm hỗ trợ khách hàng

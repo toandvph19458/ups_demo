@@ -53,7 +53,7 @@ export const useNewsStore = defineStore({
 
 			let query = `
 				query {
-					posts (page: ${page}, limit: ${limit}, sort: "-date_published" ${filterString ? `, ${filterString}` : ""}) {
+					posts (page: ${page}, limit: ${limit} ${filterString ? `, ${filterString}` : ""}) {
 						short_content
 					}
 					posts_aggregated ${filterString ? `(${filterString})` : ""} {
@@ -79,3 +79,4 @@ export const useNewsStore = defineStore({
 		},
 	},
 });
+ 

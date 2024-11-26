@@ -30,28 +30,32 @@ export default defineComponent({
 	},
 	setup(props, ctx) {
 		useHead({
-  meta: [
-    {
-      name: "viewport",
-      content: "width=device-width, initial-scale=1.0",
-    }
-  ],
-  script: [
-    {
-      async: true,
-      src: "https://www.googletagmanager.com/gtag/js?id=AW-16725917125",
-    },
-    {
-      children: `
+			meta: [
+				{
+					name: 'viewport',
+					content: 'width=device-width, initial-scale=1.0',
+				},
+				{
+					name: 'google-site-verification',
+					content: 'nPezz45f7QXa8beeYKEIheQkXdNbIG8jvbQr3aVmD_8',
+				},
+			],
+			script: [
+				{
+					async: true,
+					src: 'https://www.googletagmanager.com/gtag/js?id=AW-16725917125',
+				},
+				{
+					type: 'text/javascript',
+					children: `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'AW-16725917125');
+        gtag('config', 'G-KTN9DZVD59');
       `,
-      type: 'text/javascript'
-    }
-  ],
-})
+				},
+			],
+		})
 	},
 });
 </script>
