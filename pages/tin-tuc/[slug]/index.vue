@@ -43,7 +43,7 @@
 		<div class="animate-ups flex justify-center text-center xl:my-[80px] my-[30px]">
 			<div class="animate-ups__item inline-flex relative w-full pt-[60%] md:pt-[50%] xl:pt-[40%] 3xl:pt-[36%] rounded-[20px]">
 				<nuxt-img loading="lazy" alt="UPS" width="" height="" :src="config.NUXT_APP_IMAGE_URL + data?.newDetail.thumbnail?.id"
-					class="absolute top-0 left-0 right-0 w-full h-full object-fill xl:object-cover rounded-[20px]" />
+					class="absolute top-0 left-0 right-0 w-full h-auto object-fill xl:object-cover rounded-[20px]" />
 			</div>
 		</div>
 
