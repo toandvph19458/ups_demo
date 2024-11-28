@@ -42,8 +42,8 @@
     </div> -->
 		<div class="animate-ups flex justify-center text-center xl:my-[80px] my-[30px]">
 			<div class="animate-ups__item inline-flex relative w-full pt-[60%] md:pt-[50%] xl:pt-[40%] 3xl:pt-[36%] rounded-[20px]">
-				<nuxt-img loading="lazy" alt="UPS" width="1600" height="500" :src="config.NUXT_APP_IMAGE_URL + data?.newDetail.thumbnail?.id"
-					class="absolute top-0 left-0 right-0 w-full h-full  object-cover rounded-[20px]" />
+				<nuxt-img loading="lazy" alt="UPS" width="" height="" :src="config.NUXT_APP_IMAGE_URL + data?.newDetail.thumbnail?.id"
+					class="absolute top-0 left-0 right-0 w-full h-full object-fill xl:object-cover rounded-[20px]" />
 			</div>
 		</div>
 
@@ -51,53 +51,7 @@
 			class="animate-ups w-full md:w-[668px] lg:w-[720px] xl:w-[800px] 2xl:w-[900px] 3xl:w-[1200px] flex justify-center mx-auto">
 			<div class="w-full lg:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]">
 				<div class="animate-ups__item text-left xl:w-[70%] lg:w-[70%] w-full">
-					<!-- <p class="text-[#696B75] text-[18px] font-normal leading-[20px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
-          <div class="my-[20px] xl:w-full w-[327px]">
-            <iframe
-              class="xl:w-[800px] xl:h-[513px] w-[327px] h-auto"
-              src="https://www.youtube.com/embed/QLzIlSj-UDo?si=ZwkUOgpPJJ6PHJRn"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="">
-            <h5
-              class="text-[#15171E] text-[24px] font-semibold leading-[20px] mb-[10px]"
-            >
-              Lorem ipsum dolor sit amet
-            </h5>
-            <p class="text-[#696B75] text-[18px] font-normal leading-[20px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-            </p>
-          </div> -->
+					
 					<div class="content-wrapper" v-html="data?.newDetail.content"></div>
 					<div class="my-[30px] animate-ups">
 						<div class="animate-ups__item">
@@ -205,15 +159,7 @@
 						</div>
 					</div>
 					<div class="flex justify-between items-center my-[24px]">
-						<!-- <template v-if="doc?.short_content?.tags.length > 0">
-              <p v-for="(sub, k) in doc?.short_content?.tags" :key="k"
-                class="text-sm md:text-base xl:text-lg text-[#F05] font-medium">
-                {{ `#${sub?.tag.title}` }}
-              </p>
-            </template>
-<div class="time text-[#9498A8] font-hanken-grotesk text-[18px] font-medium leading-normal">
-	5 phút trước
-</div> -->
+					
 					</div>
 					<div class="">
 						<h6
