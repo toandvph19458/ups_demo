@@ -98,7 +98,7 @@
           </div> -->
 					<div class="content-wrapper" v-html="data?.newDetail.content"></div>
 					<!-- Xem tài liệu -->
-					<div class="container text-center mt-3 flex items-center justify-center gap-[12px] flex-col md:flex-row " v-for="doc in data?.newDetail.files">
+					<div class="container text-left mt-3 flex items-center justify-start gap-[12px] flex-col md:flex-row " v-for="doc in data?.newDetail.files">
 						<nuxt-link :to="config.NUXT_APP_IMAGE_URL + doc.directus_files_id?.id"
 							class="underline" target="_blank">Xem tài liệu  {{ doc.directus_files_id?.title }}</nuxt-link>
 					</div>
