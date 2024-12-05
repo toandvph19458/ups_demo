@@ -1,10 +1,6 @@
 <template>
 	<div class="container">
 		<div class="flex justify-center text-center mt-[100px]">
-			<!-- <div class="inline-flex relative w-[125px] h-[56px] xl:w-[220px] xl:h-[70px]">
-				<nuxt-img loading="lazy" alt="UPS" src="/logo/logo-cap-dark.png" width="220" height="100"
-					class="link absolute w-full h-full object-contain" />
-			</div> -->
 		</div>
 		<div class="animate-ups text-center mt-[30px] mb-[20px]">
 			<h3
@@ -12,34 +8,7 @@
 				{{ data && data.newDetail.title }}
 			</h3>
 		</div>
-		<!-- <div class="flex gap-2 text-center justify-center items-center">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="w-[16px] h-[16px] xl:w-[24px] xl:h-[24px]"
-        viewBox="0 0 24 25"
-        fill="none"
-      >
-        <path
-          d="M12 22.5C17.5228 22.5 22 18.0228 22 12.5C22 6.97715 17.5228 2.5 12 2.5C6.47715 2.5 2 6.97715 2 12.5C2 18.0228 6.47715 22.5 12 22.5Z"
-          stroke="#7F8494"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M12 6.5V12.5L16 14.5"
-          stroke="#7F8494"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-      <p
-        class="text-[#7F8494] font-hanken-grotesk xl:text-[24px] font-semibold leading-normals text-[14px]"
-      >
-        15/08/2024 - 22:20
-      </p>
-    </div> -->
+		
 		<div class="animate-ups flex justify-center text-center xl:my-[80px] my-[30px]">
 			<div class="animate-ups__item inline-flex relative w-[300px] h-[200px] lg:w-[445px] lg:h-[208px] xl:w-[1600px] xl:h-[700px]">
 				<nuxt-img loading="lazy" alt="UPS" :src="config.NUXT_APP_IMAGE_URL + data?.newDetail?.thumbnail?.id"
@@ -49,53 +18,6 @@
 		<div class="animate-ups xl:w-[1200px] w-full flex justify-center mx-auto">
 			<div class="w-[327px] xl:w-[1200px] xl:flex lg:flex block justify-center gap-[28px]">
 				<div class="animate-ups__item text-left xl:w-[70%] lg:w-[70%] w-full">
-					<!-- <p class="text-[#696B75] text-[18px] font-normal leading-[20px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
-          <div class="my-[20px] xl:w-full w-[327px]">
-            <iframe
-              class="xl:w-[800px] xl:h-[513px] w-[327px] h-auto"
-              src="https://www.youtube.com/embed/QLzIlSj-UDo?si=ZwkUOgpPJJ6PHJRn"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="">
-            <h5
-              class="text-[#15171E] text-[24px] font-semibold leading-[20px] mb-[10px]"
-            >
-              Lorem ipsum dolor sit amet
-            </h5>
-            <p class="text-[#696B75] text-[18px] font-normal leading-[20px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-            </p>
-          </div> -->
 					<div class="content-wrapper" v-html="data?.newDetail.content"></div>
 					<!-- Xem tài liệu -->
 					<div class="container text-left mt-3 flex items-center justify-start gap-[12px] flex-col md:flex-row " v-for="doc in data?.newDetail.files">
