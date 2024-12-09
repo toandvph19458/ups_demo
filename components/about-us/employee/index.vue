@@ -60,7 +60,7 @@
             </div>
           </div>
 
-          <div
+          <!-- <div
             class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden ">
             <div class="absolute w-full h-full ">
               <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/images/sepnam.png"
@@ -79,7 +79,7 @@
                 Ông Trần Đức Nam
               </h4>
             </div>
-          </div>
+          </div> -->
 
           <div
             class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
@@ -148,7 +148,7 @@
               </div>
             </swiper-slide>
 
-            <swiper-slide>
+            <!-- <swiper-slide>
               <div class="animate-ups__item w-full h-[371px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
                   <nuxt-img format="webp" loading="lazy" alt="UPS" src="/images/sepnam.png"
@@ -171,7 +171,7 @@
                   </h4>
                 </div>
               </div>
-            </swiper-slide>
+            </swiper-slide> -->
             <swiper-slide>
               <div class="animate-ups__item w-full h-[371px] relative group overflow-hidden">
                 <div class="absolute w-full h-full">
