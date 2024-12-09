@@ -38,12 +38,12 @@
           </p>
         </div>
 
-        <div class="animate-about__item col-span-5 xl:col-span-3 hidden md:grid gap-4 grid-cols-3">
+        <div class="animate-about__item col-span-5 xl:col-span-3 justify-center hidden md:flex gap-16">
           <div
-            class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
+            class="col-span-1 w-[300px] h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
             <div class="absolute w-full h-full">
               <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/images/sepdat.png"
-                class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
+                class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110 object-top" />
             </div>
 
             <div class="absolute bottom-0 left-0 right-0 p-[16px_12px] md:p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
@@ -82,10 +82,10 @@
           </div> -->
 
           <div
-            class="col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
+            class="w-[300px] col-span-1 h-[290px] lg:h-[350px] xl:h-[300px] 2xl:h-[340px] 3xl:h-[450px] relative group overflow-hidden">
             <div class="absolute w-full h-full">
               <nuxt-img format="webp" loading="lazy" height="420" alt="UPS" src="/images/sepchien.png"
-                class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110" />
+                class="w-full h-full object-cover transition-all duration-300 group-hover:scale-110 object-top" />
             </div>
 
             <div class="absolute bottom-0 left-0 right-0 p-[16px_12px] md:p-[20px] 3xl:px-[30px] 3xl:py-[30px]">
