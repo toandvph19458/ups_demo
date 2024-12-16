@@ -59,7 +59,7 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[19px] text-black text-left font-hanken"
-              >0.15% - 0.4%</span
+              >0,15% - 0,4%</span
             >
           </div>
 
@@ -83,7 +83,7 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[19px] text-black text-left font-hanken"
-              >0.05%</span
+              >0,05%</span
             >
           </div>
 
@@ -107,7 +107,7 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[19px] text-black text-left font-hanken"
-              >0.06%</span
+              >0,06%</span
             >
           </div>
           <button
@@ -154,7 +154,7 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[19px] text-black text-left font-hanken"
-              >0.27 đồng/cổ phiếu, chứng chỉ quỹ/tháng
+              >0,27 đồng/cổ phiếu, chứng chỉ quỹ/tháng
               </span
             >
           </div>
@@ -176,7 +176,7 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] sm:text-[12px] leading-[19px] text-black text-left font-hanken"
-              > 0.2 đồng/trái phiếu/tháng
+              > 0,2 đồng/trái phiếu/tháng
               </span
             >
           </div>
@@ -199,7 +199,7 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[19px] text-black text-left font-hanken"
-              >- 0.3 đồng/1 chứng khoán/1 lần chuyển khoản/1 mã chứng khoán <br />
+              >- 0,3 đồng/1 chứng khoán/1 lần chuyển khoản/1 mã chứng khoán <br />
               - Tối thiểu 100.000 VNĐ/ bộ hồ sơ<br/>
               - Tối đa 300.000 VNĐ/1 chứng khoán/1 lần chuyển khoản/1 mã chứng khoán.
               </span
@@ -244,7 +244,7 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[19px] text-black text-left font-hanken"
-              >Bên chuyển/Bên nhận : 0.2% giá trị giao dịch. Tối thiểu 100.000
+              >Bên chuyển/Bên nhận : 0,2% giá trị giao dịch. Tối thiểu 100.000
               VNĐ/ bộ hồ sơ</span
             >
           </div>
@@ -287,7 +287,7 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[19px] text-black text-left font-hanken"
-              >Bên chuyển/Bên nhận : 0.2% giá trị giao dịch. Tối thiểu 100.000
+              >Bên chuyển/Bên nhận : 0,2% giá trị giao dịch. Tối thiểu 100.000
               VNĐ/ bộ hồ sơ</span
             >
           </div>
@@ -376,7 +376,7 @@
             >
             <span
               class="flex-[1.4] font-[500] 2xl:text-[16px] xl:text-[14px] lg:text-[14px] md:text-[14px] text-[12px] leading-[19px] text-black text-left font-hanken"
-              >0.2%/năm
+              >0,2%/năm
               </span
             >
           </div>
