@@ -94,7 +94,6 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Hanken Grotesk", sans-serif;
-
   }
 
   /* COMMON */
@@ -110,6 +109,18 @@
   /* container product page */
   .container-product {
     @apply w-full max-w-[calc(100%-48px)] md:max-w-[calc(648px+48px)] lg:max-w-[calc(904px+48px)] xl:max-w-[calc(1080px+48px)] 2xl:max-w-[calc(1200px+48px)] 3xl:max-w-[calc(1470px+48px)] mx-6 sm:mx-auto px-0 md:px-6 !important;
+  }
+
+
+
+
+
+
+
+
+
+  .container-nen-tang {
+    @apply w-full max-w-[calc(100%-48px)] md:max-w-[calc(720px+48px)] lg:max-w-[calc(944px+48px)] xl:max-w-[calc(1120px+48px)] 2xl:max-w-[calc(1120px+48px)] xxl:max-w-[calc(1280px+48px)] mx-6 sm:mx-auto px-0 md:px-6 !important;
   }
 
   /* layout common css */
@@ -129,6 +140,10 @@
     @apply box-border block overflow-hidden w-auto h-auto bg-none opacity-100 border-0 m-0 p-0 absolute inset-0;
   }
 
+  .btn-2 {
+    @apply flex h-[42px] w-auto items-center gap-2 rounded-[12px] bg-transparent pl-4 pr-3 text-sm font-bold text-[#15171E] md:pl-6 lg:h-[50px] lg:rounded-[16px] lg:pr-4 lg:text-base;
+  }
+
   .shadow-custom {
     box-shadow: -10px 10px 0px 0px rgba(0, 0, 0, 0.31);
   }
@@ -139,7 +154,6 @@
 }
 
 @layer base {
-
   .content-wrapper h1,
   .content-wrapper h2,
   .content-wrapper h3,
@@ -176,5 +190,4 @@
     text-align: revert;
     vertical-align: revert;
   }
-
 }
