@@ -478,6 +478,13 @@
 						</div>
 					</div>
 				</div>
+				<div>
+					<div class="flex items-center justify-between py-3 text-black text-lg font-semibold no-underline hover:no-underline font-HG"
+						@click="() => toggle()">
+						<nuxt-link to="/nen-tang-cong-nghe">Nền tảng công nghệ</nuxt-link>
+						
+					</div>
+				</div>
 				<div class="">
 					<div class="flex items-center justify-between py-3 text-black text-lg font-semibold no-underline hover:no-underline font-HG"
 						@click="() => toggleSubmenu(3)">

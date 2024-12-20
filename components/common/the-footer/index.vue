@@ -196,7 +196,7 @@
                     </nuxt-link>
                   </div>
                 </div>
-
+                
                 <div class="col-span-6 lg:col-span-3 space-y-4 md:space-y-2 3xl:space-y-3">
                   <h4 class="text-base 2xl:text-lg 3xl:text-xl text-[#000] font-bold">
                     Về UPS

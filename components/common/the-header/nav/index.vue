@@ -734,6 +734,14 @@
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
+            <nuxt-link
+              to="/nen-tang-cong-nghe"
+              class="text-base text-[#5E6673] font-bold hover:text-black"
+            >
+              Nền tảng công nghệ
+            </nuxt-link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
           <NavigationMenuTrigger>
             <nuxt-link
               to="/gioi-thieu"
