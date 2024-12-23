@@ -6,7 +6,7 @@
       <div
         class="flex flex-col-reverse md:grid md:grid-cols-[381px,auto] lg:grid-cols-[500px,auto] gap-12 md:gap-[10px] lg:gap-[45px] 2xl:gap-[53px] xxl:gap-[132px] 4xl:gap-[105px] md:h-[272px] lg:h-[300px] xl:h-[440px] 2xl:h-[460px] xxl:h-[513px] md:mt-10 xl:mt-[60px] xxl:mt-20"
       >
-        <div class="">
+        <div class="md:mt-0 mt-10">
           <span
             class="text-[#FFF] text-sm lg:text-base xl:text-[18px] xl:leading-[40px] font-medium"
             >#datatracking app</span
@@ -50,14 +50,14 @@
             class="object-cover"
           />
         </div>
-        <div class="md:hidden block relative">
+        <!-- <div class="md:hidden block relative w-[70%] mx-auto -left-5">
           <nuxt-img
             src="/images/ntcn3-mb.png"
             loading="lazy"
             alt="UPS"
             class="object-cover"
           />
-        </div>
+        </div> -->
       </div>
       <div class="mt-10">
         <div

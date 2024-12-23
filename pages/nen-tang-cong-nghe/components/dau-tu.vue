@@ -17,13 +17,13 @@
         class="rounded-[24px] bg-[#FBF5E5] px-4 py-9 md:p-9 lg:py-[42px] lg:px-[55px] xxl:px-[88px] xl:px-[77px] xl:py-[50px] 4xl:px-20 4xl:py-[60px]"
       >
         <h4
-          class="lg:text-[24px] text-[20px] xl:text-[32px] font-bold text-[#141414]"
+          class="lg:text-[24px] text-[20px] text-center xl:text-[32px] font-bold text-[#141414]"
         >
-          Giao dịch trực tuyến
+          Giao dịch trực tuyến <br class="md:hidden block" />
           <span class="text-[#D1AB47]">nhanh chóng</span>
         </h4>
         <div
-          class="relative mt-3 lg:mt-4 xl:mt-5 xxl:mt-6 4xl:mt-7 pt-[3%] md:pt-0 md:h-[296px] lg:h-[376px] xl:h-[416px] xxl:h-[516px] 4xl:h-[548px] w-full"
+          class="relative mt-3 lg:mt-4 xl:mt-5 xxl:mt-6 4xl:mt-7 pt-[2%] md:pt-0 md:h-[296px] lg:h-[376px] xl:h-[416px] xxl:h-[516px] 4xl:h-[548px] w-full"
         >
           <nuxt-img
             src="/images/ntcn1.png"
@@ -43,7 +43,7 @@
             #baomatcao
           </span>
           <p
-            class="xl:mt-2 text-[24px] xl:text-[32px] xxl:text-[40px] font-bold xl:leading-[48px] text-transparent"
+            class="xl:mt-2 text-[20px] xl:text-[32px] xxl:text-[40px] font-bold xl:leading-[48px] text-transparent"
             :style="{
               background:
                 'radial-gradient(264.71% 50% at 50% 50%, #DABB6B 0%, #FDF2CB 100%)',
@@ -59,7 +59,7 @@
 
         <!-- Second Card 2 -->
         <div
-          class="rounded-[24px] px-[80px] md:px-9 pt-4 xl:px-[42px] xl:pt-7 text-center h-[194px] md:h-[205px] lg:h-[246px] xl:h-[278px] 2xl:h-[285px] xxl:h-[348px] 4xl:h-[395px] overflow-hidden"
+          class="rounded-[24px] px-[80px] md:px-9 pt-4 xl:px-[42px] xl:pt-7 text-center h-[300px] md:h-[205px] lg:h-[246px] xl:h-[278px] 2xl:h-[285px] xxl:h-[348px] 4xl:h-[395px] overflow-hidden"
           :style="{
             background:
               'linear-gradient(180deg, rgba(230, 206, 141, 0.00) 0%, rgba(230, 206, 141, 0.30) 100%), #F7F7F7',
@@ -75,7 +75,7 @@
             cho người mới
           </h4>
           <div
-            class="relative mx-auto xl:mt-5 xxl:mt-6 4xl:mt-7 lg:mt-6 mt-[10px] h-[276px] lg:h-[408px] xl:h-[480px] xxl:h-[500px] w-full"
+            class="relative mx-auto xl:mt-5 xxl:mt-6 md:bottom-0 -bottom-20 4xl:mt-7 lg:mt-6 mt-[10px] h-[276px] lg:h-[408px] xl:h-[480px] xxl:h-[500px] w-full md:scale-100 scale-150"
           >
             <nuxt-img
               src="/images/ntcn2.png"
