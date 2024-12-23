@@ -37,7 +37,7 @@
       <div class="flex flex-col gap-3 lg:gap-4 xl:gap-6">
         <!-- Second Card 1 -->
         <div
-          class="rounded-[24px] bg-[#1D1D1F] flex flex-col justify-center items-center text-center py-[50px] lg:py-20 xl:py-[87px] xxl:py-[100px]"
+          class="rounded-[24px] bg-[#1D1D1F] flex flex-col justify-center items-center text-center py-[50px] lg:py-20 xl:py-[87px] xxl:py-[100px] md:h-auto h-[300px]"
         >
           <span class="text-sm font-medium text-[rgba(255,255,255,0.50)]">
             #baomatcao
