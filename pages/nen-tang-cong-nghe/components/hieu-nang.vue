@@ -25,10 +25,12 @@
             tất cả chỉ trong một ứng dụng.
           </p>
           <button
-            class="flex items-center gap-3 p-[12px_12px_12px_16px] h-[50px] rounded-[16px] w-fit bg-gradient-to-b from-[#FDF2CB] to-[#DABB6B]"
+            class="flex items-center gap-2 lg:gap-3 p-[12px_12px_12px_16px] h-[42px] lg:h-[50px] rounded-[12px] lg:rounded-[16px] w-fit bg-gradient-to-b from-[#FDF2CB] to-[#DABB6B]"
           >
-            <div class="text-[#111] text-lg font-bold">Khám phá ngay</div>
-            <div class="relative size-6">
+            <div class="text-[#111] text-sm lg:text-lg font-bold">
+              Khám phá ngay
+            </div>
+            <div class="relative size-4 lg:size-6">
               <nuxt-img
                 src="/icons/arrow_top_right.svg"
                 loading="lazy"
@@ -75,7 +77,7 @@
           </div>
           <div class="grid md:grid-cols-2 gap-6 md:gap-10">
             <div class="flex flex-col gap-4 xxl:ml-10">
-              <div class="flex items-center gap-[18px]">
+              <div class="flex items-center lg:gap-4 gap-3">
                 <i
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +96,7 @@
                     /></svg
                 ></i>
                 <span
-                  class="text-[#FFF] md:text-[20px] xl:text-[30px] xxl:text-[32px] font-medium xxl:leading-[40px]"
+                  class="text-[#FFF] text-[20px] xl:text-[30px] xxl:text-[32px] font-bold xxl:leading-[40px]"
                   >Bảo mật</span
                 >
               </div>
@@ -106,7 +108,7 @@
               </p>
             </div>
             <div class="flex flex-col gap-4 xxl:ml-10">
-              <div class="flex items-center gap-[18px]">
+              <div class="flex items-center lg:gap-4 gap-3">
                 <i
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +128,7 @@
                   </svg>
                 </i>
                 <span
-                  class="text-[#FFF] md:text-[20px] xl:text-[30px] xxl:text-[32px] font-medium xxl:leading-[40px]"
+                  class="text-[#FFF] text-[20px] xl:text-[30px] xxl:text-[32px] font-bold xxl:leading-[40px]"
                   >Tốc độ</span
                 >
               </div>
@@ -137,7 +139,7 @@
               </p>
             </div>
             <div class="flex flex-col gap-4 xxl:ml-10">
-              <div class="flex items-center gap-[18px]">
+              <div class="flex items-center lg:gap-4 gap-3">
                 <i
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +159,7 @@
                   </svg>
                 </i>
                 <span
-                  class="text-[#FFF] md:text-[20px] xl:text-[30px] xxl:text-[32px] font-medium xxl:leading-[40px]"
+                  class="text-[#FFF] text-[20px] xl:text-[30px] xxl:text-[32px] font-bold xxl:leading-[40px]"
                   >Trải nghiệm</span
                 >
               </div>
@@ -168,7 +170,8 @@
               </p>
             </div>
             <div class="xxl:ml-10 flex flex-col gap-[10px]">
-              <span class="text-[#FFF] text-[17px] font-bold tracking-[-0.42px]"
+              <span
+                class="text-[#FFF] text-sm lg:text-[17px] font-bold tracking-[-0.42px]"
                 >Đánh giá sự hài lòng</span
               >
               <TooltipProgress :percentage="93" />

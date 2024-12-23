@@ -155,12 +155,12 @@
 
               <div class="flex items-center gap-2">
                 <div
-                  class="bg-[#90919c]/20 p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
+                  class="bg-[rgba(144,145,156,0.15)] p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
                 >
                   App Mobile
                 </div>
                 <div
-                  class="bg-[#90919c]/20 p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
+                  class="bg-[rgba(144,145,156,0.15)] p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
                 >
                   Trải nghiệm
                 </div>
@@ -209,12 +209,12 @@
 
               <div class="flex items-center gap-2">
                 <div
-                  class="bg-[#90919c]/20 p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
+                  class="bg-[rgba(144,145,156,0.15)] p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
                 >
                   App Mobile
                 </div>
                 <div
-                  class="bg-[#90919c]/20 p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
+                  class="bg-[rgba(144,145,156,0.15)] p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
                 >
                   Trải nghiệm
                 </div>
@@ -263,12 +263,12 @@
 
               <div class="flex items-center gap-2">
                 <div
-                  class="bg-[#90919c]/20 p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
+                  class="bg-[rgba(144,145,156,0.15)] p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
                 >
                   App Mobile
                 </div>
                 <div
-                  class="bg-[#90919c]/20 p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
+                  class="bg-[rgba(144,145,156,0.15)] p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
                 >
                   Trải nghiệm
                 </div>
@@ -316,12 +316,12 @@
 
               <div class="flex items-center gap-2">
                 <div
-                  class="bg-[#90919c]/20 p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
+                  class="bg-[rgba(144,145,156,0.15)] p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
                 >
                   App Mobile
                 </div>
                 <div
-                  class="bg-[#90919c]/20 p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
+                  class="bg-[rgba(144,145,156,0.15)] p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
                 >
                   Trải nghiệm
                 </div>
@@ -370,12 +370,12 @@
 
               <div class="flex items-center gap-2">
                 <div
-                  class="bg-[#90919c]/20 p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
+                  class="bg-[rgba(144,145,156,0.15)] p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
                 >
                   App Mobile
                 </div>
                 <div
-                  class="bg-[#90919c]/20 p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
+                  class="bg-[rgba(144,145,156,0.15)] p-[5px_8px] rounded-[8px] text-[#111013] text-sm font-medium"
                 >
                   Trải nghiệm
                 </div>

@@ -19,10 +19,12 @@
             phát hành.
           </div>
           <button
-            class="flex items-center gap-3 p-[12px_12px_12px_16px] h-[50px] rounded-[16px] w-fit bg-gradient-to-b from-[#FDF2CB] to-[#DABB6B]"
+            class="flex items-center gap-2 lg:gap-3 p-[12px_12px_12px_16px] h-[42px] lg:h-[50px] rounded-[12px] lg:rounded-[16px] w-fit bg-gradient-to-b from-[#FDF2CB] to-[#DABB6B]"
           >
-            <div class="text-[#111] text-lg font-bold">Khám phá ngay</div>
-            <div class="relative size-6">
+            <div class="text-[#111] text-sm lg:text-lg font-bold">
+              Khám phá ngay
+            </div>
+            <div class="relative size-4 lg:size-6">
               <nuxt-img
                 src="/icons/arrow_top_right.svg"
                 loading="lazy"
@@ -41,7 +43,7 @@
           <div class="flex flex-col gap-3 lg:gap-5 xl:gap-6">
             <div class="space-y-4">
               <div
-                class="text-[#1A1711] text-xs lg:text-base xxl:text-lg font-medium 4xl:leading-[40px]"
+                class="text-[#1A1711] text-sm lg:text-base xxl:text-lg font-medium 4xl:leading-[40px]"
               >
                 Mở tài khoản
               </div>
@@ -53,7 +55,7 @@
             </div>
 
             <div
-              class="text-[#1A1711] text-xs lg:text-base xxl:text-lg font-medium md:min-h-[50px] xxl:min-h-[56px]"
+              class="text-[#1A1711] text-sm lg:text-base xxl:text-lg font-medium md:min-h-[50px] xxl:min-h-[56px]"
             >
               Tạo tài khoản eKYC chỉ 30 giây
             </div>
@@ -81,7 +83,7 @@
                 </div>
 
                 <div
-                  class="text-[#1A1711] text-xs lg:text-base xxl:text-lg font-normal"
+                  class="text-[#1A1711] text-sm lg:text-base xxl:text-lg font-normal"
                 >
                   Giao dịch nhanh chóng
                 </div>
@@ -108,7 +110,7 @@
                 </div>
 
                 <div
-                  class="text-[#1A1711] text-xs lg:text-base xxl:text-lg font-normal"
+                  class="text-[#1A1711] text-sm lg:text-base xxl:text-lg font-normal"
                 >
                   Cá nhân hóa
                 </div>
@@ -123,7 +125,7 @@
           <div class="flex flex-col gap-3 lg:gap-5 xl:gap-6">
             <div class="space-y-4">
               <div
-                class="text-white text-xs lg:text-base xxl:text-lg font-medium 4xl:leading-[40px]"
+                class="text-white text-sm lg:text-base xxl:text-lg font-medium 4xl:leading-[40px]"
               >
                 Giao dịch ký quỹ
               </div>
@@ -139,7 +141,7 @@
             </div>
 
             <div
-              class="text-white text-xs lg:text-base xxl:text-lg font-medium md:min-h-[50px] xxl:min-h-[56px]"
+              class="text-white text-sm lg:text-base xxl:text-lg font-medium md:min-h-[50px] xxl:min-h-[56px]"
             >
               Lãi suất cho vay trong hạn
             </div>
@@ -167,7 +169,7 @@
                 </div>
 
                 <div
-                  class="text-white text-xs lg:text-base xxl:text-lg font-normal"
+                  class="text-white text-sm lg:text-base xxl:text-lg font-normal"
                 >
                   Tối ưu hoá dòng tiền
                 </div>
@@ -194,7 +196,7 @@
                 </div>
 
                 <div
-                  class="text-white text-xs lg:text-base xxl:text-lg font-normal"
+                  class="text-white text-sm lg:text-base xxl:text-lg font-normal"
                 >
                   Chiến lược đầu tư linh hoạt
                 </div>

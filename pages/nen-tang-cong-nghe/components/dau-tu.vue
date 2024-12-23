@@ -59,7 +59,7 @@
 
         <!-- Second Card 2 -->
         <div
-          class="rounded-[24px] px-[89px] md:px-9 pt-6 xl:px-[42px] xl:pt-7 text-center h-[194px] md:h-[205px] lg:h-[246px] xl:h-[278px] 2xl:h-[285px] xxl:h-[348px] 4xl:h-[395px] overflow-hidden"
+          class="rounded-[24px] px-[80px] md:px-9 pt-4 xl:px-[42px] xl:pt-7 text-center h-[194px] md:h-[205px] lg:h-[246px] xl:h-[278px] 2xl:h-[285px] xxl:h-[348px] 4xl:h-[395px] overflow-hidden"
           :style="{
             background:
               'linear-gradient(180deg, rgba(230, 206, 141, 0.00) 0%, rgba(230, 206, 141, 0.30) 100%), #F7F7F7',
@@ -69,9 +69,9 @@
             App Trading
           </span>
           <h4
-            class="2xl:mt-2 mt-1 text-base lg:text-[18px] xl:text-[20px] xxl:text-[24px] font-bold xxl:leading-[32px] text-[#000]"
+            class="2xl:mt-2 text-[20px] lg:text-[18px] xl:text-[20px] xxl:text-[24px] font-bold xxl:leading-[32px] text-[#000]"
           >
-            Ứng dụng tuyệt vời <br />
+            Ứng dụng tuyệt vời <br class="lg:block hidden" />
             cho người mới
           </h4>
           <div
