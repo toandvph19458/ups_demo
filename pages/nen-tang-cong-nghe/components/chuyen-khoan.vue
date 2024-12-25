@@ -17,8 +17,7 @@
           <div
             class="text-[#B3B3B3] text-sm lg:text-base font-medium w-full xl:w-[90%] 4xl:w-[85%]"
           >
-            Bảo mật, nhanh chóng và an toàn tuyệt đối. Tiết kiệm thời gian, bảo
-            vệ tài sản của bạn.
+          Bảo mật, tiện lợi và nhanh chóng
           </div>
         </div>
 
