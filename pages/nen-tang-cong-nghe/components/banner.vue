@@ -1,13 +1,13 @@
 <template>
   <section
-    class="bg-gradient-radial from-[#837848] to-[#000] -mt-4"
+    class="-mt-4 animate-ups"
     :style="{
       background:
         'radial-gradient(29.93% 48.26% at 50% 53.95%, #837848 0%, #000 100%)',
     }"
   >
     <div
-      class="container-nen-tang 3xl:!max-w-[calc(1440px+48px)] pb-7 md:pb-5 xxl:pb-9 4xl:pb-11 lg:pt-[70px] pt-[60px] xl:pt-20"
+      class="animate-ups__item container-nen-tang 3xl:!max-w-[calc(1440px+48px)] pb-7 md:pb-5 xxl:pb-9 4xl:pb-11 lg:pt-[70px] pt-[60px] xl:pt-20"
     >
       <div class="flex flex-col items-center justify-center">
         <div>

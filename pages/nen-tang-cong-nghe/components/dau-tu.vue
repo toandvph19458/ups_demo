@@ -1,9 +1,9 @@
 <template>
   <section
-    class="container-nen-tang xxl:mt-[100px] mt-6 md:mt-10 xl:mt-20 4xl:mt-[120px]"
+    class="animate-ups container-nen-tang xxl:mt-[100px] mt-6 md:mt-10 xl:mt-20 4xl:mt-[120px]"
   >
     <h1
-      class="text-center text-[20px] lg:text-[30px] xl:text-[40px] xxl:text-[48px] font-bold text-[#141414]"
+      class="animate-ups__item text-center text-[20px] lg:text-[30px] xl:text-[40px] xxl:text-[48px] font-bold text-[#141414]"
     >
       Nền tảng đầu tư <br />
       xây dựng theo
@@ -14,7 +14,7 @@
     >
       <!-- First Card -->
       <div
-        class="rounded-[24px] bg-[#FBF5E5] px-4 py-9 md:p-9 lg:py-[42px] lg:px-[55px] xxl:px-[88px] xl:px-[77px] xl:py-[50px] 4xl:px-20 4xl:py-[60px]"
+        class="animate-ups__item rounded-[24px] bg-[#FBF5E5] px-4 py-9 md:p-9 lg:py-[42px] lg:px-[55px] xxl:px-[88px] xl:px-[77px] xl:py-[50px] 4xl:px-20 4xl:py-[60px]"
       >
         <h4
           class="lg:text-[24px] text-[20px] text-center xl:text-[32px] font-bold text-[#141414]"
@@ -37,7 +37,7 @@
       <div class="flex flex-col gap-3 lg:gap-4 xl:gap-6">
         <!-- Second Card 1 -->
         <div
-          class="rounded-[24px] bg-[#1D1D1F] flex flex-col justify-center items-center text-center py-[50px] lg:py-20 xl:py-[87px] xxl:py-[100px] md:h-auto h-[300px]"
+          class="animate-ups__item rounded-[24px] bg-[#1D1D1F] flex flex-col justify-center items-center text-center py-[50px] lg:py-20 xl:py-[87px] xxl:py-[100px] md:h-auto h-[300px]"
         >
           <span class="text-sm font-medium text-[rgba(255,255,255,0.50)]">
             #baomatcao
@@ -59,7 +59,7 @@
 
         <!-- Second Card 2 -->
         <div
-          class="rounded-[24px] px-[80px] md:px-9 pt-4 xl:px-[42px] xl:pt-7 text-center h-[300px] md:h-[205px] lg:h-[246px] xl:h-[278px] 2xl:h-[285px] xxl:h-[348px] 4xl:h-[395px] overflow-hidden"
+          class="animate-ups__item rounded-[24px] px-[80px] md:px-9 pt-4 xl:px-[42px] xl:pt-7 text-center h-[300px] md:h-[205px] lg:h-[246px] xl:h-[278px] 2xl:h-[285px] xxl:h-[348px] 4xl:h-[395px] overflow-hidden"
           :style="{
             background:
               'linear-gradient(180deg, rgba(230, 206, 141, 0.00) 0%, rgba(230, 206, 141, 0.30) 100%), #F7F7F7',

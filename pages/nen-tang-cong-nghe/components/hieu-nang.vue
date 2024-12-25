@@ -1,12 +1,12 @@
 <template>
   <section
-    class="xxl:mt-[100px] mt-6 md:mt-10 xl:mt-20 4xl:mt-[120px] bg-[#1D1D1F] overflow-hidden"
+    class="animate-ups xxl:mt-[100px] mt-6 md:mt-10 xl:mt-20 4xl:mt-[120px] bg-[#1D1D1F] overflow-hidden"
   >
     <div class="container-nen-tang pb-10 xl:pb-[60px] xxl:pb-20">
       <div
         class="flex flex-col-reverse md:grid md:grid-cols-[381px,auto] lg:grid-cols-[500px,auto] gap-12 md:gap-[10px] lg:gap-[45px] 2xl:gap-[53px] xxl:gap-[132px] 4xl:gap-[105px] md:h-[272px] lg:h-[300px] xl:h-[440px] 2xl:h-[460px] xxl:h-[513px] md:mt-10 xl:mt-[60px] xxl:mt-20"
       >
-        <div class="md:mt-0 mt-10">
+        <div class="animate-ups__item md:mt-0 mt-10">
           <span
             class="text-[#FFF] text-sm lg:text-base xl:text-[18px] xl:leading-[40px] font-medium"
             >#datatracking app</span
@@ -21,8 +21,8 @@
           <p
             class="text-[#FFF] text-sm lg:text-base xl:text-[18px] leading-[28px] font-medium my-2 mb-4 lg:my-4 xl:my-6 xxl:my-8"
           >
-            Bạn có thể đầu tư chứng khoán, quỹ, tiền điện tử và nhiều hơn nữa,
-            tất cả chỉ trong một ứng dụng.
+            Bạn có thể đầu tư chứng khoán, quỹ và nhiều hơn nữa, tất cả chỉ
+            trong một ứng dụng.
           </p>
           <button
             class="flex items-center gap-2 lg:gap-3 p-[12px_12px_12px_16px] h-[42px] lg:h-[50px] rounded-[12px] lg:rounded-[16px] w-fit bg-gradient-to-b from-[#FDF2CB] to-[#DABB6B]"
@@ -41,7 +41,7 @@
           </button>
         </div>
         <div
-          class="relative md:block hidden h-[1224px] md:top-[-330px] lg:top-[-420px] xl:top-[-600px] xxl:top-[-700px] 4xl:top-[-730px] md:-right-6 overflow-hidden"
+          class="animate-ups__item relative md:block hidden h-[1224px] md:top-[-330px] lg:top-[-420px] xl:top-[-600px] xxl:top-[-700px] 4xl:top-[-730px] md:-right-6 overflow-hidden"
         >
           <nuxt-img
             src="/images/ntcn3.png"
@@ -63,7 +63,7 @@
         <div
           class="flex flex-col gap-10 md:grid md:grid-cols-[196px,auto] lg:grid-cols-[416px,auto] xl:grid-cols-[500px,auto] md:gap-[56px] lg:gap-10 xxl:gap-[120px]"
         >
-          <div>
+          <div class="animate-ups__item">
             <span
               class="text-[#FFF] text-sm lg:text-base xl:text-[18px] leading-[40px] font-medium"
               >#datatracking app</span
@@ -75,7 +75,7 @@
               ứng dụng
             </p>
           </div>
-          <div class="grid md:grid-cols-2 gap-6 md:gap-10">
+          <div class="animate-ups__item grid md:grid-cols-2 gap-6 md:gap-10">
             <div class="flex flex-col gap-4 xxl:ml-10">
               <div class="flex items-center lg:gap-4 gap-3">
                 <i

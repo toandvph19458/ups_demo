@@ -1,12 +1,14 @@
 <template>
   <section class="animate-ups container-nen-tang">
     <div
-      class="bg-[#1D1D1F] rounded-[16px] lg:rounded-[24px] xl:rounded-[32px] xxl:rounded-[40px] w-full h-[640px] md:h-[360px] lg:h-[460px] xl:h-[520px] 2xl:h-[550px] xxl:h-[580px] 4xl:h-[600px] p-[20px_20px_0] md:p-[30px_40px_0_24px] lg:p-[39px_52px_0_30px] xl:p-[48px_60px_0_40px] 2xl:p-[63px_70px_0_50px] xxl:p-[80px_60px_0] 4xl:p-[60px_90px_0_70px] overflow-hidden"
+      class="bg-[#1D1D1F] rounded-[16px] lg:rounded-[24px] xl:rounded-[32px] xxl:rounded-[40px] w-full h-[560px] md:h-[360px] lg:h-[460px] xl:h-[520px] 2xl:h-[550px] xxl:h-[580px] 4xl:h-[600px] p-[20px_20px_0] md:p-[30px_40px_0_24px] lg:p-[39px_52px_0_30px] xl:p-[48px_60px_0_40px] 2xl:p-[63px_70px_0_50px] xxl:p-[80px_60px_0] 4xl:p-[60px_90px_0_70px] overflow-hidden"
     >
       <div
-        class="flex flex-col md:flex-row items-end gap-[57px] md:gap-[44px] lg:gap-[69px] xl:gap-[63px] 2xl:gap-[43px] xxl:gap-[130px] 4xl:gap-[103px] h-full"
+        class="flex flex-col md:flex-row items-end gap-[30px] md:gap-[44px] lg:gap-[69px] xl:gap-[63px] 2xl:gap-[43px] xxl:gap-[130px] 4xl:gap-[103px] h-full"
       >
-        <div class="flex-1 md:pb-[60px] flex flex-col gap-6 lg:gap-[36px]">
+        <div
+          class="animate-ups__item flex-1 w-full md:pb-[60px] flex flex-col gap-6 lg:gap-[36px]"
+        >
           <div class="space-y-3 xl:space-y-4">
             <div
               class="text-white text-xl lg:text-[30px] xl:text-[40px] font-bold lg:leading-[1.3] 4xl:leading-[1.4]"
@@ -70,7 +72,7 @@
         </div>
 
         <div
-          class="relative w-full md:w-[320px] lg:w-[460px] xl:w-[516px] xxl:w-[570px] 4xl:w-[578px] h-full"
+          class="animate-ups__item relative w-full md:w-[320px] lg:w-[460px] xl:w-[516px] xxl:w-[570px] 4xl:w-[578px] h-full"
         >
           <nuxt-img
             src="images/nen-tang-4.png"

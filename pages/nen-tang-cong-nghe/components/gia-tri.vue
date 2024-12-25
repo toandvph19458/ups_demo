@@ -3,7 +3,9 @@
     <div
       class="flex flex-col md:flex-row items-start gap-6 xxl:gap-10 w-full text-black"
     >
-      <div class="w-full md:w-[294px] lg:w-[398px] xl:[496px] xxl:w-[560px]">
+      <div
+        class="animate-ups__item w-full md:w-[294px] lg:w-[398px] xl:[496px] xxl:w-[560px]"
+      >
         <div class="flex flex-col w-full gap-4 xl:gap-5 xxl:gap-6">
           <div
             class="text-[#141414] text-xl lg:text-[30px] xl:text-[40px] xxl:text-5xl font-bold leading-[1.3] 4xl:leading-[54px]"
@@ -13,10 +15,9 @@
           <div
             class="text-[#111013] text-sm lg:text-base xl:text-lg font-medium w-full xxl:w-[86%]"
           >
-            Cổ phiếu là chứng chỉ do công ty cổ phần phát hành, bút toán ghi sổ
-            hoặc dữ liệu điện tử xác nhận quyền sở hữu một hoặc một số cổ phần
-            của công ty đó. Người mua cổ phiếu sẽ trở thành cổ đông của công ty
-            phát hành.
+            Ứng dụng chứng khoán UPS mang đến trải nghiệm giao dịch nhanh chóng,
+            an toàn và tiện lợi chưa từng có. Với nhiều ưu đãi hấp dẫn, đầu tư
+            trở nên dễ dàng hơn bao giờ hết.
           </div>
           <button
             class="flex items-center gap-2 lg:gap-3 p-[12px_12px_12px_16px] h-[42px] lg:h-[50px] rounded-[12px] lg:rounded-[16px] w-fit bg-gradient-to-b from-[#FDF2CB] to-[#DABB6B]"
@@ -39,7 +40,9 @@
       <div
         class="flex-1 w-full grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-3 lg:gap-4 xl:gap-6 xxl:gap-[30px] md:h-[256px] lg:h-[320px] xl:h-[376px] xxl:h-[432px]"
       >
-        <div class="col-span-1 bg-[#FBF5E5] rounded-[15px] p-6 xl:p-10">
+        <div
+          class="animate-ups__item col-span-1 bg-[#FBF5E5] rounded-[15px] p-6 xl:p-10"
+        >
           <div class="flex flex-col gap-3 lg:gap-5 xl:gap-6">
             <div class="space-y-4">
               <div
@@ -57,7 +60,7 @@
             <div
               class="text-[#1A1711] text-sm lg:text-base xxl:text-lg font-medium md:min-h-[50px] xxl:min-h-[56px]"
             >
-              Tạo tài khoản eKYC chỉ 30 giây
+              Tạo tài khoản eKYC đơn giản, nhanh chóng
             </div>
 
             <div class="flex flex-col w-full gap-2">
@@ -120,7 +123,7 @@
         </div>
 
         <div
-          class="col-span-1 bg-[#1D1D1F] rounded-[15px] p-6 xl:p-10 shadow-[3px_15px_20px_0px_rgba(0,0,0,0.08)]"
+          class="animate-ups__item col-span-1 bg-[#1D1D1F] rounded-[15px] p-6 xl:p-10 shadow-[3px_15px_20px_0px_rgba(0,0,0,0.08)]"
         >
           <div class="flex flex-col gap-3 lg:gap-5 xl:gap-6">
             <div class="space-y-4">
@@ -143,7 +146,7 @@
             <div
               class="text-white text-sm lg:text-base xxl:text-lg font-medium md:min-h-[50px] xxl:min-h-[56px]"
             >
-              Lãi suất cho vay trong hạn
+              Lãi suất cho vay hấp dẫn, linh hoạt
             </div>
 
             <div class="flex flex-col w-full gap-2">

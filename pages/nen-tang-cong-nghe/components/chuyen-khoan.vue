@@ -4,7 +4,7 @@
       class="grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-4 2xl:gap-5 xxl:gap-6 w-full"
     >
       <div
-        class="relative col-span-1 bg-[#1d1d1f] rounded-[16px] lg:rounded-[24px] xl:rounded-[32px] xxl:rounded-[40px] h-[400px] lg:h-[520px] xl:h-[670px] 2xl:h-[550px] xxl:[740px] 4xl:h-[776px] overflow-hidden"
+        class="animate-ups__item relative col-span-1 bg-[#1d1d1f] rounded-[16px] lg:rounded-[24px] xl:rounded-[32px] xxl:rounded-[40px] h-[400px] lg:h-[520px] xl:h-[670px] 2xl:h-[550px] xxl:[740px] 4xl:h-[776px] overflow-hidden"
       >
         <div
           class="p-4 lg:p-6 xl:p-[30px] 2xl:p-10 flex flex-col gap-1 xl:gap-2 w-full"
@@ -12,13 +12,13 @@
           <div
             class="text-[#F3F3FB] text-xl md:text-2xl lg:text-[30px] xl:text-[40px] xxl:text-5xl font-semibold"
           >
-            Chuyển khoản CK
+            Chuyển tiền 24/7
           </div>
           <div
-            class="text-[#B3B3B3] text-sm lg:text-base font-medium w-full xl:w-[90%] 4xl:w-[80%]"
+            class="text-[#B3B3B3] text-sm lg:text-base font-medium w-full xl:w-[90%] 4xl:w-[85%]"
           >
-            Xác minh giao dịch nhanh chóng, báo cáo giao dịch chi tiết và lịch
-            sử giao dịch đầy đủ.
+            Bảo mật, nhanh chóng và an toàn tuyệt đối. Tiết kiệm thời gian, bảo
+            vệ tài sản của bạn.
           </div>
         </div>
 
@@ -37,7 +37,7 @@
       </div>
 
       <div
-        class="relative col-span-1 bg-[#F7F7F7] bg-gradient-to-b from-[rgba(230,206,141,0)] to-[rgba(230,206,141,0.4)] rounded-[16px] lg:rounded-[24px] xl:rounded-[32px] xxl:rounded-[40px] h-[400px] lg:h-[520px] xl:h-[670px] 2xl:h-[550px] xxl:[740px] 4xl:h-[776px] overflow-hidden"
+        class="animate-ups__item relative col-span-1 bg-[#F7F7F7] bg-gradient-to-b from-[rgba(230,206,141,0)] to-[rgba(230,206,141,0.4)] rounded-[16px] lg:rounded-[24px] xl:rounded-[32px] xxl:rounded-[40px] h-[400px] lg:h-[520px] xl:h-[670px] 2xl:h-[550px] xxl:[740px] 4xl:h-[776px] overflow-hidden"
       >
         <div
           class="p-4 lg:p-6 xl:p-[30px] 2xl:p-10 flex flex-col gap-1 xl:gap-2 w-full"
@@ -66,7 +66,7 @@
       </div>
 
       <div
-        class="relative col-span-1 md:col-span-2 rounded-[16px] lg:rounded-[24px] xl:rounded-[32px] xxl:rounded-[40px] bg-[#FBF5E5] h-[400px] md:h-[280px] lg:h-[380px] xl:h-[460px] 2xl:h-[480px] xxl:h-[530px] 4xl:h-[560px] overflow-hidden"
+        class="animate-ups__item relative col-span-1 md:col-span-2 rounded-[16px] lg:rounded-[24px] xl:rounded-[32px] xxl:rounded-[40px] bg-[#FBF5E5] h-[400px] md:h-[280px] lg:h-[380px] xl:h-[460px] 2xl:h-[480px] xxl:h-[530px] 4xl:h-[560px] overflow-hidden"
       >
         <div
           class="w-full flex flex-col-reverse md:flex-row justify-between gap-[22px] md:gap-0 4xl:gap-[54px] items-start"
@@ -93,8 +93,8 @@
             <div
               class="text-[#666] text-sm lg:text-base font-medium text-start md:text-end w-full"
             >
-              Dễ dàng vẽ đường xu hướng, xác định điểm hỗ trợ/ kháng cự và đưa
-              ra quyết định đầu tư chính xác.
+              Công cụ phân tích kỹ thuật, biểu đồ đa dạng hỗ trợ Nhà đầu tư đưa
+              ra quyết định nhanh chóng
             </div>
           </div>
         </div>

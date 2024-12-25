@@ -1,6 +1,8 @@
 <template>
-  <section class="animate-ups container-nen-tang">
-    <div class="flex items-center justify-between w-full lg:h-[48px]">
+  <section class="animate-ups">
+    <div
+      class="container-nen-tang flex items-center justify-between w-full lg:h-[48px]"
+    >
       <div
         class="text-[#111013] text-xl lg:text-2xl xl:text-[30px] font-bold mb-6 md:mb-0"
       >
@@ -10,7 +12,7 @@
         <button
           :class="
             cn(
-              `h-8 xxl:h-10 px-4 xxl:px-6 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
+              `h-7 px-4 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
               {
                 'cursor-auto': !vSwiperIndex,
               }
@@ -38,7 +40,7 @@
         <button
           :class="
             cn(
-              `h-8 xxl:h-10 px-4 xxl:px-6 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
+              `h-7 px-4 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
               {
                 'cursor-auto': vSwiperIndex === 2,
               }
@@ -66,12 +68,13 @@
         </button>
       </div>
     </div>
+    <div class="container-nen-tang">
+      <div
+        class="hidden md:block md:m-[20px_0_24px] lg:m-[12px_0_32px] xl:m-[20px_0_40px] w-full h-[1px] bg-[#60606B]"
+      ></div>
+    </div>
 
-    <div
-      class="hidden md:block md:m-[20px_0_24px] lg:m-[12px_0_32px] xl:m-[20px_0_40px] w-full h-[1px] bg-[#60606B]"
-    ></div>
-
-    <div class="w-full min-h-[327px] 4xl:h-[460px]">
+    <div class="lg:container-nen-tang min-h-[327px] 4xl:h-[460px]">
       <swiper
         :modules="[SwiperNavigation]"
         :pagination="true"
@@ -82,15 +85,15 @@
         :initial-slide="vSwiperIndex"
         @swiper="setVSwiperRef"
         @slide-change="updateVSwiperIndex"
-        class="h-full"
+        class="h-full !px-6 lg:!px-0"
         :breakpoints="{
           375: {
             slidesPerView: 1.3,
-            spaceBetween: 12,
+            spaceBetween: 24,
           },
           768: {
             slidesPerView: 2.5,
-            spaceBetween: 12,
+            spaceBetween: 24,
           },
           1024: {
             slidesPerView: 3,
@@ -114,7 +117,7 @@
           },
         }"
       >
-        <swiper-slide :key="1" class="h-full">
+        <swiper-slide :key="1" class="h-full animate-ups__item">
           <div
             class="p-5 lg:p-6 xl:p-[30px] xxl:p-10 bg-[#fbf5e5]/70 rounded-[16px] flex flex-col gap-[60px] xl:gap-[80px] 4xl:gap-0 justify-between h-full"
           >
@@ -168,7 +171,7 @@
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide :key="2" class="h-full">
+        <swiper-slide :key="2" class="h-full animate-ups__item">
           <div
             class="p-5 lg:p-6 xl:p-[30px] xxl:p-10 bg-[#fbf5e5]/70 rounded-[16px] flex flex-col gap-[60px] xl:gap-[80px] 4xl:gap-0 justify-between h-full"
           >
@@ -222,7 +225,7 @@
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide :key="3" class="h-full">
+        <swiper-slide :key="3" class="h-full animate-ups__item">
           <div
             class="p-5 lg:p-6 xl:p-[30px] xxl:p-10 bg-[#fbf5e5]/70 rounded-[16px] flex flex-col gap-[60px] xl:gap-[80px] 4xl:gap-0 justify-between h-full"
           >
@@ -276,7 +279,7 @@
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide :key="4" class="h-full">
+        <swiper-slide :key="4" class="h-full animate-ups__item">
           <div
             class="p-5 lg:p-6 xl:p-[30px] xxl:p-10 bg-[#fbf5e5]/70 rounded-[16px] flex flex-col gap-[60px] xl:gap-[80px] 4xl:gap-0 justify-between h-full"
           >
@@ -329,7 +332,7 @@
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide :key="5" class="h-full">
+        <swiper-slide :key="5" class="h-full animate-ups__item">
           <div
             class="p-5 lg:p-6 xl:p-[30px] xxl:p-10 bg-[#fbf5e5]/70 rounded-[16px] flex flex-col gap-[60px] xl:gap-[80px] 4xl:gap-0 justify-between h-full"
           >
@@ -386,11 +389,11 @@
       </swiper>
     </div>
 
-    <div class="flex md:hidden items-center gap-2 mt-6">
+    <div class="container-nen-tang flex md:hidden items-center gap-2 mt-6">
       <button
         :class="
           cn(
-            `h-8 px-4 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
+            `h-7 px-4 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
             {
               'cursor-auto': !vSwiperIndex,
             }
@@ -418,7 +421,7 @@
       <button
         :class="
           cn(
-            `h-8 px-4 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
+            `h-7 px-4 bg-[#15171E] rounded-full group relative after:content-[''] after:z-[-1] after:absolute after:w-full after:h-full after:rounded-full after:left-0 after:bottom-[0] after:translate-x-0 after:translate-y-0 after:bg-[#393b41] hover:after:translate-x-[-3px] hover:bg-[#02E56A] hover:text-black hover:after:translate-y-[3px] after:transition-all duration-200`,
             {
               'cursor-auto': vSwiperIndex === 2,
             }
