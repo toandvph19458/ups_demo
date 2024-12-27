@@ -14,13 +14,12 @@
                 <div class="flex flex-col">
                   <div class="w-full flex flex-col gap-5 md:gap-3 2xl:gap-4 mt-6 xl:mt-10">
                     <nuxt-link
-                      href="https://www.google.com/maps/place/CDC+Building+25+L%C3%AA+%C4%90%E1%BA%A1i+H%C3%A0nh/@21.0101475,105.8487342,19z/data=!3m1!4b1!4m6!3m5!1s0x3135abbc6d193377:0x7b82308eed1b9d60!8m2!3d21.0101462!4d105.8493779!16s%2Fg%2F11y3ky0587?hl=vi-VN&entry=ttu&g_ep=EgoyMDI0MDkyOS4wIKXMDSoASAFQAw%3D%3D"
+                      href="https://maps.app.goo.gl/3midfXvijCDQ5CgQ6"
                       class="flex items-start gap-2" target="_blank">
                       <nuxt-img format="webp" width="24" alt="UPS" src="/icons/address-icon.svg"
                         class="w-[18px] h-[18px] 2xl:w-6 2xl:h-6" />
                       <span class="text-base 2xl:text-[13.5px] 3xl:text-xl text-[#15171E] font-bold">
-                        Địa chỉ: Tầng 12, tòa nhà CDC số 25 phố Lê Đại Hành,
-                        Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội
+                        Địa chỉ: Tầng 8, Tòa nhà Hapro, 11B Cát Linh,<br/> P. Quốc Tử Giám, Q. Đống Đa, TP. Hà Nội.
                       </span>
                     </nuxt-link>
 
